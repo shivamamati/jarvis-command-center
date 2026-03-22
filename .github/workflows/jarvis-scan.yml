@@ -3,19 +3,19 @@ name: JARVIS Scan
 on:
   schedule:
     # Run every hour at minute 0
-    - cron: '0 * * * *'
+    - cron: "0 * * * *"
   workflow_dispatch:
     # Manual trigger from GitHub Actions tab
     inputs:
       hours:
-        description: 'Hours to scan back'
+        description: "Hours to scan back"
         required: false
-        default: '2'
+        default: "2"
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout dashboard repo
         uses: actions/checkout@v4
@@ -25,7 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: pip install requests
@@ -40,7 +40,7 @@ jobs:
         run: |
           HOURS="${{ github.event.inputs.hours || '2' }}"
           python scripts/jarvis_scan.py --hours $HOURS
-          
+
       - name: Copy results to public data
         run: |
           mkdir -p public/data
@@ -48,8 +48,8 @@ jobs:
 
       - name: Commit and push results
         run: |
-          git config user.name "JARVIS Bot"
-          git config user.email "jarvis@galaxydatacenters.com"
+          git config user.name "shivamamati"
+          git config user.email "shivam.amati@gmail.com"
           git add public/data/jarvis_results.json
           git diff --staged --quiet || git commit -m "JARVIS scan $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
