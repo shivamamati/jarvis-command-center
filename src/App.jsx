@@ -2320,6 +2320,127 @@ const HIST = [
     avatar: "BT",
     color: "#10b981",
   },
+  // MAR 22 2026 (today - live)
+  {
+    id: "t1",
+    score: 8,
+    label: "URGENT",
+    tier: "NDA",
+    pattern: "E",
+    stage: "dave",
+    from: "Daniel Scarbrough",
+    company: "Evermere Capital",
+    email: "dan.scarbrough@evermere.com",
+    subject: "Evermere Capital Management MNDA \u2014 DocuSign",
+    time: "Mar 22, 4:28 PM",
+    date: "2026-03-22",
+    link: "https://outlook.office365.com/mail/",
+    jarvis:
+      "Mutual NDA from Evermere Capital Management via DocuSign. Daniel Scarbrough requesting Dave's signature. New investor/capital relationship.",
+    action: "Review and sign MNDA.",
+    reply: "",
+    deal: "Evermere Capital",
+    dealValue: "NDA",
+    actions: ["Sign Now", "Review First", "Delegate to France"],
+    primaryAction: "Sign Now",
+    reasons: ["KW: NDA", "DocuSign", "New contact"],
+    att: false,
+    ai: false,
+    read: false,
+    threads: 1,
+    avatar: "DS",
+    color: "#6366f1",
+  },
+  {
+    id: "t2",
+    score: 6,
+    label: "IMPORTANT",
+    tier: "CAPITAL",
+    pattern: "F",
+    stage: "dave",
+    from: "Bob Cavoto",
+    company: "2020-4 Capital",
+    email: "bobcavoto@2020-4.com",
+    subject: "Hank Loughran Resume \u2014 Executive Equity Raiser",
+    time: "Mar 22, 2:07 PM",
+    date: "2026-03-22",
+    link: "https://outlook.office365.com/mail/",
+    jarvis:
+      "Resume of Hank Loughran \u2014 raised $3B+ across PE, RE, structured credit. 2020 Capital connection (Marcus Bartolini network).",
+    action: "Review resume. Evaluate fit for Galaxy fundraising.",
+    reply: "",
+    deal: "Capital Raising",
+    dealValue: "$3B+ track",
+    actions: ["Review", "Schedule Call", "Archive"],
+    primaryAction: "Review",
+    reasons: ["Capital/Investor", "2020 Capital network"],
+    att: false,
+    ai: false,
+    read: false,
+    threads: 1,
+    avatar: "BC",
+    color: "#f59e0b",
+  },
+  {
+    id: "t3",
+    score: 7,
+    label: "URGENT",
+    tier: "INTERNAL VIP",
+    pattern: "G",
+    stage: "france",
+    from: "Sai Raman",
+    company: "Galaxy",
+    email: "sai@galaxydatacenters.com",
+    subject: "Re: Apollo + secondary mail \u2014 SMTP Auth",
+    time: "Mar 22, 10:19 PM",
+    date: "2026-03-22",
+    link: "https://outlook.office365.com/mail/",
+    jarvis:
+      "Sai requesting SMTP AUTH enabled for Apollo mailbox warmup. Rodrigo says OAuth is the correct method. Active IT ops thread.",
+    action: "Monitor. Rodrigo handling via OAuth.",
+    reply: "",
+    deal: "IT Ops / Apollo",
+    dealValue: "",
+    actions: ["Monitor", "Follow Up"],
+    primaryAction: "Monitor",
+    reasons: ["Internal VIP", "IT Ops"],
+    att: false,
+    ai: false,
+    read: false,
+    threads: 4,
+    avatar: "SR",
+    color: "#6366f1",
+  },
+  {
+    id: "t4",
+    score: 7,
+    label: "URGENT",
+    tier: "INTERNAL",
+    pattern: "G",
+    stage: "france",
+    from: "Rodrigo Matos",
+    company: "Galaxy IT",
+    email: "rodrigo@galaxydatacenters.com",
+    subject: "Re: Azure App Setup for Jarvis Deployment",
+    time: "Mar 22, 5:15 PM",
+    date: "2026-03-22",
+    link: "https://outlook.office365.com/mail/",
+    jarvis:
+      "Rodrigo confirming Entra ID consent. Asking Shivam to specify which API call returns 401.",
+    action: "Monitor. JARVIS deployment in progress.",
+    reply: "",
+    deal: "JARVIS / IT",
+    dealValue: "",
+    actions: ["Monitor"],
+    primaryAction: "Monitor",
+    reasons: ["Internal", "JARVIS deployment"],
+    att: false,
+    ai: false,
+    read: false,
+    threads: 5,
+    avatar: "RM",
+    color: "#8b5cf6",
+  },
 ];
 
 const DEALS = [
@@ -2432,6 +2553,10 @@ function Dashboard() {
     (e) => e.stage === "complete" || completed.includes(e.id)
   );
   const critCount = filtered.filter((e) => e.label === "CRITICAL").length;
+  const today = getToday();
+  const todayItems = filtered.filter((e) => e.date === today);
+  const previousItems = filtered.filter((e) => e.date !== today);
+  const todayCrit = todayItems.filter((e) => e.label === "CRITICAL").length;
   const hour = new Date().getHours();
   const greeting =
     hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
@@ -2458,30 +2583,55 @@ function Dashboard() {
           display: "flex",
           alignItems: "center",
           flexShrink: 0,
-          gap: 20,
+          gap: 16,
         }}
       >
+        {/* Galaxy Capital Partners Branding */}
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <svg width="22" height="26" viewBox="0 0 22 26" fill="none">
+            <path d="M4 26L0 22V8L4 4V26Z" fill="#1a2140" />
+            <path d="M10 22L6 18V4L10 0V22Z" fill="#2a3a6a" />
+          </svg>
+          <span
+            style={{
+              fontSize: 12,
+              fontWeight: 500,
+              color: "#1a2140",
+              letterSpacing: 2.5,
+              textTransform: "uppercase",
+              fontFamily: "'Inter',sans-serif",
+            }}
+          >
+            Galaxy Capital Partners
+          </span>
           <div
             style={{
-              width: 28,
-              height: 28,
-              borderRadius: 7,
+              width: 1,
+              height: 20,
+              background: T.border,
+              margin: "0 4px",
+            }}
+          />
+          <div
+            style={{
+              width: 24,
+              height: 24,
+              borderRadius: 6,
               background: "linear-gradient(135deg,#6366f1,#8b5cf6)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: 12,
+              fontSize: 10,
               fontWeight: 800,
               color: "#fff",
             }}
           >
             J
           </div>
-          <span style={{ fontSize: 14, fontWeight: 600, color: T.text }}>
+          <span style={{ fontSize: 13, fontWeight: 600, color: T.text }}>
             JARVIS
           </span>
-          <span style={{ fontSize: 13, color: T.textDim }}>
+          <span style={{ fontSize: 12, color: T.textDim }}>
             /{" "}
             {page === "queue"
               ? role === "dave"
@@ -2655,374 +2805,128 @@ function Dashboard() {
                     lineHeight: 1.6,
                   }}
                 >
-                  Jarvis has triaged your inbox. {filtered.length} item
-                  {filtered.length !== 1 ? "s" : ""} need
-                  {filtered.length === 1 ? "s" : ""} your decision
-                  {critCount > 0
-                    ? ` \u2014 ${critCount} ${
-                        critCount === 1 ? "is" : "are"
-                      } time-critical`
-                    : ""}
-                  .
+                  {todayItems.length > 0
+                    ? `${todayItems.length} new item${
+                        todayItems.length !== 1 ? "s" : ""
+                      } today${
+                        todayCrit > 0
+                          ? ` \u2014 ${todayCrit} time-critical`
+                          : ""
+                      }. ${
+                        previousItems.length > 0
+                          ? `${previousItems.length} carry-over from previous days.`
+                          : ""
+                      }`
+                    : previousItems.length > 0
+                    ? `No new items today. ${
+                        previousItems.length
+                      } carry-over item${
+                        previousItems.length !== 1 ? "s" : ""
+                      } still need attention.`
+                    : "Your queue is clear. Nice work."}
                 </p>
               </div>
 
-              {/* CARDS */}
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: 12,
-                  marginBottom: 32,
-                }}
-              >
-                {filtered.map((item, index) => {
-                  const isExp = expandedId === item.id;
-                  const ug = URG[item.label] || URG.NOTABLE;
-                  return (
+              {/* TODAY'S ITEMS */}
+              {todayItems.length > 0 && (
+                <div style={{ marginBottom: 28 }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 10,
+                      marginBottom: 12,
+                    }}
+                  >
                     <div
-                      key={item.id}
-                      onClick={() => setExpandedId(isExp ? null : item.id)}
                       style={{
-                        background: T.surface,
-                        borderRadius: 14,
-                        border: `1px solid ${
-                          isExp ? T.accent + "40" : T.border
-                        }`,
-                        overflow: "hidden",
-                        cursor: "pointer",
-                        boxShadow: isExp
-                          ? "0 4px 24px rgba(99,102,241,0.08)"
-                          : "none",
-                        transition: "all 200ms",
+                        fontSize: 11,
+                        fontWeight: 700,
+                        color: T.accent,
+                        letterSpacing: 0.8,
+                        textTransform: "uppercase",
                       }}
                     >
-                      <div
-                        style={{
-                          height: 3,
-                          background: `linear-gradient(90deg,${ug.bar},${ug.bar}80)`,
-                        }}
-                      />
-                      <div
-                        style={{
-                          padding: "16px 20px",
-                          display: "flex",
-                          alignItems: "center",
-                          gap: 14,
-                        }}
-                      >
-                        <div
-                          style={{
-                            width: 28,
-                            height: 28,
-                            borderRadius: "50%",
-                            background: ug.badge,
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            fontSize: 12,
-                            fontWeight: 700,
-                            color: ug.text,
-                            flexShrink: 0,
-                          }}
-                        >
-                          #{index + 1}
-                        </div>
-                        <div
-                          style={{
-                            width: 36,
-                            height: 36,
-                            borderRadius: 10,
-                            background: item.color + "18",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            fontSize: 11,
-                            fontWeight: 700,
-                            color: item.color,
-                            border: `1.5px solid ${item.color}30`,
-                            flexShrink: 0,
-                          }}
-                        >
-                          {item.avatar}
-                        </div>
-                        <div style={{ flex: 1, minWidth: 0 }}>
-                          <div
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              gap: 8,
-                              marginBottom: 3,
-                            }}
-                          >
-                            <span
-                              style={{
-                                fontSize: 14,
-                                fontWeight: 650,
-                                color: T.text,
-                                overflow: "hidden",
-                                textOverflow: "ellipsis",
-                                whiteSpace: "nowrap",
-                              }}
-                            >
-                              {item.subject}
-                            </span>
-                            <span
-                              style={{
-                                fontSize: 10,
-                                fontWeight: 700,
-                                color: ug.text,
-                                background: ug.badge,
-                                padding: "2px 8px",
-                                borderRadius: 4,
-                                letterSpacing: 0.4,
-                                flexShrink: 0,
-                              }}
-                            >
-                              {item.label}
-                            </span>
-                          </div>
-                          <div style={{ fontSize: 12, color: T.textDim }}>
-                            {item.from}{" "}
-                            {item.company ? `\u00B7 ${item.company}` : ""}{" "}
-                            \u00B7 {item.time}
-                          </div>
-                        </div>
-                        <div
-                          style={{
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 8,
-                            flexShrink: 0,
-                          }}
-                        >
-                          {item.deal && (
-                            <div
-                              style={{
-                                padding: "4px 10px",
-                                borderRadius: 6,
-                                background: T.bg,
-                                fontSize: 11,
-                                color: T.textMid,
-                              }}
-                            >
-                              {item.deal}
-                            </div>
-                          )}
-                          <div
-                            style={{
-                              fontSize: 12,
-                              color: T.textDim,
-                              transition: "transform 200ms",
-                              transform: isExp ? "rotate(180deg)" : "none",
-                            }}
-                          >
-                            {"\u25BE"}
-                          </div>
-                        </div>
-                      </div>
-
-                      {isExp && (
-                        <div
-                          style={{
-                            padding: "0 20px 20px",
-                            borderTop: `1px solid ${T.borderLight}`,
-                          }}
-                        >
-                          {/* JARVIS brief */}
-                          <div
-                            style={{
-                              margin: "16px 0 14px",
-                              padding: "14px 16px",
-                              background: T.accentLight,
-                              borderRadius: 10,
-                              border: `1px solid ${T.accentBorder}`,
-                            }}
-                          >
-                            <div
-                              style={{
-                                fontSize: 10,
-                                fontWeight: 700,
-                                color: T.accent,
-                                marginBottom: 7,
-                                letterSpacing: 0.5,
-                              }}
-                            >
-                              JARVIS SAYS
-                            </div>
-                            <p
-                              style={{
-                                fontSize: 13.5,
-                                color: T.accentText,
-                                lineHeight: 1.65,
-                                margin: 0,
-                              }}
-                            >
-                              {item.jarvis}
-                            </p>
-                          </div>
-                          {/* Suggested action */}
-                          {item.action && (
-                            <div
-                              style={{
-                                fontSize: 12.5,
-                                color: T.textMid,
-                                marginBottom: 12,
-                                display: "flex",
-                                alignItems: "center",
-                                gap: 6,
-                              }}
-                            >
-                              <span style={{ color: T.green, fontSize: 14 }}>
-                                {"\u2192"}
-                              </span>
-                              <span>
-                                <strong>Suggested:</strong> {item.action}
-                              </span>
-                            </div>
-                          )}
-                          {/* NLP Widget */}
-                          <NlpWidget
-                            email={item}
-                            onApply={(stage) => upd(item.id, stage)}
-                          />
-                          {/* Actions */}
-                          <div
-                            style={{
-                              display: "flex",
-                              gap: 8,
-                              flexWrap: "wrap",
-                            }}
-                          >
-                            {(item.actions || []).map((act) => {
-                              const isPri = act === item.primaryAction;
-                              return (
-                                <button
-                                  key={act}
-                                  onClick={(ev) => {
-                                    ev.stopPropagation();
-                                    if (isPri) markDone(item.id);
-                                  }}
-                                  style={{
-                                    padding: isPri ? "10px 22px" : "10px 18px",
-                                    borderRadius: 9,
-                                    border: isPri
-                                      ? "none"
-                                      : `1px solid ${T.border}`,
-                                    background: isPri
-                                      ? "linear-gradient(135deg,#6366f1,#8b5cf6)"
-                                      : T.surface,
-                                    color: isPri ? "#fff" : T.textMid,
-                                    fontSize: 13,
-                                    fontWeight: isPri ? 600 : 500,
-                                    cursor: "pointer",
-                                    fontFamily: "inherit",
-                                    boxShadow: isPri
-                                      ? "0 2px 12px rgba(99,102,241,0.3)"
-                                      : "none",
-                                    transition: "all 150ms",
-                                  }}
-                                >
-                                  {act}
-                                </button>
-                              );
-                            })}
-                          </div>
-                          {/* Reply */}
-                          {item.reply && (
-                            <div
-                              style={{
-                                marginTop: 14,
-                                padding: "12px 14px",
-                                background: T.bg,
-                                borderRadius: 8,
-                                border: `1px solid ${T.border}`,
-                              }}
-                            >
-                              <div
-                                style={{
-                                  fontSize: 10,
-                                  fontWeight: 600,
-                                  color: T.textDim,
-                                  marginBottom: 6,
-                                  letterSpacing: 0.5,
-                                }}
-                              >
-                                DRAFT REPLY
-                              </div>
-                              <pre
-                                style={{
-                                  fontSize: 12,
-                                  color: T.textMid,
-                                  lineHeight: 1.6,
-                                  margin: 0,
-                                  whiteSpace: "pre-wrap",
-                                  fontFamily: "inherit",
-                                }}
-                              >
-                                {item.reply}
-                              </pre>
-                              <div
-                                style={{
-                                  display: "flex",
-                                  gap: 6,
-                                  marginTop: 8,
-                                }}
-                              >
-                                <button
-                                  onClick={(ev) => {
-                                    ev.stopPropagation();
-                                    navigator.clipboard?.writeText(item.reply);
-                                  }}
-                                  style={{
-                                    padding: "6px 14px",
-                                    borderRadius: 6,
-                                    border: `1px solid ${T.border}`,
-                                    background: T.surface,
-                                    color: T.accent,
-                                    fontSize: 11,
-                                    fontWeight: 600,
-                                    cursor: "pointer",
-                                    fontFamily: "inherit",
-                                  }}
-                                >
-                                  Copy as Dave
-                                </button>
-                                <button
-                                  onClick={(ev) => {
-                                    ev.stopPropagation();
-                                    navigator.clipboard?.writeText(
-                                      `Hi ${
-                                        (item.from || "").split(" ")[0]
-                                      },\n\nDave asked me to follow up.\n\n${item.reply
-                                        .split("\n")
-                                        .slice(1)
-                                        .join("\n")}\n\nBest regards,\nFrance`
-                                    );
-                                  }}
-                                  style={{
-                                    padding: "6px 14px",
-                                    borderRadius: 6,
-                                    border: `1px solid ${T.border}`,
-                                    background: T.surface,
-                                    color: T.orange,
-                                    fontSize: 11,
-                                    fontWeight: 600,
-                                    cursor: "pointer",
-                                    fontFamily: "inherit",
-                                  }}
-                                >
-                                  Copy as France
-                                </button>
-                              </div>
-                            </div>
-                          )}
-                        </div>
-                      )}
+                      Today's Items
                     </div>
-                  );
-                })}
-              </div>
+                    <div style={{ flex: 1, height: 1, background: T.border }} />
+                    <span style={{ fontSize: 11, color: T.textDim }}>
+                      {todayItems.length} item
+                      {todayItems.length !== 1 ? "s" : ""}
+                    </span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: 12,
+                    }}
+                  >
+                    {todayItems.map((item, index) => (
+                      <DecisionCard
+                        key={item.id}
+                        item={item}
+                        index={index}
+                        expandedId={expandedId}
+                        setExpandedId={setExpandedId}
+                        markDone={markDone}
+                        upd={upd}
+                        mob={mob}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* PREVIOUS ITEMS */}
+              {previousItems.length > 0 && (
+                <div style={{ marginBottom: 28 }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 10,
+                      marginBottom: 12,
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontSize: 11,
+                        fontWeight: 700,
+                        color: T.orange,
+                        letterSpacing: 0.8,
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      Previous
+                    </div>
+                    <div style={{ flex: 1, height: 1, background: T.border }} />
+                    <span style={{ fontSize: 11, color: T.textDim }}>
+                      {previousItems.length} carry-over
+                    </span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: 12,
+                    }}
+                  >
+                    {previousItems.map((item, index) => (
+                      <DecisionCard
+                        key={item.id}
+                        item={item}
+                        index={todayItems.length + index}
+                        expandedId={expandedId}
+                        setExpandedId={setExpandedId}
+                        markDone={markDone}
+                        upd={upd}
+                        mob={mob}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* DONE */}
               {doneItems.length > 0 && (
@@ -3218,44 +3122,12 @@ function Dashboard() {
 // ALL EMAILS PAGE — Full scored list with detail panel
 // ═══════════════════════════════════════════════════════════
 function AllEmailsPage({ data, upd, mob }) {
-  const D = {
-    bg: "#0b0e14",
-    surface: "#111620",
-    surface2: "#161d2a",
-    border: "#1e2a3a",
-    glassBorder: "rgba(59,158,255,0.08)",
-    text: "#e8ecf1",
-    textDim: "#7a8da3",
-    textMuted: "#3d5068",
-    accent: "#3b9eff",
-    red: "#ff4d4d",
-    orange: "#ff9f1a",
-    yellow: "#f0d264",
-    teal: "#2dd4bf",
-    green: "#34d399",
-    purple: "#a78bfa",
-  };
+  // Uses same light theme T from main app
   const DU = {
-    CRITICAL: {
-      c: D.red,
-      bg: "rgba(255,77,77,0.06)",
-      bd: "rgba(255,77,77,0.15)",
-    },
-    URGENT: {
-      c: D.orange,
-      bg: "rgba(255,159,26,0.06)",
-      bd: "rgba(255,159,26,0.15)",
-    },
-    IMPORTANT: {
-      c: D.yellow,
-      bg: "rgba(240,210,100,0.06)",
-      bd: "rgba(240,210,100,0.15)",
-    },
-    NOTABLE: {
-      c: D.teal,
-      bg: "rgba(45,212,191,0.06)",
-      bd: "rgba(45,212,191,0.15)",
-    },
+    CRITICAL: { c: T.red, bg: T.redBg, bd: T.red + "20" },
+    URGENT: { c: T.orange, bg: T.orangeBg, bd: T.orange + "20" },
+    IMPORTANT: { c: T.yellow, bg: T.yellowBg, bd: T.yellow + "20" },
+    NOTABLE: { c: T.muted, bg: T.mutedBg, bd: T.muted + "20" },
   };
 
   const [selId, setSelId] = useState(null);
@@ -3277,8 +3149,8 @@ function AllEmailsPage({ data, upd, mob }) {
           .includes(search.toLowerCase())
       );
     return r.sort((a, b) => {
-      if (a.stage !== "complete" && b.stage === "complete") return -1;
-      if (a.stage === "complete" && b.stage !== "complete") return 1;
+      if (a.date && b.date && a.date !== b.date)
+        return b.date.localeCompare(a.date);
       return b.score - a.score;
     });
   }, [data, urgFilter, stageFilter, search, showDone]);
@@ -3294,28 +3166,28 @@ function AllEmailsPage({ data, upd, mob }) {
         flex: 1,
         display: "flex",
         overflow: "hidden",
-        background: D.bg,
+        background: T.bg,
         fontFamily: "'Inter',system-ui,sans-serif",
       }}
     >
-      <style>{`::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:${D.border};border-radius:4px}`}</style>
+      <style>{`::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:${T.border};border-radius:4px}`}</style>
 
       {/* LEFT LIST */}
       {!(mob && mobDetail) && (
         <div
           style={{
             width: mob ? "100%" : 420,
-            borderRight: mob ? "none" : `1px solid ${D.border}`,
+            borderRight: mob ? "none" : `1px solid ${T.border}`,
             display: "flex",
             flexDirection: "column",
-            background: D.bg,
+            background: T.bg,
           }}
         >
           {/* Search + Filters */}
           <div
             style={{
               padding: "12px 16px",
-              borderBottom: `1px solid ${D.border}`,
+              borderBottom: `1px solid ${T.border}`,
               display: "flex",
               flexDirection: "column",
               gap: 8,
@@ -3328,9 +3200,9 @@ function AllEmailsPage({ data, upd, mob }) {
               style={{
                 width: "100%",
                 padding: "10px 14px",
-                background: D.surface,
-                border: `1px solid ${D.border}`,
-                color: D.text,
+                background: T.surface,
+                border: `1px solid ${T.border}`,
+                color: T.text,
                 borderRadius: 8,
                 fontSize: 13,
                 fontFamily: "inherit",
@@ -3348,7 +3220,7 @@ function AllEmailsPage({ data, upd, mob }) {
             >
               {["ALL", "CRITICAL", "URGENT", "IMPORTANT", "NOTABLE"].map(
                 (f) => {
-                  const fc = f === "ALL" ? D.accent : DU[f]?.c || D.teal;
+                  const fc = f === "ALL" ? T.accent : DU[f]?.c || T.teal;
                   return (
                     <button
                       key={f}
@@ -3361,10 +3233,10 @@ function AllEmailsPage({ data, upd, mob }) {
                         fontFamily: "inherit",
                         fontWeight: urgFilter === f ? 700 : 400,
                         border: `1px solid ${
-                          urgFilter === f ? fc + "40" : D.border
+                          urgFilter === f ? fc + "40" : T.border
                         }`,
                         background: urgFilter === f ? `${fc}12` : "transparent",
-                        color: urgFilter === f ? fc : D.textMuted,
+                        color: urgFilter === f ? fc : T.textDim,
                       }}
                     >
                       {f === "ALL" ? "All" : f}
@@ -3379,9 +3251,9 @@ function AllEmailsPage({ data, upd, mob }) {
                     fontSize: 10,
                     padding: "4px 10px",
                     borderRadius: 5,
-                    border: `1px solid ${showDone ? D.green + "40" : D.border}`,
-                    background: showDone ? `${D.green}12` : "transparent",
-                    color: showDone ? D.green : D.textMuted,
+                    border: `1px solid ${showDone ? T.green + "40" : T.border}`,
+                    background: showDone ? `${T.green}12` : "transparent",
+                    color: showDone ? T.green : T.textDim,
                     cursor: "pointer",
                     fontFamily: "inherit",
                   }}
@@ -3404,11 +3276,11 @@ function AllEmailsPage({ data, upd, mob }) {
                     cursor: "pointer",
                     fontFamily: "inherit",
                     border: `1px solid ${
-                      stageFilter === s.id ? s.c + "40" : D.border
+                      stageFilter === s.id ? s.c + "40" : T.border
                     }`,
                     background:
                       stageFilter === s.id ? `${s.c}12` : "transparent",
-                    color: stageFilter === s.id ? s.c : D.textMuted,
+                    color: stageFilter === s.id ? s.c : T.textDim,
                   }}
                 >
                   {s.label} ({data.filter((e) => e.stage === s.id).length})
@@ -3422,10 +3294,10 @@ function AllEmailsPage({ data, upd, mob }) {
               padding: "8px 16px",
               fontSize: 10,
               fontWeight: 600,
-              color: D.accent,
+              color: T.accent,
               letterSpacing: 0.6,
               textTransform: "uppercase",
-              borderBottom: `1px solid ${D.glassBorder}`,
+              borderBottom: `1px solid ${T.border}`,
             }}
           >
             {filtered.length} emails {"\u00B7"} {activeCount} active
@@ -3446,9 +3318,9 @@ function AllEmailsPage({ data, upd, mob }) {
                   style={{
                     padding: "12px 16px",
                     cursor: "pointer",
-                    borderBottom: `1px solid ${D.glassBorder}`,
+                    borderBottom: `1px solid ${T.border}`,
                     borderLeft: `3px solid ${isSel ? eu.c : eu.c + "30"}`,
-                    background: isSel ? D.surface : "transparent",
+                    background: isSel ? T.surface : "transparent",
                     opacity: e.stage === "complete" ? 0.45 : 1,
                     transition: "all 150ms",
                   }}
@@ -3484,14 +3356,14 @@ function AllEmailsPage({ data, upd, mob }) {
                         width: 32,
                         height: 32,
                         borderRadius: 8,
-                        background: (e.color || D.accent) + "18",
+                        background: (e.color || T.accent) + "18",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
                         fontSize: 10,
                         fontWeight: 700,
-                        color: e.color || D.accent,
-                        border: `1px solid ${e.color || D.accent}25`,
+                        color: e.color || T.accent,
+                        border: `1px solid ${e.color || T.accent}25`,
                         flexShrink: 0,
                       }}
                     >
@@ -3502,7 +3374,7 @@ function AllEmailsPage({ data, upd, mob }) {
                         style={{
                           fontSize: 13,
                           fontWeight: 600,
-                          color: D.text,
+                          color: T.text,
                           overflow: "hidden",
                           textOverflow: "ellipsis",
                           whiteSpace: "nowrap",
@@ -3510,7 +3382,7 @@ function AllEmailsPage({ data, upd, mob }) {
                       >
                         {e.from}
                       </div>
-                      <div style={{ fontSize: 11, color: D.textMuted }}>
+                      <div style={{ fontSize: 11, color: T.textDim }}>
                         {e.company || ""}
                       </div>
                     </div>
@@ -3537,7 +3409,7 @@ function AllEmailsPage({ data, upd, mob }) {
                       >
                         {e.label}
                       </span>
-                      <span style={{ fontSize: 10, color: D.textMuted }}>
+                      <span style={{ fontSize: 10, color: T.textDim }}>
                         {e.time}
                       </span>
                     </div>
@@ -3546,7 +3418,7 @@ function AllEmailsPage({ data, upd, mob }) {
                     style={{
                       fontSize: 13,
                       fontWeight: 500,
-                      color: D.textDim,
+                      color: T.textDim,
                       overflow: "hidden",
                       textOverflow: "ellipsis",
                       whiteSpace: "nowrap",
@@ -3582,8 +3454,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       <span
                         style={{
                           fontSize: 9,
-                          color: D.textMuted,
-                          background: D.surface2,
+                          color: T.textDim,
+                          background: T.bg,
                           padding: "1px 6px",
                           borderRadius: 4,
                         }}
@@ -3595,8 +3467,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       <span
                         style={{
                           fontSize: 9,
-                          color: D.teal,
-                          background: `${D.teal}12`,
+                          color: T.teal,
+                          background: `${T.teal}12`,
                           padding: "1px 5px",
                           borderRadius: 3,
                         }}
@@ -3608,8 +3480,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       <span
                         style={{
                           fontSize: 9,
-                          color: D.purple,
-                          background: `${D.purple}12`,
+                          color: T.accent,
+                          background: `${T.accent}12`,
                           padding: "1px 5px",
                           borderRadius: 3,
                         }}
@@ -3623,8 +3495,8 @@ function AllEmailsPage({ data, upd, mob }) {
                           width: 6,
                           height: 6,
                           borderRadius: "50%",
-                          background: D.accent,
-                          boxShadow: `0 0 6px ${D.accent}60`,
+                          background: T.accent,
+                          boxShadow: `0 0 6px ${T.accent}60`,
                         }}
                       />
                     )}
@@ -3636,10 +3508,10 @@ function AllEmailsPage({ data, upd, mob }) {
                         onClick={(ev) => ev.stopPropagation()}
                         style={{
                           fontSize: 9,
-                          color: D.accent,
+                          color: T.accent,
                           textDecoration: "none",
                           padding: "1px 5px",
-                          background: `${D.accent}10`,
+                          background: `${T.accent}10`,
                           borderRadius: 3,
                           marginLeft: "auto",
                         }}
@@ -3655,8 +3527,8 @@ function AllEmailsPage({ data, upd, mob }) {
                         }}
                         style={{
                           fontSize: 9,
-                          color: D.green,
-                          background: `${D.green}10`,
+                          color: T.green,
+                          background: `${T.green}10`,
                           border: "none",
                           padding: "1px 5px",
                           borderRadius: 3,
@@ -3676,7 +3548,7 @@ function AllEmailsPage({ data, upd, mob }) {
                 style={{
                   padding: 40,
                   textAlign: "center",
-                  color: D.textMuted,
+                  color: T.textDim,
                   fontSize: 13,
                 }}
               >
@@ -3689,7 +3561,7 @@ function AllEmailsPage({ data, upd, mob }) {
 
       {/* RIGHT DETAIL */}
       {(mob ? mobDetail : true) && (
-        <div style={{ flex: 1, overflowY: "auto", background: D.surface }}>
+        <div style={{ flex: 1, overflowY: "auto", background: T.surface }}>
           {sel ? (
             <div style={{ padding: mob ? 20 : 28, maxWidth: 720 }}>
               {mob && (
@@ -3698,9 +3570,9 @@ function AllEmailsPage({ data, upd, mob }) {
                   style={{
                     marginBottom: 12,
                     padding: "8px 14px",
-                    background: D.surface2,
-                    border: `1px solid ${D.border}`,
-                    color: D.accent,
+                    background: T.bg,
+                    border: `1px solid ${T.border}`,
+                    color: T.accent,
                     borderRadius: 8,
                     fontSize: 12,
                     cursor: "pointer",
@@ -3744,10 +3616,10 @@ function AllEmailsPage({ data, upd, mob }) {
                   </span>
                 </div>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontSize: 17, fontWeight: 700, color: D.text }}>
+                  <div style={{ fontSize: 17, fontWeight: 700, color: T.text }}>
                     {sel.from}
                   </div>
-                  <div style={{ fontSize: 12, color: D.textDim }}>
+                  <div style={{ fontSize: 12, color: T.textDim }}>
                     {sel.email || ""}{" "}
                     {sel.company ? `\u00B7 ${sel.company}` : ""} {"\u00B7"}{" "}
                     {dateLabel(sel.date)}
@@ -3779,7 +3651,7 @@ function AllEmailsPage({ data, upd, mob }) {
                     display: "block",
                     padding: "12px 0",
                     marginBottom: 14,
-                    background: `linear-gradient(135deg,${D.accent},${D.purple})`,
+                    background: `linear-gradient(135deg,${T.accent},${T.accent})`,
                     color: "#fff",
                     borderRadius: 10,
                     fontSize: 13,
@@ -3787,7 +3659,7 @@ function AllEmailsPage({ data, upd, mob }) {
                     textDecoration: "none",
                     textAlign: "center",
                     fontFamily: "inherit",
-                    boxShadow: `0 4px 20px ${D.accent}25`,
+                    boxShadow: `0 4px 20px ${T.accent}25`,
                   }}
                 >
                   Open in Outlook {"\u2197"}
@@ -3798,7 +3670,7 @@ function AllEmailsPage({ data, upd, mob }) {
                 style={{
                   fontSize: 18,
                   fontWeight: 700,
-                  color: D.text,
+                  color: T.text,
                   marginBottom: 12,
                   lineHeight: 1.3,
                 }}
@@ -3834,8 +3706,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       fontSize: 10,
                       padding: "3px 10px",
                       borderRadius: 5,
-                      background: D.surface2,
-                      color: D.textDim,
+                      background: T.bg,
+                      color: T.textDim,
                     }}
                   >
                     {PAT[sel.pattern] || sel.pattern}
@@ -3846,8 +3718,8 @@ function AllEmailsPage({ data, upd, mob }) {
                     fontSize: 10,
                     padding: "3px 10px",
                     borderRadius: 5,
-                    background: D.surface2,
-                    color: D.textDim,
+                    background: T.bg,
+                    color: T.textDim,
                   }}
                 >
                   {sel.tier}
@@ -3858,8 +3730,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       fontSize: 10,
                       padding: "3px 10px",
                       borderRadius: 5,
-                      background: `${D.teal}10`,
-                      color: D.teal,
+                      background: `${T.teal}10`,
+                      color: T.teal,
                     }}
                   >
                     Attachment
@@ -3871,8 +3743,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       fontSize: 10,
                       padding: "3px 10px",
                       borderRadius: 5,
-                      background: `${D.purple}10`,
-                      color: D.purple,
+                      background: `${T.accent}10`,
+                      color: T.accent,
                     }}
                   >
                     AI Reviewed
@@ -3884,8 +3756,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       fontSize: 10,
                       padding: "3px 10px",
                       borderRadius: 5,
-                      background: `${D.accent}10`,
-                      color: D.accent,
+                      background: `${T.accent}10`,
+                      color: T.accent,
                     }}
                   >
                     {sel.deal}
@@ -3897,8 +3769,8 @@ function AllEmailsPage({ data, upd, mob }) {
                       fontSize: 10,
                       padding: "3px 10px",
                       borderRadius: 5,
-                      background: `${D.green}10`,
-                      color: D.green,
+                      background: `${T.green}10`,
+                      color: T.green,
                       fontWeight: 600,
                     }}
                   >
@@ -3924,9 +3796,9 @@ function AllEmailsPage({ data, upd, mob }) {
                         fontSize: 9,
                         padding: "3px 7px",
                         borderRadius: 4,
-                        background: D.surface2,
-                        color: D.textMuted,
-                        border: `1px solid ${D.border}`,
+                        background: T.bg,
+                        color: T.textDim,
+                        border: `1px solid ${T.border}`,
                         fontFamily: "monospace",
                       }}
                     >
@@ -3944,7 +3816,7 @@ function AllEmailsPage({ data, upd, mob }) {
                 <div
                   style={{
                     fontSize: 10,
-                    color: D.textMuted,
+                    color: T.textDim,
                     fontWeight: 700,
                     letterSpacing: 1.5,
                     textTransform: "uppercase",
@@ -3968,12 +3840,11 @@ function AllEmailsPage({ data, upd, mob }) {
                       onClick={() => upd(sel.id, s.id)}
                       style={{
                         padding: "8px 0",
-                        background:
-                          sel.stage === s.id ? `${s.c}15` : D.surface2,
+                        background: sel.stage === s.id ? `${s.c}15` : T.bg,
                         border: `1px solid ${
-                          sel.stage === s.id ? s.c + "40" : D.border
+                          sel.stage === s.id ? s.c + "40" : T.border
                         }`,
-                        color: sel.stage === s.id ? s.c : D.textMuted,
+                        color: sel.stage === s.id ? s.c : T.textDim,
                         borderRadius: 8,
                         fontSize: 11,
                         cursor: "pointer",
@@ -3996,16 +3867,16 @@ function AllEmailsPage({ data, upd, mob }) {
                   style={{
                     marginBottom: 14,
                     padding: "14px 16px",
-                    background: `${D.accent}08`,
+                    background: `${T.accent}08`,
                     borderRadius: 10,
-                    border: `1px solid ${D.accent}20`,
+                    border: `1px solid ${T.accent}20`,
                   }}
                 >
                   <div
                     style={{
                       fontSize: 10,
                       fontWeight: 700,
-                      color: D.accent,
+                      color: T.accent,
                       marginBottom: 7,
                       letterSpacing: 0.5,
                     }}
@@ -4015,7 +3886,7 @@ function AllEmailsPage({ data, upd, mob }) {
                   <p
                     style={{
                       fontSize: 13.5,
-                      color: D.accent,
+                      color: T.accent,
                       lineHeight: 1.65,
                       margin: 0,
                       opacity: 0.85,
@@ -4067,16 +3938,16 @@ function AllEmailsPage({ data, upd, mob }) {
                   style={{
                     marginBottom: 14,
                     padding: "12px 14px",
-                    background: D.surface2,
+                    background: T.bg,
                     borderRadius: 10,
-                    border: `1px solid ${D.border}`,
+                    border: `1px solid ${T.border}`,
                   }}
                 >
                   <div
                     style={{
                       fontSize: 10,
                       fontWeight: 600,
-                      color: D.textMuted,
+                      color: T.textDim,
                       marginBottom: 6,
                       letterSpacing: 0.5,
                     }}
@@ -4086,7 +3957,7 @@ function AllEmailsPage({ data, upd, mob }) {
                   <pre
                     style={{
                       fontSize: 12,
-                      color: D.textDim,
+                      color: T.textDim,
                       lineHeight: 1.6,
                       margin: 0,
                       whiteSpace: "pre-wrap",
@@ -4102,9 +3973,9 @@ function AllEmailsPage({ data, upd, mob }) {
                         flex: 1,
                         padding: "8px 0",
                         borderRadius: 7,
-                        border: `1px solid ${D.border}`,
-                        background: D.surface,
-                        color: D.accent,
+                        border: `1px solid ${T.border}`,
+                        background: T.surface,
+                        color: T.accent,
                         fontSize: 11,
                         fontWeight: 600,
                         cursor: "pointer",
@@ -4128,9 +3999,9 @@ function AllEmailsPage({ data, upd, mob }) {
                         flex: 1,
                         padding: "8px 0",
                         borderRadius: 7,
-                        border: `1px solid ${D.border}`,
-                        background: D.surface,
-                        color: D.orange,
+                        border: `1px solid ${T.border}`,
+                        background: T.surface,
+                        color: T.orange,
                         fontSize: 11,
                         fontWeight: 600,
                         cursor: "pointer",
@@ -4148,11 +4019,336 @@ function AllEmailsPage({ data, upd, mob }) {
               style={{
                 padding: 60,
                 textAlign: "center",
-                color: D.textMuted,
+                color: T.textDim,
                 fontSize: 13,
               }}
             >
               Select an email to see details
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ═══ DECISION CARD COMPONENT ═══
+function DecisionCard({
+  item,
+  index,
+  expandedId,
+  setExpandedId,
+  markDone,
+  upd,
+  mob,
+}) {
+  const isExp = expandedId === item.id;
+  const ug = URG[item.label] || URG.NOTABLE;
+  return (
+    <div
+      onClick={() => setExpandedId(isExp ? null : item.id)}
+      style={{
+        background: T.surface,
+        borderRadius: 14,
+        border: `1px solid ${isExp ? T.accent + "40" : T.border}`,
+        overflow: "hidden",
+        cursor: "pointer",
+        boxShadow: isExp ? "0 4px 24px rgba(99,102,241,0.08)" : "none",
+        transition: "all 200ms",
+      }}
+    >
+      <div
+        style={{
+          height: 3,
+          background: `linear-gradient(90deg,${ug.bar},${ug.bar}80)`,
+        }}
+      />
+      <div
+        style={{
+          padding: "16px 20px",
+          display: "flex",
+          alignItems: "center",
+          gap: 14,
+        }}
+      >
+        <div
+          style={{
+            width: 28,
+            height: 28,
+            borderRadius: "50%",
+            background: ug.badge,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 12,
+            fontWeight: 700,
+            color: ug.text,
+            flexShrink: 0,
+          }}
+        >
+          #{index + 1}
+        </div>
+        <div
+          style={{
+            width: 36,
+            height: 36,
+            borderRadius: 10,
+            background: item.color + "18",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 11,
+            fontWeight: 700,
+            color: item.color,
+            border: `1.5px solid ${item.color}30`,
+            flexShrink: 0,
+          }}
+        >
+          {item.avatar}
+        </div>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              marginBottom: 3,
+            }}
+          >
+            <span
+              style={{
+                fontSize: 14,
+                fontWeight: 650,
+                color: T.text,
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {item.subject}
+            </span>
+            <span
+              style={{
+                fontSize: 10,
+                fontWeight: 700,
+                color: ug.text,
+                background: ug.badge,
+                padding: "2px 8px",
+                borderRadius: 4,
+                letterSpacing: 0.4,
+                flexShrink: 0,
+              }}
+            >
+              {item.label}
+            </span>
+          </div>
+          <div style={{ fontSize: 12, color: T.textDim }}>
+            {item.from} {item.company ? `\u00B7 ${item.company}` : ""} \u00B7{" "}
+            {item.time}
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 8,
+            flexShrink: 0,
+          }}
+        >
+          {item.deal && (
+            <div
+              style={{
+                padding: "4px 10px",
+                borderRadius: 6,
+                background: T.bg,
+                fontSize: 11,
+                color: T.textMid,
+              }}
+            >
+              {item.deal}
+            </div>
+          )}
+          <div
+            style={{
+              fontSize: 12,
+              color: T.textDim,
+              transition: "transform 200ms",
+              transform: isExp ? "rotate(180deg)" : "none",
+            }}
+          >
+            {"\u25BE"}
+          </div>
+        </div>
+      </div>
+      {isExp && (
+        <div
+          style={{
+            padding: "0 20px 20px",
+            borderTop: `1px solid ${T.borderLight}`,
+          }}
+        >
+          <div
+            style={{
+              margin: "16px 0 14px",
+              padding: "14px 16px",
+              background: T.accentLight,
+              borderRadius: 10,
+              border: `1px solid ${T.accentBorder}`,
+            }}
+          >
+            <div
+              style={{
+                fontSize: 10,
+                fontWeight: 700,
+                color: T.accent,
+                marginBottom: 7,
+                letterSpacing: 0.5,
+              }}
+            >
+              JARVIS SAYS
+            </div>
+            <p
+              style={{
+                fontSize: 13.5,
+                color: T.accentText,
+                lineHeight: 1.65,
+                margin: 0,
+              }}
+            >
+              {item.jarvis}
+            </p>
+          </div>
+          {item.action && (
+            <div
+              style={{
+                fontSize: 12.5,
+                color: T.textMid,
+                marginBottom: 12,
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+              }}
+            >
+              <span style={{ color: T.green, fontSize: 14 }}>{"\u2192"}</span>
+              <span>
+                <strong>Suggested:</strong> {item.action}
+              </span>
+            </div>
+          )}
+          <NlpWidget email={item} onApply={(stage) => upd(item.id, stage)} />
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+            {(item.actions || []).map((act) => {
+              const isPri = act === item.primaryAction;
+              return (
+                <button
+                  key={act}
+                  onClick={(ev) => {
+                    ev.stopPropagation();
+                    if (isPri) markDone(item.id);
+                  }}
+                  style={{
+                    padding: isPri ? "10px 22px" : "10px 18px",
+                    borderRadius: 9,
+                    border: isPri ? "none" : `1px solid ${T.border}`,
+                    background: isPri
+                      ? "linear-gradient(135deg,#6366f1,#8b5cf6)"
+                      : T.surface,
+                    color: isPri ? "#fff" : T.textMid,
+                    fontSize: 13,
+                    fontWeight: isPri ? 600 : 500,
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                    boxShadow: isPri
+                      ? "0 2px 12px rgba(99,102,241,0.3)"
+                      : "none",
+                    transition: "all 150ms",
+                  }}
+                >
+                  {act}
+                </button>
+              );
+            })}
+          </div>
+          {item.reply && (
+            <div
+              style={{
+                marginTop: 14,
+                padding: "12px 14px",
+                background: T.bg,
+                borderRadius: 8,
+                border: `1px solid ${T.border}`,
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 10,
+                  fontWeight: 600,
+                  color: T.textDim,
+                  marginBottom: 6,
+                  letterSpacing: 0.5,
+                }}
+              >
+                DRAFT REPLY
+              </div>
+              <pre
+                style={{
+                  fontSize: 12,
+                  color: T.textMid,
+                  lineHeight: 1.6,
+                  margin: 0,
+                  whiteSpace: "pre-wrap",
+                  fontFamily: "inherit",
+                }}
+              >
+                {item.reply}
+              </pre>
+              <div style={{ display: "flex", gap: 6, marginTop: 8 }}>
+                <button
+                  onClick={(ev) => {
+                    ev.stopPropagation();
+                    navigator.clipboard?.writeText(item.reply);
+                  }}
+                  style={{
+                    padding: "6px 14px",
+                    borderRadius: 6,
+                    border: `1px solid ${T.border}`,
+                    background: T.surface,
+                    color: T.accent,
+                    fontSize: 11,
+                    fontWeight: 600,
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                  }}
+                >
+                  Copy as Dave
+                </button>
+                <button
+                  onClick={(ev) => {
+                    ev.stopPropagation();
+                    navigator.clipboard?.writeText(
+                      `Hi ${
+                        (item.from || "").split(" ")[0]
+                      },\n\nDave asked me to follow up.\n\n${item.reply
+                        .split("\n")
+                        .slice(1)
+                        .join("\n")}\n\nBest regards,\nFrance`
+                    );
+                  }}
+                  style={{
+                    padding: "6px 14px",
+                    borderRadius: 6,
+                    border: `1px solid ${T.border}`,
+                    background: T.surface,
+                    color: T.orange,
+                    fontSize: 11,
+                    fontWeight: 600,
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                  }}
+                >
+                  Copy as France
+                </button>
+              </div>
             </div>
           )}
         </div>
