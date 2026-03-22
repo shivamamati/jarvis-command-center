@@ -44,7 +44,7 @@ jobs:
       - name: Copy results to public data
         run: |
           mkdir -p public/data
-          cp jarvis_results.json public/data/jarvis_results.json
+          cp scripts/jarvis_results.json public/data/jarvis_results.json
 
       - name: Commit and push results
         run: |
