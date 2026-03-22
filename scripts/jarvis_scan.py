@@ -75,7 +75,7 @@ TEAMS_WEBHOOK_URL = os.environ.get("TEAMS_WEBHOOK_URL", "")
 # CONTACT DATABASE
 # ═══════════════════════════════════════════════════════════════
 TIER1_DOMAINS = {"travelers.com","virginmedia.com","virginmediao2.co.uk","cdw.com","uk.cdw.com","arm.com","nomura.com","navisite.com","castleforge.com","pwc.com","smbcgroup.com","gb.smbcgroup.com","tcs.com","colt.net","lumen.com","zayo.com","cogentco.com","fluidone.com","netprotocol.net","ids-indata.co.uk","sas.co.uk","telent.com","transitnetworks.co.uk","bt.com","openreach.co.uk","cloud2me.co.uk","ntrustsystems.co.uk","redhilldatacentre.com","digitalrealty.com","accenture.com"}
-TIER2_DOMAINS = {"abb.com","drt.co.uk","techreconsulting.com","qudatacentres.com","stakater.com","polanddc.pl","assago.com","innogate.at","astracapitalmgmt.com","malhangroup.com","adaptive-mdc.com","solarisstrategiesinc.com","bcsconsultancy.com","gotcolo.com","demandfactor.com","directglobal.com"}
+TIER2_DOMAINS = {"abb.com","drt.co.uk","techreconsulting.com","qudatacentres.com","stakater.com","polanddc.pl","assago.com","innogate.at","astracapitalmgmt.com","malhangroup.com","adaptive-mdc.com","solarisstrategiesinc.com","bcsconsultancy.com","gotcolo.com","demandfactor.com","directglobal.com","2020-4.com","evermere.com"}
 VIP_FIRMS = {"jsa.net","simmons-simmons.com","cbre.com","savills.com","jll.com","knightfrank.com","cushmanwakefield.com","datacenternation.com","baxtel.com"}
 INTERNAL_DOMAINS = {"galaxydatacenters.com","galaxycapitalpartners.com","redhilldatacentre.com"}
 INTERNAL_VIP_EMAILS = {"tj@galaxydatacenters.com","paul@galaxydatacenters.com","paul@galaxycapitalpartners.com","ash@galaxydatacenters.com","ash@galaxycapitalpartners.com","ashley@galaxydatacenters.com","france@galaxydatacenters.com","rodrigo@galaxydatacenters.com","sai@galaxydatacenters.com","colin.bell@galaxydatacenters.com","animesh@galaxydatacenters.com"}
@@ -84,9 +84,9 @@ ALL_VIP_EMAILS = INTERNAL_VIP_EMAILS | REDHILL_OPS | DAVE_EMAILS
 PIPELINE_NAMES = ["richard lukaj","tj ciccone","john ghirardelli","nigel bayliff","ivo ivanov","ben edmond","diego teot","aidan walker","peter almond","sarah kurtz","matthew ahearn","drew barrett","jade batstone","rishi malhan","victoria skrbensky","paolo lupini","venu gudipati","fiona leon","osie ukwuoma","marcus bartolini","john hall","candace sipos","barry gross","tom babbington","colette cooper","mark vecchiarelli","paul cranfield","tony rossiter","mitch lenzi","dean skinner","phil pearson","michael kim","paul evans","tushar gupta","abdul aziz","arthur rembes","shivam amati"]
 KEYWORDS = ["nda","proposal","site visit","rfp","mw ","kw ","rack","investment","capital","introducer","commission","lease","loi","refinancing","board","fund","substation","power","capacity","contract","renewal","tenant","gpu","data cent","merger","bills","billing","audit","data room","teaser","stuttgart","austria","vienna","fortum","referral","introduce","introduction","connect you with","lp ","limited partner","capital raise","fundrais","fund formation"]
 URGENCY_LANGUAGE = ["asap","urgent","time sensitive","time-sensitive","deadline","by end of day","by eod","by cob","immediately","critical","as soon as possible","needs immediate","action required","please respond","awaiting your","overdue","past due","expiring","expires today","expires tomorrow","last chance","final notice"]
-NOISE_SENDERS = ["noreply","no-reply","no_reply","notifications@","newsletter","marketing@","team@use.mail","editors-noreply","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","@beehiiv.com","substack.com","connect.media","mail.monday.com","learn.mail.monday.com","mail.granola","datacenterdynamics.com","alpha-sense.com","crystalknows.com","armanino.com","linkedin.com","facebookmail.com","twitter.com","docusign.net","calendly.com","fireflies.ai","minuteslink.com","hubspot.com","hubspotemail.net","mailchimp","sendgrid.net","bmwtoronto.ca","owasco.com","telus.com","clearscore.com","borrowell.com","h5.hilton.com","agoda-emails.com","riipen.com","lyftmail.com","saltlending.com","link.com","eventbrite.com","sharepointonline.com","dcsmi.com","colossusdc.com","thegpu.ai","mail.raises.com"]
+NOISE_SENDERS = ["noreply","no-reply","no_reply","notifications@","newsletter","marketing@","team@use.mail","editors-noreply","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","@beehiiv.com","substack.com","connect.media","mail.monday.com","learn.mail.monday.com","mail.granola","datacenterdynamics.com","alpha-sense.com","crystalknows.com","armanino.com","linkedin.com","facebookmail.com","twitter.com","calendly.com","fireflies.ai","minuteslink.com","hubspot.com","hubspotemail.net","mailchimp","sendgrid.net","bmwtoronto.ca","owasco.com","telus.com","clearscore.com","borrowell.com","h5.hilton.com","agoda-emails.com","riipen.com","lyftmail.com","saltlending.com","link.com","eventbrite.com","sharepointonline.com","dcsmi.com","colossusdc.com","thegpu.ai","mail.raises.com"]
 NOISE_SUBJECTS = ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","build your first","free trial","earn a free night","verify a new device","security information has been updated","new login from","your ride with","merci d'avoir","your trial ends","complete your","reminder: complete","take off for less","don't wait"]
-SUPPRESSED_SENDERS = ["jay schiesser","henry mileham","bob cavoto","tess lindsay","ben palmer","william dyer"]
+SUPPRESSED_SENDERS = ["jay schiesser","henry mileham","tess lindsay","ben palmer","william dyer"]
 CUSTOMER_NAMES = ["travelers","nomura","fluidone","cdw","arm ","smbc","colt","lumen","zayo","cogent","virgin media","tcs","cloud2me","ntrust","accenture","navisite","redhill"]
 
 def extract_domain(email):
@@ -96,10 +96,16 @@ def extract_domain(email):
 def is_known_domain(domain):
     return domain in TIER1_DOMAINS or domain in TIER2_DOMAINS or domain in VIP_FIRMS or domain in INTERNAL_DOMAINS
 
+DEAL_RESCUE_KEYWORDS = ["nda","mnda","proposal","loi","letter of intent","term sheet","contract","agreement","investment","capital raise","site visit","rfp","lease","renewal","board","fund","investor","partnership","acquisition","due diligence","data room","teaser","equity","private equity","real estate","fundrais","resume","executive"]
+
 def is_noise(se, sn, subj):
     se, sn, subj = se.lower(), sn.lower(), subj.lower()
     for s in SUPPRESSED_SENDERS:
         if all(p in sn for p in s.split()): return True
+    # Check if subject contains deal-critical keywords — never filter these
+    body_text = f"{subj} {sn}"
+    for dk in DEAL_RESCUE_KEYWORDS:
+        if dk in body_text: return False
     for ns in NOISE_SENDERS:
         if ns in se: return True
     for ns in NOISE_SUBJECTS:
