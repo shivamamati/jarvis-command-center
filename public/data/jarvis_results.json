@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-22T21:59:44.883041+00:00",
-  "total": 25,
-  "new": 25,
-  "noise": 12,
-  "ai": 4,
+  "timestamp": "2026-03-22T22:04:30.114531+00:00",
+  "total": 23,
+  "new": 23,
+  "noise": 15,
+  "ai": 1,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
@@ -88,58 +88,6 @@
       "ai_action": null,
       "ai_failed": false,
       "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Dave AI INITIATIVE ",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/2347265721857?p=UiJVoSXqFJ9pk0J9aJ\r\nMeeting ID: 234 72",
-      "received": "2026-03-21T22:00:08Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Dave AI INITIATIVE ",
-      "body_preview": "",
-      "received": "2026-03-21T21:59:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 7,
       "final_label": "URGENT"
     },
     {
@@ -237,28 +185,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "events@salute.com",
-      "sender_name": "Salute Team",
-      "subject": "See you next week at DCD>Connect New York",
-      "body_preview": "Meet the team!\r\n\u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c ",
-      "received": "2026-03-22T13:00:23Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAYFA%2BJyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "rules_score": 3,
-      "rules_label": "NOTABLE",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [],
-      "ai_reviewed": true,
-      "ai_score": 4,
-      "ai_label": "NOTABLE",
-      "ai_summary": "Event reminder for DCD>Connect New York conference next week from Salute Team. Appears to be a legitimate industry event notification with minimal content.",
-      "ai_action": "Check calendar for DCD>Connect NY attendance confirmation; verify if Dave registered or planned to attend",
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ]
 }
