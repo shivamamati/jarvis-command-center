@@ -642,56 +642,43 @@ def run_scan(hours=24, post_teams=False):
         subj = email.get("subject", "")
         body = email.get("bodyPreview", "")
 
-        # Hard noise: obvious spam/notifications that never need AI review
-        hard_noise_senders = ["noreply","no-reply","no_reply","notifications@","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","mailchimp","sendgrid.net","sharepointonline.com","lyftmail.com","agoda-emails.com","borrowell.com","clearscore.com","h5.hilton.com","kiwi.com","nordpass.com","td.com","riipen.com","eventbrite.com","aircanada.com","mail.aircanada.com","bmwtoronto.ca","owasco.com","telus.com"]
-        hard_noise_subjects = ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","new login from","your ride with","your trial ends","take off for less","pack your bags","upgrade to premium","last chance:","smoother pickups","voting is now open"]
+        # HARD NOISE: System notifications that are NEVER useful — skip instantly
+        hard_noise_senders = ["noreply","no-reply","no_reply","notifications@","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","mailchimp","sendgrid.net","sharepointonline.com","lyftmail.com","agoda-emails.com","borrowell.com","clearscore.com","h5.hilton.com","kiwi.com","nordpass.com","td.com","riipen.com","eventbrite.com","aircanada.com","mail.aircanada.com","bmwtoronto.ca","owasco.com","telus.com","fireflies.ai","minuteslink.com","calendly.com","facebookmail.com","twitter.com"]
+        hard_noise_subjects = ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","new login from","new device login","your ride with","your trial ends","take off for less","pack your bags","upgrade to premium","last chance:","smoother pickups","voting is now open","verify a new device","complete your","reminder: complete","your microsoft invoice","tell us more about your"]
         se_low = se.lower()
         subj_low = subj.lower()
-        is_hard_noise = any(ns in se_low for ns in hard_noise_senders) or any(ns in subj_low for ns in hard_noise_subjects)
-        
-        if is_hard_noise:
-            noise_n += 1
-            seen[eid] = datetime.now(timezone.utc).isoformat()
-            continue
-        
-        # Soft noise: newsletters/marketing that MIGHT contain deal opportunities
-        # These get AI review instead of being silently dropped
-        if is_noise(se, sn, subj):
-            # Check if AI is available and this could be a real opportunity
-            if ANTHROPIC_API_KEY:
-                log.info(f"  🤖 Noise rescue check: {sn} — {subj[:40]}")
-                ai = ai_classify(se, sn, subj, body)
-                ai_n += 1
-                if ai.get("score", 1) >= 5:
-                    # AI says this is actually important — rescue it
-                    log.info(f"  ✅ AI RESCUED from noise: score {ai.get('score')}")
-                    c = classify_email(email, cal, replied, convos)
-                    result = {
-                        "sender_email": se, "sender_name": sn, "subject": subj,
-                        "body_preview": body[:200],
-                        "received": email.get("receivedDateTime", ""),
-                        "web_link": email.get("webLink", ""),
-                        "is_read": email.get("isRead", False),
-                        "has_attachments": c["has_attachments"],
-                        "rules_score": c["score"], "rules_label": c["label"],
-                        "rules_tier": c["tier"], "rules_reasons": c["reasons"],
-                        "ai_reviewed": True, "ai_score": ai.get("score", 4),
-                        "ai_label": ai.get("label", "NOTABLE"),
-                        "ai_summary": ai.get("summary", ""),
-                        "ai_action": ai.get("action", ""),
-                        "ai_failed": ai.get("ai_failed", False),
-                        "final_score": max(c["score"], ai.get("score", 4)),
-                        "final_label": ai.get("label", "NOTABLE") if ai.get("score", 4) > c["score"] else c["label"],
-                    }
-                    results.append(result)
-                    save_partial_result(result)
-                    seen[eid] = datetime.now(timezone.utc).isoformat()
-                    continue
+        if any(ns in se_low for ns in hard_noise_senders) or any(ns in subj_low for ns in hard_noise_subjects):
             noise_n += 1
             seen[eid] = datetime.now(timezone.utc).isoformat()
             continue
 
+        # Classify with rules engine
         c = classify_email(email, cal, replied, convos)
+
+        # If rules engine recognizes this email (known domain, VIP, keyword match) — keep it
+        # If rules engine doesn't know it (UNKNOWN tier, low score) — ask AI
+        needs_ai = (c["tier"] == "UNKNOWN" and c["score"] <= 5)
+        
+        ai_result = None
+        if needs_ai and ANTHROPIC_API_KEY:
+            log.info(f"  🤖 AI classifying: {sn} — {subj[:40]}")
+            ai_result = ai_classify(se, sn, subj, body)
+            ai_n += 1
+            ai_score = ai_result.get("score", 1)
+            ai_label = ai_result.get("label", "NOISE")
+            # AI says NOISE or score <= 2 — drop it
+            if ai_score <= 2 or ai_label == "NOISE":
+                log.info(f"  🗑️ AI confirmed noise: score {ai_score}")
+                noise_n += 1
+                seen[eid] = datetime.now(timezone.utc).isoformat()
+                continue
+            log.info(f"  ✅ AI kept: score {ai_score} / {ai_label}")
+        elif needs_ai and not ANTHROPIC_API_KEY:
+            # No AI key and unknown sender — drop it
+            noise_n += 1
+            seen[eid] = datetime.now(timezone.utc).isoformat()
+            continue
+
         result = {
             "sender_email": se, "sender_name": sn, "subject": subj,
             "body_preview": body[:200],
@@ -701,26 +688,17 @@ def run_scan(hours=24, post_teams=False):
             "has_attachments": c["has_attachments"],
             "rules_score": c["score"], "rules_label": c["label"],
             "rules_tier": c["tier"], "rules_reasons": c["reasons"],
-            "ai_reviewed": False, "ai_score": None, "ai_label": None,
-            "ai_summary": None, "ai_action": None, "ai_failed": False,
-            "final_score": c["score"], "final_label": c["label"],
+            "ai_reviewed": ai_result is not None, 
+            "ai_score": ai_result.get("score") if ai_result else None,
+            "ai_label": ai_result.get("label") if ai_result else None,
+            "ai_summary": ai_result.get("summary") if ai_result else None,
+            "ai_action": ai_result.get("action") if ai_result else None,
+            "ai_failed": ai_result.get("ai_failed", False) if ai_result else False,
+            "final_score": max(c["score"], ai_result.get("score", 0)) if ai_result else c["score"],
+            "final_label": ai_result.get("label") if ai_result and ai_result.get("score", 0) > c["score"] else c["label"],
         }
 
-        # Layer 2: AI for unknowns (R3: safe fallback on failure)
-        if c["needs_ai_review"]:
-            log.info(f"  🤖 {sn} — {subj[:40]}")
-            ai = ai_classify(se, sn, subj, body)
-            ai_n += 1
-            result["ai_reviewed"] = True
-            result["ai_score"] = ai.get("score", 4)
-            result["ai_label"] = ai.get("label", "NOTABLE")
-            result["ai_summary"] = ai.get("summary", "")
-            result["ai_action"] = ai.get("action", "")
-            result["ai_failed"] = ai.get("ai_failed", False)
-            result["final_score"] = max(c["score"], result["ai_score"])
-            result["final_label"] = result["ai_label"] if result["ai_score"] > c["score"] else c["label"]
-
-        if result["final_score"] >= 4:
+        if result["final_score"] >= 3:
             results.append(result)
             save_partial_result(result)  # R8: Write immediately
 
