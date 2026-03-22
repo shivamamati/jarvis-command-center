@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-22T21:42:10.252454+00:00",
+  "timestamp": "2026-03-22T21:53:18.017242+00:00",
   "total": 25,
   "new": 25,
   "noise": 16,
@@ -158,8 +158,8 @@
       "ai_reviewed": true,
       "ai_score": 4,
       "ai_label": "NOTABLE",
-      "ai_summary": "Event reminder for DCD>Connect New York conference next week from Salute Team. Appears to be a legitimate industry event notification with minimal content.",
-      "ai_action": "Review if Dave is registered/attending; file or discard based on calendar status",
+      "ai_summary": "Event reminder for DCD>Connect New York conference next week from Salute Team. Generic promotional message with minimal content.",
+      "ai_action": "Review if Dave is registered/attending; flag calendar if confirmed attendee",
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
