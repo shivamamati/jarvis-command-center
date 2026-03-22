@@ -79,7 +79,11 @@ function formatTime(isoStr) {
 }
 function getDateStr(isoStr) {
   try {
-    return new Date(isoStr).toISOString().slice(0, 10);
+    const d = new Date(isoStr);
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
+      2,
+      "0"
+    )}-${String(d.getDate()).padStart(2, "0")}`;
   } catch {
     return "";
   }
@@ -794,16 +798,38 @@ function sortEmails(emails) {
     return a.date > b.date ? -1 : 1;
   });
 }
+// Use LOCAL date, not UTC — fixes the "today showing as yesterday" bug
 function getToday() {
-  return new Date().toISOString().slice(0, 10);
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
+    2,
+    "0"
+  )}-${String(d.getDate()).padStart(2, "0")}`;
 }
-function daysLabel(d) {
-  const t = getToday();
-  if (d === t) return "Today";
-  const diff = Math.floor((new Date(t) - new Date(d)) / 86400000);
+function daysLabel(dateStr) {
+  const today = getToday();
+  if (dateStr === today) return "Today";
+  const t = new Date(today + "T12:00:00");
+  const d = new Date(dateStr + "T12:00:00");
+  const diff = Math.round((t - d) / 86400000);
   if (diff === 1) return "Yesterday";
-  if (diff < 7) return `${diff}d ago`;
-  return d;
+  if (diff < 7) return `${diff} days ago`;
+  // Show friendly month format for older dates
+  const months = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
 // ═══════════════════════════════════════════════════════════
