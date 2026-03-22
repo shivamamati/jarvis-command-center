@@ -1,13 +1,41 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-22T22:21:33.305424+00:00",
-  "total": 5,
-  "new": 5,
+  "timestamp": "2026-03-22T23:24:05.595137+00:00",
+  "total": 4,
+  "new": 4,
   "noise": 1,
   "ai": 0,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Apollo + secondary mail",
+      "body_preview": "No worries. Thanks Rodrigo. We will figure this out.\r\n\r\nNow, Apollo says that you need to give access to Warmbox.ai permission access:\r\n\r\n________________________________\r\nFrom: Rodrigo M <rodrigo@gal",
+      "received": "2026-03-22T23:08:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL VIP",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+4)",
+        "Internal VIP",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "rodrigo@galaxydatacenters.com",
       "sender_name": "Rodrigo M",
@@ -36,32 +64,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
-      "subject": "Re: Action Required: Azure App Setup for Jarvis Deployment",
-      "body_preview": "Hi @Shivam Amati,\r\n\r\nThank you for confirming.\r\n\r\nConsent is already in place, See the screenshot below:\r\nCan you confirm exactly which API call is returning the 401 and share the error details? I wan",
-      "received": "2026-03-22T21:15:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL VIP",
-      "rules_reasons": [
-        "Dave replied 4x (+4)",
-        "Internal VIP",
-        "Urgency: action required (+1)"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
       "sender_email": "dan@fusionnotes.com",
       "sender_name": "Dan Deppen",
       "subject": "Reminder: Propstream Webinar Tomorrow at 12pm ET",
@@ -75,30 +77,6 @@
       "rules_tier": "UNKNOWN",
       "rules_reasons": [
         "KW: lease"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dse@eumail.docusign.net",
-      "sender_name": "Daniel Scarbrough via Docusign",
-      "subject": "Docusign Evermere Capital Management MNDA",
-      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Eve",
-      "received": "2026-03-22T20:28:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, capital, lease"
       ],
       "ai_reviewed": false,
       "ai_score": null,
