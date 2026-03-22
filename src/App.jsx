@@ -1,42 +1,67 @@
-import { useState, useMemo, useCallback, useEffect, useRef } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 
-const C = {
-  bg: "#0b0e14",
-  surface: "#111620",
-  surface2: "#161d2a",
-  surface3: "#1c2536",
-  border: "#1e2a3a",
-  borderLight: "#2a3a50",
-  accent: "#3b9eff",
-  accentDim: "#1a3a5a",
-  text: "#d4dce8",
-  textDim: "#6b7e96",
-  textMuted: "#3a4e66",
-  red: "#ef5350",
-  orange: "#ff9800",
-  yellow: "#e6c84a",
-  teal: "#26c6da",
-  green: "#66bb6a",
-  purple: "#ab47bc",
+// ═══════════════════════════════════════════════════════════
+// THEME
+// ═══════════════════════════════════════════════════════════
+const T = {
+  bg: "#fafaf9",
+  surface: "#fff",
+  border: "#e7e5e4",
+  borderLight: "#f5f5f4",
+  text: "#1c1917",
+  textMid: "#57534e",
+  textDim: "#a8a29e",
+  accent: "#6366f1",
+  accentLight: "#f5f3ff",
+  accentBorder: "#ddd6fe",
+  accentText: "#4338ca",
+  red: "#ef4444",
+  redBg: "#fef2f2",
+  redText: "#b91c1c",
+  orange: "#f97316",
+  orangeBg: "#fff7ed",
+  orangeText: "#c2410c",
+  yellow: "#eab308",
+  yellowBg: "#fefce8",
+  yellowText: "#92400e",
+  green: "#10b981",
+  greenBg: "#f0fdf4",
+  greenText: "#166534",
+  teal: "#0ea5e9",
+  tealBg: "#f0f9ff",
+  tealText: "#0369a1",
+  muted: "#94a3b8",
+  mutedBg: "#f8fafc",
+  mutedText: "#475569",
 };
-const URGENCY = {
-  CRITICAL: { color: C.red, bg: "#1a0c0c", border: "#3a1515" },
-  URGENT: { color: C.orange, bg: "#1a1208", border: "#3a2a12" },
-  IMPORTANT: { color: C.yellow, bg: "#1a1a0a", border: "#3a3a15" },
-  NOTABLE: { color: C.teal, bg: "#0a1a1a", border: "#123a3a" },
+const URG = {
+  CRITICAL: { bar: T.red, badge: T.redBg, text: T.redText, label: "Act today" },
+  URGENT: {
+    bar: T.orange,
+    badge: T.orangeBg,
+    text: T.orangeText,
+    label: "Act this week",
+  },
+  IMPORTANT: {
+    bar: T.yellow,
+    badge: T.yellowBg,
+    text: T.yellowText,
+    label: "Review",
+  },
+  NOTABLE: { bar: T.muted, badge: T.mutedBg, text: T.mutedText, label: "FYI" },
 };
 const STAGES = [
-  { id: "inbox", label: "Inbox", color: C.red, icon: "\u25C9" },
-  { id: "france", label: "France", color: C.orange, icon: "\u270E" },
-  { id: "external", label: "External", color: C.yellow, icon: "\u23F3" },
-  { id: "dave", label: "Dave", color: C.accent, icon: "\u2605" },
-  { id: "scheduled", label: "Scheduled", color: C.teal, icon: "\u25CE" },
-  { id: "complete", label: "Complete", color: C.green, icon: "\u2713" },
+  { id: "inbox", label: "Inbox", desc: "Not yet triaged", c: T.muted },
+  { id: "france", label: "France", desc: "Internal processing", c: T.green },
+  { id: "external", label: "External", desc: "Waiting on others", c: T.yellow },
+  { id: "dave", label: "Dave", desc: "Executive action", c: T.accent },
+  { id: "scheduled", label: "Scheduled", desc: "In calendar", c: T.teal },
+  { id: "complete", label: "Done", desc: "Completed", c: T.green },
 ];
-const PATTERNS = {
+const PAT = {
   A: "Inbound Lead",
   B: "Introduction",
-  C: "Lead-Gen Vendor",
+  C: "Lead-Gen",
   D: "Customer Follow-Up",
   E: "Legal/NDA",
   F: "Investor/Capital",
@@ -47,39 +72,82 @@ const PATTERNS = {
 };
 
 // ═══════════════════════════════════════════════════════════
-// MOBILE DETECTION
+// UTILITIES
 // ═══════════════════════════════════════════════════════════
-function useIsMobile(breakpoint = 768) {
-  const [isMobile, setIsMobile] = useState(
-    typeof window !== "undefined" ? window.innerWidth < breakpoint : false
+function useIsMobile(bp = 768) {
+  const [m, s] = useState(
+    typeof window !== "undefined" ? window.innerWidth < bp : false
   );
   useEffect(() => {
-    const handler = () => setIsMobile(window.innerWidth < breakpoint);
-    window.addEventListener("resize", handler);
-    return () => window.removeEventListener("resize", handler);
-  }, [breakpoint]);
-  return isMobile;
+    const h = () => s(window.innerWidth < bp);
+    window.addEventListener("resize", h);
+    return () => window.removeEventListener("resize", h);
+  }, [bp]);
+  return m;
 }
-
-// ═══════════════════════════════════════════════════════════
-// LIVE DATA TRANSFORM
-// ═══════════════════════════════════════════════════════════
-function formatTime(isoStr) {
+function getToday() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
+    2,
+    "0"
+  )}-${String(d.getDate()).padStart(2, "0")}`;
+}
+function dateLabel(ds) {
+  const t = getToday();
+  if (ds === t) return "Today";
+  const diff = Math.round(
+    (new Date(t + "T12:00:00") - new Date(ds + "T12:00:00")) / 864e5
+  );
+  if (diff === 1) return "Yesterday";
+  if (diff < 7 && diff > 0) return `${diff}d ago`;
+  const d = new Date(ds + "T12:00:00");
+  return `${
+    [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ][d.getMonth()]
+  } ${d.getDate()}, ${d.getFullYear()}`;
+}
+function fmtTime(iso) {
   try {
-    const d = new Date(isoStr);
-    const mon = d.toLocaleString("en-US", { month: "short" });
-    const day = d.getDate();
+    const d = new Date(iso);
     const h = d.getHours();
-    const m = d.getMinutes().toString().padStart(2, "0");
-    const ampm = h >= 12 ? "PM" : "AM";
-    return `${mon} ${day}, ${h % 12 || 12}:${m} ${ampm}`;
+    return `${
+      [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+      ][d.getMonth()]
+    } ${d.getDate()}, ${h % 12 || 12}:${d
+      .getMinutes()
+      .toString()
+      .padStart(2, "0")} ${h >= 12 ? "PM" : "AM"}`;
   } catch {
-    return isoStr;
+    return iso;
   }
 }
-function getDateStr(isoStr) {
+function getDateLocal(iso) {
   try {
-    const d = new Date(isoStr);
+    const d = new Date(iso);
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
       2,
       "0"
@@ -88,886 +156,1022 @@ function getDateStr(isoStr) {
     return "";
   }
 }
-function transformScanResults(scanData) {
-  if (!scanData?.items?.length) return null;
-  return scanData.items.map((item, i) => ({
-    id: `live_${i}_${(item.sender_email || "").slice(0, 10)}`,
-    score: item.final_score || item.rules_score || 3,
-    label: item.final_label || "NOTABLE",
-    tier: item.rules_tier || "UNKNOWN",
-    pattern: item.ai_pattern || "G",
+
+// ═══════════════════════════════════════════════════════════
+// NLP CATEGORIZATION ENGINE (Full Implementation)
+// ═══════════════════════════════════════════════════════════
+const STAGE_PATTERNS = {
+  dave: {
+    keywords: [
+      "urgent",
+      "critical",
+      "priority",
+      "immediate",
+      "asap",
+      "top priority",
+      "vip",
+      "decision",
+      "board",
+      "investor",
+      "strategic",
+      "capital",
+      "redhill",
+      "substation",
+      "power",
+      "capacity",
+      "MW",
+      "pipeline",
+      "prospect",
+      "sign",
+      "approve",
+      "loi",
+    ],
+    domains: [
+      "castleforge.com",
+      "smbcgroup.com",
+      "travelers.com",
+      "nomura.com",
+      "arm.com",
+      "cbre.com",
+    ],
+    patterns: [
+      "dave",
+      "ceo",
+      "executive",
+      "board meeting",
+      "investor call",
+      "top priority",
+      "critical path",
+      "action required",
+    ],
+    tiers: ["TIER 1", "PIPELINE", "DAVE FLAGGED", "PIPELINE VIP", "CRITICAL"],
+    priority: 5,
+  },
+  france: {
+    keywords: [
+      "follow up",
+      "forward",
+      "delegate",
+      "handle",
+      "process",
+      "review",
+      "schedule",
+      "coordinate",
+      "confirm",
+      "arrange",
+      "booking",
+      "admin",
+      "awards",
+      "submission",
+      "pr",
+      "marketing",
+    ],
+    domains: ["jsa.net", "fellow.app", "galaxydatacenters.com"],
+    patterns: [
+      "france",
+      "team",
+      "internal ops",
+      "admin",
+      "scheduling",
+      "forward to",
+      "please handle",
+      "awards submission",
+    ],
+    tiers: ["INTERNAL", "VIP FIRM", "INTERNAL VIP"],
+    priority: 3,
+  },
+  external: {
+    keywords: [
+      "waiting",
+      "pending",
+      "hold",
+      "awaiting",
+      "standby",
+      "external",
+      "nda",
+      "contract",
+      "agreement",
+      "legal",
+      "signed",
+      "countersigned",
+    ],
+    domains: ["simmons-simmons.com"],
+    patterns: [
+      "waiting for response",
+      "pending approval",
+      "external review",
+      "nda sent",
+      "contract sent",
+      "awaiting signature",
+      "ball in their court",
+    ],
+    tiers: [],
+    priority: 2,
+  },
+  scheduled: {
+    keywords: [
+      "scheduled",
+      "calendar",
+      "meeting",
+      "appointment",
+      "booked",
+      "confirmed",
+      "call",
+      "sync",
+      "demo",
+      "tour",
+      "site visit",
+    ],
+    domains: [],
+    patterns: [
+      "scheduled for",
+      "meeting on",
+      "appointment at",
+      "calendar invite",
+      "site visit confirmed",
+      "tour booked",
+    ],
+    tiers: [],
+    priority: 2,
+  },
+  inbox: {
+    keywords: [
+      "new",
+      "notification",
+      "fyi",
+      "newsletter",
+      "update",
+      "digest",
+      "weekly",
+      "monthly report",
+    ],
+    domains: [
+      "gmail.com",
+      "yahoo.com",
+      "outlook.com",
+      "newsletter",
+      "mailchimp",
+      "agoda",
+      "borrowell",
+    ],
+    patterns: [],
+    tiers: ["UNKNOWN", "NOTABLE"],
+    priority: 1,
+  },
+  complete: {
+    keywords: [
+      "done",
+      "completed",
+      "finished",
+      "resolved",
+      "closed",
+      "archived",
+      "sorted",
+      "approved",
+      "confirmed and done",
+    ],
+    domains: [],
+    patterns: [
+      "task complete",
+      "issue resolved",
+      "all done",
+      "confirmed and booked",
+    ],
+    tiers: [],
+    priority: 1,
+  },
+};
+
+const URGENCY_KEYWORDS = {
+  critical: [
+    "critical",
+    "urgent",
+    "emergency",
+    "asap",
+    "immediately",
+    "now",
+    "crisis",
+    "top priority",
+    "action required",
+    "time-critical",
+  ],
+  urgent: [
+    "important",
+    "priority",
+    "high priority",
+    "time sensitive",
+    "deadline",
+    "today",
+    "eod",
+    "by eod",
+    "this week",
+  ],
+  important: [
+    "soon",
+    "this week",
+    "next week",
+    "moderate",
+    "standard",
+    "review",
+    "follow up",
+  ],
+  notable: [
+    "whenever",
+    "no rush",
+    "fyi",
+    "informational",
+    "low priority",
+    "newsletter",
+  ],
+};
+
+const CONTACT_PATTERNS = {
+  vip: [
+    "castleforge",
+    "smbc",
+    "travelers",
+    "nomura",
+    "arm",
+    "google",
+    "cbre",
+    "savills",
+    "jll",
+    "knight frank",
+    "zayo",
+    "colt",
+    "lumen",
+    "cdw",
+  ],
+  internal: [
+    "galaxy",
+    "galaxydatacenters",
+    "galaxycapitalpartners",
+    "redhilldatacentre",
+  ],
+  broker: ["techre", "gotcolo", "adaptive-mdc", "innogate", "bitooda", "bcs"],
+  vendor: ["marketjoy", "demandfactor", "schbang", "hubspot", "contactantpro"],
+};
+
+function analyzeEmail(email) {
+  const text = `${email.from || ""} ${email.subject || ""} ${
+    email.jarvis || ""
+  } ${email.action || ""} ${email.label || ""} ${email.tier || ""} ${
+    email.company || ""
+  }`.toLowerCase();
+  const emailDomain = (email.email || "").split("@")[1] || "";
+  const scores = {};
+  const allReasons = {};
+  const allKeywords = {};
+
+  for (const [stageId, config] of Object.entries(STAGE_PATTERNS)) {
+    let score = 0;
+    const reasons = [];
+    const kws = [];
+
+    config.keywords.forEach((kw) => {
+      if (text.includes(kw.toLowerCase())) {
+        score += 2;
+        kws.push(kw);
+        reasons.push(`Keyword: "${kw}"`);
+      }
+    });
+    config.patterns.forEach((p) => {
+      if (text.includes(p.toLowerCase())) {
+        score += 3;
+        reasons.push(`Pattern: "${p}"`);
+      }
+    });
+    config.domains.forEach((d) => {
+      if (emailDomain.includes(d)) {
+        score += 4;
+        reasons.push(`Domain: ${d}`);
+      }
+    });
+    config.tiers.forEach((t) => {
+      if ((email.tier || "").toUpperCase().includes(t)) {
+        score += 3;
+        reasons.push(`Tier match: ${t}`);
+      }
+    });
+
+    // Contact type boosts
+    if (stageId === "dave") {
+      if (email.label === "CRITICAL" || email.label === "URGENT") {
+        score += 2;
+        reasons.push("High urgency label");
+      }
+      if (CONTACT_PATTERNS.vip.some((v) => text.includes(v))) {
+        score += 3;
+        reasons.push("VIP contact detected");
+      }
+    }
+    if (stageId === "france") {
+      if (
+        CONTACT_PATTERNS.internal.some((v) => emailDomain.includes(v)) &&
+        email.label !== "CRITICAL"
+      ) {
+        score += 2;
+        reasons.push("Internal sender");
+      }
+    }
+    if (stageId === "external") {
+      if (CONTACT_PATTERNS.broker.some((v) => text.includes(v))) {
+        score += 1;
+        reasons.push("Broker/partner contact");
+      }
+    }
+
+    scores[stageId] = score * config.priority;
+    allReasons[stageId] = reasons;
+    allKeywords[stageId] = kws;
+  }
+
+  const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+  const topStage = sorted[0][0];
+  const topScore = sorted[0][1];
+  const totalScore = Object.values(scores).reduce((a, b) => a + b, 0);
+  const confidence =
+    totalScore > 0
+      ? Math.min(Math.round((topScore / totalScore) * 100), 98)
+      : 20;
+
+  // Urgency calculation
+  let urgencyScore = 0;
+  Object.entries(URGENCY_KEYWORDS).forEach(([level, kws]) => {
+    const weight =
+      level === "critical"
+        ? 0.15
+        : level === "urgent"
+        ? 0.1
+        : level === "important"
+        ? 0.06
+        : 0.03;
+    kws.forEach((kw) => {
+      if (text.includes(kw)) urgencyScore += weight;
+    });
+  });
+  urgencyScore = Math.min(urgencyScore, 1);
+
+  // Category detection
+  let category = "General";
+  if (
+    text.includes("nda") ||
+    text.includes("contract") ||
+    text.includes("agreement") ||
+    text.includes("legal")
+  )
+    category = "Legal/Contract";
+  else if (
+    text.includes("proposal") ||
+    text.includes("rfp") ||
+    text.includes("quote") ||
+    text.includes("loi")
+  )
+    category = "Proposal/LOI";
+  else if (
+    text.includes("meeting") ||
+    text.includes("call") ||
+    text.includes("calendar") ||
+    text.includes("tour")
+  )
+    category = "Scheduling";
+  else if (
+    text.includes("invoice") ||
+    text.includes("payment") ||
+    text.includes("capital") ||
+    text.includes("fund")
+  )
+    category = "Financial";
+  else if (
+    text.includes("board") ||
+    text.includes("deck") ||
+    text.includes("report") ||
+    text.includes("review")
+  )
+    category = "Board/Reporting";
+  else if (
+    text.includes("award") ||
+    text.includes("pr") ||
+    text.includes("press") ||
+    text.includes("marketing")
+  )
+    category = "PR/Marketing";
+  else if (
+    text.includes("prospect") ||
+    text.includes("lead") ||
+    text.includes("pipeline") ||
+    text.includes("mw")
+  )
+    category = "Pipeline/Sales";
+  else if (
+    text.includes("redhill") ||
+    text.includes("site") ||
+    text.includes("ops") ||
+    text.includes("substation")
+  )
+    category = "Operations";
+  else if (
+    text.includes("newsletter") ||
+    text.includes("fyi") ||
+    text.includes("digest")
+  )
+    category = "Newsletter/FYI";
+
+  // Contact type
+  let contactType = "Unknown";
+  if (CONTACT_PATTERNS.vip.some((v) => text.includes(v))) contactType = "VIP";
+  else if (
+    CONTACT_PATTERNS.internal.some(
+      (v) => text.includes(v) || emailDomain.includes(v)
+    )
+  )
+    contactType = "Internal";
+  else if (CONTACT_PATTERNS.broker.some((v) => text.includes(v)))
+    contactType = "Broker/Partner";
+  else if (CONTACT_PATTERNS.vendor.some((v) => text.includes(v)))
+    contactType = "Vendor";
+
+  const alternatives = sorted
+    .slice(1, 4)
+    .filter(([, s]) => s > 0)
+    .map(([stage, s]) => ({
+      stage,
+      confidence: totalScore > 0 ? Math.round((s / totalScore) * 100) : 10,
+    }));
+
+  return {
+    suggestedStage: topStage,
+    confidence,
+    category,
+    contactType,
+    reasoning: allReasons[topStage] || [],
+    urgencyScore: Math.round(urgencyScore * 100),
+    keywords: allKeywords[topStage] || [],
+    alternatives,
+  };
+}
+
+// ═══════════════════════════════════════════════════════════
+// NLP SUGGESTION WIDGET (Full expandable UI)
+// ═══════════════════════════════════════════════════════════
+function NlpWidget({ email, onApply }) {
+  const [expanded, setExpanded] = useState(false);
+  const analysis = useMemo(() => analyzeEmail(email), [email.id, email.stage]);
+  const stg = STAGES.find((s) => s.id === analysis.suggestedStage);
+  const isSame = email.stage === analysis.suggestedStage;
+  const isLowConf = analysis.confidence < 55;
+
+  if (isSame && !isLowConf) return null;
+
+  return (
+    <div
+      style={{
+        marginBottom: 14,
+        borderRadius: 10,
+        overflow: "hidden",
+        border: `1px solid ${T.accentBorder}`,
+        background: T.accentLight,
+      }}
+    >
+      {/* Header */}
+      <div
+        style={{
+          padding: "10px 16px",
+          display: "flex",
+          alignItems: "center",
+          gap: 8,
+        }}
+      >
+        <span style={{ fontSize: 14 }}>{"\u2728"}</span>
+        <span
+          style={{
+            fontSize: 11,
+            fontWeight: 700,
+            color: T.accent,
+            letterSpacing: 0.5,
+          }}
+        >
+          NLP SUGGESTION
+        </span>
+        <span
+          style={{
+            fontSize: 10,
+            padding: "2px 8px",
+            borderRadius: 5,
+            fontWeight: 700,
+            fontFamily: "monospace",
+            background:
+              analysis.confidence >= 75
+                ? T.greenBg
+                : analysis.confidence >= 50
+                ? T.yellowBg
+                : T.orangeBg,
+            color:
+              analysis.confidence >= 75
+                ? T.greenText
+                : analysis.confidence >= 50
+                ? T.yellowText
+                : T.orangeText,
+          }}
+        >
+          {analysis.confidence}% confident
+        </span>
+        <span
+          style={{
+            fontSize: 10,
+            padding: "2px 8px",
+            borderRadius: 5,
+            background: T.bg,
+            color: T.textMid,
+          }}
+        >
+          {analysis.category}
+        </span>
+        <span
+          style={{
+            fontSize: 10,
+            padding: "2px 8px",
+            borderRadius: 5,
+            background: T.bg,
+            color: T.textDim,
+          }}
+        >
+          {analysis.contactType}
+        </span>
+        <div style={{ flex: 1 }} />
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            setExpanded(!expanded);
+          }}
+          style={{
+            fontSize: 10,
+            padding: "4px 10px",
+            background: T.surface,
+            border: `1px solid ${T.accentBorder}`,
+            color: T.accent,
+            borderRadius: 6,
+            cursor: "pointer",
+            fontFamily: "inherit",
+            fontWeight: 600,
+          }}
+        >
+          {expanded ? "Collapse" : "Details"}
+        </button>
+      </div>
+
+      {/* Suggestion row */}
+      <div
+        style={{
+          padding: "4px 16px 12px",
+          display: "flex",
+          alignItems: "center",
+          gap: 10,
+          flexWrap: "wrap",
+        }}
+      >
+        <span style={{ fontSize: 11, color: T.textDim }}>Move to:</span>
+        {stg && (
+          <span
+            style={{
+              fontSize: 11,
+              padding: "4px 12px",
+              borderRadius: 6,
+              background: `${stg.c}15`,
+              border: `1px solid ${stg.c}30`,
+              color: stg.c,
+              fontWeight: 600,
+            }}
+          >
+            {stg.label}
+          </span>
+        )}
+        {analysis.reasoning.length > 0 && (
+          <span style={{ fontSize: 10, color: T.textDim, fontStyle: "italic" }}>
+            {analysis.reasoning[0]}
+          </span>
+        )}
+        {!isSame && (
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onApply(analysis.suggestedStage);
+            }}
+            style={{
+              marginLeft: "auto",
+              fontSize: 11,
+              padding: "6px 18px",
+              background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
+              border: "none",
+              color: "#fff",
+              borderRadius: 7,
+              cursor: "pointer",
+              fontWeight: 600,
+              fontFamily: "inherit",
+              boxShadow: "0 2px 12px rgba(99,102,241,0.3)",
+            }}
+          >
+            Apply
+          </button>
+        )}
+      </div>
+
+      {/* Expanded details */}
+      {expanded && (
+        <div
+          style={{
+            padding: "0 16px 14px",
+            borderTop: `1px solid ${T.accentBorder}`,
+          }}
+        >
+          {/* Analysis grid */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: 10,
+              margin: "12px 0",
+            }}
+          >
+            <div
+              style={{
+                padding: "10px 12px",
+                background: T.surface,
+                borderRadius: 8,
+                border: `1px solid ${T.border}`,
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 9,
+                  color: T.textDim,
+                  fontWeight: 700,
+                  letterSpacing: 1,
+                  textTransform: "uppercase",
+                  marginBottom: 4,
+                }}
+              >
+                Category
+              </div>
+              <div style={{ fontSize: 13, color: T.text, fontWeight: 500 }}>
+                {analysis.category}
+              </div>
+            </div>
+            <div
+              style={{
+                padding: "10px 12px",
+                background: T.surface,
+                borderRadius: 8,
+                border: `1px solid ${T.border}`,
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 9,
+                  color: T.textDim,
+                  fontWeight: 700,
+                  letterSpacing: 1,
+                  textTransform: "uppercase",
+                  marginBottom: 4,
+                }}
+              >
+                Urgency Score
+              </div>
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <div
+                  style={{
+                    flex: 1,
+                    height: 6,
+                    background: T.borderLight,
+                    borderRadius: 3,
+                    overflow: "hidden",
+                  }}
+                >
+                  <div
+                    style={{
+                      width: `${analysis.urgencyScore}%`,
+                      height: "100%",
+                      borderRadius: 3,
+                      background:
+                        analysis.urgencyScore >= 70
+                          ? T.red
+                          : analysis.urgencyScore >= 40
+                          ? T.orange
+                          : T.teal,
+                      transition: "width 500ms ease",
+                    }}
+                  />
+                </div>
+                <span
+                  style={{
+                    fontSize: 12,
+                    color: T.textMid,
+                    fontFamily: "monospace",
+                    fontWeight: 700,
+                  }}
+                >
+                  {analysis.urgencyScore}%
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Reasoning */}
+          {analysis.reasoning.length > 0 && (
+            <div style={{ marginBottom: 12 }}>
+              <div
+                style={{
+                  fontSize: 9,
+                  color: T.textDim,
+                  fontWeight: 700,
+                  letterSpacing: 1,
+                  textTransform: "uppercase",
+                  marginBottom: 6,
+                }}
+              >
+                Reasoning
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                {analysis.reasoning.map((r, i) => (
+                  <div
+                    key={i}
+                    style={{
+                      fontSize: 12,
+                      color: T.textMid,
+                      paddingLeft: 12,
+                      borderLeft: `2px solid ${T.accentBorder}`,
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {r}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Keywords */}
+          {analysis.keywords.length > 0 && (
+            <div style={{ marginBottom: 12 }}>
+              <div
+                style={{
+                  fontSize: 9,
+                  color: T.textDim,
+                  fontWeight: 700,
+                  letterSpacing: 1,
+                  textTransform: "uppercase",
+                  marginBottom: 6,
+                }}
+              >
+                Keywords Detected
+              </div>
+              <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
+                {analysis.keywords.map((kw, i) => (
+                  <span
+                    key={i}
+                    style={{
+                      fontSize: 10,
+                      padding: "3px 8px",
+                      borderRadius: 5,
+                      background: `${T.accent}10`,
+                      border: `1px solid ${T.accentBorder}`,
+                      color: T.accent,
+                      fontWeight: 500,
+                    }}
+                  >
+                    {kw}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Alternatives */}
+          {analysis.alternatives.length > 0 && (
+            <div>
+              <div
+                style={{
+                  fontSize: 9,
+                  color: T.textDim,
+                  fontWeight: 700,
+                  letterSpacing: 1,
+                  textTransform: "uppercase",
+                  marginBottom: 6,
+                }}
+              >
+                Alternative Suggestions
+              </div>
+              <div style={{ display: "flex", gap: 8 }}>
+                {analysis.alternatives.map((alt, i) => {
+                  const as = STAGES.find((s) => s.id === alt.stage);
+                  return as ? (
+                    <button
+                      key={i}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onApply(alt.stage);
+                      }}
+                      style={{
+                        fontSize: 11,
+                        padding: "6px 14px",
+                        background: T.surface,
+                        border: `1px solid ${as.c}30`,
+                        color: as.c,
+                        borderRadius: 7,
+                        cursor: "pointer",
+                        fontFamily: "inherit",
+                        fontWeight: 500,
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 6,
+                      }}
+                    >
+                      {as.label}
+                      <span
+                        style={{
+                          fontSize: 9,
+                          opacity: 0.7,
+                          fontFamily: "monospace",
+                        }}
+                      >
+                        {alt.confidence}%
+                      </span>
+                    </button>
+                  ) : null;
+                })}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════
+// LIVE DATA TRANSFORM
+// ═══════════════════════════════════════════════════════════
+function transformScan(sd) {
+  if (!sd?.items?.length) return null;
+  return sd.items.map((it, i) => ({
+    id: `live_${i}_${(it.sender_email || "").slice(0, 10)}`,
+    score: it.final_score || 3,
+    label: it.final_label || "NOTABLE",
+    tier: it.rules_tier || "UNKNOWN",
+    pattern: it.ai_pattern || "G",
     stage: "inbox",
-    from: item.sender_name || item.sender_email || "Unknown",
-    email: item.sender_email || "",
-    subject: item.subject || "(no subject)",
-    time: formatTime(item.received),
-    date: getDateStr(item.received),
-    link: item.web_link || "",
-    jarvis: item.ai_summary || item.body_preview || "",
-    action: item.ai_action || "",
+    from: it.sender_name || it.sender_email || "Unknown",
+    company: "",
+    email: it.sender_email || "",
+    subject: it.subject || "(no subject)",
+    time: fmtTime(it.received),
+    date: getDateLocal(it.received),
+    link: it.web_link || "",
+    jarvis: it.ai_summary || it.body_preview || "",
+    action: it.ai_action || "",
     reply: "",
-    quip: "",
-    reasons: item.rules_reasons || [],
-    hasAttachment: item.has_attachments || false,
-    aiReviewed: item.ai_reviewed || false,
-    contactType: item.contact_type || "",
-    read: item.is_read || false,
+    deal: "",
+    dealValue: "",
+    actions: ["Open in Outlook", "Delegate to France", "Mark Done"],
+    primaryAction: "Open in Outlook",
+    reasons: it.rules_reasons || [],
+    att: it.has_attachments || false,
+    ai: it.ai_reviewed || false,
+    read: it.is_read || false,
+    threads: 1,
+    avatar: (it.sender_name || "?")
+      .split(" ")
+      .map((w) => w[0])
+      .join("")
+      .slice(0, 2)
+      .toUpperCase(),
+    color: "#6366f1",
   }));
 }
 
 // ═══════════════════════════════════════════════════════════
 // PERSISTENCE
 // ═══════════════════════════════════════════════════════════
-const STORAGE_KEY = "jarvis_pipeline_state";
-function loadPipelineState() {
+const SK = "jarvis_v9_state";
+function loadS() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    return JSON.parse(localStorage.getItem(SK)) || {};
   } catch {
     return {};
   }
 }
-function savePipelineState(data) {
+function saveS(d) {
   try {
     const s = {};
-    data.forEach((e) => {
+    d.forEach((e) => {
       if (e.stage !== "inbox") s[e.id] = e.stage;
     });
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(s));
+    localStorage.setItem(SK, JSON.stringify(s));
   } catch {}
 }
-function mergeWithPipelineState(items) {
-  const s = loadPipelineState();
-  return items.map((e) => ({ ...e, stage: s[e.id] || e.stage }));
-}
 
 // ═══════════════════════════════════════════════════════════
-// HISTORICAL DATA (v5/v6 classified items — Nov 2025 to Mar 2026)
+// AUTH
 // ═══════════════════════════════════════════════════════════
-const HISTORICAL_DATA = [
-  // NOV 2025
-  {
-    id: "h15",
-    score: 9,
-    label: "CRITICAL",
-    tier: "DAVE FLAGGED",
-    pattern: "G",
-    stage: "complete",
-    from: "TJ Karklins \u2014 Galaxy",
-    email: "tj@galaxydatacenters.com",
-    subject: "ARM Market Presentation \u2014 TOP PRIORITY",
-    time: "Nov 29, 2025",
-    date: "2025-11-29",
-    link: "",
-    jarvis: "Dave: 'ARM is a key target \u2014 THIS A TOP PRIORITY.'",
-    action: "ARM = priority target.",
-    reply: "",
-    quip: "ARM \u2014 the architecture powering half the planet.",
-    reasons: ["Internal VIP", "Dave flagged TOP PRIORITY"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Customer",
-    read: true,
-  },
-  {
-    id: "h16",
-    score: 8,
-    label: "URGENT",
-    tier: "VIP FIRM",
-    pattern: "A",
-    stage: "complete",
-    from: "Henry Gray \u2014 CBRE",
-    email: "",
-    subject: "CBRE / Galaxy \u2014 Amsterdam Opportunity",
-    time: "Nov 3, 2025",
-    date: "2025-11-03",
-    link: "",
-    jarvis: "CBRE bringing Amsterdam DC opportunity.",
-    action: "Evaluate Amsterdam site.",
-    reply: "",
-    quip: "Amsterdam \u2014 tulips meet terabytes.",
-    reasons: ["VIP: cbre.com", "KW: data cent"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Broker",
-    read: true,
-  },
-  // DEC 2025
-  {
-    id: "h25",
-    score: 8,
-    label: "URGENT",
-    tier: "PIPELINE",
-    pattern: "A",
-    stage: "complete",
-    from: "John Hall \u2014 TechRE",
-    email: "john.hall@techreconsulting.com",
-    subject: "TechRE / Galaxy Working Together",
-    time: "Dec 8, 2025",
-    date: "2025-12-08",
-    link: "",
-    jarvis:
-      "First TechRE partnership thread. Early stages of the 18MW pipeline.",
-    action: "Reply and evaluate. This became the 18MW deal.",
-    reply: "",
-    quip: "The seed that grew into 18 megawatts.",
-    reasons: ["Pipeline: john hall"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Broker",
-    read: true,
-  },
-  {
-    id: "h26",
-    score: 8,
-    label: "URGENT",
-    tier: "DAVE FLAGGED",
-    pattern: "D",
-    stage: "complete",
-    from: "CDW \u2014 Chris Lillie",
-    email: "chris.lillie@uk.cdw.com",
-    subject: "CDW Merger Bills",
-    time: "Dec 8, 2025",
-    date: "2025-12-08",
-    link: "",
-    jarvis: "CDW merger bills flagged important.",
-    action: "Address CDW billing.",
-    reply: "",
-    quip: "Merger bills. Unglamorous but necessary.",
-    reasons: ["Tier 1: uk.cdw.com", "Dave flagged"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Customer",
-    read: true,
-  },
-  // JAN 2026
-  {
-    id: "h12",
-    score: 9,
-    label: "CRITICAL",
-    tier: "DAVE FLAGGED",
-    pattern: "A",
-    stage: "dave",
-    from: "Fiona Leon \u2014 DRT",
-    email: "fiona.leon@drt.co.uk",
-    subject: "Galaxy / DRT Partnership & Cloud House \u2014 TOP PRIORITY",
-    time: "Jan 13, 2026",
-    date: "2026-01-13",
-    link: "",
-    jarvis:
-      "DRT Partnership for Cloud House. Dave: 'TOP PRIORITY.' Zayo connectivity quotes in progress.",
-    action: "RE-OPENED: This is still TOP PRIORITY.",
-    reply: "",
-    quip: "When the boss writes in caps, it's not a suggestion.",
-    reasons: ["Tier 2: drt.co.uk", "Dave flagged TOP PRIORITY"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Strategic Partner",
-    read: true,
-  },
-  {
-    id: "h13",
-    score: 9,
-    label: "CRITICAL",
-    tier: "DAVE FLAGGED",
-    pattern: "F",
-    stage: "complete",
-    from: "Rishi Malhan",
-    email: "rishi@malhangroup.com",
-    subject: "80MW Poland \u2014 NDA Required",
-    time: "Jan 17, 2026",
-    date: "2026-01-17",
-    link: "",
-    jarvis: "80MW Poland opportunity. Site visit needed with TJ.",
-    action: "Arrange site visit + NDA.",
-    reply: "",
-    quip: "80 megawatts.",
-    reasons: ["Pipeline: rishi malhan", "KW: MW, nda"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Strategic Partner",
-    read: true,
-  },
-  {
-    id: "h14",
-    score: 9,
-    label: "CRITICAL",
-    tier: "DAVE FLAGGED",
-    pattern: "A",
-    stage: "complete",
-    from: "Victoria Skrbensky \u2014 Poland DC",
-    email: "victoria@polanddc.pl",
-    subject: "80MW + 180MW Poland DC Opportunity",
-    time: "Jan 17, 2026",
-    date: "2026-01-17",
-    link: "",
-    jarvis: "260MW total. Dave: 'important partner.'",
-    action: "Coordinate with Rishi. 260MW combined.",
-    reply: "",
-    quip: "260 megawatts in Poland.",
-    reasons: ["Pipeline: victoria skrbensky", "KW: MW"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Broker",
-    read: true,
-  },
-  {
-    id: "h17",
-    score: 8,
-    label: "URGENT",
-    tier: "DAVE FLAGGED",
-    pattern: "D",
-    stage: "complete",
-    from: "Colin Bell \u2014 Redhill",
-    email: "colin.bell@galaxydatacenters.com",
-    subject: "FluidOne Relocation",
-    time: "Jan 14, 2026",
-    date: "2026-01-14",
-    link: "",
-    jarvis: "Dave: 'CUSTOMER V imp should have been a task on monday.'",
-    action: "Create Monday task immediately.",
-    reply: "",
-    quip: "'Should have been a task' means yesterday.",
-    reasons: ["Redhill ops", "KW: customer"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Customer",
-    read: true,
-  },
-  {
-    id: "h18",
-    score: 8,
-    label: "URGENT",
-    tier: "DAVE FLAGGED",
-    pattern: "E",
-    stage: "complete",
-    from: "Ashley Roberts",
-    email: "ashley@galaxydatacenters.com",
-    subject: "Google NDA \u2014 Electronic Acceptance",
-    time: "Jan 13, 2026",
-    date: "2026-01-13",
-    link: "",
-    jarvis: "Google NDA. Hyperscaler opportunity.",
-    action: "Execute NDA. Google is a hyperscaler target.",
-    reply: "",
-    quip: "Google knocking.",
-    reasons: ["Internal VIP", "KW: nda", "Hyperscaler"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Customer",
-    read: true,
-  },
-  // MAR 2026 — v5/v6 items
-  {
-    id: "h0",
-    score: 10,
-    label: "CRITICAL",
-    tier: "PIPELINE VIP [18MW]",
-    pattern: "A",
-    stage: "dave",
-    from: "John Hall \u2014 TechRE",
-    email: "john.hall@techreconsulting.com",
-    subject: "TechRE Introducer \u2014 18MW AI Prospect for Redhill",
-    time: "Mar 4, 2026",
-    date: "2026-03-04",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "18MW IT load, 144 racks at 120kW, AAA client, GPUs on order. Q2 2027 deadline. TechRE introducer agreement at 10% commission.",
-    action:
-      "Confirm 18MW feasibility. Connect substation contractors + fibre routes.",
-    reply:
-      "John,\n\nEngineering team is accelerating the 18MW feasibility assessment.\n\nBest,\nDave",
-    quip: "This is the deal you've been building Redhill for.",
-    reasons: ["Pipeline: john hall", "KW: MW, rack", "18MW prospect"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Broker",
-    read: true,
-  },
-  {
-    id: "h1",
-    score: 9,
-    label: "CRITICAL",
-    tier: "TIER 1 CUSTOMER",
-    pattern: "D",
-    stage: "dave",
-    from: "David McNeish \u2014 Travelers",
-    email: "DMCNEISH@travelers.com",
-    subject: "Travelers Lease Renewal \u2014 Pushback on Assumptions",
-    time: "Mar 5, 2026",
-    date: "2026-03-05",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "VP questioning who authorized renewal assumption. Remote Hands service formalized.",
-    action: "Personal reassuring message to McNeish.",
-    reply:
-      "Hi David,\n\nNo assumptions \u2014 we're prepared to support whatever direction you decide.\n\nBest,\nDave",
-    quip: "Your team RSVP'd to a party the host hasn't thrown.",
-    reasons: ["Tier 1: travelers.com", "KW: lease, renewal"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Customer",
-    read: true,
-  },
-  {
-    id: "h4",
-    score: 8,
-    label: "URGENT",
-    tier: "TIER 2",
-    pattern: "G",
-    stage: "complete",
-    from: "Tom Babbington \u2014 Adaptive MDC",
-    email: "tom.babbington@adaptive-mdc.com",
-    subject: "Substation D&B Contractors \u2014 Pre-briefed",
-    time: "Mar 5, 2026",
-    date: "2026-03-05",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "5 substation D&B contractors shared. All pre-briefed on urgency. Ties to 18MW TechRE deal.",
-    action: "Forward to Ash. Schedule calls with 2-3 contractors.",
-    reply: "",
-    quip: "Five contractors, pre-briefed.",
-    reasons: ["Tier 2: adaptive-mdc.com", "KW: substation"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Strategic Partner",
-    read: true,
-  },
-  {
-    id: "h6",
-    score: 7,
-    label: "URGENT",
-    tier: "TIER 1",
-    pattern: "D",
-    stage: "complete",
-    from: "Max Ellery \u2014 SMBC",
-    email: "max_ellery@gb.smbcgroup.com",
-    subject: "Redhill Build Room \u2014 Follow-up Questions",
-    time: "Mar 5, 2026",
-    date: "2026-03-05",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "SMBC lender requesting follow-up call with Paul re: storage agreement.",
-    action: "Ensure Paul schedules promptly.",
-    reply: "",
-    quip: "When your lender calls, one does not let it ring.",
-    reasons: ["Tier 1: smbcgroup.com", "KW: redhill"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Investor",
-    read: true,
-  },
-  {
-    id: "h9",
-    score: 8,
-    label: "URGENT",
-    tier: "TIER 1",
-    pattern: "D",
-    stage: "complete",
-    from: "Charlie Byrne \u2014 Zayo Europe",
-    email: "charlie.byrne@zayo.com",
-    subject: "Unit3 Foxboro_Redhill \u2014 Cross Connect Quote",
-    time: "Mar 6, 2026",
-    date: "2026-03-06",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "Zayo customer requesting cross connect modification at Redhill. Billable service request.",
-    action: "Ensure TJ provides quote with lead time.",
-    reply: "",
-    quip: "Customer asks for a quote. Deliver before they ask twice.",
-    reasons: ["Tier 1: zayo.com", "KW: redhill, rack"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Customer",
-    read: true,
-  },
-  {
-    id: "h10",
-    score: 8,
-    label: "URGENT",
-    tier: "TIER 2",
-    pattern: "D",
-    stage: "complete",
-    from: "Fiona Leon \u2014 Digital Realty",
-    email: "fional@digitalrealty.com",
-    subject: "Galaxy / DRT Partnership \u2014 Fiona on Leave",
-    time: "Mar 6, 2026",
-    date: "2026-03-06",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "Fiona on leave next week. Backup: Louise Boland. Cloud House still in progress. TOP PRIORITY.",
-    action: "Reply before she leaves. Contact Louise next week.",
-    reply:
-      "Hi Fiona,\n\nI'll reach out to Louise if anything comes up.\n\nBest,\nDave",
-    quip: "TOP PRIORITY partner leaving for a week.",
-    reasons: ["Tier 2: digitalrealty.com", "Dave flagged TOP PRIORITY"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Strategic Partner",
-    read: true,
-  },
-  {
-    id: "h11",
-    score: 8,
-    label: "URGENT",
-    tier: "INTERNAL VIP",
-    pattern: "G",
-    stage: "complete",
-    from: "TJ Karklins \u2014 Galaxy",
-    email: "tj@galaxydatacenters.com",
-    subject: "SOC 2 Audit \u2014 Lock-in by Mar 20",
-    time: "Mar 6, 2026",
-    date: "2026-03-06",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "SOC 2 audit coordination. 40% late penalty if not locked by March 20.",
-    action: "Decide on audit date before Mar 20.",
-    reply: "",
-    quip: "40% penalty for procrastination.",
-    reasons: ["Internal VIP", "KW: audit"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Internal",
-    read: true,
-  },
-  // MAR 2026 — Recent demo items (Mar 17)
-  {
-    id: "d1",
-    score: 9,
-    label: "CRITICAL",
-    tier: "TIER 1",
-    pattern: "G",
-    stage: "dave",
-    from: "Jamie Thirlwall \u2014 Castleforge",
-    email: "jamie.thirlwall@castleforge.com",
-    subject: "Monthly Deck for the March Business Review",
-    time: "Mar 17, 8:25 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "Jamie sending the final monthly report for tomorrow's board meeting.",
-    action: "Review the attached monthly deck TONIGHT.",
-    reply: "Jamie,\n\nReceived, reviewing tonight.\n\nBest,\nDave",
-    quip: "Board deck for tomorrow.",
-    reasons: [
-      "Tier 1: castleforge.com",
-      "KW: board",
-      "Attachments + deal KW (+2)",
-    ],
-    hasAttachment: true,
-    aiReviewed: false,
-    contactType: "Investor/JV",
-    read: true,
-  },
-  {
-    id: "d2",
-    score: 9,
-    label: "CRITICAL",
-    tier: "PIPELINE VIP",
-    pattern: "D",
-    stage: "dave",
-    from: "John Hall \u2014 TechRE",
-    email: "john.hall@techreconsulting.com",
-    subject: "Re: Redhill Unit 1&2 optionality",
-    time: "Mar 17, 4:41 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "THE pipeline deal. John Hall reviewing high-density positioning. 18MW prospect.",
-    action: "Monitor. Follow up Friday if no response.",
-    reply: "",
-    quip: "The deal you built Redhill for.",
-    reasons: [
-      "Pipeline: john hall",
-      "Tier 2: techreconsulting.com",
-      "KW: redhill",
-    ],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Broker",
-    read: true,
-  },
-  {
-    id: "d3",
-    score: 8,
-    label: "URGENT",
-    tier: "TIER 1",
-    pattern: "G",
-    stage: "france",
-    from: "Jamie Thirlwall \u2014 Castleforge",
-    email: "jamie.thirlwall@castleforge.com",
-    subject: "Re: Board Deck slides received",
-    time: "Mar 17, 8:09 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis: "Jamie confirming all slides received. Finalizing pack tonight.",
-    action: "FYI \u2014 board pack being finalized.",
-    reply: "",
-    quip: "",
-    reasons: ["Tier 1: castleforge.com", "KW: board"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Investor/JV",
-    read: true,
-  },
-  {
-    id: "d4",
-    score: 8,
-    label: "URGENT",
-    tier: "INTERNAL VIP",
-    pattern: "D",
-    stage: "dave",
-    from: "Ashley Roberts \u2014 Galaxy",
-    email: "ashley@galaxydatacenters.com",
-    subject: "Redhill High Density Strategy for Castleforge",
-    time: "Mar 17, 5:14 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "Ashley sending high-density commentary to Pelle Jorgen at Castleforge.",
-    action: "Review before tomorrow's board meeting.",
-    reply: "",
-    quip: "",
-    reasons: ["Internal VIP", "Re customer: castleforge", "8 VIPs on thread"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Internal",
-    read: false,
-  },
-  {
-    id: "d5",
-    score: 7,
-    label: "URGENT",
-    tier: "VIP FIRM",
-    pattern: "D",
-    stage: "dave",
-    from: "Holly Winch \u2014 Savills",
-    email: "holly.winch@savills.com",
-    subject: "Redhill Data Centre \u2014 Catch up",
-    time: "Mar 17, 5:56 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis: "Savills moving to monthly catch-ups. Onboarding settled.",
-    action: "FYI \u2014 good sign.",
-    reply: "",
-    quip: "",
-    reasons: ["VIP: savills.com", "KW: redhill", "Attachments"],
-    hasAttachment: true,
-    aiReviewed: false,
-    contactType: "Strategic Partner",
-    read: true,
-  },
-  {
-    id: "d6",
-    score: 7,
-    label: "URGENT",
-    tier: "INTERNAL VIP",
-    pattern: "G",
-    stage: "dave",
-    from: "Paul Leong \u2014 Galaxy",
-    email: "paul@galaxydatacenters.com",
-    subject: "High Density Commentary \u2014 run by Pelle",
-    time: "Mar 17, 4:00 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "Paul says commentary reads fine. Suggests running by Pelle. Add comparison table.",
-    action: "Add high vs low density table.",
-    reply: "",
-    quip: "",
-    reasons: [
-      "Internal VIP",
-      "Re customer: castleforge",
-      "Dave in thread (+2)",
-    ],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Internal",
-    read: false,
-  },
-  {
-    id: "d7",
-    score: 7,
-    label: "URGENT",
-    tier: "REDHILL OPS",
-    pattern: "I",
-    stage: "complete",
-    from: "Benjamin Tyson \u2014 Redhill DC",
-    email: "benjamin.tyson@redhilldatacentre.com",
-    subject: "Rivington Energy Tour \u2014 confirmed",
-    time: "Mar 17, 2:44 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis: "Tour booked and confirmed by Colin Bell.",
-    action: "Done.",
-    reply: "",
-    quip: "",
-    reasons: ["Redhill ops", "KW: site visit"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Internal",
-    read: true,
-  },
-  {
-    id: "d8",
-    score: 7,
-    label: "URGENT",
-    tier: "INTERNAL VIP",
-    pattern: "G",
-    stage: "dave",
-    from: "Ash Gupta \u2014 Galaxy",
-    email: "ash@galaxycapitalpartners.com",
-    subject: "CHW System Resilience \u2014 remedial costs",
-    time: "Mar 17, 2:36 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis:
-      "Ash asking for ROM on CHW resilience remedials for funding request.",
-    action: "Review ROM estimate when Rhys provides it.",
-    reply: "",
-    quip: "",
-    reasons: ["Internal VIP", "KW: redhill, capacity"],
-    hasAttachment: false,
-    aiReviewed: false,
-    contactType: "Internal",
-    read: true,
-  },
-  {
-    id: "d9",
-    score: 6,
-    label: "IMPORTANT",
-    tier: "INTERNAL VIP",
-    pattern: "E",
-    stage: "france",
-    from: "Ashley Roberts \u2014 Galaxy",
-    email: "ashley@galaxydatacenters.com",
-    subject: "Partner Agreement \u2014 sent to Mark",
-    time: "Mar 17, 6:33 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis: "Partner agreement forwarded to Mark Vecchiarelli.",
-    action: "Monitor for Mark's response.",
-    reply: "",
-    quip: "",
-    reasons: ["Internal VIP", "KW: contract"],
-    hasAttachment: true,
-    aiReviewed: false,
-    contactType: "Internal",
-    read: true,
-  },
-  {
-    id: "d10",
-    score: 6,
-    label: "IMPORTANT",
-    tier: "INTERNAL VIP",
-    pattern: "G",
-    stage: "france",
-    from: "Sai Raman \u2014 Galaxy",
-    email: "sai@galaxydatacenters.com",
-    subject: "246 London BFSI prospects",
-    time: "Mar 17, 6:58 PM",
-    date: "2026-03-17",
-    link: "https://outlook.office365.com/mail/",
-    jarvis: "246 London financial services prospect list via Apollo + Clay.",
-    action: "Review list quality.",
-    reply: "",
-    quip: "",
-    reasons: ["Internal VIP", "Attachments"],
-    hasAttachment: true,
-    aiReviewed: false,
-    contactType: "Internal",
-    read: true,
-  },
-];
-
-// Combine as default view
-const DEMO_DATA = HISTORICAL_DATA;
-
-// ═══════════════════════════════════════════════════════════
-// SORTING & HELPERS
-// ═══════════════════════════════════════════════════════════
-function sortEmails(emails) {
-  return [...emails].sort((a, b) => {
-    const aA = a.stage !== "complete",
-      bA = b.stage !== "complete";
-    if (aA && !bA) return -1;
-    if (!aA && bA) return 1;
-    if (aA && bA) {
-      if (a.score !== b.score) return b.score - a.score;
-      return a.date > b.date ? -1 : 1;
-    }
-    return a.date > b.date ? -1 : 1;
-  });
-}
-// Use LOCAL date, not UTC — fixes the "today showing as yesterday" bug
-function getToday() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
-    2,
-    "0"
-  )}-${String(d.getDate()).padStart(2, "0")}`;
-}
-function daysLabel(dateStr) {
-  const today = getToday();
-  if (dateStr === today) return "Today";
-  const t = new Date(today + "T12:00:00");
-  const d = new Date(dateStr + "T12:00:00");
-  const diff = Math.round((t - d) / 86400000);
-  if (diff === 1) return "Yesterday";
-  if (diff < 7) return `${diff} days ago`;
-  // Show friendly month format for older dates
-  const months = [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
-  ];
-  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
-}
-
-// ═══════════════════════════════════════════════════════════
-// PASSWORD GATE
-// ═══════════════════════════════════════════════════════════
-const ACCESS_PASSWORD = "Galaxy2026!";
-const AUTH_KEY = "jarvis_auth_token";
-function hashPw(pw) {
+const PW = "Galaxy2026!",
+  AK = "jarvis_auth_v9";
+function hp(p) {
   let h = 0;
-  for (let i = 0; i < pw.length; i++) {
-    h = (h << 5) - h + pw.charCodeAt(i);
+  for (let i = 0; i < p.length; i++) {
+    h = (h << 5) - h + p.charCodeAt(i);
     h |= 0;
   }
-  return "j_" + Math.abs(h).toString(36);
+  return "j9_" + Math.abs(h).toString(36);
 }
-function isAuth() {
+function isA() {
   try {
-    const s = JSON.parse(localStorage.getItem(AUTH_KEY));
-    if (!s || Date.now() > s.expiry) return false;
-    return s.token === hashPw(ACCESS_PASSWORD);
+    const s = JSON.parse(localStorage.getItem(AK));
+    return s && Date.now() < s.ex && s.tk === hp(PW);
   } catch {
     return false;
   }
 }
-function setAuth() {
+function setAu() {
   localStorage.setItem(
-    AUTH_KEY,
-    JSON.stringify({
-      token: hashPw(ACCESS_PASSWORD),
-      expiry: Date.now() + 86400000,
-    })
+    AK,
+    JSON.stringify({ tk: hp(PW), ex: Date.now() + 864e5 })
   );
 }
 
-function LoginScreen({ onLogin }) {
+function Login({ onLogin }) {
   const [pw, setPw] = useState("");
   const [err, setErr] = useState(false);
-  const [shake, setShake] = useState(false);
-  const isMobile = useIsMobile();
+  const m = useIsMobile();
   const go = () => {
-    if (pw === ACCESS_PASSWORD) {
-      setAuth();
+    if (pw === PW) {
+      setAu();
       onLogin();
     } else {
       setErr(true);
-      setShake(true);
-      setTimeout(() => setShake(false), 500);
       setPw("");
     }
   };
   return (
     <div
       style={{
-        fontFamily: "'DM Sans',sans-serif",
-        background: C.bg,
-        color: C.text,
+        fontFamily: "'Inter',system-ui,sans-serif",
+        background: T.bg,
+        color: T.text,
         height: "100vh",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        padding: isMobile ? 20 : 0,
+        padding: m ? 20 : 0,
       }}
     >
-      <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet"
-      />
-      <style>{`@keyframes shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}`}</style>
-      <div
-        style={{
-          width: isMobile ? "100%" : 360,
-          animation: "fadeUp .4s ease",
-          textAlign: "center",
-        }}
-      >
+      <div style={{ width: m ? "100%" : 380, textAlign: "center" }}>
         <div
           style={{
-            width: 56,
-            height: 56,
-            borderRadius: 14,
-            background: `linear-gradient(135deg, ${C.accent}, ${C.purple})`,
+            width: 48,
+            height: 48,
+            borderRadius: 12,
+            background: "linear-gradient(135deg,#6366f1,#8b5cf6)",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             margin: "0 auto 20px",
           }}
         >
-          <span
-            style={{
-              color: "#fff",
-              fontSize: 22,
-              fontWeight: 700,
-              letterSpacing: 2,
-            }}
-          >
+          <span style={{ color: "#fff", fontSize: 18, fontWeight: 800 }}>
             J
           </span>
         </div>
-        <div style={{ fontSize: 22, fontWeight: 700, marginBottom: 4 }}>
-          J.A.R.V.I.S.
+        <div style={{ fontSize: 20, fontWeight: 700, marginBottom: 4 }}>
+          JARVIS
         </div>
-        <div
-          style={{
-            fontSize: 12,
-            color: C.textMuted,
-            marginBottom: 32,
-            fontFamily: "'JetBrains Mono',monospace",
+        <div style={{ fontSize: 13, color: T.textDim, marginBottom: 28 }}>
+          Command Center v9
+        </div>
+        <input
+          type="password"
+          value={pw}
+          onChange={(e) => {
+            setPw(e.target.value);
+            setErr(false);
           }}
-        >
-          v8.1 Command Center
-        </div>
-        <div style={{ animation: shake ? "shake .4s ease" : "none" }}>
-          <input
-            type="password"
-            value={pw}
-            onChange={(e) => {
-              setPw(e.target.value);
-              setErr(false);
-            }}
-            onKeyDown={(e) => e.key === "Enter" && go()}
-            placeholder="Enter access password"
-            autoFocus
-            style={{
-              width: "100%",
-              padding: "14px 16px",
-              background: C.surface,
-              border: `1px solid ${err ? C.red : C.border}`,
-              color: C.text,
-              borderRadius: 10,
-              fontSize: 16,
-              fontFamily: "'DM Sans',sans-serif",
-              outline: "none",
-              boxSizing: "border-box",
-            }}
-          />
-        </div>
+          onKeyDown={(e) => e.key === "Enter" && go()}
+          placeholder="Enter access password"
+          autoFocus
+          style={{
+            width: "100%",
+            padding: "14px 16px",
+            background: T.surface,
+            border: `1px solid ${err ? T.red : T.border}`,
+            color: T.text,
+            borderRadius: 10,
+            fontSize: 15,
+            fontFamily: "inherit",
+            outline: "none",
+            boxSizing: "border-box",
+          }}
+        />
         {err && (
-          <div style={{ fontSize: 13, color: C.red, marginTop: 8 }}>
+          <div style={{ fontSize: 13, color: T.red, marginTop: 8 }}>
             Incorrect password
           </div>
         )}
@@ -977,1233 +1181,1148 @@ function LoginScreen({ onLogin }) {
             width: "100%",
             padding: "14px 0",
             marginTop: 12,
-            background: C.accent,
+            background: "linear-gradient(135deg,#6366f1,#8b5cf6)",
             color: "#fff",
             border: "none",
             borderRadius: 10,
-            fontSize: 16,
+            fontSize: 15,
             fontWeight: 600,
             cursor: "pointer",
-            fontFamily: "'DM Sans',sans-serif",
+            fontFamily: "inherit",
           }}
         >
           Access Command Center
         </button>
-        <div style={{ fontSize: 10, color: C.textMuted, marginTop: 24 }}>
-          Galaxy Data Centers \u2014 Confidential
+        <div style={{ fontSize: 11, color: T.textDim, marginTop: 24 }}>
+          Galaxy Data Centers {"\u2014"} Confidential
         </div>
       </div>
     </div>
   );
 }
+
+// ═══════════════════════════════════════════════════════════
+// HISTORICAL + DEMO DATA
+// ═══════════════════════════════════════════════════════════
+const HIST = [
+  {
+    id: "h0",
+    score: 10,
+    label: "CRITICAL",
+    tier: "PIPELINE [18MW]",
+    pattern: "A",
+    stage: "dave",
+    from: "John Hall",
+    company: "TechRE Consulting",
+    email: "john.hall@techreconsulting.com",
+    subject: "TechRE Introducer \u2014 18MW AI Prospect for Redhill",
+    time: "Mar 4",
+    date: "2026-03-04",
+    link: "#",
+    jarvis:
+      "18MW IT load, 144 racks at 120kW, AAA client, GPUs on order. Q2 2027 deadline. TechRE introducer at 10% commission.",
+    action: "Confirm 18MW feasibility. Connect substation contractors.",
+    reply: "John,\n\nEngineering team accelerating assessment.\n\nBest,\nDave",
+    deal: "Redhill 18MW",
+    dealValue: "\u00A342M",
+    actions: [
+      "Call John",
+      "Forward to Ash",
+      "Request Feasibility",
+      "Defer 48h",
+    ],
+    primaryAction: "Call John",
+    reasons: ["Pipeline: john hall", "KW: MW, rack"],
+    att: false,
+    ai: false,
+    read: true,
+    threads: 8,
+    avatar: "JH",
+    color: "#6366f1",
+  },
+  {
+    id: "d1",
+    score: 9,
+    label: "CRITICAL",
+    tier: "TIER 1",
+    pattern: "G",
+    stage: "dave",
+    from: "Jamie Thirlwall",
+    company: "Castleforge Partners",
+    email: "jamie.thirlwall@castleforge.com",
+    subject: "Monthly Deck for March Business Review",
+    time: "Mar 17, 8:25 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis:
+      "Final monthly report for board meeting. Full leadership on thread.",
+    action: "Review deck TONIGHT.",
+    reply: "Jamie,\n\nReceived, reviewing tonight.\n\nBest,\nDave",
+    deal: "Castleforge JV",
+    dealValue: "Board",
+    actions: ["Review Now", "Delegate to France", "Request Changes"],
+    primaryAction: "Review Now",
+    reasons: ["Tier 1: castleforge.com", "KW: board"],
+    att: true,
+    ai: false,
+    read: true,
+    threads: 5,
+    avatar: "JT",
+    color: "#0ea5e9",
+  },
+  {
+    id: "d2",
+    score: 9,
+    label: "CRITICAL",
+    tier: "PIPELINE VIP",
+    pattern: "D",
+    stage: "dave",
+    from: "John Hall",
+    company: "TechRE Consulting",
+    email: "john.hall@techreconsulting.com",
+    subject: "Re: Redhill Unit 1&2 optionality",
+    time: "Mar 17, 4:41 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis:
+      "John reviewing high-density positioning for Redhill Units 1&2. 18MW prospect thread.",
+    action: "Follow up Friday if no response.",
+    reply: "",
+    deal: "Redhill 18MW",
+    dealValue: "\u00A342M",
+    actions: ["Follow Up", "Call John", "Forward to Ashley"],
+    primaryAction: "Follow Up",
+    reasons: ["Pipeline: john hall", "KW: redhill"],
+    att: false,
+    ai: false,
+    read: true,
+    threads: 12,
+    avatar: "JH",
+    color: "#6366f1",
+  },
+  {
+    id: "h12",
+    score: 9,
+    label: "CRITICAL",
+    tier: "DAVE FLAGGED",
+    pattern: "A",
+    stage: "dave",
+    from: "Fiona Leon",
+    company: "Digital Realty",
+    email: "fiona.leon@drt.co.uk",
+    subject: "Galaxy / DRT Partnership & Cloud House \u2014 TOP PRIORITY",
+    time: "Jan 13",
+    date: "2026-01-13",
+    link: "",
+    jarvis:
+      "DRT Partnership for Cloud House. Dave: 'TOP PRIORITY.' Zayo connectivity in progress.",
+    action: "Re-engage. Still TOP PRIORITY.",
+    reply: "",
+    deal: "DRT Cloud House",
+    dealValue: "Strategic",
+    actions: ["Call Fiona", "Email Louise", "Delegate"],
+    primaryAction: "Call Fiona",
+    reasons: ["Tier 2: drt.co.uk", "Dave flagged"],
+    att: false,
+    ai: false,
+    read: true,
+    threads: 6,
+    avatar: "FL",
+    color: "#8b5cf6",
+  },
+  {
+    id: "d4",
+    score: 8,
+    label: "URGENT",
+    tier: "INTERNAL VIP",
+    pattern: "D",
+    stage: "dave",
+    from: "Ashley Roberts",
+    company: "Galaxy Data Centers",
+    email: "ashley@galaxydatacenters.com",
+    subject: "Redhill High Density Strategy for Castleforge",
+    time: "Mar 17, 5:14 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis: "High-density strategy commentary to Pelle Jorgen at Castleforge.",
+    action: "Review before board meeting.",
+    reply: "",
+    deal: "Castleforge JV",
+    dealValue: "",
+    actions: ["Review & Approve", "Request Changes", "Forward to Paul"],
+    primaryAction: "Review & Approve",
+    reasons: ["Internal VIP", "8 VIPs on thread"],
+    att: false,
+    ai: false,
+    read: false,
+    threads: 4,
+    avatar: "AR",
+    color: "#14b8a6",
+  },
+  {
+    id: "d6",
+    score: 7,
+    label: "URGENT",
+    tier: "INTERNAL VIP",
+    pattern: "G",
+    stage: "dave",
+    from: "Paul Leong",
+    company: "Galaxy Data Centers",
+    email: "paul@galaxydatacenters.com",
+    subject: "High Density Commentary \u2014 run by Pelle",
+    time: "Mar 17, 4:00 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis:
+      "Paul suggests adding comparison table before sending to Castleforge.",
+    action: "Add high vs low density table.",
+    reply: "",
+    deal: "Castleforge JV",
+    dealValue: "",
+    actions: ["Add Table", "Approve As-Is", "Discuss"],
+    primaryAction: "Add Table",
+    reasons: ["Internal VIP", "Dave in thread"],
+    att: false,
+    ai: false,
+    read: false,
+    threads: 3,
+    avatar: "PL",
+    color: "#f59e0b",
+  },
+  {
+    id: "d3",
+    score: 8,
+    label: "URGENT",
+    tier: "TIER 1",
+    pattern: "G",
+    stage: "france",
+    from: "Jamie Thirlwall",
+    company: "Castleforge Partners",
+    email: "jamie.thirlwall@castleforge.com",
+    subject: "Board Deck slides received",
+    time: "Mar 17, 8:09 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis: "All slides received. Finalizing pack tonight.",
+    action: "FYI \u2014 being finalized.",
+    reply: "",
+    deal: "Castleforge JV",
+    dealValue: "",
+    actions: ["Acknowledge", "Follow Up"],
+    primaryAction: "Acknowledge",
+    reasons: ["Tier 1: castleforge.com"],
+    att: false,
+    ai: false,
+    read: true,
+    threads: 2,
+    avatar: "JT",
+    color: "#0ea5e9",
+  },
+  {
+    id: "d9",
+    score: 6,
+    label: "IMPORTANT",
+    tier: "INTERNAL VIP",
+    pattern: "E",
+    stage: "france",
+    from: "Ashley Roberts",
+    company: "Galaxy Data Centers",
+    email: "ashley@galaxydatacenters.com",
+    subject: "Partner Agreement sent to Mark",
+    time: "Mar 17, 6:33 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis: "Partner agreement forwarded to Mark Vecchiarelli.",
+    action: "Monitor for Mark's response.",
+    reply: "",
+    deal: "Partner Agreement",
+    dealValue: "",
+    actions: ["Monitor", "Follow Up"],
+    primaryAction: "Monitor",
+    reasons: ["Internal VIP", "KW: contract"],
+    att: true,
+    ai: false,
+    read: true,
+    threads: 2,
+    avatar: "AR",
+    color: "#14b8a6",
+  },
+  {
+    id: "d10",
+    score: 6,
+    label: "IMPORTANT",
+    tier: "INTERNAL VIP",
+    pattern: "G",
+    stage: "france",
+    from: "Sai Raman",
+    company: "Galaxy Data Centers",
+    email: "sai@galaxydatacenters.com",
+    subject: "246 London BFSI prospects",
+    time: "Mar 17, 6:58 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis: "246 London financial services prospect list.",
+    action: "Review list quality.",
+    reply: "",
+    deal: "Lead Gen",
+    dealValue: "246 prospects",
+    actions: ["Review List", "Forward to Paul", "Archive"],
+    primaryAction: "Review List",
+    reasons: ["Internal VIP", "Attachments"],
+    att: true,
+    ai: false,
+    read: true,
+    threads: 1,
+    avatar: "SR",
+    color: "#6366f1",
+  },
+  {
+    id: "d7",
+    score: 7,
+    label: "URGENT",
+    tier: "REDHILL OPS",
+    pattern: "I",
+    stage: "complete",
+    from: "Benjamin Tyson",
+    company: "Redhill Data Centre",
+    email: "benjamin.tyson@redhilldatacentre.com",
+    subject: "Rivington Energy Tour confirmed",
+    time: "Mar 17, 2:44 PM",
+    date: "2026-03-17",
+    link: "#",
+    jarvis: "Tour booked. Colin Bell confirmed.",
+    action: "Done.",
+    reply: "",
+    deal: "Redhill Ops",
+    dealValue: "",
+    actions: [],
+    primaryAction: "",
+    reasons: ["Redhill ops"],
+    att: false,
+    ai: false,
+    read: true,
+    threads: 1,
+    avatar: "BT",
+    color: "#10b981",
+  },
+];
+
+const DEALS = [
+  {
+    name: "Redhill 18MW",
+    value: "\u00A342M",
+    stage: "Feasibility",
+    progress: 40,
+    color: "#6366f1",
+  },
+  {
+    name: "DRT Cloud House",
+    value: "Strategic",
+    stage: "TOP PRIORITY",
+    progress: 25,
+    color: "#8b5cf6",
+  },
+  {
+    name: "Castleforge JV",
+    value: "Board Review",
+    stage: "Active",
+    progress: 70,
+    color: "#0ea5e9",
+  },
+];
 
 // ═══════════════════════════════════════════════════════════
 // MAIN APP
 // ═══════════════════════════════════════════════════════════
 export default function App() {
-  const [authed, setAuthed] = useState(isAuth);
-  if (!authed) return <LoginScreen onLogin={() => setAuthed(true)} />;
-  return <JarvisCC />;
+  const [au, setAu] = useState(isA);
+  if (!au) return <Login onLogin={() => setAu(true)} />;
+  return <Dashboard />;
 }
 
-function JarvisCC() {
-  const isMobile = useIsMobile();
-  const [data, setData] = useState(() => mergeWithPipelineState(DEMO_DATA));
-  const [selId, setSelId] = useState(null);
-  const [stageFilter, setStageFilter] = useState("ALL");
-  const [filter, setFilter] = useState("ALL");
-  const [search, setSearch] = useState("");
-  const [showComplete, setShowComplete] = useState(false);
-  const [liveStatus, setLiveStatus] = useState("demo");
-  const [scanMeta, setScanMeta] = useState(null);
-  const [mobileDetail, setMobileDetail] = useState(false); // mobile: show detail view
+function Dashboard() {
+  const mob = useIsMobile();
+  const [data, setData] = useState(() => {
+    const s = loadS();
+    return HIST.map((e) => ({ ...e, stage: s[e.id] || e.stage }));
+  });
+  const [expandedId, setExpandedId] = useState(HIST[0]?.id);
+  const [completed, setCompleted] = useState([]);
+  const [role, setRole] = useState("dave");
+  const [live, setLive] = useState("demo");
+  const [meta, setMeta] = useState(null);
 
-  const fetchLiveData = useCallback(async () => {
+  // Live data fetching
+  const fetchData = useCallback(async () => {
     try {
-      const res = await fetch("/data/jarvis_results.json?" + Date.now());
-      if (!res.ok) throw new Error("No data");
-      const sd = await res.json();
+      const r = await fetch("/data/jarvis_results.json?" + Date.now());
+      if (!r.ok) throw 0;
+      const sd = await r.json();
       if (!sd.items?.length) return;
-      const tr = transformScanResults(sd);
+      const tr = transformScan(sd);
       if (!tr) return;
       setData((prev) => {
-        const saved = loadPipelineState();
-        const liveItems = tr.map((e) => ({
-          ...e,
-          stage: saved[e.id] || "inbox",
-        }));
-        // Merge: historical items that aren't duplicated by live data + all live items
-        const liveEmails = new Set(liveItems.map((e) => e.email + e.subject));
-        const historicalKeep = HISTORICAL_DATA.filter(
-          (h) => !liveEmails.has(h.email + h.subject)
-        ).map((h) => ({ ...h, stage: saved[h.id] || h.stage }));
-        return [...liveItems, ...historicalKeep];
+        const saved = loadS();
+        const li = tr.map((e) => ({ ...e, stage: saved[e.id] || "inbox" }));
+        const liSet = new Set(li.map((e) => e.email + e.subject));
+        const hist = HIST.filter((h) => !liSet.has(h.email + h.subject)).map(
+          (h) => ({ ...h, stage: saved[h.id] || h.stage })
+        );
+        return [...li, ...hist];
       });
-      setScanMeta({ total: sd.total, noise: sd.noise, ai: sd.ai });
-      setLiveStatus("live");
+      setMeta({ total: sd.total, noise: sd.noise, ai: sd.ai });
+      setLive("live");
     } catch {}
   }, []);
 
   useEffect(() => {
-    fetchLiveData();
-    const iv = setInterval(fetchLiveData, 30000);
+    fetchData();
+    const iv = setInterval(fetchData, 30000);
     return () => clearInterval(iv);
-  }, [fetchLiveData]);
+  }, [fetchData]);
   useEffect(() => {
-    savePipelineState(data);
+    saveS(data);
   }, [data]);
 
-  const filtered = useMemo(() => {
-    let r = data;
-    if (stageFilter !== "ALL") r = r.filter((e) => e.stage === stageFilter);
-    if (filter !== "ALL") r = r.filter((e) => e.label === filter);
-    if (!showComplete) r = r.filter((e) => e.stage !== "complete");
-    if (search)
-      r = r.filter((e) =>
-        `${e.from} ${e.subject} ${e.email}`
-          .toLowerCase()
-          .includes(search.toLowerCase())
-      );
-    return sortEmails(r);
-  }, [data, stageFilter, filter, search, showComplete]);
-
-  const sel = selId ? data.find((e) => e.id === selId) : null;
-  const u = sel ? URGENCY[sel.label] || URGENCY.NOTABLE : URGENCY.NOTABLE;
-  const stgCounts = useMemo(() => {
-    const c = {};
-    STAGES.forEach(
-      (s) => (c[s.id] = data.filter((e) => e.stage === s.id).length)
-    );
-    return c;
-  }, [data]);
-  const activeCount = data.filter((e) => e.stage !== "complete").length;
-  const todayCount = data.filter(
-    (e) => e.date === getToday() && e.stage !== "complete"
-  ).length;
-  const carryOver = data.filter(
-    (e) => e.date !== getToday() && e.stage !== "complete"
-  ).length;
-  const update = useCallback(
-    (id, key, val) =>
-      setData((p) => p.map((e) => (e.id === id ? { ...e, [key]: val } : e))),
+  const upd = useCallback(
+    (id, stage) =>
+      setData((p) => p.map((e) => (e.id === id ? { ...e, stage } : e))),
     []
   );
-
-  const selectEmail = (id) => {
-    setSelId(id);
-    if (isMobile) setMobileDetail(true);
+  const markDone = (id) => {
+    setCompleted((p) => [...p, id]);
+    upd(id, "complete");
+    const next = filtered.find((q) => !completed.includes(q.id) && q.id !== id);
+    if (next) setExpandedId(next.id);
   };
-  const backToList = () => setMobileDetail(false);
+
+  const filtered = useMemo(() => {
+    let r = data.filter(
+      (e) => e.stage !== "complete" && !completed.includes(e.id)
+    );
+    if (role === "dave")
+      r = r.filter((e) => e.stage === "dave" || e.stage === "inbox");
+    if (role === "france")
+      r = r.filter(
+        (e) =>
+          e.stage === "france" ||
+          e.stage === "external" ||
+          e.stage === "scheduled"
+      );
+    return r.sort((a, b) => b.score - a.score);
+  }, [data, role, completed]);
+
+  const doneItems = data.filter(
+    (e) => e.stage === "complete" || completed.includes(e.id)
+  );
+  const critCount = filtered.filter((e) => e.label === "CRITICAL").length;
+  const hour = new Date().getHours();
+  const greeting =
+    hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
 
   return (
     <div
       style={{
-        fontFamily: "'DM Sans',sans-serif",
-        background: C.bg,
-        color: C.text,
         height: "100vh",
+        width: "100vw",
+        background: T.bg,
+        fontFamily: "'Inter',system-ui,sans-serif",
         display: "flex",
         flexDirection: "column",
         overflow: "hidden",
       }}
     >
-      <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet"
-      />
-      <style>{`
-        ::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:${C.bg}}::-webkit-scrollbar-thumb{background:${C.border};border-radius:3px}
-        @keyframes slideR{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
-        @keyframes slideL{from{opacity:0;transform:translateX(20px)}to{opacity:1;transform:none}}
-        @keyframes fadeIn{from{opacity:0;transform:scale(.98)}to{opacity:1;transform:none}}
-        @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-        meta[name=viewport]{content:"width=device-width,initial-scale=1,maximum-scale=1"}
-      `}</style>
-
       {/* HEADER */}
       <div
         style={{
-          padding: isMobile ? "10px 12px" : "10px 20px",
-          borderBottom: `1px solid ${C.border}`,
+          background: T.surface,
+          borderBottom: `1px solid ${T.border}`,
+          padding: "0 28px",
+          height: 56,
           display: "flex",
           alignItems: "center",
-          gap: isMobile ? 8 : 12,
           flexShrink: 0,
-          background: C.surface,
+          gap: 20,
         }}
       >
-        {isMobile && mobileDetail ? (
-          <button
-            onClick={backToList}
-            style={{
-              padding: "6px 12px",
-              background: C.surface2,
-              border: `1px solid ${C.border}`,
-              color: C.accent,
-              borderRadius: 6,
-              fontSize: 12,
-              cursor: "pointer",
-              fontFamily: "'DM Sans',sans-serif",
-              fontWeight: 600,
-            }}
-          >
-            {"\u2190"} Back
-          </button>
-        ) : (
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <div
             style={{
               width: 28,
               height: 28,
-              borderRadius: 6,
-              background: `linear-gradient(135deg, ${C.accent}, ${C.purple})`,
+              borderRadius: 7,
+              background: "linear-gradient(135deg,#6366f1,#8b5cf6)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              flexShrink: 0,
+              fontSize: 12,
+              fontWeight: 800,
+              color: "#fff",
             }}
           >
-            <span
-              style={{
-                color: "#fff",
-                fontSize: 10,
-                fontWeight: 700,
-                letterSpacing: 1,
-              }}
-            >
-              J
-            </span>
+            J
           </div>
-        )}
-        <div style={{ minWidth: 0 }}>
-          <span style={{ fontSize: isMobile ? 13 : 14, fontWeight: 700 }}>
-            J.A.R.V.I.S.
+          <span style={{ fontSize: 14, fontWeight: 600, color: T.text }}>
+            JARVIS
           </span>
-          {!isMobile && (
-            <span
-              style={{
-                fontSize: 11,
-                color: C.textMuted,
-                marginLeft: 8,
-                fontFamily: "'JetBrains Mono',monospace",
-              }}
-            >
-              v8.1 Command Center
-            </span>
-          )}
+          <span style={{ fontSize: 13, color: T.textDim }}>
+            /{" "}
+            {role === "dave"
+              ? "Dave's Queue"
+              : role === "france"
+              ? "France's Queue"
+              : "All Items"}
+          </span>
         </div>
         <div style={{ flex: 1 }} />
-        <div
-          style={{
-            display: "flex",
-            gap: isMobile ? 4 : 8,
-            alignItems: "center",
-            flexShrink: 0,
-          }}
-        >
-          <span
-            style={{
-              fontSize: 10,
-              padding: "3px 6px",
-              borderRadius: 4,
-              fontFamily: "'JetBrains Mono',monospace",
-              fontWeight: 600,
-              background:
-                liveStatus === "live" ? `${C.green}18` : `${C.yellow}18`,
-              color: liveStatus === "live" ? C.green : C.yellow,
-              display: "flex",
-              alignItems: "center",
-              gap: 4,
-            }}
-          >
-            <span
+        <div style={{ display: "flex", gap: 4 }}>
+          {[
+            { id: "dave", label: "\u2605 Dave" },
+            { id: "france", label: "\u270E France" },
+            { id: "all", label: "All" },
+          ].map((r) => (
+            <button
+              key={r.id}
+              onClick={() => setRole(r.id)}
               style={{
-                width: 6,
-                height: 6,
-                borderRadius: "50%",
-                background: liveStatus === "live" ? C.green : C.yellow,
-                animation: liveStatus === "live" ? "pulse 2s infinite" : "none",
-              }}
-            />
-            {liveStatus === "live" ? "LIVE" : "DEMO"}
-          </span>
-          <span
-            style={{
-              fontSize: 10,
-              padding: "3px 6px",
-              borderRadius: 4,
-              background: `${C.red}18`,
-              color: C.red,
-              fontFamily: "'JetBrains Mono',monospace",
-              fontWeight: 600,
-            }}
-          >
-            {activeCount}
-          </span>
-          {!isMobile && (
-            <>
-              <span
-                style={{
-                  fontSize: 10,
-                  padding: "3px 6px",
-                  borderRadius: 4,
-                  background: `${C.accent}18`,
-                  color: C.accent,
-                  fontFamily: "'JetBrains Mono',monospace",
-                }}
-              >
-                {todayCount} today
-              </span>
-              {carryOver > 0 && (
-                <span
-                  style={{
-                    fontSize: 10,
-                    padding: "3px 6px",
-                    borderRadius: 4,
-                    background: `${C.orange}18`,
-                    color: C.orange,
-                    fontFamily: "'JetBrains Mono',monospace",
-                  }}
-                >
-                  {carryOver} carry
-                </span>
-              )}
-              {scanMeta && (
-                <span
-                  style={{
-                    fontSize: 10,
-                    color: C.textMuted,
-                    fontFamily: "'JetBrains Mono',monospace",
-                  }}
-                >
-                  {scanMeta.total} scanned
-                </span>
-              )}
-            </>
-          )}
-        </div>
-        {!isMobile && (
-          <div style={{ position: "relative" }}>
-            <input
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search..."
-              style={{
-                width: 150,
-                padding: "5px 10px 5px 24px",
-                background: C.surface2,
-                border: `1px solid ${C.border}`,
-                color: C.text,
-                borderRadius: 6,
-                fontSize: 11,
-                fontFamily: "'DM Sans',sans-serif",
-                outline: "none",
-              }}
-            />
-            <span
-              style={{
-                position: "absolute",
-                left: 8,
-                top: "50%",
-                transform: "translateY(-50%)",
-                fontSize: 11,
-                color: C.textMuted,
+                padding: "5px 14px",
+                borderRadius: 7,
+                border: `1px solid ${role === r.id ? T.accent : T.border}`,
+                background: role === r.id ? T.accentLight : T.surface,
+                color: role === r.id ? T.accent : T.textMid,
+                fontSize: 12,
+                fontWeight: role === r.id ? 600 : 400,
+                cursor: "pointer",
+                fontFamily: "inherit",
               }}
             >
-              {"\u2315"}
-            </span>
+              {r.label}
+            </button>
+          ))}
+        </div>
+        <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+          <span
+            style={{
+              fontSize: 10,
+              padding: "3px 8px",
+              borderRadius: 12,
+              fontWeight: 600,
+              background: live === "live" ? T.greenBg : T.yellowBg,
+              color: live === "live" ? T.greenText : T.yellowText,
+              border: `1px solid ${live === "live" ? "#bbf7d0" : "#fef08a"}`,
+            }}
+          >
+            {live === "live" ? "\u25CF LIVE" : "DEMO"}
+          </span>
+          <div
+            style={{
+              padding: "5px 14px",
+              borderRadius: 20,
+              background: filtered.length > 0 ? T.redBg : T.greenBg,
+              fontSize: 12,
+              fontWeight: 600,
+              color: filtered.length > 0 ? T.redText : T.greenText,
+              border: `1px solid ${
+                filtered.length > 0 ? "#fecaca" : "#bbf7d0"
+              }`,
+            }}
+          >
+            {filtered.length > 0
+              ? `${filtered.length} pending`
+              : "\u2713 Clear"}
           </div>
+        </div>
+        {!mob && meta && (
+          <span style={{ fontSize: 10, color: T.textDim }}>
+            {meta.total} scanned
+          </span>
         )}
         <button
           onClick={() => {
-            localStorage.removeItem(AUTH_KEY);
+            localStorage.removeItem(AK);
             window.location.reload();
           }}
           style={{
-            padding: "5px 8px",
-            background: "transparent",
-            border: `1px solid ${C.border}`,
-            color: C.textMuted,
-            borderRadius: 6,
-            fontSize: 10,
+            padding: "5px 12px",
+            border: `1px solid ${T.border}`,
+            background: T.surface,
+            color: T.textDim,
+            borderRadius: 7,
+            fontSize: 11,
             cursor: "pointer",
-            fontFamily: "'DM Sans',sans-serif",
+            fontFamily: "inherit",
           }}
         >
-          Out
+          Sign Out
         </button>
       </div>
 
-      {/* MOBILE SEARCH */}
-      {isMobile && !mobileDetail && (
+      {/* BODY */}
+      <div style={{ flex: 1, display: "flex", overflow: "hidden" }}>
+        {/* FEED */}
         <div
           style={{
-            padding: "8px 12px",
-            borderBottom: `1px solid ${C.border}`,
-            background: C.bg,
+            flex: 1,
+            overflowY: "auto",
+            padding: mob ? "20px 16px" : "28px 32px",
           }}
         >
-          <input
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search emails..."
-            style={{
-              width: "100%",
-              padding: "10px 12px",
-              background: C.surface2,
-              border: `1px solid ${C.border}`,
-              color: C.text,
-              borderRadius: 8,
-              fontSize: 14,
-              fontFamily: "'DM Sans',sans-serif",
-              outline: "none",
-              boxSizing: "border-box",
-            }}
-          />
-        </div>
-      )}
+          <div style={{ maxWidth: 740 }}>
+            {/* Greeting */}
+            <div style={{ marginBottom: 24 }}>
+              <h1
+                style={{
+                  fontSize: 22,
+                  fontWeight: 700,
+                  color: T.text,
+                  margin: "0 0 6px",
+                }}
+              >
+                {greeting}, Dave.
+              </h1>
+              <p
+                style={{
+                  fontSize: 14,
+                  color: T.textMid,
+                  margin: 0,
+                  lineHeight: 1.6,
+                }}
+              >
+                Jarvis has triaged your inbox. {filtered.length} item
+                {filtered.length !== 1 ? "s" : ""} need
+                {filtered.length === 1 ? "s" : ""} your decision
+                {critCount > 0
+                  ? ` \u2014 ${critCount} ${
+                      critCount === 1 ? "is" : "are"
+                    } time-critical`
+                  : ""}
+                .
+              </p>
+            </div>
 
-      {/* FILTERS — scrollable on mobile */}
-      {!(isMobile && mobileDetail) && (
-        <div
-          style={{
-            padding: isMobile ? "8px 12px" : "8px 20px",
-            borderBottom: `1px solid ${C.border}`,
-            display: "flex",
-            gap: 4,
-            flexShrink: 0,
-            background: C.bg,
-            alignItems: "center",
-            overflowX: "auto",
-            WebkitOverflowScrolling: "touch",
-          }}
-        >
-          <Pill
-            c={C.accent}
-            active={stageFilter === "ALL"}
-            onClick={() => setStageFilter("ALL")}
-            n={activeCount}
-            m={isMobile}
-          >
-            Active
-          </Pill>
-          {STAGES.filter((s) => !isMobile || stgCounts[s.id] > 0).map((s) => (
-            <Pill
-              key={s.id}
-              c={s.color}
-              active={stageFilter === s.id}
-              onClick={() => setStageFilter(s.id)}
-              n={stgCounts[s.id]}
-              m={isMobile}
-            >
-              {s.icon} {s.label}
-            </Pill>
-          ))}
-          {!isMobile && (
+            {/* CARDS */}
             <div
               style={{
-                width: 1,
-                height: 20,
-                background: C.border,
-                margin: "0 4px",
-                flexShrink: 0,
+                display: "flex",
+                flexDirection: "column",
+                gap: 12,
+                marginBottom: 32,
               }}
-            />
-          )}
-          {["CRITICAL", "URGENT", "IMPORTANT"].map((f) => (
-            <Pill
-              key={f}
-              c={URGENCY[f].color}
-              active={filter === f}
-              onClick={() => setFilter(filter === f ? "ALL" : f)}
-              m={isMobile}
             >
-              {isMobile ? f.slice(0, 4) : f}
-            </Pill>
-          ))}
-          {!isMobile && (
-            <div style={{ marginLeft: "auto", display: "flex", gap: 6 }}>
-              <button
-                onClick={() => setShowComplete(!showComplete)}
-                style={{
-                  fontSize: 10,
-                  padding: "3px 10px",
-                  background: showComplete ? `${C.green}18` : "transparent",
-                  border: `1px solid ${
-                    showComplete ? C.green + "40" : C.border
-                  }`,
-                  color: showComplete ? C.green : C.textMuted,
-                  borderRadius: 6,
-                  cursor: "pointer",
-                  fontFamily: "'DM Sans',sans-serif",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                {showComplete ? "Hide" : "Show"} Done ({stgCounts.complete})
-              </button>
-              <button
-                onClick={fetchLiveData}
-                style={{
-                  fontSize: 10,
-                  padding: "3px 10px",
-                  background: "transparent",
-                  border: `1px solid ${C.border}`,
-                  color: C.textMuted,
-                  borderRadius: 6,
-                  cursor: "pointer",
-                  fontFamily: "'DM Sans',sans-serif",
-                }}
-              >
-                Refresh
-              </button>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* MAIN CONTENT */}
-      <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>
-        {/* EMAIL LIST — hidden on mobile when detail is shown */}
-        {!(isMobile && mobileDetail) && (
-          <div
-            style={{
-              width: isMobile ? "100%" : 380,
-              borderRight: isMobile ? "none" : `1px solid ${C.border}`,
-              overflowY: "auto",
-              flexShrink: 0,
-              background: C.bg,
-            }}
-          >
-            {filtered.length === 0 && (
-              <div
-                style={{
-                  padding: 32,
-                  textAlign: "center",
-                  color: C.textMuted,
-                  fontSize: 13,
-                }}
-              >
-                No items match filters
-              </div>
-            )}
-            {filtered.map((e, i) => {
-              const eu = URGENCY[e.label] || URGENCY.NOTABLE;
-              const isSel = sel?.id === e.id;
-              const stg = STAGES.find((s) => s.id === e.stage);
-              const isToday = e.date === getToday();
-              const prev = i > 0 ? filtered[i - 1] : null;
-              const showDateSep =
-                e.stage !== "complete" &&
-                (i === 0 ||
-                  (prev?.stage !== "complete" && e.date !== prev?.date));
-              const showCompSep =
-                e.stage === "complete" &&
-                (i === 0 || prev?.stage !== "complete");
-              return (
-                <div key={e.id}>
-                  {showDateSep && (
-                    <div
-                      style={{
-                        padding: isMobile ? "6px 12px" : "6px 16px",
-                        fontSize: 10,
-                        fontWeight: 600,
-                        color: isToday ? C.accent : C.orange,
-                        background: isToday ? `${C.accent}08` : `${C.orange}08`,
-                        borderBottom: `1px solid ${C.border}`,
-                        letterSpacing: ".5px",
-                        textTransform: "uppercase",
-                        display: "flex",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <span>
-                        {isToday
-                          ? "Today \u2014 New"
-                          : `${daysLabel(e.date)} \u2014 Still Active`}
-                      </span>
-                      {!isToday && (
-                        <span style={{ fontWeight: 400, opacity: 0.6 }}>
-                          Needs action
-                        </span>
-                      )}
-                    </div>
-                  )}
-                  {showCompSep && (
-                    <div
-                      style={{
-                        padding: "6px 16px",
-                        fontSize: 10,
-                        fontWeight: 600,
-                        color: C.green,
-                        background: `${C.green}08`,
-                        borderBottom: `1px solid ${C.border}`,
-                        letterSpacing: ".5px",
-                        textTransform: "uppercase",
-                      }}
-                    >
-                      Completed
-                    </div>
-                  )}
-                  <div
-                    onClick={() => selectEmail(e.id)}
-                    style={{
-                      padding: isMobile ? "14px 12px" : "12px 16px",
-                      borderBottom: `1px solid ${C.border}08`,
-                      borderLeft: isMobile
-                        ? "none"
-                        : `3px solid ${
-                            isSel && !isMobile ? eu.color : "transparent"
-                          }`,
-                      background:
-                        isSel && !isMobile
-                          ? C.surface
-                          : e.stage === "complete"
-                          ? `${C.bg}80`
-                          : "transparent",
-                      cursor: "pointer",
-                      transition: "all .1s",
-                      opacity: e.stage === "complete" ? 0.5 : 1,
-                      animation: `slideR .2s ease ${Math.min(
-                        i * 0.02,
-                        0.3
-                      )}s both`,
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        marginBottom: 4,
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: isMobile ? 14 : 12,
-                          fontWeight: 600,
-                          color: C.text,
-                          maxWidth: "60%",
-                          overflow: "hidden",
-                          textOverflow: "ellipsis",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        {e.from?.split("\u2014")[0]?.trim()}
-                      </span>
-                      <div
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                          gap: 3,
-                          flexShrink: 0,
-                        }}
-                      >
-                        {!e.read && (
-                          <span
-                            style={{
-                              width: 7,
-                              height: 7,
-                              borderRadius: "50%",
-                              background: C.accent,
-                            }}
-                          />
-                        )}
-                        {!isToday && e.stage !== "complete" && (
-                          <span
-                            style={{
-                              fontSize: 8,
-                              color: C.orange,
-                              background: `${C.orange}18`,
-                              padding: "0 4px",
-                              borderRadius: 3,
-                              fontFamily: "'JetBrains Mono',monospace",
-                            }}
-                          >
-                            CARRY
-                          </span>
-                        )}
-                        {e.aiReviewed && (
-                          <span
-                            style={{
-                              fontSize: 8,
-                              color: C.purple,
-                              background: `${C.purple}18`,
-                              padding: "0 4px",
-                              borderRadius: 3,
-                              fontFamily: "'JetBrains Mono',monospace",
-                              fontWeight: 700,
-                            }}
-                          >
-                            AI
-                          </span>
-                        )}
-                        {e.hasAttachment && (
-                          <span
-                            style={{
-                              fontSize: 8,
-                              color: C.teal,
-                              background: `${C.teal}18`,
-                              padding: "0 4px",
-                              borderRadius: 3,
-                              fontFamily: "'JetBrains Mono',monospace",
-                            }}
-                          >
-                            ATT
-                          </span>
-                        )}
-                        <span
-                          style={{
-                            fontSize: isMobile ? 11 : 10,
-                            fontWeight: 700,
-                            fontFamily: "'JetBrains Mono',monospace",
-                            color: "#fff",
-                            background: eu.color,
-                            padding: "2px 7px",
-                            borderRadius: 4,
-                          }}
-                        >
-                          {e.score}
-                        </span>
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        fontSize: isMobile ? 13 : 11,
-                        color: C.textDim,
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                        marginBottom: 5,
-                      }}
-                    >
-                      {e.subject}
-                    </div>
-                    <div
-                      style={{ display: "flex", gap: 4, alignItems: "center" }}
-                    >
-                      <span
-                        style={{
-                          fontSize: isMobile ? 10 : 9,
-                          color: eu.color,
-                          background: eu.bg,
-                          border: `1px solid ${eu.border}`,
-                          padding: "1px 6px",
-                          borderRadius: 4,
-                          fontWeight: 600,
-                        }}
-                      >
-                        {e.label}
-                      </span>
-                      {stg && (
-                        <span
-                          style={{
-                            fontSize: isMobile ? 10 : 9,
-                            color: stg.color,
-                          }}
-                        >
-                          {stg.icon} {stg.label}
-                        </span>
-                      )}
-                      <span
-                        style={{
-                          fontSize: isMobile ? 10 : 9,
-                          color: C.textMuted,
-                          marginLeft: "auto",
-                        }}
-                      >
-                        {e.time}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        )}
-
-        {/* DETAIL PANEL — full screen on mobile, right panel on desktop */}
-        {(isMobile ? mobileDetail : true) && (
-          <div
-            style={{
-              flex: 1,
-              overflowY: "auto",
-              background: C.surface,
-              animation: isMobile ? "slideL .2s ease" : "none",
-            }}
-          >
-            {sel ? (
-              (() => {
-                const dl = daysLabel(sel.date);
+              {filtered.map((item, index) => {
+                const isExp = expandedId === item.id;
+                const ug = URG[item.label] || URG.NOTABLE;
                 return (
                   <div
+                    key={item.id}
+                    onClick={() => setExpandedId(isExp ? null : item.id)}
                     style={{
-                      padding: isMobile ? 16 : 20,
-                      animation: "fadeIn .2s ease",
+                      background: T.surface,
+                      borderRadius: 14,
+                      border: `1px solid ${isExp ? T.accent + "40" : T.border}`,
+                      overflow: "hidden",
+                      cursor: "pointer",
+                      boxShadow: isExp
+                        ? "0 4px 24px rgba(99,102,241,0.08)"
+                        : "none",
+                      transition: "all 200ms",
                     }}
                   >
-                    {/* Score + sender */}
                     <div
                       style={{
+                        height: 3,
+                        background: `linear-gradient(90deg,${ug.bar},${ug.bar}80)`,
+                      }}
+                    />
+                    <div
+                      style={{
+                        padding: "16px 20px",
                         display: "flex",
                         alignItems: "center",
-                        gap: 12,
-                        marginBottom: 14,
+                        gap: 14,
                       }}
                     >
                       <div
                         style={{
-                          width: isMobile ? 48 : 44,
-                          height: isMobile ? 48 : 44,
-                          borderRadius: 10,
-                          background: u.bg,
-                          border: `2px solid ${u.color}`,
+                          width: 28,
+                          height: 28,
+                          borderRadius: "50%",
+                          background: ug.badge,
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
+                          fontSize: 12,
+                          fontWeight: 700,
+                          color: ug.text,
                           flexShrink: 0,
                         }}
                       >
-                        <span
-                          style={{
-                            fontSize: isMobile ? 18 : 16,
-                            fontWeight: 700,
-                            fontFamily: "'JetBrains Mono',monospace",
-                            color: u.color,
-                          }}
-                        >
-                          {sel.score}
-                        </span>
+                        #{index + 1}
+                      </div>
+                      <div
+                        style={{
+                          width: 36,
+                          height: 36,
+                          borderRadius: 10,
+                          background: item.color + "18",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          fontSize: 11,
+                          fontWeight: 700,
+                          color: item.color,
+                          border: `1.5px solid ${item.color}30`,
+                          flexShrink: 0,
+                        }}
+                      >
+                        {item.avatar}
                       </div>
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <div
                           style={{
-                            fontSize: isMobile ? 16 : 15,
-                            fontWeight: 700,
+                            display: "flex",
+                            alignItems: "center",
+                            gap: 8,
+                            marginBottom: 3,
                           }}
                         >
-                          {sel.from}
+                          <span
+                            style={{
+                              fontSize: 14,
+                              fontWeight: 650,
+                              color: T.text,
+                              overflow: "hidden",
+                              textOverflow: "ellipsis",
+                              whiteSpace: "nowrap",
+                            }}
+                          >
+                            {item.subject}
+                          </span>
+                          <span
+                            style={{
+                              fontSize: 10,
+                              fontWeight: 700,
+                              color: ug.text,
+                              background: ug.badge,
+                              padding: "2px 8px",
+                              borderRadius: 4,
+                              letterSpacing: 0.4,
+                              flexShrink: 0,
+                            }}
+                          >
+                            {item.label}
+                          </span>
                         </div>
-                        <div
-                          style={{
-                            fontSize: 11,
-                            color: C.textDim,
-                            fontFamily: "'JetBrains Mono',monospace",
-                            overflow: "hidden",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                          }}
-                        >
-                          {sel.email} \u2014 {dl}
+                        <div style={{ fontSize: 12, color: T.textDim }}>
+                          {item.from}{" "}
+                          {item.company ? `\u00B7 ${item.company}` : ""} \u00B7{" "}
+                          {item.time}
                         </div>
                       </div>
-                    </div>
-
-                    {/* Outlook link */}
-                    {sel.link && (
-                      <a
-                        href={sel.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                          display: "block",
-                          padding: isMobile ? "12px 0" : "8px 0",
-                          marginBottom: 12,
-                          background: C.accent,
-                          color: "#fff",
-                          borderRadius: 8,
-                          fontSize: isMobile ? 14 : 12,
-                          fontWeight: 600,
-                          textDecoration: "none",
-                          textAlign: "center",
-                        }}
-                      >
-                        Open in Outlook {"\u2197"}
-                      </a>
-                    )}
-
-                    {/* Subject */}
-                    <div
-                      style={{
-                        fontSize: isMobile ? 16 : 14,
-                        fontWeight: 600,
-                        marginBottom: 10,
-                      }}
-                    >
-                      {sel.subject}
-                    </div>
-
-                    {/* Tags */}
-                    <div
-                      style={{
-                        display: "flex",
-                        gap: 6,
-                        marginBottom: 14,
-                        flexWrap: "wrap",
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: 10,
-                          padding: "3px 8px",
-                          borderRadius: 4,
-                          background: u.bg,
-                          border: `1px solid ${u.border}`,
-                          color: u.color,
-                          fontWeight: 600,
-                        }}
-                      >
-                        {sel.label}
-                      </span>
-                      <span
-                        style={{
-                          fontSize: 10,
-                          padding: "3px 8px",
-                          borderRadius: 4,
-                          background: C.surface2,
-                          border: `1px solid ${C.border}`,
-                          color: C.textDim,
-                        }}
-                      >
-                        {PATTERNS[sel.pattern] || sel.pattern}
-                      </span>
-                      <span
-                        style={{
-                          fontSize: 10,
-                          padding: "3px 8px",
-                          borderRadius: 4,
-                          background: C.surface2,
-                          border: `1px solid ${C.border}`,
-                          color: C.textDim,
-                        }}
-                      >
-                        {sel.tier}
-                      </span>
-                      {sel.hasAttachment && (
-                        <span
-                          style={{
-                            fontSize: 10,
-                            padding: "3px 8px",
-                            borderRadius: 4,
-                            background: `${C.teal}15`,
-                            color: C.teal,
-                          }}
-                        >
-                          Attachment
-                        </span>
-                      )}
-                      {sel.aiReviewed && (
-                        <span
-                          style={{
-                            fontSize: 10,
-                            padding: "3px 8px",
-                            borderRadius: 4,
-                            background: `${C.purple}15`,
-                            color: C.purple,
-                          }}
-                        >
-                          AI Reviewed
-                        </span>
-                      )}
-                    </div>
-
-                    {/* Reasons */}
-                    {sel.reasons.length > 0 && (
                       <div
                         style={{
                           display: "flex",
-                          gap: 4,
-                          marginBottom: 14,
-                          flexWrap: "wrap",
+                          alignItems: "center",
+                          gap: 8,
+                          flexShrink: 0,
                         }}
                       >
-                        {sel.reasons.map((r, i) => (
-                          <span
-                            key={i}
+                        {item.deal && (
+                          <div
                             style={{
-                              fontSize: 9,
-                              padding: "2px 6px",
-                              borderRadius: 3,
-                              background: C.surface2,
-                              color: C.textDim,
-                              fontFamily: "'JetBrains Mono',monospace",
-                            }}
-                          >
-                            {r}
-                          </span>
-                        ))}
-                      </div>
-                    )}
-
-                    {/* Pipeline mover */}
-                    <div style={{ marginBottom: 14 }}>
-                      <div
-                        style={{
-                          fontSize: 10,
-                          color: C.textMuted,
-                          fontWeight: 600,
-                          marginBottom: 6,
-                          textTransform: "uppercase",
-                          letterSpacing: ".5px",
-                        }}
-                      >
-                        Move to
-                      </div>
-                      <div
-                        style={{
-                          display: "grid",
-                          gridTemplateColumns: isMobile
-                            ? "repeat(3, 1fr)"
-                            : "repeat(6, auto)",
-                          gap: 6,
-                        }}
-                      >
-                        {STAGES.map((s) => (
-                          <button
-                            key={s.id}
-                            onClick={() => {
-                              update(sel.id, "stage", s.id);
-                              if (s.id === "complete" && isMobile)
-                                setTimeout(backToList, 300);
-                            }}
-                            style={{
-                              padding: isMobile ? "10px 0" : "5px 10px",
-                              background:
-                                sel.stage === s.id
-                                  ? `${s.color}18`
-                                  : "transparent",
-                              border: `1px solid ${
-                                sel.stage === s.id ? s.color + "50" : C.border
-                              }`,
-                              color: sel.stage === s.id ? s.color : C.textMuted,
+                              padding: "4px 10px",
                               borderRadius: 6,
-                              fontSize: isMobile ? 12 : 10,
-                              fontWeight: 500,
-                              cursor: "pointer",
-                              fontFamily: "'DM Sans',sans-serif",
-                              textAlign: "center",
+                              background: T.bg,
+                              fontSize: 11,
+                              color: T.textMid,
                             }}
                           >
-                            {s.icon} {s.label}
-                          </button>
-                        ))}
+                            {item.deal}
+                          </div>
+                        )}
+                        <div
+                          style={{
+                            fontSize: 12,
+                            color: T.textDim,
+                            transition: "transform 200ms",
+                            transform: isExp ? "rotate(180deg)" : "none",
+                          }}
+                        >
+                          {"\u25BE"}
+                        </div>
                       </div>
                     </div>
 
-                    {/* Quip */}
-                    {sel.quip && (
+                    {isExp && (
                       <div
                         style={{
-                          padding: "10px 12px",
-                          marginBottom: 12,
-                          background: `${C.accent}08`,
-                          borderLeft: `3px solid ${C.accent}40`,
-                          borderRadius: "0 8px 8px 0",
-                          fontSize: 13,
-                          color: C.accent,
-                          fontStyle: "italic",
+                          padding: "0 20px 20px",
+                          borderTop: `1px solid ${T.borderLight}`,
                         }}
                       >
-                        "{sel.quip}"
-                      </div>
-                    )}
-
-                    {/* Jarvis Briefing */}
-                    {sel.jarvis && (
-                      <div style={{ marginBottom: 12 }}>
+                        {/* JARVIS brief */}
                         <div
                           style={{
-                            fontSize: 10,
-                            fontWeight: 600,
-                            color: C.accent,
-                            letterSpacing: ".5px",
-                            marginBottom: 4,
-                            textTransform: "uppercase",
+                            margin: "16px 0 14px",
+                            padding: "14px 16px",
+                            background: T.accentLight,
+                            borderRadius: 10,
+                            border: `1px solid ${T.accentBorder}`,
                           }}
                         >
-                          Jarvis Briefing
-                        </div>
-                        <div
-                          style={{
-                            padding: "10px 12px",
-                            background: C.bg,
-                            borderRadius: 8,
-                            fontSize: isMobile ? 13 : 12,
-                            color: C.textDim,
-                            lineHeight: 1.6,
-                            border: `1px solid ${C.border}`,
-                          }}
-                        >
-                          {sel.jarvis}
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Recommended Action */}
-                    {sel.action && (
-                      <div style={{ marginBottom: 12 }}>
-                        <div
-                          style={{
-                            fontSize: 10,
-                            fontWeight: 600,
-                            color: u.color,
-                            letterSpacing: ".5px",
-                            marginBottom: 4,
-                            textTransform: "uppercase",
-                          }}
-                        >
-                          Recommended Action
-                        </div>
-                        <div
-                          style={{
-                            padding: "10px 12px",
-                            background: u.bg,
-                            borderRadius: 8,
-                            fontSize: isMobile ? 13 : 12,
-                            color: u.color,
-                            lineHeight: 1.6,
-                            border: `1px solid ${u.border}`,
-                            fontWeight: 500,
-                          }}
-                        >
-                          {sel.action}
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Draft Reply */}
-                    {sel.reply && (
-                      <div style={{ marginBottom: 12 }}>
-                        <div
-                          style={{
-                            fontSize: 10,
-                            fontWeight: 600,
-                            color: C.textDim,
-                            letterSpacing: ".5px",
-                            marginBottom: 4,
-                            textTransform: "uppercase",
-                          }}
-                        >
-                          Draft Reply
-                        </div>
-                        <div
-                          style={{
-                            padding: "10px 12px",
-                            background: C.bg,
-                            borderRadius: 8,
-                            fontSize: 12,
-                            fontFamily: "'JetBrains Mono',monospace",
-                            color: C.textDim,
-                            lineHeight: 1.7,
-                            border: `1px solid ${C.border}`,
-                            whiteSpace: "pre-wrap",
-                          }}
-                        >
-                          {sel.reply}
-                        </div>
-                        <div style={{ display: "flex", gap: 6, marginTop: 6 }}>
-                          <button
-                            onClick={() =>
-                              navigator.clipboard?.writeText(sel.reply)
-                            }
+                          <div
                             style={{
-                              flex: 1,
-                              padding: isMobile ? "10px 0" : "5px 12px",
-                              background: C.surface2,
-                              border: `1px solid ${C.border}`,
-                              color: C.accent,
-                              borderRadius: 6,
-                              fontSize: isMobile ? 12 : 10,
-                              fontWeight: 600,
-                              cursor: "pointer",
-                              fontFamily: "'DM Sans',sans-serif",
+                              fontSize: 10,
+                              fontWeight: 700,
+                              color: T.accent,
+                              marginBottom: 7,
+                              letterSpacing: 0.5,
                             }}
                           >
-                            Copy as Dave
-                          </button>
-                          <button
-                            onClick={() =>
-                              navigator.clipboard?.writeText(
-                                `Hi ${sel.from
-                                  ?.split("\u2014")[0]
-                                  ?.split(" ")[0]
-                                  ?.trim()},\n\nDave asked me to follow up.\n\n${sel.reply
-                                  .split("\n")
-                                  .slice(1)
-                                  .join("\n")}\n\nBest regards,\nFrance`
-                              )
-                            }
+                            JARVIS SAYS
+                          </div>
+                          <p
                             style={{
-                              flex: 1,
-                              padding: isMobile ? "10px 0" : "5px 12px",
-                              background: C.surface2,
-                              border: `1px solid ${C.border}`,
-                              color: C.orange,
-                              borderRadius: 6,
-                              fontSize: isMobile ? 12 : 10,
-                              fontWeight: 600,
-                              cursor: "pointer",
-                              fontFamily: "'DM Sans',sans-serif",
+                              fontSize: 13.5,
+                              color: T.accentText,
+                              lineHeight: 1.65,
+                              margin: 0,
                             }}
                           >
-                            Copy as France
-                          </button>
+                            {item.jarvis}
+                          </p>
                         </div>
+                        {/* Suggested action */}
+                        {item.action && (
+                          <div
+                            style={{
+                              fontSize: 12.5,
+                              color: T.textMid,
+                              marginBottom: 12,
+                              display: "flex",
+                              alignItems: "center",
+                              gap: 6,
+                            }}
+                          >
+                            <span style={{ color: T.green, fontSize: 14 }}>
+                              {"\u2192"}
+                            </span>
+                            <span>
+                              <strong>Suggested:</strong> {item.action}
+                            </span>
+                          </div>
+                        )}
+                        {/* NLP Widget */}
+                        <NlpWidget
+                          email={item}
+                          onApply={(stage) => upd(item.id, stage)}
+                        />
+                        {/* Actions */}
+                        <div
+                          style={{ display: "flex", gap: 8, flexWrap: "wrap" }}
+                        >
+                          {(item.actions || []).map((act) => {
+                            const isPri = act === item.primaryAction;
+                            return (
+                              <button
+                                key={act}
+                                onClick={(ev) => {
+                                  ev.stopPropagation();
+                                  if (isPri) markDone(item.id);
+                                }}
+                                style={{
+                                  padding: isPri ? "10px 22px" : "10px 18px",
+                                  borderRadius: 9,
+                                  border: isPri
+                                    ? "none"
+                                    : `1px solid ${T.border}`,
+                                  background: isPri
+                                    ? "linear-gradient(135deg,#6366f1,#8b5cf6)"
+                                    : T.surface,
+                                  color: isPri ? "#fff" : T.textMid,
+                                  fontSize: 13,
+                                  fontWeight: isPri ? 600 : 500,
+                                  cursor: "pointer",
+                                  fontFamily: "inherit",
+                                  boxShadow: isPri
+                                    ? "0 2px 12px rgba(99,102,241,0.3)"
+                                    : "none",
+                                  transition: "all 150ms",
+                                }}
+                              >
+                                {act}
+                              </button>
+                            );
+                          })}
+                        </div>
+                        {/* Reply */}
+                        {item.reply && (
+                          <div
+                            style={{
+                              marginTop: 14,
+                              padding: "12px 14px",
+                              background: T.bg,
+                              borderRadius: 8,
+                              border: `1px solid ${T.border}`,
+                            }}
+                          >
+                            <div
+                              style={{
+                                fontSize: 10,
+                                fontWeight: 600,
+                                color: T.textDim,
+                                marginBottom: 6,
+                                letterSpacing: 0.5,
+                              }}
+                            >
+                              DRAFT REPLY
+                            </div>
+                            <pre
+                              style={{
+                                fontSize: 12,
+                                color: T.textMid,
+                                lineHeight: 1.6,
+                                margin: 0,
+                                whiteSpace: "pre-wrap",
+                                fontFamily: "inherit",
+                              }}
+                            >
+                              {item.reply}
+                            </pre>
+                            <div
+                              style={{ display: "flex", gap: 6, marginTop: 8 }}
+                            >
+                              <button
+                                onClick={(ev) => {
+                                  ev.stopPropagation();
+                                  navigator.clipboard?.writeText(item.reply);
+                                }}
+                                style={{
+                                  padding: "6px 14px",
+                                  borderRadius: 6,
+                                  border: `1px solid ${T.border}`,
+                                  background: T.surface,
+                                  color: T.accent,
+                                  fontSize: 11,
+                                  fontWeight: 600,
+                                  cursor: "pointer",
+                                  fontFamily: "inherit",
+                                }}
+                              >
+                                Copy as Dave
+                              </button>
+                              <button
+                                onClick={(ev) => {
+                                  ev.stopPropagation();
+                                  navigator.clipboard?.writeText(
+                                    `Hi ${
+                                      (item.from || "").split(" ")[0]
+                                    },\n\nDave asked me to follow up.\n\n${item.reply
+                                      .split("\n")
+                                      .slice(1)
+                                      .join("\n")}\n\nBest regards,\nFrance`
+                                  );
+                                }}
+                                style={{
+                                  padding: "6px 14px",
+                                  borderRadius: 6,
+                                  border: `1px solid ${T.border}`,
+                                  background: T.surface,
+                                  color: T.orange,
+                                  fontSize: 11,
+                                  fontWeight: 600,
+                                  cursor: "pointer",
+                                  fontFamily: "inherit",
+                                }}
+                              >
+                                Copy as France
+                              </button>
+                            </div>
+                          </div>
+                        )}
                       </div>
                     )}
                   </div>
                 );
-              })()
-            ) : (
-              <div
-                style={{
-                  padding: 40,
-                  textAlign: "center",
-                  color: C.textMuted,
-                  fontSize: 13,
-                }}
-              >
-                {isMobile ? "" : "Select an email"}
+              })}
+            </div>
+
+            {/* DONE */}
+            {doneItems.length > 0 && (
+              <div>
+                <div
+                  style={{
+                    fontSize: 11,
+                    fontWeight: 600,
+                    color: T.textDim,
+                    letterSpacing: 0.6,
+                    textTransform: "uppercase",
+                    marginBottom: 12,
+                  }}
+                >
+                  Completed
+                </div>
+                <div
+                  style={{ display: "flex", flexDirection: "column", gap: 8 }}
+                >
+                  {doneItems.slice(0, 5).map((item) => (
+                    <div
+                      key={item.id}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 12,
+                        padding: "12px 16px",
+                        background: T.surface,
+                        borderRadius: 10,
+                        border: `1px solid ${T.border}`,
+                        opacity: 0.6,
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: 22,
+                          height: 22,
+                          borderRadius: "50%",
+                          background: T.greenBg,
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          fontSize: 11,
+                          color: T.green,
+                        }}
+                      >
+                        {"\u2713"}
+                      </div>
+                      <span style={{ fontSize: 13, color: T.textMid, flex: 1 }}>
+                        {item.subject}
+                      </span>
+                      <span style={{ fontSize: 11, color: T.textDim }}>
+                        {item.from}
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
+          </div>
+        </div>
+
+        {/* SIDEBAR */}
+        {!mob && (
+          <div
+            style={{
+              width: 280,
+              flexShrink: 0,
+              overflowY: "auto",
+              padding: "24px 20px",
+              background: T.surface,
+              borderLeft: `1px solid ${T.border}`,
+            }}
+          >
+            <div
+              style={{
+                fontSize: 11,
+                fontWeight: 600,
+                color: T.textDim,
+                letterSpacing: 0.6,
+                textTransform: "uppercase",
+                marginBottom: 16,
+              }}
+            >
+              Deal Overview
+            </div>
+            {DEALS.map((deal) => (
+              <div
+                key={deal.name}
+                style={{
+                  padding: "12px 14px",
+                  background: T.bg,
+                  borderRadius: 10,
+                  border: `1px solid ${T.border}`,
+                  marginBottom: 10,
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    marginBottom: 6,
+                  }}
+                >
+                  <span
+                    style={{ fontSize: 13, fontWeight: 600, color: T.text }}
+                  >
+                    {deal.name}
+                  </span>
+                  <span
+                    style={{ fontSize: 12, fontWeight: 700, color: deal.color }}
+                  >
+                    {deal.value}
+                  </span>
+                </div>
+                <div
+                  style={{ fontSize: 11, color: T.textDim, marginBottom: 8 }}
+                >
+                  {deal.stage}
+                </div>
+                <div
+                  style={{
+                    height: 4,
+                    background: T.border,
+                    borderRadius: 2,
+                    overflow: "hidden",
+                  }}
+                >
+                  <div
+                    style={{
+                      height: "100%",
+                      width: `${deal.progress}%`,
+                      background: deal.color,
+                      borderRadius: 2,
+                    }}
+                  />
+                </div>
+              </div>
+            ))}
+            <div
+              style={{
+                marginTop: 20,
+                padding: 14,
+                background: T.accentLight,
+                borderRadius: 10,
+                border: `1px solid ${T.accentBorder}`,
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 10,
+                  fontWeight: 700,
+                  color: T.accent,
+                  marginBottom: 8,
+                  letterSpacing: 0.5,
+                }}
+              >
+                PIPELINE TOTAL
+              </div>
+              <div
+                style={{
+                  fontSize: 22,
+                  fontWeight: 700,
+                  color: T.accentText,
+                  marginBottom: 2,
+                }}
+              >
+                {"\u00A3"}42M+
+              </div>
+              <div style={{ fontSize: 11, color: T.accent }}>
+                {DEALS.length} active deals {"\u00B7"} {critCount} critical
+              </div>
+            </div>
           </div>
         )}
       </div>
     </div>
-  );
-}
-
-function Pill({ c, active, onClick, n, m, children }) {
-  return (
-    <button
-      onClick={onClick}
-      style={{
-        padding: m ? "5px 10px" : "3px 10px",
-        fontSize: m ? 11 : 10,
-        fontWeight: active ? 600 : 400,
-        fontFamily: "'DM Sans',sans-serif",
-        background: active ? `${c}18` : "transparent",
-        border: `1px solid ${active ? c + "40" : C.border}`,
-        color: active ? c : C.textMuted,
-        borderRadius: 6,
-        cursor: "pointer",
-        display: "flex",
-        alignItems: "center",
-        gap: 4,
-        whiteSpace: "nowrap",
-        flexShrink: 0,
-      }}
-    >
-      {children}
-      {n !== undefined && (
-        <span
-          style={{
-            fontSize: 9,
-            fontFamily: "'JetBrains Mono',monospace",
-            opacity: 0.7,
-          }}
-        >
-          {n}
-        </span>
-      )}
-    </button>
   );
 }
