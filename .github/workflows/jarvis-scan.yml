@@ -3,19 +3,19 @@ name: JARVIS Scan
 on:
   schedule:
     # Run every hour at minute 0
-    - cron: "0 * * * *"
+    - cron: '0 * * * *'
   workflow_dispatch:
     # Manual trigger from GitHub Actions tab
     inputs:
       hours:
-        description: "Hours to scan back"
+        description: 'Hours to scan back'
         required: false
-        default: "2"
+        default: '2'
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout dashboard repo
         uses: actions/checkout@v4
@@ -25,7 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install dependencies
         run: pip install requests
@@ -38,13 +38,25 @@ jobs:
           DAVE_EMAIL: ${{ secrets.DAVE_EMAIL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
+          cd scripts
+          rm -f jarvis_seen.json
           HOURS="${{ github.event.inputs.hours || '2' }}"
-          python scripts/jarvis_scan.py --hours $HOURS
-
+          python jarvis_scan.py --hours $HOURS
+          cd ..
+          
       - name: Copy results to public data
         run: |
           mkdir -p public/data
-          cp scripts/jarvis_results.json public/data/jarvis_results.json
+          # Find the results file wherever it was written
+          if [ -f scripts/jarvis_results.json ]; then
+            cp scripts/jarvis_results.json public/data/jarvis_results.json
+          elif [ -f jarvis_results.json ]; then
+            cp jarvis_results.json public/data/jarvis_results.json
+          else
+            echo "ERROR: jarvis_results.json not found"
+            find . -name "jarvis_results.json" -type f
+            exit 1
+          fi
 
       - name: Commit and push results
         run: |
