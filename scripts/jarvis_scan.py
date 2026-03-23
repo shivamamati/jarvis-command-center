@@ -747,6 +747,7 @@ def run_scan(hours=24, post_teams=False):
             "web_link": email.get("webLink", ""),
             "is_read": email.get("isRead", False),
             "has_attachments": c["has_attachments"],
+            "conversation_id": email.get("conversationId", ""),
             "rules_score": c["score"], "rules_label": c["label"],
             "rules_tier": c["tier"], "rules_reasons": c["reasons"],
             "ai_reviewed": ai_result is not None, 
@@ -765,6 +766,32 @@ def run_scan(hours=24, post_teams=False):
 
         # R4: Mark as processed
         seen[eid] = datetime.now(timezone.utc).isoformat()
+
+    # THREAD DEDUPLICATION: Keep only the latest email per conversation
+    # For threads with multiple replies, show only the most recent one with the highest score
+    deduped = {}
+    for r in results:
+        cid = r.get("conversation_id", "")
+        if not cid:
+            # No conversation ID — keep as-is (use subject as fallback key)
+            key = f"nocid__{r['sender_email']}__{r['subject']}"
+        else:
+            key = cid
+        
+        if key not in deduped:
+            deduped[key] = r
+        else:
+            existing = deduped[key]
+            # Keep the one with higher score, or if same score, the newer one
+            if r["final_score"] > existing["final_score"]:
+                deduped[key] = r
+            elif r["final_score"] == existing["final_score"] and r["received"] > existing["received"]:
+                deduped[key] = r
+    
+    before_dedup = len(results)
+    results = list(deduped.values())
+    if before_dedup > len(results):
+        log.info(f"  🧹 Thread dedup: {before_dedup} → {len(results)} (merged {before_dedup - len(results)} thread replies)")
 
     results.sort(key=lambda x: x["final_score"], reverse=True)
 
