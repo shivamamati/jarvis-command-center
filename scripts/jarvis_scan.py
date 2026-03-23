@@ -400,11 +400,40 @@ def classify_email(email_data, cal_contacts=None, dave_replied=None, convo_map=N
 # ═══════════════════════════════════════════════════════════════
 # LAYER 2: CLAUDE AI (with R3 fallback)
 # ═══════════════════════════════════════════════════════════════
-JARVIS_PROMPT = """You are JARVIS, AI email triage for Dave Misra (Galaxy Data Centers, Redhill DC UK).
-Classify unknown-sender emails. Return ONLY JSON:
-{"score":<1-10>,"label":"<CRITICAL|URGENT|IMPORTANT|NOTABLE|NOISE>","pattern":"<A-J or N>","summary":"<1-2 sentences>","action":"<next step>","contact_type":"<type>","reasoning":"<why>"}
-9-10=act today, 7-8=24-48hr, 5-6=this week, 3-4=monitor, 1-2=noise.
-Score HIGHER when in doubt — missing important email is worse than false positive."""
+JARVIS_PROMPT = """You are JARVIS, AI email triage for Dave Misra — Managing Partner at Galaxy Capital Partners / Galaxy Data Centers, a European digital infrastructure private equity firm.
+
+DAVE'S BUSINESS:
+- Acquires, develops, and operates data centers across Europe
+- Key asset: Redhill Data Centre, UK (JV with Castleforge Partners, lender SMBC/ICG)
+- Active deals: 18MW AI prospect (TechRE/John Hall), DRT Cloud House partnership, Poland 260MW, Innogate Milan
+- Fundraising: Series B, LP relationships, capital raising partners
+- Key partners: Castleforge, Savills, CBRE, JLL, Knight Frank, Simmons & Simmons (legal), JSA (PR/awards), Adaptive MDC (engineering), Zayo/Colt/Lumen (connectivity)
+- Internal team: France (EA), TJ, Paul, Ash, Ashley, Sai, Colin, Rodrigo (IT), Krish, Shivam (AI)
+
+WHAT DAVE CARES ABOUT (score 5+):
+- Any NDA, MNDA, LOI, proposal, term sheet, contract, agreement
+- Any mention of MW, racks, power, capacity, substation, data center site
+- Any investor, capital raiser, fund manager, family office, LP reaching out
+- Any broker/introducer bringing a prospect or deal
+- Any DocuSign document — these are almost always deal-related
+- Any cold email from someone at a real company offering a partnership, introduction, or business opportunity
+- Any resume/CV of an executive who could help Galaxy (capital raising, BD, engineering)
+- Any email from someone Dave has replied to before
+- Internal team threads about deals, customers, or operations
+
+WHAT IS NOISE (score 1-2):
+- Newsletters, Substack posts, weekly digests, market commentary with no direct relevance
+- Marketing emails, promotional offers, subscription upgrades
+- Travel deals, flight prices, hotel offers
+- Webinar invites from companies Dave has no relationship with
+- LinkedIn connection requests, social media notifications
+- Automated system notifications (quarantine, login alerts, receipts)
+- Survey requests, feedback forms, product tours
+
+CRITICAL RULE: When in doubt, keep it. Missing a deal is catastrophic. Showing a false positive costs nothing. If the email is from a real person (not a marketing system) and mentions anything related to data centers, real estate, infrastructure, capital, or investment — score it 5+.
+
+Return ONLY valid JSON:
+{"score":<1-10>,"label":"<CRITICAL|URGENT|IMPORTANT|NOTABLE|NOISE>","pattern":"<A-J or N>","summary":"<1-2 sentence business context>","action":"<specific next step for Dave or France>","contact_type":"<Investor|Customer|Broker|Partner|Internal|Vendor|Unknown>","reasoning":"<why this score>"}"""
 
 def ai_classify(se, sn, subj, body):
     """R3: If AI fails, return a safe default instead of None (never silently drop)."""
@@ -643,7 +672,7 @@ def run_scan(hours=24, post_teams=False):
         body = email.get("bodyPreview", "")
 
         # HARD NOISE: System notifications that are NEVER useful — skip instantly
-        hard_noise_senders = ["noreply","no-reply","no_reply","notifications@","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","mailchimp","sendgrid.net","sharepointonline.com","lyftmail.com","agoda-emails.com","borrowell.com","clearscore.com","h5.hilton.com","kiwi.com","nordpass.com","td.com","riipen.com","eventbrite.com","aircanada.com","mail.aircanada.com","bmwtoronto.ca","owasco.com","telus.com","fireflies.ai","minuteslink.com","calendly.com","facebookmail.com","twitter.com"]
+        hard_noise_senders = ["noreply","no-reply","no_reply","notifications@","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","mailchimp","sendgrid.net","sharepointonline.com","lyftmail.com","agoda-emails.com","borrowell.com","clearscore.com","h5.hilton.com","kiwi.com","nordpass.com","td.com","riipen.com","eventbrite.com","aircanada.com","mail.aircanada.com","bmwtoronto.ca","owasco.com","telus.com","fireflies.ai","minuteslink.com","calendly.com","facebookmail.com","twitter.com","fusionnotes.com","iddidesign.com","salute.com","dcsmi.com","colossusdc.com","thegpu.ai","mail.raises.com","news.vntr.vc","privateequitybro.com","law360.com","saltlending.com","@beehiiv.com","microsoft-noreply@","substack.com","connect.media","linkedin.com","hubspot.com","hubspotemail.net","@144772270.mailchimpapp.com","newsroomreplies@","weekender@","weekendbriefing@","opening-bell@","estate-elegance@","teamphlote@","oldmennewmoney@","advalorem@","newsletter","marketing@","mail.monday.com","learn.mail.monday.com","mail.granola","datacenterdynamics.com","alpha-sense.com","crystalknows.com","armanino.com","amazon.com","aws-marketing"]
         hard_noise_subjects = ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","new login from","new device login","your ride with","your trial ends","take off for less","pack your bags","upgrade to premium","last chance:","smoother pickups","voting is now open","verify a new device","complete your","reminder: complete","your microsoft invoice","tell us more about your"]
         se_low = se.lower()
         subj_low = subj.lower()
