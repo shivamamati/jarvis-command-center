@@ -779,7 +779,7 @@ def run_scan(hours=24, post_teams=False):
 
         result = {
             "sender_email": se, "sender_name": sn, "subject": subj,
-            "body_preview": body[:200],
+            "body_preview": body[:500],
             "received": email.get("receivedDateTime", ""),
             "web_link": email.get("webLink", ""),
             "is_read": email.get("isRead", False),
