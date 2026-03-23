@@ -1649,14 +1649,35 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
                 display: "inline-flex", alignItems: "center", gap: 6,
               }}>Open in Outlook {"\u2197"}</a>
             )}
-            {/* Other action buttons (Delegate, etc.) */}
-            {(item.actions || []).filter(a => a !== "Mark Done").map(act => (
-              <button key={act} onClick={ev => { ev.stopPropagation(); if (act === "Delegate to France") upd(item.id, "france"); }} style={{
-                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.border}`,
-                background: T.surface, color: T.textMid, fontSize: 13, fontWeight: 500,
+            {/* Other action buttons — stage-aware */}
+            {(item.actions || []).filter(a => a !== "Mark Done").map(act => {
+              // If item is already in france stage, swap "Delegate to France" for "Move to Dave"
+              if (act === "Delegate to France" && item.stage === "france") {
+                return (
+                  <button key="move-dave" onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
+                    padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
+                    background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 600,
+                    cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+                  }}>{"\u2605"} Move to Dave</button>
+                );
+              }
+              // Skip showing "Delegate to France" label if already there
+              return (
+                <button key={act} onClick={ev => { ev.stopPropagation(); if (act === "Delegate to France") upd(item.id, "france"); }} style={{
+                  padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.border}`,
+                  background: T.surface, color: T.textMid, fontSize: 13, fontWeight: 500,
+                  cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+                }}>{act}</button>
+              );
+            })}
+            {/* Move to Dave — always show on france/external/scheduled items that don't have Delegate in actions */}
+            {item.stage !== "dave" && item.stage !== "inbox" && !(item.actions || []).includes("Delegate to France") && (
+              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
+                background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 600,
                 cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>{act}</button>
-            ))}
+              }}>{"\u2605"} Move to Dave</button>
+            )}
             {/* Mark Done — always last */}
             <button onClick={ev => { ev.stopPropagation(); markDone(item.id); }} style={{
               padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.green}40`,
