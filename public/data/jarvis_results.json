@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T20:34:34.666564+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 9,
-  "ai": 6,
+  "timestamp": "2026-03-23T21:33:10.068186+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 5,
+  "ai": 4,
   "skipped": 0,
-  "auto_learned": 35,
+  "auto_learned": 36,
   "items": [
+    {
+      "sender_email": "tom.babbington@adaptive-mdc.com",
+      "sender_name": "Tom Babbington",
+      "subject": "Redhill Updated Deck",
+      "body_preview": "Hi Ash and Dave,\r\n\r\nPlease find attached the updated slides for the Redhill Data Centre proposal.\r\n\r\nWe have incorporated your comments as follows:\r\n\r\nStructural considerations have been reviewed and ",
+      "received": "2026-03-23T21:24:25Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiA8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLeMa6IsUcusiMkbzoHH_c=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Tom Babbington]",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "Attachments + deal KW (+2)",
+        "Tier 2: adaptive-mdc.com",
+        "Pipeline: tom babbington",
+        "KW: proposal, lease, data cent",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -893,5 +924,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 33
+  "total_tracked": 34
 }
