@@ -637,11 +637,15 @@ function Dashboard() {
 }
 
 // ═══════════════════════════════════════════════════════════
-// ALL EMAILS PAGE — Full scored list with detail panel
+// ALL EMAILS PAGE — Polished Superhuman-inspired design
 // ═══════════════════════════════════════════════════════════
 function AllEmailsPage({ data, upd, mob }) {
-  // Uses same light theme T from main app
-  const DU = { CRITICAL:{c:T.red,bg:T.redBg,bd:T.red+"20"}, URGENT:{c:T.orange,bg:T.orangeBg,bd:T.orange+"20"}, IMPORTANT:{c:T.yellow,bg:T.yellowBg,bd:T.yellow+"20"}, NOTABLE:{c:T.muted,bg:T.mutedBg,bd:T.muted+"20"} };
+  const U = {
+    CRITICAL: { c: "#dc2626", bg: "#fef2f2", bd: "#fecaca", dot: "#dc2626" },
+    URGENT: { c: "#ea580c", bg: "#fff7ed", bd: "#fed7aa", dot: "#ea580c" },
+    IMPORTANT: { c: "#ca8a04", bg: "#fefce8", bd: "#fef08a", dot: "#ca8a04" },
+    NOTABLE: { c: "#64748b", bg: "#f8fafc", bd: "#e2e8f0", dot: "#94a3b8" },
+  };
 
   const [selId, setSelId] = useState(null);
   const [search, setSearch] = useState("");
@@ -649,13 +653,14 @@ function AllEmailsPage({ data, upd, mob }) {
   const [stageFilter, setStageFilter] = useState("ALL");
   const [showDone, setShowDone] = useState(false);
   const [mobDetail, setMobDetail] = useState(false);
+  const [hovId, setHovId] = useState(null);
 
   const filtered = useMemo(() => {
     let r = [...data];
     if (!showDone) r = r.filter(e => e.stage !== "complete");
     if (urgFilter !== "ALL") r = r.filter(e => e.label === urgFilter);
     if (stageFilter !== "ALL") r = r.filter(e => e.stage === stageFilter);
-    if (search) r = r.filter(e => `${e.from} ${e.subject} ${e.email||""} ${e.company||""}`.toLowerCase().includes(search.toLowerCase()));
+    if (search) r = r.filter(e => `${e.from} ${e.subject} ${e.email || ""} ${e.company || ""}`.toLowerCase().includes(search.toLowerCase()));
     return r.sort((a, b) => {
       if (a.date && b.date && a.date !== b.date) return b.date.localeCompare(a.date);
       return b.score - a.score;
@@ -663,166 +668,333 @@ function AllEmailsPage({ data, upd, mob }) {
   }, [data, urgFilter, stageFilter, search, showDone]);
 
   const sel = selId ? data.find(e => e.id === selId) : null;
-  const u = sel ? (DU[sel.label] || DU.NOTABLE) : DU.NOTABLE;
+  const u = sel ? (U[sel.label] || U.NOTABLE) : U.NOTABLE;
   const doneCount = data.filter(e => e.stage === "complete").length;
-  const activeCount = data.filter(e => e.stage !== "complete").length;
+  const critCount = data.filter(e => e.label === "CRITICAL" && e.stage !== "complete").length;
+  const urgCount = data.filter(e => e.label === "URGENT" && e.stage !== "complete").length;
+
+  // Group emails by date for section headers
+  const grouped = useMemo(() => {
+    const groups = [];
+    let lastDate = "";
+    filtered.forEach(e => {
+      const d = e.date || "";
+      if (d !== lastDate) { groups.push({ type: "header", date: d }); lastDate = d; }
+      groups.push({ type: "email", data: e });
+    });
+    return groups;
+  }, [filtered]);
 
   return (
-    <div style={{ flex:1, display:"flex", overflow:"hidden", background:T.bg, fontFamily:"'Inter',system-ui,sans-serif" }}>
-      <style>{`::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:${T.border};border-radius:4px}`}</style>
-
-      {/* LEFT LIST */}
+    <div style={{ flex: 1, display: "flex", overflow: "hidden" }}>
+      {/* LEFT PANEL — Email List */}
       {!(mob && mobDetail) && (
-        <div style={{ width:mob?"100%":420, borderRight:mob?"none":`1px solid ${T.border}`, display:"flex", flexDirection:"column", background:T.bg }}>
-          {/* Search + Filters */}
-          <div style={{ padding:"12px 16px", borderBottom:`1px solid ${T.border}`, display:"flex", flexDirection:"column", gap:8 }}>
-            <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search all emails..." style={{ width:"100%", padding:"10px 14px", background:T.surface, border:`1px solid ${T.border}`, color:T.text, borderRadius:8, fontSize:13, fontFamily:"inherit", outline:"none", boxSizing:"border-box" }} />
-            <div style={{ display:"flex", gap:4, flexWrap:"wrap", alignItems:"center" }}>
-              {["ALL","CRITICAL","URGENT","IMPORTANT","NOTABLE"].map(f => {
-                const fc = f==="ALL" ? T.accent : (DU[f]?.c || T.teal);
-                return <button key={f} onClick={()=>setUrgFilter(f)} style={{ fontSize:10, padding:"4px 10px", borderRadius:5, cursor:"pointer", fontFamily:"inherit", fontWeight:urgFilter===f?700:400, border:`1px solid ${urgFilter===f?fc+"40":T.border}`, background:urgFilter===f?`${fc}12`:"transparent", color:urgFilter===f?fc:T.textDim }}>{f==="ALL"?"All":f}</button>;
-              })}
-              <div style={{ marginLeft:"auto" }}>
-                <button onClick={()=>setShowDone(!showDone)} style={{ fontSize:10, padding:"4px 10px", borderRadius:5, border:`1px solid ${showDone?T.green+"40":T.border}`, background:showDone?`${T.green}12`:"transparent", color:showDone?T.green:T.textDim, cursor:"pointer", fontFamily:"inherit" }}>{showDone?"Hide":"Show"} Done ({doneCount})</button>
-              </div>
+        <div style={{ width: mob ? "100%" : 440, display: "flex", flexDirection: "column", background: "#ffffff", borderRight: mob ? "none" : "1px solid #f0f0f0" }}>
+          {/* Toolbar */}
+          <div style={{ padding: "16px 20px 12px", borderBottom: "1px solid #f0f0f0" }}>
+            {/* Search */}
+            <div style={{ position: "relative", marginBottom: 12 }}>
+              <svg style={{ position: "absolute", left: 12, top: 10, opacity: 0.3 }} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1a1a2e" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search emails, contacts, deals..." style={{
+                width: "100%", padding: "10px 14px 10px 36px", background: "#fafafa", border: "1px solid #ebebeb",
+                borderRadius: 10, fontSize: 13, fontFamily: "'DM Sans',system-ui,sans-serif", color: "#1a1a2e",
+                outline: "none", boxSizing: "border-box", transition: "border 200ms, box-shadow 200ms",
+              }} onFocus={e => { e.target.style.borderColor = "#6366f1"; e.target.style.boxShadow = "0 0 0 3px rgba(99,102,241,0.08)"; }}
+                onBlur={e => { e.target.style.borderColor = "#ebebeb"; e.target.style.boxShadow = "none"; }} />
             </div>
-            <div style={{ display:"flex", gap:4, flexWrap:"wrap" }}>
-              {STAGES.filter(s=>s.id!=="complete").map(s => (
-                <button key={s.id} onClick={()=>setStageFilter(stageFilter===s.id?"ALL":s.id)} style={{ fontSize:10, padding:"3px 8px", borderRadius:5, cursor:"pointer", fontFamily:"inherit", border:`1px solid ${stageFilter===s.id?s.c+"40":T.border}`, background:stageFilter===s.id?`${s.c}12`:"transparent", color:stageFilter===s.id?s.c:T.textDim }}>{s.label} ({data.filter(e=>e.stage===s.id).length})</button>
+            {/* Urgency pills */}
+            <div style={{ display: "flex", gap: 6, marginBottom: 10 }}>
+              {[
+                { id: "ALL", label: "All", count: filtered.length, c: "#6366f1" },
+                { id: "CRITICAL", label: "Critical", count: critCount, c: "#dc2626" },
+                { id: "URGENT", label: "Urgent", count: urgCount, c: "#ea580c" },
+                { id: "IMPORTANT", label: "Important", count: data.filter(e => e.label === "IMPORTANT" && e.stage !== "complete").length, c: "#ca8a04" },
+              ].map(f => (
+                <button key={f.id} onClick={() => setUrgFilter(urgFilter === f.id ? "ALL" : f.id)} style={{
+                  padding: "5px 12px", borderRadius: 20, border: "none", cursor: "pointer",
+                  fontFamily: "'DM Sans',system-ui,sans-serif", fontSize: 11, fontWeight: 500,
+                  background: urgFilter === f.id ? f.c : "#f5f5f5",
+                  color: urgFilter === f.id ? "#fff" : "#71717a",
+                  transition: "all 200ms",
+                }}>{f.label}{f.count > 0 ? ` ${f.count}` : ""}</button>
               ))}
+              <button onClick={() => setShowDone(!showDone)} style={{
+                marginLeft: "auto", padding: "5px 12px", borderRadius: 20, border: "none",
+                background: showDone ? "#10b981" : "#f5f5f5", color: showDone ? "#fff" : "#71717a",
+                fontSize: 11, fontWeight: 500, cursor: "pointer", fontFamily: "'DM Sans',system-ui,sans-serif",
+              }}>Done {doneCount}</button>
+            </div>
+            {/* Stage filters */}
+            <div style={{ display: "flex", gap: 4 }}>
+              {STAGES.filter(s => s.id !== "complete").map(s => {
+                const cnt = data.filter(e => e.stage === s.id).length;
+                const active = stageFilter === s.id;
+                return (
+                  <button key={s.id} onClick={() => setStageFilter(active ? "ALL" : s.id)} style={{
+                    padding: "4px 10px", borderRadius: 6, border: `1px solid ${active ? s.c + "40" : "#ebebeb"}`,
+                    background: active ? `${s.c}08` : "transparent", color: active ? s.c : "#a1a1aa",
+                    fontSize: 10, fontWeight: 500, cursor: "pointer", fontFamily: "'DM Sans',system-ui,sans-serif",
+                    transition: "all 150ms",
+                  }}>{s.label} {cnt > 0 && <span style={{ fontWeight: 700 }}>{cnt}</span>}</button>
+                );
+              })}
             </div>
           </div>
-          {/* Count */}
-          <div style={{ padding:"8px 16px", fontSize:10, fontWeight:600, color:T.accent, letterSpacing:.6, textTransform:"uppercase", borderBottom:`1px solid ${T.border}` }}>{filtered.length} emails {"·"} {activeCount} active</div>
-          {/* List */}
-          <div style={{ flex:1, overflowY:"auto" }}>
-            {filtered.map((e,i) => {
-              const eu = DU[e.label] || DU.NOTABLE;
+
+          {/* Email list */}
+          <div style={{ flex: 1, overflowY: "auto" }}>
+            {grouped.map((item, idx) => {
+              if (item.type === "header") {
+                return (
+                  <div key={`h-${item.date}-${idx}`} style={{
+                    padding: "10px 20px 6px", fontSize: 11, fontWeight: 600, color: "#a1a1aa",
+                    letterSpacing: 0.5, background: "#fafafa", borderBottom: "1px solid #f0f0f0",
+                    position: "sticky", top: 0, zIndex: 2,
+                    fontFamily: "'DM Sans',system-ui,sans-serif",
+                  }}>{dateLabel(item.date)}</div>
+                );
+              }
+              const e = item.data;
+              const eu = U[e.label] || U.NOTABLE;
               const isSel = sel?.id === e.id;
+              const isHov = hovId === e.id;
               const stg = STAGES.find(s => s.id === e.stage);
               return (
-                <div key={e.id} onClick={()=>{setSelId(e.id);if(mob)setMobDetail(true)}} style={{
-                  padding:"12px 16px", cursor:"pointer", borderBottom:`1px solid ${T.border}`,
-                  borderLeft:`3px solid ${isSel?eu.c:eu.c+"30"}`,
-                  background:isSel?T.surface:"transparent",
-                  opacity:e.stage==="complete"?0.45:1, transition:"all 150ms",
-                }}>
-                  <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:5 }}>
-                    <div style={{ width:32, height:32, borderRadius:8, background:`${eu.c}15`, border:`1.5px solid ${eu.c}30`, display:"flex", alignItems:"center", justifyContent:"center", fontSize:14, fontWeight:700, color:eu.c, flexShrink:0 }}>{e.score}</div>
-                    <div style={{ width:32, height:32, borderRadius:8, background:(e.color||T.accent)+"18", display:"flex", alignItems:"center", justifyContent:"center", fontSize:10, fontWeight:700, color:e.color||T.accent, border:`1px solid ${(e.color||T.accent)}25`, flexShrink:0 }}>{e.avatar||"?"}</div>
-                    <div style={{ flex:1, minWidth:0 }}>
-                      <div style={{ fontSize:13, fontWeight:600, color:T.text, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{e.from}</div>
-                      <div style={{ fontSize:11, color:T.textDim }}>{e.company||""}</div>
+                <div key={e.id}
+                  onClick={() => { setSelId(e.id); if (mob) setMobDetail(true); }}
+                  onMouseEnter={() => setHovId(e.id)}
+                  onMouseLeave={() => setHovId(null)}
+                  style={{
+                    padding: "14px 20px", cursor: "pointer",
+                    borderBottom: "1px solid #f8f8f8",
+                    background: isSel ? "#f8f7ff" : isHov ? "#fafafa" : "#fff",
+                    borderLeft: `3px solid ${isSel ? eu.c : "transparent"}`,
+                    opacity: e.stage === "complete" ? 0.4 : 1,
+                    transition: "all 120ms ease",
+                  }}>
+                  {/* Row 1: Avatar + Sender + Score + Time */}
+                  <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 6 }}>
+                    {/* Avatar */}
+                    <div style={{
+                      width: 36, height: 36, borderRadius: 10,
+                      background: `linear-gradient(135deg, ${e.color || "#6366f1"}20, ${e.color || "#6366f1"}08)`,
+                      border: `1px solid ${e.color || "#6366f1"}20`,
+                      display: "flex", alignItems: "center", justifyContent: "center",
+                      fontSize: 11, fontWeight: 700, color: e.color || "#6366f1", flexShrink: 0,
+                      fontFamily: "'DM Sans',system-ui,sans-serif",
+                    }}>{e.avatar || "?"}</div>
+                    {/* Name + Company */}
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                        <span style={{ fontSize: 13, fontWeight: 600, color: "#1a1a2e", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{e.from}</span>
+                        {!e.read && <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#6366f1", flexShrink: 0 }} />}
+                      </div>
+                      {e.company && <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{e.company}</div>}
                     </div>
-                    <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-end", gap:3, flexShrink:0 }}>
-                      <span style={{ fontSize:9, fontWeight:700, color:eu.c, background:eu.bg, border:`1px solid ${eu.bd}`, padding:"2px 7px", borderRadius:4, letterSpacing:.4 }}>{e.label}</span>
-                      <span style={{ fontSize:10, color:T.textDim }}>{e.time}</span>
+                    {/* Score + Urgency */}
+                    <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
+                      <div style={{
+                        width: 28, height: 28, borderRadius: 8,
+                        background: eu.bg, border: `1px solid ${eu.bd}`,
+                        display: "flex", alignItems: "center", justifyContent: "center",
+                        fontSize: 12, fontWeight: 700, color: eu.c,
+                        fontFamily: "'DM Mono','JetBrains Mono',monospace",
+                      }}>{e.score}</div>
                     </div>
                   </div>
-                  <div style={{ fontSize:13, fontWeight:500, color:T.textDim, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap", marginLeft:74, marginBottom:5 }}>{e.subject}</div>
-                  <div style={{ display:"flex", gap:4, alignItems:"center", marginLeft:74 }}>
-                    {stg && <span style={{ fontSize:9, color:stg.c, background:`${stg.c}10`, padding:"1px 6px", borderRadius:4, border:`1px solid ${stg.c}20` }}>{stg.label}</span>}
-                    {e.deal && <span style={{ fontSize:9, color:T.textDim, background:T.bg, padding:"1px 6px", borderRadius:4 }}>{e.deal}</span>}
-                    {e.att && <span style={{ fontSize:9, color:T.teal, background:`${T.teal}12`, padding:"1px 5px", borderRadius:3 }}>ATT</span>}
-                    {e.ai && <span style={{ fontSize:9, color:T.accent, background:`${T.accent}12`, padding:"1px 5px", borderRadius:3 }}>AI</span>}
-                    {!e.read && <span style={{ width:6, height:6, borderRadius:"50%", background:T.accent, boxShadow:`0 0 6px ${T.accent}60` }} />}
-                    {e.link && e.link!=="#" && <a href={e.link} target="_blank" rel="noopener noreferrer" onClick={ev=>ev.stopPropagation()} style={{ fontSize:9, color:T.accent, textDecoration:"none", padding:"1px 5px", background:`${T.accent}10`, borderRadius:3, marginLeft:"auto" }}>Outlook</a>}
-                    {e.stage!=="complete" && <button onClick={ev=>{ev.stopPropagation();upd(e.id,"complete")}} style={{ fontSize:9, color:T.green, background:`${T.green}10`, border:"none", padding:"1px 5px", borderRadius:3, cursor:"pointer", fontFamily:"inherit" }}>{"\u2713"}</button>}
+                  {/* Row 2: Subject */}
+                  <div style={{
+                    fontSize: 13, fontWeight: 500, color: "#3f3f46",
+                    overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                    marginLeft: 48, marginBottom: 6,
+                    fontFamily: "'DM Sans',system-ui,sans-serif",
+                  }}>{e.subject}</div>
+                  {/* Row 3: Tags */}
+                  <div style={{ display: "flex", gap: 5, alignItems: "center", marginLeft: 48 }}>
+                    <span style={{
+                      fontSize: 9, fontWeight: 600, color: eu.c, background: eu.bg,
+                      padding: "2px 8px", borderRadius: 10, letterSpacing: 0.3,
+                      fontFamily: "'DM Sans',system-ui,sans-serif",
+                    }}>{e.label}</span>
+                    {stg && <span style={{ fontSize: 9, color: stg.c, background: `${stg.c}08`, padding: "2px 7px", borderRadius: 10, border: `1px solid ${stg.c}15`, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{stg.label}</span>}
+                    {e.deal && <span style={{ fontSize: 9, color: "#6366f1", background: "#f5f3ff", padding: "2px 7px", borderRadius: 10, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{e.deal}</span>}
+                    {e.att && <span style={{ fontSize: 9, color: "#0ea5e9", background: "#f0f9ff", padding: "2px 6px", borderRadius: 10 }}>ATT</span>}
+                    <span style={{ marginLeft: "auto", fontSize: 10, color: "#d4d4d8", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{e.time}</span>
                   </div>
                 </div>
               );
             })}
-            {filtered.length===0 && <div style={{ padding:40, textAlign:"center", color:T.textDim, fontSize:13 }}>No emails match filters</div>}
+            {filtered.length === 0 && (
+              <div style={{ padding: 60, textAlign: "center" }}>
+                <div style={{ fontSize: 32, marginBottom: 12, opacity: 0.15 }}>{"\u2709"}</div>
+                <div style={{ fontSize: 14, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>No emails match your filters</div>
+              </div>
+            )}
           </div>
         </div>
       )}
 
-      {/* RIGHT DETAIL */}
+      {/* RIGHT PANEL — Detail View */}
       {(mob ? mobDetail : true) && (
-        <div style={{ flex:1, overflowY:"auto", background:T.surface }}>
+        <div style={{ flex: 1, overflowY: "auto", background: "#fafafa" }}>
           {sel ? (
-            <div style={{ padding:mob?20:28, maxWidth:720 }}>
-              {mob && <button onClick={()=>setMobDetail(false)} style={{ marginBottom:12, padding:"8px 14px", background:T.bg, border:`1px solid ${T.border}`, color:T.accent, borderRadius:8, fontSize:12, cursor:"pointer", fontFamily:"inherit", fontWeight:600 }}>{"\u2190"} Back</button>}
-              {/* Header */}
-              <div style={{ display:"flex", alignItems:"center", gap:14, marginBottom:16, padding:18, background:`rgba(14,22,35,0.7)`, backdropFilter:"blur(8px)", borderRadius:14, border:`1px solid ${u.bd}`, boxShadow:`0 0 20px ${u.c}12` }}>
-                <div style={{ width:52, height:52, borderRadius:12, background:`${u.c}12`, border:`2px solid ${u.c}40`, display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
-                  <span style={{ fontSize:22, fontWeight:700, color:u.c }}>{sel.score}</span>
+            <div style={{ padding: mob ? 20 : 32, maxWidth: 700 }}>
+              {mob && <button onClick={() => setMobDetail(false)} style={{
+                marginBottom: 16, padding: "8px 16px", background: "#fff", border: "1px solid #ebebeb",
+                color: "#6366f1", borderRadius: 8, fontSize: 12, cursor: "pointer",
+                fontFamily: "'DM Sans',system-ui,sans-serif", fontWeight: 600,
+              }}>{"\u2190"} Back to list</button>}
+
+              {/* Score + Sender Header */}
+              <div style={{
+                display: "flex", alignItems: "center", gap: 16, marginBottom: 20,
+                padding: 20, background: "#fff", borderRadius: 14,
+                border: "1px solid #f0f0f0", boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
+              }}>
+                <div style={{
+                  width: 56, height: 56, borderRadius: 14,
+                  background: `linear-gradient(135deg, ${u.c}15, ${u.c}05)`,
+                  border: `2px solid ${u.c}30`,
+                  display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
+                }}>
+                  <span style={{ fontSize: 24, fontWeight: 700, color: u.c, fontFamily: "'DM Mono','JetBrains Mono',monospace" }}>{sel.score}</span>
                 </div>
-                <div style={{ flex:1, minWidth:0 }}>
-                  <div style={{ fontSize:17, fontWeight:700, color:T.text }}>{sel.from}</div>
-                  <div style={{ fontSize:12, color:T.textDim }}>{sel.email||""} {sel.company?`· ${sel.company}`:""} {"·"} {dateLabel(sel.date)}</div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ fontSize: 18, fontWeight: 700, color: "#1a1a2e", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.from}</div>
+                  <div style={{ fontSize: 12, color: "#a1a1aa", marginTop: 2, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.email || ""} {sel.company ? `\u00B7 ${sel.company}` : ""} {"\u00B7"} {dateLabel(sel.date)}</div>
                 </div>
-                <span style={{ fontSize:10, fontWeight:700, color:u.c, background:u.bg, border:`1px solid ${u.bd}`, padding:"3px 10px", borderRadius:5, letterSpacing:.4 }}>{sel.label}</span>
+                <span style={{
+                  fontSize: 10, fontWeight: 700, color: u.c, background: u.bg,
+                  padding: "4px 12px", borderRadius: 10, letterSpacing: 0.5,
+                  fontFamily: "'DM Sans',system-ui,sans-serif",
+                }}>{sel.label}</span>
               </div>
 
-              {/* Outlook */}
-              {sel.link && sel.link!=="#" && <a href={sel.link} target="_blank" rel="noopener noreferrer" style={{ display:"block", padding:"12px 0", marginBottom:14, background:`linear-gradient(135deg,${T.accent},${T.accent})`, color:"#fff", borderRadius:10, fontSize:13, fontWeight:600, textDecoration:"none", textAlign:"center", fontFamily:"inherit", boxShadow:`0 4px 20px ${T.accent}25` }}>Open in Outlook {"\u2197"}</a>}
+              {/* Open in Outlook */}
+              {sel.link && sel.link !== "#" && sel.link !== "" && (
+                <a href={sel.link} target="_blank" rel="noopener noreferrer" style={{
+                  display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
+                  padding: "12px 0", marginBottom: 16,
+                  background: "#6366f1", color: "#fff", borderRadius: 10,
+                  fontSize: 13, fontWeight: 600, textDecoration: "none",
+                  fontFamily: "'DM Sans',system-ui,sans-serif",
+                  boxShadow: "0 2px 8px rgba(99,102,241,0.25)",
+                  transition: "transform 150ms, box-shadow 150ms",
+                }}>Open in Outlook {"\u2197"}</a>
+              )}
 
-              <div style={{ fontSize:18, fontWeight:700, color:T.text, marginBottom:12, lineHeight:1.3 }}>{sel.subject}</div>
+              {/* Subject */}
+              <h2 style={{
+                fontSize: 20, fontWeight: 700, color: "#1a1a2e", lineHeight: 1.35,
+                margin: "0 0 14px", fontFamily: "'DM Sans',system-ui,sans-serif",
+              }}>{sel.subject}</h2>
 
               {/* Tags */}
-              <div style={{ display:"flex", gap:6, marginBottom:14, flexWrap:"wrap" }}>
-                <span style={{ fontSize:10, padding:"3px 10px", borderRadius:5, background:u.bg, border:`1px solid ${u.bd}`, color:u.c, fontWeight:700 }}>{sel.label}</span>
-                {sel.pattern && <span style={{ fontSize:10, padding:"3px 10px", borderRadius:5, background:T.bg, color:T.textDim }}>{PAT[sel.pattern]||sel.pattern}</span>}
-                <span style={{ fontSize:10, padding:"3px 10px", borderRadius:5, background:T.bg, color:T.textDim }}>{sel.tier}</span>
-                {sel.att && <span style={{ fontSize:10, padding:"3px 10px", borderRadius:5, background:`${T.teal}10`, color:T.teal }}>Attachment</span>}
-                {sel.ai && <span style={{ fontSize:10, padding:"3px 10px", borderRadius:5, background:`${T.accent}10`, color:T.accent }}>AI Reviewed</span>}
-                {sel.deal && <span style={{ fontSize:10, padding:"3px 10px", borderRadius:5, background:`${T.accent}10`, color:T.accent }}>{sel.deal}</span>}
-                {sel.dealValue && <span style={{ fontSize:10, padding:"3px 10px", borderRadius:5, background:`${T.green}10`, color:T.green, fontWeight:600 }}>{sel.dealValue}</span>}
+              <div style={{ display: "flex", gap: 6, marginBottom: 16, flexWrap: "wrap" }}>
+                {sel.pattern && <span style={{ fontSize: 10, padding: "4px 10px", borderRadius: 8, background: "#f5f5f5", color: "#71717a", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{PAT[sel.pattern] || sel.pattern}</span>}
+                <span style={{ fontSize: 10, padding: "4px 10px", borderRadius: 8, background: "#f5f5f5", color: "#71717a", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.tier}</span>
+                {sel.att && <span style={{ fontSize: 10, padding: "4px 10px", borderRadius: 8, background: "#f0f9ff", color: "#0ea5e9", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Attachment</span>}
+                {sel.ai && <span style={{ fontSize: 10, padding: "4px 10px", borderRadius: 8, background: "#f5f3ff", color: "#6366f1", fontFamily: "'DM Sans',system-ui,sans-serif" }}>AI Reviewed</span>}
+                {sel.deal && <span style={{ fontSize: 10, padding: "4px 10px", borderRadius: 8, background: "#f5f3ff", color: "#6366f1", fontWeight: 600, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.deal}</span>}
+                {sel.dealValue && <span style={{ fontSize: 10, padding: "4px 10px", borderRadius: 8, background: "#f0fdf4", color: "#16a34a", fontWeight: 600, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.dealValue}</span>}
               </div>
 
               {/* Scoring reasons */}
-              {(sel.reasons||[]).length > 0 && <div style={{ display:"flex", gap:4, marginBottom:14, flexWrap:"wrap" }}>
-                {sel.reasons.map((r,i) => <span key={i} style={{ fontSize:9, padding:"3px 7px", borderRadius:4, background:T.bg, color:T.textDim, border:`1px solid ${T.border}`, fontFamily:"monospace" }}>{r}</span>)}
-              </div>}
+              {(sel.reasons || []).length > 0 && (
+                <div style={{ display: "flex", gap: 4, marginBottom: 16, flexWrap: "wrap" }}>
+                  {sel.reasons.map((r, i) => (
+                    <span key={i} style={{
+                      fontSize: 9, padding: "3px 8px", borderRadius: 6,
+                      background: "#fafafa", color: "#a1a1aa", border: "1px solid #f0f0f0",
+                      fontFamily: "'DM Mono','JetBrains Mono',monospace",
+                    }}>{r}</span>
+                  ))}
+                </div>
+              )}
 
               {/* NLP Widget */}
               <NlpWidget email={sel} onApply={(stage) => upd(sel.id, stage)} />
 
-              {/* Pipeline mover */}
-              <div style={{ marginBottom:16 }}>
-                <div style={{ fontSize:10, color:T.textDim, fontWeight:700, letterSpacing:1.5, textTransform:"uppercase", marginBottom:8 }}>Assign to</div>
-                <div style={{ display:"grid", gridTemplateColumns:mob?"repeat(3,1fr)":"repeat(6,1fr)", gap:6 }}>
-                  {STAGES.map(s => (
-                    <button key={s.id} onClick={()=>upd(sel.id,s.id)} style={{
-                      padding:"8px 0", background:sel.stage===s.id?`${s.c}15`:T.bg,
-                      border:`1px solid ${sel.stage===s.id?s.c+"40":T.border}`, color:sel.stage===s.id?s.c:T.textDim,
-                      borderRadius:8, fontSize:11, cursor:"pointer", fontFamily:"inherit", textAlign:"center",
-                      boxShadow:sel.stage===s.id?`0 0 12px ${s.c}15`:"none", transition:"all 150ms",
-                    }}>{s.label}</button>
-                  ))}
+              {/* Pipeline stages */}
+              <div style={{ marginBottom: 20 }}>
+                <div style={{ fontSize: 10, color: "#a1a1aa", fontWeight: 600, letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 8, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Assign to</div>
+                <div style={{ display: "grid", gridTemplateColumns: mob ? "repeat(3,1fr)" : "repeat(6,1fr)", gap: 6 }}>
+                  {STAGES.map(s => {
+                    const active = sel.stage === s.id;
+                    return (
+                      <button key={s.id} onClick={() => upd(sel.id, s.id)} style={{
+                        padding: "9px 0", background: active ? `${s.c}10` : "#fff",
+                        border: `1px solid ${active ? s.c + "40" : "#f0f0f0"}`,
+                        color: active ? s.c : "#a1a1aa", borderRadius: 8,
+                        fontSize: 11, fontWeight: active ? 600 : 400, cursor: "pointer",
+                        fontFamily: "'DM Sans',system-ui,sans-serif", textAlign: "center",
+                        transition: "all 150ms", boxShadow: active ? `0 0 8px ${s.c}15` : "none",
+                      }}>{s.label}</button>
+                    );
+                  })}
                 </div>
               </div>
 
-              {/* JARVIS briefing */}
+              {/* JARVIS Briefing */}
               {sel.jarvis && (
-                <div style={{ marginBottom:14, padding:"14px 16px", background:`${T.accent}08`, borderRadius:10, border:`1px solid ${T.accent}20` }}>
-                  <div style={{ fontSize:10, fontWeight:700, color:T.accent, marginBottom:7, letterSpacing:.5 }}>JARVIS BRIEFING</div>
-                  <p style={{ fontSize:13.5, color:T.accent, lineHeight:1.65, margin:0, opacity:.85 }}>{sel.jarvis}</p>
+                <div style={{
+                  marginBottom: 16, padding: 18, background: "#fff",
+                  borderRadius: 12, border: "1px solid #ede9fe",
+                  boxShadow: "0 1px 3px rgba(99,102,241,0.04)",
+                }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 10 }}>
+                    <div style={{ width: 18, height: 18, borderRadius: 5, background: "linear-gradient(135deg,#6366f1,#8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 8, fontWeight: 800, color: "#fff" }}>J</div>
+                    <span style={{ fontSize: 10, fontWeight: 700, color: "#6366f1", letterSpacing: 0.8, fontFamily: "'DM Sans',system-ui,sans-serif" }}>JARVIS BRIEFING</span>
+                  </div>
+                  <p style={{ fontSize: 13.5, color: "#4338ca", lineHeight: 1.7, margin: 0, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.jarvis}</p>
                 </div>
               )}
 
-              {/* Action */}
+              {/* Recommended Action */}
               {sel.action && (
-                <div style={{ marginBottom:14, padding:"12px 16px", background:u.bg, borderRadius:10, border:`1px solid ${u.bd}` }}>
-                  <div style={{ fontSize:10, fontWeight:700, color:u.c, marginBottom:5, letterSpacing:.5 }}>RECOMMENDED ACTION</div>
-                  <div style={{ fontSize:13, color:u.c, fontWeight:500, lineHeight:1.5 }}>{sel.action}</div>
+                <div style={{
+                  marginBottom: 16, padding: 16, background: u.bg,
+                  borderRadius: 12, border: `1px solid ${u.bd}`,
+                }}>
+                  <div style={{ fontSize: 10, fontWeight: 700, color: u.c, marginBottom: 6, letterSpacing: 0.8, fontFamily: "'DM Sans',system-ui,sans-serif" }}>RECOMMENDED ACTION</div>
+                  <div style={{ fontSize: 13, color: u.c, fontWeight: 500, lineHeight: 1.6, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.action}</div>
                 </div>
               )}
 
-              {/* Reply */}
+              {/* Draft Reply */}
               {sel.reply && (
-                <div style={{ marginBottom:14, padding:"12px 14px", background:T.bg, borderRadius:10, border:`1px solid ${T.border}` }}>
-                  <div style={{ fontSize:10, fontWeight:600, color:T.textDim, marginBottom:6, letterSpacing:.5 }}>DRAFT REPLY</div>
-                  <pre style={{ fontSize:12, color:T.textDim, lineHeight:1.6, margin:0, whiteSpace:"pre-wrap", fontFamily:"inherit" }}>{sel.reply}</pre>
-                  <div style={{ display:"flex", gap:6, marginTop:8 }}>
-                    <button onClick={()=>navigator.clipboard?.writeText(sel.reply)} style={{ flex:1, padding:"8px 0", borderRadius:7, border:`1px solid ${T.border}`, background:T.surface, color:T.accent, fontSize:11, fontWeight:600, cursor:"pointer", fontFamily:"inherit" }}>Copy as Dave</button>
-                    <button onClick={()=>navigator.clipboard?.writeText(`Hi ${(sel.from||"").split(" ")[0]},\n\nDave asked me to follow up.\n\n${sel.reply.split("\n").slice(1).join("\n")}\n\nBest regards,\nFrance`)} style={{ flex:1, padding:"8px 0", borderRadius:7, border:`1px solid ${T.border}`, background:T.surface, color:T.orange, fontSize:11, fontWeight:600, cursor:"pointer", fontFamily:"inherit" }}>Copy as France</button>
+                <div style={{
+                  marginBottom: 16, padding: 16, background: "#fff",
+                  borderRadius: 12, border: "1px solid #f0f0f0",
+                }}>
+                  <div style={{ fontSize: 10, fontWeight: 600, color: "#a1a1aa", marginBottom: 8, letterSpacing: 0.8, fontFamily: "'DM Sans',system-ui,sans-serif" }}>DRAFT REPLY</div>
+                  <pre style={{ fontSize: 12.5, color: "#52525b", lineHeight: 1.7, margin: 0, whiteSpace: "pre-wrap", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{sel.reply}</pre>
+                  <div style={{ display: "flex", gap: 8, marginTop: 12 }}>
+                    <button onClick={() => navigator.clipboard?.writeText(sel.reply)} style={{
+                      flex: 1, padding: "10px 0", borderRadius: 8, border: "1px solid #ebebeb",
+                      background: "#fff", color: "#6366f1", fontSize: 12, fontWeight: 600,
+                      cursor: "pointer", fontFamily: "'DM Sans',system-ui,sans-serif",
+                      transition: "all 150ms",
+                    }}>Copy as Dave</button>
+                    <button onClick={() => navigator.clipboard?.writeText(`Hi ${(sel.from || "").split(" ")[0]},\n\nDave asked me to follow up.\n\n${sel.reply.split("\n").slice(1).join("\n")}\n\nBest regards,\nFrance`)} style={{
+                      flex: 1, padding: "10px 0", borderRadius: 8, border: "1px solid #ebebeb",
+                      background: "#fff", color: "#ea580c", fontSize: 12, fontWeight: 600,
+                      cursor: "pointer", fontFamily: "'DM Sans',system-ui,sans-serif",
+                      transition: "all 150ms",
+                    }}>Copy as France</button>
                   </div>
                 </div>
               )}
             </div>
-          ) : <div style={{ padding:60, textAlign:"center", color:T.textDim, fontSize:13 }}>Select an email to see details</div>}
+          ) : (
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "100%", padding: 40 }}>
+              <div style={{ width: 64, height: 64, borderRadius: 16, background: "#f5f3ff", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 16 }}>
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#6366f1" strokeWidth="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div style={{ fontSize: 15, fontWeight: 600, color: "#1a1a2e", marginBottom: 4, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Select an email</div>
+              <div style={{ fontSize: 13, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Click any email to view details and take action</div>
+            </div>
+          )}
         </div>
       )}
     </div>
