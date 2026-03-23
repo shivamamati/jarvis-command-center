@@ -252,11 +252,20 @@ def finalize_results(results, metadata):
     """Merge new results with existing results file — emails accumulate, never disappear."""
     try:
         existing_items = []
-        if RESULTS_FILE.exists():
-            try:
-                old = json.loads(RESULTS_FILE.read_text())
-                existing_items = old.get("items", [])
-            except: pass
+        # Check multiple possible locations for existing results
+        possible_paths = [
+            RESULTS_FILE,                                          # scripts/jarvis_results.json
+            SCRIPT_DIR.parent / "public" / "data" / "jarvis_results.json",  # public/data/jarvis_results.json
+        ]
+        for p in possible_paths:
+            if p.exists():
+                try:
+                    old = json.loads(p.read_text())
+                    items = old.get("items", [])
+                    if len(items) > len(existing_items):
+                        existing_items = items  # Use the file with more items
+                        log.info(f"  📂 Loaded {len(items)} existing items from {p}")
+                except: pass
         
         # Build a set of unique keys from new results (email + subject)
         new_keys = set()
@@ -274,8 +283,26 @@ def finalize_results(results, metadata):
             if key not in new_keys and received >= cutoff:
                 merged.append(old_item)
         
-        # Sort by score descending
-        merged.sort(key=lambda x: x.get("final_score", 0), reverse=True)
+        # Thread dedup on merged results too — prevent duplicates across scans
+        deduped = {}
+        for r in merged:
+            cid = r.get("conversation_id", "")
+            if not cid:
+                key = f"nocid__{r.get('sender_email','')}__{r.get('subject','')}"
+            else:
+                key = cid
+            if key not in deduped:
+                deduped[key] = r
+            else:
+                existing = deduped[key]
+                if r.get("final_score", 0) > existing.get("final_score", 0):
+                    deduped[key] = r
+                elif r.get("final_score", 0) == existing.get("final_score", 0) and r.get("received", "") > existing.get("received", ""):
+                    deduped[key] = r
+        merged = list(deduped.values())
+        
+        # Sort by received date descending (newest first), then by score
+        merged.sort(key=lambda x: (x.get("received", ""), x.get("final_score", 0)), reverse=True)
         
         output = {**metadata, "items": merged}
         output["total_tracked"] = len(merged)
