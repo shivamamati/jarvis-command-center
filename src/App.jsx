@@ -553,7 +553,7 @@ function Dashboard() {
           <div style={{ maxWidth: 740 }}>
             {/* Greeting */}
             <div style={{ marginBottom: 24 }}>
-              <h1 style={{ fontSize: 22, fontWeight: 700, color: T.text, margin: "0 0 6px" }}>{greeting}, Dave.</h1>
+              <h1 style={{ fontSize: 22, fontWeight: 700, color: T.text, margin: "0 0 6px" }}>{greeting}, {role === "france" ? "France" : "Dave"}.</h1>
               <p style={{ fontSize: 14, color: T.textMid, margin: 0, lineHeight: 1.6 }}>
                 {todayItems.length > 0
                   ? `${todayItems.length} new item${todayItems.length !== 1 ? "s" : ""} today${todayCrit > 0 ? ` \u2014 ${todayCrit} time-critical` : ""}. ${previousItems.length > 0 ? `${previousItems.length} carry-over from previous days.` : ""}`
