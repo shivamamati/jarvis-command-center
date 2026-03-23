@@ -448,7 +448,8 @@ function Dashboard() {
   const [page, setPage] = useState("queue"); // "queue" | "emails"
   const [data, setData] = useState(() => { const s = loadS(); return HIST.map(e => ({ ...e, stage: s[e.id] || e.stage })); });
   const [expandedId, setExpandedId] = useState(HIST[0]?.id);
-  const [completed, setCompleted] = useState([]);
+  const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
+  useEffect(() => { try { localStorage.setItem("jarvis_completed", JSON.stringify(completed)); } catch {} }, [completed]);
   const [role, setRole] = useState("dave");
   const [live, setLive] = useState("demo");
   const [meta, setMeta] = useState(null);
