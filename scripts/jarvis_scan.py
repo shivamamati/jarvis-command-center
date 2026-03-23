@@ -76,7 +76,7 @@ TEAMS_WEBHOOK_URL = os.environ.get("TEAMS_WEBHOOK_URL", "")
 # ═══════════════════════════════════════════════════════════════
 TIER1_DOMAINS = {"travelers.com","virginmedia.com","virginmediao2.co.uk","cdw.com","uk.cdw.com","arm.com","nomura.com","navisite.com","castleforge.com","pwc.com","smbcgroup.com","gb.smbcgroup.com","tcs.com","colt.net","lumen.com","zayo.com","cogentco.com","fluidone.com","netprotocol.net","ids-indata.co.uk","sas.co.uk","telent.com","transitnetworks.co.uk","bt.com","openreach.co.uk","cloud2me.co.uk","ntrustsystems.co.uk","redhilldatacentre.com","digitalrealty.com","accenture.com"}
 TIER2_DOMAINS = {"abb.com","drt.co.uk","techreconsulting.com","qudatacentres.com","stakater.com","polanddc.pl","assago.com","innogate.at","astracapitalmgmt.com","malhangroup.com","adaptive-mdc.com","solarisstrategiesinc.com","bcsconsultancy.com","gotcolo.com","demandfactor.com","directglobal.com","2020-4.com","evermere.com"}
-VIP_FIRMS = {"jsa.net","simmons-simmons.com","cbre.com","savills.com","jll.com","knightfrank.com","cushmanwakefield.com","datacenternation.com","baxtel.com"}
+VIP_FIRMS = {"jsa.net","simmons-simmons.com","cbre.com","savills.com","jll.com","knightfrank.com","cushmanwakefield.com","datacenternation.com","baxtel.com","goldmansachs.com","gs.com","jpmorgan.com","jpmchase.com","morganstanley.com","blackstone.com","kkr.com","brookfield.com","macquarie.com","lazard.com","evercore.com","rothschild.com","barclays.com","hsbc.com","ubs.com","deutschebank.com","db.com","citi.com","citigroup.com","bofa.com","bankofamerica.com","wellsfargo.com","rbc.com","td.com","bmo.com","scotiabank.com","canaccord.com","greenhill.com","jefferies.com","stifel.com","pjt.com","moelis.com","centerview.com","perella.com","blueowl.com","icg.com","ardian.com","cinven.com","permira.com","egon-zehnder.com","heidrick.com","torpedodatacenters.com","torpedo.co"}
 INTERNAL_DOMAINS = {"galaxydatacenters.com","galaxycapitalpartners.com","redhilldatacentre.com"}
 INTERNAL_VIP_EMAILS = {"tj@galaxydatacenters.com","paul@galaxydatacenters.com","paul@galaxycapitalpartners.com","ash@galaxydatacenters.com","ash@galaxycapitalpartners.com","ashley@galaxydatacenters.com","france@galaxydatacenters.com","rodrigo@galaxydatacenters.com","sai@galaxydatacenters.com","colin.bell@galaxydatacenters.com","animesh@galaxydatacenters.com"}
 REDHILL_OPS = {"colin.bell@redhilldatacentre.com","paul.tester@redhilldatacentre.com","luke.gray@redhilldatacentre.com","benjamin.tyson@redhilldatacentre.com","finance@redhilldatacentre.com"}
@@ -85,7 +85,7 @@ PIPELINE_NAMES = ["richard lukaj","tj ciccone","john ghirardelli","nigel bayliff
 KEYWORDS = ["nda","proposal","site visit","rfp","mw ","kw ","rack","investment","capital","introducer","commission","lease","loi","refinancing","board","fund","substation","power","capacity","contract","renewal","tenant","gpu","data cent","merger","bills","billing","audit","data room","teaser","stuttgart","austria","vienna","fortum","referral","introduce","introduction","connect you with","lp ","limited partner","capital raise","fundrais","fund formation"]
 URGENCY_LANGUAGE = ["asap","urgent","time sensitive","time-sensitive","deadline","by end of day","by eod","by cob","immediately","critical","as soon as possible","needs immediate","action required","please respond","awaiting your","overdue","past due","expiring","expires today","expires tomorrow","last chance","final notice"]
 NOISE_SENDERS = ["noreply","no-reply","no_reply","notifications@","newsletter","marketing@","team@use.mail","editors-noreply","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","@beehiiv.com","substack.com","connect.media","mail.monday.com","learn.mail.monday.com","mail.granola","datacenterdynamics.com","alpha-sense.com","crystalknows.com","armanino.com","linkedin.com","facebookmail.com","twitter.com","calendly.com","fireflies.ai","minuteslink.com","hubspot.com","hubspotemail.net","mailchimp","sendgrid.net","bmwtoronto.ca","owasco.com","telus.com","clearscore.com","borrowell.com","h5.hilton.com","agoda-emails.com","riipen.com","lyftmail.com","saltlending.com","link.com","eventbrite.com","sharepointonline.com","dcsmi.com","colossusdc.com","thegpu.ai","mail.raises.com","salute.com","kiwi.com","nordpass.com","law360.com","privateequitybro.com","news.vntr.vc","iddidesign.com","td.com","aircanada.com","mail.aircanada.com","amazon.com","aws-marketing","@144772270.mailchimpapp.com","newsroomreplies@","weekender@","weekendbriefing@","opening-bell@","estate-elegance@","teamphlote@","oldmennewmoney@","advalorem@"]
-NOISE_SUBJECTS = ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","build your first","free trial","earn a free night","verify a new device","security information has been updated","new login from","your ride with","merci d'avoir","your trial ends","complete your","reminder: complete","take off for less","don't wait","every second counts","weekly round-up","weekend briefing","flight prices","pack your bags","upgrade to premium","last chance:","featured project","voting is now open","tell us more about","this stock is up","programming era","grid fragility","just killed","just requested to connect","posted new notes","smoother pickups","100+ ai use cases","see you next week at","your microsoft invoice"]
+NOISE_SUBJECTS = ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","build your first","free trial","earn a free night","verify a new device","security information has been updated","new login from","your ride with","merci d'avoir","your trial ends","complete your","reminder: complete","take off for less","don't wait","every second counts","weekly round-up","weekend briefing","flight prices","pack your bags","upgrade to premium","last chance:","featured project","voting is now open","tell us more about","this stock is up","programming era","grid fragility","just killed","just requested to connect","posted new notes","smoother pickups","100+ ai use cases","see you next week at","your microsoft invoice","shared a file with you","invited you to edit","has been deleted","recording has expired"]
 SUPPRESSED_SENDERS = ["jay schiesser","henry mileham","tess lindsay","ben palmer","william dyer"]
 CUSTOMER_NAMES = ["travelers","nomura","fluidone","cdw","arm ","smbc","colt","lumen","zayo","cogent","virgin media","tcs","cloud2me","ntrust","accenture","navisite","redhill"]
 
@@ -341,10 +341,15 @@ def classify_email(email_data, cal_contacts=None, dave_replied=None, convo_map=N
     # Calendar boost
     if se in cal_contacts: score += 2; reasons.append("Calendar match (+2)")
 
-    # #1: Dave replied
+    # #1: Dave replied — cap at +2 for internal, full +4 for external
     drc = dave_replied.get(se, 0)
-    if drc >= 2: score += 4; reasons.append(f"Dave replied {drc}x (+4)")
-    elif drc == 1: score += 3; reasons.append("Dave replied (+3)")
+    is_internal_sender = domain in INTERNAL_DOMAINS
+    if drc >= 2:
+        boost = 2 if is_internal_sender else 4
+        score += boost; reasons.append(f"Dave replied {drc}x (+{boost})")
+    elif drc == 1:
+        boost = 2 if is_internal_sender else 3
+        score += boost; reasons.append(f"Dave replied (+{boost})")
 
     # #5: Importance flag
     if email_data.get("importance", "").lower() == "high":
@@ -422,7 +427,7 @@ def classify_email(email_data, cal_contacts=None, dave_replied=None, convo_map=N
 
     return {"score": score, "label": label, "tier": tier, "reasons": reasons,
             "cal_match": se in cal_contacts, "has_attachments": has_att,
-            "needs_ai_review": score < 5 and tier == "UNKNOWN" and drc == 0}
+            "needs_ai_review": tier == "UNKNOWN" and drc == 0}
 
 # ═══════════════════════════════════════════════════════════════
 # LAYER 2: CLAUDE AI (with R3 fallback)
