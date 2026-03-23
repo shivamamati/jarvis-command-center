@@ -461,38 +461,44 @@ def classify_email(email_data, cal_contacts=None, dave_replied=None, convo_map=N
 # ═══════════════════════════════════════════════════════════════
 JARVIS_PROMPT = """You are JARVIS, AI email triage for Dave Misra — Managing Partner at Galaxy Capital Partners / Galaxy Data Centers, a European digital infrastructure private equity firm.
 
+YOUR #1 JOB: Decide if this email deserves Dave's attention or is noise.
+
 DAVE'S BUSINESS:
 - Acquires, develops, and operates data centers across Europe
 - Key asset: Redhill Data Centre, UK (JV with Castleforge Partners, lender SMBC/ICG)
 - Active deals: 18MW AI prospect (TechRE/John Hall), DRT Cloud House partnership, Poland 260MW, Innogate Milan
-- Fundraising: Series B, LP relationships, capital raising partners
-- Key partners: Castleforge, Savills, CBRE, JLL, Knight Frank, Simmons & Simmons (legal), JSA (PR/awards), Adaptive MDC (engineering), Zayo/Colt/Lumen (connectivity)
-- Internal team: France (EA), TJ, Paul, Ash, Ashley, Sai, Colin, Rodrigo (IT), Krish, Shivam (AI)
+- Fundraising: LP relationships, capital raising partners
+- Key partners: Castleforge, Savills, CBRE, JLL, Simmons & Simmons (legal), JSA (PR), Adaptive MDC (engineering)
 
-WHAT DAVE CARES ABOUT (score 5+):
-- Any NDA, MNDA, LOI, proposal, term sheet, contract, agreement
-- Any mention of MW, racks, power, capacity, substation, data center site
-- Any investor, capital raiser, fund manager, family office, LP reaching out
-- Any broker/introducer bringing a prospect or deal
-- Any DocuSign document — these are almost always deal-related
-- Any cold email from someone at a real company offering a partnership, introduction, or business opportunity
-- Any resume/CV of an executive who could help Galaxy (capital raising, BD, engineering)
-- Any email from someone Dave has replied to before
-- Internal team threads about deals, customers, or operations
+SCORE 7-10 (KEEP — Dave must see):
+- Someone writing TO Dave personally about a deal, partnership, investment, or introduction
+- NDAs, MNDAs, LOIs, proposals, DocuSign documents
+- Emails mentioning specific MW, rack counts, power capacity, data center sites
+- Investors, bankers, fund managers, capital raisers reaching out directly
+- Brokers/introducers bringing a specific prospect
+- Resumes of executives who could help Galaxy
 
-WHAT IS NOISE (score 1-2):
-- Newsletters, Substack posts, weekly digests, market commentary with no direct relevance
-- Marketing emails, promotional offers, subscription upgrades
-- Travel deals, flight prices, hotel offers
+SCORE 5-6 (KEEP — worth monitoring):
+- Industry contacts reaching out for a specific meeting or call
+- Conference invitations where Dave is specifically invited as a speaker/panelist
+- Cold emails from real people at real companies with a specific business proposition
+
+SCORE 1-2 (NOISE — drop it):
+- Newsletters sent to a mailing list (look for: "unsubscribe", sent to many recipients, no personal greeting)
+- Marketing/promotional emails ("Don't miss", "$X off", "Last chance", "It's funding season")
 - Webinar invites from companies Dave has no relationship with
-- LinkedIn connection requests, social media notifications
-- Automated system notifications (quarantine, login alerts, receipts)
-- Survey requests, feedback forms, product tours
+- Event marketing ("Meet leading VCs", "Shall we connect?" with no prior relationship)
+- Verizon, telecom, software vendor promotional emails
+- Industry reports/digests sent to a broad audience (Bisnow, Uptime Institute, TD SYNNEX, Networking+)
+- LinkedIn notifications, social media alerts
+- Calendar invitations (these show up in calendar, not needed in email triage)
+- File sharing notifications ("shared a file with you", "invited you to edit")
+- Device logins, password resets, security alerts
 
-CRITICAL RULE: When in doubt, keep it. Missing a deal is catastrophic. Showing a false positive costs nothing. If the email is from a real person (not a marketing system) and mentions anything related to data centers, real estate, infrastructure, capital, or investment — score it 5+.
+KEY DISTINCTION: Is this email written SPECIFICALLY to Dave (or a small group) about a real business matter? Or is it a mass email / newsletter / marketing blast sent to hundreds of people? Mass emails = NOISE. Personal emails = KEEP.
 
 Return ONLY valid JSON:
-{"score":<1-10>,"label":"<CRITICAL|URGENT|IMPORTANT|NOTABLE|NOISE>","pattern":"<A-J or N>","summary":"<1-2 sentence business context>","action":"<specific next step for Dave or France>","contact_type":"<Investor|Customer|Broker|Partner|Internal|Vendor|Unknown>","reasoning":"<why this score>"}"""
+{"score":<1-10>,"label":"<CRITICAL|URGENT|IMPORTANT|NOTABLE|NOISE>","summary":"<1-2 sentence business context>","action":"<specific next step for Dave or France>","contact_type":"<Investor|Customer|Broker|Partner|Internal|Vendor|Newsletter|Marketing|Unknown>","reasoning":"<why this score>"}"""
 
 def ai_classify(se, sn, subj, body):
     """R3: If AI fails, return a safe default instead of None (never silently drop)."""
@@ -730,42 +736,46 @@ def run_scan(hours=24, post_teams=False):
         subj = email.get("subject", "")
         body = email.get("bodyPreview", "")
 
-        # HARD NOISE: System notifications that are NEVER useful — skip instantly
-        hard_noise_senders = ["noreply","no-reply","no_reply","notifications@","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","mailchimp","sendgrid.net","sharepointonline.com","lyftmail.com","agoda-emails.com","borrowell.com","clearscore.com","h5.hilton.com","kiwi.com","nordpass.com","td.com","riipen.com","eventbrite.com","aircanada.com","mail.aircanada.com","bmwtoronto.ca","owasco.com","telus.com","fireflies.ai","minuteslink.com","calendly.com","facebookmail.com","twitter.com","fusionnotes.com","iddidesign.com","salute.com","dcsmi.com","colossusdc.com","thegpu.ai","mail.raises.com","news.vntr.vc","privateequitybro.com","law360.com","saltlending.com","@beehiiv.com","microsoft-noreply@","substack.com","connect.media","linkedin.com","hubspot.com","hubspotemail.net","@144772270.mailchimpapp.com","newsroomreplies@","weekender@","weekendbriefing@","opening-bell@","estate-elegance@","teamphlote@","oldmennewmoney@","advalorem@","newsletter","marketing@","mail.monday.com","learn.mail.monday.com","mail.granola","datacenterdynamics.com","alpha-sense.com","crystalknows.com","armanino.com","amazon.com","aws-marketing"]
-        hard_noise_subjects = ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","new login from","new device login","your ride with","your trial ends","take off for less","pack your bags","upgrade to premium","last chance:","smoother pickups","voting is now open","verify a new device","complete your","reminder: complete","your microsoft invoice","tell us more about your"]
+        # HARD NOISE: Only absolute system junk that is NEVER business-relevant
         se_low = se.lower()
         subj_low = subj.lower()
-        if any(ns in se_low for ns in hard_noise_senders) or any(ns in subj_low for ns in hard_noise_subjects):
+        hard_noise = (
+            any(ns in se_low for ns in ["noreply","no-reply","no_reply","notifications@","quarantine@messaging","sparkpost","@ccsend.com","@mcdlv.net","mailchimp","sendgrid.net","lyftmail.com","agoda-emails.com","nordpass.com","kiwi.com","riipen.com","eventbrite.com","facebookmail.com","twitter.com","microsoft-noreply@"]) or
+            any(ns in subj_low for ns in ["accepted:","declined:","tentative:","canceled:","your teams meeting recording","messages in quarantine","new login from","new device login","your ride with","verify a new device","your microsoft invoice"])
+        )
+        if hard_noise:
             noise_n += 1
             seen[eid] = datetime.now(timezone.utc).isoformat()
             continue
 
         # Classify with rules engine
         c = classify_email(email, cal, replied, convos)
-
-        # If rules engine recognizes this email (known domain, VIP, keyword match) — keep it
-        # If rules engine doesn't know it (UNKNOWN tier, low score) — ask AI
-        needs_ai = (c["tier"] == "UNKNOWN" and c["score"] <= 5)
+        domain = extract_domain(se)
+        is_known = is_known_domain(domain) or se in INTERNAL_VIP_EMAILS or se in REDHILL_OPS or se in ALL_VIP_EMAILS
         
+        # AI GATEKEEPER: Every email from an unknown sender gets AI review
+        # Known contacts (Internal, VIP, Tier 1/2, Pipeline) skip AI — they're already scored
         ai_result = None
-        if needs_ai and ANTHROPIC_API_KEY:
-            log.info(f"  🤖 AI classifying: {sn} — {subj[:40]}")
+        if not is_known and ANTHROPIC_API_KEY:
+            log.info(f"  🤖 AI reviewing: {sn} — {subj[:50]}")
             ai_result = ai_classify(se, sn, subj, body)
             ai_n += 1
             ai_score = ai_result.get("score", 1)
             ai_label = ai_result.get("label", "NOISE")
-            # AI says NOISE or score <= 2 — drop it
+            
+            # AI says NOISE — drop it completely
             if ai_score <= 2 or ai_label == "NOISE":
-                log.info(f"  🗑️ AI confirmed noise: score {ai_score}")
+                log.info(f"  🗑️ AI dropped: {ai_label} (score {ai_score}) — {subj[:40]}")
                 noise_n += 1
                 seen[eid] = datetime.now(timezone.utc).isoformat()
                 continue
-            log.info(f"  ✅ AI kept: score {ai_score} / {ai_label}")
-        elif needs_ai and not ANTHROPIC_API_KEY:
-            # No AI key and unknown sender — drop it
-            noise_n += 1
-            seen[eid] = datetime.now(timezone.utc).isoformat()
-            continue
+            log.info(f"  ✅ AI approved: {ai_label} (score {ai_score})")
+        elif not is_known and not ANTHROPIC_API_KEY:
+            # No AI and unknown sender with low score — drop
+            if c["score"] <= 4:
+                noise_n += 1
+                seen[eid] = datetime.now(timezone.utc).isoformat()
+                continue
 
         result = {
             "sender_email": se, "sender_name": sn, "subject": subj,
