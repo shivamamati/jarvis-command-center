@@ -1,8 +1,8 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T02:12:33.870361+00:00",
-  "total": 24,
-  "new": 24,
+  "timestamp": "2026-03-23T02:22:48.071445+00:00",
+  "total": 23,
+  "new": 23,
   "noise": 18,
   "ai": 0,
   "skipped": 0,
@@ -25,8 +25,7 @@
         "Dave replied 5x (+4)",
         "Internal VIP",
         "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
+        "3 VIPs on thread (+2)"
       ],
       "ai_reviewed": false,
       "ai_score": null,
@@ -46,15 +45,14 @@
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
-      "rules_score": 10,
+      "rules_score": 9,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Dave replied 4x (+4)",
         "Internal VIP",
         "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
+        "3 VIPs on thread (+2)"
       ],
       "ai_reviewed": false,
       "ai_score": null,
@@ -62,37 +60,7 @@
       "ai_summary": null,
       "ai_action": null,
       "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Re: Apollo + secondary mail",
-      "body_preview": "Thanks Rodrigo,\r\nSorry, I need to clarify that all the mailboxes are indeed linked.\r\nBut, we need to ensure SMTP AUTH is enabled so that Apollo can warm up the mailboxes for us.\r\n\r\nThis is how Apollo ",
-      "received": "2026-03-22T02:19:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL VIP",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+4)",
-        "Internal VIP",
-        "Re customer: arm ",
-        "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 10,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -169,5 +137,6 @@
       "final_score": 6,
       "final_label": "IMPORTANT"
     }
-  ]
+  ],
+  "total_tracked": 5
 }
