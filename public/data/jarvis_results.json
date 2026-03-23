@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T18:48:56.786043+00:00",
-  "total": 14,
-  "new": 14,
-  "noise": 5,
-  "ai": 3,
+  "timestamp": "2026-03-23T18:55:59.851974+00:00",
+  "total": 82,
+  "new": 82,
+  "noise": 42,
+  "ai": 36,
   "skipped": 0,
   "auto_learned": 32,
   "items": [
@@ -78,12 +78,12 @@
       "rules_reasons": [],
       "ai_reviewed": true,
       "ai_score": 8,
-      "ai_label": "CRITICAL",
-      "ai_summary": "DocuSign notification for an incomplete document signature. Given Dave's active deal pipeline (Redhill JV, 18MW prospect, Poland 260MW, Innogate Milan), this is likely a contract, LOI, or term sheet awaiting execution.",
-      "ai_action": "Dave should immediately check DocuSign account and complete the pending document signature. Brief France on which deal this relates to.",
+      "ai_label": "URGENT",
+      "ai_summary": "DocuSign notification of an incomplete document requiring Dave's signature or completion. Likely related to an active deal, NDA, LOI, or legal agreement.",
+      "ai_action": "Dave should log into DocuSign immediately to identify and complete the pending document. Confirm with France if this relates to a known deal (Redhill JV, Poland prospect, Innogate Milan, or TechRE 18MW).",
       "ai_failed": false,
       "final_score": 8,
-      "final_label": "CRITICAL"
+      "final_label": "URGENT"
     },
     {
       "sender_email": "grogers@skylinecapitalllc.com",
@@ -101,12 +101,12 @@
       "rules_reasons": [],
       "ai_reviewed": true,
       "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "George Rogers (Skyline Capital) reports ongoing discussions with Paul and Castleforge regarding Redhill Data Centre's next stage development and seeks removal from legacy Galaxy Cap advisor listing.",
-      "ai_action": "Dave should follow up with George on Redhill next-stage timeline and confirm his current advisor status/role; coordinate with Paul and Castleforge on George's involvement.",
+      "ai_label": "IMPORTANT",
+      "ai_summary": "George Rogers (Skyline Capital) is actively engaged with Paul and Castleforge on next-stage Redhill financing/development and flagging a website listing issue.",
+      "ai_action": "Dave should respond to George about Redhill discussions and confirm whether he wants to remain listed as Advisor on legacy Galaxy Cap website.",
       "ai_failed": false,
       "final_score": 7,
-      "final_label": "URGENT"
+      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
@@ -128,7 +128,7 @@
         "KW: commission, data cent",
         "Broker signal",
         "6 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
+        "Thread: 9 msgs (+2)"
       ],
       "ai_reviewed": false,
       "ai_score": null,
@@ -254,15 +254,17 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+2)",
+        "Dave replied 4x (+2)",
         "Internal VIP",
         "KW: nda, lease",
-        "3 VIPs on thread (+2)"
+        "3 VIPs on thread (+2)",
+        "Thread: 6 msgs (+2)",
+        "Dave in thread (+2)"
       ],
       "ai_reviewed": false,
       "ai_score": null,
@@ -270,7 +272,7 @@
       "ai_summary": null,
       "ai_action": null,
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -355,7 +357,7 @@
       "body_preview": "Ash\r\n\r\nAs requested.\r\n\r\nKind regards",
       "received": "2026-03-23T13:47:55Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADcu9pibv1FJkFutkvH74Ro=",
       "rules_score": 6,
@@ -421,11 +423,11 @@
         "Attachments + deal KW (+2)",
         "KW: lease"
       ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Rodrigo Matos following up on Friday conversation with SOC2 compliance and Salesforce engagement documents for Dave's review.",
+      "ai_action": "Dave should review attached documents; appears to be compliance/operational deliverable from prior discussion with Rodrigo.",
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -445,7 +447,7 @@
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+2)",
+        "Dave replied 4x (+2)",
         "Internal VIP",
         "KW: nda"
       ],
@@ -515,7 +517,7 @@
       "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/2994779124615?p=BblThiZbLAaQtUQo1f\r\nMeeting ID: 299 47",
       "received": "2026-03-23T11:41:34Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOvTOH9f3ipLq1yD-Xmw5G0=",
       "rules_score": 9,
@@ -523,7 +525,7 @@
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 14x (+2)",
+        "Dave replied 10x (+2)",
         "Internal VIP",
         "13 VIPs on thread (+2)"
       ],
@@ -543,7 +545,7 @@
       "body_preview": "Hi guys,\r\n\r\nPlease see below (and attached) feedback from Nomura regarding the portal and the lack of information/updates on raised tickets and general complaint about the function of the new portal.\r",
       "received": "2026-03-23T11:25:03Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKvKCtQdWFxDp9y0B0WympM=",
       "rules_score": 10,
@@ -551,12 +553,13 @@
       "rules_tier": "REDHILL OPS",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 6x (+2)",
+        "Dave replied 2x (+2)",
         "Attachments + deal KW (+2)",
         "Redhill ops",
         "KW: lease",
         "Lease + customer",
-        "4 VIPs on thread (+2)"
+        "4 VIPs on thread (+2)",
+        "Dave in thread (+2)"
       ],
       "ai_reviewed": false,
       "ai_score": null,
@@ -574,7 +577,7 @@
       "body_preview": "Did you complete the Digital contract? The legal process with them is accellerating and your window may be closing.\r\n\r\n\r\n________________________________\r\nFrom: Pelle Jorgen <pelle.jorgen@castleforge.",
       "received": "2026-03-23T11:12:30Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFTLlwmTJRVGraxE2kxR0yc=",
       "rules_score": 7,
@@ -582,7 +585,7 @@
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+2)",
+        "Dave replied 4x (+2)",
         "Internal VIP",
         "Re customer: redhill",
         "KW: contract"
@@ -603,7 +606,7 @@
       "body_preview": "Hi TJ,\r\n\r\nTwo additional follow-up questions from ICG on this:\r\n\r\n  1.\r\nJust so I\u2019m clear on TCS \u2013 they sub-let it to Virgin Atlantic who are likely to transfer to Microsoft Azure (who will have their",
       "received": "2026-03-23T10:59:45Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACrgGkdAYi5Ar76Bsvzb9Ck=",
       "rules_score": 10,
@@ -681,7 +684,7 @@
       "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Eve",
       "received": "2026-03-23T08:46:32Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABZwT6xKscBCiYNi2UPCTs0=",
       "rules_score": 6,
@@ -690,14 +693,14 @@
       "rules_reasons": [
         "KW: nda, capital, lease"
       ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "CRITICAL",
+      "ai_summary": "MNDA from Evermere Capital Management requiring Dave's signature - likely related to potential investment, partnership, or deal discussion.",
+      "ai_action": "Dave should review the DocuSign document immediately and determine context with Evermere Capital Management before signing. Follow up with Daniel Scarbrough (dan.scarbrough@evermere.com) if context unclear.",
       "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
+      "final_score": 8,
+      "final_label": "CRITICAL"
     },
     {
       "sender_email": "rohit.k@leadshuttle.com",
@@ -741,7 +744,7 @@
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+2)",
+        "Dave replied 4x (+2)",
         "Internal VIP"
       ],
       "ai_reviewed": false,
@@ -768,7 +771,7 @@
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+2)",
+        "Dave replied 4x (+2)",
         "Internal VIP"
       ],
       "ai_reviewed": false,
@@ -790,11 +793,12 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGZI-WPwBFZAoja55HPojvs=",
-      "rules_score": 7,
+      "rules_score": 8,
       "rules_label": "URGENT",
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
-        "Dave replied 4x (+2)",
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
         "Internal VIP",
         "Urgency: action required (+1)"
       ],
@@ -804,7 +808,7 @@
       "ai_summary": null,
       "ai_action": null,
       "ai_failed": false,
-      "final_score": 7,
+      "final_score": 8,
       "final_label": "URGENT"
     },
     {
@@ -823,14 +827,14 @@
       "rules_reasons": [
         "KW: nda, capital, lease"
       ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "CRITICAL",
+      "ai_summary": "MNDA from Evermere Capital Management (via Daniel Scarbrough) requiring Dave's review and signature\u2014likely related to a potential investment or partnership discussion.",
+      "ai_action": "Dave must review and sign the MNDA immediately. Follow up with Daniel Scarbrough (dan.scarbrough@evermere.com) to understand the investment opportunity or deal context.",
       "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
+      "final_score": 8,
+      "final_label": "CRITICAL"
     },
     {
       "sender_email": "bobcavoto@2020-4.com",
