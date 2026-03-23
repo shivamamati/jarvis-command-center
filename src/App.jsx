@@ -548,13 +548,13 @@ function Dashboard() {
       {/* BODY */}
       {page === "queue" ? (
       <div style={{ flex: 1, display: "flex", overflow: "hidden" }}>
-        {/* FEED */}
-        <div style={{ flex: 1, overflowY: "auto", padding: mob ? "20px 16px" : "28px 32px" }}>
-          <div style={{ maxWidth: 740 }}>
+        {/* MAIN FEED */}
+        <div style={{ flex: 1, overflowY: "auto", padding: mob ? "20px 16px" : "28px 36px" }}>
+          <div style={{ maxWidth: 760 }}>
             {/* Greeting */}
-            <div style={{ marginBottom: 24 }}>
-              <h1 style={{ fontSize: 22, fontWeight: 700, color: T.text, margin: "0 0 6px" }}>{greeting}, {role === "france" ? "France" : "Dave"}.</h1>
-              <p style={{ fontSize: 14, color: T.textMid, margin: 0, lineHeight: 1.6 }}>
+            <div style={{ marginBottom: 20 }}>
+              <h1 style={{ fontSize: 24, fontWeight: 700, color: "#1a1a2e", margin: "0 0 6px", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{greeting}, {role === "france" ? "France" : "Dave"}.</h1>
+              <p style={{ fontSize: 14, color: "#71717a", margin: 0, lineHeight: 1.6, fontFamily: "'DM Sans',system-ui,sans-serif" }}>
                 {todayItems.length > 0
                   ? `${todayItems.length} new item${todayItems.length !== 1 ? "s" : ""} today${todayCrit > 0 ? ` \u2014 ${todayCrit} time-critical` : ""}. ${previousItems.length > 0 ? `${previousItems.length} carry-over from previous days.` : ""}`
                   : previousItems.length > 0
@@ -563,15 +563,38 @@ function Dashboard() {
               </p>
             </div>
 
+            {/* STATS BAR */}
+            <div style={{ display: "grid", gridTemplateColumns: mob ? "repeat(2,1fr)" : "repeat(5,1fr)", gap: 10, marginBottom: 28 }}>
+              {[
+                { label: "Scanned", value: meta?.total || data.length, icon: "\uD83D\uDCE8", bg: "#f8fafc", c: "#64748b", bc: "#e2e8f0" },
+                { label: "Critical", value: critCount, icon: "\uD83D\uDD34", bg: "#fef2f2", c: "#dc2626", bc: "#fecaca" },
+                { label: "Pending", value: filtered.length, icon: "\u23F3", bg: "#fff7ed", c: "#ea580c", bc: "#fed7aa" },
+                { label: "Completed", value: doneItems.length, icon: "\u2705", bg: "#f0fdf4", c: "#16a34a", bc: "#bbf7d0" },
+                { label: "Pipeline", value: "\u00A342M+", icon: "\uD83D\uDCB0", bg: "#f5f3ff", c: "#6366f1", bc: "#ddd6fe" },
+              ].map(s => (
+                <div key={s.label} style={{
+                  padding: "14px 16px", background: "#fff", borderRadius: 12,
+                  border: `1px solid ${s.bc}`, display: "flex", alignItems: "center", gap: 12,
+                  boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
+                }}>
+                  <div style={{ width: 36, height: 36, borderRadius: 10, background: s.bg, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, flexShrink: 0 }}>{s.icon}</div>
+                  <div>
+                    <div style={{ fontSize: 18, fontWeight: 700, color: s.c, fontFamily: "'DM Mono','JetBrains Mono',monospace" }}>{s.value}</div>
+                    <div style={{ fontSize: 10, color: "#a1a1aa", fontWeight: 500, fontFamily: "'DM Sans',system-ui,sans-serif", letterSpacing: 0.3 }}>{s.label}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
             {/* TODAY'S ITEMS */}
             {todayItems.length > 0 && (
               <div style={{ marginBottom: 28 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
-                  <div style={{ fontSize: 11, fontWeight: 700, color: T.accent, letterSpacing: .8, textTransform: "uppercase" }}>Today's Items</div>
-                  <div style={{ flex: 1, height: 1, background: T.border }} />
-                  <span style={{ fontSize: 11, color: T.textDim }}>{todayItems.length} item{todayItems.length !== 1 ? "s" : ""}</span>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: "#6366f1", letterSpacing: 1, textTransform: "uppercase", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Today</div>
+                  <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
+                  <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{todayItems.length} item{todayItems.length !== 1 ? "s" : ""}</span>
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                   {todayItems.map((item, index) => <DecisionCard key={item.id} item={item} index={index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} />)}
                 </div>
               </div>
@@ -580,30 +603,36 @@ function Dashboard() {
             {/* PREVIOUS ITEMS */}
             {previousItems.length > 0 && (
               <div style={{ marginBottom: 28 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
-                  <div style={{ fontSize: 11, fontWeight: 700, color: T.orange, letterSpacing: .8, textTransform: "uppercase" }}>Previous</div>
-                  <div style={{ flex: 1, height: 1, background: T.border }} />
-                  <span style={{ fontSize: 11, color: T.textDim }}>{previousItems.length} carry-over</span>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: "#ea580c", letterSpacing: 1, textTransform: "uppercase", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Previous</div>
+                  <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
+                  <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{previousItems.length} carry-over</span>
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                   {previousItems.map((item, index) => <DecisionCard key={item.id} item={item} index={todayItems.length + index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} />)}
                 </div>
               </div>
             )}
 
-            {/* DONE */}
+            {/* COMPLETED */}
             {doneItems.length > 0 && (
               <div>
-                <div style={{ fontSize: 11, fontWeight: 600, color: T.textDim, letterSpacing: .6, textTransform: "uppercase", marginBottom: 12 }}>Completed</div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: "#16a34a", letterSpacing: 1, textTransform: "uppercase", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Completed</div>
+                  <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
+                  <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{doneItems.length}</span>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
                   {doneItems.slice(0, 10).map(item => (
-                    <div key={item.id} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 16px", background: T.surface, borderRadius: 10, border: `1px solid ${T.border}`, opacity: .6, transition: "opacity 150ms" }}
-                      onMouseEnter={e => e.currentTarget.style.opacity = "1"}
-                      onMouseLeave={e => e.currentTarget.style.opacity = "0.6"}>
-                      <div style={{ width: 22, height: 22, borderRadius: "50%", background: T.greenBg, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, color: T.green }}>{"\u2713"}</div>
-                      <span style={{ fontSize: 13, color: T.textMid, flex: 1 }}>{item.subject}</span>
-                      <span style={{ fontSize: 11, color: T.textDim }}>{item.from}</span>
-                      <button onClick={() => undoDone(item.id)} style={{ padding: "4px 10px", borderRadius: 6, border: `1px solid ${T.border}`, background: T.bg, color: T.accent, fontSize: 10, fontWeight: 600, cursor: "pointer", fontFamily: "inherit", transition: "all 150ms" }}>Undo</button>
+                    <div key={item.id} style={{
+                      display: "flex", alignItems: "center", gap: 12, padding: "10px 16px",
+                      background: "#fff", borderRadius: 10, border: "1px solid #f0f0f0",
+                      opacity: 0.55, transition: "opacity 150ms",
+                    }} onMouseEnter={e => e.currentTarget.style.opacity = "1"} onMouseLeave={e => e.currentTarget.style.opacity = "0.55"}>
+                      <div style={{ width: 22, height: 22, borderRadius: "50%", background: "#f0fdf4", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, color: "#16a34a" }}>{"\u2713"}</div>
+                      <span style={{ fontSize: 13, color: "#52525b", flex: 1, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{item.subject}</span>
+                      <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{item.from}</span>
+                      <button onClick={() => undoDone(item.id)} style={{ padding: "4px 12px", borderRadius: 6, border: "1px solid #ebebeb", background: "#fff", color: "#6366f1", fontSize: 10, fontWeight: 600, cursor: "pointer", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Undo</button>
                     </div>
                   ))}
                 </div>
@@ -614,24 +643,47 @@ function Dashboard() {
 
         {/* SIDEBAR */}
         {!mob && (
-          <div style={{ width: 280, flexShrink: 0, overflowY: "auto", padding: "24px 20px", background: T.surface, borderLeft: `1px solid ${T.border}` }}>
-            <div style={{ fontSize: 11, fontWeight: 600, color: T.textDim, letterSpacing: .6, textTransform: "uppercase", marginBottom: 16 }}>Deal Overview</div>
-            {DEALS.map(deal => (
-              <div key={deal.name} style={{ padding: "12px 14px", background: T.bg, borderRadius: 10, border: `1px solid ${T.border}`, marginBottom: 10 }}>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6 }}>
-                  <span style={{ fontSize: 13, fontWeight: 600, color: T.text }}>{deal.name}</span>
-                  <span style={{ fontSize: 12, fontWeight: 700, color: deal.color }}>{deal.value}</span>
+          <div style={{ width: 300, flexShrink: 0, overflowY: "auto", padding: "24px 20px", background: "#fff", borderLeft: "1px solid #f0f0f0" }}>
+            {/* Calendar */}
+            <div style={{ marginBottom: 24 }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Today's Schedule</div>
+              {[
+                { time: "9:30 AM", label: "Ops Team Weekly", people: "Ash, TJ, Redhill ops", c: "#6366f1" },
+                { time: "12:00 PM", label: "Marketing Meeting", people: "Sai, Animesh", c: "#ea580c" },
+                { time: "3:00 PM", label: "Galaxy Leadership Sync", people: "Paul, Ash, TJ", c: "#0ea5e9" },
+              ].map(ev => (
+                <div key={ev.time} style={{ display: "flex", gap: 12, marginBottom: 12, alignItems: "flex-start" }}>
+                  <div style={{ width: 48, fontSize: 10, color: "#a1a1aa", fontWeight: 600, paddingTop: 4, flexShrink: 0, fontFamily: "'DM Mono',monospace" }}>{ev.time}</div>
+                  <div style={{ flex: 1, padding: "10px 14px", borderRadius: 10, background: `${ev.c}06`, border: `1px solid ${ev.c}15` }}>
+                    <div style={{ fontSize: 12, fontWeight: 600, color: "#1a1a2e", marginBottom: 2, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.label}</div>
+                    <div style={{ fontSize: 10, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.people}</div>
+                  </div>
                 </div>
-                <div style={{ fontSize: 11, color: T.textDim, marginBottom: 8 }}>{deal.stage}</div>
-                <div style={{ height: 4, background: T.border, borderRadius: 2, overflow: "hidden" }}>
-                  <div style={{ height: "100%", width: `${deal.progress}%`, background: deal.color, borderRadius: 2 }} />
+              ))}
+            </div>
+
+            {/* Pipeline */}
+            <div style={{ marginBottom: 20 }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Deal Pipeline</div>
+              {DEALS.map(deal => (
+                <div key={deal.name} style={{ padding: "12px 14px", background: "#fafafa", borderRadius: 10, border: "1px solid #f0f0f0", marginBottom: 8 }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6 }}>
+                    <span style={{ fontSize: 12, fontWeight: 600, color: "#1a1a2e", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{deal.name}</span>
+                    <span style={{ fontSize: 12, fontWeight: 700, color: deal.color, fontFamily: "'DM Mono',monospace" }}>{deal.value}</span>
+                  </div>
+                  <div style={{ fontSize: 10, color: "#a1a1aa", marginBottom: 8, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{deal.stage}</div>
+                  <div style={{ height: 4, background: "#f0f0f0", borderRadius: 2, overflow: "hidden" }}>
+                    <div style={{ height: "100%", width: `${deal.progress}%`, background: deal.color, borderRadius: 2, transition: "width 500ms ease" }} />
+                  </div>
                 </div>
-              </div>
-            ))}
-            <div style={{ marginTop: 20, padding: 14, background: T.accentLight, borderRadius: 10, border: `1px solid ${T.accentBorder}` }}>
-              <div style={{ fontSize: 10, fontWeight: 700, color: T.accent, marginBottom: 8, letterSpacing: .5 }}>PIPELINE TOTAL</div>
-              <div style={{ fontSize: 22, fontWeight: 700, color: T.accentText, marginBottom: 2 }}>{"£"}42M+</div>
-              <div style={{ fontSize: 11, color: T.accent }}>{DEALS.length} active deals {"·"} {critCount} critical</div>
+              ))}
+            </div>
+
+            {/* Pipeline Total */}
+            <div style={{ padding: 16, background: "#f5f3ff", borderRadius: 12, border: "1px solid #ede9fe" }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: "#6366f1", marginBottom: 8, letterSpacing: 1, fontFamily: "'DM Sans',system-ui,sans-serif" }}>PIPELINE TOTAL</div>
+              <div style={{ fontSize: 26, fontWeight: 700, color: "#4338ca", marginBottom: 2, fontFamily: "'DM Mono',monospace" }}>{"\u00A3"}42M+</div>
+              <div style={{ fontSize: 11, color: "#6366f1", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{DEALS.length} active deals {"\u00B7"} {critCount} critical</div>
             </div>
           </div>
         )}
