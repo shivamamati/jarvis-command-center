@@ -484,6 +484,10 @@ function Dashboard() {
     const next = filtered.find(q => !completed.includes(q.id) && q.id !== id);
     if (next) setExpandedId(next.id);
   };
+  const undoDone = (id) => {
+    setCompleted(p => p.filter(x => x !== id));
+    upd(id, "dave");
+  };
 
   const filtered = useMemo(() => {
     let r = data.filter(e => e.stage !== "complete" && !completed.includes(e.id));
@@ -591,11 +595,14 @@ function Dashboard() {
               <div>
                 <div style={{ fontSize: 11, fontWeight: 600, color: T.textDim, letterSpacing: .6, textTransform: "uppercase", marginBottom: 12 }}>Completed</div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  {doneItems.slice(0, 5).map(item => (
-                    <div key={item.id} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 16px", background: T.surface, borderRadius: 10, border: `1px solid ${T.border}`, opacity: .6 }}>
+                  {doneItems.slice(0, 10).map(item => (
+                    <div key={item.id} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 16px", background: T.surface, borderRadius: 10, border: `1px solid ${T.border}`, opacity: .6, transition: "opacity 150ms" }}
+                      onMouseEnter={e => e.currentTarget.style.opacity = "1"}
+                      onMouseLeave={e => e.currentTarget.style.opacity = "0.6"}>
                       <div style={{ width: 22, height: 22, borderRadius: "50%", background: T.greenBg, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, color: T.green }}>{"\u2713"}</div>
                       <span style={{ fontSize: 13, color: T.textMid, flex: 1 }}>{item.subject}</span>
                       <span style={{ fontSize: 11, color: T.textDim }}>{item.from}</span>
+                      <button onClick={() => undoDone(item.id)} style={{ padding: "4px 10px", borderRadius: 6, border: `1px solid ${T.border}`, background: T.bg, color: T.accent, fontSize: 10, fontWeight: 600, cursor: "pointer", fontFamily: "inherit", transition: "all 150ms" }}>Undo</button>
                     </div>
                   ))}
                 </div>
