@@ -249,13 +249,40 @@ def save_partial_result(result):
         pass
 
 def finalize_results(results, metadata):
-    """Move partial results to final file on successful completion."""
+    """Merge new results with existing results file — emails accumulate, never disappear."""
     try:
-        output = {**metadata, "items": results}
+        existing_items = []
+        if RESULTS_FILE.exists():
+            try:
+                old = json.loads(RESULTS_FILE.read_text())
+                existing_items = old.get("items", [])
+            except: pass
+        
+        # Build a set of unique keys from new results (email + subject)
+        new_keys = set()
+        for r in results:
+            key = f"{r.get('sender_email','')}__{r.get('subject','')}"
+            new_keys.add(key)
+        
+        # Keep old items that aren't duplicated by new results
+        # Also keep items from the last 7 days only (auto-cleanup)
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
+        merged = list(results)  # New results first
+        for old_item in existing_items:
+            key = f"{old_item.get('sender_email','')}__{old_item.get('subject','')}"
+            received = old_item.get("received", "")
+            if key not in new_keys and received >= cutoff:
+                merged.append(old_item)
+        
+        # Sort by score descending
+        merged.sort(key=lambda x: x.get("final_score", 0), reverse=True)
+        
+        output = {**metadata, "items": merged}
+        output["total_tracked"] = len(merged)
         RESULTS_FILE.write_text(json.dumps(output, indent=2))
-        # Clean up partial file
         if PARTIAL_FILE.exists():
             PARTIAL_FILE.unlink()
+        log.info(f"  📊 {len(results)} new + {len(merged) - len(results)} existing = {len(merged)} total tracked")
     except Exception as e:
         log.error(f"  Failed to write results: {e}")
 
