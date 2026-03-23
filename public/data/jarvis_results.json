@@ -1,13 +1,38 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T09:59:00.492232+00:00",
+  "timestamp": "2026-03-23T10:58:37.561628+00:00",
   "total": 4,
   "new": 4,
   "noise": 2,
-  "ai": 0,
+  "ai": 1,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "robdonell@eversheds-sutherland.com",
+      "sender_name": "Donell, Rob",
+      "subject": "RE: DORA",
+      "body_preview": "Hi Paul\r\n\r\nMany thanks for this. Just confirming that we will come back to you with a fee estimate presently.\r\n\r\nKind regards\r\n\r\nRob\r\n\r\n\r\nRob Donell | Partner | Real Estate | Eversheds Sutherland\r\n\r\nT",
+      "received": "2026-03-23T10:01:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHwNyC6_IlFAgzhHgol0JT8=",
+      "rules_score": 5,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 6,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Rob Donell from Eversheds Sutherland (major UK legal firm) confirming fee estimate for DORA-related legal work, likely regulatory/compliance advice for data center operations.",
+      "ai_action": "Flag for Paul to track fee estimate arrival; ensure legal costs are budgeted for DORA compliance project.",
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "mail@kadiumpublishing.com",
       "sender_name": "Networking+",
@@ -246,5 +271,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 9
+  "total_tracked": 10
 }
