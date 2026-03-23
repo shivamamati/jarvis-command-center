@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T05:55:44.679023+00:00",
+  "timestamp": "2026-03-23T06:02:02.391228+00:00",
   "total": 5,
   "new": 5,
   "noise": 1,
@@ -17,6 +17,7 @@
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFTiFYpiyYlEuL-hu8kiEik=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "UNKNOWN",
@@ -33,91 +34,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Re: Lead Funnel - SQL Discussion",
-      "body_preview": "Hi Rohit ,\r\n\r\nAs part of our evaluation process for potential ABM partners, we\u2019d like to gather some additional details about your capabilities and approach.\r\nCould you please share information on the",
-      "received": "2026-03-23T05:54:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL VIP",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Internal VIP",
-        "KW: lease",
-        "Thread: 4 msgs (+2)"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Re: Lead Funnel - SQL Discussion",
-      "body_preview": "Please carry on without me at the earliest. Request call recording and deck.\r\nThanks,\r\nSai\r\n\r\nGet Outlook for Android\r\n________________________________\r\nFrom: Animesh Raha <animesh@galaxydatacenters.c",
-      "received": "2026-03-23T05:27:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL VIP",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Internal VIP",
-        "KW: nda, lease",
-        "Thread: 4 msgs (+2)"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Re: Lead Funnel - SQL Discussion",
-      "body_preview": "@Sai Raman pls let me know your availability .\r\n________________________________\r\nFrom: Rohit Kumar <rohit.k@leadshuttle.com>\r\nSent: Monday, March 23, 2026 10:53 AM\r\nTo: Animesh Raha <animesh@galaxyda",
-      "received": "2026-03-23T05:25:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL VIP",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Internal VIP",
-        "KW: nda",
-        "Thread: 4 msgs (+2)"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 4
+  "total_tracked": 1
 }
