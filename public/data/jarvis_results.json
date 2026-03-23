@@ -1,13 +1,63 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T08:00:18.964813+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 1,
+  "timestamp": "2026-03-23T09:59:00.492232+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 2,
   "ai": 0,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "mail@kadiumpublishing.com",
+      "sender_name": "Networking+",
+      "subject": "TD SYNNEX unveils Cloud Insights: a data-driven tool for Microsoft CSP partners in the UK",
+      "body_preview": "If you are having trouble viewing this email please click here\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTD SYNNEX unveils Cloud Insights: a data-driven tool for Microsoft CSP partners in the UK\r\n\r\nTD SYNNEX has launched Cloud ",
+      "received": "2026-03-23T09:48:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANOLP08BT5lKkrLs5RTOKho=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: lease, lp"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "dse@eumail.docusign.net",
+      "sender_name": "Daniel Scarbrough via Docusign",
+      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
+      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Eve",
+      "received": "2026-03-23T08:46:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABZwT6xKscBCiYNi2UPCTs0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, capital, lease"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "rohit.k@leadshuttle.com",
       "sender_name": "Rohit Kumar",
@@ -196,5 +246,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 7
+  "total_tracked": 9
 }
