@@ -2,7 +2,6 @@ name: JARVIS Scan
 
 on:
   schedule:
-  
     # Run every hour at minute 0
     - cron: '0 * * * *'
   workflow_dispatch:
@@ -46,12 +45,7 @@ jobs:
       - name: Copy results to public data
         run: |
           mkdir -p public/data
-          find . -name "jarvis_results.json" -not -path "./public/*" -not -path "./dist/*" -exec cp {} public/data/jarvis_results.json \;
-          if [ ! -f public/data/jarvis_results.json ]; then
-            echo "ERROR: No results file found anywhere"
-            find . -name "*.json" -newer scripts/jarvis_scan.py | head -10
-            exit 1
-          fi
+          cp scripts/jarvis_results.json public/data/jarvis_results.json
           echo "Results copied successfully"
 
       - name: Commit and push results
