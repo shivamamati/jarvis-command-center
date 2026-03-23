@@ -1,32 +1,34 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T14:17:54.471328+00:00",
-  "total": 14,
-  "new": 14,
-  "noise": 6,
-  "ai": 0,
+  "timestamp": "2026-03-23T15:57:21.275898+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 7,
+  "ai": 1,
   "skipped": 0,
-  "auto_learned": 41,
+  "auto_learned": 39,
   "items": [
     {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
       "subject": "Re: Apollo + secondary mail",
-      "body_preview": "Hi @Sai Raman,\r\n\r\nBefore I grant admin consent for Warmbox.ai I need to clarify a few things.\r\n\r\nWarmbox.ai is showing as an unverified publisher in Microsoft's system. Granting tenant-wide consent fo",
-      "received": "2026-03-23T13:58:09Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "Thanks Rodrigo. I can go over this at 2 pm ET today. Is that ok for you? I'm Available 2-330 pm for this and after 5 pm et.  Please let me know what works best\r\n\r\nGet Outlook for Android\r\n____________",
+      "received": "2026-03-23T15:48:11Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL VIP",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+2)",
+        "Dave replied 6x (+2)",
         "Internal VIP",
-        "KW: nda, tenant",
-        "3 VIPs on thread (+2)"
+        "KW: nda, lease",
+        "3 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)",
+        "Dave in thread (+2)"
       ],
       "ai_reviewed": false,
       "ai_score": null,
@@ -34,8 +36,83 @@
       "ai_summary": null,
       "ai_action": null,
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "news@publications.bisnow.com",
+      "sender_name": "Bisnow First Draft",
+      "subject": "It's Funding Season",
+      "body_preview": "As a thank you for joining Bisnow as a speaker at our local events in 2025, you are receiving a complimentary one-year subscription to First Draft Insider Access.\r\n\r\n\r\n\r\n\r\nEditor\u2019s Note: The First Dra",
+      "received": "2026-03-23T15:36:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAYFA%2BJzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJb3JdOxV2dNvbcHVDiALIc=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: capital, fund"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "communications@b2binfo.verizonwireless.com",
+      "sender_name": "Verizon",
+      "subject": "Don\u2019t miss up to $1,100 off this powerful device",
+      "body_preview": "Save on the Samsung Galaxy S26 Ultra today\r\n\r\n844-934-4508\r\n\r\nOnline only: $200 off each new smartphone\u00b9\r\n\r\nDon\u2019t miss up to $1,100 in savings\r\n\r\nSwitch to Verizon on My Biz Plan with $\u200d2\u200d0\u200d/\u200dm\u200do in a",
+      "received": "2026-03-23T14:27:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiARAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFCzl-FVDQtFqk1-0OfqvoI=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: power"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "info@goglobal.world",
+      "sender_name": "Danil Kislinskiy from Go Global World",
+      "subject": "[Invite] Meet Leading VCs & Startup Innovators",
+      "body_preview": "Website RSVP | \ud83d\udd25 Transform Your Pitch from Good to Fundable at GGW Pitch Bootcamp. Join us for an intensive, no-fluff pitch workshop where you\u2019ll receive honest, actionable feedback from our top exper",
+      "received": "2026-03-23T14:18:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHGi-0Ll0tpLjcqOG6d86OE=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, fund"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "rj@galaxydatacenters.com",
@@ -602,5 +679,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 22
+  "total_tracked": 25
 }
