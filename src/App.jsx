@@ -336,8 +336,8 @@ function transformScan(sd) {
     subject: it.subject || "(no subject)", time: fmtTime(it.received), date: getDateLocal(it.received),
     link: it.web_link || "", jarvis: it.ai_summary || it.body_preview || "",
     action: it.ai_action || "", reply: "", deal: "", dealValue: "",
-    actions: ["Open in Outlook", "Delegate to France", "Mark Done"],
-    primaryAction: "Open in Outlook",
+    actions: ["Delegate to France", "Mark Done"],
+    primaryAction: "Mark Done",
     reasons: it.rules_reasons || [], att: it.has_attachments || false, ai: it.ai_reviewed || false,
     read: it.is_read || false, threads: 1, avatar: (it.sender_name || "?").split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase(),
     color: "#6366f1",
@@ -1044,18 +1044,32 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
             <span><strong>Suggested:</strong> {item.action}</span>
           </div>}
           <NlpWidget email={item} onApply={(stage) => upd(item.id, stage)} />
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-            {(item.actions || []).map(act => {
-              const isPri = act === item.primaryAction;
-              return <button key={act} onClick={ev => { ev.stopPropagation(); if (isPri) markDone(item.id); }} style={{
-                padding: isPri ? "10px 22px" : "10px 18px", borderRadius: 9,
-                border: isPri ? "none" : `1px solid ${T.border}`,
-                background: isPri ? "linear-gradient(135deg,#6366f1,#8b5cf6)" : T.surface,
-                color: isPri ? "#fff" : T.textMid, fontSize: 13, fontWeight: isPri ? 600 : 500,
-                cursor: "pointer", fontFamily: "inherit",
-                boxShadow: isPri ? "0 2px 12px rgba(99,102,241,0.3)" : "none", transition: "all 150ms",
-              }}>{act}</button>;
-            })}
+          {/* Action buttons */}
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+            {/* Open in Outlook — always first, opens link */}
+            {item.link && item.link !== "#" && item.link !== "" && (
+              <a href={item.link} target="_blank" rel="noopener noreferrer" onClick={ev => ev.stopPropagation()} style={{
+                padding: "10px 22px", borderRadius: 9, textDecoration: "none",
+                background: "linear-gradient(135deg,#6366f1,#8b5cf6)", color: "#fff",
+                fontSize: 13, fontWeight: 600, fontFamily: "inherit",
+                boxShadow: "0 2px 12px rgba(99,102,241,0.3)", transition: "all 150ms",
+                display: "inline-flex", alignItems: "center", gap: 6,
+              }}>Open in Outlook {"\u2197"}</a>
+            )}
+            {/* Other action buttons (Delegate, etc.) */}
+            {(item.actions || []).filter(a => a !== "Mark Done").map(act => (
+              <button key={act} onClick={ev => { ev.stopPropagation(); if (act === "Delegate to France") upd(item.id, "france"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.border}`,
+                background: T.surface, color: T.textMid, fontSize: 13, fontWeight: 500,
+                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+              }}>{act}</button>
+            ))}
+            {/* Mark Done — always last */}
+            <button onClick={ev => { ev.stopPropagation(); markDone(item.id); }} style={{
+              padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.green}40`,
+              background: T.greenBg, color: T.green, fontSize: 13, fontWeight: 600,
+              cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+            }}>{"\u2713"} Done</button>
           </div>
           {item.reply && (
             <div style={{ marginTop: 14, padding: "12px 14px", background: T.bg, borderRadius: 8, border: `1px solid ${T.border}` }}>
