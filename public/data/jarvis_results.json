@@ -1,13 +1,181 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T14:55:04.602217+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 12,
-  "ai": 12,
+  "timestamp": "2026-03-24T16:04:40.023095+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 9,
+  "ai": 16,
   "skipped": 0,
-  "auto_learned": 44,
+  "auto_learned": 40,
   "items": [
+    {
+      "sender_email": "louis.mueller@castleforge.com",
+      "sender_name": "Louis Mueller",
+      "subject": "RE: Redhill Operations Call",
+      "body_preview": "Hi All,\r\n\r\nApologies for the late notice. We are running about 10 minutes behind schedule. Please plan for a 16:10 (UK time) start.\r\n\r\nThanks,\r\nLouis\r\n\r\n\r\n\r\nLouis Mueller\r\nE: louis.mueller@castleforge.com\r\n\r\n-----Original Appointment-----\r\nFrom: Elizabeth",
+      "received": "2026-03-24T15:53:14Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAADpHBfMcRZOt6Ag1lPBalg=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Louis Mueller from Castle Forge is notifying the team of a 10-minute delay to the Redhill Operations call, pushing the start time to 16:10 UK time. This appears to be a routine operational update for an already-scheduled meeting between Galaxy and Castle Forge stakeholders.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Update internal calendars and notify any Galaxy attendees of the revised 16:10 UK start time",
+        "Confirm Galaxy's attendance and any specific agenda items for the Redhill Operations discussion with France or relevant team lead"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "FW: Galaxy Data Centers <> Inflect - PTC Follow Up & Next Steps",
+      "body_preview": "Hi Francis,\r\n\r\nPlease see redlines from Inflect. The commission rate in the schedule should be 15% not 18%.\r\n\r\nAsh\r\n\r\nFrom: Condreda Presley <legal@inflect.com>\r\nDate: Friday, 20 March 2026 at 19:43\r\nTo: Anna Wolfe <anna.wolfe@inflect.com>\r\nCc: Ashley Rob",
+      "received": "2026-03-24T15:41:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANi5ojEwCnVHqBGmjFHM2L0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: commission, lease, data cent",
+        "Broker signal"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts is flagging a contract discrepancy with Inflect regarding a commission rate in the agreement schedule\u2014it should be 15% rather than the currently stated 18%. This appears to be a partner agreement negotiation where the commission structure directly impacts Galaxy's profitability and cost structure with this vendor or client relationship.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review Inflect's redlines document to confirm the 15% rate is correct and assess financial impact of the 3% difference",
+        "Coordinate with Ashley and legal to incorporate the corrected 15% commission rate into the final contract version",
+        "Confirm revised terms with Inflect's legal team (Condreda Presley) and obtain execution on the corrected schedule"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "rj@galaxydatacenters.com",
+      "sender_name": "Rhys  Jones",
+      "subject": "OT Network Design",
+      "body_preview": "Guys\r\n\r\nGiven the network design is apparently underway, can I please get visibility of what allowances; if any; have been made in respect a view to future migration from existing BMS philosophy [i.e. UPS connected to BMS via RS485] to something on market",
+      "received": "2026-03-24T15:18:25Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJo9Lr6dZkZLt26ARQT5aAU=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rhys Jones from Galaxy Data Centers is requesting visibility into the network design currently in progress, specifically asking whether the design accounts for future flexibility to migrate from the existing Building Management System (BMS) architecture that relies on RS485 connections to UPS systems toward more modern market alternatives. This matters because locking into legacy BMS connectivity could create technical debt and limit Galaxy's ability to upgrade infrastructure or adopt newer, more efficient monitoring and control systems as technology evolves.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have the network design team provide Rhys with documentation showing what future-proofing provisions (if any) have been built into the current design regarding BMS/UPS connectivity flexibility",
+        "Schedule a brief sync between Rhys, France, and the network/BMS design leads to clarify modernization roadmap expectations and ensure design accommodates eventual migration paths",
+        "If gaps exist in the design, determine whether modifications are needed now or can be addressed as a Phase 2 upgrade"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "jade@zendoenergy.com",
+      "sender_name": "Jade Batstone",
+      "subject": "Re: Xela Energy - Private-wire solar opportunity for Redhill DC",
+      "body_preview": "Hi Jack,\r\n\r\nNice to e-meet you!\r\n\r\nAs Galaxy's energy broker, we're happy to have an initial conversation to understand more about the offering and evaluate possible synergies and opportunities as a first step. Adding my co-founder and COO @Drew Barrett a",
+      "received": "2026-03-24T15:15:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP6ZdA3qj0CunpShVmHKKJY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Jade Batstone]",
+      "rules_reasons": [
+        "Pipeline: jade batstone",
+        "Broker signal",
+        "3 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Jade Batstone from Zendo Energy is Galaxy's energy broker following up on a private-wire solar opportunity for Redhill Data Centre. She's proposing an initial conversation with her co-founder Drew Barrett to evaluate potential synergies\u2014this is directly relevant to Redhill's power strategy and sustainability profile.",
+      "ai_action": "Forward to Dave with context: Is Zendo already engaged as Galaxy's energy broker? If yes, this deserves a meeting slot. If no, clarify the relationship before responding. Either way, Redhill's power economics are critical.",
+      "ai_next_steps": [
+        "Confirm if Zendo Energy is Galaxy's official energy broker or if this is a new introduction",
+        "Request full proposal details: PPA terms, solar capacity (MW), cost per kWh, timeline to PPA execution",
+        "Schedule call with Jade and Drew to discuss Redhill's current power profile and PPA strategy"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "luke.gray@redhilldatacentre.com",
+      "sender_name": "Luke Gray",
+      "subject": "Roof CAPEX works ",
+      "body_preview": "HI Gents\r\n\r\nCan I get an update on the signature for these works please?\r\nI had a conversation with South Anston today who have been advised by there contractor that costs are likely to go up in April.\r\nThis coupled with the fact these quote is only techn",
+      "received": "2026-03-24T15:05:08Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKNdcsx7tXRLjEdWrhKbdpk=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Redhill ops",
+        "KW: lease, contract",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Luke Gray from Redhill Data Centre is requesting an update on signature status for roof CAPEX works and flagging that South Anston's contractor has indicated costs will likely increase in April, creating time pressure to finalize the contract before the price escalation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify current signature status on the roof CAPEX works contract and identify any blockers preventing execution",
+        "Confirm the April cost increase timeline with South Anston's contractor to assess urgency and potential budget impact",
+        "Determine if expedited signature is financially justified given the pending price escalation"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "r.peck@2020-4.com",
       "sender_name": "Robert Peck",
@@ -1562,5 +1730,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 51
+  "total_tracked": 56
 }
