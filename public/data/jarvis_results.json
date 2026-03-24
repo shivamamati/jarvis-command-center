@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T02:15:23.042643+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 4,
-  "ai": 8,
+  "timestamp": "2026-03-24T04:20:11.137049+00:00",
+  "total": 100,
+  "new": 100,
+  "noise": 47,
+  "ai": 83,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -32,12 +32,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong (internal Galaxy Data Centers team member) is confirming that a previously non-functional system or process is now operational following Sai Raman's request to verify. This appears to be a brief confirmation of a technical fix or deployment, though the specific system is unclear from the exchange.",
+      "ai_summary": "Paul Leong, an internal team member at Galaxy Data Centers, is confirming that a previously non-functional system or process is now operational following a request from Sai Raman to verify status. This appears to be a resolution of a technical issue that was impacting internal operations or marketing infrastructure.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Sai or Paul what system was fixed and whether it impacts any customer-facing services or marketing initiatives",
-        "Verify that the fix is stable and monitor for any related issues over the next 24-48 hours",
-        "Confirm whether this resolution affects any pending marketing deliverables or customer communications"
+        "Verify with Sai Raman what the underlying issue was and whether it requires any documentation or process changes to prevent recurrence",
+        "Confirm the fix does not impact other dependent systems or workflows across Galaxy Data Centers",
+        "Update relevant stakeholders on the resolution status if this downtime affected customer-facing services or deliverables"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -64,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a calendar invite for a Microsoft Teams meeting between Dave Misra and George (likely a key contact or partner). The email contains meeting details and access information but no substantive agenda or context about the discussion topics.",
+      "ai_summary": "This is a calendar invite for a Microsoft Teams meeting between George and Dave, with meeting details and access credentials provided. The email subject indicates this is a scheduled sync meeting, likely between Dave and a colleague named George to discuss business matters. No specific agenda or business impact is detailed in this message.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm the meeting time and attendees with George to ensure alignment on discussion objectives",
-        "Prepare an agenda or talking points for the sync if one wasn't provided separately",
-        "Verify the Teams link is working and test audio/video access before the scheduled meeting time"
+        "Confirm attendance and review any pre-meeting materials or agenda that may have been shared separately",
+        "Prepare relevant talking points or updates for the sync discussion with George",
+        "Test Teams meeting access before the scheduled time to ensure technical readiness"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -85,26 +85,28 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA9DwWnBIkaHlkpdSGN857k=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "UNKNOWN",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 3x (+4)",
-        "KW: lease, data cent"
+        "KW: lease, data cent",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
-      "ai_score": 6,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "George Rogers from Skyline Data Center Advisors is following up on a previous conversation about website listing cleanup and proposing a 9am Pacific call tomorrow. This appears to be a continuation of an ongoing business discussion, likely related to data center marketing or broker representation.",
-      "ai_action": "Dave should confirm availability for 9am Pacific call with George Rogers tomorrow, or have France schedule if Dave is unavailable. Clarify the context of the 'website listing cleanup' discussion beforehand.",
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "George Rogers from Skyline Data Center Advisors is following up on a prior conversation with Dave about website listing cleanup and proposing a call tomorrow at 9am Pacific. This appears to be a continuation of an existing business discussion.",
+      "ai_action": "Confirm or decline the 9am Pacific call with George Rogers. Check calendar and prior context on what 'website listing cleanup' refers to in relation to Galaxy's assets or partnerships.",
       "ai_next_steps": [
-        "Check Dave's calendar for 9am Pacific availability tomorrow",
-        "If available, confirm with George; if not, propose alternative time",
-        "Pull previous email thread to understand 'website listing cleanup' context before the call"
+        "Review prior email thread with George Rogers to understand the context of 'website listing cleanup'",
+        "Check Dave's calendar for 9am Pacific tomorrow availability",
+        "Send confirmation or alternative time to George Rogers at +1 (415) 606-6622"
       ],
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -124,18 +126,18 @@
         "Calendar match (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda",
-        "Thread: 3 msgs (+2)",
+        "Thread: 5 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a system notification indicating that a meeting scheduled between Dave and France has been forwarded to additional recipients. The meeting is set for Monday, March 23, 2026 from 8:00 PM to 9:30 PM, but the email does not specify who the additional recipients are or the purpose of the meeting.",
+      "ai_summary": "This is a system notification indicating that a previously scheduled meeting between Dave and France has been forwarded to additional recipients. The meeting is confirmed for Monday, March 23, 2026 from 8:00-9:30 PM, suggesting Dave has expanded the attendee list for this synchronization call.",
       "ai_action": null,
       "ai_next_steps": [
-        "Check calendar for the forwarded meeting details to identify who the additional recipients are",
-        "Clarify the meeting agenda and purpose with France before Monday to ensure preparedness",
-        "Confirm attendance and any materials needed for the expanded attendee list"
+        "Confirm the identities of the additional recipients added to the meeting and ensure they have relevant context",
+        "Verify the meeting agenda and materials are appropriate for the expanded attendee group",
+        "Send a brief note to France confirming the forwarding and any changes to meeting scope or focus"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -165,11 +167,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rodrigo M, an IT Consultant within Galaxy Data Centers, has acknowledged receipt of a previous message regarding the Redhill Portal and is indicating availability for follow-up questions or clarification. This appears to be a confirmation of understanding rather than a substantive request, suggesting the prior communication was likely well-received or actioned.",
+      "ai_summary": "Rodrigo M, IT Consultant at Galaxy Data Centers, has acknowledged receipt of a previous message regarding the Redhill Portal and is offering himself as a point of contact for any follow-up questions or clarifications needed.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Rodrigo what specific actions or decisions were expected from the Redhill Portal discussion to ensure alignment",
-        "Schedule a brief sync with Rodrigo to clarify any outstanding items or timelines related to the Redhill Portal implementation"
+        "Confirm what specific Redhill Portal deliverables or timeline Rodrigo was acknowledging in his previous response",
+        "Determine if any outstanding questions or blockers exist that require Rodrigo's assistance moving forward"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -198,12 +200,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a meeting forward notification indicating that a research sync meeting scheduled for Monday, March 23, 2026 at 7:25 PM has been forwarded to Ash Gupta and Al by Dave Misra. The notification appears to be a system-generated alert about meeting attendee changes rather than a substantive business communication requiring immediate action.",
+      "ai_summary": "Dave Misra has forwarded a meeting request originally intended for him to Ash Gupta and Al for a Research Sync scheduled for Monday, March 23, 2026 at 7:25 PM. This indicates Dave is delegating or distributing attendance responsibility for this research discussion to other team members, likely due to a scheduling conflict or because these individuals need to be involved in the sync.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm receipt of the forward notification and verify that Ash Gupta and Al have accepted the meeting invitation",
-        "Review the original meeting agenda to ensure all forwarded attendees have the necessary context and materials",
-        "If this is time-sensitive, send a brief note to the new attendees confirming their availability for the March 23 slot"
+        "Confirm attendance and agenda details with Ash Gupta and Al to ensure they understand the meeting objectives",
+        "Clarify with Dave whether he will still attend or if Ash and Al are taking full ownership of this research sync",
+        "Review the original meeting request to understand the research topics being discussed and ensure the right participants are prepared"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -233,12 +235,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman from the marketing team is requesting support for a DCR Excellence awards submission and Dave has engaged Ash Gupta and Jade Batstone to provide subject matter expertise to help complete the entry. This award submission represents a marketing opportunity to gain industry recognition for Galaxy's data center capabilities and operations.",
+      "ai_summary": "Sai Raman from Galaxy's marketing team is requesting support for a DCR Excellence awards submission and Dave has escalated by bringing in Ash Gupta and Jade Batstone to help address outstanding questions. This award entry represents a marketing opportunity to gain industry recognition and visibility for Galaxy's data center operations and capabilities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Ash and Jade coordinate with Sai to understand the specific questions or criteria for the DCR Excellence award submission",
-        "Establish a timeline and clear ownership for completing the award entry to ensure it meets the submission deadline",
-        "Review the draft submission before final submission to ensure it accurately represents Galaxy's competitive differentiators and achievements"
+        "Confirm with Ash and Jade their availability and timeline to support the award submission",
+        "Have marketing clarify the specific questions or information gaps that need to be addressed by Ash and Jade",
+        "Set a deadline for the completed award entry submission to ensure timely delivery to DCR"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -265,12 +267,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be a Microsoft Teams meeting invitation with a join link and credentials, but lacks context about the meeting's purpose, attendees, or agenda. Without additional details in the email body, it's unclear what topic requires Dave's attention or why this meeting has been scheduled.",
+      "ai_summary": "This appears to be a Microsoft Teams meeting invitation with no substantive content or context provided. Without details about the meeting purpose, attendees, or agenda, it's unclear what business matter requires Dave's attention or why this communication warrants action.",
       "ai_action": null,
       "ai_next_steps": [
-        "Contact the meeting organizer to clarify the meeting's purpose, expected attendees, and agenda items",
-        "Confirm whether Dave's attendance is required and check calendar conflicts before the meeting time",
-        "Request any relevant background materials or documents needed to prepare for discussion"
+        "Clarify with the sender what the meeting topic is and confirm whether Dave's attendance is required",
+        "If this was sent in error or lacks context, request a proper meeting invitation with agenda and objectives"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -298,12 +299,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be Dave's outgoing response to someone named Delilah regarding a business proposal. Dave is requesting additional materials (a deck or summary) before committing calendar time, asking for clarity on the core offering and how it applies to companies similar to Galaxy. This is a standard due diligence step to evaluate whether the proposal merits a meeting.",
+      "ai_summary": "This is an internal email from Dave Misra to himself (likely a forwarded message or misdirected), asking for clarification on an external proposal. Dave is requesting that someone (Delilah) provide a deck or summary before committing to a meeting, indicating there's an incoming business proposal that requires vetting.",
       "ai_action": null,
       "ai_next_steps": [
-        "Monitor for Delilah's response with the requested deck/summary materials",
-        "Assign France or relevant team member to review the materials once received to determine if a meeting aligns with Galaxy's current priorities",
-        "Prepare evaluation criteria (relevance to data centers, cost-benefit, strategic fit) to assess the proposal before scheduling"
+        "Clarify the sender - determine if this email was intended for Dave or if Dave needs to send this request to Delilah directly",
+        "Obtain the missing proposal details (deck/summary) that outlines the core offering and use case for Galaxy",
+        "Schedule a preliminary internal review with France to assess the proposal's strategic fit before any external meetings"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -332,12 +333,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is confirming alignment with an internal team on equipment and customer matters related to a Galaxy/DRT partnership and Cloud House deployment. He's signaling readiness to move forward with Fiona after her time away, and indicating that internal coordination has been completed during the waiting period.",
+      "ai_summary": "This is an internal email from Dave Misra to Fiona (likely a key team member) indicating that Galaxy has completed internal alignment on equipment and customer strategy for the DRT partnership and Cloud House deployment initiative while she was away. The delay in communication was intentional to preserve continuity, and Galaxy is now ready to move forward with coordinated next steps.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Fiona what specific decisions or approvals were finalized internally on equipment and customer side",
-        "Schedule next meeting with DRT to present Galaxy's aligned position and move deployment forward",
-        "Confirm timeline and deliverables for Cloud House deployment with all stakeholders"
+        "Schedule alignment meeting with Fiona to brief her on internal decisions made regarding equipment specifications and customer commitments",
+        "Prepare materials documenting the finalized equipment requirements and customer deployment plan for DRT partnership review",
+        "Confirm timeline and resource allocation with France for Cloud House deployment execution"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -366,12 +367,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is requesting that Ali update an existing meeting invitation for a Redhill-Salesforce meeting scheduled for March 24, 2026, by replacing the current meeting link with a Microsoft Teams meeting link that Galaxy Capital Partners prefers to use.",
+      "ai_summary": "Dave is requesting that Ali update the existing Redhill-Salesforce meeting invite (scheduled for March 24, 2026 at 3:30pm GMT+1) to replace the current meeting platform with a Microsoft Teams link instead. This is an internal coordination task to standardize on Galaxy's preferred collaboration platform for this client meeting.",
       "ai_action": null,
       "ai_next_steps": [
-        "Ali should update the calendar invite for the Redhill-Salesforce meeting with the provided Microsoft Teams link and meeting details",
-        "Send the updated invite to all attendees to ensure they have the correct Teams meeting information",
-        "Confirm with Dave that the change has been made before the meeting date"
+        "Ali should update the calendar invite with the provided Teams meeting link and details (Meeting ID: 235 899 881 870 91, Passcode: NL6Rt6BZ)",
+        "Resend the updated invite to all attendees to ensure they have the correct Teams meeting information before March 24th",
+        "Confirm with Redhill/Salesforce contacts that Teams is acceptable for their participation in the meeting"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -403,12 +404,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Tom Babbington from Adaptive MDC has sent an updated Redhill deck to Ash Gupta for review, and Ash has acknowledged receipt and committed to providing feedback. This appears to be an ongoing business discussion regarding a Redhill project or property that requires Ash's evaluation before proceeding.",
+      "ai_summary": "Tom Babbington from Adaptive MDC has sent an updated Redhill presentation deck to Ash Gupta for review. This appears to be a proposal or partnership opportunity that requires Galaxy's evaluation and feedback. The timing and presentation suggest this is a business development or strategic initiative that warrants leadership attention.",
       "ai_action": null,
       "ai_next_steps": [
-        "Follow up with Ash within 3-5 business days to understand his initial impressions and any concerns with the Redhill deck",
-        "Schedule a meeting with Dave, Ash, and Tom to discuss key findings and next steps once Ash completes his review",
-        "Clarify the timeline and decision criteria for the Redhill opportunity to keep momentum with Adaptive MDC"
+        "Follow up with Ash Gupta to understand the key commercial terms and strategic rationale for the Redhill opportunity",
+        "Request a summary of Adaptive MDC's proposal and how it aligns with Galaxy's growth strategy",
+        "Schedule a meeting with Dave to review the updated deck and determine next steps for engagement"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -439,12 +440,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre has completed work on the S140 UPS A03 unit, and Dave is acknowledging successful completion of this critical infrastructure component. This appears to be routine maintenance or repair work on uninterruptible power supply equipment that directly impacts data center operational reliability.",
+      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre has completed work on the S140 UPS A03 component, and Dave is confirming successful delivery and expressing satisfaction with the execution. This appears to be a critical infrastructure maintenance or upgrade task for one of Galaxy's data center operations. The positive resolution matters because UPS systems are essential to data center uptime and reliability, directly impacting service delivery to Galaxy's clients.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm S140 UPS A03 is fully operational and document completion in Galaxy's asset management system",
-        "Schedule follow-up testing or validation to ensure the unit meets performance standards before returning to active service",
-        "Verify billing and close out the work order with Redhill Data Centre"
+        "Confirm with Luke Gray and Ash Gupta that S140 UPS A03 is fully operational and meets Galaxy's performance specifications",
+        "Schedule a post-completion review to document lessons learned and establish baseline metrics for future UPS maintenance cycles",
+        "Update Galaxy's capital expenditure tracking and maintenance logs to reflect completion and any warranty/support terms with Redhill Data Centre"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -527,12 +528,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ritesh Daswani from Avtar Corp is reaching out to initiate tax preparation services for the 2025 tax year, forwarding a service agreement and checklist to Galaxy Capital Partners. This is a standard annual engagement for tax compliance and filing, which is operationally critical for maintaining Galaxy's regulatory standing and financial record-keeping across the organization.",
+      "ai_summary": "Ritesh Daswani from Avtar Corp is sending Galaxy a tax preparation services agreement and checklist for 2025 tax year filing. This appears to be an engagement letter and documentation requirements list to formalize tax preparation services for Galaxy's entities. This matters because timely completion of tax filing requirements is critical for Galaxy's compliance, corporate governance, and financial reporting credibility with investors and regulators.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the tax services agreement terms and pricing, then designate France or appropriate finance team member to coordinate with Ritesh on execution timeline",
-        "Gather 2025 financial documentation and records from all Galaxy entities (Capital Partners and Data Centers) and cross-reference against the provided tax checklist to identify any missing items",
-        "Schedule a kickoff call with Ritesh to confirm scope, deadlines, and any specific tax considerations or changes for Galaxy in 2025 before filing season accelerates"
+        "Review the tax preparation services agreement terms, rates, and timeline with France/Finance to ensure alignment with Galaxy's budget and filing deadlines",
+        "Compile and organize all required documentation referenced in the tax checklist (financial statements, transaction records, capital schedules) to ensure smooth execution",
+        "Confirm signing authority and execute the engagement letter if terms are acceptable"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -555,12 +556,12 @@
       "ai_reviewed": true,
       "ai_score": 8,
       "ai_label": "URGENT",
-      "ai_summary": "DocuSign notification that Dave has an incomplete document awaiting signature. This is likely a transaction document (NDA, LOI, investment agreement, or deal-related contract) that requires immediate completion.",
-      "ai_action": "Dave should log into DocuSign immediately to review and complete the pending document signature.",
+      "ai_summary": "DocuSign notification that Dave has a document awaiting signature. Given Galaxy's active deal flow (Redhill JV, Poland 260MW, Innogate Milan, 18MW AI prospect), this is likely a time-sensitive contract, LOI, or closing document that needs immediate completion.",
+      "ai_action": "Dave should check DocuSign account immediately to identify which deal this relates to and complete signature if ready.",
       "ai_next_steps": [
-        "Check DocuSign account for the incomplete document",
-        "Review document details and ensure all terms are correct before signing",
-        "Complete signature and return to relevant counterparty"
+        "Open DocuSign link to identify the document (likely NDA, LOI, or deal document)",
+        "Confirm with legal counsel (Simmons & Simmons) if any review needed before signing",
+        "Complete signature same day to maintain deal momentum"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -641,12 +642,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman (internal Galaxy Data Centers team member) is confirming availability for a meeting with Rodrigo regarding an Apollo and secondary mail initiative. Sai has offered a specific time window (2-3:30 PM ET today, or after 5 PM ET) and is waiting for Rodrigo's confirmation to proceed with the discussion.",
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal) is confirming availability to discuss Apollo and secondary mail topics with Rodrigo. Sai can meet between 2-3:30 PM ET today or after 5 PM ET, and is requesting confirmation of which time works best for Rodrigo's schedule.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm meeting time with Rodrigo and send calendar invite for the agreed slot",
-        "Prepare Apollo + secondary mail project documentation/agenda before the 2 PM meeting",
-        "Follow up post-meeting with action items and next steps to keep initiative on track"
+        "Confirm with Rodrigo which time slot (2-3:30 PM or after 5 PM ET) works for the Apollo + secondary mail discussion",
+        "Send calendar invite once time is confirmed",
+        "Prepare any relevant Apollo and secondary mail documentation or talking points before the call"
       ],
       "ai_failed": false,
       "final_score": 10,
