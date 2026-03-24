@@ -1253,9 +1253,41 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
           <p style={{ fontSize: 13, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} {"\u2014"} drag to categorize</p>
         </div>
         <div style={{ flex: 1, overflowY: "auto", padding: "0 10px 10px" }}>
-          {uncategorized.length > 0 ? uncategorized.map(item => (
-            <MiniCard key={item.id} item={item} catId="uncategorized" />
-          )) : (
+          {uncategorized.length > 0 ? (() => {
+            // Group by date
+            const groups = {};
+            uncategorized.forEach(item => {
+              const d = item.date || "Unknown";
+              if (!groups[d]) groups[d] = [];
+              groups[d].push(item);
+            });
+            const sortedDates = Object.keys(groups).sort((a, b) => b.localeCompare(a));
+            const today = getToday();
+            const fmtDateLabel = (d) => {
+              if (d === today) return "Today";
+              const dt = new Date(d + "T12:00:00");
+              const yesterday = new Date(); yesterday.setDate(yesterday.getDate() - 1);
+              if (d === yesterday.toISOString().slice(0, 10)) return "Yesterday";
+              return dt.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+            };
+            return sortedDates.map(date => (
+              <div key={date} style={{ marginBottom: 12 }}>
+                <div style={{
+                  position: "sticky", top: 0, zIndex: 2,
+                  padding: "6px 8px", marginBottom: 6,
+                  background: date === today ? "#f5f3ff" : "#f8fafc",
+                  borderRadius: 6, border: `1px solid ${date === today ? "#ede9fe" : "#f0f0f0"}`,
+                  display: "flex", alignItems: "center", justifyContent: "space-between",
+                }}>
+                  <span style={{ fontSize: 11, fontWeight: 700, color: date === today ? "#6366f1" : "#71717a", letterSpacing: 0.5, fontFamily: F }}>{fmtDateLabel(date)}</span>
+                  <span style={{ fontSize: 10, color: "#a1a1aa", fontFamily: FM }}>{groups[date].length}</span>
+                </div>
+                {groups[date].map(item => (
+                  <MiniCard key={item.id} item={item} catId="uncategorized" />
+                ))}
+              </div>
+            ));
+          })() : (
             <div style={{ padding: 30, textAlign: "center" }}>
               <div style={{ fontSize: 28, marginBottom: 8, opacity: 0.15 }}>{"\u2713"}</div>
               <div style={{ fontSize: 14, color: "#a1a1aa", fontFamily: F }}>All sorted</div>
