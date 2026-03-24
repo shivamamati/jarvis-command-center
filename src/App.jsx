@@ -1166,60 +1166,19 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
   const scrapItem = async (id) => { const u = [...scrapped, id]; setScrapped(u); await fbSet("jarvis/scrapped", u); };
   const unscrapItem = async (id) => { const u = scrapped.filter(x => x !== id); setScrapped(u); await fbSet("jarvis/scrapped", u); };
 
-  // Smooth pointer-event drag system
-  const dragRef = useRef({ id: null, el: null, ghost: null, startX: 0, startY: 0, moved: false });
-
-  const onPointerDown = (e, id) => {
-    if (e.button !== 0) return; // left click only
-    const el = e.currentTarget;
-    dragRef.current = { id, el, ghost: null, startX: e.clientX, startY: e.clientY, moved: false };
-    el.setPointerCapture(e.pointerId);
-  };
-
-  const onPointerMove = (e) => {
-    const dr = dragRef.current;
-    if (!dr.id) return;
-    const dx = e.clientX - dr.startX, dy = e.clientY - dr.startY;
-    if (!dr.moved && Math.abs(dx) < 5 && Math.abs(dy) < 5) return; // threshold before drag starts
-    if (!dr.moved) {
-      dr.moved = true;
-      setDragId(dr.id);
-      // Create ghost element
-      const rect = dr.el.getBoundingClientRect();
-      const ghost = dr.el.cloneNode(true);
-      ghost.style.cssText = `position:fixed;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;pointer-events:none;z-index:9999;opacity:0.85;transform:rotate(2deg);box-shadow:0 8px 32px rgba(99,102,241,0.25);border-radius:10px;transition:none;`;
-      document.body.appendChild(ghost);
-      dr.ghost = ghost;
-    }
-    if (dr.ghost) {
-      const rect = dr.el.getBoundingClientRect();
-      dr.ghost.style.left = (rect.left + dx) + "px";
-      dr.ghost.style.top = (rect.top + dy) + "px";
-    }
-    // Detect which column we're over
-    const cols = document.querySelectorAll("[data-drop-col]");
-    let found = null;
-    cols.forEach(col => {
-      const r = col.getBoundingClientRect();
-      if (e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom) {
-        found = col.getAttribute("data-drop-col");
-      }
-    });
-    setDragOver(found);
-  };
-
-  const onPointerUp = (e) => {
-    const dr = dragRef.current;
-    if (dr.ghost) { document.body.removeChild(dr.ghost); dr.ghost = null; }
-    if (dr.moved && dr.id && dragOver) {
-      // Drop into column
-      if (dragOver === "france") { upd(dr.id, "france"); }
-      else if (dragOver === "done") { markDone(dr.id); }
-      else { setCat(dr.id, dragOver); }
-    }
-    dragRef.current = { id: null, el: null, ghost: null, startX: 0, startY: 0, moved: false };
+  // Drag handlers
+  const onDragStart = (e, id) => { setDragId(id); e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", id); };
+  const onDragEnd = () => { setDragId(null); setDragOver(null); };
+  const onDragOverCol = (e, colId) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; setDragOver(colId); };
+  const onDragLeaveCol = () => { setDragOver(null); };
+  const onDropCol = (e, colId) => {
+    e.preventDefault(); setDragOver(null);
+    if (!dragId) return;
+    if (colId === "france") { upd(dragId, "france"); }
+    else if (colId === "done") { markDone(dragId); }
+    else if (colId === "scrap") { scrapItem(dragId); }
+    else { setCat(dragId, colId); }
     setDragId(null);
-    setDragOver(null);
   };
 
   const visibleItems = allItems.filter(e => !scrapped.includes(e.id));
@@ -1241,14 +1200,14 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
     const isDone = catId === "done";
     const isDragging = dragId === item.id;
     return (
-      <div onPointerDown={e => onPointerDown(e, item.id)} onPointerMove={onPointerMove} onPointerUp={onPointerUp}
-        onClick={() => { if (!dragRef.current.moved) setSelectedId(isSel ? null : item.id); }} style={{
+      <div draggable onDragStart={e => onDragStart(e, item.id)} onDragEnd={onDragEnd}
+        onClick={() => setSelectedId(isSel ? null : item.id)} style={{
         padding: "10px 12px", background: isSel ? "#f5f3ff" : isDragging ? "#ede9fe" : "#fff", borderRadius: 10,
         border: `1px solid ${isSel ? "#6366f140" : isDragging ? "#6366f160" : "#f0f0f0"}`, marginBottom: 6,
         boxShadow: isDragging ? "0 4px 16px rgba(99,102,241,0.15)" : isSel ? "0 2px 8px rgba(99,102,241,0.08)" : "0 1px 2px rgba(0,0,0,0.03)",
-        cursor: isDragging ? "grabbing" : "grab", transition: isDragging ? "none" : "all 150ms",
-        opacity: isDragging ? 0.4 : isDone ? 0.5 : 1,
-        touchAction: "none", userSelect: "none",
+        cursor: isDragging ? "grabbing" : "grab", transition: "all 150ms",
+        opacity: isDragging ? 0.7 : isDone ? 0.5 : 1,
+        transform: isDragging ? "scale(1.02) rotate(1deg)" : "none",
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 5 }}>
           <div style={{ width: 28, height: 28, borderRadius: 7, background: `${item.color || T.accent}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
@@ -1362,16 +1321,18 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
             const isOver = dragOver === col.id && dragId;
             return (
               <div key={col.id}
-                data-drop-col={col.id}
+                onDragOver={e => onDragOverCol(e, col.id)}
+                onDragLeave={onDragLeaveCol}
+                onDrop={e => onDropCol(e, col.id)}
                 style={{
                   flex: 1, minWidth: 170, borderRight: "1px solid #f0f0f0",
                   display: "flex", flexDirection: "column",
-                  background: isOver ? `${col.c}15` : "transparent",
+                  background: isOver ? `${col.c}08` : "transparent",
                   transition: "background 200ms",
                 }}>
                 <div style={{
                   padding: "16px 14px 12px", borderBottom: `2px solid ${isOver ? col.c : "#f0f0f0"}`,
-                  background: isOver ? `${col.c}10` : `${col.c}04`, transition: "all 200ms",
+                  background: `${col.c}04`, transition: "border-color 200ms",
                 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}>
                     <span style={{ fontSize: 15 }}>{col.icon}</span>
