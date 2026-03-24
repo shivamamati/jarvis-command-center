@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T05:57:15.092726+00:00",
+  "timestamp": "2026-03-24T07:06:31.826141+00:00",
   "events": [
     {
       "subject": "Dave <> France Synch",
@@ -70,23 +70,6 @@
       "location": "4.01",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ok4SteAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEFTImBgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "JSA + Galaxy Biweekly Call",
-      "start": "2026-03-24T16:00:00.0000000",
-      "end": "2026-03-24T16:45:00.0000000",
-      "attendees": [
-        "Candace",
-        "Ash",
-        "Paul",
-        "Tj",
-        "Sai",
-        "Ashley"
-      ],
-      "organizer": "Candace Sipos",
-      "location": "https://meet.google.com/hav-ucvv-rzd",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ok4SteAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNhQAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "George <> Dave Sync ",
