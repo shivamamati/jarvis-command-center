@@ -42,6 +42,12 @@ const STAGES = [
   { id: "scheduled", label: "Scheduled", desc: "In calendar", c: T.teal },
   { id: "complete", label: "Done", desc: "Completed", c: T.green },
 ];
+const PIPELINE_CATS = [
+  { id: "action", label: "Action Now", desc: "Dave needs to act immediately", c: T.red, icon: "\uD83D\uDD34" },
+  { id: "waiting", label: "Waiting On", desc: "Waiting for response from others", c: T.yellow, icon: "\u23F3" },
+  { id: "opportunity", label: "Potential Opportunities", desc: "Acquisition, deal, or partnership opportunities", c: T.accent, icon: "\uD83D\uDCA1" },
+  { id: "personal", label: "Personal Items", desc: "Personal/admin items for Dave", c: T.teal, icon: "\uD83D\uDC64" },
+];
 const PAT = { A: "Inbound Lead", B: "Introduction", C: "Lead-Gen", D: "Customer Follow-Up", E: "Legal/NDA", F: "Investor/Capital", G: "Internal Ops", H: "PR/Awards", I: "Scheduling", J: "Admin" };
 
 // ═══════════════════════════════════════════════════════════
@@ -518,7 +524,7 @@ export default function App() {
 
 function Dashboard() {
   const mob = useIsMobile();
-  const [page, setPage] = useState("queue"); // "queue" | "emails" | "contacts"
+  const [page, setPage] = useState("queue"); // "queue" | "emails" | "contacts" | "pipeline"
   const [data, setData] = useState(() => { const s = loadS(); return HIST.map(e => ({ ...e, stage: s[e.id] || e.stage })); });
   const [expandedId, setExpandedId] = useState(HIST[0]?.id);
   const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
@@ -629,6 +635,7 @@ function Dashboard() {
           {/* Nav tabs — flush with logo */}
           {[
             { id: "queue", label: "Decision Queue", icon: "\u26A1" },
+            { id: "pipeline", label: "Pipeline", icon: "\uD83D\uDCCB" },
             { id: "emails", label: "All Emails", icon: "\u2709" },
             { id: "contacts", label: "Contacts", icon: "\u263A" },
           ].map(tab => (
@@ -810,6 +817,9 @@ function Dashboard() {
           </div>
         )}
       </div>
+      ) : page === "pipeline" ? (
+        /* ═══ PIPELINE PAGE ═══ */
+        <PipelinePage data={data} upd={upd} mob={mob} completed={completed} markDone={markDone} undoDone={undoDone} expandedId={expandedId} setExpandedId={setExpandedId} />
       ) : page === "contacts" ? (
         /* ═══ CONTACTS PAGE ═══ */
         <ContactsPage data={data} mob={mob} />
@@ -869,6 +879,169 @@ const CONTACTS_DB = {
   "marcus.bartolini@gmail.com": { role: "Market Intel", company: "2020 Capital", tier: "Tier 2" },
   "microsoft-noreply@microsoft.com": { role: "System Notification", company: "Microsoft", tier: "Tier 2" },
 };
+
+// ═══════════════════════════════════════════════════════════
+// PIPELINE PAGE — Categorized view: Action Now, Waiting On, Opportunities, Personal
+// ═══════════════════════════════════════════════════════════
+function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedId, setExpandedId }) {
+  const allItems = data.filter(e => !completed.includes(e.id) && e.stage !== "complete");
+  const doneItems = data.filter(e => e.stage === "complete" || completed.includes(e.id));
+
+  // Pipeline categories use Firebase-synced pipeline_cat field
+  const [cats, setCats] = useState({});
+  
+  // Load pipeline categories from Firebase
+  useEffect(() => {
+    const unsub = fbListen("jarvis/pipelineCats", (val) => {
+      if (val) setCats(val);
+    });
+    return () => unsub();
+  }, []);
+
+  const getCat = (id) => cats[id] || "uncategorized";
+  const setCat = async (id, cat) => {
+    const updated = { ...cats, [id]: cat };
+    setCats(updated);
+    await fbSet("jarvis/pipelineCats", updated);
+  };
+
+  const actionNow = allItems.filter(e => getCat(e.id) === "action");
+  const waitingOn = allItems.filter(e => getCat(e.id) === "waiting");
+  const opportunities = allItems.filter(e => getCat(e.id) === "opportunity");
+  const personalItems = allItems.filter(e => getCat(e.id) === "personal");
+  const uncategorized = allItems.filter(e => getCat(e.id) === "uncategorized");
+
+  const F = "'DM Sans',system-ui,sans-serif";
+  const FM = "'DM Mono','JetBrains Mono',monospace";
+
+  const CategorySection = ({ title, items, color, icon, catId }) => items.length > 0 ? (
+    <div style={{ marginBottom: 28 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+        <span style={{ fontSize: 16 }}>{icon}</span>
+        <div style={{ fontSize: 12, fontWeight: 700, color, letterSpacing: 1, textTransform: "uppercase", fontFamily: F }}>{title}</div>
+        <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
+        <span style={{ fontSize: 12, color: "#a1a1aa", fontFamily: FM }}>{items.length}</span>
+      </div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+        {items.map(item => {
+          const ug = URG[item.label] || URG.NOTABLE;
+          return (
+            <div key={item.id} style={{
+              padding: "14px 18px", background: "#fff", borderRadius: 12,
+              border: "1px solid #f0f0f0", borderLeft: `3px solid ${color}`,
+              boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
+            }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
+                <div style={{ width: 32, height: 32, borderRadius: 8, background: `${item.color || T.accent}15`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, border: `1px solid ${item.color || T.accent}20`, flexShrink: 0 }}>{item.avatar}</div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ fontSize: 14, fontWeight: 600, color: "#1a1a2e", fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</div>
+                  <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F }}>{item.from} {item.company ? `\u00B7 ${item.company}` : ""} \u00B7 {item.time}</div>
+                </div>
+                <span style={{ fontSize: 10, fontWeight: 600, padding: "3px 8px", borderRadius: 5, background: ug.badge, color: ug.text }}>{item.label}</span>
+              </div>
+              {/* Quick category buttons */}
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                {PIPELINE_CATS.filter(c => c.id !== catId).map(c => (
+                  <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{
+                    padding: "4px 12px", borderRadius: 6, border: `1px solid ${c.c}30`,
+                    background: "transparent", color: c.c, fontSize: 10, fontWeight: 500,
+                    cursor: "pointer", fontFamily: F,
+                  }}>{c.label}</button>
+                ))}
+                {item.link && item.link !== "#" && (
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" style={{
+                    padding: "4px 12px", borderRadius: 6, background: "#6366f1",
+                    color: "#fff", fontSize: 10, fontWeight: 500, textDecoration: "none", fontFamily: F,
+                  }}>Outlook {"\u2197"}</a>
+                )}
+                <button onClick={() => markDone(item.id)} style={{
+                  padding: "4px 12px", borderRadius: 6, border: `1px solid ${T.green}30`,
+                  background: "transparent", color: T.green, fontSize: 10, fontWeight: 500,
+                  cursor: "pointer", fontFamily: F, marginLeft: "auto",
+                }}>{"\u2713"} Done</button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  ) : null;
+
+  return (
+    <div style={{ flex: 1, overflowY: "auto", padding: mob ? "20px 16px" : "28px 36px", background: "#fafaf9" }}>
+      <div style={{ maxWidth: 800 }}>
+        <h1 style={{ fontSize: 22, fontWeight: 700, color: "#1a1a2e", margin: "0 0 6px", fontFamily: F }}>Pipeline</h1>
+        <p style={{ fontSize: 14, color: "#71717a", margin: "0 0 24px", fontFamily: F }}>
+          Organize your emails by category. Drag items between Action Now, Waiting On, Opportunities, and Personal.
+        </p>
+
+        {/* Stats */}
+        <div style={{ display: "grid", gridTemplateColumns: mob ? "repeat(2,1fr)" : "repeat(4,1fr)", gap: 10, marginBottom: 28 }}>
+          {PIPELINE_CATS.map(c => (
+            <div key={c.id} style={{
+              padding: "14px 16px", background: "#fff", borderRadius: 12,
+              border: `1px solid ${c.c}25`, display: "flex", alignItems: "center", gap: 12,
+              boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
+            }}>
+              <span style={{ fontSize: 18 }}>{c.icon}</span>
+              <div>
+                <div style={{ fontSize: 20, fontWeight: 700, color: c.c, fontFamily: FM }}>
+                  {c.id === "action" ? actionNow.length : c.id === "waiting" ? waitingOn.length : c.id === "opportunity" ? opportunities.length : personalItems.length}
+                </div>
+                <div style={{ fontSize: 10, color: "#a1a1aa", fontWeight: 500, fontFamily: F }}>{c.label}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Uncategorized items */}
+        {uncategorized.length > 0 && (
+          <div style={{ marginBottom: 28 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+              <div style={{ fontSize: 12, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1, textTransform: "uppercase", fontFamily: F }}>Uncategorized</div>
+              <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
+              <span style={{ fontSize: 12, color: "#a1a1aa", fontFamily: FM }}>{uncategorized.length}</span>
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              {uncategorized.map(item => {
+                const ug = URG[item.label] || URG.NOTABLE;
+                return (
+                  <div key={item.id} style={{
+                    padding: "14px 18px", background: "#fff", borderRadius: 12,
+                    border: "1px solid #f0f0f0", boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
+                  }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
+                      <div style={{ width: 32, height: 32, borderRadius: 8, background: `${item.color || T.accent}15`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <div style={{ fontSize: 14, fontWeight: 600, color: "#1a1a2e", fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</div>
+                        <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F }}>{item.from} \u00B7 {item.time}</div>
+                      </div>
+                      <span style={{ fontSize: 10, fontWeight: 600, padding: "3px 8px", borderRadius: 5, background: ug.badge, color: ug.text }}>{item.label}</span>
+                    </div>
+                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                      {PIPELINE_CATS.map(c => (
+                        <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{
+                          padding: "5px 14px", borderRadius: 6, border: `1px solid ${c.c}30`,
+                          background: `${c.c}08`, color: c.c, fontSize: 11, fontWeight: 500,
+                          cursor: "pointer", fontFamily: F,
+                        }}>{c.icon} {c.label}</button>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        <CategorySection title="Action Now" items={actionNow} color="#dc2626" icon={"\uD83D\uDD34"} catId="action" />
+        <CategorySection title="Waiting On" items={waitingOn} color="#ca8a04" icon={"\u23F3"} catId="waiting" />
+        <CategorySection title="Potential Opportunities" items={opportunities} color="#6366f1" icon={"\uD83D\uDCA1"} catId="opportunity" />
+        <CategorySection title="Personal Items" items={personalItems} color="#0ea5e9" icon={"\uD83D\uDC64"} catId="personal" />
+      </div>
+    </div>
+  );
+}
 
 function ContactsPage({ data, mob }) {
   const [search, setSearch] = useState("");
@@ -1887,34 +2060,41 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
                 display: "inline-flex", alignItems: "center", gap: 6,
               }}>Open in Outlook {"\u2197"}</a>
             )}
-            {/* Other action buttons — stage-aware */}
-            {(item.actions || []).filter(a => a !== "Mark Done").map(act => {
-              // If item is already in france stage, swap "Delegate to France" for "Move to Dave"
-              if (act === "Delegate to France" && item.stage === "france") {
-                return (
-                  <button key="move-dave" onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
-                    padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
-                    background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 600,
-                    cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-                  }}>{"\u2605"} Move to Dave</button>
-                );
-              }
-              // Skip showing "Delegate to France" label if already there
-              return (
-                <button key={act} onClick={ev => { ev.stopPropagation(); if (act === "Delegate to France") upd(item.id, "france"); }} style={{
-                  padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.border}`,
-                  background: T.surface, color: T.textMid, fontSize: 13, fontWeight: 500,
-                  cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-                }}>{act}</button>
-              );
-            })}
-            {/* Move to Dave — always show on france/external/scheduled items that don't have Delegate in actions */}
-            {item.stage !== "dave" && item.stage !== "inbox" && !(item.actions || []).includes("Delegate to France") && (
-              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
-                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
-                background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 600,
+            {/* Category quick-move buttons */}
+            {item.stage !== "waiting" && (
+              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "waiting"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.yellow}40`,
+                background: T.yellowBg, color: T.yellowText, fontSize: 13, fontWeight: 500,
                 cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>{"\u2605"} Move to Dave</button>
+              }}>Waiting On</button>
+            )}
+            {item.stage !== "opportunity" && (
+              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "opportunity"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
+                background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 500,
+                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+              }}>Opportunity</button>
+            )}
+            {item.stage !== "france" && (
+              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "france"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.green}40`,
+                background: T.greenBg, color: T.greenText, fontSize: 13, fontWeight: 500,
+                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+              }}>France</button>
+            )}
+            {item.stage !== "personal" && (
+              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "personal"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.teal}40`,
+                background: T.tealBg, color: T.tealText, fontSize: 13, fontWeight: 500,
+                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+              }}>Personal</button>
+            )}
+            {item.stage !== "dave" && item.stage !== "inbox" && (
+              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.red}40`,
+                background: T.redBg, color: T.redText, fontSize: 13, fontWeight: 600,
+                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+              }}>Action Now</button>
             )}
             {/* Mark Done — always last */}
             <button onClick={ev => { ev.stopPropagation(); markDone(item.id); }} style={{
