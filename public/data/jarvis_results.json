@@ -1,13 +1,149 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T17:53:43.181017+00:00",
-  "total": 21,
-  "new": 21,
-  "noise": 11,
-  "ai": 19,
+  "timestamp": "2026-03-24T18:58:45.261812+00:00",
+  "total": 25,
+  "new": 25,
+  "noise": 15,
+  "ai": 22,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "rodrigo@galaxydatacenters.com",
+      "sender_name": "Rodrigo M",
+      "subject": "Re: Apollo + secondary mail",
+      "body_preview": "Hi @Dave Misra,\r\n\r\nQuick update on this. Met with @Sai Raman, please see what has been done:\r\n\r\n\r\n  *   2 mailbox created as requested - dave@getgalaxydatacenters.com, dave@rhgalaxydatacenter.com\r\n\r\n  *\r\nAssisted @Sai Raman login in and approving the usag",
+      "received": "2026-03-24T18:54:29Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rodrigo has completed the setup of two requested mailboxes for Dave and has assisted Sai Raman with account access and usage approval as part of the Apollo project. This appears to be infrastructure work supporting Galaxy's email systems, likely needed for business operations or client-facing communications.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify both mailboxes are functioning properly and forwarding/syncing as intended",
+        "Confirm with Sai Raman that all necessary approvals and permissions are finalized for immediate use",
+        "Follow up with Rodrigo on timeline for any additional mail infrastructure needs related to Apollo"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Additional Speaking Opportunities",
+      "body_preview": "Hey Sai,\r\n\r\nIn addition to the two speaking opportunities I sent in a separate email just now, here are a few other relevant ones we found. Could you let me know if you'd like to move forward with any of these?\r\n\r\nAlso, how did it go with Datacloud Global",
+      "received": "2026-03-24T18:06:33Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHIGrfZokntFsU5Al0FZnnk=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is presenting additional speaking engagement opportunities for Galaxy leadership beyond those previously shared, and is following up on the status of a Datacloud Global initiative or conversation. She's asking for confirmation on which opportunities to pursue.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the additional speaking opportunities Candace referenced and evaluate alignment with Galaxy's brand and strategic goals",
+        "Respond to Candace with confirmation on which speaking engagements to move forward with and provide reasoning",
+        "Clarify and update Candace on the Datacloud Global status/outcome to keep her informed and maintain the partnership"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Speaking Opps \u2014 DCW Power / Europe",
+      "body_preview": "Hi Sai,\r\n\r\nAny interest in submitting a speaking application for either of the below events?\r\n\r\nData Center World Power\r\nGaylord Texan Resort & Convention Center\r\nDallas, Texas\r\nSept. 21 - 23, 2026\r\n\r\nData Center World Europe\r\nMesse Wien Exhibition Congre",
+      "received": "2026-03-24T17:59:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: power, data cent",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is inviting Galaxy to submit speaking applications for two major data center industry conferences\u2014Data Center World Power in Dallas (September 2026) and Data Center World Europe. This represents a high-visibility opportunity to position Galaxy's leadership and expertise in front of industry peers and potential customers at premier events.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Determine which conference(s) align with Galaxy's 2026 strategic priorities and have France or another executive identify a relevant speaking topic",
+        "Respond to Candace with interest level and proposed speaker/topic, then coordinate submission of formal application",
+        "Evaluate potential ROI (lead generation, brand visibility, networking) and budget for booth/attendance if appropriate"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "rj@galaxydatacenters.com",
+      "sender_name": "Rhys  Jones",
+      "subject": "Fw: 25/02312/F - Redhill data centre",
+      "body_preview": "Sent from Outlook for Android\r\n________________________________\r\nFrom: Shane Scollard <shane.scollard@rapleys.com>\r\nSent: Tuesday, March 24, 2026 5:25:37 PM\r\nTo: Annie Danskin <annie.danskin@slrconsulting.com>; Rhys Jones <rj@galaxycapitalpartners.com",
+      "received": "2026-03-24T17:55:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMggACePzk4tndbU3-KBthI=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: capital, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Shane Scollard from Rapleys (likely the planning consultant for the Redhill data centre project) is forwarding communication regarding planning application 25/02312/F. This appears to be a routine project coordination message between the planning consultant, environmental consultant (SLR Consulting), and Galaxy's internal team. The Redhill data centre project's planning approval process is progressing and requires continued coordination across multiple advisors.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Rhys should confirm receipt and clarify with Shane what specific action or decision is required from Galaxy on this planning application",
+        "Dave should request a status summary on the Redhill planning timeline and any potential risks or conditions that need management",
+        "Ensure Annie Danskin (SLR Consulting) and the planning team are aligned on any outstanding environmental or technical requirements before submission/determination"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "itay@torpedodatacenters.com",
       "sender_name": "Itay - Torpedo Datacenters",
@@ -29,12 +165,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Itay from Torpedo Datacenters is following up on a recent conversation with Dave about Galaxy's platform and infrastructure strategy, particularly regarding power optimization across the three Galaxy data center sites. This appears to be a preliminary relationship-building exchange that could signal interest in potential partnership, infrastructure sharing, or complementary business opportunities in the data center space.",
+      "ai_summary": "Itay from Torpedo Datacenters is following up after a recent conversation with Dave about Galaxy's platform, facilities, and power infrastructure initiatives. This appears to be a positive engagement where Torpedo gained insight into Galaxy's operational strategy and capacity expansion efforts. The outreach suggests potential interest in partnership, collaboration, or further business discussions around Galaxy's three sites and power optimization plans.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify Itay's specific business objectives and whether Torpedo is exploring partnerships, co-location arrangements, power infrastructure deals, or M&A opportunities",
-        "Prepare a more detailed overview of Galaxy's three sites, current power capacity constraints, and timeline for power improvement projects to assess alignment with Torpedo's capabilities",
-        "Schedule a follow-up call with France included to evaluate whether Torpedo can add value to Galaxy's power strategy and establish next conversation milestones"
+        "Dave should clarify with Itay what specific outcomes or next steps Torpedo is interested in pursuing (partnership, vendor services, capacity utilization, etc.)",
+        "France should prepare a summary of Galaxy's current power position, challenges, and expansion timeline at each of the three sites to support follow-up discussions",
+        "Schedule a formal follow-up meeting with defined agenda if Torpedo represents a strategic opportunity for Galaxy's power or infrastructure goals"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -62,12 +198,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Chris Bowles from MarketJoy has proposed a collaboration or initiative with Galaxy Data Centers, and Galaxy's marketing team has approved moving forward. The brief affirmative response suggests alignment on terms, but the truncated recipient list and limited context indicate this may be part of a larger negotiation or partnership discussion that requires clarification on scope and deliverables.",
+      "ai_summary": "Chris Bowles from MarketJoy is following up on a collaboration proposal with Galaxy Data Centers. Galaxy's marketing team has agreed to move forward with whatever Chris proposed, but the original request details are not visible in this email thread excerpt. This appears to be a marketing or business development initiative that requires clarification on scope and next steps.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Sai Raman or Animesh Raha provide Dave with the full original proposal from Chris Bowles outlining MarketJoy's specific request and Galaxy's commitment",
-        "Clarify the business terms, timeline, and resource allocation required from Galaxy for this partnership",
-        "Determine France's involvement and any internal stakeholder approvals needed before formal execution"
+        "Have Sai Raman or Animesh Raha clarify with Chris Bowles what specific deliverables or timeline were agreed to in the original conversation",
+        "Request a formal proposal or statement of work from MarketJoy outlining objectives, resources required, and expected business impact",
+        "Schedule a kickoff meeting with Dave, the marketing team, and relevant stakeholders to align on Galaxy's goals and success metrics for this partnership"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -96,51 +232,15 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) is returning a redlined NDA for the Redhill renewal with minor modifications to align it with Redhill's standard template. This is a routine contract negotiation step that requires Paul's review and approval to move the deal forward.",
+      "ai_summary": "Francis Turley from Simmons & Simmons (external counsel handling real estate matters) has returned a redlined NDA for the Redhill renewal deal with minor modifications to align it with Redhill's standard template. This represents progress on contract negotiation for what appears to be a significant renewal engagement requiring legal review and approval before execution.",
       "ai_action": null,
       "ai_next_steps": [
-        "Paul should review Francis's amendments to the NDA and confirm they are acceptable or flag any concerns",
-        "Once approved, Paul should send the revised NDA back to Redhill for their review and signature",
-        "Dave should be updated on the timeline for NDA execution and expected renewal completion date"
+        "Review Francis's proposed amendments to the NDA and assess alignment with Galaxy's risk tolerance and deal terms",
+        "Coordinate internally with relevant stakeholders to approve the revised NDA language and determine if further negotiation is needed",
+        "Confirm final execution authority and timeline for signing to keep the Redhill renewal on track"
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
-      "subject": "Re: Apollo + secondary mail",
-      "body_preview": "Hi @Sai Raman,\r\n\r\nLooks like we keep missing each other. I was available soon after you texted me and I was waiting for you to come online.\r\n\r\nI will send you a team invite for us to get this done please.\r\n\r\nShould you have any questions, do not hesitate ",
-      "received": "2026-03-24T16:41:07Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rodrigo from Galaxy Data Centers is following up with Sai Raman regarding a missed connection, indicating he was available to meet shortly after being contacted via text. He's offering to send a team invite to move forward on an Apollo and secondary mail initiative, suggesting there's been some scheduling friction that needs resolution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of Rodrigo's team invite and establish a firm meeting time with Sai to align on Apollo and secondary mail requirements",
-        "Clarify the specific objectives and timeline for this project to ensure both parties are aligned on scope and deliverables",
-        "Check in with Rodrigo to confirm the meeting was productive and document any action items or decisions made"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -1862,5 +1962,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 60
+  "total_tracked": 63
 }
