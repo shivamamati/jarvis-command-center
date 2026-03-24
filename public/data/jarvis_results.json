@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T01:31:01.296853+00:00",
-  "total": 100,
-  "new": 100,
-  "noise": 45,
-  "ai": 85,
+  "timestamp": "2026-03-24T01:48:06.873653+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 5,
+  "ai": 14,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -32,12 +32,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong (internal Galaxy team member) is confirming that a previously non-functional system or process is now operational following Sai Raman's request to check it. This appears to be a brief acknowledgment of a resolved technical or operational issue, likely related to marketing infrastructure or systems.",
+      "ai_summary": "Paul Leong, an internal Galaxy Data Centers team member, is confirming that a previously non-functional system or service is now operational following a check requested by Sai Raman. This appears to be a routine technical issue resolution within the marketing or operations domain.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Sai Raman what specific system was fixed and whether it impacts any ongoing marketing campaigns or deliverables",
-        "Verify that the resolution doesn't require any follow-up documentation or stakeholder communication",
-        "Monitor for any related issues in the next 24-48 hours to ensure stability"
+        "Verify what specific system or process was restored and confirm no downstream impacts to ongoing marketing or operational initiatives",
+        "Follow up with Sai Raman to document the issue, root cause, and any preventive measures to avoid future outages"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -64,11 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a calendar notification for a Microsoft Teams sync meeting between Dave Misra and George. The email contains meeting details and access information but no substantive business content or requests requiring action.",
+      "ai_summary": "This is a Teams meeting invite from Dave Misra to himself, indicating a scheduled sync with someone named George. The meeting appears to be a routine one-on-one or small group check-in, though the specific agenda and George's identity/role are not detailed in this calendar invite.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm attendance and add to calendar if not already scheduled",
-        "Prepare any agenda items or discussion topics relevant to George's role before the meeting"
+        "Clarify the purpose and attendees of this sync with George before the meeting",
+        "Prepare any relevant materials or discussion points needed for the conversation",
+        "Confirm George's availability and role/company affiliation if not already established"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -91,18 +91,18 @@
         "Calendar match (+2)",
         "Dave replied 3x (+4)",
         "KW: lease, data cent",
-        "Thread: 5 msgs (+2)",
+        "Thread: 4 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "George Rogers from Skyline Data Center Advisors is following up on a prior conversation about website listing cleanup and proposing a call tomorrow at 9am Pacific. This appears to be a direct one-on-one follow-up to an existing business discussion with Dave.",
-      "ai_action": "Confirm or decline the 9am Pacific call with George Rogers. Clarify the scope of 'website listing cleanup' discussion before the call.",
+      "ai_label": "URGENT",
+      "ai_summary": "George Rogers from Skyline Data Center Advisors is confirming a meeting with Dave for tomorrow at 9am Pacific regarding 'website listing cleanup.' This appears to be a follow-up to a prior conversation Dave initiated. Rogers is a known contact in the data center space.",
+      "ai_action": "Confirm or decline 9am Pacific meeting with George Rogers immediately. If confirming, add to Dave's calendar and prep briefing on what 'website listing cleanup' entails (likely related to Galaxy's property listings or broker coordination).",
       "ai_next_steps": [
-        "Check Dave's calendar for 9am Pacific tomorrow",
-        "Confirm attendance with George or decline if unavailable",
-        "Brief Dave on prior context of 'website listing cleanup' discussion with Skyline"
+        "Check Dave's calendar availability for 9am Pacific tomorrow",
+        "Reply to confirm meeting or propose alternative time",
+        "Identify what 'website listing cleanup' refers to\u2014likely related to Savills/CBRE broker listings or Galaxy's own website"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -125,18 +125,18 @@
         "Calendar match (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda",
-        "Thread: 5 msgs (+2)",
+        "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a system notification that Dave Misra has forwarded a previously scheduled one-on-one sync meeting with France to additional recipients. The meeting is set for Monday, March 23, 2026 from 8:00-9:30 PM. This matters because it indicates the nature or audience of the sync has changed, potentially requiring different preparation or discussion topics than originally planned.",
+      "ai_summary": "This is a system notification indicating that a meeting scheduled between Dave and France has been forwarded to additional recipients. The meeting is set for Monday, March 23, 2026 from 8:00 PM to 9:30 PM, but the email does not specify who the additional recipients are or the purpose of the meeting.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Dave who the additional recipients are and why they've been added to determine if agenda adjustments are needed",
-        "Confirm with France that she's aware of the expanded attendee list and align on meeting objectives",
-        "Review calendar to ensure no scheduling conflicts exist with the forwarded meeting details"
+        "Check calendar for the forwarded meeting details to identify who the additional recipients are",
+        "Clarify the meeting agenda and purpose with France before Monday to ensure preparedness",
+        "Confirm attendance and any materials needed for the expanded attendee list"
       ],
       "ai_failed": false,
       "final_score": 10,
