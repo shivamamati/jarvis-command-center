@@ -334,8 +334,8 @@ function transformScan(sd) {
     tier: it.rules_tier || "UNKNOWN", pattern: it.ai_pattern || "G", stage: "inbox",
     from: it.sender_name || it.sender_email || "Unknown", company: "", email: it.sender_email || "",
     subject: it.subject || "(no subject)", time: fmtTime(it.received), date: getDateLocal(it.received),
-    link: it.web_link || "", jarvis: it.ai_summary || it.body_preview || "",
-    action: it.ai_action || "", reply: "", deal: "", dealValue: "",
+    link: it.web_link || "", jarvis: it.ai_summary || (it.body_preview || "").replace(/\r\n/g, " ").replace(/\s+/g, " ").trim().slice(0, 400) || "",
+    action: it.ai_action || "", nextSteps: it.ai_next_steps || [], reply: "", deal: "", dealValue: "",
     actions: ["Delegate to France", "Mark Done"],
     primaryAction: "Mark Done",
     reasons: it.rules_reasons || [], att: it.has_attachments || false, ai: it.ai_reviewed || false,
@@ -1602,6 +1602,124 @@ function AllEmailsPage({ data, upd, mob }) {
 }
 
 // ═══ DECISION CARD COMPONENT ═══
+// ═══ SHARED NOTES COMPONENT ═══
+// Uses persistent storage API with shared:true so Dave, France, and Shivam all see the same notes
+function SharedNotes({ itemId }) {
+  const [notes, setNotes] = useState([]);
+  const [draft, setDraft] = useState("");
+  const [author, setAuthor] = useState(() => {
+    try { return localStorage.getItem("jarvis_notes_author") || "Dave"; } catch { return "Dave"; }
+  });
+  const [loading, setLoading] = useState(true);
+
+  const storageKey = `jarvis-notes:${itemId}`;
+
+  // Load notes from shared persistent storage
+  useEffect(() => {
+    async function load() {
+      try {
+        const result = await window.storage.get(storageKey, true);
+        if (result && result.value) {
+          setNotes(JSON.parse(result.value));
+        }
+      } catch { /* Key doesn't exist yet */ }
+      setLoading(false);
+    }
+    load();
+  }, [storageKey]);
+
+  // Save a new note
+  const addNote = async () => {
+    if (!draft.trim()) return;
+    const newNote = {
+      id: Date.now().toString(),
+      text: draft.trim(),
+      author: author,
+      timestamp: new Date().toISOString(),
+    };
+    const updated = [...notes, newNote];
+    setNotes(updated);
+    setDraft("");
+    try {
+      await window.storage.set(storageKey, JSON.stringify(updated), true);
+    } catch (e) { console.error("Failed to save note:", e); }
+  };
+
+  // Delete a note
+  const deleteNote = async (noteId) => {
+    const updated = notes.filter(n => n.id !== noteId);
+    setNotes(updated);
+    try {
+      await window.storage.set(storageKey, JSON.stringify(updated), true);
+    } catch (e) { console.error("Failed to delete note:", e); }
+  };
+
+  const setAndSaveAuthor = (a) => {
+    setAuthor(a);
+    try { localStorage.setItem("jarvis_notes_author", a); } catch {}
+  };
+
+  const fmtNoteTime = (iso) => {
+    try {
+      const d = new Date(iso);
+      const h = d.getHours(); const m = d.getMinutes();
+      return `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getMonth()]} ${d.getDate()}, ${h % 12 || 12}:${m.toString().padStart(2,"0")} ${h >= 12 ? "PM" : "AM"}`;
+    } catch { return ""; }
+  };
+
+  const authorColors = { Dave: "#6366f1", France: "#ea580c" };
+
+  return (
+    <div style={{ marginBottom: 14, padding: "14px 18px", background: "#fff", borderRadius: 12, border: `1px solid ${T.border}` }}>
+      <div style={{ fontSize: 10, fontWeight: 700, color: T.textDim, marginBottom: 10, letterSpacing: .8 }}>NOTES</div>
+      
+      {/* Existing notes */}
+      {loading ? (
+        <div style={{ fontSize: 12, color: T.textDim, marginBottom: 8 }}>Loading notes...</div>
+      ) : notes.length > 0 ? (
+        <div style={{ marginBottom: 12, display: "flex", flexDirection: "column", gap: 8 }}>
+          {notes.map(n => (
+            <div key={n.id} style={{ display: "flex", alignItems: "flex-start", gap: 10, padding: "8px 12px", background: T.bg, borderRadius: 8, border: `1px solid ${T.borderLight}` }}>
+              <div style={{ width: 24, height: 24, borderRadius: 6, background: `${authorColors[n.author] || T.accent}15`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 700, color: authorColors[n.author] || T.accent, flexShrink: 0, marginTop: 2 }}>{n.author?.[0] || "?"}</div>
+              <div style={{ flex: 1 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}>
+                  <span style={{ fontSize: 11, fontWeight: 600, color: authorColors[n.author] || T.textMid }}>{n.author}</span>
+                  <span style={{ fontSize: 9, color: T.textDim }}>{fmtNoteTime(n.timestamp)}</span>
+                </div>
+                <div style={{ fontSize: 12.5, color: T.text, lineHeight: 1.5 }}>{n.text}</div>
+              </div>
+              <button onClick={() => deleteNote(n.id)} style={{ background: "none", border: "none", color: T.textDim, fontSize: 12, cursor: "pointer", padding: "2px 4px", opacity: 0.4, flexShrink: 0 }} title="Delete note">{"\u2715"}</button>
+            </div>
+          ))}
+        </div>
+      ) : null}
+
+      {/* Add note */}
+      <div style={{ display: "flex", gap: 8 }}>
+        <select value={author} onChange={e => setAndSaveAuthor(e.target.value)} style={{
+          padding: "8px 10px", borderRadius: 8, border: `1px solid ${T.border}`, background: T.bg,
+          fontSize: 11, fontWeight: 600, color: authorColors[author] || T.textMid,
+          cursor: "pointer", fontFamily: "inherit", width: 80,
+        }}>
+          <option value="Dave">Dave</option>
+          <option value="France">France</option>
+        </select>
+        <input value={draft} onChange={e => setDraft(e.target.value)} onKeyDown={e => { if (e.key === "Enter") addNote(); }}
+          placeholder="Add a note..." style={{
+            flex: 1, padding: "8px 12px", borderRadius: 8, border: `1px solid ${T.border}`,
+            background: T.bg, fontSize: 12, color: T.text, fontFamily: "inherit", outline: "none",
+          }} />
+        <button onClick={addNote} disabled={!draft.trim()} style={{
+          padding: "8px 16px", borderRadius: 8, border: "none",
+          background: draft.trim() ? T.accent : T.border, color: "#fff",
+          fontSize: 11, fontWeight: 600, cursor: draft.trim() ? "pointer" : "default",
+          fontFamily: "inherit", transition: "all 150ms",
+        }}>Add</button>
+      </div>
+    </div>
+  );
+}
+
 function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, mob }) {
   const isExp = expandedId === item.id;
   const ug = URG[item.label] || URG.NOTABLE;
@@ -1627,18 +1745,43 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
         </div>
       </div>
       {isExp && (
-        <div style={{ padding: "0 20px 20px", borderTop: `1px solid ${T.borderLight}` }}>
-          <div style={{ margin: "16px 0 14px", padding: "14px 16px", background: T.accentLight, borderRadius: 10, border: `1px solid ${T.accentBorder}` }}>
-            <div style={{ fontSize: 10, fontWeight: 700, color: T.accent, marginBottom: 7, letterSpacing: .5 }}>JARVIS SAYS</div>
-            <p style={{ fontSize: 13.5, color: T.accentText, lineHeight: 1.65, margin: 0 }}>{item.jarvis}</p>
+        <div style={{ padding: "0 20px 20px", borderTop: `1px solid ${T.borderLight}` }} onClick={ev => ev.stopPropagation()}>
+          {/* JARVIS BRIEFING */}
+          <div style={{ margin: "16px 0 14px", padding: "16px 18px", background: T.accentLight, borderRadius: 12, border: `1px solid ${T.accentBorder}` }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 10 }}>
+              <div style={{ width: 20, height: 20, borderRadius: 6, background: "linear-gradient(135deg,#6366f1,#8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 800, color: "#fff" }}>J</div>
+              <span style={{ fontSize: 10, fontWeight: 700, color: T.accent, letterSpacing: .8 }}>JARVIS BRIEFING</span>
+            </div>
+            <p style={{ fontSize: 13.5, color: T.accentText, lineHeight: 1.7, margin: 0 }}>{item.jarvis}</p>
           </div>
-          {item.action && <div style={{ fontSize: 12.5, color: T.textMid, marginBottom: 12, display: "flex", alignItems: "center", gap: 6 }}>
-            <span style={{ color: T.green, fontSize: 14 }}>{"\u2192"}</span>
-            <span><strong>Suggested:</strong> {item.action}</span>
-          </div>}
+
+          {/* AI SUGGESTED NEXT STEPS */}
+          {(item.nextSteps && item.nextSteps.length > 0) || item.action ? (
+            <div style={{ marginBottom: 14, padding: "14px 18px", background: "#f0fdf4", borderRadius: 12, border: "1px solid #bbf7d0" }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: "#16a34a", marginBottom: 10, letterSpacing: .8 }}>AI SUGGESTED NEXT STEPS</div>
+              {item.nextSteps && item.nextSteps.length > 0 ? (
+                item.nextSteps.map((step, si) => (
+                  <div key={si} style={{ display: "flex", alignItems: "flex-start", gap: 8, marginBottom: 6 }}>
+                    <span style={{ fontSize: 12, color: "#16a34a", fontWeight: 700, flexShrink: 0, marginTop: 1 }}>{si + 1}.</span>
+                    <span style={{ fontSize: 13, color: "#166534", lineHeight: 1.5 }}>{step}</span>
+                  </div>
+                ))
+              ) : (
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <span style={{ fontSize: 14, color: "#16a34a" }}>{"\u2192"}</span>
+                  <span style={{ fontSize: 13, color: "#166534", lineHeight: 1.5 }}>{item.action}</span>
+                </div>
+              )}
+            </div>
+          ) : null}
+
           <NlpWidget email={item} onApply={(stage) => upd(item.id, stage)} />
+
+          {/* SHARED NOTES */}
+          <SharedNotes itemId={item.id} />
+
           {/* Action buttons */}
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center", marginTop: 14 }}>
             {/* Open in Outlook — always first, opens link */}
             {item.link && item.link !== "#" && item.link !== "" && (
               <a href={item.link} target="_blank" rel="noopener noreferrer" onClick={ev => ev.stopPropagation()} style={{
