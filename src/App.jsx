@@ -2399,40 +2399,19 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
               }}>Open in Outlook {"\u2197"}</a>
             )}
             {/* Category quick-move buttons */}
-            {item.stage !== "waiting" && (
-              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "waiting"); }} style={{
-                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.yellow}40`,
-                background: T.yellowBg, color: T.yellowText, fontSize: 13, fontWeight: 500,
-                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>Waiting On</button>
-            )}
-            {item.stage !== "opportunity" && (
-              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "opportunity"); }} style={{
-                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
-                background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 500,
-                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>Opportunity</button>
-            )}
             {item.stage !== "france" && (
               <button onClick={ev => { ev.stopPropagation(); upd(item.id, "france"); }} style={{
                 padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.green}40`,
                 background: T.greenBg, color: T.greenText, fontSize: 13, fontWeight: 500,
                 cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>France</button>
+              }}>Delegate to France</button>
             )}
-            {item.stage !== "personal" && (
-              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "personal"); }} style={{
-                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.teal}40`,
-                background: T.tealBg, color: T.tealText, fontSize: 13, fontWeight: 500,
-                cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>Personal</button>
-            )}
-            {item.stage !== "dave" && item.stage !== "inbox" && (
+            {item.stage === "france" && (
               <button onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
-                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.red}40`,
-                background: T.redBg, color: T.redText, fontSize: 13, fontWeight: 600,
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
+                background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 600,
                 cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>Action Now</button>
+              }}>Move to Dave</button>
             )}
             {/* Scrap — remove from queue */}
             <button onClick={ev => { ev.stopPropagation(); scrapItem(item.id); }} style={{
