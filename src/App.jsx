@@ -1,4 +1,18 @@
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref as dbRef, set as dbSet, get as dbGet, onValue, remove as dbRemove } from "firebase/database";
+
+// ═══ FIREBASE CONFIG ═══
+const firebaseApp = initializeApp({
+  databaseURL: "https://jarvis-command-center-880c4-default-rtdb.firebaseio.com"
+});
+const db = getDatabase(firebaseApp);
+
+// Firebase helpers
+const fbSet = async (path, data) => { try { await dbSet(dbRef(db, path), data); } catch (e) { console.error("FB write error:", e); } };
+const fbGet = async (path) => { try { const snap = await dbGet(dbRef(db, path)); return snap.exists() ? snap.val() : null; } catch (e) { console.error("FB read error:", e); return null; } };
+const fbRemove = async (path) => { try { await dbRemove(dbRef(db, path)); } catch (e) { console.error("FB remove error:", e); } };
+const fbListen = (path, callback) => { return onValue(dbRef(db, path), (snap) => { if (snap.exists()) callback(snap.val()); }); };
 
 // ═══════════════════════════════════════════════════════════
 // THEME
@@ -224,32 +238,28 @@ function NlpWidget({ email, onApply }) {
   const isOverridden = overrideConf !== null;
   const isLowConf = displayConf < 55;
 
-  // Load saved override from shared storage
+  // Load saved override from Firebase
   useEffect(() => {
-    async function load() {
-      try {
-        const result = await window.storage.get(`jarvis-nlp-conf:${email.id}`, true);
-        if (result && result.value) setOverrideConf(parseInt(result.value));
-      } catch {}
-    }
-    load();
+    const path = `jarvis/nlpConf/${email.id.replace(/[.#$/[\]]/g, "_")}`;
+    const unsub = fbListen(path, (val) => {
+      if (val !== null && val !== undefined) setOverrideConf(parseInt(val));
+    });
+    return () => unsub();
   }, [email.id]);
 
-  // Save override to shared storage
+  // Save override to Firebase
   const saveOverride = async (val) => {
     setOverrideConf(val);
     setSaving(true);
-    try {
-      await window.storage.set(`jarvis-nlp-conf:${email.id}`, val.toString(), true);
-    } catch {}
+    const path = `jarvis/nlpConf/${email.id.replace(/[.#$/[\]]/g, "_")}`;
+    await fbSet(path, val);
     setTimeout(() => setSaving(false), 800);
   };
 
   const resetOverride = async () => {
     setOverrideConf(null);
-    try {
-      await window.storage.delete(`jarvis-nlp-conf:${email.id}`, true);
-    } catch {}
+    const path = `jarvis/nlpConf/${email.id.replace(/[.#$/[\]]/g, "_")}`;
+    await fbRemove(path);
   };
 
   if (isSame && !isLowConf && !isOverridden) return null;
@@ -411,23 +421,6 @@ function transformScan(sd) {
 // PERSISTENCE
 // ═══════════════════════════════════════════════════════════
 const SK = "jarvis_v9_state";
-// Shared state: load from persistent storage (shared across Dave/France), fallback to localStorage
-async function loadSharedState() {
-  try {
-    const result = await window.storage.get("jarvis-pipeline-state", true);
-    if (result && result.value) return JSON.parse(result.value);
-  } catch {}
-  // Fallback to localStorage for backward compatibility
-  try { return JSON.parse(localStorage.getItem(SK)) || {}; } catch { return {}; }
-}
-async function saveSharedState(data) {
-  try {
-    const s = {};
-    data.forEach(e => { if (e.stage !== "inbox") s[e.id] = e.stage; });
-    await window.storage.set("jarvis-pipeline-state", JSON.stringify(s), true);
-    localStorage.setItem(SK, JSON.stringify(s)); // Keep localStorage as fallback
-  } catch {}
-}
 function loadS() { try { return JSON.parse(localStorage.getItem(SK)) || {}; } catch { return {}; } }
 function saveS(d) { try { const s = {}; d.forEach(e => { if (e.stage !== "inbox") s[e.id] = e.stage; }); localStorage.setItem(SK, JSON.stringify(s)); } catch {} }
 
@@ -529,21 +522,28 @@ function Dashboard() {
   const [data, setData] = useState(() => { const s = loadS(); return HIST.map(e => ({ ...e, stage: s[e.id] || e.stage })); });
   const [expandedId, setExpandedId] = useState(HIST[0]?.id);
   const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
-  // Sync completed to shared storage so Dave and France see the same state
+
+  // Firebase real-time sync for pipeline stages and completed items
   useEffect(() => {
-    async function loadCompleted() {
-      try {
-        const result = await window.storage.get("jarvis-completed", true);
-        if (result && result.value) { const parsed = JSON.parse(result.value); if (parsed.length > 0) setCompleted(parsed); }
-      } catch {}
-    }
-    loadCompleted();
+    // Listen for pipeline stage changes from Firebase (real-time)
+    const unsubStages = fbListen("jarvis/stages", (stages) => {
+      if (stages) {
+        setData(prev => prev.map(e => {
+          const fbStage = stages[e.id];
+          if (fbStage && fbStage !== e.stage) return { ...e, stage: fbStage };
+          return e;
+        }));
+      }
+    });
+    // Listen for completed changes from Firebase (real-time)
+    const unsubCompleted = fbListen("jarvis/completed", (comp) => {
+      if (Array.isArray(comp)) {
+        setCompleted(comp);
+        try { localStorage.setItem("jarvis_completed", JSON.stringify(comp)); } catch {}
+      }
+    });
+    return () => { unsubStages(); unsubCompleted(); };
   }, []);
-  useEffect(() => {
-    try { localStorage.setItem("jarvis_completed", JSON.stringify(completed)); } catch {}
-    async function saveCompleted() { try { await window.storage.set("jarvis-completed", JSON.stringify(completed), true); } catch {} }
-    saveCompleted();
-  }, [completed]);
   const [role, setRole] = useState("dave");
   const [live, setLive] = useState("demo");
   const [meta, setMeta] = useState(null);
@@ -570,33 +570,16 @@ function Dashboard() {
   }, []);
 
   useEffect(() => { fetchData(); const iv = setInterval(fetchData, 30000); return () => clearInterval(iv); }, [fetchData]);
-  useEffect(() => { saveS(data); saveSharedState(data); }, [data]);
-
-  // Cross-user sync: pull shared state every 10 seconds so France sees Dave's changes
+  // Save to localStorage + Firebase on every change
   useEffect(() => {
-    const syncInterval = setInterval(async () => {
-      try {
-        const stateResult = await window.storage.get("jarvis-pipeline-state", true);
-        if (stateResult && stateResult.value) {
-          const sharedStages = JSON.parse(stateResult.value);
-          setData(prev => prev.map(e => {
-            const sharedStage = sharedStages[e.id];
-            if (sharedStage && sharedStage !== e.stage) return { ...e, stage: sharedStage };
-            return e;
-          }));
-        }
-        const compResult = await window.storage.get("jarvis-completed", true);
-        if (compResult && compResult.value) {
-          const sharedCompleted = JSON.parse(compResult.value);
-          setCompleted(prev => {
-            if (JSON.stringify(prev) !== JSON.stringify(sharedCompleted)) return sharedCompleted;
-            return prev;
-          });
-        }
-      } catch {}
-    }, 10000);
-    return () => clearInterval(syncInterval);
-  }, []);
+    saveS(data);
+    const s = {}; data.forEach(e => { if (e.stage !== "inbox") s[e.id] = e.stage; });
+    fbSet("jarvis/stages", s);
+  }, [data]);
+  useEffect(() => {
+    try { localStorage.setItem("jarvis_completed", JSON.stringify(completed)); } catch {}
+    fbSet("jarvis/completed", completed);
+  }, [completed]);
 
   const upd = useCallback((id, stage) => setData(p => p.map(e => e.id === id ? { ...e, stage } : e)), []);
   const markDone = (id) => {
@@ -900,21 +883,20 @@ function ContactsPage({ data, mob }) {
   useEffect(() => {
     async function loadCustom() {
       try {
-        const r = await window.storage?.get("jarvis_custom_contacts");
-        if (r?.value) setCustomContacts(JSON.parse(r.value));
-      } catch { /* fallback: try localStorage */
+        const data = await fbGet("jarvis/customContacts");
+        if (data) setCustomContacts(data);
+      } catch {
         try { const ls = JSON.parse(localStorage.getItem("jarvis_custom_contacts") || "[]"); setCustomContacts(ls); } catch {}
       }
     }
     loadCustom();
   }, []);
 
-  // Save custom contacts to persistent storage
+  // Save custom contacts to Firebase
   const saveCustom = useCallback(async (arr) => {
     setCustomContacts(arr);
-    const json = JSON.stringify(arr);
-    try { await window.storage?.set("jarvis_custom_contacts", json); } catch {}
-    try { localStorage.setItem("jarvis_custom_contacts", json); } catch {}
+    await fbSet("jarvis/customContacts", arr);
+    try { localStorage.setItem("jarvis_custom_contacts", JSON.stringify(arr)); } catch {}
   }, []);
 
   const addContact = () => {
@@ -1732,23 +1714,21 @@ function SharedNotes({ itemId }) {
   });
   const [loading, setLoading] = useState(true);
 
-  const storageKey = `jarvis-notes:${itemId}`;
+  const fbPath = `jarvis/notes/${itemId.replace(/[.#$/[\]]/g, "_")}`;
 
-  // Load notes from shared persistent storage
+  // Real-time listener for notes from Firebase
   useEffect(() => {
-    async function load() {
-      try {
-        const result = await window.storage.get(storageKey, true);
-        if (result && result.value) {
-          setNotes(JSON.parse(result.value));
-        }
-      } catch { /* Key doesn't exist yet */ }
+    setLoading(true);
+    const unsub = fbListen(fbPath, (data) => {
+      if (Array.isArray(data)) setNotes(data);
+      else setNotes([]);
       setLoading(false);
-    }
-    load();
-  }, [storageKey]);
+    });
+    // If listener doesn't fire within 2s, stop loading
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => { unsub(); clearTimeout(timer); };
+  }, [fbPath]);
 
-  // Save a new note
   const addNote = async () => {
     if (!draft.trim()) return;
     const newNote = {
@@ -1760,18 +1740,13 @@ function SharedNotes({ itemId }) {
     const updated = [...notes, newNote];
     setNotes(updated);
     setDraft("");
-    try {
-      await window.storage.set(storageKey, JSON.stringify(updated), true);
-    } catch (e) { console.error("Failed to save note:", e); }
+    await fbSet(fbPath, updated);
   };
 
-  // Delete a note
   const deleteNote = async (noteId) => {
     const updated = notes.filter(n => n.id !== noteId);
     setNotes(updated);
-    try {
-      await window.storage.set(storageKey, JSON.stringify(updated), true);
-    } catch (e) { console.error("Failed to delete note:", e); }
+    await fbSet(fbPath, updated);
   };
 
   const setAndSaveAuthor = (a) => {
