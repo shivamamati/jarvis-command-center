@@ -885,16 +885,18 @@ const CONTACTS_DB = {
 // ═══════════════════════════════════════════════════════════
 function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedId, setExpandedId }) {
   const allItems = data.filter(e => !completed.includes(e.id) && e.stage !== "complete");
-  const doneItems = data.filter(e => e.stage === "complete" || completed.includes(e.id));
-
-  // Pipeline categories use Firebase-synced pipeline_cat field
   const [cats, setCats] = useState({});
-  
-  // Load pipeline categories from Firebase
+  const [scrapped, setScrapped] = useState([]);
+  const [selectedId, setSelectedId] = useState(null);
+  const F = "'DM Sans',system-ui,sans-serif";
+  const FM = "'DM Mono','JetBrains Mono',monospace";
+
   useEffect(() => {
-    const unsub = fbListen("jarvis/pipelineCats", (val) => {
-      if (val) setCats(val);
-    });
+    const unsub = fbListen("jarvis/pipelineCats", (val) => { if (val) setCats(val); });
+    return () => unsub();
+  }, []);
+  useEffect(() => {
+    const unsub = fbListen("jarvis/scrapped", (val) => { if (Array.isArray(val)) setScrapped(val); });
     return () => unsub();
   }, []);
 
@@ -904,141 +906,169 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
     setCats(updated);
     await fbSet("jarvis/pipelineCats", updated);
   };
+  const scrapItem = async (id) => {
+    const updated = [...scrapped, id];
+    setScrapped(updated);
+    await fbSet("jarvis/scrapped", updated);
+  };
+  const unscrapItem = async (id) => {
+    const updated = scrapped.filter(x => x !== id);
+    setScrapped(updated);
+    await fbSet("jarvis/scrapped", updated);
+  };
 
-  const actionNow = allItems.filter(e => getCat(e.id) === "action");
-  const waitingOn = allItems.filter(e => getCat(e.id) === "waiting");
-  const opportunities = allItems.filter(e => getCat(e.id) === "opportunity");
-  const personalItems = allItems.filter(e => getCat(e.id) === "personal");
-  const uncategorized = allItems.filter(e => getCat(e.id) === "uncategorized");
+  const visibleItems = allItems.filter(e => !scrapped.includes(e.id));
+  const uncategorized = visibleItems.filter(e => getCat(e.id) === "uncategorized");
+  const columns = PIPELINE_CATS.map(c => ({ ...c, items: visibleItems.filter(e => getCat(e.id) === c.id) }));
+  const scrappedItems = allItems.filter(e => scrapped.includes(e.id));
+  const selectedItem = selectedId ? data.find(e => e.id === selectedId) : null;
+  const selUg = selectedItem ? (URG[selectedItem.label] || URG.NOTABLE) : URG.NOTABLE;
 
-  const F = "'DM Sans',system-ui,sans-serif";
-  const FM = "'DM Mono','JetBrains Mono',monospace";
-
-  const CategorySection = ({ title, items, color, icon, catId }) => items.length > 0 ? (
-    <div style={{ marginBottom: 28 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
-        <span style={{ fontSize: 16 }}>{icon}</span>
-        <div style={{ fontSize: 12, fontWeight: 700, color, letterSpacing: 1, textTransform: "uppercase", fontFamily: F }}>{title}</div>
-        <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
-        <span style={{ fontSize: 12, color: "#a1a1aa", fontFamily: FM }}>{items.length}</span>
+  const MiniCard = ({ item, catId }) => {
+    const ug = URG[item.label] || URG.NOTABLE;
+    const isSel = selectedId === item.id;
+    return (
+      <div onClick={() => setSelectedId(isSel ? null : item.id)} style={{
+        padding: "10px 12px", background: isSel ? "#f5f3ff" : "#fff", borderRadius: 10,
+        border: `1px solid ${isSel ? "#6366f1" + "40" : "#f0f0f0"}`, marginBottom: 6,
+        boxShadow: isSel ? "0 2px 8px rgba(99,102,241,0.08)" : "0 1px 2px rgba(0,0,0,0.03)",
+        cursor: "pointer", transition: "all 150ms",
+      }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+          <div style={{ width: 26, height: 26, borderRadius: 6, background: `${item.color || T.accent}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ fontSize: 12, fontWeight: 600, color: "#1a1a2e", fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</div>
+            <div style={{ fontSize: 10, color: "#a1a1aa", fontFamily: F }}>{item.from} {"\u00B7"} {item.time}</div>
+          </div>
+        </div>
+        <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }} onClick={ev => ev.stopPropagation()}>
+          <span style={{ fontSize: 8, fontWeight: 600, padding: "2px 6px", borderRadius: 4, background: ug.badge, color: ug.text }}>{item.label}</span>
+          {PIPELINE_CATS.filter(c => c.id !== catId).map(c => (
+            <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: `${c.c}10`, color: c.c, fontSize: 8, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{c.label}</button>
+          ))}
+          {catId !== "uncategorized" && (
+            <button onClick={() => setCat(item.id, "uncategorized")} title="Back to uncategorized" style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: "#f5f5f5", color: "#a1a1aa", fontSize: 8, cursor: "pointer", fontFamily: F }}>{"\u21A9"}</button>
+          )}
+          <button onClick={() => scrapItem(item.id)} title="Scrap" style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: "#fef2f2", color: "#b91c1c", fontSize: 8, cursor: "pointer", fontFamily: F, marginLeft: "auto" }}>{"\u2715"}</button>
+        </div>
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-        {items.map(item => {
-          const ug = URG[item.label] || URG.NOTABLE;
-          return (
-            <div key={item.id} style={{
-              padding: "14px 18px", background: "#fff", borderRadius: 12,
-              border: "1px solid #f0f0f0", borderLeft: `3px solid ${color}`,
-              boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
-            }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
-                <div style={{ width: 32, height: 32, borderRadius: 8, background: `${item.color || T.accent}15`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, border: `1px solid ${item.color || T.accent}20`, flexShrink: 0 }}>{item.avatar}</div>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontSize: 14, fontWeight: 600, color: "#1a1a2e", fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</div>
-                  <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F }}>{item.from} {item.company ? `\u00B7 ${item.company}` : ""} \u00B7 {item.time}</div>
-                </div>
-                <span style={{ fontSize: 10, fontWeight: 600, padding: "3px 8px", borderRadius: 5, background: ug.badge, color: ug.text }}>{item.label}</span>
-              </div>
-              {/* Quick category buttons */}
-              <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                {PIPELINE_CATS.filter(c => c.id !== catId).map(c => (
-                  <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{
-                    padding: "4px 12px", borderRadius: 6, border: `1px solid ${c.c}30`,
-                    background: "transparent", color: c.c, fontSize: 10, fontWeight: 500,
-                    cursor: "pointer", fontFamily: F,
-                  }}>{c.label}</button>
-                ))}
-                {item.link && item.link !== "#" && (
-                  <a href={item.link} target="_blank" rel="noopener noreferrer" style={{
-                    padding: "4px 12px", borderRadius: 6, background: "#6366f1",
-                    color: "#fff", fontSize: 10, fontWeight: 500, textDecoration: "none", fontFamily: F,
-                  }}>Outlook {"\u2197"}</a>
-                )}
-                <button onClick={() => markDone(item.id)} style={{
-                  padding: "4px 12px", borderRadius: 6, border: `1px solid ${T.green}30`,
-                  background: "transparent", color: T.green, fontSize: 10, fontWeight: 500,
-                  cursor: "pointer", fontFamily: F, marginLeft: "auto",
-                }}>{"\u2713"} Done</button>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  ) : null;
+    );
+  };
 
   return (
-    <div style={{ flex: 1, overflowY: "auto", padding: mob ? "20px 16px" : "28px 36px", background: "#fafaf9" }}>
-      <div style={{ maxWidth: 800 }}>
-        <h1 style={{ fontSize: 22, fontWeight: 700, color: "#1a1a2e", margin: "0 0 6px", fontFamily: F }}>Pipeline</h1>
-        <p style={{ fontSize: 14, color: "#71717a", margin: "0 0 24px", fontFamily: F }}>
-          Organize your emails by category. Drag items between Action Now, Waiting On, Opportunities, and Personal.
-        </p>
-
-        {/* Stats */}
-        <div style={{ display: "grid", gridTemplateColumns: mob ? "repeat(2,1fr)" : "repeat(4,1fr)", gap: 10, marginBottom: 28 }}>
-          {PIPELINE_CATS.map(c => (
-            <div key={c.id} style={{
-              padding: "14px 16px", background: "#fff", borderRadius: 12,
-              border: `1px solid ${c.c}25`, display: "flex", alignItems: "center", gap: 12,
-              boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
-            }}>
-              <span style={{ fontSize: 18 }}>{c.icon}</span>
-              <div>
-                <div style={{ fontSize: 20, fontWeight: 700, color: c.c, fontFamily: FM }}>
-                  {c.id === "action" ? actionNow.length : c.id === "waiting" ? waitingOn.length : c.id === "opportunity" ? opportunities.length : personalItems.length}
+    <div style={{ flex: 1, display: "flex", overflow: "hidden", background: "#fafaf9" }}>
+      {/* LEFT — Uncategorized */}
+      <div style={{ width: mob ? "100%" : 320, flexShrink: 0, borderRight: mob ? "none" : "1px solid #f0f0f0", display: "flex", flexDirection: "column", background: "#fff" }}>
+        <div style={{ padding: "20px 18px 14px" }}>
+          <h2 style={{ fontSize: 16, fontWeight: 700, color: "#1a1a2e", margin: "0 0 4px", fontFamily: F }}>Uncategorized</h2>
+          <p style={{ fontSize: 12, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} to sort</p>
+        </div>
+        <div style={{ flex: 1, overflowY: "auto", padding: "0 10px 10px" }}>
+          {uncategorized.length > 0 ? uncategorized.map(item => (
+            <MiniCard key={item.id} item={item} catId="uncategorized" />
+          )) : (
+            <div style={{ padding: 30, textAlign: "center" }}>
+              <div style={{ fontSize: 28, marginBottom: 8, opacity: 0.15 }}>{"\u2713"}</div>
+              <div style={{ fontSize: 13, color: "#a1a1aa", fontFamily: F }}>All sorted</div>
+            </div>
+          )}
+          {scrappedItems.length > 0 && (
+            <div style={{ marginTop: 16, borderTop: "1px solid #f0f0f0", paddingTop: 12 }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, marginBottom: 8, fontFamily: F }}>SCRAPPED ({scrappedItems.length})</div>
+              {scrappedItems.map(item => (
+                <div key={item.id} style={{ padding: "6px 10px", background: "#fafafa", borderRadius: 6, border: "1px solid #f0f0f0", marginBottom: 4, opacity: 0.5, display: "flex", alignItems: "center", gap: 8 }}>
+                  <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F, flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</span>
+                  <button onClick={() => unscrapItem(item.id)} title="Restore" style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: "#f0fdf4", color: "#16a34a", fontSize: 8, cursor: "pointer", fontFamily: F }}>{"\u21A9"}</button>
                 </div>
-                <div style={{ fontSize: 10, color: "#a1a1aa", fontWeight: 500, fontFamily: F }}>{c.label}</div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* MIDDLE — Kanban columns (hidden when detail open) */}
+      {!mob && !selectedItem && (
+        <div style={{ flex: 1, display: "flex", gap: 0, overflowX: "auto" }}>
+          {columns.map(col => (
+            <div key={col.id} style={{ flex: 1, minWidth: 190, borderRight: "1px solid #f0f0f0", display: "flex", flexDirection: "column" }}>
+              <div style={{ padding: "14px 12px 10px", borderBottom: "1px solid #f0f0f0", background: `${col.c}04` }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}>
+                  <span style={{ fontSize: 13 }}>{col.icon}</span>
+                  <span style={{ fontSize: 10, fontWeight: 700, color: col.c, letterSpacing: 0.5, fontFamily: F }}>{col.label}</span>
+                  <span style={{ marginLeft: "auto", fontSize: 13, fontWeight: 700, color: col.c, fontFamily: FM }}>{col.items.length}</span>
+                </div>
+                <div style={{ fontSize: 9, color: "#a1a1aa", fontFamily: F }}>{col.desc}</div>
+              </div>
+              <div style={{ flex: 1, overflowY: "auto", padding: "6px 6px" }}>
+                {col.items.length > 0 ? col.items.map(item => (
+                  <MiniCard key={item.id} item={item} catId={col.id} />
+                )) : (
+                  <div style={{ padding: "20px 8px", textAlign: "center", fontSize: 10, color: "#d4d4d8", fontFamily: F }}>No items</div>
+                )}
               </div>
             </div>
           ))}
         </div>
+      )}
 
-        {/* Uncategorized items */}
-        {uncategorized.length > 0 && (
-          <div style={{ marginBottom: 28 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
-              <div style={{ fontSize: 12, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1, textTransform: "uppercase", fontFamily: F }}>Uncategorized</div>
-              <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
-              <span style={{ fontSize: 12, color: "#a1a1aa", fontFamily: FM }}>{uncategorized.length}</span>
+      {/* RIGHT — Detail panel */}
+      {!mob && selectedItem && (
+        <div style={{ flex: 1, overflowY: "auto", background: "#fff", borderLeft: "1px solid #f0f0f0" }}>
+          <div style={{ padding: "24px 28px", maxWidth: 680 }}>
+            <button onClick={() => setSelectedId(null)} style={{ marginBottom: 16, padding: "6px 14px", borderRadius: 8, border: "1px solid #ebebeb", background: "#fff", color: "#71717a", fontSize: 12, cursor: "pointer", fontFamily: F }}>{"\u2190"} Back to columns</button>
+            <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 20, padding: 20, background: "#f5f3ff", borderRadius: 14, border: "1px solid #ede9fe" }}>
+              <div style={{ width: 52, height: 52, borderRadius: 12, background: `${selUg.bar}12`, border: `2px solid ${selUg.bar}30`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                <span style={{ fontSize: 22, fontWeight: 700, color: selUg.bar, fontFamily: FM }}>{selectedItem.score}</span>
+              </div>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontSize: 18, fontWeight: 700, color: "#1a1a2e", fontFamily: F }}>{selectedItem.from}</div>
+                <div style={{ fontSize: 12, color: "#a1a1aa", fontFamily: F }}>{selectedItem.email || ""} {selectedItem.company ? `\u00B7 ${selectedItem.company}` : ""} {"\u00B7"} {selectedItem.time}</div>
+              </div>
+              <span style={{ fontSize: 10, fontWeight: 700, color: selUg.text, background: selUg.badge, padding: "4px 12px", borderRadius: 8 }}>{selectedItem.label}</span>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              {uncategorized.map(item => {
-                const ug = URG[item.label] || URG.NOTABLE;
-                return (
-                  <div key={item.id} style={{
-                    padding: "14px 18px", background: "#fff", borderRadius: 12,
-                    border: "1px solid #f0f0f0", boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
-                  }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
-                      <div style={{ width: 32, height: 32, borderRadius: 8, background: `${item.color || T.accent}15`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
-                      <div style={{ flex: 1, minWidth: 0 }}>
-                        <div style={{ fontSize: 14, fontWeight: 600, color: "#1a1a2e", fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</div>
-                        <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F }}>{item.from} \u00B7 {item.time}</div>
-                      </div>
-                      <span style={{ fontSize: 10, fontWeight: 600, padding: "3px 8px", borderRadius: 5, background: ug.badge, color: ug.text }}>{item.label}</span>
-                    </div>
-                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                      {PIPELINE_CATS.map(c => (
-                        <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{
-                          padding: "5px 14px", borderRadius: 6, border: `1px solid ${c.c}30`,
-                          background: `${c.c}08`, color: c.c, fontSize: 11, fontWeight: 500,
-                          cursor: "pointer", fontFamily: F,
-                        }}>{c.icon} {c.label}</button>
-                      ))}
-                    </div>
+            {selectedItem.link && selectedItem.link !== "#" && selectedItem.link !== "" && (
+              <a href={selectedItem.link} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "12px 0", marginBottom: 16, background: "#6366f1", color: "#fff", borderRadius: 10, fontSize: 13, fontWeight: 600, textDecoration: "none", fontFamily: F, boxShadow: "0 2px 8px rgba(99,102,241,0.25)" }}>Open in Outlook {"\u2197"}</a>
+            )}
+            <h2 style={{ fontSize: 20, fontWeight: 700, color: "#1a1a2e", lineHeight: 1.35, margin: "0 0 14px", fontFamily: F }}>{selectedItem.subject}</h2>
+            {selectedItem.jarvis && (
+              <div style={{ marginBottom: 16, padding: "16px 18px", background: "#f5f3ff", borderRadius: 12, border: "1px solid #ede9fe" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 10 }}>
+                  <div style={{ width: 20, height: 20, borderRadius: 6, background: "linear-gradient(135deg,#6366f1,#8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 800, color: "#fff" }}>J</div>
+                  <span style={{ fontSize: 10, fontWeight: 700, color: "#6366f1", letterSpacing: 0.8, fontFamily: F }}>JARVIS BRIEFING</span>
+                </div>
+                <p style={{ fontSize: 13.5, color: "#4338ca", lineHeight: 1.7, margin: 0, fontFamily: F }}>{selectedItem.jarvis}</p>
+              </div>
+            )}
+            {(selectedItem.nextSteps?.length > 0 || selectedItem.action) && (
+              <div style={{ marginBottom: 16, padding: "14px 18px", background: "#f0fdf4", borderRadius: 12, border: "1px solid #bbf7d0" }}>
+                <div style={{ fontSize: 10, fontWeight: 700, color: "#16a34a", marginBottom: 10, letterSpacing: 0.8, fontFamily: F }}>AI SUGGESTED NEXT STEPS</div>
+                {selectedItem.nextSteps?.length > 0 ? selectedItem.nextSteps.map((step, si) => (
+                  <div key={si} style={{ display: "flex", alignItems: "flex-start", gap: 8, marginBottom: 6 }}>
+                    <span style={{ fontSize: 12, color: "#16a34a", fontWeight: 700, flexShrink: 0 }}>{si + 1}.</span>
+                    <span style={{ fontSize: 13, color: "#166534", lineHeight: 1.5, fontFamily: F }}>{step}</span>
                   </div>
-                );
-              })}
+                )) : (
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                    <span style={{ fontSize: 14, color: "#16a34a" }}>{"\u2192"}</span>
+                    <span style={{ fontSize: 13, color: "#166534", lineHeight: 1.5, fontFamily: F }}>{selectedItem.action}</span>
+                  </div>
+                )}
+              </div>
+            )}
+            <SharedNotes itemId={selectedItem.id} />
+            <div style={{ marginTop: 14 }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, marginBottom: 10, fontFamily: F }}>MOVE TO CATEGORY</div>
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                {PIPELINE_CATS.map(c => (
+                  <button key={c.id} onClick={() => { setCat(selectedItem.id, c.id); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: `1px solid ${c.c}30`, background: getCat(selectedItem.id) === c.id ? `${c.c}15` : "transparent", color: c.c, fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{c.icon} {c.label}</button>
+                ))}
+                <button onClick={() => { setCat(selectedItem.id, "uncategorized"); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: "1px solid #e2e8f0", background: "transparent", color: "#64748b", fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{"\u21A9"} Uncategorized</button>
+                <button onClick={() => { scrapItem(selectedItem.id); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: "1px solid #fecaca", background: "#fef2f2", color: "#b91c1c", fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{"\u2715"} Scrap</button>
+              </div>
             </div>
           </div>
-        )}
-
-        <CategorySection title="Action Now" items={actionNow} color="#dc2626" icon={"\uD83D\uDD34"} catId="action" />
-        <CategorySection title="Waiting On" items={waitingOn} color="#ca8a04" icon={"\u23F3"} catId="waiting" />
-        <CategorySection title="Potential Opportunities" items={opportunities} color="#6366f1" icon={"\uD83D\uDCA1"} catId="opportunity" />
-        <CategorySection title="Personal Items" items={personalItems} color="#0ea5e9" icon={"\uD83D\uDC64"} catId="personal" />
-      </div>
+        </div>
+      )}
     </div>
   );
 }
