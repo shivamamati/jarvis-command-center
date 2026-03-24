@@ -390,11 +390,22 @@ def classify_email(email_data, cal_contacts=None, dave_replied=None, convo_map=N
         elif is_known_domain(domain) or se in INTERNAL_VIP_EMAILS: score += 1; reasons.append("Attachments from known (+1)")
 
     # Tier classification
+    # INTERNAL EMAILS: Dave only wants external emails + opportunities
+    # Redhill ops and customer-related internals still show, routine internal emails are suppressed
     if se in REDHILL_OPS: score = max(score, 7); tier = "REDHILL OPS"; label = "URGENT"; reasons.append("Redhill ops")
-    elif se in INTERNAL_VIP_EMAILS:
-        score = max(score, 6); tier = "INTERNAL VIP"; label = "IMPORTANT"; reasons.append("Internal VIP")
+    elif se in INTERNAL_VIP_EMAILS or domain in INTERNAL_DOMAINS:
+        # Check if this internal email is about a customer or deal — those still matter
+        has_customer_ref = False
         for cn in CUSTOMER_NAMES:
-            if cn in combined: score = max(score, 7); label = "URGENT"; reasons.append(f"Re customer: {cn}"); break
+            if cn in combined: has_customer_ref = True; reasons.append(f"Re customer: {cn}"); break
+        has_deal_kw = any(k in combined for k in ["nda","proposal","contract","lease","loi","board","investor","capital","substation","power capacity"])
+        
+        if has_customer_ref or has_deal_kw:
+            # Internal email about a customer or deal — keep it visible
+            score = max(score, 5); tier = "INTERNAL"; label = "IMPORTANT"; reasons.append("Internal — deal/customer related")
+        else:
+            # Routine internal email — suppress (score 2, won't show on dashboard)
+            score = 2; tier = "INTERNAL"; label = "NOISE"; reasons.append("Internal — routine (suppressed)")
     elif domain in TIER1_DOMAINS: score = max(score, 7); tier = "TIER 1"; label = "URGENT"; reasons.append(f"Tier 1: {domain}")
     elif domain in TIER2_DOMAINS: score = max(score, 6); tier = "TIER 2"; label = "IMPORTANT"; reasons.append(f"Tier 2: {domain}")
     elif domain in VIP_FIRMS: score = max(score, 6); tier = "VIP FIRM"; label = "IMPORTANT"; reasons.append(f"VIP: {domain}")
@@ -498,7 +509,7 @@ SCORE 1-2 (NOISE — drop it):
 KEY DISTINCTION: Is this email written SPECIFICALLY to Dave (or a small group) about a real business matter? Or is it a mass email / newsletter / marketing blast sent to hundreds of people? Mass emails = NOISE. Personal emails = KEEP.
 
 Return ONLY valid JSON:
-{"score":<1-10>,"label":"<CRITICAL|URGENT|IMPORTANT|NOTABLE|NOISE>","summary":"<1-2 sentence business context>","action":"<specific next step for Dave or France>","contact_type":"<Investor|Customer|Broker|Partner|Internal|Vendor|Newsletter|Marketing|Unknown>","reasoning":"<why this score>"}"""
+{"score":<1-10>,"label":"<CRITICAL|URGENT|IMPORTANT|NOTABLE|NOISE>","summary":"<2-3 sentence BRIEFING: Who is this person, what do they want, and why does it matter to Galaxy. Write as if briefing Dave in person.>","action":"<specific next step for Dave or France>","next_steps":["<step 1>","<step 2>","<step 3 if needed>"],"contact_type":"<Investor|Customer|Broker|Partner|Internal|Vendor|Newsletter|Marketing|Unknown>","reasoning":"<why this score>"}"""
 
 def ai_classify(se, sn, subj, body):
     """R3: If AI fails, return a safe default instead of None (never silently drop)."""
@@ -792,6 +803,7 @@ def run_scan(hours=24, post_teams=False):
             "ai_label": ai_result.get("label") if ai_result else None,
             "ai_summary": ai_result.get("summary") if ai_result else None,
             "ai_action": ai_result.get("action") if ai_result else None,
+            "ai_next_steps": ai_result.get("next_steps", []) if ai_result else [],
             "ai_failed": ai_result.get("ai_failed", False) if ai_result else False,
             "final_score": max(c["score"], ai_result.get("score", 0)) if ai_result else c["score"],
             "final_label": ai_result.get("label") if ai_result and ai_result.get("score", 0) > c["score"] else c["label"],
