@@ -585,6 +585,49 @@ def get_calendar_contacts():
     except Exception as e:
         log.warning(f"  Calendar failed: {e}"); return set()
 
+CALENDAR_FILE = SCRIPT_DIR / "calendar_results.json"
+
+def get_calendar_events():
+    """Fetch today's and tomorrow's calendar events with full details for the dashboard."""
+    now = datetime.now(timezone.utc)
+    token = token_mgr.get_token()
+    events = []
+    try:
+        r = api_request_with_retry("GET", f"https://graph.microsoft.com/v1.0/users/{DAVE_EMAIL}/calendarView",
+            headers={"Authorization": f"Bearer {token}", "Prefer": 'outlook.timezone="UTC"'},
+            params={"startDateTime": now.strftime("%Y-%m-%dT00:00:00Z"),
+                    "endDateTime": (now + timedelta(days=2)).strftime("%Y-%m-%dT23:59:59Z"),
+                    "$top": 50, "$select": "subject,start,end,location,organizer,attendees,isAllDay,isCancelled,webLink",
+                    "$orderby": "start/dateTime"})
+        for ev in r.json().get("value", []):
+            if ev.get("isCancelled"): continue
+            attendees = []
+            for att in ev.get("attendees", []):
+                email = att.get("emailAddress", {}).get("address", "")
+                name = att.get("emailAddress", {}).get("name", "")
+                if email and email.lower() not in DAVE_EMAILS:
+                    short = name.split()[0] if name else email.split("@")[0]
+                    attendees.append(short)
+            organizer = ev.get("organizer", {}).get("emailAddress", {}).get("name", "")
+            location = ev.get("location", {}).get("displayName", "") if isinstance(ev.get("location"), dict) else str(ev.get("location", ""))
+            events.append({
+                "subject": ev.get("subject", ""),
+                "start": ev.get("start", {}).get("dateTime", ""),
+                "end": ev.get("end", {}).get("dateTime", ""),
+                "attendees": attendees[:6],
+                "organizer": organizer,
+                "location": location[:100] if location else "",
+                "isAllDay": ev.get("isAllDay", False),
+                "webLink": ev.get("webLink", ""),
+            })
+        # Write to file
+        cal_data = {"timestamp": now.isoformat(), "events": events}
+        CALENDAR_FILE.write_text(json.dumps(cal_data, indent=2))
+        log.info(f"  Calendar: {len(events)} events (today + tomorrow)")
+    except Exception as e:
+        log.warning(f"  Calendar events fetch failed: {e}")
+    return events
+
 # ═══════════════════════════════════════════════════════════════
 # TEAMS NOTIFICATION — Rich Adaptive Card with Outlook links
 # ═══════════════════════════════════════════════════════════════
@@ -741,6 +784,7 @@ def run_scan(hours=24, post_teams=False):
 
     # Gather signals
     cal = get_calendar_contacts(); log.info(f"  Calendar: {len(cal)}")
+    get_calendar_events()  # Write calendar_results.json for dashboard
     replied = get_dave_sent_contacts(7)
     emails = get_emails(hours); log.info(f"  Inbox: {len(emails)}")
 
