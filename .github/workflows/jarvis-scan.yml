@@ -46,12 +46,15 @@ jobs:
         run: |
           mkdir -p public/data
           cp scripts/jarvis_results.json public/data/jarvis_results.json
+          if [ -f scripts/calendar_results.json ]; then
+            cp scripts/calendar_results.json public/data/calendar_results.json
+          fi
           echo "Results copied successfully"
 
       - name: Commit and push results
         run: |
           git config user.name "shivamamati"
           git config user.email "shivam.amati@gmail.com"
-          git add public/data/jarvis_results.json
+          git add public/data/jarvis_results.json public/data/calendar_results.json
           git diff --staged --quiet || git commit -m "JARVIS scan $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
