@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T13:03:39.853953+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 3,
-  "ai": 10,
+  "timestamp": "2026-03-24T14:55:04.602217+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 12,
+  "ai": 12,
   "skipped": 0,
-  "auto_learned": 46,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "r.peck@2020-4.com",
+      "sender_name": "Robert Peck",
+      "subject": "Jeff Markey Resume - Real Estate Acquisitions, Investment and Development",
+      "body_preview": "Hi Dave,\r\n\r\n\r\n\r\nI am pleased to introduce Jeff Markey, a real estate investment and development executive with a demonstrated track record sourcing, structuring, and closing opportunistic transactions across self-storage, multifamily, affordable housing, ",
+      "received": "2026-03-24T13:36:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiB5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM-wwybgPyFGm9y8rSzoWXY=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: rack, investment, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Robert Peck is introducing Jeff Markey, a real estate executive with experience in acquisitions and development across multiple property types including self-storage and multifamily. This appears to be a talent introduction for potential hiring or partnership opportunity that could strengthen Galaxy's real estate investment and development capabilities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review Jeff Markey's complete resume and background to assess fit with Galaxy's current and pipeline projects",
+        "Determine if Galaxy has immediate hiring needs or project requirements where Markey's acquisition and development expertise would add value",
+        "Schedule an initial conversation between Dave/France and Jeff Markey to explore potential opportunities and mutual fit"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "candace@jsa.net",
@@ -1531,5 +1562,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 50
+  "total_tracked": 51
 }
