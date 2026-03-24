@@ -693,13 +693,12 @@ function Dashboard() {
             </div>
 
             {/* STATS BAR */}
-            <div style={{ display: "grid", gridTemplateColumns: mob ? "repeat(2,1fr)" : "repeat(5,1fr)", gap: 10, marginBottom: 28 }}>
+            <div style={{ display: "grid", gridTemplateColumns: mob ? "repeat(2,1fr)" : "repeat(4,1fr)", gap: 10, marginBottom: 28 }}>
               {[
-                { label: "Scanned", value: meta?.total || data.length, icon: "\uD83D\uDCE8", bg: "#f8fafc", c: "#64748b", bc: "#e2e8f0" },
+                { label: "Total Emails", value: (meta?.total || 0) + (meta?.noise || 0), icon: "\uD83D\uDCE8", bg: "#f8fafc", c: "#64748b", bc: "#e2e8f0" },
                 { label: "Critical", value: critCount, icon: "\uD83D\uDD34", bg: "#fef2f2", c: "#dc2626", bc: "#fecaca" },
                 { label: "Pending", value: filtered.length, icon: "\u23F3", bg: "#fff7ed", c: "#ea580c", bc: "#fed7aa" },
                 { label: "Completed", value: doneItems.length, icon: "\u2705", bg: "#f0fdf4", c: "#16a34a", bc: "#bbf7d0" },
-                { label: "Pipeline", value: "\u00A342M+", icon: "\uD83D\uDCB0", bg: "#f5f3ff", c: "#6366f1", bc: "#ddd6fe" },
               ].map(s => (
                 <div key={s.label} style={{
                   padding: "14px 16px", background: "#fff", borderRadius: 12,
