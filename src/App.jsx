@@ -528,6 +528,15 @@ function Dashboard() {
   const [data, setData] = useState(() => { const s = loadS(); return HIST.map(e => ({ ...e, stage: s[e.id] || e.stage })); });
   const [expandedId, setExpandedId] = useState(HIST[0]?.id);
   const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
+  const [customItems, setCustomItems] = useState([]);
+
+  // Load custom items from Firebase
+  useEffect(() => {
+    const unsub = fbListen("jarvis/customItems", (val) => {
+      if (Array.isArray(val)) setCustomItems(val);
+    });
+    return () => unsub();
+  }, []);
 
   // Firebase real-time sync for pipeline stages and completed items
   useEffect(() => {
@@ -553,6 +562,7 @@ function Dashboard() {
   const [role, setRole] = useState("dave");
   const [live, setLive] = useState("demo");
   const [meta, setMeta] = useState(null);
+  const [showCreateModal, setShowCreateModal] = useState(false);
 
   // Live data fetching
   const fetchData = useCallback(async () => {
@@ -587,7 +597,38 @@ function Dashboard() {
     fbSet("jarvis/completed", completed);
   }, [completed]);
 
-  const upd = useCallback((id, stage) => setData(p => p.map(e => e.id === id ? { ...e, stage } : e)), []);
+  const upd = useCallback((id, stage) => {
+    setData(p => p.map(e => e.id === id ? { ...e, stage } : e));
+    // Also update custom items if it's a custom item
+    setCustomItems(prev => {
+      const updated = prev.map(e => e.id === id ? { ...e, stage } : e);
+      if (JSON.stringify(updated) !== JSON.stringify(prev)) fbSet("jarvis/customItems", updated);
+      return updated;
+    });
+  }, []);
+
+  const addCustomItem = useCallback(async (item) => {
+    const newItem = {
+      id: `custom_${Date.now()}`, score: item.priority === "critical" ? 9 : item.priority === "urgent" ? 7 : 5,
+      label: item.priority === "critical" ? "CRITICAL" : item.priority === "urgent" ? "URGENT" : "IMPORTANT",
+      tier: "CUSTOM", pattern: "G", stage: "dave",
+      from: item.createdBy || "Dave", company: "", email: "",
+      subject: item.title, time: new Date().toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }),
+      date: getToday(), link: "", jarvis: item.description || "",
+      action: "", nextSteps: [], reply: "", deal: "", dealValue: "",
+      actions: [], primaryAction: "", reasons: ["Manually created"],
+      att: false, ai: false, read: true, threads: 0,
+      avatar: (item.createdBy || "Dave").split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase(),
+      color: item.createdBy === "France" ? "#ea580c" : "#6366f1",
+      isCustom: true,
+    };
+    const updated = [...customItems, newItem];
+    setCustomItems(updated);
+    await fbSet("jarvis/customItems", updated);
+  }, [customItems]);
+
+  const allData = useMemo(() => [...data, ...customItems.filter(ci => !data.find(d => d.id === ci.id))], [data, customItems]);
+
   const markDone = (id) => {
     setCompleted(p => [...p, id]);
     upd(id, "complete");
@@ -600,13 +641,13 @@ function Dashboard() {
   };
 
   const filtered = useMemo(() => {
-    let r = data.filter(e => e.stage !== "complete" && !completed.includes(e.id));
+    let r = allData.filter(e => e.stage !== "complete" && !completed.includes(e.id));
     if (role === "dave") r = r.filter(e => e.stage === "dave" || e.stage === "inbox");
     if (role === "france") r = r.filter(e => e.stage === "france" || e.stage === "external" || e.stage === "scheduled");
     return r.sort((a, b) => b.score - a.score);
-  }, [data, role, completed]);
+  }, [allData, role, completed]);
 
-  const doneItems = data.filter(e => e.stage === "complete" || completed.includes(e.id));
+  const doneItems = allData.filter(e => e.stage === "complete" || completed.includes(e.id));
   const critCount = filtered.filter(e => e.label === "CRITICAL").length;
   const today = getToday();
   const todayItems = filtered.filter(e => e.date === today);
@@ -677,12 +718,21 @@ function Dashboard() {
       {/* BODY */}
       {page === "queue" ? (
       <div style={{ flex: 1, display: "flex", overflow: "hidden" }}>
+        {showCreateModal && <CreateItemModal onAdd={addCustomItem} onClose={() => setShowCreateModal(false)} />}
         {/* MAIN FEED */}
         <div style={{ flex: 1, overflowY: "auto", padding: mob ? "20px 16px" : "28px 36px" }}>
           <div style={{ maxWidth: 760 }}>
             {/* Greeting */}
             <div style={{ marginBottom: 20 }}>
-              <h1 style={{ fontSize: 24, fontWeight: 700, color: "#1a1a2e", margin: "0 0 6px", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{greeting}, {role === "france" ? "France" : "Dave"}.</h1>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6 }}>
+                <h1 style={{ fontSize: 24, fontWeight: 700, color: "#1a1a2e", margin: 0, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{greeting}, {role === "france" ? "France" : "Dave"}.</h1>
+                <button onClick={() => setShowCreateModal(true)} style={{
+                  padding: "8px 18px", borderRadius: 8, border: "none",
+                  background: "linear-gradient(135deg,#6366f1,#8b5cf6)", color: "#fff",
+                  fontSize: 12, fontWeight: 600, cursor: "pointer", fontFamily: "'DM Sans',system-ui,sans-serif",
+                  boxShadow: "0 2px 8px rgba(99,102,241,0.2)", display: "flex", alignItems: "center", gap: 4,
+                }}>+ Add Item</button>
+              </div>
               <p style={{ fontSize: 14, color: "#71717a", margin: 0, lineHeight: 1.6, fontFamily: "'DM Sans',system-ui,sans-serif" }}>
                 {todayItems.length > 0
                   ? `${todayItems.length} new item${todayItems.length !== 1 ? "s" : ""} today${todayCrit > 0 ? ` \u2014 ${todayCrit} time-critical` : ""}. ${previousItems.length > 0 ? `${previousItems.length} carry-over from previous days.` : ""}`
@@ -818,13 +868,13 @@ function Dashboard() {
       </div>
       ) : page === "pipeline" ? (
         /* ═══ PIPELINE PAGE ═══ */
-        <PipelinePage data={data} upd={upd} mob={mob} completed={completed} markDone={markDone} undoDone={undoDone} expandedId={expandedId} setExpandedId={setExpandedId} />
+        <PipelinePage data={allData} upd={upd} mob={mob} completed={completed} markDone={markDone} undoDone={undoDone} expandedId={expandedId} setExpandedId={setExpandedId} addCustomItem={addCustomItem} />
       ) : page === "contacts" ? (
         /* ═══ CONTACTS PAGE ═══ */
-        <ContactsPage data={data} mob={mob} />
+        <ContactsPage data={allData} mob={mob} />
       ) : (
         /* ═══ ALL EMAILS PAGE ═══ */
-        <AllEmailsPage data={data} upd={upd} mob={mob} />
+        <AllEmailsPage data={allData} upd={upd} mob={mob} />
       )}
     </div>
   );
@@ -882,7 +932,88 @@ const CONTACTS_DB = {
 // ═══════════════════════════════════════════════════════════
 // PIPELINE PAGE — Categorized view: Action Now, Waiting On, Opportunities, Personal
 // ═══════════════════════════════════════════════════════════
-function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedId, setExpandedId }) {
+// ═══════════════════════════════════════════════════════════
+// CREATE ITEM MODAL — Dave/France can create custom items
+// ═══════════════════════════════════════════════════════════
+function CreateItemModal({ onAdd, onClose }) {
+  const [title, setTitle] = useState("");
+  const [desc, setDesc] = useState("");
+  const [priority, setPriority] = useState("urgent");
+  const [author, setAuthor] = useState(() => { try { return localStorage.getItem("jarvis_notes_author") || "Dave"; } catch { return "Dave"; } });
+  const F = "'DM Sans',system-ui,sans-serif";
+
+  const submit = () => {
+    if (!title.trim()) return;
+    onAdd({ title: title.trim(), description: desc.trim(), priority, createdBy: author });
+    onClose();
+  };
+
+  return (
+    <div style={{ position: "fixed", inset: 0, zIndex: 9999, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.3)", backdropFilter: "blur(4px)" }} onClick={onClose}>
+      <div onClick={ev => ev.stopPropagation()} style={{ width: 440, background: "#fff", borderRadius: 16, padding: "28px 28px 24px", boxShadow: "0 20px 60px rgba(0,0,0,0.15)" }}>
+        <h3 style={{ fontSize: 18, fontWeight: 700, color: "#1a1a2e", margin: "0 0 20px", fontFamily: F }}>Create New Item</h3>
+
+        <div style={{ marginBottom: 14 }}>
+          <label style={{ fontSize: 11, fontWeight: 600, color: "#71717a", letterSpacing: 0.5, display: "block", marginBottom: 6, fontFamily: F }}>Title</label>
+          <input value={title} onChange={e => setTitle(e.target.value)} onKeyDown={e => { if (e.key === "Enter") submit(); }}
+            placeholder="e.g. Follow up with Castleforge on Q1 financials"
+            style={{ width: "100%", padding: "10px 14px", borderRadius: 10, border: "1px solid #ebebeb", fontSize: 14, fontFamily: F, color: "#1a1a2e", outline: "none", boxSizing: "border-box" }} autoFocus />
+        </div>
+
+        <div style={{ marginBottom: 14 }}>
+          <label style={{ fontSize: 11, fontWeight: 600, color: "#71717a", letterSpacing: 0.5, display: "block", marginBottom: 6, fontFamily: F }}>Description (optional)</label>
+          <textarea value={desc} onChange={e => setDesc(e.target.value)} rows={3}
+            placeholder="Add context, notes, or details..."
+            style={{ width: "100%", padding: "10px 14px", borderRadius: 10, border: "1px solid #ebebeb", fontSize: 13, fontFamily: F, color: "#1a1a2e", outline: "none", boxSizing: "border-box", resize: "vertical" }} />
+        </div>
+
+        <div style={{ display: "flex", gap: 12, marginBottom: 20 }}>
+          <div style={{ flex: 1 }}>
+            <label style={{ fontSize: 11, fontWeight: 600, color: "#71717a", letterSpacing: 0.5, display: "block", marginBottom: 6, fontFamily: F }}>Priority</label>
+            <div style={{ display: "flex", gap: 6 }}>
+              {[
+                { id: "critical", label: "Critical", c: "#dc2626" },
+                { id: "urgent", label: "Urgent", c: "#ea580c" },
+                { id: "important", label: "Important", c: "#ca8a04" },
+              ].map(p => (
+                <button key={p.id} onClick={() => setPriority(p.id)} style={{
+                  flex: 1, padding: "8px 0", borderRadius: 8, border: `1px solid ${priority === p.id ? p.c + "40" : "#ebebeb"}`,
+                  background: priority === p.id ? `${p.c}10` : "#fff", color: priority === p.id ? p.c : "#71717a",
+                  fontSize: 11, fontWeight: priority === p.id ? 600 : 400, cursor: "pointer", fontFamily: F,
+                }}>{p.label}</button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <label style={{ fontSize: 11, fontWeight: 600, color: "#71717a", letterSpacing: 0.5, display: "block", marginBottom: 6, fontFamily: F }}>Created by</label>
+            <select value={author} onChange={e => setAuthor(e.target.value)} style={{
+              padding: "8px 12px", borderRadius: 8, border: "1px solid #ebebeb", fontSize: 12, fontFamily: F,
+              color: author === "Dave" ? "#6366f1" : "#ea580c", fontWeight: 600, cursor: "pointer",
+            }}>
+              <option value="Dave">Dave</option>
+              <option value="France">France</option>
+            </select>
+          </div>
+        </div>
+
+        <div style={{ display: "flex", gap: 10, justifyContent: "flex-end" }}>
+          <button onClick={onClose} style={{ padding: "10px 20px", borderRadius: 8, border: "1px solid #ebebeb", background: "#fff", color: "#71717a", fontSize: 13, cursor: "pointer", fontFamily: F }}>Cancel</button>
+          <button onClick={submit} disabled={!title.trim()} style={{
+            padding: "10px 24px", borderRadius: 8, border: "none",
+            background: title.trim() ? "linear-gradient(135deg,#6366f1,#8b5cf6)" : "#e2e8f0",
+            color: title.trim() ? "#fff" : "#a1a1aa", fontSize: 13, fontWeight: 600, cursor: title.trim() ? "pointer" : "default",
+            fontFamily: F, boxShadow: title.trim() ? "0 2px 8px rgba(99,102,241,0.25)" : "none",
+          }}>Create Item</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════
+// PIPELINE PAGE
+// ═══════════════════════════════════════════════════════════
+function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedId, setExpandedId, addCustomItem }) {
   const allItems = data.filter(e => e.stage !== "complete" && !completed.includes(e.id));
   const [cats, setCats] = useState({});
   const [scrapped, setScrapped] = useState([]);
@@ -974,13 +1105,24 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
     );
   };
 
+  const [showCreate, setShowCreate] = useState(false);
+
   return (
     <div style={{ flex: 1, display: "flex", overflow: "hidden", background: "#fafaf9" }}>
+      {showCreate && <CreateItemModal onAdd={addCustomItem} onClose={() => setShowCreate(false)} />}
       {/* LEFT — Uncategorized */}
       <div style={{ width: mob ? "100%" : 320, flexShrink: 0, borderRight: mob ? "none" : "1px solid #f0f0f0", display: "flex", flexDirection: "column", background: "#fff" }}>
         <div style={{ padding: "20px 18px 14px" }}>
-          <h2 style={{ fontSize: 18, fontWeight: 700, color: "#1a1a2e", margin: "0 0 4px", fontFamily: F }}>Uncategorized</h2>
-          <p style={{ fontSize: 13, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} to sort {"\u2014"} drag to categorize</p>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 4 }}>
+            <h2 style={{ fontSize: 18, fontWeight: 700, color: "#1a1a2e", margin: 0, fontFamily: F }}>Uncategorized</h2>
+            <button onClick={() => setShowCreate(true)} style={{
+              padding: "6px 14px", borderRadius: 8, border: "none",
+              background: "linear-gradient(135deg,#6366f1,#8b5cf6)", color: "#fff",
+              fontSize: 12, fontWeight: 600, cursor: "pointer", fontFamily: F,
+              boxShadow: "0 2px 8px rgba(99,102,241,0.2)",
+            }}>+ Add Item</button>
+          </div>
+          <p style={{ fontSize: 13, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} {"\u2014"} drag to categorize</p>
         </div>
         <div style={{ flex: 1, overflowY: "auto", padding: "0 10px 10px" }}>
           {uncategorized.length > 0 ? uncategorized.map(item => (
