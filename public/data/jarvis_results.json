@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T08:46:55.843556+00:00",
-  "total": 3,
-  "new": 3,
-  "noise": 3,
-  "ai": 2,
+  "timestamp": "2026-03-24T09:52:45.091555+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 46,
   "items": [
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Dave,\r\n\r\nAlways good to hear from you and no need to apologize. I\u2019m really glad to hear you\u2019re ready to move forward, Darren and I are looking forward to helping you get up and running.\r\n\r\nTo proceed, we\u2019ll need the signed DRT service order pls.\r\nOnce ",
+      "received": "2026-03-24T09:43:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty is confirming Galaxy's readiness to move forward on the Cloud House deployment partnership and is requesting the execution of the DRT service order to proceed with implementation. This is a critical milestone that unblocks the deployment timeline and formalization of the commercial relationship.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Locate and review the DRT service order document with legal/finance to ensure all terms align with Galaxy's expectations",
+        "Execute and return the signed service order to Fiona Leon and Darren immediately to maintain momentum",
+        "Confirm internal resource allocation and deployment timeline with Galaxy Data Centers operations team once signature is exchanged"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
@@ -441,40 +474,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Fiona,\r\n\r\nWelcome back \u2014 I hope you had a great break.\r\n\r\nApologies for the delay on our end. We wanted to wait until you were back rather than hand this over mid-process, and in the meantime we\u2019ve aligned internally on the equipment and customer side.",
-      "received": "2026-03-23T22:26:31Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "10 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal email from Dave Misra to Fiona (likely a key team member) indicating that Galaxy has completed internal alignment on equipment and customer strategy for the DRT partnership and Cloud House deployment initiative while she was away. The delay in communication was intentional to preserve continuity, and Galaxy is now ready to move forward with coordinated next steps.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Schedule alignment meeting with Fiona to brief her on internal decisions made regarding equipment specifications and customer commitments",
-        "Prepare materials documenting the finalized equipment requirements and customer deployment plan for DRT partnership review",
-        "Confirm timeline and resource allocation with France for Cloud House deployment execution"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "dave@galaxycapitalpartners.com",
