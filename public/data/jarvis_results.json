@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T22:26:32.525145+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 3,
-  "ai": 6,
+  "timestamp": "2026-03-24T23:28:28.133318+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 1,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Wednesday Marketing Meeting",
+      "body_preview": "________________________________\r\nFrom: Sai Raman\r\nSent: Sunday, March 15, 2026 10:59:39 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Animesh Raha <animesh@galaxydatacenters.com>; SA <sa@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters.com>",
+      "received": "2026-03-24T23:27:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYQHs5BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEet3ymAj5VEik-qc8rcrTw=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal team member) is sending a meeting reminder to the marketing leadership group including Dave Misra for a Wednesday marketing meeting. This appears to be an internal coordination message to align the marketing team on upcoming initiatives or strategic discussions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and review any pre-meeting materials or agenda that Sai may send",
+        "Coordinate with Animesh and SA to understand what marketing topics or decisions need to be addressed in this meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -31,16 +63,49 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is requesting that the team review an initial draft document prepared by interns regarding the Docklands project and wants to schedule a call to refine the underwriting analysis and address any gaps or issues identified in that draft.",
+      "ai_summary": "Dave is requesting that the team review an initial draft document prepared by interns related to the Docklands project and is signaling the need for a follow-up call to refine the underwriting analysis and resolve outstanding issues.",
       "ai_action": null,
       "ai_next_steps": [
-        "Locate and distribute the intern draft to relevant team members for detailed review",
-        "Schedule an underwriting review call with key stakeholders to discuss findings and identify cleanup items",
-        "Prepare a summary of preliminary issues or questions to discuss on the call"
+        "Assign team member to review the intern draft and compile feedback on underwriting gaps or errors",
+        "Schedule underwriting cleanup call with Dave and relevant stakeholders to align on assumptions and next phases",
+        "Prepare summary of required changes and revised timeline for Docklands analysis"
       ],
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Fiona,\r\n\r\nThanks for the quick turnaround \u2014 happy to align on next steps.\r\n\r\nI also want to call out how helpful Darren has been throughout this process. Darren has gone above and beyond on solutions architecture and network guidance, and much of the p",
+      "received": "2026-03-24T21:39:58Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4G4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "9 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is acknowledging positive progress on the Galaxy/DRT partnership and Cloud House deployment initiative with Fiona, and specifically recognizing Darren's exceptional contributions to solutions architecture and network planning. This suggests the partnership is advancing toward implementation with strong internal team performance, which validates Galaxy's technical approach and strengthens the vendor relationship.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm formal next steps and timeline for Cloud House deployment with Fiona in writing",
+        "Ensure Darren's contributions are documented and that he continues as the primary technical point of contact for DRT partnership",
+        "Schedule follow-up meeting to review deployment milestones and resource allocation"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "media@jsa.net",
@@ -103,40 +168,6 @@
         "Review the Salesforce Remediation Punch List (GDC-SF-PUNCH-001, v2.0) and assess priority/impact of each outstanding item",
         "Schedule a follow-up meeting with Rodrigo, Ali, and the relevant technical team to assign owners and establish remediation timelines",
         "Determine resource allocation and any budget implications needed to complete remediation before Redhill goes live"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Pelle Jorgen <pelle.jorgen@castleforge.com>\r\n\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Monday, March 23, 2026 at 6:26\u202fPM\r\nTo: Fiona Leon <fional@digitalrealty.com>, Darren Chan <darrenchan@digitalrealty.com>\r\nCc: Paul Leong <paul@galaxydatace",
-      "received": "2026-03-24T21:21:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAYHOKW%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "9 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is reaching out regarding a partnership opportunity between Galaxy and Digital Realty Trust (DRT) involving Cloud House deployment infrastructure. This appears to be a strategic partnership discussion that could expand Galaxy's data center capabilities and market reach through collaboration with a major industry player. The outcome will determine whether Galaxy can accelerate its cloud infrastructure footprint and secure a significant revenue-generating partnership.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Schedule a call with Pelle Jorgen to clarify the specific scope, timeline, and commercial terms of the proposed Galaxy-DRT partnership",
-        "Brief Paul Leong and coordinate internally on Galaxy's strategic priorities and constraints for Cloud House deployment",
-        "Request detailed documentation on DRT's technical requirements, capacity commitments, and financial terms before committing resources"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2063,5 +2094,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 66
+  "total_tracked": 67
 }
