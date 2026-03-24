@@ -409,7 +409,7 @@ function NlpWidget({ email, onApply }) {
 function transformScan(sd) {
   if (!sd?.items?.length) return null;
   return sd.items.map((it, i) => ({
-    id: `live_${i}_${(it.sender_email || "").slice(0, 10)}`, score: it.final_score || 3, label: it.final_label || "NOTABLE",
+    id: `live_${i}_${(it.sender_email || "").replace(/[@.]/g, "_").slice(0, 15)}`, score: it.final_score || 3, label: it.final_label || "NOTABLE",
     tier: it.rules_tier || "UNKNOWN", pattern: it.ai_pattern || "G", stage: "inbox",
     from: it.sender_name || it.sender_email || "Unknown", company: "", email: it.sender_email || "",
     subject: it.subject || "(no subject)", time: fmtTime(it.received), date: getDateLocal(it.received),
@@ -1153,8 +1153,9 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
   useEffect(() => { const u = fbListen("jarvis/pipelineCats", v => { if (v) setCats(v); }); return () => u(); }, []);
   useEffect(() => { const u = fbListen("jarvis/scrapped", v => { if (Array.isArray(v)) setScrapped(v); }); return () => u(); }, []);
 
-  const getCat = (id) => cats[id] || "uncategorized";
-  const setCat = async (id, cat) => { const u = { ...cats, [id]: cat }; setCats(u); await fbSet("jarvis/pipelineCats", u); };
+  const sanitizeKey = (id) => (id || "").replace(/[.#$/\[\]@]/g, "_");
+  const getCat = (id) => cats[sanitizeKey(id)] || "uncategorized";
+  const setCat = async (id, cat) => { const k = sanitizeKey(id); const u = { ...cats, [k]: cat }; setCats(u); await fbSet("jarvis/pipelineCats", u); };
   const scrapItem = async (id) => { const u = [...scrapped, id]; setScrapped(u); await fbSet("jarvis/scrapped", u); };
   const unscrapItem = async (id) => { const u = scrapped.filter(x => x !== id); setScrapped(u); await fbSet("jarvis/scrapped", u); };
 
@@ -1212,7 +1213,7 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
           <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }} onClick={ev => ev.stopPropagation()}>
             <span style={{ fontSize: 9, fontWeight: 600, padding: "2px 7px", borderRadius: 4, background: ug.badge, color: ug.text }}>{item.label}</span>
             {PIPELINE_CATS.filter(c => c.id !== catId).map(c => (
-              <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: `${c.c}10`, color: c.c, fontSize: 9, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{c.label}</button>
+              <button key={c.id} onClick={() => { setCat(item.id, c.id); if (catId === "france") upd(item.id, "dave"); }} style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: `${c.c}10`, color: c.c, fontSize: 9, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{c.label}</button>
             ))}
             {catId !== "uncategorized" && catId !== "france" && (
               <button onClick={() => setCat(item.id, "uncategorized")} title="Back to uncategorized" style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#f5f5f5", color: "#a1a1aa", fontSize: 9, cursor: "pointer", fontFamily: F }}>{"\u21A9"}</button>
@@ -1220,7 +1221,7 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
             {catId === "france" && (
               <button onClick={() => upd(item.id, "dave")} title="Move back to Dave" style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#f5f3ff", color: "#6366f1", fontSize: 9, cursor: "pointer", fontFamily: F }}>{"\u2605"} Dave</button>
             )}
-            <button onClick={() => scrapItem(item.id)} title="Scrap" style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#fef2f2", color: "#b91c1c", fontSize: 9, cursor: "pointer", fontFamily: F, marginLeft: "auto" }}>{"\u2715"}</button>
+            <button onClick={() => { scrapItem(item.id); if (catId === "france") upd(item.id, "dave"); }} title="Scrap" style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#fef2f2", color: "#b91c1c", fontSize: 9, cursor: "pointer", fontFamily: F, marginLeft: "auto" }}>{"\u2715"}</button>
           </div>
         )}
         {isDone && (
