@@ -1,21 +1,21 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T01:17:12.858652+00:00",
-  "total": 100,
-  "new": 100,
-  "noise": 45,
-  "ai": 35,
+  "timestamp": "2026-03-24T01:24:16.327443+00:00",
+  "total": 18,
+  "new": 18,
+  "noise": 6,
+  "ai": 16,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
     {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
       "subject": "Re: Marketing Status Update",
-      "body_preview": "Can you please check now.\r\n________________________________\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Monday, March 23, 2026 9:08 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Ash Gupta <ash@galaxydatacenters.com>; Tj Karklins <tj@galaxydatac",
-      "received": "2026-03-24T01:12:53Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "body_preview": "Works now\r\n\r\nThanks\r\n\r\nSent from my iPhone\r\n\r\nOn Mar 24, 2026, at 10:12\u202fAM, Sai Raman <sai@galaxydatacenters.com> wrote:\r\n\r\n\ufeff\r\nCan you please check now.\r\n<galaxy_data_centers_downscaled_abd7b057-49e5-4ba5-92fc-7150cf7d03ed_f858df51-af70-461c-a7bc-2e821851",
+      "received": "2026-03-24T01:18:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAInoroBX30FKn8T2YNuVL80=",
       "rules_score": 10,
@@ -23,18 +23,22 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 7x (+2)",
+        "Dave replied 3x (+2)",
         "Internal \u2014 deal/customer related",
-        "KW: nda, lease",
+        "KW: lease",
         "6 VIPs on thread (+2)",
-        "Thread: 4 msgs (+2)"
+        "Thread: 5 msgs (+2)"
       ],
-      "ai_reviewed": false,
+      "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": null,
+      "ai_summary": "Paul Leong (Galaxy Data Centers internal team) is confirming that a previously malfunctioning system or tool is now operational following Sai Raman's request to verify it. This appears to be a brief resolution confirmation for a technical or marketing infrastructure issue that was impacting operations.",
       "ai_action": null,
-      "ai_next_steps": [],
+      "ai_next_steps": [
+        "Verify what specific system or marketing tool was affected and confirm it's fully operational across all dependent workflows",
+        "Follow up with Sai Raman to document the root cause and implement safeguards to prevent recurrence",
+        "If customer-facing, assess whether any communications or service credits are needed for downtime impact"
+      ],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -57,12 +61,16 @@
         "Internal \u2014 routine (suppressed)",
         "Dave in thread (+2)"
       ],
-      "ai_reviewed": false,
+      "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": null,
+      "ai_summary": "This is a Microsoft Teams meeting link from Dave to himself, containing only meeting coordinates without context about participants or agenda. The email appears to be incomplete or auto-generated, providing no actionable information about what 'George <> Dave Sync' entails or its business purpose.",
       "ai_action": null,
-      "ai_next_steps": [],
+      "ai_next_steps": [
+        "Clarify the purpose and attendees of this sync meeting - confirm who 'George' is and what topics will be discussed",
+        "Check calendar for the scheduled meeting time and add relevant context or pre-meeting materials if needed",
+        "Verify if this is a duplicate or test message and confirm the actual meeting is properly scheduled"
+      ],
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
@@ -84,19 +92,18 @@
         "Calendar match (+2)",
         "Dave replied 3x (+4)",
         "KW: lease, data cent",
-        "Thread: 5 msgs (+2)",
+        "Thread: 4 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "George Rogers from Skyline Data Center Advisors is following up on a previous conversation about website listing cleanup and proposing a call tomorrow at 9am Pacific. This appears to be a continuation of an existing discussion with someone in Dave's professional network.",
-      "ai_action": "Confirm availability for 9am Pacific call with George Rogers tomorrow, or reschedule if unavailable. Review previous email thread to understand context of 'website listing cleanup' discussion.",
+      "ai_summary": "George Rogers from Skyline Data Center Advisors is confirming a call with Dave for tomorrow at 9am Pacific regarding website listing cleanup. This appears to be a follow-up to an existing conversation about data center listings/marketplace activity.",
+      "ai_action": "Confirm availability for 9am Pacific call with George Rogers tomorrow. Clarify context of 'website listing cleanup' before the call if needed.",
       "ai_next_steps": [
-        "Check Dave's calendar for 9am Pacific availability tomorrow",
-        "Review prior email exchange with George Rogers to understand the listing cleanup issue",
-        "Confirm meeting time or propose alternative if needed",
-        "Prepare any materials related to Galaxy's website listings that may need discussion"
+        "Check Dave's calendar for 9am Pacific tomorrow",
+        "Confirm attendance with George or ask France to confirm",
+        "Brief Dave on prior context of this conversation before the call"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -119,15 +126,19 @@
         "Calendar match (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda",
-        "Thread: 5 msgs (+2)",
+        "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
-      "ai_reviewed": false,
+      "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": null,
+      "ai_summary": "This is a calendar notification indicating that Dave Misra has forwarded a previously scheduled one-on-one sync meeting with France to additional attendees. The meeting is scheduled for Monday, March 23, 2026 from 8:00-9:30 PM, and the expansion of attendees may indicate this discussion requires broader input or visibility.",
       "ai_action": null,
-      "ai_next_steps": [],
+      "ai_next_steps": [
+        "Confirm who the additional recipients are and verify this expansion aligns with the meeting's intended scope and agenda",
+        "Review the original meeting agenda with France to ensure the added attendees are appropriate for the topics to be discussed",
+        "Send a brief update to all participants clarifying the purpose of the expanded meeting and any pre-read materials needed"
+      ],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -142,26 +153,28 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKvKCtQdWFxDp9y0B0WympM=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
+      "rules_score": 7,
+      "rules_label": "URGENT",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 7x (+2)",
         "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
+        "Internal \u2014 deal/customer related"
       ],
-      "ai_reviewed": false,
+      "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": null,
+      "ai_summary": "Rodrigo M, an IT Consultant at Galaxy Data Centers, is acknowledging receipt of information regarding the Redhill Portal and offering himself as a point of contact for any follow-up questions. This appears to be a confirmation message rather than a new request, suggesting prior communication about a portal implementation or issue has been noted and is being tracked.",
       "ai_action": null,
-      "ai_next_steps": [],
+      "ai_next_steps": [
+        "Clarify with Rodrigo or the original sender what specific action items or deliverables are expected regarding the Redhill Portal",
+        "Confirm the timeline and current status of the Redhill Portal project to ensure it aligns with Galaxy's business objectives",
+        "Document the resolution or decision made in the prior communication for project tracking purposes"
+      ],
       "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
+      "final_score": 7,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
