@@ -545,16 +545,23 @@ function Dashboard() {
     await fbSet("jarvis/queueScrapped", { items: updated, lastUpdated: new Date().toISOString() });
   };
 
-  // Auto-cleanup: clear scrapped items at midnight
+  // Auto-cleanup: clear scrapped items at midnight, clear completed items weekly (Sunday midnight)
   useEffect(() => {
-    const checkMidnight = () => {
+    const checkCleanup = () => {
       const now = new Date();
+      // Midnight: clear scrapped queue items
       if (now.getHours() === 0 && now.getMinutes() === 0) {
         setQueueScrapped([]);
         fbSet("jarvis/queueScrapped", { items: [], lastUpdated: now.toISOString() });
       }
+      // Sunday midnight: clear completed items from pipeline
+      if (now.getDay() === 0 && now.getHours() === 0 && now.getMinutes() === 0) {
+        setCompleted([]);
+        fbSet("jarvis/completed", []);
+        fbSet("jarvis/weeklyCleanup", { lastCleared: now.toISOString() });
+      }
     };
-    const iv = setInterval(checkMidnight, 60000); // check every minute
+    const iv = setInterval(checkCleanup, 60000);
     return () => clearInterval(iv);
   }, []);
 
@@ -1184,7 +1191,7 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
   const ALL_COLS = [
     ...PIPELINE_CATS.map(c => ({ ...c, items: visibleItems.filter(e => getCat(e.id) === c.id) })),
     { id: "france", label: "France", desc: "Delegated to France", c: T.green, icon: "\u270E", items: franceItems },
-    { id: "done", label: "Completed", desc: "Done items", c: "#16a34a", icon: "\u2705", items: doneItems.slice(0, 20) },
+    { id: "done", label: "Completed", desc: "Auto-clears every Sunday", c: "#16a34a", icon: "\u2705", items: doneItems.slice(0, 20) },
   ];
 
   const MiniCard = ({ item, catId }) => {
