@@ -1,13 +1,137 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-23T23:45:20.923721+00:00",
+  "timestamp": "2026-03-24T01:17:12.858652+00:00",
   "total": 100,
   "new": 100,
-  "noise": 49,
-  "ai": 38,
+  "noise": 45,
+  "ai": 35,
   "skipped": 0,
-  "auto_learned": 44,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Marketing Status Update",
+      "body_preview": "Can you please check now.\r\n________________________________\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Monday, March 23, 2026 9:08 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Ash Gupta <ash@galaxydatacenters.com>; Tj Karklins <tj@galaxydatac",
+      "received": "2026-03-24T01:12:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAInoroBX30FKn8T2YNuVL80=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease",
+        "6 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_next_steps": [],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "George <> Dave Sync ",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/26038435663354?p=xwexovmr9bGiY2mvEH\r\nMeeting ID: 260 384 356 633 54\r\nPasscode: kR3AA39x\r\n__________________",
+      "received": "2026-03-24T00:37:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHWkfEwO2xNAii0lDP-KXIY=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_next_steps": [],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "grogers@skylinecapitalllc.com",
+      "sender_name": "George Rogers",
+      "subject": "Re: Website listing cleanup",
+      "body_preview": "No problem. Let's chat tomorrow Dave.\r\n\r\nAre you free at 9am Pacific?\r\n\r\nGeorge B. Rogers\r\nSkyline Data Center Advisors\r\n+1 (415) 606-6622 | GRogers@SkylineDataCenters.com\r\nwww.SkylineDataCenters.com\r\nSent from my mobile \u2014 please excuse brevity.\r\n________",
+      "received": "2026-03-24T00:22:11Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA9DwWnBIkaHlkpdSGN857k=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+4)",
+        "KW: lease, data cent",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "George Rogers from Skyline Data Center Advisors is following up on a previous conversation about website listing cleanup and proposing a call tomorrow at 9am Pacific. This appears to be a continuation of an existing discussion with someone in Dave's professional network.",
+      "ai_action": "Confirm availability for 9am Pacific call with George Rogers tomorrow, or reschedule if unavailable. Review previous email thread to understand context of 'website listing cleanup' discussion.",
+      "ai_next_steps": [
+        "Check Dave's calendar for 9am Pacific availability tomorrow",
+        "Review prior email exchange with George Rogers to understand the listing cleanup issue",
+        "Confirm meeting time or propose alternative if needed",
+        "Prepare any materials related to Galaxy's website listings that may need discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Meeting Forward Notification: Dave <> France Synch",
+      "body_preview": "Your meeting was forwarded\r\n\r\nDave Misra  has forwarded your meeting request to additional recipients.\r\n\r\n        Meeting\r\n        Dave <> France Synch\r\n\r\n        Meeting Time\r\n        Monday, March 23, 2026 8:00 PM-9:30 PM.\r\n\r\n        Recipients\r\n       ",
+      "received": "2026-03-24T00:14:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAYHOKW5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG7Z1sHeF9hFmNCqb62EtUw=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": false,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": null,
+      "ai_action": null,
+      "ai_next_steps": [],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "rodrigo@galaxydatacenters.com",
       "sender_name": "Rodrigo M",
@@ -20,13 +144,13 @@
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKvKCtQdWFxDp9y0B0WympM=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL VIP",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 7x (+2)",
-        "Internal VIP",
         "Re customer: redhill",
-        "Thread: 4 msgs (+2)",
+        "Internal \u2014 deal/customer related",
+        "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": false,
@@ -34,6 +158,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -53,7 +178,7 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal",
+        "Internal \u2014 deal/customer related",
         "KW: nda",
         "Thread: 4 msgs (+2)",
         "Dave in thread (+2)"
@@ -63,36 +188,10 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Dave <> France Synch",
-      "body_preview": "",
-      "received": "2026-03-23T23:10:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG7Z1sHeF9hFmNCqb62EtUw=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL VIP",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Internal VIP"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -109,7 +208,7 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal",
+        "Internal \u2014 deal/customer related",
         "KW: nda, lease, lp",
         "3 VIPs on thread (+2)",
         "Thread: 5 msgs (+2)",
@@ -120,6 +219,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -134,12 +234,12 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHYfctu5Ju1Kvfwbgib4dMg=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal",
+        "Internal \u2014 routine (suppressed)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": false,
@@ -147,9 +247,10 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
+      "final_score": 4,
+      "final_label": "NOTABLE"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -166,7 +267,7 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal",
+        "Internal \u2014 deal/customer related",
         "KW: proposal, lease",
         "Dave in thread (+2)"
       ],
@@ -175,6 +276,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
@@ -189,13 +291,13 @@
       "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
         "Attachments from known (+1)",
-        "Internal",
+        "Internal \u2014 routine (suppressed)",
         "10 VIPs on thread (+2)",
         "Dave in thread (+2)"
       ],
@@ -204,9 +306,10 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
+      "final_score": 6,
+      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "dave@galaxycapitalpartners.com",
@@ -223,8 +326,8 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal",
         "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
         "KW: capital, lease",
         "Dave in thread (+2)"
       ],
@@ -233,6 +336,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
@@ -249,12 +353,12 @@
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLeMa6IsUcusiMkbzoHH_c=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL VIP",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 14x (+2)",
-        "Internal VIP",
         "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
         "KW: nda",
         "3 VIPs on thread (+2)",
         "Thread: 3 msgs (+2)",
@@ -265,6 +369,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -284,8 +389,8 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal",
         "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
         "KW: nda",
         "11 VIPs on thread (+2)",
         "Thread: 3 msgs (+2)",
@@ -296,6 +401,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -370,7 +476,7 @@
       "rules_reasons": [
         "Calendar match (+2)",
         "Attachments + deal KW (+2)",
-        "Internal",
+        "Internal \u2014 deal/customer related",
         "KW: nda",
         "Dave in thread (+2)"
       ],
@@ -379,6 +485,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
@@ -400,34 +507,16 @@
       "ai_reviewed": true,
       "ai_score": 8,
       "ai_label": "URGENT",
-      "ai_summary": "DocuSign notification indicating an incomplete document awaiting Dave's signature or completion\u2014likely a deal-related agreement that needs immediate action.",
-      "ai_action": "Dave should log into DocuSign immediately to identify and complete the pending document (could be NDA, LOI, investment agreement, or data center contract).",
+      "ai_summary": "DocuSign notification that Dave has a document pending signature. This is likely a deal document, NDA, LOI, or investment agreement that requires his immediate completion.",
+      "ai_action": "Dave should click through to DocuSign immediately to review and complete the document. This could be time-sensitive for a deal.",
+      "ai_next_steps": [
+        "Click DocuSign link and review the pending document",
+        "Determine if this is related to an active deal (18MW AI, Poland 260MW, Milan, Cloud House, etc.)",
+        "If urgent, sign and return same day; if complex, loop in Simmons & Simmons legal team"
+      ],
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "grogers@skylinecapitalllc.com",
-      "sender_name": "George Rogers",
-      "subject": "Website listing cleanup",
-      "body_preview": "Hi Dave,\r\n\r\nI have been in further dialogue with Paul and with Castleforge about potentially helping with the next stage of Redhill. I will keep you posted as things develop.\r\n\r\nAlso, I noticed that I am still listed as an Advisor on the legacy Galaxy Cap",
-      "received": "2026-03-23T17:23:52Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiApAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA9DwWnBIkaHlkpdSGN857k=",
-      "rules_score": 3,
-      "rules_label": "NOTABLE",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "George Rogers (Skyline Capital) is in active dialogue with Paul and Castleforge regarding next stage funding/development of Redhill Data Centre and wants to update Dave on progress.",
-      "ai_action": "Dave should acknowledge and loop in on Redhill next-stage discussions with Castleforge. Separately address website listing cleanup request.",
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "julian.elvis@truemarketreports.com",
@@ -491,11 +580,11 @@
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL VIP",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 7x (+2)",
-        "Internal VIP",
+        "Internal \u2014 deal/customer related",
         "KW: nda, lease",
         "3 VIPs on thread (+2)",
         "Thread: 4 msgs (+2)",
@@ -506,6 +595,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -635,9 +725,14 @@
       ],
       "ai_reviewed": true,
       "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Rodrigo Matos from Ramsgrove following up on Friday conversation with SOC2 compliance and Salesforce engagement documents for Dave's review.",
-      "ai_action": "Dave should review attached documents immediately. Clarify with Rodrigo or relevant team member what Friday conversation this references and what remediation actions are required.",
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Rodrigo Matos from Ramsgrove is following up on a Friday conversation with Dave, sending SOC2 compliance and Salesforce engagement/remediation documentation. This appears to be operational/governance work related to Galaxy's systems or a portfolio company.",
+      "ai_action": "Dave should review the attached documents and determine if this relates to Redhill, portfolio company compliance, or internal Galaxy operations. Clarify scope and timeline with Rodrigo if needed.",
+      "ai_next_steps": [
+        "Review attached SOC2 and Salesforce remediation documents",
+        "Confirm if this is for Galaxy operations, Redhill, or a portfolio company",
+        "Flag any critical remediation items or compliance deadlines"
+      ],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
@@ -654,11 +749,11 @@
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJqo6lQ1-9VFi_hN4NUVaHY=",
       "rules_score": 7,
       "rules_label": "URGENT",
-      "rules_tier": "INTERNAL VIP",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 7x (+2)",
-        "Internal VIP",
+        "Internal \u2014 deal/customer related",
         "KW: nda"
       ],
       "ai_reviewed": false,
@@ -666,6 +761,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
@@ -691,6 +787,7 @@
       "ai_label": null,
       "ai_summary": null,
       "ai_action": null,
+      "ai_next_steps": [],
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
@@ -1040,5 +1137,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 38
+  "total_tracked": 40
 }
