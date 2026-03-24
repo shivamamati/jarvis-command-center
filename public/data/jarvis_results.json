@@ -1,13 +1,79 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T05:34:02.606159+00:00",
-  "total": 3,
-  "new": 3,
+  "timestamp": "2026-03-24T05:57:32.238208+00:00",
+  "total": 6,
+  "new": 6,
   "noise": 1,
-  "ai": 3,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Scheduling JSA Discussion with Candace",
+      "body_preview": "Hi Sai,\r\nHope you\u2019re doing well.\r\nWe\u2019re in the process of rescheduling the upcoming JSA call with Candace, making sure it will be a discussion between just you, Dave, and Candace.\r\nCould you please share a few time slots that work for you over the coming ",
+      "received": "2026-03-24T05:50:33Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is coordinating a scheduling discussion with Candace and needs to narrow down availability to a focused three-person meeting (Dave, Sai, and Candace). This appears to be a key stakeholder alignment meeting, likely related to a joint venture or strategic agreement that requires direct participation from Galaxy's leadership.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Provide France with 3-4 available time slots for the next 1-2 weeks that work for Dave's calendar",
+        "Confirm the agenda and objectives for the JSA discussion with France before the meeting to ensure alignment",
+        "Have France coordinate final confirmation with Candace once Dave's availability is locked in"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Rescheduling Upcoming Call",
+      "body_preview": "Hi Candace,\r\nI hope you're doing well.\r\nI am Dave's Assistant. I wanted to reach out regarding the upcoming JSA call today. Dave mentioned we'd need to cancel this session and instead coordinate a time that works for you, Dave, and Sai.\r\nI\u2019ll follow up sh",
+      "received": "2026-03-24T05:44:18Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALAJsgS_GPFPnxf4BW7-lJs=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France, Dave's assistant, is communicating that Dave needs to cancel an upcoming JSA call scheduled for today and is requesting to reschedule at a time that accommodates Dave, France, and Sai. This appears to be a scheduling coordination matter for what may be an important joint security or technical assessment discussion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Dave's availability for alternate dates/times in the coming week and share with France to coordinate with Sai",
+        "Clarify the purpose and agenda of the JSA call to ensure it's still relevant and identify any time-sensitive items",
+        "Have France send a formal reschedule request to all parties once a mutually acceptable time slot is identified"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
@@ -31,12 +97,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paolo appears to be handling a citizenship application process and has requested documentation from France. France is responding by providing passport pages and travel documentation, organizing materials in a shared Google Drive folder for easy access. This is a personal administrative matter for France rather than a business communication requiring Galaxy Capital Partners involvement.",
+      "ai_summary": "Paolo is requesting citizenship application documentation from France. France has responded by providing passport pages and travel documentation as requested, and has organized these materials in a shared Google Drive folder for easy access. This appears to be a personal immigration matter for France rather than a Galaxy business issue.",
       "ai_action": null,
       "ai_next_steps": [
-        "No action required from Dave or Galaxy unless this relates to employee immigration sponsorship or compliance",
-        "If this is an employee visa/sponsorship matter, confirm with HR that all proper documentation is being handled through official channels",
-        "Flag to compliance if any Galaxy business travel or international operations are implicated"
+        "Clarify with France whether this citizenship application has any impact on her employment status or availability at Galaxy",
+        "Confirm the email was sent to the correct recipient (Paolo) and that all requested documents were successfully transmitted",
+        "No immediate action required from Dave unless this affects France's role or requires HR/legal involvement at Galaxy"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -63,12 +129,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Piyush Ninawe is proposing a retainer agreement for SEO and AEO (Answer Engine Optimization) services to Galaxy Data Centers. This is a vendor pitch for ongoing digital marketing services that would improve the company's search visibility and organic traffic across search and AI-powered answer engines. The proposal matters because strong SEO/AEO positioning directly impacts lead generation and brand authority in the competitive data center and cloud services market.",
+      "ai_summary": "Piyush Ninawe is proposing an SEO and AEO (Answer Engine Optimization) retainer service to Galaxy Data Centers. This appears to be a request to engage professional services for improving the company's search visibility and organic traffic across traditional and emerging answer engine platforms. This matters because improved digital visibility could enhance Galaxy's market positioning, drive qualified leads to its data center and capital services offerings, and support the company's growth objectives.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Animesh or France request the complete proposal details including scope, deliverables, timeline, and pricing from Piyush",
-        "Assess whether SEO/AEO aligns with current marketing priorities and compare against existing marketing vendor relationships",
-        "Schedule a call with Piyush to evaluate their track record with similar B2B infrastructure companies before committing to a retainer"
+        "Ask Animesh to provide the full proposal details (pricing, scope, timeline, expected deliverables) so Dave can evaluate ROI and alignment with Galaxy's marketing strategy",
+        "Clarify whether this proposal addresses both Galaxy Capital Partners and Galaxy Data Centers' digital presence, or if separate strategies are needed",
+        "Schedule a brief call with Piyush to understand his experience with B2B technology/infrastructure companies before committing to any retainer"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -1260,5 +1326,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 42
+  "total_tracked": 44
 }
