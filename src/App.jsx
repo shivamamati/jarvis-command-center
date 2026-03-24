@@ -721,7 +721,7 @@ function Dashboard() {
         {showCreateModal && <CreateItemModal onAdd={addCustomItem} onClose={() => setShowCreateModal(false)} />}
         {/* MAIN FEED */}
         <div style={{ flex: 1, overflowY: "auto", padding: mob ? "20px 16px" : "28px 36px" }}>
-          <div style={{ maxWidth: 760 }}>
+          <div>
             {/* Greeting */}
             <div style={{ marginBottom: 20 }}>
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6 }}>
@@ -819,32 +819,55 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* SIDEBAR */}
+        {/* UPCOMING MEETINGS SIDEBAR */}
         {!mob && (
-          <div style={{ width: 300, flexShrink: 0, overflowY: "auto", padding: "24px 20px", background: "#fff", borderLeft: "1px solid #f0f0f0" }}>
-            {/* Calendar */}
-            <div style={{ marginBottom: 24 }}>
-              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Today's Schedule</div>
-              {[
-                { time: "9:30 AM", label: "Ops Team Weekly", people: "Ash, TJ, Redhill ops", c: "#6366f1" },
-                { time: "12:00 PM", label: "Marketing Meeting", people: "Sai, Animesh", c: "#ea580c" },
-                { time: "3:00 PM", label: "Galaxy Leadership Sync", people: "Paul, Ash, TJ", c: "#0ea5e9" },
-              ].map(ev => (
-                <div key={ev.time} style={{ display: "flex", gap: 12, marginBottom: 12, alignItems: "flex-start" }}>
-                  <div style={{ width: 48, fontSize: 10, color: "#a1a1aa", fontWeight: 600, paddingTop: 4, flexShrink: 0, fontFamily: "'DM Mono',monospace" }}>{ev.time}</div>
-                  <div style={{ flex: 1, padding: "10px 14px", borderRadius: 10, background: `${ev.c}06`, border: `1px solid ${ev.c}15` }}>
-                    <div style={{ fontSize: 12, fontWeight: 600, color: "#1a1a2e", marginBottom: 2, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.label}</div>
-                    <div style={{ fontSize: 10, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.people}</div>
-                  </div>
+          <div style={{ width: 260, flexShrink: 0, overflowY: "auto", padding: "24px 16px", background: "#fff", borderLeft: "1px solid #f0f0f0" }}>
+            <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Today's Schedule</div>
+            {[
+              { time: "8:00 PM", label: "Dave \u2194 France Synch", people: "France, Shivam", c: "#6366f1", type: "sync" },
+            ].map(ev => (
+              <div key={ev.time + ev.label} style={{ display: "flex", gap: 10, marginBottom: 10, alignItems: "flex-start" }}>
+                <div style={{ width: 52, fontSize: 10, color: "#a1a1aa", fontWeight: 600, paddingTop: 6, flexShrink: 0, fontFamily: "'DM Mono',monospace" }}>{ev.time}</div>
+                <div style={{ flex: 1, padding: "8px 12px", borderRadius: 8, background: `${ev.c}06`, border: `1px solid ${ev.c}12` }}>
+                  <div style={{ fontSize: 11, fontWeight: 600, color: "#1a1a2e", marginBottom: 2, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.label}</div>
+                  <div style={{ fontSize: 9, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.people}</div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
 
+            <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginTop: 20, marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Tomorrow — Mar 24</div>
+            {[
+              { time: "10:00 AM", label: "Itay Bohbot \u2014 Torpedo DC", people: "Dave (organizer), Itay, France", c: "#dc2626", type: "VIP" },
+              { time: "10:30 AM", label: "Salesforce Setup", people: "Dave (organizer)", c: "#ca8a04", type: "internal" },
+              { time: "10:30 AM", label: "Redhill Salesforce Meeting", people: "Ali Elfanidi, Ash, Rodrigo", c: "#ea580c", type: "ops" },
+              { time: "12:00 PM", label: "Redhill Operations Call", people: "Castleforge: Pelle, Elizabeth, Mike, Neil, Sam", c: "#dc2626", type: "JV" },
+              { time: "12:00 PM", label: "JSA + Galaxy Biweekly", people: "Candace, Ash, Paul, TJ, Sai, Ashley", c: "#6366f1", type: "PR" },
+              { time: "1:00 PM", label: "George \u2194 Dave Sync", people: "George Rogers (Skyline Capital), Paul", c: "#0ea5e9", type: "investor" },
+            ].map(ev => (
+              <div key={ev.time + ev.label} style={{ display: "flex", gap: 10, marginBottom: 10, alignItems: "flex-start" }}>
+                <div style={{ width: 52, fontSize: 10, color: "#a1a1aa", fontWeight: 600, paddingTop: 6, flexShrink: 0, fontFamily: "'DM Mono',monospace" }}>{ev.time}</div>
+                <div style={{ flex: 1, padding: "8px 12px", borderRadius: 8, background: `${ev.c}06`, border: `1px solid ${ev.c}12` }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 4, marginBottom: 2 }}>
+                    <div style={{ fontSize: 11, fontWeight: 600, color: "#1a1a2e", fontFamily: "'DM Sans',system-ui,sans-serif", flex: 1 }}>{ev.label}</div>
+                    {ev.type === "VIP" && <span style={{ fontSize: 7, fontWeight: 700, padding: "1px 5px", borderRadius: 3, background: "#fef2f2", color: "#dc2626" }}>VIP</span>}
+                    {ev.type === "JV" && <span style={{ fontSize: 7, fontWeight: 700, padding: "1px 5px", borderRadius: 3, background: "#fef2f2", color: "#dc2626" }}>JV</span>}
+                    {ev.type === "investor" && <span style={{ fontSize: 7, fontWeight: 700, padding: "1px 5px", borderRadius: 3, background: "#f5f3ff", color: "#6366f1" }}>INV</span>}
+                  </div>
+                  <div style={{ fontSize: 9, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.people}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* DEAL PIPELINE SIDEBAR */}
+        {!mob && (
+          <div style={{ width: 240, flexShrink: 0, overflowY: "auto", padding: "24px 16px", background: "#fafafa", borderLeft: "1px solid #f0f0f0" }}>
             {/* Pipeline */}
             <div style={{ marginBottom: 20 }}>
               <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Deal Pipeline</div>
               {DEALS.map(deal => (
-                <div key={deal.name} style={{ padding: "12px 14px", background: "#fafafa", borderRadius: 10, border: "1px solid #f0f0f0", marginBottom: 8 }}>
+                <div key={deal.name} style={{ padding: "12px 14px", background: "#fff", borderRadius: 10, border: "1px solid #f0f0f0", marginBottom: 8 }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6 }}>
                     <span style={{ fontSize: 12, fontWeight: 600, color: "#1a1a2e", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{deal.name}</span>
                     <span style={{ fontSize: 12, fontWeight: 700, color: deal.color, fontFamily: "'DM Mono',monospace" }}>{deal.value}</span>
