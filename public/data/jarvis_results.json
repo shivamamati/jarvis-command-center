@@ -1,13 +1,252 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T11:42:40.279780+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 5,
-  "ai": 5,
+  "timestamp": "2026-03-24T13:03:39.853953+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 3,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 46,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "candace@jsa.net",
+      "subject": "Synced invitation: JSA + Galaxy Biweekly Call @ Tue Feb 24, 2026 12pm - 12:45pm (EST) (dave@galaxycapitalpartners.com)",
+      "body_preview": "JSA + Galaxy Biweekly Call\r\n\r\nThis email keeps the event up to date in your calendar.\r\nSet up inbox filters to hide this and similar calendar sync emails.\r\nLearn more about calendar sync emails and setting up filters\r\n\r\nJoin with Google Meet\r\nMeeting link",
+      "received": "2026-03-24T11:55:19Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiByAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMI838-24wtIukesguLLsVo=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "KW: nda, capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace from JSA is confirming a recurring biweekly meeting scheduled for Tuesday, February 24, 2026 at noon EST between JSA and Galaxy leadership. This appears to be an ongoing strategic partnership or business relationship touchpoint that requires Dave's calendar attention and participation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and add to Dave's calendar with appropriate preparation time beforehand",
+        "Coordinate with France to ensure alignment on agenda items and any updates needed for the JSA discussion",
+        "Set up calendar filters as suggested to manage future sync emails from this recurring meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Synced invitation: JSA + Galaxy Biweekly Call @ Tue Mar 10, 2026 12pm - 12:45pm (EDT) (dave@galaxycapitalpartners.com)",
+      "body_preview": "JSA + Galaxy Biweekly Call\r\n\r\nThis email keeps the event up to date in your calendar.\r\nSet up inbox filters to hide this and similar calendar sync emails.\r\nLearn more about calendar sync emails and setting up filters\r\n\r\nJoin with Google Meet\r\nMeeting link",
+      "received": "2026-03-24T11:55:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPbQtRoTQdxJtmL4QI4_lM8=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, capital",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is confirming a recurring biweekly call between JSA and Galaxy scheduled for Tuesday, March 10, 2026 at noon EDT. This appears to be a routine calendar sync notification for an ongoing business relationship touchpoint. The meeting maintains an established cadence for alignment between the two organizations on relevant initiatives.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and add to your calendar if not already scheduled",
+        "Reach out to France or relevant Galaxy team member to align on discussion agenda and any pre-call prep needed",
+        "If this is a new relationship or call, clarify with JSA what the primary objectives are for the biweekly cadence"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "candace@jsa.net",
+      "subject": "Synced invitation: JSA + Galaxy Biweekly Call @ Tue Mar 24, 2026 12pm - 12:45pm (EDT) (dave@galaxycapitalpartners.com)",
+      "body_preview": "JSA + Galaxy Biweekly Call\r\n\r\nThis email keeps the event up to date in your calendar.\r\nSet up inbox filters to hide this and similar calendar sync emails.\r\nLearn more about calendar sync emails and setting up filters\r\n\r\nJoin with Google Meet\r\nMeeting link",
+      "received": "2026-03-24T11:55:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMRXqo6-nyROpQ4xt21TAF0=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "KW: nda, capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace from JSA is confirming a recurring biweekly meeting between JSA and Galaxy scheduled for Tuesday, March 24, 2026 at noon EDT. This appears to be a calendar sync notification for an established business relationship touchpoint. The meeting is a standing engagement that likely covers ongoing partnership, operational, or strategic matters between the two organizations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting is on Dave's calendar and verify any pre-meeting materials or agenda items need to be prepared",
+        "Brief France (or relevant team member) on discussion topics and desired outcomes for this JSA biweekly sync",
+        "Set a calendar filter/rule to organize these recurring JSA sync notifications separately to reduce inbox clutter"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Updated invitation with note: JSA + Galaxy Biweekly Call @ Every 2 weeks from 12pm to 12:45pm on Tuesday from Tue Jan 13 to Mon Mar 23 (EST) (dave@galaxycapitalpartners.com)",
+      "body_preview": "JSA + Galaxy Biweekly Call\r\nJoin with Google Meet \u2013 You have been invited by Candace Sipos to attend an event named JSA + Galaxy Biweekly Call on Every 2 weeks from 12pm to 12:45pm on Tuesday from Tuesday Jan 13 to Monday Mar 23 (Eastern Time - New Yor",
+      "received": "2026-03-24T11:55:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJq00BAZRmtIoPnv2p7Rql4=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, capital",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is confirming a recurring biweekly meeting series between JSA and Galaxy Capital Partners, scheduled for 12-12:45pm EST every two weeks starting January 13 through March 23. This appears to be an operational touchpoint meeting that has been updated and requires Dave's calendar confirmation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Accept or decline the calendar invitation and confirm attendance expectations",
+        "Assign France or appropriate team member to cover if Dave cannot attend all sessions",
+        "Clarify the meeting agenda and JSA's key discussion topics to prepare appropriately"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Synced invitation: JSA + Galaxy Biweekly Call @ Every 2 weeks from 12pm to 12:45pm on Tuesday from Tue Jan 27 to Mon Mar 23 (EST) (dave@galaxycapitalpartners.com)",
+      "body_preview": "JSA + Galaxy Biweekly Call\r\n\r\nThis email keeps the event up to date in your calendar.\r\nSet up inbox filters to hide this and similar calendar sync emails.\r\nLearn more about calendar sync emails and setting up filters\r\n\r\nJoin with Google Meet\r\nMeeting link",
+      "received": "2026-03-24T11:54:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABN9TyW2FCdBva95AafaXSI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, capital",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is confirming a recurring biweekly meeting between JSA and Galaxy scheduled for Tuesdays from 12-12:45pm EST, running from late January through late March. This is a calendar synchronization notification to keep the meeting on Dave's calendar. The recurring touchpoint suggests an ongoing business relationship or partnership that requires regular alignment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting purpose and attendee list with France or relevant Galaxy team member to ensure proper preparation",
+        "Set up calendar filters as suggested to avoid cluttering inbox with future sync notifications",
+        "Prepare an agenda or brief on key Galaxy discussion points to maximize the value of each biweekly sync"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Canceled event: JSA + Galaxy Biweekly Call @ Tue Mar 24, 2026 12pm - 12:45pm (EDT) (dave@galaxydatacenters.com)",
+      "body_preview": "JSA + Galaxy Biweekly Call\r\n\r\nThis event has been canceled.\r\n\r\nJoin with Google Meet\r\nMeeting link\r\nmeet.google.com/hav-ucvv-rzd\r\nJoin by phone\r\n(US) +1 240-650-3659\r\nPIN: 377575604\r\n\r\nMore phone numbers\r\nWhen\r\nTuesday Mar 24, 2026 \u22c5 12pm \u2013 12:45pm (Easte",
+      "received": "2026-03-24T11:54:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAYHOKW7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANchVFuN_ZBJk5AZDZszT3c=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments from known (+1)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA has canceled the scheduled biweekly call between JSA and Galaxy that was set for March 24, 2026. This recurring meeting cancellation may indicate a change in the engagement cadence or potential issues with the JSA relationship that warrant clarification. Dave should understand the reason for cancellation to assess any impact on ongoing projects or partnership status.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Reach out to Candace or France to understand why the biweekly call was canceled and whether this is a one-time reschedule or a change in engagement status",
+        "Verify if there are any open items, deliverables, or concerns from JSA that prompted the cancellation",
+        "Reschedule the call if this is a temporary conflict, or document any changes to the JSA engagement plan if the recurring meeting is being discontinued"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Scheduling JSA Discussion with Candace",
+      "body_preview": "Good morning all,\r\n\r\nI'll go ahead and remove today's calendar invite. Here are a few times that work for Dean & I this week:\r\n\r\n  *   Tomorrow (Wednesday): 2:30 Eastern\r\n  *   Thursday: 10 or 2 Eastern\r\n  *   Friday: 11 or 12 Eastern\r\n\r\nThank you,\r\nCanda",
+      "received": "2026-03-24T11:53:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is confirming availability for a rescheduled discussion with Dean this week, offering multiple time slots across Wednesday through Friday. She's removed the original calendar invite and is proposing four alternative meeting windows. This appears to be a business discussion that requires coordination between Galaxy and JSA stakeholders.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm which time slot works best for Dave and Dean, then send calendar invite to Candace",
+        "Prepare meeting agenda and any materials needed for the JSA discussion",
+        "Ensure Dean is briefed on discussion topics and objectives before the meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "fional@digitalrealty.com",
       "sender_name": "Fiona Leon",
@@ -40,39 +279,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Scheduling JSA Discussion with Candace",
-      "body_preview": "Hi Sai,\r\nHope you\u2019re doing well.\r\nWe\u2019re in the process of rescheduling the upcoming JSA call with Candace, making sure it will be a discussion between just you, Dave, and Candace.\r\nCould you please share a few time slots that work for you over the coming ",
-      "received": "2026-03-24T05:50:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France is coordinating a scheduling effort for a joint security assessment (JSA) call with Candace, limiting participation to you, Dave, and Candace to keep the discussion focused. France needs your availability to finalize a time that works for all three parties.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Provide France with 3-4 specific time slots over the next 1-2 weeks that work for your calendar",
-        "Confirm with Dave Misra his availability before locking in the final meeting time with Candace",
-        "Follow up with France once times are submitted to ensure coordination is complete"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "france@galaxydatacenters.com",
@@ -1325,5 +1531,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 44
+  "total_tracked": 50
 }
