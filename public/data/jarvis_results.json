@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T18:58:45.261812+00:00",
-  "total": 25,
-  "new": 25,
-  "noise": 15,
-  "ai": 22,
+  "timestamp": "2026-03-24T19:54:36.918675+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 10,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
@@ -15,7 +15,7 @@
       "body_preview": "Hi @Dave Misra,\r\n\r\nQuick update on this. Met with @Sai Raman, please see what has been done:\r\n\r\n\r\n  *   2 mailbox created as requested - dave@getgalaxydatacenters.com, dave@rhgalaxydatacenter.com\r\n\r\n  *\r\nAssisted @Sai Raman login in and approving the usag",
       "received": "2026-03-24T18:54:29Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
       "rules_score": 9,
@@ -31,12 +31,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rodrigo has completed the setup of two requested mailboxes for Dave and has assisted Sai Raman with account access and usage approval as part of the Apollo project. This appears to be infrastructure work supporting Galaxy's email systems, likely needed for business operations or client-facing communications.",
+      "ai_summary": "Rodrigo from Galaxy Data Centers has completed setup of two requested email mailboxes for Dave and is confirming that Sai Raman has been granted access to approve usage. This appears to be infrastructure work related to Apollo email/messaging systems that supports Galaxy's operations.",
       "ai_action": null,
       "ai_next_steps": [
-        "Verify both mailboxes are functioning properly and forwarding/syncing as intended",
-        "Confirm with Sai Raman that all necessary approvals and permissions are finalized for immediate use",
-        "Follow up with Rodrigo on timeline for any additional mail infrastructure needs related to Apollo"
+        "Verify both mailboxes are functioning and receiving mail as expected",
+        "Confirm Sai Raman has appropriate access levels and approval authority for the new accounts",
+        "Follow up with Rodrigo on any remaining configuration needed for full operational deployment"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -64,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is presenting additional speaking engagement opportunities for Galaxy leadership beyond those previously shared, and is following up on the status of a Datacloud Global initiative or conversation. She's asking for confirmation on which opportunities to pursue.",
+      "ai_summary": "Candace Sipos from JSA is following up on multiple speaking engagement opportunities she's sourced, asking for confirmation on which ones to pursue. She's also checking on the status of a Datacloud Global initiative or event. This matters to Galaxy as speaking engagements enhance thought leadership visibility and market positioning for Dave and the company.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the additional speaking opportunities Candace referenced and evaluate alignment with Galaxy's brand and strategic goals",
-        "Respond to Candace with confirmation on which speaking engagements to move forward with and provide reasoning",
-        "Clarify and update Candace on the Datacloud Global status/outcome to keep her informed and maintain the partnership"
+        "Have Sai review the list of speaking opportunities and provide Candace with Galaxy's ranking/selection of which engagements align with Q1-Q2 priorities",
+        "Get an update on the Datacloud Global status and share back with Candace so she can coordinate any follow-up",
+        "Clarify with Sai whether Dave has bandwidth for additional speaking commitments beyond the two already being evaluated"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -98,12 +98,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is inviting Galaxy to submit speaking applications for two major data center industry conferences\u2014Data Center World Power in Dallas (September 2026) and Data Center World Europe. This represents a high-visibility opportunity to position Galaxy's leadership and expertise in front of industry peers and potential customers at premier events.",
+      "ai_summary": "Candace Sipos from JSA is inviting Galaxy to submit speaking applications for two major industry conferences: Data Center World Power in Dallas (September 2026) and Data Center World Europe. This represents a platform to position Galaxy's leadership and expertise in front of industry peers and potential partners at premium venue events.",
       "ai_action": null,
       "ai_next_steps": [
-        "Determine which conference(s) align with Galaxy's 2026 strategic priorities and have France or another executive identify a relevant speaking topic",
-        "Respond to Candace with interest level and proposed speaker/topic, then coordinate submission of formal application",
-        "Evaluate potential ROI (lead generation, brand visibility, networking) and budget for booth/attendance if appropriate"
+        "Determine which conference(s) align with Galaxy's 2026 visibility and business development strategy, and identify relevant topics/speakers",
+        "If interested, coordinate with France and marketing to prepare speaking abstracts and speaker bios that highlight Galaxy's data center infrastructure expertise",
+        "Respond to Candace with confirmation of interest and submission deadline to secure speaking slots"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -133,12 +133,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Shane Scollard from Rapleys (likely the planning consultant for the Redhill data centre project) is forwarding communication regarding planning application 25/02312/F. This appears to be a routine project coordination message between the planning consultant, environmental consultant (SLR Consulting), and Galaxy's internal team. The Redhill data centre project's planning approval process is progressing and requires continued coordination across multiple advisors.",
+      "ai_summary": "Shane Scollard from Rapleyshas forwarded correspondence regarding planning application 25/02312/F for a Redhill data centre project. Rhys is flagging this communication to leadership, suggesting either a regulatory update, planning status change, or stakeholder coordination need on this development. This matters because Redhill is likely a key Galaxy infrastructure project requiring planning approval and timely action to maintain development timeline.",
       "ai_action": null,
       "ai_next_steps": [
-        "Rhys should confirm receipt and clarify with Shane what specific action or decision is required from Galaxy on this planning application",
-        "Dave should request a status summary on the Redhill planning timeline and any potential risks or conditions that need management",
-        "Ensure Annie Danskin (SLR Consulting) and the planning team are aligned on any outstanding environmental or technical requirements before submission/determination"
+        "Retrieve full planning application details for 25/02312/F and review current approval status with planning counsel",
+        "Schedule coordination call between Dave, Rhys, and Annie Danskin (SLR Consulting) to clarify what action or decision is required",
+        "Determine if this requires escalation to France or other stakeholders and establish internal response timeline"
       ],
       "ai_failed": false,
       "final_score": 8,
