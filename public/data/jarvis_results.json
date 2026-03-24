@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T21:34:26.121888+00:00",
+  "timestamp": "2026-03-24T22:26:32.525145+00:00",
   "total": 9,
   "new": 9,
-  "noise": 5,
-  "ai": 7,
+  "noise": 3,
+  "ai": 6,
   "skipped": 0,
-  "auto_learned": 41,
+  "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Docklands ",
+      "body_preview": "Guys please review first draft from the interns. We should set up a call to clean up the underwriting.",
+      "received": "2026-03-24T22:13:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYOesLxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOjPpVEDbTxCpoGyXcMeN6I=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is requesting that the team review an initial draft document prepared by interns regarding the Docklands project and wants to schedule a call to refine the underwriting analysis and address any gaps or issues identified in that draft.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Locate and distribute the intern draft to relevant team members for detailed review",
+        "Schedule an underwriting review call with key stakeholders to discuss findings and identify cleanup items",
+        "Prepare a summary of preliminary issues or questions to discuss on the call"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "media@jsa.net",
       "sender_name": "JSA",
@@ -28,11 +62,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "JSA is sending Galaxy's weekly industry newsletter covering data center, telecom, and technology headlines. This is a routine market intelligence distribution from a media/content provider to keep leadership informed on sector trends and developments relevant to Galaxy's core business areas.",
+      "ai_summary": "JSA is a media/news distribution service sending Dave a weekly digest of industry headlines across data centers, telecom, and technology sectors. This is a routine newsletter subscription providing competitive intelligence and market trend summaries relevant to Galaxy's operating domains. Staying informed on sector developments helps Galaxy identify emerging opportunities, competitive threats, and market shifts affecting data center and infrastructure investments.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the full newsletter content to identify any competitive moves, M&A activity, or regulatory changes affecting Galaxy's markets",
-        "Flag any items with direct relevance to current Galaxy investments or strategic initiatives for team discussion"
+        "Review the headlines in this week's digest to identify any material developments affecting Galaxy's portfolio companies or competitive positioning",
+        "Determine if JSA's newsletter remains valuable relative to other news sources Dave is using, and adjust subscriptions accordingly"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -45,7 +79,7 @@
       "body_preview": "Hi @Ali Elfanidi and @hajarzaiz04@gmail.com,\r\n\r\nGood to meet you both today. Appreciate your time on the call.\r\n\r\nAs promised, attached are two documents:\r\n\r\n\r\n  1.\r\nSalesforce Remediation Punch List (GDC-SF-PUNCH-001, v2.0) covering all outstanding items",
       "received": "2026-03-24T21:22:08Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiC0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEuCws-1-SRLmkZnue7oESU=",
       "rules_score": 10,
@@ -53,7 +87,7 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 7x (+2)",
+        "Dave replied 8x (+2)",
         "Attachments from known (+1)",
         "Re customer: redhill",
         "Internal \u2014 deal/customer related",
@@ -63,12 +97,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rodrigo M from Galaxy Data Centers is following up on a meeting with Ali Elfanidi and another colleague regarding Salesforce remediation work at the Redhill Data Centre facility. He is sharing a detailed punch list document (v2.0) that outlines all outstanding remediation items that need to be completed, indicating this is a structured tracking and execution plan for resolving Salesforce-related issues at this location.",
+      "ai_summary": "Rodrigo M (Galaxy Data Centers internal stakeholder) is following up from a meeting with Ali Elfanidi and another colleague to share Salesforce remediation documentation for the Redhill Data Centre project. He has provided a punch list (v2.0) outlining outstanding remediation items that need to be addressed. This matters to Galaxy because resolving Salesforce configuration and data issues is critical to operational readiness and system reliability at the Redhill facility.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the Salesforce Remediation Punch List (GDC-SF-PUNCH-001, v2.0) to understand scope, priority ranking, and resource requirements",
-        "Determine assignment of remediation tasks to team members and establish completion timeline/milestones",
-        "Confirm budget impact and any dependencies on other Galaxy Data Centers infrastructure or Salesforce platform initiatives"
+        "Review the Salesforce Remediation Punch List (GDC-SF-PUNCH-001, v2.0) and assess priority/impact of each outstanding item",
+        "Schedule a follow-up meeting with Rodrigo, Ali, and the relevant technical team to assign owners and establish remediation timelines",
+        "Determine resource allocation and any budget implications needed to complete remediation before Redhill goes live"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -80,7 +114,7 @@
       "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
       "body_preview": "Pelle Jorgen <pelle.jorgen@castleforge.com>\r\n\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Monday, March 23, 2026 at 6:26\u202fPM\r\nTo: Fiona Leon <fional@digitalrealty.com>, Darren Chan <darrenchan@digitalrealty.com>\r\nCc: Paul Leong <paul@galaxydatace",
       "received": "2026-03-24T21:21:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYBcD98AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAYHOKW%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
@@ -97,12 +131,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is inquiring about the Galaxy/Digital Realty partnership and the Cloud House deployment initiative. This appears to be a partnership coordination request regarding infrastructure deployment strategy that requires alignment between Galaxy, Digital Realty, and Castle Forge stakeholders. Clarifying the partnership scope and Cloud House deployment timeline is critical to ensure all parties are aligned on deliverables and resource allocation.",
+      "ai_summary": "Pelle Jorgen from Castle Forge is reaching out regarding a partnership opportunity between Galaxy and Digital Realty Trust (DRT) involving Cloud House deployment infrastructure. This appears to be a strategic partnership discussion that could expand Galaxy's data center capabilities and market reach through collaboration with a major industry player. The outcome will determine whether Galaxy can accelerate its cloud infrastructure footprint and secure a significant revenue-generating partnership.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should confirm the current status of the Galaxy/DRT partnership terms and Cloud House deployment roadmap with Fiona Leon and Darren Chan at Digital Realty",
-        "Clarify Castle Forge's specific role and requirements in this partnership to determine if this is a vendor engagement, integration partner, or investment discussion",
-        "Schedule a kickoff meeting with all stakeholders (Galaxy, DRT, Castle Forge) to align on technical specifications, timelines, and success metrics for Cloud House deployment"
+        "Schedule a call with Pelle Jorgen to clarify the specific scope, timeline, and commercial terms of the proposed Galaxy-DRT partnership",
+        "Brief Paul Leong and coordinate internally on Galaxy's strategic priorities and constraints for Cloud House deployment",
+        "Request detailed documentation on DRT's technical requirements, capacity commitments, and financial terms before committing resources"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2029,5 +2063,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 65
+  "total_tracked": 66
 }
