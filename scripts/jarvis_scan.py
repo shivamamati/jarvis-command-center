@@ -527,6 +527,33 @@ def ai_classify(se, sn, subj, body):
         # R3: NEVER silently drop — surface as NOTABLE for manual review
         return {"score": 4, "label": "NOTABLE", "summary": f"AI unavailable — {str(e)[:50]}", "action": "Manual review needed", "ai_failed": True}
 
+BRIEFING_PROMPT = """You are JARVIS, briefing Dave Misra (Managing Partner, Galaxy Capital Partners / Galaxy Data Centers) on an email.
+
+Write a 2-3 sentence executive briefing. DO NOT quote the email text. Instead:
+1. Who is this person and their role/company?
+2. What are they asking for or communicating?
+3. Why does this matter to Galaxy / what's the business impact?
+
+Then provide 2-3 specific next steps Dave or France should take.
+
+Return ONLY valid JSON:
+{"briefing":"<2-3 sentence executive summary in your own words, NOT quoting the email>","next_steps":["<step 1>","<step 2>","<step 3 if needed>"]}"""
+
+def ai_briefing(se, sn, subj, body):
+    """Generate an executive briefing for an email that made it to the dashboard."""
+    if not ANTHROPIC_API_KEY:
+        return None
+    try:
+        r = api_request_with_retry("POST", "https://api.anthropic.com/v1/messages",
+            headers={"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "Content-Type": "application/json"},
+            json={"model": "claude-haiku-4-5-20251001", "max_tokens": 300, "system": BRIEFING_PROMPT,
+                  "messages": [{"role": "user", "content": f"From: {sn} <{se}>\nSubject: {subj}\nBody: {body[:800]}\n\nJSON only:"}]})
+        text = "".join(b.get("text", "") for b in r.json()["content"] if b["type"] == "text")
+        return json.loads(text.strip().replace("```json", "").replace("```", "").strip())
+    except Exception as e:
+        log.error(f"  Briefing failed: {e}")
+        return None
+
 # ═══════════════════════════════════════════════════════════════
 # GRAPH API (uses TokenManager + retry)
 # ═══════════════════════════════════════════════════════════════
@@ -810,6 +837,15 @@ def run_scan(hours=24, post_teams=False):
         }
 
         if result["final_score"] >= 3:
+            # Generate AI briefing for emails that don't have one yet
+            if not result["ai_summary"] and ANTHROPIC_API_KEY:
+                log.info(f"  📝 Generating briefing: {sn} — {subj[:40]}")
+                brief = ai_briefing(se, sn, subj, body)
+                if brief:
+                    result["ai_summary"] = brief.get("briefing", "")
+                    result["ai_next_steps"] = brief.get("next_steps", [])
+                    result["ai_reviewed"] = True
+                    ai_n += 1
             results.append(result)
             save_partial_result(result)  # R8: Write immediately
 
