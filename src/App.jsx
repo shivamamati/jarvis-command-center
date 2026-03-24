@@ -216,9 +216,43 @@ function NlpWidget({ email, onApply }) {
   const analysis = useMemo(() => analyzeEmail(email), [email.id, email.stage]);
   const stg = STAGES.find(s => s.id === analysis.suggestedStage);
   const isSame = email.stage === analysis.suggestedStage;
-  const isLowConf = analysis.confidence < 55;
 
-  if (isSame && !isLowConf) return null;
+  // Manual confidence override
+  const [overrideConf, setOverrideConf] = useState(null);
+  const [saving, setSaving] = useState(false);
+  const displayConf = overrideConf !== null ? overrideConf : analysis.confidence;
+  const isOverridden = overrideConf !== null;
+  const isLowConf = displayConf < 55;
+
+  // Load saved override from shared storage
+  useEffect(() => {
+    async function load() {
+      try {
+        const result = await window.storage.get(`jarvis-nlp-conf:${email.id}`, true);
+        if (result && result.value) setOverrideConf(parseInt(result.value));
+      } catch {}
+    }
+    load();
+  }, [email.id]);
+
+  // Save override to shared storage
+  const saveOverride = async (val) => {
+    setOverrideConf(val);
+    setSaving(true);
+    try {
+      await window.storage.set(`jarvis-nlp-conf:${email.id}`, val.toString(), true);
+    } catch {}
+    setTimeout(() => setSaving(false), 800);
+  };
+
+  const resetOverride = async () => {
+    setOverrideConf(null);
+    try {
+      await window.storage.delete(`jarvis-nlp-conf:${email.id}`, true);
+    } catch {}
+  };
+
+  if (isSame && !isLowConf && !isOverridden) return null;
 
   return (
     <div style={{ marginBottom: 14, borderRadius: 10, overflow: "hidden", border: `1px solid ${T.accentBorder}`, background: T.accentLight }}>
@@ -228,9 +262,9 @@ function NlpWidget({ email, onApply }) {
         <span style={{ fontSize: 11, fontWeight: 700, color: T.accent, letterSpacing: .5 }}>NLP SUGGESTION</span>
         <span style={{
           fontSize: 10, padding: "2px 8px", borderRadius: 5, fontWeight: 700, fontFamily: "monospace",
-          background: analysis.confidence >= 75 ? T.greenBg : analysis.confidence >= 50 ? T.yellowBg : T.orangeBg,
-          color: analysis.confidence >= 75 ? T.greenText : analysis.confidence >= 50 ? T.yellowText : T.orangeText,
-        }}>{analysis.confidence}% confident</span>
+          background: displayConf >= 75 ? T.greenBg : displayConf >= 50 ? T.yellowBg : T.orangeBg,
+          color: displayConf >= 75 ? T.greenText : displayConf >= 50 ? T.yellowText : T.orangeText,
+        }}>{displayConf}% confident{isOverridden ? " (manual)" : ""}</span>
         <span style={{ fontSize: 10, padding: "2px 8px", borderRadius: 5, background: T.bg, color: T.textMid }}>{analysis.category}</span>
         <span style={{ fontSize: 10, padding: "2px 8px", borderRadius: 5, background: T.bg, color: T.textDim }}>{analysis.contactType}</span>
         <div style={{ flex: 1 }} />
@@ -255,6 +289,35 @@ function NlpWidget({ email, onApply }) {
       {/* Expanded details */}
       {expanded && (
         <div style={{ padding: "0 16px 14px", borderTop: `1px solid ${T.accentBorder}` }}>
+          {/* Manual confidence override */}
+          <div style={{ margin: "12px 0", padding: "12px 14px", background: T.surface, borderRadius: 8, border: `1px solid ${T.border}` }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+              <div style={{ fontSize: 9, color: T.textDim, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase" }}>Confidence Override</div>
+              {isOverridden && (
+                <button onClick={(e) => { e.stopPropagation(); resetOverride(); }} style={{
+                  fontSize: 9, padding: "2px 8px", borderRadius: 4, border: `1px solid ${T.border}`,
+                  background: T.bg, color: T.textDim, cursor: "pointer", fontFamily: "inherit",
+                }}>Reset to auto</button>
+              )}
+              {saving && <span style={{ fontSize: 9, color: T.green, fontWeight: 600 }}>Saved</span>}
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              <input type="range" min="0" max="100" step="5" value={displayConf}
+                onClick={(e) => e.stopPropagation()}
+                onChange={(e) => saveOverride(parseInt(e.target.value))}
+                style={{ flex: 1, height: 4, appearance: "none", background: `linear-gradient(90deg, ${T.orange} 0%, ${T.yellow} 50%, ${T.green} 100%)`, borderRadius: 2, outline: "none", cursor: "pointer" }}
+              />
+              <span style={{
+                fontSize: 16, fontWeight: 700, fontFamily: "monospace", minWidth: 48, textAlign: "right",
+                color: displayConf >= 75 ? T.green : displayConf >= 50 ? T.yellow : T.orange,
+              }}>{displayConf}%</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", marginTop: 4 }}>
+              <span style={{ fontSize: 9, color: T.textDim }}>Low confidence</span>
+              <span style={{ fontSize: 9, color: T.textDim }}>High confidence</span>
+            </div>
+          </div>
+
           {/* Analysis grid */}
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, margin: "12px 0" }}>
             <div style={{ padding: "10px 12px", background: T.surface, borderRadius: 8, border: `1px solid ${T.border}` }}>
@@ -348,6 +411,23 @@ function transformScan(sd) {
 // PERSISTENCE
 // ═══════════════════════════════════════════════════════════
 const SK = "jarvis_v9_state";
+// Shared state: load from persistent storage (shared across Dave/France), fallback to localStorage
+async function loadSharedState() {
+  try {
+    const result = await window.storage.get("jarvis-pipeline-state", true);
+    if (result && result.value) return JSON.parse(result.value);
+  } catch {}
+  // Fallback to localStorage for backward compatibility
+  try { return JSON.parse(localStorage.getItem(SK)) || {}; } catch { return {}; }
+}
+async function saveSharedState(data) {
+  try {
+    const s = {};
+    data.forEach(e => { if (e.stage !== "inbox") s[e.id] = e.stage; });
+    await window.storage.set("jarvis-pipeline-state", JSON.stringify(s), true);
+    localStorage.setItem(SK, JSON.stringify(s)); // Keep localStorage as fallback
+  } catch {}
+}
 function loadS() { try { return JSON.parse(localStorage.getItem(SK)) || {}; } catch { return {}; } }
 function saveS(d) { try { const s = {}; d.forEach(e => { if (e.stage !== "inbox") s[e.id] = e.stage; }); localStorage.setItem(SK, JSON.stringify(s)); } catch {} }
 
@@ -449,7 +529,21 @@ function Dashboard() {
   const [data, setData] = useState(() => { const s = loadS(); return HIST.map(e => ({ ...e, stage: s[e.id] || e.stage })); });
   const [expandedId, setExpandedId] = useState(HIST[0]?.id);
   const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
-  useEffect(() => { try { localStorage.setItem("jarvis_completed", JSON.stringify(completed)); } catch {} }, [completed]);
+  // Sync completed to shared storage so Dave and France see the same state
+  useEffect(() => {
+    async function loadCompleted() {
+      try {
+        const result = await window.storage.get("jarvis-completed", true);
+        if (result && result.value) { const parsed = JSON.parse(result.value); if (parsed.length > 0) setCompleted(parsed); }
+      } catch {}
+    }
+    loadCompleted();
+  }, []);
+  useEffect(() => {
+    try { localStorage.setItem("jarvis_completed", JSON.stringify(completed)); } catch {}
+    async function saveCompleted() { try { await window.storage.set("jarvis-completed", JSON.stringify(completed), true); } catch {} }
+    saveCompleted();
+  }, [completed]);
   const [role, setRole] = useState("dave");
   const [live, setLive] = useState("demo");
   const [meta, setMeta] = useState(null);
@@ -476,7 +570,33 @@ function Dashboard() {
   }, []);
 
   useEffect(() => { fetchData(); const iv = setInterval(fetchData, 30000); return () => clearInterval(iv); }, [fetchData]);
-  useEffect(() => { saveS(data); }, [data]);
+  useEffect(() => { saveS(data); saveSharedState(data); }, [data]);
+
+  // Cross-user sync: pull shared state every 10 seconds so France sees Dave's changes
+  useEffect(() => {
+    const syncInterval = setInterval(async () => {
+      try {
+        const stateResult = await window.storage.get("jarvis-pipeline-state", true);
+        if (stateResult && stateResult.value) {
+          const sharedStages = JSON.parse(stateResult.value);
+          setData(prev => prev.map(e => {
+            const sharedStage = sharedStages[e.id];
+            if (sharedStage && sharedStage !== e.stage) return { ...e, stage: sharedStage };
+            return e;
+          }));
+        }
+        const compResult = await window.storage.get("jarvis-completed", true);
+        if (compResult && compResult.value) {
+          const sharedCompleted = JSON.parse(compResult.value);
+          setCompleted(prev => {
+            if (JSON.stringify(prev) !== JSON.stringify(sharedCompleted)) return sharedCompleted;
+            return prev;
+          });
+        }
+      } catch {}
+    }, 10000);
+    return () => clearInterval(syncInterval);
+  }, []);
 
   const upd = useCallback((id, stage) => setData(p => p.map(e => e.id === id ? { ...e, stage } : e)), []);
   const markDone = (id) => {
