@@ -887,6 +887,8 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
   const [cats, setCats] = useState({});
   const [scrapped, setScrapped] = useState([]);
   const [selectedId, setSelectedId] = useState(null);
+  const [dragId, setDragId] = useState(null);
+  const [dragOver, setDragOver] = useState(null);
   const F = "'DM Sans',system-ui,sans-serif";
   const FM = "'DM Mono','JetBrains Mono',monospace";
 
@@ -898,16 +900,28 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
   const scrapItem = async (id) => { const u = [...scrapped, id]; setScrapped(u); await fbSet("jarvis/scrapped", u); };
   const unscrapItem = async (id) => { const u = scrapped.filter(x => x !== id); setScrapped(u); await fbSet("jarvis/scrapped", u); };
 
+  // Drag handlers
+  const onDragStart = (e, id) => { setDragId(id); e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", id); };
+  const onDragEnd = () => { setDragId(null); setDragOver(null); };
+  const onDragOverCol = (e, colId) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; setDragOver(colId); };
+  const onDragLeaveCol = () => { setDragOver(null); };
+  const onDropCol = (e, colId) => {
+    e.preventDefault(); setDragOver(null);
+    if (!dragId) return;
+    if (colId === "france") { upd(dragId, "france"); }
+    else if (colId === "done") { markDone(dragId); }
+    else if (colId === "scrap") { scrapItem(dragId); }
+    else { setCat(dragId, colId); }
+    setDragId(null);
+  };
+
   const visibleItems = allItems.filter(e => !scrapped.includes(e.id));
   const uncategorized = visibleItems.filter(e => getCat(e.id) === "uncategorized");
   const scrappedItems = allItems.filter(e => scrapped.includes(e.id));
   const selectedItem = selectedId ? data.find(e => e.id === selectedId) : null;
   const selUg = selectedItem ? (URG[selectedItem.label] || URG.NOTABLE) : URG.NOTABLE;
-
-  // France + Completed sync with Decision Queue stages
   const franceItems = data.filter(e => e.stage === "france" && !completed.includes(e.id));
   const doneItems = data.filter(e => e.stage === "complete" || completed.includes(e.id));
-
   const ALL_COLS = [
     ...PIPELINE_CATS.map(c => ({ ...c, items: visibleItems.filter(e => getCat(e.id) === c.id) })),
     { id: "france", label: "France", desc: "Delegated to France", c: T.green, icon: "\u270E", items: franceItems },
@@ -918,12 +932,16 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
     const ug = URG[item.label] || URG.NOTABLE;
     const isSel = selectedId === item.id;
     const isDone = catId === "done";
+    const isDragging = dragId === item.id;
     return (
-      <div onClick={() => setSelectedId(isSel ? null : item.id)} style={{
-        padding: "10px 12px", background: isSel ? "#f5f3ff" : "#fff", borderRadius: 10,
-        border: `1px solid ${isSel ? "#6366f140" : "#f0f0f0"}`, marginBottom: 6,
-        boxShadow: isSel ? "0 2px 8px rgba(99,102,241,0.08)" : "0 1px 2px rgba(0,0,0,0.03)",
-        cursor: "pointer", transition: "all 150ms", opacity: isDone ? 0.5 : 1,
+      <div draggable onDragStart={e => onDragStart(e, item.id)} onDragEnd={onDragEnd}
+        onClick={() => setSelectedId(isSel ? null : item.id)} style={{
+        padding: "10px 12px", background: isSel ? "#f5f3ff" : isDragging ? "#ede9fe" : "#fff", borderRadius: 10,
+        border: `1px solid ${isSel ? "#6366f140" : isDragging ? "#6366f160" : "#f0f0f0"}`, marginBottom: 6,
+        boxShadow: isDragging ? "0 4px 16px rgba(99,102,241,0.15)" : isSel ? "0 2px 8px rgba(99,102,241,0.08)" : "0 1px 2px rgba(0,0,0,0.03)",
+        cursor: isDragging ? "grabbing" : "grab", transition: "all 150ms",
+        opacity: isDragging ? 0.7 : isDone ? 0.5 : 1,
+        transform: isDragging ? "scale(1.02) rotate(1deg)" : "none",
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 5 }}>
           <div style={{ width: 28, height: 28, borderRadius: 7, background: `${item.color || T.accent}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
@@ -962,7 +980,7 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
       <div style={{ width: mob ? "100%" : 320, flexShrink: 0, borderRight: mob ? "none" : "1px solid #f0f0f0", display: "flex", flexDirection: "column", background: "#fff" }}>
         <div style={{ padding: "20px 18px 14px" }}>
           <h2 style={{ fontSize: 18, fontWeight: 700, color: "#1a1a2e", margin: "0 0 4px", fontFamily: F }}>Uncategorized</h2>
-          <p style={{ fontSize: 13, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} to sort</p>
+          <p style={{ fontSize: 13, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} to sort {"\u2014"} drag to categorize</p>
         </div>
         <div style={{ flex: 1, overflowY: "auto", padding: "0 10px 10px" }}>
           {uncategorized.length > 0 ? uncategorized.map(item => (
@@ -987,28 +1005,46 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
         </div>
       </div>
 
-      {/* MIDDLE — Kanban columns (hidden when detail open) */}
+      {/* MIDDLE — Kanban columns with drop zones */}
       {!mob && !selectedItem && (
         <div style={{ flex: 1, display: "flex", gap: 0, overflowX: "auto" }}>
-          {ALL_COLS.map(col => (
-            <div key={col.id} style={{ flex: 1, minWidth: 170, borderRight: "1px solid #f0f0f0", display: "flex", flexDirection: "column" }}>
-              <div style={{ padding: "16px 14px 12px", borderBottom: "1px solid #f0f0f0", background: `${col.c}04` }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}>
-                  <span style={{ fontSize: 15 }}>{col.icon}</span>
-                  <span style={{ fontSize: 12, fontWeight: 700, color: col.c, letterSpacing: 0.5, fontFamily: F }}>{col.label}</span>
-                  <span style={{ marginLeft: "auto", fontSize: 15, fontWeight: 700, color: col.c, fontFamily: FM }}>{col.items.length}</span>
+          {ALL_COLS.map(col => {
+            const isOver = dragOver === col.id && dragId;
+            return (
+              <div key={col.id}
+                onDragOver={e => onDragOverCol(e, col.id)}
+                onDragLeave={onDragLeaveCol}
+                onDrop={e => onDropCol(e, col.id)}
+                style={{
+                  flex: 1, minWidth: 170, borderRight: "1px solid #f0f0f0",
+                  display: "flex", flexDirection: "column",
+                  background: isOver ? `${col.c}08` : "transparent",
+                  transition: "background 200ms",
+                }}>
+                <div style={{
+                  padding: "16px 14px 12px", borderBottom: `2px solid ${isOver ? col.c : "#f0f0f0"}`,
+                  background: `${col.c}04`, transition: "border-color 200ms",
+                }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}>
+                    <span style={{ fontSize: 15 }}>{col.icon}</span>
+                    <span style={{ fontSize: 12, fontWeight: 700, color: col.c, letterSpacing: 0.5, fontFamily: F }}>{col.label}</span>
+                    <span style={{ marginLeft: "auto", fontSize: 15, fontWeight: 700, color: col.c, fontFamily: FM }}>{col.items.length}</span>
+                  </div>
+                  <div style={{ fontSize: 10, color: "#a1a1aa", fontFamily: F }}>{col.desc}</div>
                 </div>
-                <div style={{ fontSize: 10, color: "#a1a1aa", fontFamily: F }}>{col.desc}</div>
+                <div style={{ flex: 1, overflowY: "auto", padding: "6px 6px", minHeight: 80 }}>
+                  {isOver && col.items.length === 0 && (
+                    <div style={{ padding: "16px 8px", textAlign: "center", fontSize: 12, color: col.c, fontFamily: F, border: `2px dashed ${col.c}40`, borderRadius: 8, margin: "4px 0" }}>Drop here</div>
+                  )}
+                  {col.items.length > 0 ? col.items.map(item => (
+                    <MiniCard key={item.id} item={item} catId={col.id} />
+                  )) : !isOver && (
+                    <div style={{ padding: "20px 8px", textAlign: "center", fontSize: 11, color: "#d4d4d8", fontFamily: F }}>No items</div>
+                  )}
+                </div>
               </div>
-              <div style={{ flex: 1, overflowY: "auto", padding: "6px 6px" }}>
-                {col.items.length > 0 ? col.items.map(item => (
-                  <MiniCard key={item.id} item={item} catId={col.id} />
-                )) : (
-                  <div style={{ padding: "20px 8px", textAlign: "center", fontSize: 11, color: "#d4d4d8", fontFamily: F }}>No items</div>
-                )}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
 
