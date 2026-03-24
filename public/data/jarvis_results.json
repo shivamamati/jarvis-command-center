@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-24T01:48:06.873653+00:00",
-  "total": 16,
-  "new": 16,
-  "noise": 5,
-  "ai": 14,
+  "timestamp": "2026-03-24T02:15:23.042643+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 4,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -32,11 +32,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong, an internal Galaxy Data Centers team member, is confirming that a previously non-functional system or service is now operational following a check requested by Sai Raman. This appears to be a routine technical issue resolution within the marketing or operations domain.",
+      "ai_summary": "Paul Leong (internal Galaxy Data Centers team member) is confirming that a previously non-functional system or process is now operational following Sai Raman's request to verify. This appears to be a brief confirmation of a technical fix or deployment, though the specific system is unclear from the exchange.",
       "ai_action": null,
       "ai_next_steps": [
-        "Verify what specific system or process was restored and confirm no downstream impacts to ongoing marketing or operational initiatives",
-        "Follow up with Sai Raman to document the issue, root cause, and any preventive measures to avoid future outages"
+        "Clarify with Sai or Paul what system was fixed and whether it impacts any customer-facing services or marketing initiatives",
+        "Verify that the fix is stable and monitor for any related issues over the next 24-48 hours",
+        "Confirm whether this resolution affects any pending marketing deliverables or customer communications"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -63,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a Teams meeting invite from Dave Misra to himself, indicating a scheduled sync with someone named George. The meeting appears to be a routine one-on-one or small group check-in, though the specific agenda and George's identity/role are not detailed in this calendar invite.",
+      "ai_summary": "This is a calendar invite for a Microsoft Teams meeting between Dave Misra and George (likely a key contact or partner). The email contains meeting details and access information but no substantive agenda or context about the discussion topics.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify the purpose and attendees of this sync with George before the meeting",
-        "Prepare any relevant materials or discussion points needed for the conversation",
-        "Confirm George's availability and role/company affiliation if not already established"
+        "Confirm the meeting time and attendees with George to ensure alignment on discussion objectives",
+        "Prepare an agenda or talking points for the sync if one wasn't provided separately",
+        "Verify the Teams link is working and test audio/video access before the scheduled meeting time"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -84,28 +85,26 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA9DwWnBIkaHlkpdSGN857k=",
-      "rules_score": 10,
+      "rules_score": 9,
       "rules_label": "CRITICAL",
       "rules_tier": "UNKNOWN",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 3x (+4)",
-        "KW: lease, data cent",
-        "Thread: 4 msgs (+2)",
-        "Dave in thread (+2)"
+        "KW: lease, data cent"
       ],
       "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "George Rogers from Skyline Data Center Advisors is confirming a meeting with Dave for tomorrow at 9am Pacific regarding 'website listing cleanup.' This appears to be a follow-up to a prior conversation Dave initiated. Rogers is a known contact in the data center space.",
-      "ai_action": "Confirm or decline 9am Pacific meeting with George Rogers immediately. If confirming, add to Dave's calendar and prep briefing on what 'website listing cleanup' entails (likely related to Galaxy's property listings or broker coordination).",
+      "ai_score": 6,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "George Rogers from Skyline Data Center Advisors is following up on a previous conversation about website listing cleanup and proposing a 9am Pacific call tomorrow. This appears to be a continuation of an ongoing business discussion, likely related to data center marketing or broker representation.",
+      "ai_action": "Dave should confirm availability for 9am Pacific call with George Rogers tomorrow, or have France schedule if Dave is unavailable. Clarify the context of the 'website listing cleanup' discussion beforehand.",
       "ai_next_steps": [
-        "Check Dave's calendar availability for 9am Pacific tomorrow",
-        "Reply to confirm meeting or propose alternative time",
-        "Identify what 'website listing cleanup' refers to\u2014likely related to Savills/CBRE broker listings or Galaxy's own website"
+        "Check Dave's calendar for 9am Pacific availability tomorrow",
+        "If available, confirm with George; if not, propose alternative time",
+        "Pull previous email thread to understand 'website listing cleanup' context before the call"
       ],
       "ai_failed": false,
-      "final_score": 10,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
