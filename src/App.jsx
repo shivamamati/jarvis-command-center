@@ -529,6 +529,34 @@ function Dashboard() {
   const [expandedId, setExpandedId] = useState(HIST[0]?.id);
   const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
   const [customItems, setCustomItems] = useState([]);
+  const [queueScrapped, setQueueScrapped] = useState([]);
+
+  // Load queue scrapped items from Firebase
+  useEffect(() => {
+    const unsub = fbListen("jarvis/queueScrapped", (val) => {
+      if (val && typeof val === "object") setQueueScrapped(val.items || []);
+    });
+    return () => unsub();
+  }, []);
+
+  const scrapFromQueue = async (id) => {
+    const updated = [...queueScrapped, id];
+    setQueueScrapped(updated);
+    await fbSet("jarvis/queueScrapped", { items: updated, lastUpdated: new Date().toISOString() });
+  };
+
+  // Auto-cleanup: clear scrapped items at midnight
+  useEffect(() => {
+    const checkMidnight = () => {
+      const now = new Date();
+      if (now.getHours() === 0 && now.getMinutes() === 0) {
+        setQueueScrapped([]);
+        fbSet("jarvis/queueScrapped", { items: [], lastUpdated: now.toISOString() });
+      }
+    };
+    const iv = setInterval(checkMidnight, 60000); // check every minute
+    return () => clearInterval(iv);
+  }, []);
 
   // Load custom items from Firebase
   useEffect(() => {
@@ -641,13 +669,14 @@ function Dashboard() {
   };
 
   const filtered = useMemo(() => {
-    let r = allData.filter(e => e.stage !== "complete" && !completed.includes(e.id));
+    let r = allData.filter(e => e.stage !== "complete" && !completed.includes(e.id) && !queueScrapped.includes(e.id));
     if (role === "dave") r = r.filter(e => e.stage === "dave" || e.stage === "inbox");
     if (role === "france") r = r.filter(e => e.stage === "france" || e.stage === "external" || e.stage === "scheduled");
     return r.sort((a, b) => b.score - a.score);
-  }, [allData, role, completed]);
+  }, [allData, role, completed, queueScrapped]);
 
   const doneItems = allData.filter(e => e.stage === "complete" || completed.includes(e.id));
+  const scrappedQueueItems = allData.filter(e => queueScrapped.includes(e.id));
   const critCount = filtered.filter(e => e.label === "CRITICAL").length;
   const today = getToday();
   const todayItems = filtered.filter(e => e.date === today);
@@ -773,7 +802,7 @@ function Dashboard() {
                   <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{todayItems.length} item{todayItems.length !== 1 ? "s" : ""}</span>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                  {todayItems.map((item, index) => <DecisionCard key={item.id} item={item} index={index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} />)}
+                  {todayItems.map((item, index) => <DecisionCard key={item.id} item={item} index={index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} scrapItem={scrapFromQueue} />)}
                 </div>
               </div>
             )}
@@ -787,7 +816,7 @@ function Dashboard() {
                   <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{previousItems.length} carry-over</span>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                  {previousItems.map((item, index) => <DecisionCard key={item.id} item={item} index={todayItems.length + index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} />)}
+                  {previousItems.map((item, index) => <DecisionCard key={item.id} item={item} index={todayItems.length + index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} scrapItem={scrapFromQueue} />)}
                 </div>
               </div>
             )}
@@ -816,10 +845,33 @@ function Dashboard() {
                 </div>
               </div>
             )}
+
+            {/* SCRAPPED — auto-deleted at midnight */}
+            {scrappedQueueItems.length > 0 && (
+              <div>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: "#b91c1c", letterSpacing: 1, textTransform: "uppercase", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Scrapped</div>
+                  <div style={{ flex: 1, height: 1, background: "#f0f0f0" }} />
+                  <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{scrappedQueueItems.length} — auto-clears at midnight</span>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                  {scrappedQueueItems.map(item => (
+                    <div key={item.id} style={{
+                      display: "flex", alignItems: "center", gap: 12, padding: "8px 16px",
+                      background: "#fff", borderRadius: 10, border: "1px solid #fecaca",
+                      opacity: 0.45, transition: "opacity 150ms",
+                    }} onMouseEnter={e => e.currentTarget.style.opacity = "1"} onMouseLeave={e => e.currentTarget.style.opacity = "0.45"}>
+                      <div style={{ width: 22, height: 22, borderRadius: "50%", background: "#fef2f2", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, color: "#b91c1c" }}>{"\u2715"}</div>
+                      <span style={{ fontSize: 13, color: "#71717a", flex: 1, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{item.subject}</span>
+                      <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{item.from}</span>
+                      <button onClick={() => { setQueueScrapped(p => { const u = p.filter(x => x !== item.id); fbSet("jarvis/queueScrapped", { items: u, lastUpdated: new Date().toISOString() }); return u; }); }} style={{ padding: "4px 12px", borderRadius: 6, border: "1px solid #ebebeb", background: "#fff", color: "#6366f1", fontSize: 10, fontWeight: 600, cursor: "pointer", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Restore</button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
-
-        {/* UPCOMING MEETINGS SIDEBAR */}
         {!mob && (
           <div style={{ width: 260, flexShrink: 0, overflowY: "auto", padding: "24px 16px", background: "#fff", borderLeft: "1px solid #f0f0f0" }}>
             <CalendarSidebar />
@@ -2274,7 +2326,7 @@ function SharedNotes({ itemId }) {
   );
 }
 
-function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, mob }) {
+function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, mob, scrapItem }) {
   const isExp = expandedId === item.id;
   const ug = URG[item.label] || URG.NOTABLE;
   return (
@@ -2382,6 +2434,12 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
                 cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
               }}>Action Now</button>
             )}
+            {/* Scrap — remove from queue */}
+            <button onClick={ev => { ev.stopPropagation(); scrapItem(item.id); }} style={{
+              padding: "10px 18px", borderRadius: 9, border: "1px solid #fecaca",
+              background: "#fef2f2", color: "#b91c1c", fontSize: 13, fontWeight: 500,
+              cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+            }}>{"\u2715"} Scrap</button>
             {/* Mark Done — always last */}
             <button onClick={ev => { ev.stopPropagation(); markDone(item.id); }} style={{
               padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.green}40`,
