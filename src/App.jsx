@@ -884,73 +884,75 @@ const CONTACTS_DB = {
 // PIPELINE PAGE — Categorized view: Action Now, Waiting On, Opportunities, Personal
 // ═══════════════════════════════════════════════════════════
 function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedId, setExpandedId }) {
-  const allItems = data.filter(e => !completed.includes(e.id) && e.stage !== "complete");
+  const allItems = data.filter(e => e.stage !== "complete" && !completed.includes(e.id));
   const [cats, setCats] = useState({});
   const [scrapped, setScrapped] = useState([]);
   const [selectedId, setSelectedId] = useState(null);
   const F = "'DM Sans',system-ui,sans-serif";
   const FM = "'DM Mono','JetBrains Mono',monospace";
 
-  useEffect(() => {
-    const unsub = fbListen("jarvis/pipelineCats", (val) => { if (val) setCats(val); });
-    return () => unsub();
-  }, []);
-  useEffect(() => {
-    const unsub = fbListen("jarvis/scrapped", (val) => { if (Array.isArray(val)) setScrapped(val); });
-    return () => unsub();
-  }, []);
+  useEffect(() => { const u = fbListen("jarvis/pipelineCats", v => { if (v) setCats(v); }); return () => u(); }, []);
+  useEffect(() => { const u = fbListen("jarvis/scrapped", v => { if (Array.isArray(v)) setScrapped(v); }); return () => u(); }, []);
 
   const getCat = (id) => cats[id] || "uncategorized";
-  const setCat = async (id, cat) => {
-    const updated = { ...cats, [id]: cat };
-    setCats(updated);
-    await fbSet("jarvis/pipelineCats", updated);
-  };
-  const scrapItem = async (id) => {
-    const updated = [...scrapped, id];
-    setScrapped(updated);
-    await fbSet("jarvis/scrapped", updated);
-  };
-  const unscrapItem = async (id) => {
-    const updated = scrapped.filter(x => x !== id);
-    setScrapped(updated);
-    await fbSet("jarvis/scrapped", updated);
-  };
+  const setCat = async (id, cat) => { const u = { ...cats, [id]: cat }; setCats(u); await fbSet("jarvis/pipelineCats", u); };
+  const scrapItem = async (id) => { const u = [...scrapped, id]; setScrapped(u); await fbSet("jarvis/scrapped", u); };
+  const unscrapItem = async (id) => { const u = scrapped.filter(x => x !== id); setScrapped(u); await fbSet("jarvis/scrapped", u); };
 
   const visibleItems = allItems.filter(e => !scrapped.includes(e.id));
   const uncategorized = visibleItems.filter(e => getCat(e.id) === "uncategorized");
-  const columns = PIPELINE_CATS.map(c => ({ ...c, items: visibleItems.filter(e => getCat(e.id) === c.id) }));
   const scrappedItems = allItems.filter(e => scrapped.includes(e.id));
   const selectedItem = selectedId ? data.find(e => e.id === selectedId) : null;
   const selUg = selectedItem ? (URG[selectedItem.label] || URG.NOTABLE) : URG.NOTABLE;
 
+  // France + Completed sync with Decision Queue stages
+  const franceItems = data.filter(e => e.stage === "france" && !completed.includes(e.id));
+  const doneItems = data.filter(e => e.stage === "complete" || completed.includes(e.id));
+
+  const ALL_COLS = [
+    ...PIPELINE_CATS.map(c => ({ ...c, items: visibleItems.filter(e => getCat(e.id) === c.id) })),
+    { id: "france", label: "France", desc: "Delegated to France", c: T.green, icon: "\u270E", items: franceItems },
+    { id: "done", label: "Completed", desc: "Done items", c: "#16a34a", icon: "\u2705", items: doneItems.slice(0, 20) },
+  ];
+
   const MiniCard = ({ item, catId }) => {
     const ug = URG[item.label] || URG.NOTABLE;
     const isSel = selectedId === item.id;
+    const isDone = catId === "done";
     return (
       <div onClick={() => setSelectedId(isSel ? null : item.id)} style={{
         padding: "10px 12px", background: isSel ? "#f5f3ff" : "#fff", borderRadius: 10,
-        border: `1px solid ${isSel ? "#6366f1" + "40" : "#f0f0f0"}`, marginBottom: 6,
+        border: `1px solid ${isSel ? "#6366f140" : "#f0f0f0"}`, marginBottom: 6,
         boxShadow: isSel ? "0 2px 8px rgba(99,102,241,0.08)" : "0 1px 2px rgba(0,0,0,0.03)",
-        cursor: "pointer", transition: "all 150ms",
+        cursor: "pointer", transition: "all 150ms", opacity: isDone ? 0.5 : 1,
       }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
-          <div style={{ width: 26, height: 26, borderRadius: 6, background: `${item.color || T.accent}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 5 }}>
+          <div style={{ width: 28, height: 28, borderRadius: 7, background: `${item.color || T.accent}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontSize: 12, fontWeight: 600, color: "#1a1a2e", fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</div>
-            <div style={{ fontSize: 10, color: "#a1a1aa", fontFamily: F }}>{item.from} {"\u00B7"} {item.time}</div>
+            <div style={{ fontSize: 13, fontWeight: 600, color: "#1a1a2e", fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</div>
+            <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F }}>{item.from} {"\u00B7"} {item.time}</div>
           </div>
         </div>
-        <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }} onClick={ev => ev.stopPropagation()}>
-          <span style={{ fontSize: 8, fontWeight: 600, padding: "2px 6px", borderRadius: 4, background: ug.badge, color: ug.text }}>{item.label}</span>
-          {PIPELINE_CATS.filter(c => c.id !== catId).map(c => (
-            <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: `${c.c}10`, color: c.c, fontSize: 8, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{c.label}</button>
-          ))}
-          {catId !== "uncategorized" && (
-            <button onClick={() => setCat(item.id, "uncategorized")} title="Back to uncategorized" style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: "#f5f5f5", color: "#a1a1aa", fontSize: 8, cursor: "pointer", fontFamily: F }}>{"\u21A9"}</button>
-          )}
-          <button onClick={() => scrapItem(item.id)} title="Scrap" style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: "#fef2f2", color: "#b91c1c", fontSize: 8, cursor: "pointer", fontFamily: F, marginLeft: "auto" }}>{"\u2715"}</button>
-        </div>
+        {!isDone && (
+          <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }} onClick={ev => ev.stopPropagation()}>
+            <span style={{ fontSize: 9, fontWeight: 600, padding: "2px 7px", borderRadius: 4, background: ug.badge, color: ug.text }}>{item.label}</span>
+            {PIPELINE_CATS.filter(c => c.id !== catId).map(c => (
+              <button key={c.id} onClick={() => setCat(item.id, c.id)} style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: `${c.c}10`, color: c.c, fontSize: 9, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{c.label}</button>
+            ))}
+            {catId !== "uncategorized" && catId !== "france" && (
+              <button onClick={() => setCat(item.id, "uncategorized")} title="Back to uncategorized" style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#f5f5f5", color: "#a1a1aa", fontSize: 9, cursor: "pointer", fontFamily: F }}>{"\u21A9"}</button>
+            )}
+            {catId === "france" && (
+              <button onClick={() => upd(item.id, "dave")} title="Move back to Dave" style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#f5f3ff", color: "#6366f1", fontSize: 9, cursor: "pointer", fontFamily: F }}>{"\u2605"} Dave</button>
+            )}
+            <button onClick={() => scrapItem(item.id)} title="Scrap" style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#fef2f2", color: "#b91c1c", fontSize: 9, cursor: "pointer", fontFamily: F, marginLeft: "auto" }}>{"\u2715"}</button>
+          </div>
+        )}
+        {isDone && (
+          <div style={{ display: "flex", gap: 4 }} onClick={ev => ev.stopPropagation()}>
+            <button onClick={() => undoDone(item.id)} style={{ padding: "2px 7px", borderRadius: 4, border: "none", background: "#f5f3ff", color: "#6366f1", fontSize: 9, cursor: "pointer", fontFamily: F }}>{"\u21A9"} Undo</button>
+          </div>
+        )}
       </div>
     );
   };
@@ -960,8 +962,8 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
       {/* LEFT — Uncategorized */}
       <div style={{ width: mob ? "100%" : 320, flexShrink: 0, borderRight: mob ? "none" : "1px solid #f0f0f0", display: "flex", flexDirection: "column", background: "#fff" }}>
         <div style={{ padding: "20px 18px 14px" }}>
-          <h2 style={{ fontSize: 16, fontWeight: 700, color: "#1a1a2e", margin: "0 0 4px", fontFamily: F }}>Uncategorized</h2>
-          <p style={{ fontSize: 12, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} to sort</p>
+          <h2 style={{ fontSize: 18, fontWeight: 700, color: "#1a1a2e", margin: "0 0 4px", fontFamily: F }}>Uncategorized</h2>
+          <p style={{ fontSize: 13, color: "#a1a1aa", margin: 0, fontFamily: F }}>{uncategorized.length} item{uncategorized.length !== 1 ? "s" : ""} to sort</p>
         </div>
         <div style={{ flex: 1, overflowY: "auto", padding: "0 10px 10px" }}>
           {uncategorized.length > 0 ? uncategorized.map(item => (
@@ -969,16 +971,16 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
           )) : (
             <div style={{ padding: 30, textAlign: "center" }}>
               <div style={{ fontSize: 28, marginBottom: 8, opacity: 0.15 }}>{"\u2713"}</div>
-              <div style={{ fontSize: 13, color: "#a1a1aa", fontFamily: F }}>All sorted</div>
+              <div style={{ fontSize: 14, color: "#a1a1aa", fontFamily: F }}>All sorted</div>
             </div>
           )}
           {scrappedItems.length > 0 && (
             <div style={{ marginTop: 16, borderTop: "1px solid #f0f0f0", paddingTop: 12 }}>
-              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, marginBottom: 8, fontFamily: F }}>SCRAPPED ({scrappedItems.length})</div>
+              <div style={{ fontSize: 11, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, marginBottom: 8, fontFamily: F }}>SCRAPPED ({scrappedItems.length})</div>
               {scrappedItems.map(item => (
                 <div key={item.id} style={{ padding: "6px 10px", background: "#fafafa", borderRadius: 6, border: "1px solid #f0f0f0", marginBottom: 4, opacity: 0.5, display: "flex", alignItems: "center", gap: 8 }}>
-                  <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F, flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</span>
-                  <button onClick={() => unscrapItem(item.id)} title="Restore" style={{ padding: "2px 6px", borderRadius: 4, border: "none", background: "#f0fdf4", color: "#16a34a", fontSize: 8, cursor: "pointer", fontFamily: F }}>{"\u21A9"}</button>
+                  <span style={{ fontSize: 12, color: "#a1a1aa", fontFamily: F, flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</span>
+                  <button onClick={() => unscrapItem(item.id)} title="Restore" style={{ padding: "3px 8px", borderRadius: 4, border: "none", background: "#f0fdf4", color: "#16a34a", fontSize: 9, cursor: "pointer", fontFamily: F }}>{"\u21A9"}</button>
                 </div>
               ))}
             </div>
@@ -989,21 +991,21 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
       {/* MIDDLE — Kanban columns (hidden when detail open) */}
       {!mob && !selectedItem && (
         <div style={{ flex: 1, display: "flex", gap: 0, overflowX: "auto" }}>
-          {columns.map(col => (
-            <div key={col.id} style={{ flex: 1, minWidth: 190, borderRight: "1px solid #f0f0f0", display: "flex", flexDirection: "column" }}>
-              <div style={{ padding: "14px 12px 10px", borderBottom: "1px solid #f0f0f0", background: `${col.c}04` }}>
+          {ALL_COLS.map(col => (
+            <div key={col.id} style={{ flex: 1, minWidth: 170, borderRight: "1px solid #f0f0f0", display: "flex", flexDirection: "column" }}>
+              <div style={{ padding: "16px 14px 12px", borderBottom: "1px solid #f0f0f0", background: `${col.c}04` }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}>
-                  <span style={{ fontSize: 13 }}>{col.icon}</span>
-                  <span style={{ fontSize: 10, fontWeight: 700, color: col.c, letterSpacing: 0.5, fontFamily: F }}>{col.label}</span>
-                  <span style={{ marginLeft: "auto", fontSize: 13, fontWeight: 700, color: col.c, fontFamily: FM }}>{col.items.length}</span>
+                  <span style={{ fontSize: 15 }}>{col.icon}</span>
+                  <span style={{ fontSize: 12, fontWeight: 700, color: col.c, letterSpacing: 0.5, fontFamily: F }}>{col.label}</span>
+                  <span style={{ marginLeft: "auto", fontSize: 15, fontWeight: 700, color: col.c, fontFamily: FM }}>{col.items.length}</span>
                 </div>
-                <div style={{ fontSize: 9, color: "#a1a1aa", fontFamily: F }}>{col.desc}</div>
+                <div style={{ fontSize: 10, color: "#a1a1aa", fontFamily: F }}>{col.desc}</div>
               </div>
               <div style={{ flex: 1, overflowY: "auto", padding: "6px 6px" }}>
                 {col.items.length > 0 ? col.items.map(item => (
                   <MiniCard key={item.id} item={item} catId={col.id} />
                 )) : (
-                  <div style={{ padding: "20px 8px", textAlign: "center", fontSize: 10, color: "#d4d4d8", fontFamily: F }}>No items</div>
+                  <div style={{ padding: "20px 8px", textAlign: "center", fontSize: 11, color: "#d4d4d8", fontFamily: F }}>No items</div>
                 )}
               </div>
             </div>
@@ -1057,12 +1059,14 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
             )}
             <SharedNotes itemId={selectedItem.id} />
             <div style={{ marginTop: 14 }}>
-              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, marginBottom: 10, fontFamily: F }}>MOVE TO CATEGORY</div>
+              <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, marginBottom: 10, fontFamily: F }}>MOVE TO</div>
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
                 {PIPELINE_CATS.map(c => (
                   <button key={c.id} onClick={() => { setCat(selectedItem.id, c.id); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: `1px solid ${c.c}30`, background: getCat(selectedItem.id) === c.id ? `${c.c}15` : "transparent", color: c.c, fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{c.icon} {c.label}</button>
                 ))}
+                <button onClick={() => { upd(selectedItem.id, "france"); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: `1px solid ${T.green}30`, background: selectedItem.stage === "france" ? `${T.green}15` : "transparent", color: T.green, fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{"\u270E"} France</button>
                 <button onClick={() => { setCat(selectedItem.id, "uncategorized"); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: "1px solid #e2e8f0", background: "transparent", color: "#64748b", fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{"\u21A9"} Uncategorized</button>
+                <button onClick={() => { markDone(selectedItem.id); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: "1px solid #bbf7d0", background: "#f0fdf4", color: "#16a34a", fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{"\u2713"} Done</button>
                 <button onClick={() => { scrapItem(selectedItem.id); setSelectedId(null); }} style={{ padding: "8px 16px", borderRadius: 8, border: "1px solid #fecaca", background: "#fef2f2", color: "#b91c1c", fontSize: 12, fontWeight: 500, cursor: "pointer", fontFamily: F }}>{"\u2715"} Scrap</button>
               </div>
             </div>
