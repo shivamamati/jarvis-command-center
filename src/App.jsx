@@ -822,41 +822,7 @@ function Dashboard() {
         {/* UPCOMING MEETINGS SIDEBAR */}
         {!mob && (
           <div style={{ width: 260, flexShrink: 0, overflowY: "auto", padding: "24px 16px", background: "#fff", borderLeft: "1px solid #f0f0f0" }}>
-            <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Today's Schedule</div>
-            {[
-              { time: "8:00 PM", label: "Dave \u2194 France Synch", people: "France, Shivam", c: "#6366f1", type: "sync" },
-            ].map(ev => (
-              <div key={ev.time + ev.label} style={{ display: "flex", gap: 10, marginBottom: 10, alignItems: "flex-start" }}>
-                <div style={{ width: 52, fontSize: 10, color: "#a1a1aa", fontWeight: 600, paddingTop: 6, flexShrink: 0, fontFamily: "'DM Mono',monospace" }}>{ev.time}</div>
-                <div style={{ flex: 1, padding: "8px 12px", borderRadius: 8, background: `${ev.c}06`, border: `1px solid ${ev.c}12` }}>
-                  <div style={{ fontSize: 11, fontWeight: 600, color: "#1a1a2e", marginBottom: 2, fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.label}</div>
-                  <div style={{ fontSize: 9, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.people}</div>
-                </div>
-              </div>
-            ))}
-
-            <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginTop: 20, marginBottom: 14, fontFamily: "'DM Sans',system-ui,sans-serif" }}>Tomorrow — Mar 24</div>
-            {[
-              { time: "10:00 AM", label: "Itay Bohbot \u2014 Torpedo DC", people: "Dave (organizer), Itay, France", c: "#dc2626", type: "VIP" },
-              { time: "10:30 AM", label: "Salesforce Setup", people: "Dave (organizer)", c: "#ca8a04", type: "internal" },
-              { time: "10:30 AM", label: "Redhill Salesforce Meeting", people: "Ali Elfanidi, Ash, Rodrigo", c: "#ea580c", type: "ops" },
-              { time: "12:00 PM", label: "Redhill Operations Call", people: "Castleforge: Pelle, Elizabeth, Mike, Neil, Sam", c: "#dc2626", type: "JV" },
-              { time: "12:00 PM", label: "JSA + Galaxy Biweekly", people: "Candace, Ash, Paul, TJ, Sai, Ashley", c: "#6366f1", type: "PR" },
-              { time: "1:00 PM", label: "George \u2194 Dave Sync", people: "George Rogers (Skyline Capital), Paul", c: "#0ea5e9", type: "investor" },
-            ].map(ev => (
-              <div key={ev.time + ev.label} style={{ display: "flex", gap: 10, marginBottom: 10, alignItems: "flex-start" }}>
-                <div style={{ width: 52, fontSize: 10, color: "#a1a1aa", fontWeight: 600, paddingTop: 6, flexShrink: 0, fontFamily: "'DM Mono',monospace" }}>{ev.time}</div>
-                <div style={{ flex: 1, padding: "8px 12px", borderRadius: 8, background: `${ev.c}06`, border: `1px solid ${ev.c}12` }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 4, marginBottom: 2 }}>
-                    <div style={{ fontSize: 11, fontWeight: 600, color: "#1a1a2e", fontFamily: "'DM Sans',system-ui,sans-serif", flex: 1 }}>{ev.label}</div>
-                    {ev.type === "VIP" && <span style={{ fontSize: 7, fontWeight: 700, padding: "1px 5px", borderRadius: 3, background: "#fef2f2", color: "#dc2626" }}>VIP</span>}
-                    {ev.type === "JV" && <span style={{ fontSize: 7, fontWeight: 700, padding: "1px 5px", borderRadius: 3, background: "#fef2f2", color: "#dc2626" }}>JV</span>}
-                    {ev.type === "investor" && <span style={{ fontSize: 7, fontWeight: 700, padding: "1px 5px", borderRadius: 3, background: "#f5f3ff", color: "#6366f1" }}>INV</span>}
-                  </div>
-                  <div style={{ fontSize: 9, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{ev.people}</div>
-                </div>
-              </div>
-            ))}
+            <CalendarSidebar />
           </div>
         )}
 
@@ -956,7 +922,93 @@ const CONTACTS_DB = {
 // PIPELINE PAGE — Categorized view: Action Now, Waiting On, Opportunities, Personal
 // ═══════════════════════════════════════════════════════════
 // ═══════════════════════════════════════════════════════════
-// CREATE ITEM MODAL — Dave/France can create custom items
+// CALENDAR SIDEBAR — fetches live calendar from calendar_results.json
+// ═══════════════════════════════════════════════════════════
+function CalendarSidebar() {
+  const [events, setEvents] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const F = "'DM Sans',system-ui,sans-serif";
+  const FM = "'DM Mono','JetBrains Mono',monospace";
+
+  useEffect(() => {
+    async function fetchCal() {
+      try {
+        const r = await fetch("/data/calendar_results.json?" + Date.now());
+        if (!r.ok) throw 0;
+        const d = await r.json();
+        if (d.events) setEvents(d.events);
+      } catch {}
+      setLoading(false);
+    }
+    fetchCal();
+    const iv = setInterval(fetchCal, 60000);
+    return () => clearInterval(iv);
+  }, []);
+
+  const formatTime = (iso) => {
+    try {
+      const d = new Date(iso + (iso.endsWith("Z") ? "" : "Z"));
+      return d.toLocaleTimeString("en-GB", { hour: "numeric", minute: "2-digit", hour12: true }).toUpperCase();
+    } catch { return ""; }
+  };
+  const getDate = (iso) => {
+    try {
+      const d = new Date(iso + (iso.endsWith("Z") ? "" : "Z"));
+      return d.toLocaleDateString("en-GB", { weekday: "short", month: "short", day: "numeric" });
+    } catch { return ""; }
+  };
+  const isToday = (iso) => {
+    try {
+      const d = new Date(iso + (iso.endsWith("Z") ? "" : "Z"));
+      const now = new Date();
+      return d.toDateString() === now.toDateString();
+    } catch { return false; }
+  };
+
+  const todayEvents = events.filter(e => !e.isAllDay && isToday(e.start));
+  const tomorrowEvents = events.filter(e => !e.isAllDay && !isToday(e.start));
+  const colors = ["#6366f1", "#dc2626", "#0ea5e9", "#ca8a04", "#ea580c", "#10b981", "#8b5cf6"];
+
+  const EventCard = ({ ev, i }) => {
+    const c = colors[i % colors.length];
+    return (
+      <div style={{ display: "flex", gap: 10, marginBottom: 10, alignItems: "flex-start" }}>
+        <div style={{ width: 52, fontSize: 10, color: "#a1a1aa", fontWeight: 600, paddingTop: 6, flexShrink: 0, fontFamily: FM }}>{formatTime(ev.start)}</div>
+        <div style={{ flex: 1, padding: "8px 12px", borderRadius: 8, background: `${c}06`, border: `1px solid ${c}12` }}>
+          <div style={{ fontSize: 11, fontWeight: 600, color: "#1a1a2e", marginBottom: 2, fontFamily: F }}>{ev.subject}</div>
+          {ev.attendees && ev.attendees.length > 0 && (
+            <div style={{ fontSize: 9, color: "#a1a1aa", fontFamily: F }}>{ev.attendees.join(", ")}</div>
+          )}
+        </div>
+      </div>
+    );
+  };
+
+  if (loading) return <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F, padding: 10 }}>Loading calendar...</div>;
+  if (events.length === 0) return <div style={{ fontSize: 11, color: "#a1a1aa", fontFamily: F, padding: 10 }}>No upcoming meetings. Run a scan to populate.</div>;
+
+  return (
+    <div>
+      {todayEvents.length > 0 && (
+        <>
+          <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 14, fontFamily: F }}>Today's Schedule</div>
+          {todayEvents.map((ev, i) => <EventCard key={ev.subject + ev.start} ev={ev} i={i} />)}
+        </>
+      )}
+      {tomorrowEvents.length > 0 && (
+        <>
+          <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 1.2, textTransform: "uppercase", marginTop: todayEvents.length > 0 ? 20 : 0, marginBottom: 14, fontFamily: F }}>
+            {tomorrowEvents[0] ? getDate(tomorrowEvents[0].start) : "Upcoming"}
+          </div>
+          {tomorrowEvents.map((ev, i) => <EventCard key={ev.subject + ev.start} ev={ev} i={i} />)}
+        </>
+      )}
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════
+// CREATE ITEM MODAL
 // ═══════════════════════════════════════════════════════════
 function CreateItemModal({ onAdd, onClose }) {
   const [title, setTitle] = useState("");
