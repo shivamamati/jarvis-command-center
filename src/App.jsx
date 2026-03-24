@@ -334,7 +334,7 @@ function transformScan(sd) {
     tier: it.rules_tier || "UNKNOWN", pattern: it.ai_pattern || "G", stage: "inbox",
     from: it.sender_name || it.sender_email || "Unknown", company: "", email: it.sender_email || "",
     subject: it.subject || "(no subject)", time: fmtTime(it.received), date: getDateLocal(it.received),
-    link: it.web_link || "", jarvis: it.ai_summary || (it.body_preview || "").replace(/\r\n/g, " ").replace(/\s+/g, " ").trim().slice(0, 300) || "",
+    link: it.web_link || "", jarvis: it.ai_summary || it.body_preview || "",
     action: it.ai_action || "", reply: "", deal: "", dealValue: "",
     actions: ["Delegate to France", "Mark Done"],
     primaryAction: "Mark Done",
@@ -445,7 +445,7 @@ export default function App() {
 
 function Dashboard() {
   const mob = useIsMobile();
-  const [page, setPage] = useState("queue"); // "queue" | "emails"
+  const [page, setPage] = useState("queue"); // "queue" | "emails" | "contacts"
   const [data, setData] = useState(() => { const s = loadS(); return HIST.map(e => ({ ...e, stage: s[e.id] || e.stage })); });
   const [expandedId, setExpandedId] = useState(HIST[0]?.id);
   const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
@@ -509,40 +509,59 @@ function Dashboard() {
   return (
     <div style={{ height: "100vh", width: "100vw", background: T.bg, fontFamily: "'Inter',system-ui,sans-serif", display: "flex", flexDirection: "column", overflow: "hidden" }}>
       {/* HEADER */}
-      <div style={{ background: T.surface, borderBottom: `1px solid ${T.border}`, padding: "0 28px", height: 56, display: "flex", alignItems: "center", flexShrink: 0, gap: 16 }}>
-        {/* Galaxy Capital Partners Branding */}
-        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <svg width="22" height="26" viewBox="0 0 22 26" fill="none">
-            <path d="M4 26L0 22V8L4 4V26Z" fill="#1a2140"/>
-            <path d="M10 22L6 18V4L10 0V22Z" fill="#2a3a6a"/>
-          </svg>
-          <span style={{ fontSize: 12, fontWeight: 500, color: "#1a2140", letterSpacing: 2.5, textTransform: "uppercase", fontFamily: "'Inter',sans-serif" }}>Galaxy Capital Partners</span>
-          <div style={{ width: 1, height: 20, background: T.border, margin: "0 4px" }} />
-          <div style={{ width: 24, height: 24, borderRadius: 6, background: "linear-gradient(135deg,#6366f1,#8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 800, color: "#fff" }}>J</div>
-          <span style={{ fontSize: 13, fontWeight: 600, color: T.text }}>JARVIS</span>
-          <span style={{ fontSize: 12, color: T.textDim }}>/ {page === "queue" ? (role === "dave" ? "Dave's Queue" : role === "france" ? "France's Queue" : "All Items") : "All Emails"}</span>
-        </div>
-        {/* Page tabs */}
-        <div style={{ display: "flex", gap: 2, background: T.bg, borderRadius: 8, padding: 2, border: `1px solid ${T.border}` }}>
-          <button onClick={() => setPage("queue")} style={{ padding: "5px 14px", borderRadius: 6, border: "none", background: page === "queue" ? T.surface : "transparent", color: page === "queue" ? T.text : T.textDim, fontSize: 12, fontWeight: page === "queue" ? 600 : 400, cursor: "pointer", fontFamily: "inherit", boxShadow: page === "queue" ? "0 1px 3px rgba(0,0,0,0.08)" : "none" }}>Decision Queue</button>
-          <button onClick={() => setPage("emails")} style={{ padding: "5px 14px", borderRadius: 6, border: "none", background: page === "emails" ? T.surface : "transparent", color: page === "emails" ? T.text : T.textDim, fontSize: 12, fontWeight: page === "emails" ? 600 : 400, cursor: "pointer", fontFamily: "inherit", boxShadow: page === "emails" ? "0 1px 3px rgba(0,0,0,0.08)" : "none" }}>All Emails</button>
-        </div>
-        <div style={{ flex: 1 }} />
-        <div style={{ display: "flex", gap: 4 }}>
-          {[{ id: "dave", label: "\u2605 Dave" }, { id: "france", label: "\u270E France" }, { id: "all", label: "All" }].map(r => (
-            <button key={r.id} onClick={() => setRole(r.id)} style={{ padding: "5px 14px", borderRadius: 7, border: `1px solid ${role === r.id ? T.accent : T.border}`, background: role === r.id ? T.accentLight : T.surface, color: role === r.id ? T.accent : T.textMid, fontSize: 12, fontWeight: role === r.id ? 600 : 400, cursor: "pointer", fontFamily: "inherit" }}>{r.label}</button>
+      <div style={{ background: T.surface, borderBottom: `1px solid ${T.border}`, padding: 0, height: 52, display: "flex", alignItems: "stretch", flexShrink: 0 }}>
+        {/* Left: Logo + JARVIS badge + Nav Tabs as unified menu bar */}
+        <div style={{ display: "flex", alignItems: "center", gap: 0 }}>
+          {/* Brand mark */}
+          <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "0 20px", height: "100%" }}>
+            <svg width="20" height="24" viewBox="0 0 22 26" fill="none">
+              <path d="M4 26L0 22V8L4 4V26Z" fill="#1a2140"/>
+              <path d="M10 22L6 18V4L10 0V22Z" fill="#2a3a6a"/>
+            </svg>
+            {!mob && <span style={{ fontSize: 11, fontWeight: 500, color: "#1a2140", letterSpacing: 2.2, textTransform: "uppercase", fontFamily: "'Inter',sans-serif" }}>Galaxy Capital Partners</span>}
+            <div style={{ width: 22, height: 22, borderRadius: 5, background: "linear-gradient(135deg,#6366f1,#8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 9, fontWeight: 800, color: "#fff", marginLeft: mob ? 4 : 6 }}>J</div>
+          </div>
+          {/* Divider */}
+          <div style={{ width: 1, height: 24, background: T.border }} />
+          {/* Nav tabs — flush with logo */}
+          {[
+            { id: "queue", label: "Decision Queue", icon: "\u26A1" },
+            { id: "emails", label: "All Emails", icon: "\u2709" },
+            { id: "contacts", label: "Contacts", icon: "\u263A" },
+          ].map(tab => (
+            <button key={tab.id} onClick={() => setPage(tab.id)} style={{
+              padding: mob ? "0 12px" : "0 20px", height: "100%", border: "none",
+              background: "transparent", cursor: "pointer", fontFamily: "inherit",
+              display: "flex", alignItems: "center", gap: 6,
+              color: page === tab.id ? T.accent : T.textMid,
+              fontSize: 12.5, fontWeight: page === tab.id ? 600 : 400,
+              borderBottom: page === tab.id ? `2px solid ${T.accent}` : "2px solid transparent",
+              transition: "all 150ms",
+            }}>
+              <span style={{ fontSize: 13 }}>{tab.icon}</span>
+              {!mob && tab.label}
+            </button>
           ))}
         </div>
-        <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-          <span style={{ fontSize: 10, padding: "3px 8px", borderRadius: 12, fontWeight: 600, background: live === "live" ? T.greenBg : T.yellowBg, color: live === "live" ? T.greenText : T.yellowText, border: `1px solid ${live === "live" ? "#bbf7d0" : "#fef08a"}` }}>
+        {/* Right side controls */}
+        <div style={{ flex: 1 }} />
+        <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "0 20px" }}>
+          {/* Role switcher */}
+          <div style={{ display: "flex", gap: 3 }}>
+            {[{ id: "dave", label: "\u2605 Dave" }, { id: "france", label: "\u270E France" }, { id: "all", label: "All" }].map(r => (
+              <button key={r.id} onClick={() => setRole(r.id)} style={{ padding: "4px 12px", borderRadius: 6, border: `1px solid ${role === r.id ? T.accent : T.border}`, background: role === r.id ? T.accentLight : "transparent", color: role === r.id ? T.accent : T.textMid, fontSize: 11, fontWeight: role === r.id ? 600 : 400, cursor: "pointer", fontFamily: "inherit" }}>{r.label}</button>
+            ))}
+          </div>
+          {/* Status indicators */}
+          <span style={{ fontSize: 9, padding: "2px 7px", borderRadius: 10, fontWeight: 600, background: live === "live" ? T.greenBg : T.yellowBg, color: live === "live" ? T.greenText : T.yellowText, border: `1px solid ${live === "live" ? "#bbf7d0" : "#fef08a"}` }}>
             {live === "live" ? "\u25CF LIVE" : "DEMO"}
           </span>
-          <div style={{ padding: "5px 14px", borderRadius: 20, background: filtered.length > 0 ? T.redBg : T.greenBg, fontSize: 12, fontWeight: 600, color: filtered.length > 0 ? T.redText : T.greenText, border: `1px solid ${filtered.length > 0 ? "#fecaca" : "#bbf7d0"}` }}>
+          <div style={{ padding: "3px 12px", borderRadius: 16, background: filtered.length > 0 ? T.redBg : T.greenBg, fontSize: 11, fontWeight: 600, color: filtered.length > 0 ? T.redText : T.greenText, border: `1px solid ${filtered.length > 0 ? "#fecaca" : "#bbf7d0"}` }}>
             {filtered.length > 0 ? `${filtered.length} pending` : "\u2713 Clear"}
           </div>
+          {!mob && meta && <span style={{ fontSize: 10, color: T.textDim }}>{meta.total} scanned</span>}
+          <button onClick={() => { localStorage.removeItem(AK); window.location.reload(); }} style={{ padding: "4px 10px", border: `1px solid ${T.border}`, background: "transparent", color: T.textDim, borderRadius: 6, fontSize: 10, cursor: "pointer", fontFamily: "inherit" }}>Sign Out</button>
         </div>
-        {!mob && meta && <span style={{ fontSize: 10, color: T.textDim }}>{meta.total} scanned</span>}
-        <button onClick={() => { localStorage.removeItem(AK); window.location.reload(); }} style={{ padding: "5px 12px", border: `1px solid ${T.border}`, background: T.surface, color: T.textDim, borderRadius: 7, fontSize: 11, cursor: "pointer", fontFamily: "inherit" }}>Sign Out</button>
       </div>
 
       {/* BODY */}
@@ -688,9 +707,530 @@ function Dashboard() {
           </div>
         )}
       </div>
+      ) : page === "contacts" ? (
+        /* ═══ CONTACTS PAGE ═══ */
+        <ContactsPage data={data} mob={mob} />
       ) : (
         /* ═══ ALL EMAILS PAGE ═══ */
         <AllEmailsPage data={data} upd={upd} mob={mob} />
+      )}
+    </div>
+  );
+}
+
+// ═══ ENRICHED CONTACT DATABASE — from Ops Handbook + web research + email history ═══
+const CONTACTS_DB = {
+  "dave@galaxydatacenters.com": { role: "Co-Founder & Managing Partner", company: "Galaxy Capital Partners", tier: "Internal", dept: "Executive", phone: "+1 (650) 448-9588", location: "Oakville, ON" },
+  "ash@galaxycapitalpartners.com": { role: "Co-Founder & Managing Partner", company: "Galaxy Capital Partners", tier: "Internal", dept: "Executive" },
+  "paul@galaxydatacenters.com": { role: "Chief Financial Officer", company: "Galaxy Capital Partners", tier: "Internal", dept: "Executive" },
+  "ashley@galaxydatacenters.com": { role: "VP, Commercial", company: "Galaxy Data Centres", tier: "Internal", dept: "Commercial" },
+  "sai@galaxydatacenters.com": { role: "Growth Lead / Fractional CMO (Solaris)", company: "Galaxy Data Centres", tier: "Internal", dept: "Marketing" },
+  "animesh@galaxydatacenters.com": { role: "Strategy & Ops Lead (Solaris)", company: "Galaxy Data Centres", tier: "Internal", dept: "Marketing" },
+  "rj@galaxydatacenters.com": { role: "Engineering Director", company: "Galaxy Data Centres", tier: "Internal", dept: "Engineering" },
+  "rodrigo@galaxydatacenters.com": { role: "IT Lead — M365 Modernisation", company: "Galaxy Data Centres", tier: "Internal", dept: "IT" },
+  "tj@galaxydatacenters.com": { role: "Technical Operations", company: "Galaxy Data Centres", tier: "Internal", dept: "Operations" },
+  "luke.gray@redhilldatacentre.com": { role: "Data Centre Manager", company: "Redhill Data Centre", tier: "Internal", dept: "Site Ops" },
+  "colin.bell@redhilldatacentre.com": { role: "Site Service Delivery Mgr", company: "Redhill Data Centre", tier: "Internal", dept: "Site Ops" },
+  "colin.bell@galaxydatacenters.com": { role: "Site Service Delivery Mgr", company: "Redhill Data Centre", tier: "Internal", dept: "Site Ops" },
+  "fredy.marie-emilienne@redhilldatacentre.com": { role: "Sr. Site Engineer Manager", company: "Redhill Data Centre", tier: "Internal", dept: "Site Ops" },
+  "benjamin.tyson@redhilldatacentre.com": { role: "Site Supervisor", company: "Redhill Data Centre", tier: "Internal", dept: "Site Ops" },
+  "finance@redhilldatacentre.com": { role: "Accounts Admin", company: "Redhill Data Centre", tier: "Internal", dept: "Finance" },
+  "kuido.raud@redhilldatacentre.com": { role: "Site Security Officer", company: "Redhill Data Centre", tier: "Internal", dept: "Security" },
+  "pelle.jorgen@castleforge.com": { role: "Asset Manager", company: "Castleforge Partners", tier: "VIP", dept: "Capital Partner" },
+  "kirstin.dunn@castleforge.com": { role: "Legal Counsel", company: "Castleforge Partners", tier: "VIP" },
+  "jamie.thirlwall@castleforge.com": { role: "Fund Finance / Accounts", company: "Castleforge Partners", tier: "VIP" },
+  "mike.adcock@castleforge.com": { role: "Portfolio Manager", company: "Castleforge Partners", tier: "VIP" },
+  "matthew.reid@castleforge.com": { role: "Development Director", company: "Castleforge Partners", tier: "VIP" },
+  "tom.porrill@castleforge.com": { role: "Development Manager", company: "Castleforge Partners", tier: "VIP" },
+  "neil.smith@castleforge.com": { role: "Chief Financial Officer", company: "Castleforge Partners", tier: "VIP" },
+  "peter.cameron@langhamhall.com": { role: "Fund Administrator / Signatory", company: "Langham Hall", tier: "Tier 1" },
+  "barry.gross@simmons-simmons.com": { role: "Partner, Legal Counsel", company: "Simmons & Simmons", tier: "Tier 1" },
+  "john.hall@techreconsulting.com": { role: "Board Member & DC Consultant", company: "TechRE Consulting", tier: "VIP" },
+  "chris.lillie@uk.cdw.com": { role: "Account Director", company: "CDW", tier: "Tier 1" },
+  "dmcneish@travelers.com": { role: "VP Infrastructure", company: "Travelers", tier: "Tier 1" },
+  "holly.winch@savills.com": { role: "Director, DC Advisory EMEA", company: "Savills", tier: "Tier 1" },
+  "max_ellery@gb.smbcgroup.com": { role: "VP, Project Finance", company: "SMBC", tier: "Tier 1" },
+  "henry.gray@cbre.com": { role: "Director, Data Centres", company: "CBRE", tier: "VIP" },
+  "fiona.leon@drt.co.uk": { role: "Partnership Manager", company: "Digital Realty Trust", tier: "Tier 1" },
+  "fional@digitalrealty.com": { role: "Partnership Manager", company: "Digital Realty Trust", tier: "Tier 1" },
+  "candace@jsa.net": { role: "PR Manager", company: "JSA", tier: "Tier 1" },
+  "christopher.pooley@virginmediao2.co.uk": { role: "Connectivity Solutions", company: "VMO2", tier: "Tier 1" },
+  "charlie.byrne@zayo.com": { role: "Account Manager", company: "Zayo Europe", tier: "Tier 1" },
+  "tom.babbington@adaptive-mdc.com": { role: "Managing Director", company: "Adaptive MDC", tier: "Tier 2" },
+  "oberholzner@innogate.at": { role: "Managing Director", company: "Innogate", tier: "Tier 2" },
+  "matthew.welch@datacenternation.com": { role: "Conference Director", company: "DCN", tier: "Tier 2" },
+  "ben-ami@astracapitalmgmt.com": { role: "Fund Manager", company: "Astra Capital", tier: "Tier 2" },
+  "drew@zendoenergy.com": { role: "Business Development", company: "Zendo Energy", tier: "Tier 2" },
+  "rishi@malhangroup.com": { role: "Principal", company: "Malhan Group", tier: "Tier 2" },
+  "victoria@polanddc.pl": { role: "Director", company: "Poland DC", tier: "Tier 2" },
+  "marcus.bartolini@gmail.com": { role: "Market Intel", company: "2020 Capital", tier: "Tier 2" },
+  "microsoft-noreply@microsoft.com": { role: "System Notification", company: "Microsoft", tier: "Tier 2" },
+};
+
+function ContactsPage({ data, mob }) {
+  const [search, setSearch] = useState("");
+  const [filter, setFilter] = useState("all");
+  const [selContact, setSelContact] = useState(null);
+  const [groupBy, setGroupBy] = useState("company");
+  const [showAdd, setShowAdd] = useState(false);
+  const [customContacts, setCustomContacts] = useState([]);
+  const [addForm, setAddForm] = useState({ name: "", email: "", company: "", role: "", tier: "Tier 2", phone: "", dept: "", deal: "" });
+
+  // Load custom contacts from persistent storage on mount
+  useEffect(() => {
+    async function loadCustom() {
+      try {
+        const r = await window.storage?.get("jarvis_custom_contacts");
+        if (r?.value) setCustomContacts(JSON.parse(r.value));
+      } catch { /* fallback: try localStorage */
+        try { const ls = JSON.parse(localStorage.getItem("jarvis_custom_contacts") || "[]"); setCustomContacts(ls); } catch {}
+      }
+    }
+    loadCustom();
+  }, []);
+
+  // Save custom contacts to persistent storage
+  const saveCustom = useCallback(async (arr) => {
+    setCustomContacts(arr);
+    const json = JSON.stringify(arr);
+    try { await window.storage?.set("jarvis_custom_contacts", json); } catch {}
+    try { localStorage.setItem("jarvis_custom_contacts", json); } catch {}
+  }, []);
+
+  const addContact = () => {
+    if (!addForm.name.trim() || !addForm.email.trim()) return;
+    const existing = customContacts.filter(c => c.email !== addForm.email.toLowerCase().trim());
+    const nc = { ...addForm, email: addForm.email.toLowerCase().trim(), addedAt: new Date().toISOString() };
+    saveCustom([...existing, nc]);
+    setAddForm({ name: "", email: "", company: "", role: "", tier: "Tier 2", phone: "", dept: "", deal: "" });
+    setShowAdd(false);
+  };
+
+  const deleteCustomContact = (email) => {
+    saveCustom(customContacts.filter(c => c.email !== email));
+    if (selContact === email) setSelContact(null);
+  };
+
+  // Extract unique contacts from all email data, enriched with CONTACTS_DB
+  const contacts = useMemo(() => {
+    const map = {};
+    data.forEach(e => {
+      const key = (e.email || "").toLowerCase().trim();
+      if (!key || key === "unknown") return;
+      const db = CONTACTS_DB[key];
+      if (!map[key]) {
+        let tier = db?.tier || "Tier 2";
+        if (!db) {
+          const lowerAll = `${e.from} ${e.company} ${e.email} ${e.tier || ""}`.toLowerCase();
+          const internalDomains = ["galaxydatacenters.com", "galaxycapitalpartners.com", "redhilldatacentre.com"];
+          const vipPatterns = ["castleforge", "smbc", "travelers", "nomura", "arm", "google", "cbre", "savills", "jll", "knight frank", "zayo", "colt", "lumen", "cdw", "techre"];
+          if (internalDomains.some(d => key.includes(d))) tier = "Internal";
+          else if (vipPatterns.some(v => lowerAll.includes(v))) tier = "VIP";
+          else if ((e.tier || "").toUpperCase().includes("TIER 1") || (e.tier || "").toUpperCase().includes("PIPELINE VIP")) tier = "Tier 1";
+          else if ((e.tier || "").toUpperCase().includes("VIP")) tier = "VIP";
+        }
+        map[key] = {
+          name: e.from || "Unknown", email: key,
+          company: db?.company || e.company || "",
+          role: db?.role || "", dept: db?.dept || "",
+          phone: db?.phone || "", location: db?.location || "",
+          tier,
+          avatar: e.avatar || (e.from || "?").split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase(),
+          color: e.color || "#6366f1",
+          deals: new Set(), emails: [], lastDate: e.date || "", jarvisNotes: [],
+        };
+      }
+      const c = map[key];
+      c.emails.push({ subject: e.subject, date: e.date, time: e.time, label: e.label, stage: e.stage, jarvis: e.jarvis, action: e.action, reply: e.reply, deal: e.deal });
+      if (e.deal) c.deals.add(e.deal);
+      if (e.jarvis && !c.jarvisNotes.includes(e.jarvis)) c.jarvisNotes.push(e.jarvis);
+      if (e.date && e.date > c.lastDate) { c.lastDate = e.date; c.name = e.from || c.name; if (!db) c.company = e.company || c.company; }
+    });
+
+    // Merge in manually-added custom contacts
+    customContacts.forEach(cc => {
+      const key = cc.email;
+      if (!map[key]) {
+        map[key] = {
+          name: cc.name, email: key, company: cc.company || "", role: cc.role || "",
+          dept: cc.dept || "", phone: cc.phone || "", location: "",
+          tier: cc.tier || "Tier 2",
+          avatar: (cc.name || "?").split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase(),
+          color: cc.tier === "Internal" ? "#0ea5e9" : cc.tier === "VIP" ? "#dc2626" : "#6366f1",
+          deals: new Set(), emails: [], lastDate: cc.addedAt ? cc.addedAt.slice(0, 10) : "", jarvisNotes: [],
+          isCustom: true,
+        };
+      } else {
+        // Enrich existing contact with custom data if provided
+        if (cc.role && !map[key].role) map[key].role = cc.role;
+        if (cc.company && !map[key].company) map[key].company = cc.company;
+        if (cc.phone && !map[key].phone) map[key].phone = cc.phone;
+        if (cc.dept && !map[key].dept) map[key].dept = cc.dept;
+      }
+      if (cc.deal && map[key]) map[key].deals.add(cc.deal);
+    });
+
+    return Object.values(map).map(c => ({
+      ...c, deals: [...c.deals], emailCount: c.emails.length,
+      emails: c.emails.sort((a, b) => (b.date || "").localeCompare(a.date || "")),
+    })).sort((a, b) => (b.lastDate || "").localeCompare(a.lastDate || ""));
+  }, [data, customContacts]);
+
+  // Filtered contacts
+  const filtered = useMemo(() => {
+    let r = contacts;
+    if (filter === "internal") r = r.filter(c => c.tier === "Internal");
+    else if (filter === "external") r = r.filter(c => c.tier !== "Internal");
+    else if (filter === "vip") r = r.filter(c => c.tier === "VIP" || c.tier === "Tier 1");
+    if (search.trim()) {
+      const s = search.toLowerCase();
+      r = r.filter(c => c.name.toLowerCase().includes(s) || c.company.toLowerCase().includes(s) || c.email.includes(s) || (c.role || "").toLowerCase().includes(s) || c.deals.some(d => d.toLowerCase().includes(s)));
+    }
+    return r;
+  }, [contacts, filter, search]);
+
+  // Grouped contacts — Galaxy entities always first
+  const GALAXY_COMPANIES = ["Galaxy Capital Partners", "Galaxy Data Centres", "Galaxy", "Galaxy IT", "Redhill Data Centre", "Redhill DC"];
+  const isGalaxy = (name) => GALAXY_COMPANIES.some(g => name.toLowerCase().includes(g.toLowerCase()) || g.toLowerCase().includes(name.toLowerCase()));
+
+  const grouped = useMemo(() => {
+    if (groupBy === "company") {
+      const g = {};
+      filtered.forEach(c => { const k = c.company || "No Company"; if (!g[k]) g[k] = []; g[k].push(c); });
+      const entries = Object.entries(g);
+      const galaxy = entries.filter(([k]) => isGalaxy(k)).sort((a, b) => b[1].length - a[1].length);
+      const external = entries.filter(([k]) => !isGalaxy(k)).sort((a, b) => b[1].length - a[1].length);
+      return [...galaxy, ...external];
+    }
+    if (groupBy === "tier") {
+      const order = ["Internal", "VIP", "Tier 1", "Tier 2"];
+      const g = {};
+      filtered.forEach(c => { if (!g[c.tier]) g[c.tier] = []; g[c.tier].push(c); });
+      return order.filter(k => g[k]).map(k => [k, g[k]]);
+    }
+    // alpha
+    const g = {};
+    filtered.forEach(c => { const k = (c.name[0] || "?").toUpperCase(); if (!g[k]) g[k] = []; g[k].push(c); });
+    return Object.entries(g).sort((a, b) => a[0].localeCompare(b[0]));
+  }, [filtered, groupBy]);
+
+  const tierColors = {
+    VIP: { bg: "#fef2f2", c: "#dc2626", border: "#fecaca" },
+    "Tier 1": { bg: "#fff7ed", c: "#ea580c", border: "#fed7aa" },
+    Internal: { bg: "#f0f9ff", c: "#0369a1", border: "#bae6fd" },
+    "Tier 2": { bg: "#f8fafc", c: "#64748b", border: "#e2e8f0" },
+  };
+
+  const sel = selContact ? contacts.find(c => c.email === selContact) : null;
+  const F = "'DM Sans',system-ui,sans-serif";
+  const FM = "'DM Mono','JetBrains Mono',monospace";
+
+  return (
+    <div style={{ flex: 1, display: "flex", overflow: "hidden", position: "relative" }}>
+      {/* ═══ ADD CONTACT MODAL ═══ */}
+      {showAdd && (
+        <div style={{ position: "absolute", inset: 0, zIndex: 100, background: "rgba(0,0,0,0.35)", display: "flex", alignItems: "center", justifyContent: "center", backdropFilter: "blur(4px)" }} onClick={() => setShowAdd(false)}>
+          <div onClick={e => e.stopPropagation()} style={{
+            width: mob ? "92%" : 440, maxHeight: "90vh", overflowY: "auto", background: T.surface, borderRadius: 16,
+            boxShadow: "0 24px 80px rgba(0,0,0,0.18)", padding: "28px 32px", border: `1px solid ${T.border}`,
+          }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 24 }}>
+              <h3 style={{ fontSize: 18, fontWeight: 700, color: T.text, margin: 0, fontFamily: F }}>Add Contact</h3>
+              <button onClick={() => setShowAdd(false)} style={{ background: "none", border: "none", fontSize: 18, color: T.textDim, cursor: "pointer", padding: "4px 8px" }}>{"\u2715"}</button>
+            </div>
+            {[
+              { key: "name", label: "Full Name *", placeholder: "e.g. John Smith" },
+              { key: "email", label: "Email *", placeholder: "john@company.com" },
+              { key: "company", label: "Company", placeholder: "e.g. Castleforge Partners" },
+              { key: "role", label: "Role / Title", placeholder: "e.g. VP, Commercial" },
+              { key: "phone", label: "Phone", placeholder: "+44 7XXX XXXXXX" },
+              { key: "dept", label: "Department", placeholder: "e.g. Finance, Ops" },
+              { key: "deal", label: "Deal Association", placeholder: "e.g. Redhill 18MW" },
+            ].map(f => (
+              <div key={f.key} style={{ marginBottom: 14 }}>
+                <label style={{ fontSize: 10, fontWeight: 700, color: T.textDim, letterSpacing: 0.8, textTransform: "uppercase", display: "block", marginBottom: 5, fontFamily: F }}>{f.label}</label>
+                <input value={addForm[f.key]} onChange={e => setAddForm(p => ({ ...p, [f.key]: e.target.value }))} placeholder={f.placeholder}
+                  onKeyDown={e => { if (e.key === "Enter" && f.key === "deal") addContact(); }}
+                  style={{ width: "100%", padding: "9px 14px", borderRadius: 8, border: `1px solid ${T.border}`, background: T.bg, fontSize: 13, color: T.text, outline: "none", fontFamily: F, boxSizing: "border-box" }} />
+              </div>
+            ))}
+            <div style={{ marginBottom: 20 }}>
+              <label style={{ fontSize: 10, fontWeight: 700, color: T.textDim, letterSpacing: 0.8, textTransform: "uppercase", display: "block", marginBottom: 5, fontFamily: F }}>Tier</label>
+              <div style={{ display: "flex", gap: 6 }}>
+                {["Internal", "VIP", "Tier 1", "Tier 2"].map(t => (
+                  <button key={t} onClick={() => setAddForm(p => ({ ...p, tier: t }))} style={{
+                    padding: "6px 14px", borderRadius: 8, border: `1px solid ${addForm.tier === t ? T.accent : T.border}`,
+                    background: addForm.tier === t ? T.accentLight : T.surface, color: addForm.tier === t ? T.accent : T.textMid,
+                    fontSize: 11, fontWeight: addForm.tier === t ? 600 : 400, cursor: "pointer", fontFamily: F,
+                  }}>{t}</button>
+                ))}
+              </div>
+            </div>
+            <div style={{ display: "flex", gap: 10 }}>
+              <button onClick={() => setShowAdd(false)} style={{ flex: 1, padding: "11px 0", borderRadius: 10, border: `1px solid ${T.border}`, background: T.surface, color: T.textMid, fontSize: 13, fontWeight: 500, cursor: "pointer", fontFamily: F }}>Cancel</button>
+              <button onClick={addContact} disabled={!addForm.name.trim() || !addForm.email.trim()} style={{
+                flex: 1, padding: "11px 0", borderRadius: 10, border: "none",
+                background: addForm.name.trim() && addForm.email.trim() ? "linear-gradient(135deg,#6366f1,#8b5cf6)" : "#e5e7eb",
+                color: addForm.name.trim() && addForm.email.trim() ? "#fff" : "#9ca3af",
+                fontSize: 13, fontWeight: 600, cursor: addForm.name.trim() && addForm.email.trim() ? "pointer" : "not-allowed", fontFamily: F,
+                boxShadow: addForm.name.trim() && addForm.email.trim() ? "0 2px 12px rgba(99,102,241,0.3)" : "none",
+              }}>Save Contact</button>
+            </div>
+          </div>
+        </div>
+      )}
+      {/* LEFT PANEL — Contact List */}
+      <div style={{ width: sel && !mob ? 420 : "100%", maxWidth: sel && !mob ? 420 : undefined, flexShrink: 0, overflowY: "auto", background: T.bg, borderRight: sel ? `1px solid ${T.border}` : "none", transition: "width 200ms" }}>
+        {/* Search + Filter Bar */}
+        <div style={{ padding: "20px 24px 0", position: "sticky", top: 0, background: T.bg, zIndex: 5 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
+            <div style={{ flex: 1, position: "relative" }}>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#a1a1aa" strokeWidth="2" style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)" }}><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search contacts, companies, deals..." style={{
+                width: "100%", padding: "10px 14px 10px 36px", borderRadius: 10, border: `1px solid ${T.border}`,
+                background: T.surface, fontSize: 13, color: T.text, outline: "none", fontFamily: F, boxSizing: "border-box",
+              }} />
+            </div>
+            <span style={{ fontSize: 12, color: T.textDim, fontFamily: FM, whiteSpace: "nowrap" }}>{filtered.length}</span>
+            <button onClick={() => setShowAdd(true)} style={{
+              padding: "6px 14px", borderRadius: 8, border: "none",
+              background: "linear-gradient(135deg,#6366f1,#8b5cf6)", color: "#fff",
+              fontSize: 11, fontWeight: 600, cursor: "pointer", fontFamily: F,
+              display: "flex", alignItems: "center", gap: 4, whiteSpace: "nowrap",
+              boxShadow: "0 2px 8px rgba(99,102,241,0.25)",
+            }}>+ Add</button>
+          </div>
+          {/* Filter pills */}
+          <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
+            {[{ id: "all", label: "All" }, { id: "vip", label: "VIP / Tier 1" }, { id: "external", label: "External" }, { id: "internal", label: "Internal" }].map(f => (
+              <button key={f.id} onClick={() => setFilter(f.id)} style={{
+                padding: "5px 14px", borderRadius: 20, border: `1px solid ${filter === f.id ? T.accent : T.border}`,
+                background: filter === f.id ? T.accentLight : T.surface, color: filter === f.id ? T.accent : T.textMid,
+                fontSize: 11, fontWeight: filter === f.id ? 600 : 400, cursor: "pointer", fontFamily: F,
+              }}>{f.label}</button>
+            ))}
+            <div style={{ flex: 1 }} />
+            {/* Group by selector */}
+            <select value={groupBy} onChange={e => setGroupBy(e.target.value)} style={{
+              padding: "5px 10px", borderRadius: 8, border: `1px solid ${T.border}`, background: T.surface,
+              fontSize: 11, color: T.textMid, cursor: "pointer", fontFamily: F, outline: "none",
+            }}>
+              <option value="company">Group: Company</option>
+              <option value="tier">Group: Tier</option>
+              <option value="alpha">Group: A–Z</option>
+            </select>
+          </div>
+        </div>
+
+        {/* Contact List */}
+        <div style={{ padding: "0 24px 24px" }}>
+          {grouped.map(([groupName, groupContacts]) => (
+            <div key={groupName} style={{ marginBottom: 20 }}>
+              {/* Group header */}
+              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
+                <div style={{ fontSize: 10, fontWeight: 700, color: T.textDim, letterSpacing: 1.2, textTransform: "uppercase", fontFamily: F }}>{groupName}</div>
+                <div style={{ flex: 1, height: 1, background: T.borderLight }} />
+                <span style={{ fontSize: 10, color: T.textDim, fontFamily: FM }}>{groupContacts.length}</span>
+              </div>
+              {/* Contact rows */}
+              <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                {groupContacts.map(c => {
+                  const tc = tierColors[c.tier] || tierColors["Tier 2"];
+                  const isActive = selContact === c.email;
+                  return (
+                    <div key={c.email} onClick={() => setSelContact(isActive ? null : c.email)} style={{
+                      display: "flex", alignItems: "center", gap: 12, padding: "12px 16px",
+                      background: isActive ? T.accentLight : T.surface,
+                      borderRadius: 12, border: `1px solid ${isActive ? T.accentBorder : T.borderLight}`,
+                      cursor: "pointer", transition: "all 150ms",
+                    }}>
+                      {/* Avatar */}
+                      <div style={{
+                        width: 38, height: 38, borderRadius: 10, flexShrink: 0,
+                        background: `${c.color}12`, border: `1.5px solid ${c.color}25`,
+                        display: "flex", alignItems: "center", justifyContent: "center",
+                        fontSize: 12, fontWeight: 700, color: c.color, fontFamily: F,
+                      }}>{c.avatar}</div>
+                      {/* Info */}
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                          <span style={{ fontSize: 13, fontWeight: 600, color: T.text, fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{c.name}</span>
+                          <span style={{
+                            fontSize: 9, fontWeight: 700, padding: "1px 7px", borderRadius: 4,
+                            background: tc.bg, color: tc.c, border: `1px solid ${tc.border}`,
+                            letterSpacing: 0.4, flexShrink: 0,
+                          }}>{c.tier.toUpperCase()}</span>
+                        </div>
+                        <div style={{ fontSize: 11, color: T.textDim, fontFamily: F, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                          {c.role ? c.role : c.company}{c.role && c.deals.length > 0 ? ` · ${c.deals[0]}` : !c.role && c.deals.length > 0 ? ` · ${c.deals[0]}` : ""}
+                        </div>
+                      </div>
+                      {/* Right side stats */}
+                      <div style={{ textAlign: "right", flexShrink: 0 }}>
+                        <div style={{ fontSize: 11, color: T.textMid, fontFamily: FM }}>{c.emailCount}</div>
+                        <div style={{ fontSize: 10, color: T.textDim, fontFamily: F }}>{c.lastDate ? dateLabel(c.lastDate) : ""}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+          {filtered.length === 0 && (
+            <div style={{ padding: 40, textAlign: "center" }}>
+              <div style={{ fontSize: 32, marginBottom: 12 }}>{"\uD83D\uDD0D"}</div>
+              <div style={{ fontSize: 14, fontWeight: 600, color: T.text, marginBottom: 4, fontFamily: F }}>No contacts found</div>
+              <div style={{ fontSize: 12, color: T.textDim, fontFamily: F }}>Try adjusting your search or filters</div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* RIGHT PANEL — Contact Detail */}
+      {sel && (
+        <div style={{ flex: 1, overflowY: "auto", background: T.surface, padding: mob ? 20 : "28px 36px" }}>
+          {/* Close button on mobile */}
+          {mob && (
+            <button onClick={() => setSelContact(null)} style={{
+              marginBottom: 16, padding: "6px 16px", borderRadius: 8, border: `1px solid ${T.border}`,
+              background: T.surface, color: T.textMid, fontSize: 12, cursor: "pointer", fontFamily: F,
+            }}>{"\u2190"} Back</button>
+          )}
+
+          {/* Contact Header */}
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 20, marginBottom: 28 }}>
+            <div style={{
+              width: 64, height: 64, borderRadius: 16, flexShrink: 0,
+              background: `linear-gradient(135deg, ${sel.color}18, ${sel.color}08)`,
+              border: `2px solid ${sel.color}20`,
+              display: "flex", alignItems: "center", justifyContent: "center",
+              fontSize: 20, fontWeight: 700, color: sel.color, fontFamily: F,
+            }}>{sel.avatar}</div>
+            <div style={{ flex: 1 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
+                <h2 style={{ fontSize: 22, fontWeight: 700, color: T.text, margin: 0, fontFamily: F }}>{sel.name}</h2>
+                {(() => { const tc = tierColors[sel.tier] || tierColors["Tier 2"]; return (
+                  <span style={{ fontSize: 10, fontWeight: 700, padding: "3px 10px", borderRadius: 6, background: tc.bg, color: tc.c, border: `1px solid ${tc.border}`, letterSpacing: 0.5 }}>{sel.tier.toUpperCase()}</span>
+                ); })()}
+              </div>
+              <div style={{ fontSize: 13, color: T.textMid, marginBottom: 4, fontFamily: F }}>{sel.role ? `${sel.role}${sel.company ? ` — ${sel.company}` : ""}` : sel.company}</div>
+              {sel.dept && <div style={{ fontSize: 11, color: T.textDim, marginBottom: 4, fontFamily: F }}>Dept: {sel.dept}</div>}
+              <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
+                <span style={{ fontSize: 12, color: T.textDim, fontFamily: FM }}>{sel.email}</span>
+                {sel.phone && <span style={{ fontSize: 11, color: T.accent, fontFamily: F }}>{sel.phone}</span>}
+                {sel.location && <span style={{ fontSize: 11, color: T.textDim, fontFamily: F }}>{sel.location}</span>}
+              </div>
+            </div>
+          </div>
+
+          {/* Custom contact badge + delete */}
+          {sel.isCustom && (
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16, padding: "10px 14px", background: "#fefce8", borderRadius: 10, border: "1px solid #fef08a" }}>
+              <span style={{ fontSize: 11, fontWeight: 600, color: "#92400e", fontFamily: F, flex: 1 }}>Manually added contact — saved to persistent storage</span>
+              <button onClick={() => { if (confirm("Delete this custom contact?")) deleteCustomContact(sel.email); }} style={{
+                padding: "5px 12px", borderRadius: 6, border: `1px solid ${T.red}40`, background: T.redBg,
+                color: T.redText, fontSize: 10, fontWeight: 600, cursor: "pointer", fontFamily: F,
+              }}>Delete</button>
+            </div>
+          )}
+
+          {/* Stats Row */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 10, marginBottom: 28 }}>
+            <div style={{ padding: "14px 16px", background: T.bg, borderRadius: 12, border: `1px solid ${T.borderLight}` }}>
+              <div style={{ fontSize: 9, fontWeight: 700, color: T.textDim, letterSpacing: 1, textTransform: "uppercase", marginBottom: 6, fontFamily: F }}>Emails</div>
+              <div style={{ fontSize: 22, fontWeight: 700, color: T.text, fontFamily: FM }}>{sel.emailCount}</div>
+            </div>
+            <div style={{ padding: "14px 16px", background: T.bg, borderRadius: 12, border: `1px solid ${T.borderLight}` }}>
+              <div style={{ fontSize: 9, fontWeight: 700, color: T.textDim, letterSpacing: 1, textTransform: "uppercase", marginBottom: 6, fontFamily: F }}>Deals</div>
+              <div style={{ fontSize: 22, fontWeight: 700, color: T.accent, fontFamily: FM }}>{sel.deals.length}</div>
+            </div>
+            <div style={{ padding: "14px 16px", background: T.bg, borderRadius: 12, border: `1px solid ${T.borderLight}` }}>
+              <div style={{ fontSize: 9, fontWeight: 700, color: T.textDim, letterSpacing: 1, textTransform: "uppercase", marginBottom: 6, fontFamily: F }}>Last Contact</div>
+              <div style={{ fontSize: 14, fontWeight: 600, color: T.text, fontFamily: F }}>{sel.lastDate ? dateLabel(sel.lastDate) : "—"}</div>
+            </div>
+          </div>
+
+          {/* Deal Associations */}
+          {sel.deals.length > 0 && (
+            <div style={{ marginBottom: 28 }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: T.textDim, letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 12, fontFamily: F }}>Deal Associations</div>
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                {sel.deals.map(d => (
+                  <div key={d} style={{
+                    padding: "8px 16px", borderRadius: 10,
+                    background: T.accentLight, border: `1px solid ${T.accentBorder}`,
+                    fontSize: 12, fontWeight: 600, color: T.accentText, fontFamily: F,
+                  }}>{d}</div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* JARVIS Notes */}
+          {sel.jarvisNotes.length > 0 && (
+            <div style={{ marginBottom: 28 }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: T.textDim, letterSpacing: 1.2, textTransform: "uppercase", marginBottom: 12, fontFamily: F }}>JARVIS Notes</div>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                {sel.jarvisNotes.slice(0, 5).map((note, i) => (
+                  <div key={i} style={{
+                    padding: "12px 16px", borderRadius: 10,
+                    background: T.accentLight, border: `1px solid ${T.accentBorder}`,
+                  }}>
+                    <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                      <span style={{ fontSize: 12, flexShrink: 0 }}>{"\u2728"}</span>
+                      <p style={{ fontSize: 12.5, color: T.accentText, lineHeight: 1.6, margin: 0, fontFamily: F }}>{note}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Email History */}
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+              <div style={{ fontSize: 10, fontWeight: 700, color: T.textDim, letterSpacing: 1.2, textTransform: "uppercase", fontFamily: F }}>Email History</div>
+              <div style={{ flex: 1, height: 1, background: T.borderLight }} />
+              <span style={{ fontSize: 10, color: T.textDim, fontFamily: FM }}>{sel.emails.length} emails</span>
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+              {sel.emails.map((em, i) => {
+                const ug = URG[em.label] || URG.NOTABLE;
+                const sg = STAGES.find(s => s.id === em.stage);
+                return (
+                  <div key={i} style={{
+                    padding: "14px 18px", background: T.bg, borderRadius: 12,
+                    border: `1px solid ${T.borderLight}`, transition: "all 150ms",
+                  }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+                      <span style={{ fontSize: 13, fontWeight: 600, color: T.text, fontFamily: F, flex: 1 }}>{em.subject}</span>
+                      <span style={{ fontSize: 9, fontWeight: 700, padding: "2px 8px", borderRadius: 4, background: ug.badge, color: ug.text, letterSpacing: 0.4, flexShrink: 0 }}>{em.label}</span>
+                    </div>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: em.jarvis ? 8 : 0 }}>
+                      <span style={{ fontSize: 11, color: T.textDim, fontFamily: F }}>{em.time}</span>
+                      {em.deal && <span style={{ fontSize: 10, padding: "2px 8px", borderRadius: 5, background: T.surface, color: T.textMid, border: `1px solid ${T.border}`, fontFamily: F }}>{em.deal}</span>}
+                      {sg && <span style={{ fontSize: 10, padding: "2px 8px", borderRadius: 5, background: `${sg.c}10`, color: sg.c, fontWeight: 600, fontFamily: F }}>{sg.label}</span>}
+                    </div>
+                    {em.jarvis && (
+                      <div style={{ fontSize: 12, color: T.textMid, lineHeight: 1.55, fontFamily: F, paddingLeft: 12, borderLeft: `2px solid ${T.accentBorder}`, marginTop: 4 }}>{em.jarvis}</div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Empty state when no contact selected on desktop */}
+      {!sel && !mob && filtered.length > 0 && (
+        <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", background: T.surface, padding: 40 }}>
+          <div style={{ width: 64, height: 64, borderRadius: 16, background: T.accentLight, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 16 }}>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={T.accent} strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <div style={{ fontSize: 15, fontWeight: 600, color: T.text, marginBottom: 4, fontFamily: F }}>Select a contact</div>
+          <div style={{ fontSize: 13, color: T.textDim, fontFamily: F }}>{filtered.length} contacts across {grouped.length} {groupBy === "company" ? "companies" : "groups"}</div>
+        </div>
       )}
     </div>
   );
@@ -1109,14 +1649,35 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
                 display: "inline-flex", alignItems: "center", gap: 6,
               }}>Open in Outlook {"\u2197"}</a>
             )}
-            {/* Other action buttons (Delegate, etc.) */}
-            {(item.actions || []).filter(a => a !== "Mark Done").map(act => (
-              <button key={act} onClick={ev => { ev.stopPropagation(); if (act === "Delegate to France") upd(item.id, "france"); }} style={{
-                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.border}`,
-                background: T.surface, color: T.textMid, fontSize: 13, fontWeight: 500,
+            {/* Other action buttons — stage-aware */}
+            {(item.actions || []).filter(a => a !== "Mark Done").map(act => {
+              // If item is already in france stage, swap "Delegate to France" for "Move to Dave"
+              if (act === "Delegate to France" && item.stage === "france") {
+                return (
+                  <button key="move-dave" onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
+                    padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
+                    background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 600,
+                    cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+                  }}>{"\u2605"} Move to Dave</button>
+                );
+              }
+              // Skip showing "Delegate to France" label if already there
+              return (
+                <button key={act} onClick={ev => { ev.stopPropagation(); if (act === "Delegate to France") upd(item.id, "france"); }} style={{
+                  padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.border}`,
+                  background: T.surface, color: T.textMid, fontSize: 13, fontWeight: 500,
+                  cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
+                }}>{act}</button>
+              );
+            })}
+            {/* Move to Dave — always show on france/external/scheduled items that don't have Delegate in actions */}
+            {item.stage !== "dave" && item.stage !== "inbox" && !(item.actions || []).includes("Delegate to France") && (
+              <button onClick={ev => { ev.stopPropagation(); upd(item.id, "dave"); }} style={{
+                padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.accent}40`,
+                background: T.accentLight, color: T.accent, fontSize: 13, fontWeight: 600,
                 cursor: "pointer", fontFamily: "inherit", transition: "all 150ms",
-              }}>{act}</button>
-            ))}
+              }}>{"\u2605"} Move to Dave</button>
+            )}
             {/* Mark Done — always last */}
             <button onClick={ev => { ev.stopPropagation(); markDone(item.id); }} style={{
               padding: "10px 18px", borderRadius: 9, border: `1px solid ${T.green}40`,
