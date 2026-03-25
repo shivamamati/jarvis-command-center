@@ -530,6 +530,26 @@ function Dashboard() {
   const [completed, setCompleted] = useState(() => { try { return JSON.parse(localStorage.getItem("jarvis_completed") || "[]"); } catch { return []; } });
   const [customItems, setCustomItems] = useState([]);
   const [queueScrapped, setQueueScrapped] = useState([]);
+  const [dueDates, setDueDates] = useState({});
+
+  // Load due dates from Firebase
+  useEffect(() => {
+    const unsub = fbListen("jarvis/dueDates", (val) => { if (val) setDueDates(val); });
+    return () => unsub();
+  }, []);
+  const setDueDate = async (itemId, date) => {
+    const key = (itemId || "").replace(/[.#$/\[\]@]/g, "_");
+    const u = { ...dueDates, [key]: date };
+    setDueDates(u);
+    await fbSet("jarvis/dueDates", u);
+  };
+  const clearDueDate = async (itemId) => {
+    const key = (itemId || "").replace(/[.#$/\[\]@]/g, "_");
+    const u = { ...dueDates }; delete u[key];
+    setDueDates(u);
+    await fbSet("jarvis/dueDates", u);
+  };
+  const getDueDate = (itemId) => dueDates[(itemId || "").replace(/[.#$/\[\]@]/g, "_")] || null;
 
   // Load queue scrapped items from Firebase
   useEffect(() => {
@@ -598,6 +618,15 @@ function Dashboard() {
   const [live, setLive] = useState("demo");
   const [meta, setMeta] = useState(null);
   const [showCreateModal, setShowCreateModal] = useState(false);
+  const [dueDates, setDueDates] = useState({});
+
+  // Load all due dates from Firebase
+  useEffect(() => {
+    const unsub = fbListen("jarvis/dueDates", (val) => {
+      if (val && typeof val === "object") setDueDates(val);
+    });
+    return () => unsub();
+  }, []);
 
   // Live data fetching
   const fetchData = useCallback(async () => {
@@ -679,8 +708,19 @@ function Dashboard() {
     let r = allData.filter(e => e.stage !== "complete" && !completed.includes(e.id) && !queueScrapped.includes(e.id));
     if (role === "dave") r = r.filter(e => e.stage === "dave" || e.stage === "inbox");
     if (role === "france") r = r.filter(e => e.stage === "france" || e.stage === "external" || e.stage === "scheduled");
-    return r.sort((a, b) => b.score - a.score);
-  }, [allData, role, completed, queueScrapped]);
+    // Sort: overdue first, then by due date proximity, then by score
+    return r.sort((a, b) => {
+      const aDue = getDueStatusForItem(a.id, dueDates);
+      const bDue = getDueStatusForItem(b.id, dueDates);
+      const aOverdue = aDue?.overdue ? 1 : 0;
+      const bOverdue = bDue?.overdue ? 1 : 0;
+      if (aOverdue !== bOverdue) return bOverdue - aOverdue; // overdue items first
+      if (aDue && bDue) return aDue.daysLeft - bDue.daysLeft; // closer due dates first
+      if (aDue && !bDue) return -1; // items with due dates before those without
+      if (!aDue && bDue) return 1;
+      return b.score - a.score; // then by score
+    });
+  }, [allData, role, completed, queueScrapped, dueDates]);
 
   const doneItems = allData.filter(e => e.stage === "complete" || completed.includes(e.id));
   const scrappedQueueItems = allData.filter(e => queueScrapped.includes(e.id));
@@ -800,6 +840,51 @@ function Dashboard() {
               ))}
             </div>
 
+            {/* DUE THIS WEEK — shows items with approaching deadlines */}
+            {(() => {
+              const now = new Date(); now.setHours(0,0,0,0);
+              const endOfWeek = new Date(now); endOfWeek.setDate(endOfWeek.getDate() + (7 - endOfWeek.getDay()));
+              const dueThisWeek = filtered.filter(item => {
+                const dd = getDueDate(item.id);
+                if (!dd?.date) return false;
+                const due = new Date(dd.date + "T00:00:00");
+                return due <= endOfWeek;
+              }).sort((a, b) => {
+                const aDate = getDueDate(a.id)?.date || "9999";
+                const bDate = getDueDate(b.id)?.date || "9999";
+                return aDate.localeCompare(bDate);
+              });
+              if (dueThisWeek.length === 0) return null;
+              return (
+                <div style={{ marginBottom: 28, padding: "16px 18px", background: "#fefce8", borderRadius: 14, border: "1px solid #fef08a" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
+                    <span style={{ fontSize: 14 }}>{"\uD83D\uDCC5"}</span>
+                    <span style={{ fontSize: 11, fontWeight: 700, color: "#ca8a04", letterSpacing: 1, textTransform: "uppercase", fontFamily: "'DM Sans',system-ui,sans-serif" }}>Due This Week</span>
+                    <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{dueThisWeek.length} item{dueThisWeek.length !== 1 ? "s" : ""}</span>
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                    {dueThisWeek.map(item => {
+                      const dd = getDueDate(item.id);
+                      const st = getDueStatusForItem(item.id, dueDates);
+                      return (
+                        <div key={item.id} onClick={() => setExpandedId(item.id)} style={{
+                          display: "flex", alignItems: "center", gap: 10, padding: "8px 12px",
+                          background: "#fff", borderRadius: 8, border: `1px solid ${st?.border || "#fef08a"}`,
+                          cursor: "pointer", transition: "all 150ms",
+                        }}>
+                          <div style={{ width: 24, height: 24, borderRadius: 6, background: `${item.color || "#6366f1"}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 8, fontWeight: 700, color: item.color || "#6366f1", flexShrink: 0 }}>{item.avatar}</div>
+                          <span style={{ fontSize: 12, fontWeight: 500, color: "#1a1a2e", flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{item.subject}</span>
+                          <span style={{ fontSize: 10, fontWeight: 600, color: st?.color || "#ca8a04", padding: "2px 8px", borderRadius: 4, background: st?.overdue ? "#fef2f2" : "#fefce8", flexShrink: 0, fontFamily: "'DM Sans',system-ui,sans-serif" }}>
+                            {st?.overdue ? (st.daysLeft === 0 ? "Today" : `${Math.abs(st.daysLeft)}d overdue`) : st?.daysLeft === 1 ? "Tomorrow" : `${st?.daysLeft}d`}
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })()}
+
             {/* TODAY'S ITEMS */}
             {todayItems.length > 0 && (
               <div style={{ marginBottom: 28 }}>
@@ -809,7 +894,7 @@ function Dashboard() {
                   <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{todayItems.length} item{todayItems.length !== 1 ? "s" : ""}</span>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                  {todayItems.map((item, index) => <DecisionCard key={item.id} item={item} index={index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} scrapItem={scrapFromQueue} />)}
+                  {todayItems.map((item, index) => <DecisionCard key={item.id} item={item} index={index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} scrapItem={scrapFromQueue} dueDates={dueDates} />)}
                 </div>
               </div>
             )}
@@ -823,7 +908,7 @@ function Dashboard() {
                   <span style={{ fontSize: 11, color: "#a1a1aa", fontFamily: "'DM Sans',system-ui,sans-serif" }}>{previousItems.length} carry-over</span>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                  {previousItems.map((item, index) => <DecisionCard key={item.id} item={item} index={todayItems.length + index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} scrapItem={scrapFromQueue} />)}
+                  {previousItems.map((item, index) => <DecisionCard key={item.id} item={item} index={todayItems.length + index} expandedId={expandedId} setExpandedId={setExpandedId} markDone={markDone} upd={upd} mob={mob} scrapItem={scrapFromQueue} dueDates={dueDates} />)}
                 </div>
               </div>
             )}
@@ -1166,19 +1251,72 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
   const scrapItem = async (id) => { const u = [...scrapped, id]; setScrapped(u); await fbSet("jarvis/scrapped", u); };
   const unscrapItem = async (id) => { const u = scrapped.filter(x => x !== id); setScrapped(u); await fbSet("jarvis/scrapped", u); };
 
-  // Drag handlers
-  const onDragStart = (e, id) => { setDragId(id); e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", id); };
-  const onDragEnd = () => { setDragId(null); setDragOver(null); };
-  const onDragOverCol = (e, colId) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; setDragOver(colId); };
-  const onDragLeaveCol = () => { setDragOver(null); };
-  const onDropCol = (e, colId) => {
-    e.preventDefault(); setDragOver(null);
-    if (!dragId) return;
-    if (colId === "france") { upd(dragId, "france"); }
-    else if (colId === "done") { markDone(dragId); }
-    else if (colId === "scrap") { scrapItem(dragId); }
-    else { setCat(dragId, colId); }
-    setDragId(null);
+  // Drag system using document-level mouse events for smooth cross-element tracking
+  const dragRef = useRef({ id: null, startX: 0, startY: 0, ghost: null, active: false });
+
+  useEffect(() => {
+    const onMouseMove = (e) => {
+      const dr = dragRef.current;
+      if (!dr.id) return;
+      const dx = e.clientX - dr.startX, dy = e.clientY - dr.startY;
+      if (!dr.active && Math.abs(dx) < 4 && Math.abs(dy) < 4) return;
+      if (!dr.active) {
+        dr.active = true;
+        setDragId(dr.id);
+        // Create ghost
+        const src = document.querySelector(`[data-card-id="${dr.id}"]`);
+        if (src) {
+          const rect = src.getBoundingClientRect();
+          const g = document.createElement("div");
+          g.style.cssText = `position:fixed;width:${rect.width}px;padding:10px 12px;background:#f5f3ff;border:1px solid #6366f140;border-radius:10px;box-shadow:0 8px 24px rgba(99,102,241,0.2);pointer-events:none;z-index:9999;opacity:0.9;transform:rotate(1.5deg);font-family:'DM Sans',system-ui,sans-serif;font-size:12px;font-weight:600;color:#1a1a2e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;`;
+          g.textContent = src.getAttribute("data-card-subject") || "Dragging...";
+          document.body.appendChild(g);
+          dr.ghost = g;
+        }
+      }
+      if (dr.ghost) {
+        dr.ghost.style.left = (e.clientX + 12) + "px";
+        dr.ghost.style.top = (e.clientY - 16) + "px";
+      }
+      // Detect column under cursor
+      const cols = document.querySelectorAll("[data-drop-col]");
+      let found = null;
+      cols.forEach(col => {
+        const r = col.getBoundingClientRect();
+        if (e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom) {
+          found = col.getAttribute("data-drop-col");
+        }
+      });
+      setDragOver(found);
+    };
+    const onMouseUp = () => {
+      const dr = dragRef.current;
+      if (dr.ghost) { document.body.removeChild(dr.ghost); dr.ghost = null; }
+      if (dr.active && dr.id) {
+        // Read dragOver from ref since state may be stale
+        const cols = document.querySelectorAll("[data-drop-col]");
+        // Use the last known dragOver
+        setDragOver(prev => {
+          if (prev && dr.id) {
+            if (prev === "france") { upd(dr.id, "france"); }
+            else if (prev === "done") { markDone(dr.id); }
+            else { setCat(dr.id, prev); }
+          }
+          return null;
+        });
+      }
+      dr.id = null; dr.active = false; dr.ghost = null;
+      setDragId(null);
+    };
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mouseup", onMouseUp);
+    return () => { document.removeEventListener("mousemove", onMouseMove); document.removeEventListener("mouseup", onMouseUp); };
+  }, []);
+
+  const startDrag = (e, id) => {
+    if (e.button !== 0) return;
+    e.preventDefault();
+    dragRef.current = { id, startX: e.clientX, startY: e.clientY, ghost: null, active: false };
   };
 
   const visibleItems = allItems.filter(e => !scrapped.includes(e.id));
@@ -1200,14 +1338,15 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
     const isDone = catId === "done";
     const isDragging = dragId === item.id;
     return (
-      <div draggable onDragStart={e => onDragStart(e, item.id)} onDragEnd={onDragEnd}
-        onClick={() => setSelectedId(isSel ? null : item.id)} style={{
+      <div data-card-id={item.id} data-card-subject={item.subject}
+        onMouseDown={e => { if (e.target.tagName !== "BUTTON" && e.target.tagName !== "SPAN") startDrag(e, item.id); }}
+        onClick={() => { if (!dragRef.current.active) setSelectedId(isSel ? null : item.id); }} style={{
         padding: "10px 12px", background: isSel ? "#f5f3ff" : isDragging ? "#ede9fe" : "#fff", borderRadius: 10,
         border: `1px solid ${isSel ? "#6366f140" : isDragging ? "#6366f160" : "#f0f0f0"}`, marginBottom: 6,
         boxShadow: isDragging ? "0 4px 16px rgba(99,102,241,0.15)" : isSel ? "0 2px 8px rgba(99,102,241,0.08)" : "0 1px 2px rgba(0,0,0,0.03)",
-        cursor: isDragging ? "grabbing" : "grab", transition: "all 150ms",
-        opacity: isDragging ? 0.7 : isDone ? 0.5 : 1,
-        transform: isDragging ? "scale(1.02) rotate(1deg)" : "none",
+        cursor: "grab", transition: isDragging ? "none" : "all 150ms",
+        opacity: isDragging ? 0.35 : isDone ? 0.5 : 1,
+        userSelect: "none",
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 5 }}>
           <div style={{ width: 28, height: 28, borderRadius: 7, background: `${item.color || T.accent}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: item.color || T.accent, flexShrink: 0 }}>{item.avatar}</div>
@@ -1321,18 +1460,16 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
             const isOver = dragOver === col.id && dragId;
             return (
               <div key={col.id}
-                onDragOver={e => onDragOverCol(e, col.id)}
-                onDragLeave={onDragLeaveCol}
-                onDrop={e => onDropCol(e, col.id)}
+                data-drop-col={col.id}
                 style={{
                   flex: 1, minWidth: 170, borderRight: "1px solid #f0f0f0",
                   display: "flex", flexDirection: "column",
-                  background: isOver ? `${col.c}08` : "transparent",
+                  background: isOver ? `${col.c}15` : "transparent",
                   transition: "background 200ms",
                 }}>
                 <div style={{
                   padding: "16px 14px 12px", borderBottom: `2px solid ${isOver ? col.c : "#f0f0f0"}`,
-                  background: `${col.c}04`, transition: "border-color 200ms",
+                  background: isOver ? `${col.c}10` : `${col.c}04`, transition: "all 200ms",
                 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}>
                     <span style={{ fontSize: 15 }}>{col.icon}</span>
@@ -1401,6 +1538,7 @@ function PipelinePage({ data, upd, mob, completed, markDone, undoDone, expandedI
                 )}
               </div>
             )}
+            <DueDatePicker itemId={selectedItem.id} />
             <SharedNotes itemId={selectedItem.id} />
             <div style={{ marginTop: 14 }}>
               <div style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, marginBottom: 10, fontFamily: F }}>MOVE TO</div>
@@ -2257,6 +2395,140 @@ function AllEmailsPage({ data, upd, mob }) {
 // ═══ DECISION CARD COMPONENT ═══
 // ═══ SHARED NOTES COMPONENT ═══
 // Uses persistent storage API with shared:true so Dave, France, and Shivam all see the same notes
+// ═══════════════════════════════════════════════════════════
+// DUE DATE PICKER — Quick buttons + custom date, synced via Firebase
+// ═══════════════════════════════════════════════════════════
+function DueDatePicker({ itemId }) {
+  const [dueDate, setDueDate] = useState(null);
+  const [showCustom, setShowCustom] = useState(false);
+  const F = "'DM Sans',system-ui,sans-serif";
+  const fbPath = `jarvis/dueDates/${(itemId || "").replace(/[.#$/[\]@]/g, "_")}`;
+
+  useEffect(() => {
+    const unsub = fbListen(fbPath, (val) => {
+      if (val) setDueDate(val);
+      else setDueDate(null);
+    });
+    return () => unsub();
+  }, [fbPath]);
+
+  const setDate = async (dateStr) => {
+    const data = { date: dateStr, setAt: new Date().toISOString() };
+    setDueDate(data);
+    await fbSet(fbPath, data);
+  };
+
+  const clearDate = async () => {
+    setDueDate(null);
+    await fbRemove(fbPath);
+  };
+
+  const getQuickDate = (type) => {
+    const d = new Date();
+    if (type === "today") return d.toISOString().slice(0, 10);
+    if (type === "tomorrow") { d.setDate(d.getDate() + 1); return d.toISOString().slice(0, 10); }
+    if (type === "thisweek") {
+      const day = d.getDay();
+      const fri = day <= 5 ? 5 - day : 5;
+      d.setDate(d.getDate() + fri);
+      return d.toISOString().slice(0, 10);
+    }
+    if (type === "nextweek") {
+      const day = d.getDay();
+      const nextMon = day === 0 ? 1 : 8 - day;
+      d.setDate(d.getDate() + nextMon + 4);
+      return d.toISOString().slice(0, 10);
+    }
+    return d.toISOString().slice(0, 10);
+  };
+
+  const getDueStatus = () => {
+    if (!dueDate?.date) return null;
+    const now = new Date(); now.setHours(0,0,0,0);
+    const due = new Date(dueDate.date + "T00:00:00"); due.setHours(0,0,0,0);
+    const diff = Math.ceil((due - now) / 86400000);
+    if (diff < 0) return { label: `Overdue by ${Math.abs(diff)} day${Math.abs(diff) !== 1 ? "s" : ""}`, color: "#dc2626", bg: "#fef2f2", border: "#fecaca" };
+    if (diff === 0) return { label: "Due today", color: "#dc2626", bg: "#fef2f2", border: "#fecaca" };
+    if (diff === 1) return { label: "Due tomorrow", color: "#ea580c", bg: "#fff7ed", border: "#fed7aa" };
+    if (diff <= 3) return { label: `Due in ${diff} days`, color: "#ca8a04", bg: "#fefce8", border: "#fef08a" };
+    const fmtd = new Date(dueDate.date + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+    return { label: `Due ${fmtd}`, color: "#6366f1", bg: "#f5f3ff", border: "#ede9fe" };
+  };
+
+  const status = getDueStatus();
+
+  return (
+    <div style={{ marginBottom: 14 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+        <span style={{ fontSize: 10, fontWeight: 700, color: "#a1a1aa", letterSpacing: 0.8, fontFamily: F }}>DUE DATE</span>
+        {status && (
+          <span style={{
+            fontSize: 10, fontWeight: 600, padding: "2px 10px", borderRadius: 5,
+            background: status.bg, color: status.color, border: `1px solid ${status.border}`,
+            fontFamily: F,
+          }}>{status.label}</span>
+        )}
+      </div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+        {[
+          { id: "today", label: "Today", icon: "\uD83D\uDD34" },
+          { id: "tomorrow", label: "Tomorrow", icon: "\u23F3" },
+          { id: "thisweek", label: "This Week", icon: "\uD83D\uDCC5" },
+          { id: "nextweek", label: "Next Week", icon: "\uD83D\uDCC6" },
+        ].map(q => {
+          const qd = getQuickDate(q.id);
+          const isActive = dueDate?.date === qd;
+          return (
+            <button key={q.id} onClick={(e) => { e.stopPropagation(); setDate(qd); }} style={{
+              padding: "6px 12px", borderRadius: 7, fontSize: 11, fontWeight: isActive ? 600 : 400,
+              border: `1px solid ${isActive ? "#6366f130" : "#ebebeb"}`,
+              background: isActive ? "#f5f3ff" : "#fff", color: isActive ? "#6366f1" : "#71717a",
+              cursor: "pointer", fontFamily: F, transition: "all 150ms",
+            }}>{q.label}</button>
+          );
+        })}
+        <button onClick={(e) => { e.stopPropagation(); setShowCustom(!showCustom); }} style={{
+          padding: "6px 12px", borderRadius: 7, fontSize: 11, fontWeight: 400,
+          border: "1px solid #ebebeb", background: "#fff", color: "#71717a",
+          cursor: "pointer", fontFamily: F,
+        }}>Custom...</button>
+        {dueDate && (
+          <button onClick={(e) => { e.stopPropagation(); clearDate(); }} style={{
+            padding: "6px 10px", borderRadius: 7, fontSize: 11, fontWeight: 400,
+            border: "1px solid #fecaca", background: "#fef2f2", color: "#b91c1c",
+            cursor: "pointer", fontFamily: F,
+          }}>{"\u2715"} Clear</button>
+        )}
+      </div>
+      {showCustom && (
+        <div style={{ marginTop: 8 }}>
+          <input type="date" onChange={(e) => { if (e.target.value) { setDate(e.target.value); setShowCustom(false); } }}
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              padding: "8px 12px", borderRadius: 8, border: "1px solid #ebebeb",
+              fontSize: 12, fontFamily: F, color: "#1a1a2e", cursor: "pointer",
+            }} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+// Helper: get due status for an item (used by cards for visual indicators)
+function getDueStatusForItem(itemId, dueDates) {
+  const key = (itemId || "").replace(/[.#$/[\]@]/g, "_");
+  const dd = dueDates[key];
+  if (!dd?.date) return null;
+  const now = new Date(); now.setHours(0,0,0,0);
+  const due = new Date(dd.date + "T00:00:00"); due.setHours(0,0,0,0);
+  const diff = Math.ceil((due - now) / 86400000);
+  if (diff < 0) return { overdue: true, daysLeft: diff, color: "#dc2626", border: "#fecaca" };
+  if (diff === 0) return { overdue: true, daysLeft: 0, color: "#dc2626", border: "#fecaca" };
+  if (diff === 1) return { overdue: false, daysLeft: 1, color: "#ea580c", border: "#fed7aa" };
+  if (diff <= 3) return { overdue: false, daysLeft: diff, color: "#ca8a04", border: "#fef08a" };
+  return { overdue: false, daysLeft: diff, color: "#6366f1", border: "#ede9fe" };
+}
+
 function SharedNotes({ itemId }) {
   const [notes, setNotes] = useState([]);
   const [draft, setDraft] = useState("");
@@ -2366,12 +2638,14 @@ function SharedNotes({ itemId }) {
   );
 }
 
-function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, mob, scrapItem }) {
+function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, mob, scrapItem, dueDates }) {
   const isExp = expandedId === item.id;
   const ug = URG[item.label] || URG.NOTABLE;
+  const dueStatus = getDueStatusForItem(item.id, dueDates || {});
   return (
     <div onClick={() => setExpandedId(isExp ? null : item.id)} style={{
-      background: T.surface, borderRadius: 14, border: `1px solid ${isExp ? T.accent + "40" : T.border}`,
+      background: T.surface, borderRadius: 14,
+      border: dueStatus?.overdue ? `2px solid ${dueStatus.border}` : dueStatus?.daysLeft <= 1 ? `2px solid ${dueStatus.border}` : `1px solid ${isExp ? T.accent + "40" : T.border}`,
       overflow: "hidden", cursor: "pointer", boxShadow: isExp ? "0 4px 24px rgba(99,102,241,0.08)" : "none", transition: "all 200ms",
     }}>
       <div style={{ height: 3, background: `linear-gradient(90deg,${ug.bar},${ug.bar}80)` }} />
@@ -2382,6 +2656,7 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
           <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 3 }}>
             <span style={{ fontSize: 14, fontWeight: 650, color: T.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.subject}</span>
             <span style={{ fontSize: 10, fontWeight: 700, color: ug.text, background: ug.badge, padding: "2px 8px", borderRadius: 4, letterSpacing: .4, flexShrink: 0 }}>{item.label}</span>
+            {dueStatus && <span style={{ fontSize: 9, fontWeight: 600, color: dueStatus.color, background: dueStatus.overdue ? "#fef2f2" : "#f8fafc", padding: "2px 8px", borderRadius: 4, flexShrink: 0 }}>{dueStatus.overdue ? (dueStatus.daysLeft === 0 ? "DUE TODAY" : "OVERDUE") : `${dueStatus.daysLeft}d left`}</span>}
           </div>
           <div style={{ fontSize: 12, color: T.textDim }}>{item.from} {item.company ? `· ${item.company}` : ""} · {item.time}</div>
         </div>
@@ -2422,6 +2697,10 @@ function DecisionCard({ item, index, expandedId, setExpandedId, markDone, upd, m
           ) : null}
 
           <NlpWidget email={item} onApply={(stage) => upd(item.id, stage)} />
+
+          {/* SHARED NOTES */}
+          {/* DUE DATE */}
+          <DueDatePicker itemId={item.id} />
 
           {/* SHARED NOTES */}
           <SharedNotes itemId={item.id} />
