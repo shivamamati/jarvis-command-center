@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T11:39:00.512365+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 5,
-  "ai": 6,
+  "timestamp": "2026-03-25T13:00:54.746995+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 7,
+  "ai": 9,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Dave,\r\n\r\nI have put in a request for discounts to the NRC and a reduction to 1kW for the power requirement / MRC\u2026awaiting management approval.\r\n\r\nIn the meantime, if your entity of address needs changing\u2026please do let me know.\r\n\r\nKind regards\r\n\r\n\r\nFion",
+      "received": "2026-03-25T12:27:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Dave replied 3x (+4)",
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "KW: kw, lease, power",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty Trust is working on cost reductions for the Galaxy/DRT partnership, having submitted a request to their NRC (Network Resource Center) for discounts and a reduction in power requirements from the current level to 1kW MRC. She's awaiting internal management approval and is also checking on any address or entity changes needed for Galaxy's records.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Galaxy's current entity name and address with Fiona to ensure accurate contract documentation",
+        "Follow up with Fiona in 5-7 business days on the status of the NRC discount and power requirement reduction requests",
+        "Prepare internally for potential cost savings and updated MRC terms once DRT management approval is received"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "kieran.rushe@rapleys.com",
       "sender_name": "Kieran Rushe",
@@ -239,39 +273,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Fiona,\r\n\r\nThanks for the quick turnaround \u2014 happy to align on next steps.\r\n\r\nI also want to call out how helpful Darren has been throughout this process. Darren has gone above and beyond on solutions architecture and network guidance, and much of the p",
-      "received": "2026-03-24T21:39:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4G4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "9 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is acknowledging positive progress on the Galaxy/DRT partnership and Cloud House deployment initiative with Fiona, and specifically recognizing Darren's exceptional contributions to solutions architecture and network planning. This suggests the partnership is advancing toward implementation with strong internal team performance, which validates Galaxy's technical approach and strengthens the vendor relationship.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm formal next steps and timeline for Cloud House deployment with Fiona in writing",
-        "Ensure Darren's contributions are documented and that he continues as the primary technical point of contact for DRT partnership",
-        "Schedule follow-up meeting to review deployment milestones and resource allocation"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "media@jsa.net",
