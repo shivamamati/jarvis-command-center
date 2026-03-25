@@ -1,9 +1,9 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T21:35:28.678887+00:00",
+  "timestamp": "2026-03-25T22:32:23.910388+00:00",
   "total": 7,
   "new": 7,
-  "noise": 4,
+  "noise": 2,
   "ai": 6,
   "skipped": 0,
   "auto_learned": 45,
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is an internal email from Dave Misra to a colleague named Dan, thanking him for successful execution of work related to a Suite 140 move and proposing a brief 15-minute call to catch up. Dave is expressing appreciation and attempting to schedule a meeting to discuss the project outcome.",
+      "ai_summary": "This is an internal message from Dave Misra to Dan (likely a team member or contractor) acknowledging successful completion of a Suite 140 relocation project and proposing a brief follow-up call to debrief. Dave is offering specific time slots and appears to be expressing gratitude for work that was delivered on time and to specification, suggesting this was a critical or complex operational task.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify who 'Dan' is and what specific work was completed for the Suite 140 move to understand the business context",
-        "Confirm which time slot (Tue Mar 31 5:00-5:30 pm GMT or Thu Apr 2 3:00 pm GMT) works best and send calendar invite",
-        "Prepare brief notes on the Suite 140 project outcome to discuss during the 15-minute call"
+        "Confirm which meeting time works best for Dan and lock the 15-minute call on the calendar",
+        "Prepare brief notes on Suite 140 move outcomes (timeline, budget, any lessons learned) to discuss during the call",
+        "Follow up with a thank-you message or gesture as indicated by Dave's 'owe you a drink' comment"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -62,12 +62,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Vraj Savaj from Data Center Nation is promoting DCN Toronto 2026, a major industry conference scheduled for June 9, 2026, that will convene leaders in Canada's rapidly expanding data center market (growing at 10.3% CAGR). This is a networking and visibility opportunity to engage with key ecosystem players in a high-growth market segment relevant to Galaxy's data center operations.",
+      "ai_summary": "Vraj Savaj from Data Center Nation is inviting Galaxy to participate in DCN Toronto 2026, a major industry conference scheduled for June 9, 2026 at The International Centre. The event targets Canada's rapidly growing data center market (10.3% CAGR) and brings together ecosystem leaders, presenting a valuable networking and visibility opportunity for Galaxy's business development and market positioning.",
       "ai_action": null,
       "ai_next_steps": [
-        "Determine if Galaxy should secure speaking slots or sponsorship packages to establish thought leadership in the Canadian market",
-        "Add DCN Toronto 2026 to strategic event calendar and assess attendance ROI relative to Galaxy's expansion plans in Canada",
-        "Request full event details (attendee demographics, pricing, sponsorship tiers) to make Go/No-Go decision and budget accordingly"
+        "Determine Galaxy's interest level and budget for sponsorship, exhibition booth, or speaking opportunity at DCN Toronto 2026",
+        "Request full event details including attendee demographics, sponsorship packages, and expected attendance from Galaxy's target customers and partners",
+        "Schedule a call with Vraj Savaj to discuss Galaxy's specific objectives and how DCN Toronto can support business goals in the Canadian market"
       ],
       "ai_failed": false,
       "final_score": 8,
