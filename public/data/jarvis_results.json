@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T09:50:53.429613+00:00",
+  "timestamp": "2026-03-25T10:44:23.732084+00:00",
   "total": 3,
   "new": 3,
   "noise": 1,
@@ -8,6 +8,38 @@
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "kieran.rushe@rapleys.com",
+      "sender_name": "Kieran Rushe",
+      "subject": "1055872 / Rapleys\u00a0LLP / NDA",
+      "body_preview": "Good Morning,\r\n\r\nPlease see the attached document for your review.\r\n\r\nKieran Rushe\r\n\u200b\u200b\u200b\u200b\r\nPartner\r\n,\r\nPlanning\r\nConnected  |  Creative  |  Proactive\r\n|\r\nRapleys LLP\r\nM:\r\n07740 196 419\r\n |\r\nT:\r\n0370 777 2692\r\n |\r\nrapleys.com\r\nOne Upper James Street\r\n,\r\nLon",
+      "received": "2026-03-25T10:04:39Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK6oVAI5moVPrtWM3Da2JVw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "KW: nda, lease, lp"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Kieran Rushe from Rapleys LLP (major UK real estate/planning consultancy) is sending an NDA for Dave's review with reference number 1055872. This appears to be deal-related documentation, likely tied to a specific property or development project. Rapleys works on data center and infrastructure sites.",
+      "ai_action": "Dave should review the attached NDA immediately and confirm what deal/property this relates to. Check with France on context if unclear. Contact Kieran if terms need negotiation before signing.",
+      "ai_next_steps": [
+        "Review attached NDA document",
+        "Confirm which Galaxy project/site this NDA relates to (Redhill, Poland, Milan, or new prospect)",
+        "Forward to Simmons & Simmons (legal) if not already engaged",
+        "Schedule call with Kieran if terms require discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "luke.gray@redhilldatacentre.com",
       "sender_name": "Luke Gray",
@@ -31,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Luke Gray from Redhill Data Centre is notifying us that a roofing contractor quote for South Anston facility has a 3-week expiration deadline before pricing increases. This time-sensitive constraint requires immediate decision-making on a capital expenditure project to avoid cost escalation.",
+      "ai_summary": "Luke Gray, Data Centre Manager at Redhill Data Centre, is notifying us that a roof CAPEX quote from South Anston has a deadline\u2014the supplier will only honor current pricing for 3 more weeks before increasing it. This is a time-sensitive capex decision that requires immediate approval to avoid cost overruns on facility maintenance.",
       "ai_action": null,
       "ai_next_steps": [
-        "Verify the scope and cost of the South Anston roof CAPEX quote and confirm budget allocation with Finance",
-        "Schedule decision meeting with Dave and France within 48 hours to approve or negotiate extension before the 3-week deadline",
-        "Request Luke provide detailed quote documentation and contractor contact info to explore price lock options or alternative vendors"
+        "Dave/France should review the South Anston roof quote immediately and determine if Galaxy can approve within the 3-week window",
+        "Confirm budget availability and obtain any required internal approvals to move forward with the work",
+        "Respond to Luke with a decision timeline so he can manage the supplier deadline and lock in pricing if approved"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2135,5 +2167,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 68
+  "total_tracked": 69
 }
