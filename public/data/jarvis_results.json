@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T13:00:54.746995+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 7,
-  "ai": 9,
+  "timestamp": "2026-03-25T14:55:59.973948+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 9,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "bobcavoto@2020-4.com",
+      "sender_name": "Bob Cavoto",
+      "subject": "Michael Klein | CRE Executive \u2014 Driving Capital, Deals & Development",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nPlease find below the resume of Michael Klein for your review (upon request we can attach a PDF version). Michael is a real estate executive with primary experience in capital markets, acquisitions, development, and operations. His expertise ",
+      "received": "2026-03-25T13:27:25Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHDuWnSAxKVKvv1M78u8JTY=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Bob Cavoto is introducing Michael Klein, a commercial real estate executive with experience in capital markets, acquisitions, development, and operations, for Dave's consideration. The email appears to be a professional referral or recruitment pitch highlighting Klein's relevant expertise in CRE sectors that could align with Galaxy Capital Partners' or Galaxy Data Centers' business needs. This matters because it signals a potential candidate or partnership opportunity in real estate development and capital deployment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request the full PDF resume and detailed background on Michael Klein's specific experience with data center or infrastructure projects",
+        "Have France coordinate a preliminary call with Bob Cavoto to understand the exact role or opportunity being proposed",
+        "Assess whether Klein's capital markets and development expertise could support Galaxy's current acquisition or expansion pipeline"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "fional@digitalrealty.com",
       "sender_name": "Fiona Leon",
@@ -2167,5 +2198,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 69
+  "total_tracked": 70
 }
