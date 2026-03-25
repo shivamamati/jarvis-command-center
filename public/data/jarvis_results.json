@@ -1,13 +1,79 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T17:55:47.426508+00:00",
-  "total": 24,
-  "new": 24,
-  "noise": 16,
-  "ai": 10,
+  "timestamp": "2026-03-25T18:52:52.760868+00:00",
+  "total": 21,
+  "new": 21,
+  "noise": 15,
+  "ai": 11,
   "skipped": 0,
-  "auto_learned": 44,
+  "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "France shared \"2026 NDA GALAXY DATA CENTERS\" with you",
+      "body_preview": "France invited you to review a file\r\n\r\nDave, kindly review before I send over for your docusign and for execution of NDA purposes.\r\n\r\n        2026 NDA GALAXY DATA CENTERS\r\n        This invite will only work for you and people with existing access.\r\nOpen  ",
+      "received": "2026-03-25T18:30:06Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIuiBv_OFqJIjrRPQ5ii6OM=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is requesting your review of a 2026 NDA template for Galaxy Data Centers before she proceeds with DocuSign execution. This is a standard legal gating step where she needs your approval on the agreement terms prior to sending it out for signature. Your prompt review is needed to avoid delays in closing any pending NDA-dependent business relationships or contracts.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the shared NDA document and provide feedback to France on any requested modifications or concerns",
+        "Confirm approval to France so she can proceed with DocuSign setup and execution",
+        "Clarify with France which counterparty or transaction this NDA is intended for"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "rodrigo@galaxydatacenters.com",
+      "sender_name": "Rodrigo M",
+      "subject": "Re: Apollo + secondary mail",
+      "body_preview": "Hi @Sai Raman,\r\n\r\n\r\n\r\nJust following up to check whether you still need assistance with the additional mailboxes.\r\nIf you do, I\u2019m happy to help get everything set up. Just let me know what you require.\r\nShould you have any questions, do not hesitate in co",
+      "received": "2026-03-25T18:01:19Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 7x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lp",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rodrigo from Galaxy Data Centers is following up with Sai Raman regarding a previous request for additional mailboxes related to Apollo. He's offering to assist with setup and configuration, indicating this was an open action item that may or may not have been resolved.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Sai Raman whether additional mailboxes are still needed and what the current status is",
+        "If needed, coordinate with Rodrigo to complete mailbox setup and ensure it's properly documented in project records",
+        "Follow up on the incomplete email to clarify if there are any outstanding questions or concerns from Sai's side"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -30,12 +96,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "TJ Karklins from Global Vectors is forwarding information about a sales training webinar focused on improving cold calling conversion rates from 5% to 15%+. Dave is requesting that France register both Dave and Sai for this webinar and add it to their calendars, suggesting Galaxy Capital Partners or Galaxy Data Centers may be seeking to enhance their sales development practices.",
+      "ai_summary": "TJ Karklins from Global Vectors is forwarding a webinar invitation focused on improving cold calling conversion rates from 5% to 15%+. Dave wants France to register both himself and Sai for this sales training webinar, indicating Galaxy may be looking to strengthen its business development and sales outreach capabilities.",
       "ai_action": null,
       "ai_next_steps": [
-        "France to identify the webinar details (date, time, registration link) from TJ's original message and secure spots for Dave and Sai",
-        "Add the webinar to both Dave's and Sai's calendars with relevant meeting details",
-        "Confirm registration completion with Dave and prepare any pre-webinar materials or talking points for the team"
+        "France to retrieve the full webinar details (date, time, registration link) from the original message and register Dave and Sai",
+        "Add the webinar to both Dave's and Sai's calendars with any pre-work or materials needed",
+        "Follow up with Dave after the webinar to discuss key takeaways and whether Galaxy should implement any new cold calling strategies across the organization"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -48,7 +114,7 @@
       "body_preview": "Hi Nic - Please see attached some comments from our counsel.  I don't think there is anything too controversial there but let me know if you have any questions.\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Smith, Nicholas L. <nicholas.l.smit",
       "received": "2026-03-25T17:22:55Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhC6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
       "rules_score": 10,
@@ -66,12 +132,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong, an internal Galaxy team member, is forwarding legal counsel's comments on the Redhill renewal agreement and seeking acknowledgment from Nicholas Smith. Paul indicates the legal feedback is relatively straightforward with no major red flags, but is requesting confirmation of receipt and any questions.",
+      "ai_summary": "Paul Leong from Galaxy Data Centers is forwarding legal counsel's comments on the Redhill renewal contract to Nicholas Smith. He indicates the legal review contains no significant issues and is requesting feedback on the attorney's proposed revisions.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the attached legal counsel comments on the Redhill renewal terms and flag any substantive concerns to Paul within 24 hours",
-        "Confirm receipt with Paul and clarify the renewal timeline and any required approval chain before execution",
-        "If no issues identified, coordinate with Paul to move forward with Redhill on the renewal agreement"
+        "Review the attached legal counsel comments and assess any contract modifications to Redhill renewal terms",
+        "Determine if revisions are acceptable or if counterproposals are needed before responding to Paul",
+        "Coordinate with France (if involved in contract approvals) to align on next steps with Redhill counterparty"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -101,12 +167,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong is acknowledging Francis Turley's legal counsel on Redhill contract renewal terms and confirming he will communicate the agreed-upon pricing structure to Accenture. This represents progress on a material EMEA data center contract renewal that requires internal stakeholder alignment before final execution.",
+      "ai_summary": "Paul Leong (Galaxy Data Centers internal stakeholder) is confirming approval of a markup proposal for the Redhill contract renewal with Accenture and will communicate this decision back to the client. This represents progress on a significant EMEA infrastructure contract renewal that requires legal/commercial alignment.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm receipt of Paul's communication to Accenture and establish timeline for their response/approval",
-        "Prepare contract execution package and identify any remaining open items before final signatures",
-        "Brief Dave on expected close date and any commercial adjustments that may impact FY2026 revenue recognition"
+        "Follow up with Paul to confirm Accenture has received the markup and timeline for their response",
+        "Prepare for contract execution or next phase of negotiations once Accenture provides feedback",
+        "Flag the Redhill renewal status in Galaxy's contract pipeline to ensure delivery and revenue recognition"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -639,40 +705,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
-      "subject": "Re: Apollo + secondary mail",
-      "body_preview": "Hi @Dave Misra,\r\n\r\nQuick update on this. Met with @Sai Raman, please see what has been done:\r\n\r\n\r\n  *   2 mailbox created as requested - dave@getgalaxydatacenters.com, dave@rhgalaxydatacenter.com\r\n\r\n  *\r\nAssisted @Sai Raman login in and approving the usag",
-      "received": "2026-03-24T18:54:29Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rodrigo M from Galaxy Data Centers has completed setup of two new company email mailboxes (dave@getgalaxydatacenters.com and dave@rhgalaxydatacenter.com) in coordination with Sai Raman and is in the process of assisting with account activation and usage approval. This appears to be part of infrastructure setup related to an Apollo project or initiative. The completion of these email accounts enables proper corporate communication channels and domain identity for Galaxy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of the new mailboxes and verify both accounts are functioning properly in your email client",
-        "Coordinate with Sai Raman to complete any remaining login configuration and usage approval steps",
-        "Update internal stakeholders on the new email addresses and establish protocol for which communications use which domain"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -2369,5 +2401,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 75
+  "total_tracked": 76
 }
