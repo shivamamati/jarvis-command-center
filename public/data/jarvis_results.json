@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T14:55:59.973948+00:00",
+  "timestamp": "2026-03-25T16:08:32.917713+00:00",
   "total": 10,
   "new": 10,
-  "noise": 9,
+  "noise": 6,
   "ai": 10,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Scheduling JSA Discussion with Candace",
+      "body_preview": "Thanks France. Yes that works\r\n\r\nGet Outlook for Android\r\n________________________________\r\nFrom: France <france@galaxydatacenters.com>\r\nSent: Wednesday, March 25, 2026 11:48:45 AM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Dave Misra <dave@galaxydatacen",
+      "received": "2026-03-25T16:00:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal stakeholder) has confirmed availability for a scheduled discussion with Candace regarding a Job Safety Analysis (JSA). This appears to be an internal coordination confirmation for a safety or operational planning meeting that requires Dave's awareness.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting details (date, time, location/call format) with France and Sai to ensure all parties are aligned",
+        "Prepare any relevant JSA documentation or agenda items needed for the discussion with Candace",
+        "Block Dave's calendar if his participation is required in the meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "bobcavoto@2020-4.com",
       "sender_name": "Bob Cavoto",
@@ -969,40 +1003,6 @@
         "Reach out to Candace or France to understand why the biweekly call was canceled and whether this is a one-time reschedule or a change in engagement status",
         "Verify if there are any open items, deliverables, or concerns from JSA that prompted the cancellation",
         "Reschedule the call if this is a temporary conflict, or document any changes to the JSA engagement plan if the recurring meeting is being discontinued"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: Scheduling JSA Discussion with Candace",
-      "body_preview": "Good morning all,\r\n\r\nI'll go ahead and remove today's calendar invite. Here are a few times that work for Dean & I this week:\r\n\r\n  *   Tomorrow (Wednesday): 2:30 Eastern\r\n  *   Thursday: 10 or 2 Eastern\r\n  *   Friday: 11 or 12 Eastern\r\n\r\nThank you,\r\nCanda",
-      "received": "2026-03-24T11:53:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is confirming availability for a rescheduled discussion with Dean this week, offering multiple time slots across Wednesday through Friday. She's removed the original calendar invite and is proposing four alternative meeting windows. This appears to be a business discussion that requires coordination between Galaxy and JSA stakeholders.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm which time slot works best for Dave and Dean, then send calendar invite to Candace",
-        "Prepare meeting agenda and any materials needed for the JSA discussion",
-        "Ensure Dean is briefed on discussion topics and objectives before the meeting"
       ],
       "ai_failed": false,
       "final_score": 9,
