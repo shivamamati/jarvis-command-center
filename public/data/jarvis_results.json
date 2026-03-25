@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T10:44:23.732084+00:00",
-  "total": 3,
-  "new": 3,
-  "noise": 1,
-  "ai": 3,
+  "timestamp": "2026-03-25T11:39:00.512365+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
@@ -28,13 +28,12 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "URGENT",
-      "ai_summary": "Kieran Rushe from Rapleys LLP (major UK real estate/planning consultancy) is sending an NDA for Dave's review with reference number 1055872. This appears to be deal-related documentation, likely tied to a specific property or development project. Rapleys works on data center and infrastructure sites.",
-      "ai_action": "Dave should review the attached NDA immediately and confirm what deal/property this relates to. Check with France on context if unclear. Contact Kieran if terms need negotiation before signing.",
+      "ai_summary": "Kieran Rushe from Rapleys LLP (planning & development consultancy) is sending Dave an NDA for review under reference 1055872. This appears to be a specific deal or site matter requiring immediate attention\u2014likely related to a data center planning/development project.",
+      "ai_action": "Dave should review the attached NDA immediately and confirm with Kieran if this relates to an existing prospect (Poland 260MW, Innogate Milan, or another site). France should flag the deal code 1055872 in internal systems.",
       "ai_next_steps": [
-        "Review attached NDA document",
-        "Confirm which Galaxy project/site this NDA relates to (Redhill, Poland, Milan, or new prospect)",
-        "Forward to Simmons & Simmons (legal) if not already engaged",
-        "Schedule call with Kieran if terms require discussion"
+        "Review the attached NDA document",
+        "Confirm with Kieran which asset/deal this relates to",
+        "Route to Simmons & Simmons (legal counsel) for standard review if not already done"
       ],
       "ai_failed": false,
       "final_score": 7,
