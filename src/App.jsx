@@ -618,15 +618,6 @@ function Dashboard() {
   const [live, setLive] = useState("demo");
   const [meta, setMeta] = useState(null);
   const [showCreateModal, setShowCreateModal] = useState(false);
-  const [dueDates, setDueDates] = useState({});
-
-  // Load all due dates from Firebase
-  useEffect(() => {
-    const unsub = fbListen("jarvis/dueDates", (val) => {
-      if (val && typeof val === "object") setDueDates(val);
-    });
-    return () => unsub();
-  }, []);
 
   // Live data fetching
   const fetchData = useCallback(async () => {
