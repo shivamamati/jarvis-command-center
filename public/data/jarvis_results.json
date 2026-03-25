@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T22:32:23.910388+00:00",
+  "timestamp": "2026-03-25T23:31:03.418799+00:00",
   "total": 7,
   "new": 7,
   "noise": 2,
@@ -9,37 +9,70 @@
   "auto_learned": 45,
   "items": [
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
+      "sender_email": "danfisher@fluidone.com",
+      "sender_name": "Dan Fisher | FluidOne",
       "subject": "Re: Suite 140 Move",
-      "body_preview": "Dan, I definitely owe you a drink for that\u2014phenomenal work, perfectly executed. Let's catch up for 15 minutes.\r\n\r\nDo any of these times (GMT) work for you? You can book here or just let me know.\r\n\r\n  *   Tue, Mar 31: 5:00\u20135:30 pm\r\n  *   Thu, Apr 2: 3:00\u20133",
-      "received": "2026-03-25T20:56:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYQHs5HAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "Hi Dave,\r\n\r\nI can\u2019t make either of those dates/times unfortunately, I am on annual leave until 3rd April, do you have any availability that Friday?\r\n\r\nDan\r\n\r\nSent from Outlook for iOS\r\nDan Fisher\r\nGroup IT & Network Director\r\n\u200b\u200b\u200b\u200b\r\n  02070996885\r\n  danfis",
+      "received": "2026-03-25T23:20:41Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAsumrsBkvZCoxdrcZDxEL4=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
       "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
+        "Dave replied 2x (+4)",
+        "Tier 1: fluidone.com",
         "3 VIPs on thread (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is an internal message from Dave Misra to Dan (likely a team member or contractor) acknowledging successful completion of a Suite 140 relocation project and proposing a brief follow-up call to debrief. Dave is offering specific time slots and appears to be expressing gratitude for work that was delivered on time and to specification, suggesting this was a critical or complex operational task.",
+      "ai_summary": "Dan Fisher, Group IT & Network Director at FluidOne, cannot attend the initially proposed meeting times for the Suite 140 move due to annual leave through April 2nd, and is requesting to reschedule for Friday, April 3rd. This appears to be a critical facility or infrastructure discussion that requires Dan's direct involvement as the IT stakeholder, so accommodating his availability is important to keep the project on track.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm which meeting time works best for Dan and lock the 15-minute call on the calendar",
-        "Prepare brief notes on Suite 140 move outcomes (timeline, budget, any lessons learned) to discuss during the call",
-        "Follow up with a thank-you message or gesture as indicated by Dave's 'owe you a drink' comment"
+        "Confirm availability for Friday, April 3rd and propose specific time(s) that work for both parties",
+        "Identify what other stakeholders need to attend and ensure they can make April 3rd before finalizing",
+        "Send Dan a calendar invite with any pre-read materials about Suite 140 move scope and timeline so he's prepared when he returns from leave"
       ],
       "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
+      "sender_name": "Galaxy - M365 Infrastructure Modernization",
+      "subject": "Galaxy - M365 Project weekly update",
+      "body_preview": "This meeting is to facilitate all the updates and discussions of the M365 project.\r\n\r\n\r\n\r\nMeeting Agenda:\r\n\r\n  1.  Greetings\r\n  2.  Review actionable items from thelast meeting\r\n  3.  Updates\r\n  4.  Priorities for the week\r\n  5.  Miscellaneous\r\n\r\nLooking ",
+      "received": "2026-03-25T22:45:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANeoKnzl-PtPnNL231_hLmI=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal Galaxy meeting notification for the M365 Infrastructure Modernization project weekly sync. The email confirms the standard meeting agenda structure (reviewing prior action items, discussing current updates, and setting weekly priorities) to keep the project on track. This routine checkpoint is critical to ensure the M365 modernization initiative stays aligned with Galaxy's infrastructure roadmap and timelines.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review and prepare updates on any action items assigned from the previous M365 meeting",
+        "Identify and document the top 2-3 priorities for the upcoming week to discuss in the meeting",
+        "Confirm attendance and ensure France (or relevant team leads) will participate in the sync"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "info@datacenternation.com",
@@ -2466,5 +2499,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 79
 }
