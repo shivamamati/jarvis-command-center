@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T16:08:02.958268+00:00",
+  "timestamp": "2026-03-25T17:55:21.897463+00:00",
   "events": [
     {
       "subject": "tax",
@@ -10,21 +10,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYQTJUFAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Wednesday Marketing Meeting",
-      "start": "2026-03-25T16:30:00.0000000",
-      "end": "2026-03-25T17:00:00.0000000",
-      "attendees": [
-        "Sai",
-        "Animesh",
-        "SA",
-        "Ashley"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ooBdUFAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
@@ -41,16 +26,45 @@
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ooBdUFAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
-      "subject": "Hold Hiren",
+      "subject": "Rescheduled Discussion JSA <> Galaxy",
+      "start": "2026-03-26T14:00:00.0000000",
+      "end": "2026-03-26T14:30:00.0000000",
+      "attendees": [
+        "France",
+        "Candace",
+        "Sai"
+      ],
+      "organizer": "France",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYQTJUKAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Nextgen <> Galaxy Intro Meeting",
       "start": "2026-03-26T15:00:00.0000000",
       "end": "2026-03-26T15:30:00.0000000",
       "attendees": [
-        "France"
+        "hiren.parekh@nexgencloud.com",
+        "Ashley"
       ],
       "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
+      "location": "Microsoft Teams Meeting; https://teams.microsoft.com/meet/24425599510425?p=Q1aWLs0f2RUJoS0jLj",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYBUbrjAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Nextgen <> Galaxy Intro Meeting",
+      "start": "2026-03-26T15:00:00.0000000",
+      "end": "2026-03-26T15:30:00.0000000",
+      "attendees": [
+        "France",
+        "hiren.parekh@nexgencloud.com",
+        "Ashley"
+      ],
+      "organizer": "France",
+      "location": "Microsoft Teams Meeting; https://teams.microsoft.com/meet/24425599510425?p=Q1aWLs0f2RUJoS0jLj",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYQTJUJAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "BCS/Galaxy Catch Up",

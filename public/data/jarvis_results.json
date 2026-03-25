@@ -1,13 +1,250 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T16:08:32.917713+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 6,
+  "timestamp": "2026-03-25T17:55:47.426508+00:00",
+  "total": 24,
+  "new": 24,
+  "noise": 16,
   "ai": 10,
   "skipped": 0,
-  "auto_learned": 43,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fwd: Fwd: Cold calling at 5%? Here is how top performers hit 15%+",
+      "body_preview": "France sign Sai and me up for this webinar, get it on our calendars\r\n\r\n\r\n---------- Forwarded message ----------\r\nFrom: TJ Karklins <tjk@globalvectors.net>\r\nDate: Wednesday, March 25, 2026 at 11:49\u202fAM EDT\r\nSubject: Fwd: Cold calling at 5%? Here is how top",
+      "received": "2026-03-25T17:49:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYQHs5GAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFhvtCoQ5Y9MjppsFpc3S94=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins from Global Vectors is forwarding information about a sales training webinar focused on improving cold calling conversion rates from 5% to 15%+. Dave is requesting that France register both Dave and Sai for this webinar and add it to their calendars, suggesting Galaxy Capital Partners or Galaxy Data Centers may be seeking to enhance their sales development practices.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "France to identify the webinar details (date, time, registration link) from TJ's original message and secure spots for Dave and Sai",
+        "Add the webinar to both Dave's and Sai's calendars with relevant meeting details",
+        "Confirm registration completion with Dave and prepare any pre-webinar materials or talking points for the team"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill renewal",
+      "body_preview": "Hi Nic - Please see attached some comments from our counsel.  I don't think there is anything too controversial there but let me know if you have any questions.\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Smith, Nicholas L. <nicholas.l.smit",
+      "received": "2026-03-25T17:22:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhC6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, renewal",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong, an internal Galaxy team member, is forwarding legal counsel's comments on the Redhill renewal agreement and seeking acknowledgment from Nicholas Smith. Paul indicates the legal feedback is relatively straightforward with no major red flags, but is requesting confirmation of receipt and any questions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached legal counsel comments on the Redhill renewal terms and flag any substantive concerns to Paul within 24 hours",
+        "Confirm receipt with Paul and clarify the renewal timeline and any required approval chain before execution",
+        "If no issues identified, coordinate with Paul to move forward with Redhill on the renewal agreement"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Thanks Francis - The markup makes sense to me.  I'll will get it back to Accenture.\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Francis Turley <Francis.Turley@simmons-simmons.com>\r\nSent: Wednesday, March 25, 2026 1:59 AM\r\nTo: Paul Leong <pa",
+      "received": "2026-03-25T16:59:50Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhC4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Re customer: accenture",
+        "Internal \u2014 deal/customer related",
+        "KW: renewal",
+        "Lease + customer"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is acknowledging Francis Turley's legal counsel on Redhill contract renewal terms and confirming he will communicate the agreed-upon pricing structure to Accenture. This represents progress on a material EMEA data center contract renewal that requires internal stakeholder alignment before final execution.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt of Paul's communication to Accenture and establish timeline for their response/approval",
+        "Prepare contract execution package and identify any remaining open items before final signatures",
+        "Brief Dave on expected close date and any commercial adjustments that may impact FY2026 revenue recognition"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Rescheduled Discussion JSA <> Galaxy",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/21869295279182?p=gWtXftpQPCNKPboFGt\r\nMeeting ID: 218 692 952 791 82\r\nPasscode: 5vC3Ww6o\r\n__________________",
+      "received": "2026-03-25T16:21:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhC0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMkRNY_9eSJPlzhUfJuONfc=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Thread: 4 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is confirming a rescheduled Microsoft Teams meeting with JSA (likely a potential client or partner). This appears to be a follow-up discussion that was previously delayed. The meeting details suggest an active business development or partnership conversation that requires Dave or France's participation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and add the meeting to Dave's calendar with full details (meeting ID, passcode, and join link)",
+        "Prepare meeting agenda and background materials on JSA's needs, Galaxy's data center offerings, and any previous discussion points",
+        "Brief Dave on JSA's business priorities and desired outcomes before the Teams call to maximize engagement"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Nextgen <> Galaxy Intro Meeting",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24425599510425?p=Q1aWLs0f2RUJoS0jLj\r\nMeeting ID: 244 255 995 104 25\r\nPasscode: KE38Sp6M\r\n__________________",
+      "received": "2026-03-25T16:10:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOF8fL1vK3NCreAxlPtYz00=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France has scheduled a Microsoft Teams meeting with Nextgen, likely for an introductory discussion. This appears to be a partnership, vendor, or business development opportunity that requires Dave's awareness and potential participation. The meeting details suggest this is a formal engagement that Galaxy wants to establish or explore.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm whether Dave needs to attend this Nextgen meeting and block calendar time if participation is required",
+        "Request context from France on Nextgen's business, the meeting objectives, and desired outcomes before the call",
+        "Determine if pre-meeting materials or talking points should be prepared to maximize the value of this introduction"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Nextgen <> Galaxy Meeting Confirmation",
+      "body_preview": "Hello Hiren,\r\nI hope this message finds you well.\r\nThis is Dave\u2019s Assistant confirming that I have sent a calendar invitation for an introductory meeting for you, Dave, and Ashley tomorrow at the agreed time.\r\nLooking forward to the discussion.\r\nKind rega",
+      "received": "2026-03-25T16:08:44Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHyIiLFChs9Ko62824YZvKo=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is confirming that a calendar invitation has been sent for an introductory meeting between Dave, Ashley, and Hiren (presumably from Nextgen) scheduled for tomorrow. This appears to be an initial business development meeting that Dave has already agreed to, and France is following up to ensure all parties have the scheduling details confirmed.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt of the calendar invitation and review meeting agenda/talking points with Ashley before tomorrow's call",
+        "Brief Ashley on Hiren's background and Nextgen's business to ensure alignment on meeting objectives",
+        "Prepare any relevant Galaxy materials or proposals to discuss during the introductory meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Nextgen <> Galaxy Intro Meeting",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24425599510425?p=Q1aWLs0f2RUJoS0jLj\r\nMeeting ID: 244 255 995 104 25\r\nPasscode: KE38Sp6M\r\n__________________",
+      "received": "2026-03-25T16:08:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAYVTnCwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHYfctu5Ju1Kvfwbgib4dMg=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a calendar invite for a Microsoft Teams meeting with Nextgen, indicating an introductory meeting has been scheduled between that organization and Galaxy. The meeting details and access information are provided, suggesting this is a new business development or partnership opportunity that requires Dave's attendance.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and add to calendar; determine the specific purpose and participants from Nextgen to prepare agenda",
+        "Brief France and relevant Galaxy team members on Nextgen's business, recent activities, and potential strategic fit before the meeting",
+        "Prepare talking points on Galaxy's capabilities, service offerings, and any relevant data center or infrastructure solutions that may align with Nextgen's needs"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -15,32 +252,31 @@
       "body_preview": "Thanks France. Yes that works\r\n\r\nGet Outlook for Android\r\n________________________________\r\nFrom: France <france@galaxydatacenters.com>\r\nSent: Wednesday, March 25, 2026 11:48:45 AM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Dave Misra <dave@galaxydatacen",
       "received": "2026-03-25T16:00:59Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
+      "rules_score": 7,
+      "rules_label": "URGENT",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 8x (+2)",
+        "Dave replied 11x (+2)",
         "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Thread: 3 msgs (+2)"
+        "KW: nda"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman (Galaxy Data Centers internal stakeholder) has confirmed availability for a scheduled discussion with Candace regarding a Job Safety Analysis (JSA). This appears to be an internal coordination confirmation for a safety or operational planning meeting that requires Dave's awareness.",
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal team member) is confirming availability for a previously proposed meeting with Candace regarding a JSA (Job Safety Analysis) discussion. This is a routine scheduling confirmation for an internal safety or operational planning session.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm the meeting details (date, time, location/call format) with France and Sai to ensure all parties are aligned",
-        "Prepare any relevant JSA documentation or agenda items needed for the discussion with Candace",
-        "Block Dave's calendar if his participation is required in the meeting"
+        "Confirm the meeting date/time with Candace and send calendar invitations to all parties",
+        "Prepare JSA discussion materials or agenda items ahead of the scheduled meeting",
+        "Ensure Sai and France have any relevant documentation needed for the safety discussion"
       ],
       "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
+      "final_score": 7,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "bobcavoto@2020-4.com",
@@ -569,40 +805,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Paul\r\n\r\nI return the NDA with a few minor amendments to bring this a little closer to the Redhill template.\r\n\r\nPlease let me know if you have any queries.\r\n\r\nRegards\r\n\r\nFrancis Turley\r\nOf Counsel, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT : +44 20 7825 3",
-      "received": "2026-03-24T16:59:51Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "VIP: simmons-simmons.com",
-        "KW: nda, lease, renewal",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons (external counsel handling real estate matters) has returned a redlined NDA for the Redhill renewal deal with minor modifications to align it with Redhill's standard template. This represents progress on contract negotiation for what appears to be a significant renewal engagement requiring legal review and approval before execution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review Francis's proposed amendments to the NDA and assess alignment with Galaxy's risk tolerance and deal terms",
-        "Coordinate internally with relevant stakeholders to approve the revised NDA language and determine if further negotiation is needed",
-        "Confirm final execution authority and timeline for signing to keep the Redhill renewal on track"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -1344,37 +1546,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Hold Hiren",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24425599510425?p=Q1aWLs0f2RUJoS0jLj\r\nMeeting ID: 244 255 995 104 25\r\nPasscode: KE38Sp6M\r\n__________________",
-      "received": "2026-03-23T22:44:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHYfctu5Ju1Kvfwbgib4dMg=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a Microsoft Teams meeting invitation with no substantive content or context provided. Without details about the meeting purpose, attendees, or agenda, it's unclear what business matter requires Dave's attention or why this communication warrants action.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with the sender what the meeting topic is and confirm whether Dave's attendance is required",
-        "If this was sent in error or lacks context, request a proper meeting invitation with agenda and objectives"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2198,5 +2369,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 70
+  "total_tracked": 75
 }
