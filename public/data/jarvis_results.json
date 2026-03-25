@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T18:52:52.760868+00:00",
-  "total": 21,
-  "new": 21,
-  "noise": 15,
-  "ai": 11,
+  "timestamp": "2026-03-25T19:44:37.738490+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 11,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France is requesting your review of a 2026 NDA template for Galaxy Data Centers before she proceeds with DocuSign execution. This is a standard legal gating step where she needs your approval on the agreement terms prior to sending it out for signature. Your prompt review is needed to avoid delays in closing any pending NDA-dependent business relationships or contracts.",
+      "ai_summary": "France is requesting Dave's review of a 2026 NDA document for Galaxy Data Centers before sending it to DocuSign for execution. This is a standard legal compliance step where France needs Dave's approval on the terms before moving forward with formal signing. The NDA likely governs confidentiality obligations for a new business relationship or partnership launching in 2026.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the shared NDA document and provide feedback to France on any requested modifications or concerns",
-        "Confirm approval to France so she can proceed with DocuSign setup and execution",
-        "Clarify with France which counterparty or transaction this NDA is intended for"
+        "Review the shared NDA document and provide feedback to France within 24 hours",
+        "Confirm any required modifications or approve as-is so France can proceed with DocuSign routing",
+        "Clarify with France which counterparty or transaction this NDA covers to ensure alignment with Galaxy's 2026 strategic priorities"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -63,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rodrigo from Galaxy Data Centers is following up with Sai Raman regarding a previous request for additional mailboxes related to Apollo. He's offering to assist with setup and configuration, indicating this was an open action item that may or may not have been resolved.",
+      "ai_summary": "Rodrigo from Galaxy Data Centers is following up with Sai Raman regarding support for additional mailboxes related to an Apollo project. He's offering to assist with setup if Sai still needs it and is waiting for confirmation on requirements.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Sai Raman whether additional mailboxes are still needed and what the current status is",
-        "If needed, coordinate with Rodrigo to complete mailbox setup and ensure it's properly documented in project records",
-        "Follow up on the incomplete email to clarify if there are any outstanding questions or concerns from Sai's side"
+        "Dave or France should clarify with Sai Raman what the Apollo mailbox project scope and timeline are",
+        "Confirm whether this is a billable service engagement and what the associated revenue opportunity is",
+        "Ensure Rodrigo has clear specifications from Sai before proceeding with implementation work"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -96,12 +96,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "TJ Karklins from Global Vectors is forwarding a webinar invitation focused on improving cold calling conversion rates from 5% to 15%+. Dave wants France to register both himself and Sai for this sales training webinar, indicating Galaxy may be looking to strengthen its business development and sales outreach capabilities.",
+      "ai_summary": "TJ Karklins from Global Vectors is promoting a webinar about improving cold calling conversion rates from 5% to 15%+. Dave is requesting that France register both himself and Sai for this sales training session, indicating Galaxy leadership wants to enhance their outbound prospecting effectiveness.",
       "ai_action": null,
       "ai_next_steps": [
-        "France to retrieve the full webinar details (date, time, registration link) from the original message and register Dave and Sai",
-        "Add the webinar to both Dave's and Sai's calendars with any pre-work or materials needed",
-        "Follow up with Dave after the webinar to discuss key takeaways and whether Galaxy should implement any new cold calling strategies across the organization"
+        "Have France locate the webinar registration link and secure spots for Dave and Sai",
+        "Add the webinar to both Dave's and Sai's calendars with any prep materials",
+        "Follow up with Dave post-webinar to discuss applicability of techniques to Galaxy's sales process"
       ],
       "ai_failed": false,
       "final_score": 8,
