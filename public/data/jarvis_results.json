@@ -1,13 +1,78 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T20:35:18.897899+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 6,
-  "ai": 3,
+  "timestamp": "2026-03-25T21:35:28.678887+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 4,
+  "ai": 6,
   "skipped": 0,
-  "auto_learned": 43,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Suite 140 Move",
+      "body_preview": "Dan, I definitely owe you a drink for that\u2014phenomenal work, perfectly executed. Let's catch up for 15 minutes.\r\n\r\nDo any of these times (GMT) work for you? You can book here or just let me know.\r\n\r\n  *   Tue, Mar 31: 5:00\u20135:30 pm\r\n  *   Thu, Apr 2: 3:00\u20133",
+      "received": "2026-03-25T20:56:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYQHs5HAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAsumrsBkvZCoxdrcZDxEL4=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal email from Dave Misra to a colleague named Dan, thanking him for successful execution of work related to a Suite 140 move and proposing a brief 15-minute call to catch up. Dave is expressing appreciation and attempting to schedule a meeting to discuss the project outcome.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify who 'Dan' is and what specific work was completed for the Suite 140 move to understand the business context",
+        "Confirm which time slot (Tue Mar 31 5:00-5:30 pm GMT or Thu Apr 2 3:00 pm GMT) works best and send calendar invite",
+        "Prepare brief notes on the Suite 140 project outcome to discuss during the 15-minute call"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "info@datacenternation.com",
+      "sender_name": "Vraj Savaj",
+      "subject": "Don't Miss Your Chance to Attend DCN Toronto 2026",
+      "body_preview": "Don\u2019t miss your opportunity to be at the heart of Canada\u2019s data center ecosystem, in a market growing at a 10.3% CAGR.\r\nDCN Toronto will take place on 9 June 2026 at The International Centre. The event will bring together the leaders shaping Canada\u2019s di",
+      "received": "2026-03-25T20:41:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC30j7lFQOpCiheYQ4X95PE=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: datacenternation.com",
+        "KW: data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Vraj Savaj from Data Center Nation is promoting DCN Toronto 2026, a major industry conference scheduled for June 9, 2026, that will convene leaders in Canada's rapidly expanding data center market (growing at 10.3% CAGR). This is a networking and visibility opportunity to engage with key ecosystem players in a high-growth market segment relevant to Galaxy's data center operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Determine if Galaxy should secure speaking slots or sponsorship packages to establish thought leadership in the Canadian market",
+        "Add DCN Toronto 2026 to strategic event calendar and assess attendance ROI relative to Galaxy's expansion plans in Canada",
+        "Request full event details (attendee demographics, pricing, sponsorship tiers) to make Go/No-Go decision and budget accordingly"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
@@ -2401,5 +2466,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 76
+  "total_tracked": 78
 }
