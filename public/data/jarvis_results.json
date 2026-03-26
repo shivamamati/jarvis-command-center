@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T06:10:54.771678+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 0,
-  "ai": 1,
+  "timestamp": "2026-03-26T08:00:42.325434+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 4,
+  "ai": 2,
   "skipped": 0,
-  "auto_learned": 46,
+  "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Catchup Dave and Chris Galaxy <> CDW ",
+      "body_preview": "Hi Chris,\r\n\r\nGreat catching up last week \u2014 always good to connect with you.\r\n\r\nAs promised, I've attached the updated Redhill presentation along with the original December deck for reference. It covers everything that's been delivered since Galaxy took ov",
+      "received": "2026-03-26T07:54:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYcODpTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADc8C7m0rH9OsimkoRRIDIQ=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "5 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is following up with Chris from CDW after a recent meeting, sending updated presentation materials about Galaxy's Redhill project delivery and progress since Galaxy's takeover. This appears to be a continuation of an ongoing partnership discussion regarding infrastructure or data center services that CDW may be interested in or currently engaged with.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Chris received both the updated Redhill presentation and December reference deck, and schedule a follow-up call to discuss feedback or questions",
+        "Prepare talking points on key deliverables and improvements made since Galaxy's takeover to support the next conversation with CDW",
+        "Track CDW's interest level and timeline for any potential expansion or commitment decision related to the Redhill project"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -2534,5 +2568,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 81
 }

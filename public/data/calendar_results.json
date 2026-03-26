@@ -1,20 +1,6 @@
 {
-  "timestamp": "2026-03-26T06:10:51.605950+00:00",
+  "timestamp": "2026-03-26T08:00:36.618089+00:00",
   "events": [
-    {
-      "subject": "Rescheduled Discussion JSA <> Galaxy",
-      "start": "2026-03-26T14:00:00.0000000",
-      "end": "2026-03-26T14:30:00.0000000",
-      "attendees": [
-        "France",
-        "Candace",
-        "Sai"
-      ],
-      "organizer": "France",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYQTJUKAAA%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Nextgen <> Galaxy Intro Meeting",
       "start": "2026-03-26T15:00:00.0000000",
