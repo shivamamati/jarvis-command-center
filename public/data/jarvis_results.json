@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T10:54:43.246769+00:00",
+  "timestamp": "2026-03-26T11:47:17.577242+00:00",
   "total": 8,
   "new": 8,
-  "noise": 4,
-  "ai": 6,
+  "noise": 8,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 48,
+  "auto_learned": 47,
   "items": [
     {
       "sender_email": "luke.gray@redhilldatacentre.com",
