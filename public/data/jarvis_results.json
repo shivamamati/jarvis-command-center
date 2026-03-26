@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T04:39:07.720330+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 5,
-  "ai": 5,
+  "timestamp": "2026-03-26T06:10:54.771678+00:00",
+  "total": 1,
+  "new": 1,
+  "noise": 0,
+  "ai": 1,
   "skipped": 0,
   "auto_learned": 46,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Following up after Ops Team Weekly",
+      "body_preview": "Paul these were the notes from that meeting. Lets have all of these ready on monday before the next meeting. Feel free to use ai to get these updated on the weekly pulse. Hopefully with all this we reduce the inefficiencies. Thanks for keeping monday runn",
+      "received": "2026-03-26T05:13:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYaWRyBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHVVt_NQKN9Dp9IOlml1qrU=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Internal + customer (+1)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal message from Dave Misra to Paul (likely a team member) sharing operational meeting notes and requesting that all action items be completed by Monday ahead of the next weekly meeting. Dave is emphasizing the use of AI tools to expedite updates to their weekly performance metrics, with the goal of identifying and eliminating operational inefficiencies.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt of meeting notes with Paul and clarify which specific action items need completion by Monday",
+        "Identify which operational metrics or reports can be automated/accelerated using AI tools to streamline the weekly pulse review",
+        "Schedule a pre-meeting sync with Paul on Monday morning to validate all deliverables are ready before the ops team meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -2500,5 +2534,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 79
+  "total_tracked": 80
 }
