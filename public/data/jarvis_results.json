@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T21:28:14.533995+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 4,
-  "ai": 5,
+  "timestamp": "2026-03-26T22:25:28.608482+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 51,
   "items": [
@@ -15,7 +15,7 @@
       "body_preview": "Ash,\r\n\r\nJust sending a quick note to check in on things. Do you have any visibility regarding when your legal folks will have something to share over with the Travelers team?\r\n\r\nBest,\r\n\r\nBen\r\n\r\n\r\nBen Gagne | Senior Director\r\nCorporate Procurement | Enterp",
       "received": "2026-03-26T21:27:37Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIXrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
       "rules_score": 9,
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ben Gagne, Senior Director of Corporate Procurement at Travelers, is following up to check on the status of legal review deliverables that Galaxy was expected to provide to Travelers. He needs clarity on timing for when Galaxy's legal team will share their materials with Travelers' team, indicating this is part of an ongoing deal or partnership discussion.",
+      "ai_summary": "Ben Gagne from Travelers' Corporate Procurement is following up on a previous Galaxy legal matter and seeking a timeline for when Galaxy's legal team will deliver documentation or a response to Travelers. This appears to be part of an ongoing procurement or partnership discussion where legal review is a blocking step.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France or legal team confirm current status of deliverables due to Travelers and provide Ben with a specific timeline for submission",
-        "If legal review is blocked or delayed, identify the holdup and communicate revised timeline to Ben immediately to maintain deal momentum",
-        "Consider scheduling a direct call with Ben to align on Travelers' expectations and any dependencies on Galaxy's side"
+        "Have France or legal team confirm current status and provide Ben with a specific delivery date for the legal deliverable",
+        "If there are blockers causing the delay, escalate internally to resolve and communicate revised timeline to Ben immediately",
+        "Once legal material is ready, have Dave or France send directly to Ben with a summary of next steps to keep the Travelers opportunity moving"
       ],
       "ai_failed": false,
       "final_score": 9,
