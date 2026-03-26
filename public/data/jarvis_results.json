@@ -1,13 +1,215 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T13:06:22.674395+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 9,
-  "ai": 12,
+  "timestamp": "2026-03-26T15:00:53.761778+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 8,
+  "ai": 13,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: Suite 140 Move",
+      "body_preview": "Hi Dan,\r\nJust to correct my previous note as I missed that you'll be back from the 7th, we can instead look to schedule a catch-up on Friday, April 10th, at the same time.\r\nPlease let me know if that works for you, and I\u2019d be happy to lock in a time.\r\nBes",
+      "received": "2026-03-26T14:41:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIW6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAsumrsBkvZCoxdrcZDxEL4=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is rescheduling a meeting with Dan regarding the Suite 140 move from an earlier date to Friday, April 10th, based on Dan's updated availability returning on the 7th. This appears to be a routine logistics discussion for an office or facility relocation that requires in-person or detailed discussion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Dan whether Friday, April 10th works and lock in a specific time slot",
+        "Prepare Suite 140 move details and logistics plan ahead of the meeting",
+        "Ensure France has any outstanding questions or information needed from Dave before the call"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
+      "sender_name": "Galaxy - M365 Infrastructure Modernization",
+      "subject": "Galaxy - M365 Project weekly update",
+      "body_preview": "This meeting is to facilitate all the updates and discussions of the M365 project.\r\n\r\n\r\n\r\nMeeting Agenda:\r\n\r\n  1.  Greetings\r\n  2.  Review actionable items from thelast meeting\r\n  3.  Updates\r\n  4.  Priorities for the week\r\n  5.  Miscellaneous\r\n\r\nLooking ",
+      "received": "2026-03-26T14:24:50Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIW4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANeoKnzl-PtPnNL231_hLmI=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal Galaxy M365 Infrastructure Modernization project weekly sync meeting notification. The meeting is structured to review progress on actionable items, discuss current updates, and align on weekly priorities for the M365 modernization initiative.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and any agenda additions needed before the meeting",
+        "Prepare status updates on assigned action items from the previous week's meeting",
+        "Identify any blockers or resource needs to flag during the priorities discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "rodrigo@galaxydatacenters.com",
+      "sender_name": "Rodrigo M",
+      "subject": "Re: Redhill Data Centre - Salesforce Remediation Priorities",
+      "body_preview": "Hi @hajarzaiz04@gmail.com and @Ali Elfanidi,\r\n\r\n\r\nI hope you are both well, and thank you for the WhatsApp message.\r\n\r\nAttached are the Redhill Data Centre logo files in PNG format. I\u2019ve included the white version for the dark header, as well as the dark ",
+      "received": "2026-03-26T14:18:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIW1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEuCws-1-SRLmkZnue7oESU=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: data cent",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rodrigo from Galaxy Data Centers is responding to a request from team members regarding Redhill Data Centre, providing logo files in PNG format (white and dark versions) for use in various design contexts. This appears to be a routine administrative task related to brand asset management for the Redhill facility.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt of logo files and verify they meet the technical specifications needed for the Salesforce remediation project",
+        "Distribute the logos to the relevant design/marketing teams with clear usage guidelines for dark and light backgrounds",
+        "If this is part of a larger Salesforce remediation effort, ensure the logo assets are integrated into the remediation timeline and communicate completion status to stakeholders"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul.tester@redhilldatacentre.com",
+      "sender_name": "Paul Tester",
+      "subject": "Re: (Salesforce) How to find the access management app",
+      "body_preview": "Hi\r\n\r\nI can see that display below, and then if I select a company like DCSL it comes up.\r\nCant see any way to actually enter a NEW contact and give them access, can others on this email try this so its not just me going mad...\r\n\r\nAs we explained, we need",
+      "received": "2026-03-26T14:00:25Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIW0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACrL5YGneqZPm36wXgDzaHg=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Redhill ops",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Tester from Redhill Data Centre is reporting a usability issue with Galaxy's Salesforce access management app\u2014specifically that he cannot find a way to add new contacts and grant them system access, despite being able to view existing companies. He's asking other team members to confirm whether this is a widespread problem or a personal issue, which suggests this functionality gap may be blocking customer onboarding or access provisioning workflows.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or a technical lead verify whether the 'add new contact' feature exists in the current Salesforce configuration and assess if it's a UI/UX issue or missing functionality",
+        "Contact Paul directly to understand the exact workflow he's trying to complete and whether this is blocking an active customer need",
+        "If confirmed as a gap, prioritize a fix or workaround to prevent delays in customer access provisioning for Galaxy Data Centers"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Rescheduled Discussion JSA <> Galaxy",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/21869295279182?p=gWtXftpQPCNKPboFGt\r\nMeeting ID: 218 692 952 791 82\r\nPasscode: 5vC3Ww6o\r\n__________________",
+      "received": "2026-03-26T13:16:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMkRNY_9eSJPlzhUfJuONfc=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Thread: 4 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France has scheduled a Microsoft Teams meeting with JSA (likely a potential partner or client) to discuss collaboration or partnership opportunities with Galaxy. This meeting represents a business development conversation that could impact Galaxy's service offerings, revenue, or strategic partnerships depending on JSA's scope and size.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Dave's availability for the scheduled meeting and ensure he has the Teams link and passcode saved",
+        "Brief Dave on JSA's background, current business relationship status, and objectives for this discussion before the call",
+        "Have France prepare a summary of Galaxy's relevant service offerings and any preliminary terms or proposals to discuss with JSA"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "rj@galaxydatacenters.com",
+      "sender_name": "Rhys  Jones",
+      "subject": "Fw: Graphene Batteries",
+      "body_preview": "FYI\r\n\r\n\r\n________________________________\r\nFrom: Stuart Farmer <s.farmer@mercurypower.net>\r\nSent: 26 March 2026 1:05 PM\r\nTo: Rhys Jones <rj@galaxydatacenters.com>; Tom Benfield <t.benfield@mercurypower.net>\r\nSubject: Re: Graphene Batteries\r\n\r\nHi Rhys\r\n\r\nT",
+      "received": "2026-03-26T13:13:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAF7fCD4HOFBNuQvz-0fTxMk=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: power"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Stuart Farmer from Mercury Power is following up on a graphene battery discussion with Rhys Jones and Tom Benfield. The email appears to be incomplete or a forwarded thread regarding a technical or commercial opportunity around graphene battery technology that may be relevant to Galaxy's data center operations or energy infrastructure.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Ask Rhys Jones to provide the full email thread and context on Mercury Power's graphene battery proposal and how it relates to Galaxy's current or future power/cooling needs",
+        "Determine if this represents a potential cost-saving opportunity for data center operations or a business development/partnership opportunity",
+        "Schedule a call with Stuart Farmer and Tom Benfield to understand their timeline, technical specifications, and commercial terms if this warrants further exploration"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -179,38 +381,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "danfisher@fluidone.com",
-      "sender_name": "Dan Fisher | FluidOne",
-      "subject": "Re: Suite 140 Move",
-      "body_preview": "Hi Dave,\r\n\r\nSorry, in all the mayhem have forgotten that 3rd and 6th are bank holidays in UK, so won\u2019t be back online till 7th, does afternoon of then work at all?\r\n\r\nDan\r\n\r\nSent from Outlook for iOS\r\nDan Fisher\r\nGroup IT & Network Director\r\n\u200b\u200b\u200b\u200b\r\n  02070",
-      "received": "2026-03-26T08:58:13Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAsumrsBkvZCoxdrcZDxEL4=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "Tier 1: fluidone.com",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dan Fisher, Group IT & Network Director at FluidOne, is requesting to reschedule a meeting regarding the Suite 140 move due to UK bank holidays on the 3rd and 6th, proposing the afternoon of the 7th instead. This appears to be a facilities or infrastructure transition that requires coordination between Galaxy and FluidOne. Confirming availability promptly will keep this transition on track and maintain the relationship with an important contact.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm whether the afternoon of the 7th works for Dave and France, and reply to Dan with confirmation or alternative dates",
-        "Review the Suite 140 move project timeline to ensure the rescheduled meeting doesn't create downstream delays",
-        "Prepare any documentation or agenda items needed for the meeting with Dan to maximize productivity once rescheduled"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Re: Catchup Dave and Chris Galaxy <> CDW ",
@@ -346,39 +516,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
-      "sender_name": "Galaxy - M365 Infrastructure Modernization",
-      "subject": "Galaxy - M365 Project weekly update",
-      "body_preview": "This meeting is to facilitate all the updates and discussions of the M365 project.\r\n\r\n\r\n\r\nMeeting Agenda:\r\n\r\n  1.  Greetings\r\n  2.  Review actionable items from thelast meeting\r\n  3.  Updates\r\n  4.  Priorities for the week\r\n  5.  Miscellaneous\r\n\r\nLooking ",
-      "received": "2026-03-25T22:45:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANeoKnzl-PtPnNL231_hLmI=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal Galaxy meeting notification for the M365 Infrastructure Modernization project weekly sync. The email confirms the standard meeting agenda structure (reviewing prior action items, discussing current updates, and setting weekly priorities) to keep the project on track. This routine checkpoint is critical to ensure the M365 modernization initiative stays aligned with Galaxy's infrastructure roadmap and timelines.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review and prepare updates on any action items assigned from the previous M365 meeting",
-        "Identify and document the top 2-3 priorities for the upcoming week to discuss in the meeting",
-        "Confirm attendance and ensure France (or relevant team leads) will participate in the sync"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "info@datacenternation.com",
@@ -548,40 +685,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Rescheduled Discussion JSA <> Galaxy",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/21869295279182?p=gWtXftpQPCNKPboFGt\r\nMeeting ID: 218 692 952 791 82\r\nPasscode: 5vC3Ww6o\r\n__________________",
-      "received": "2026-03-25T16:21:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhC0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMkRNY_9eSJPlzhUfJuONfc=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Thread: 4 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France is confirming a rescheduled Microsoft Teams meeting with JSA (likely a potential client or partner). This appears to be a follow-up discussion that was previously delayed. The meeting details suggest an active business development or partnership conversation that requires Dave or France's participation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and add the meeting to Dave's calendar with full details (meeting ID, passcode, and join link)",
-        "Prepare meeting agenda and background materials on JSA's needs, Galaxy's data center offerings, and any previous discussion points",
-        "Brief Dave on JSA's business priorities and desired outcomes before the Teams call to maximize engagement"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "france@galaxydatacenters.com",
@@ -1008,42 +1111,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
-      "subject": "Redhill Data Centre - Salesforce Remediation Priorities",
-      "body_preview": "Hi @Ali Elfanidi and @hajarzaiz04@gmail.com,\r\n\r\nGood to meet you both today. Appreciate your time on the call.\r\n\r\nAs promised, attached are two documents:\r\n\r\n\r\n  1.\r\nSalesforce Remediation Punch List (GDC-SF-PUNCH-001, v2.0) covering all outstanding items",
-      "received": "2026-03-24T21:22:08Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiC0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEuCws-1-SRLmkZnue7oESU=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Attachments from known (+1)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: data cent",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rodrigo M (Galaxy Data Centers internal stakeholder) is following up from a meeting with Ali Elfanidi and another colleague to share Salesforce remediation documentation for the Redhill Data Centre project. He has provided a punch list (v2.0) outlining outstanding remediation items that need to be addressed. This matters to Galaxy because resolving Salesforce configuration and data issues is critical to operational readiness and system reliability at the Redhill facility.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the Salesforce Remediation Punch List (GDC-SF-PUNCH-001, v2.0) and assess priority/impact of each outstanding item",
-        "Schedule a follow-up meeting with Rodrigo, Ali, and the relevant technical team to assign owners and establish remediation timelines",
-        "Determine resource allocation and any budget implications needed to complete remediation before Redhill goes live"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "candace@jsa.net",
@@ -2705,5 +2772,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 85
+  "total_tracked": 87
 }

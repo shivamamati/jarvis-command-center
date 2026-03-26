@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-26T13:05:48.369925+00:00",
+  "timestamp": "2026-03-26T15:00:15.199336+00:00",
   "events": [
     {
       "subject": "Nextgen <> Galaxy Intro Meeting",
@@ -60,6 +60,21 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3orKn6sAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAD%2F9VNRAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Rescheduled Discussion JSA <> Galaxy",
+      "start": "2026-03-26T18:30:00.0000000",
+      "end": "2026-03-26T19:00:00.0000000",
+      "attendees": [
+        "France",
+        "Candace",
+        "Sai",
+        "Dean"
+      ],
+      "organizer": "France",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYebNnzAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Galaxy - M365 Project weekly update",
@@ -146,36 +161,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ouTyhTAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBFAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Galaxy - M365 Project weekly update",
-      "start": "2026-03-27T19:00:00.0000000",
-      "end": "2026-03-27T20:00:00.0000000",
-      "attendees": [
-        "Galaxy",
-        "Rodrigo",
-        "Ash",
-        "Savir"
-      ],
-      "organizer": "Galaxy - M365 Infrastructure Modernization",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ouTyhTAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvwwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Galaxy - M365 Project weekly update",
-      "start": "2026-03-28T19:00:00.0000000",
-      "end": "2026-03-28T20:00:00.0000000",
-      "attendees": [
-        "Galaxy",
-        "Rodrigo",
-        "Ash",
-        "Savir"
-      ],
-      "organizer": "Galaxy - M365 Infrastructure Modernization",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3oxc9H6AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvwwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
