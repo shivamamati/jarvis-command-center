@@ -1,46 +1,107 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T15:00:53.761778+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 8,
-  "ai": 13,
+  "timestamp": "2026-03-26T16:57:32.159340+00:00",
+  "total": 24,
+  "new": 24,
+  "noise": 20,
+  "ai": 19,
   "skipped": 0,
-  "auto_learned": 47,
+  "auto_learned": 48,
   "items": [
     {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: family office equity round $2-35 million for Galaxy Capital Partners",
+      "body_preview": "Can you book a time using the link in my signature? Happy to have an intro call. In the meantime, could you share a bit more about your role and, if available, a brief deck on your firm?\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.c",
+      "received": "2026-03-26T16:36:11Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH_2HMLWWSNOlOBDBS7yZA0=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be Dave's outgoing response to an incoming inquiry about a potential $2-35M equity investment from a family office into Galaxy Capital Partners. Dave is expressing openness to the opportunity and requesting additional information about the investor's background and investment thesis before proceeding with a call.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Wait for the investor's response with details about their role, investment focus, and any available materials",
+        "Prepare a Galaxy Capital Partners pitch deck highlighting key investment metrics, track record, and use of capital if not already available",
+        "Confirm calendar availability for an introductory call once the investor books time through Dave's scheduling link"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "danfisher@fluidone.com",
+      "sender_name": "Dan Fisher | FluidOne",
       "subject": "Re: Suite 140 Move",
-      "body_preview": "Hi Dan,\r\nJust to correct my previous note as I missed that you'll be back from the 7th, we can instead look to schedule a catch-up on Friday, April 10th, at the same time.\r\nPlease let me know if that works for you, and I\u2019d be happy to lock in a time.\r\nBes",
-      "received": "2026-03-26T14:41:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIW6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "Yep that works\r\n\r\nSent from Outlook for iOS\r\nDan Fisher\r\nGroup IT & Network Director\r\n\u200b\u200b\u200b\u200b\r\n  02070996885\r\n  danfisher@fluidone.com\r\n  0345 868 7848\r\n  www.fluidone.com\r\n  FluidOne, 5 Hatfields, London, SE1 9PG\r\nFollow us on Linkedin\r\n\r\nFluidOne Limited i",
+      "received": "2026-03-26T15:35:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIXCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAsumrsBkvZCoxdrcZDxEL4=",
       "rules_score": 9,
       "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
+      "rules_tier": "TIER 1",
       "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
+        "Dave replied 2x (+4)",
+        "Tier 1: fluidone.com",
         "4 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France is rescheduling a meeting with Dan regarding the Suite 140 move from an earlier date to Friday, April 10th, based on Dan's updated availability returning on the 7th. This appears to be a routine logistics discussion for an office or facility relocation that requires in-person or detailed discussion.",
+      "ai_summary": "Dan Fisher, Group IT & Network Director at FluidOne, is confirming agreement with a previously discussed arrangement regarding Suite 140. This appears to be a facility move or transition that Galaxy had proposed, and his approval indicates FluidOne is ready to proceed. Securing tenant buy-in on property changes is critical for occupancy certainty and revenue stability.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Dan whether Friday, April 10th works and lock in a specific time slot",
-        "Prepare Suite 140 move details and logistics plan ahead of the meeting",
-        "Ensure France has any outstanding questions or information needed from Dave before the call"
+        "Confirm the specific terms of the Suite 140 arrangement with Dan and document in writing to avoid scope creep",
+        "Coordinate with France to schedule the move logistics and ensure minimal disruption to FluidOne's operations",
+        "Prepare lease amendment or formal agreement reflecting the new arrangement and have Dan execute"
       ],
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "wl@inceptiv.com",
+      "sender_name": "Wayne Lou",
+      "subject": "GP Liquidity Solutions and Capital Support",
+      "body_preview": "Hi Dave-\r\n\r\n\r\n\r\nI hope this finds you well. By way of quick background, our firm, INCEPTIV, specializes in providing flexible, specialty GP capital.\r\n\r\n\r\n\r\nAmong the various types of capital we provide, we offer programmatic co-GP capital for operators, a",
+      "received": "2026-03-26T15:04:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIXAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADd3V2htk5pMjiWU2UgbQjw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Wayne Lou from INCEPTIV is reaching out directly to Dave about GP liquidity solutions and specialty capital for operators. This is a capital provider pitching flexible funding options that could be relevant to Galaxy's fund structure and operational needs.",
+      "ai_action": "Dave should review INCEPTIV's GP capital offerings and determine if there's a strategic fit for Galaxy's current fundraising or operational capital needs. Request full materials and discuss in a brief call.",
+      "ai_next_steps": [
+        "Ask France to pull INCEPTIV's background and check if they've worked with European PE infra firms",
+        "Request complete materials on their GP capital products and terms",
+        "Schedule 20-min call with Wayne to understand fit for Galaxy's stage and capital structure"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
@@ -2772,5 +2833,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 87
+  "total_tracked": 89
 }
