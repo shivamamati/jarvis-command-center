@@ -1,13 +1,114 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-25T23:31:03.418799+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 2,
-  "ai": 6,
+  "timestamp": "2026-03-26T04:39:07.720330+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 46,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Apollo + secondary mail",
+      "body_preview": "Thanks for the help Rodrigo! Have to finish linking Dave's email to it and will get back.\r\n\r\n-Sai\r\n\r\nGet Outlook for Android\r\n________________________________\r\nFrom: Rodrigo M <rodrigo@galaxydatacenters.com>\r\nSent: Wednesday, March 25, 2026 2:00:47 PM\r\nTo",
+      "received": "2026-03-26T03:59:28Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 12x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lp",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is acknowledging assistance from Rodrigo regarding an Apollo integration task and secondary mail setup. He indicates that linking Dave's email account to the system is pending and he will follow up once completed. This appears to be an internal operational matter related to email infrastructure or system integration.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Follow up with Sai to confirm the timeline for completing the email linking task",
+        "Verify with Rodrigo what specific assistance was provided to understand any dependencies or blockers",
+        "Once linking is complete, test the Apollo + secondary mail configuration to ensure proper functionality"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "ash@galaxycapitalpartners.com",
+      "sender_name": "Ash Gupta",
+      "subject": "Re: 2025 Tax Preparation Services Agreement and Tax Checklist ",
+      "body_preview": "Hi Ritesh,\r\n\r\nAttached  please find the executed agreement.\r\n\r\nCheers,\r\n-Ash\r\n________________________________\r\nFrom: ritesh.daswani@avtarcorp.com <ritesh.daswani@avtarcorp.com>\r\nSent: Monday, March 23, 2026 6:12 AM\r\nTo: vmvinni13oct@gmail.com <vmvinni13o",
+      "received": "2026-03-26T03:06:08Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ash Gupta from Galaxy Capital Partners is confirming delivery of an executed 2025 tax preparation services agreement to Ritesh Daswani at Avtar Corp, indicating that tax preparation engagement terms have been finalized and signed. This appears to be a routine administrative handoff of completed documentation for the upcoming tax year. The executed agreement signals that Galaxy's tax services engagement with Avtar Corp is now formally in effect and ready for implementation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify receipt and review executed agreement terms to ensure alignment with Galaxy's service delivery obligations and timeline",
+        "Coordinate with tax preparation team to initiate 2025 tax preparation work according to the documented scope and schedule",
+        "File or archive executed agreement in appropriate client records system for compliance and audit purposes"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Scheduling JSA Discussion with Candace",
+      "body_preview": "Candace can you do 1 PM or anytime after instead?\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nF",
+      "received": "2026-03-26T02:44:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYQHs5LAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal message from Dave Misra to Candace (likely a team member) proposing alternative meeting times for a JSA (Job Safety Analysis) discussion. Dave is suggesting 1 PM or any time after as options, indicating scheduling flexibility is needed to move forward with this safety planning discussion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Candace should confirm her availability for 1 PM or propose her preferred time slot after 1 PM",
+        "Once confirmed, Dave or an assistant should send a calendar invite with meeting details and any pre-meeting materials related to the JSA discussion",
+        "Prepare JSA agenda items and required documentation to ensure an efficient and focused discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "danfisher@fluidone.com",
       "sender_name": "Dan Fisher | FluidOne",
@@ -137,39 +238,6 @@
       ],
       "ai_failed": false,
       "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
-      "subject": "Re: Apollo + secondary mail",
-      "body_preview": "Hi @Sai Raman,\r\n\r\n\r\n\r\nJust following up to check whether you still need assistance with the additional mailboxes.\r\nIf you do, I\u2019m happy to help get everything set up. Just let me know what you require.\r\nShould you have any questions, do not hesitate in co",
-      "received": "2026-03-25T18:01:19Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAORJxxb_Iz1BmStlY_Feo0Y=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied 7x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lp",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rodrigo from Galaxy Data Centers is following up with Sai Raman regarding support for additional mailboxes related to an Apollo project. He's offering to assist with setup if Sai still needs it and is waiting for confirmation on requirements.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should clarify with Sai Raman what the Apollo mailbox project scope and timeline are",
-        "Confirm whether this is a billable service engagement and what the associated revenue opportunity is",
-        "Ensure Rodrigo has clear specifications from Sai before proceeding with implementation work"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
       "final_label": "URGENT"
     },
     {
@@ -408,39 +476,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Re: Scheduling JSA Discussion with Candace",
-      "body_preview": "Thanks France. Yes that works\r\n\r\nGet Outlook for Android\r\n________________________________\r\nFrom: France <france@galaxydatacenters.com>\r\nSent: Wednesday, March 25, 2026 11:48:45 AM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Dave Misra <dave@galaxydatacen",
-      "received": "2026-03-25T16:00:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 11x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman (Galaxy Data Centers internal team member) is confirming availability for a previously proposed meeting with Candace regarding a JSA (Job Safety Analysis) discussion. This is a routine scheduling confirmation for an internal safety or operational planning session.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the meeting date/time with Candace and send calendar invitations to all parties",
-        "Prepare JSA discussion materials or agenda items ahead of the scheduled meeting",
-        "Ensure Sai and France have any relevant documentation needed for the safety discussion"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "bobcavoto@2020-4.com",
@@ -1869,40 +1904,6 @@
       "ai_action": null,
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fwd: 2025 Tax Preparation Services Agreement and Tax Checklist",
-      "body_preview": "---------- Forwarded message ----------\r\nFrom: <ritesh.daswani@avtarcorp.com>\r\nDate: Monday, March 23, 2026 at 7:12\u202fAM EDT\r\nSubject: 2025 Tax Preparation Services Agreement and Tax Checklist\r\nTo: <vmvinni13oct@gmail.com>, Dave Misra <dave@galaxycapita",
-      "received": "2026-03-23T17:27:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ritesh Daswani from Avtar Corp is sending Galaxy a tax preparation services agreement and checklist for 2025 tax year filing. This appears to be an engagement letter and documentation requirements list to formalize tax preparation services for Galaxy's entities. This matters because timely completion of tax filing requirements is critical for Galaxy's compliance, corporate governance, and financial reporting credibility with investors and regulators.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the tax preparation services agreement terms, rates, and timeline with France/Finance to ensure alignment with Galaxy's budget and filing deadlines",
-        "Compile and organize all required documentation referenced in the tax checklist (financial statements, transaction records, capital schedules) to ensure smooth execution",
-        "Confirm signing authority and execute the engagement letter if terms are acceptable"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
