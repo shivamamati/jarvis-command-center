@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T20:32:52.767439+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 9,
-  "ai": 6,
+  "timestamp": "2026-03-26T21:28:14.533995+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 4,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 51,
   "items": [
+    {
+      "sender_email": "bgagne2@travelers.com",
+      "sender_name": "Gagne, Ben",
+      "subject": "RE: Travelers : Galaxy Follow up ",
+      "body_preview": "Ash,\r\n\r\nJust sending a quick note to check in on things. Do you have any visibility regarding when your legal folks will have something to share over with the Travelers team?\r\n\r\nBest,\r\n\r\nBen\r\n\r\n\r\nBen Gagne | Senior Director\r\nCorporate Procurement | Enterp",
+      "received": "2026-03-26T21:27:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIXrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: travelers.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ben Gagne, Senior Director of Corporate Procurement at Travelers, is following up to check on the status of legal review deliverables that Galaxy was expected to provide to Travelers. He needs clarity on timing for when Galaxy's legal team will share their materials with Travelers' team, indicating this is part of an ongoing deal or partnership discussion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or legal team confirm current status of deliverables due to Travelers and provide Ben with a specific timeline for submission",
+        "If legal review is blocked or delayed, identify the holdup and communicate revised timeline to Ben immediately to maintain deal momentum",
+        "Consider scheduling a direct call with Ben to align on Travelers' expectations and any dependencies on Galaxy's side"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -2841,5 +2872,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 89
+  "total_tracked": 90
 }
