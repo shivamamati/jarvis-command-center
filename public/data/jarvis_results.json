@@ -1,28 +1,129 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-26T08:00:42.325434+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 4,
-  "ai": 2,
+  "timestamp": "2026-03-26T09:57:57.032479+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 2,
+  "ai": 8,
   "skipped": 0,
-  "auto_learned": 47,
+  "auto_learned": 48,
   "items": [
+    {
+      "sender_email": "luke.gray@redhilldatacentre.com",
+      "sender_name": "Luke Gray",
+      "subject": "Fw: Z3 rack0 installation complete",
+      "body_preview": "Hi Gents\r\n\r\nJust want to bring to your attention some more excellent customer feedback for Colin from Arm and some of there vendors.\r\nColin it and asset to the team and a great ambassador to our customers, whatever you are paying him should be doubled!",
+      "received": "2026-03-26T09:35:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPmn0_9e3kfOvYZ7ipCAFnw=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Redhill ops",
+        "KW: rack",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Luke Gray from Redhill Data Centre is forwarding positive customer feedback about Colin, an Arm-related contact who has been delivering excellent service and advocacy. Luke is advocating for Colin's compensation to be increased significantly, positioning him as a critical asset and customer ambassador. This reflects strong execution on the Z3 rack installation project and suggests Colin is directly contributing to customer satisfaction and retention.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Follow up with Luke Gray to understand the specific customer feedback and identify which vendors/customers are most satisfied with Colin's work",
+        "Have a conversation with Colin's direct manager about his performance and consider a compensation review if his work is indeed driving customer retention and positive feedback",
+        "Ensure Colin continues to be leveraged for high-value customer interactions and partnerships, particularly with Arm ecosystem vendors"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "luke.gray@redhilldatacentre.com",
+      "sender_name": "Luke Gray",
+      "subject": "Re: Shift cover",
+      "body_preview": "Ash / Dave\r\n\r\nFollowing on from Fredy plus our previous email exchange that has still gone unanswered.\r\n\r\nNot only is August for example a month many people want holiday due to the school summer holidays is as also our busiest period due to the weather an",
+      "received": "2026-03-26T09:21:52Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGQZCMBd12xEp05Z4TBmI1E=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Attachments from known (+1)",
+        "Redhill ops",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Luke Gray from Redhill Data Centre is escalating an unresolved staffing issue regarding shift coverage during August, noting the conflict between peak vacation season and their busiest operational period due to seasonal weather demands. This appears to be a recurring communication that hasn't received adequate response from Galaxy, and involves coordination between multiple stakeholders (Fredy, Ash, and Dave). The operational gap during their highest-demand month directly impacts service reliability and could affect SLA commitments or customer satisfaction.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should schedule an immediate call with Luke Gray to understand the specific shift coverage gaps and current staffing plan for August",
+        "Review previous email exchanges with Redhill to identify what commitments were made and why they remain unresolved",
+        "Develop a concrete staffing solution (temp coverage, scheduling adjustments, or resource allocation) and communicate timeline to Luke within 48 hours"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "danfisher@fluidone.com",
+      "sender_name": "Dan Fisher | FluidOne",
+      "subject": "Re: Suite 140 Move",
+      "body_preview": "Hi Dave,\r\n\r\nSorry, in all the mayhem have forgotten that 3rd and 6th are bank holidays in UK, so won\u2019t be back online till 7th, does afternoon of then work at all?\r\n\r\nDan\r\n\r\nSent from Outlook for iOS\r\nDan Fisher\r\nGroup IT & Network Director\r\n\u200b\u200b\u200b\u200b\r\n  02070",
+      "received": "2026-03-26T08:58:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAsumrsBkvZCoxdrcZDxEL4=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "Tier 1: fluidone.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dan Fisher, Group IT & Network Director at FluidOne, is requesting to reschedule a meeting regarding the Suite 140 move due to UK bank holidays on the 3rd and 6th, proposing the afternoon of the 7th instead. This appears to be a facility or infrastructure transition that requires coordination between Galaxy and FluidOne. The scheduling delay could impact Galaxy's move timeline and resource allocation, so prompt confirmation is needed to keep the project on track.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm availability for the afternoon of the 7th with Dan and align with France and relevant Galaxy team members",
+        "Document the new meeting date and review any cascading impacts on the Suite 140 move timeline and dependencies",
+        "Send calendar invite immediately to lock in the 7th afternoon slot and ensure all stakeholders are notified"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Re: Catchup Dave and Chris Galaxy <> CDW ",
-      "body_preview": "Hi Chris,\r\n\r\nGreat catching up last week \u2014 always good to connect with you.\r\n\r\nAs promised, I've attached the updated Redhill presentation along with the original December deck for reference. It covers everything that's been delivered since Galaxy took ov",
-      "received": "2026-03-26T07:54:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYcODpTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "Hi Chris,\r\n\r\nIt was great catching up last week \u2014 always good to connect.\r\n\r\nAs promised, I\u2019ve attached the updated Redhill presentation, along with the original December deck that you reviewed late last year for reference. The update covers everything de",
+      "received": "2026-03-26T08:10:19Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
-      "has_attachments": false,
+      "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADc8C7m0rH9OsimkoRRIDIQ=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
+        "Attachments from known (+1)",
         "Re customer: cdw",
         "Internal \u2014 deal/customer related",
         "5 VIPs on thread (+2)",
@@ -31,15 +132,15 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is following up with Chris from CDW after a recent meeting, sending updated presentation materials about Galaxy's Redhill project delivery and progress since Galaxy's takeover. This appears to be a continuation of an ongoing partnership discussion regarding infrastructure or data center services that CDW may be interested in or currently engaged with.",
+      "ai_summary": "Chris from CDW is following up on a recent conversation with Dave, confirming receipt of updated materials related to a Redhill presentation that was previously shared in December. Dave is delivering on a commitment made during their meeting to provide refreshed documentation for CDW's review.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Chris received both the updated Redhill presentation and December reference deck, and schedule a follow-up call to discuss feedback or questions",
-        "Prepare talking points on key deliverables and improvements made since Galaxy's takeover to support the next conversation with CDW",
-        "Track CDW's interest level and timeline for any potential expansion or commitment decision related to the Redhill project"
+        "Confirm with Chris that both the updated Redhill presentation and December reference deck were received and are accessible",
+        "Schedule a follow-up meeting with Chris and France to discuss CDW's feedback on the updated materials and next steps in the evaluation process",
+        "Clarify the scope and business opportunity tied to the Redhill initiative to ensure alignment on Galaxy's value proposition"
       ],
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -176,39 +277,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "danfisher@fluidone.com",
-      "sender_name": "Dan Fisher | FluidOne",
-      "subject": "Re: Suite 140 Move",
-      "body_preview": "Hi Dave,\r\n\r\nI can\u2019t make either of those dates/times unfortunately, I am on annual leave until 3rd April, do you have any availability that Friday?\r\n\r\nDan\r\n\r\nSent from Outlook for iOS\r\nDan Fisher\r\nGroup IT & Network Director\r\n\u200b\u200b\u200b\u200b\r\n  02070996885\r\n  danfis",
-      "received": "2026-03-25T23:20:41Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAsumrsBkvZCoxdrcZDxEL4=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "Tier 1: fluidone.com",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dan Fisher, Group IT & Network Director at FluidOne, cannot attend the initially proposed meeting times for the Suite 140 move due to annual leave through April 2nd, and is requesting to reschedule for Friday, April 3rd. This appears to be a critical facility or infrastructure discussion that requires Dan's direct involvement as the IT stakeholder, so accommodating his availability is important to keep the project on track.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm availability for Friday, April 3rd and propose specific time(s) that work for both parties",
-        "Identify what other stakeholders need to attend and ensure they can make April 3rd before finalizing",
-        "Send Dan a calendar invite with any pre-read materials about Suite 140 move scope and timeline so he's prepared when he returns from leave"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
@@ -2568,5 +2636,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 83
 }
