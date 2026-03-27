@@ -1,13 +1,144 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T15:50:22.953097+00:00",
-  "total": 15,
-  "new": 15,
-  "noise": 11,
-  "ai": 13,
+  "timestamp": "2026-03-27T16:51:28.981785+00:00",
+  "total": 18,
+  "new": 18,
+  "noise": 7,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 54,
   "items": [
+    {
+      "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
+      "sender_name": "Galaxy - M365 Infrastructure Modernization",
+      "subject": "Galaxy - M365 Project weekly update",
+      "body_preview": "This meeting is to facilitate all the updates and discussions of the M365 project.\r\n\r\n\r\n\r\nMeeting Agenda:\r\n\r\n  1.  Greetings\r\n  2.  Review actionable items from thelast meeting\r\n  3.  Updates\r\n  4.  Priorities for the week\r\n  5.  Miscellaneous\r\n\r\nLooking ",
+      "received": "2026-03-27T16:44:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI9MQwZbFApArrz6WVw5Q2M=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal Galaxy Data Centers M365 Infrastructure Modernization project team meeting notification. The email is scheduling a routine weekly sync to review progress on the M365 modernization initiative, track action items, discuss current priorities, and address any outstanding issues. This matters to Galaxy because M365 modernization is likely a critical infrastructure project impacting operational efficiency and cloud capabilities across the organization.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Dave's attendance and any specific topics he wants addressed in the M365 project weekly sync",
+        "Have France prepare a brief summary of key blockers or decisions needed from leadership before the meeting",
+        "Review action items from the previous week's meeting to ensure accountability and identify any escalations needed"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Sales Funnel Review ",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/2601108949442?p=yqOkkviuIH0j4RcDq4\r\nMeeting ID: 260 110 894 944 2\r\nPasscode: aX6Ak9su\r\n____________________",
+      "received": "2026-03-27T16:30:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACtHK1AwRetMsjpGQnEdUBM=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave has scheduled a Microsoft Teams meeting for a sales funnel review, likely to assess pipeline status, conversion metrics, or deal progress across Galaxy's business. This is a recurring checkpoint to ensure revenue targets are on track and identify any bottlenecks or opportunities that need management attention.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and prepare sales pipeline data, win/loss analysis, and current quarter metrics before the meeting",
+        "Identify any deals requiring executive attention or resources that should be discussed during the review",
+        "Ensure relevant team members (sales leads, ops) are informed and have supporting materials ready for discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fwd: Reasons",
+      "body_preview": "U are not doing your job well, u just suck at communication\r\n\r\n\r\n---------- Forwarded message ----------\r\nFrom: Rhys Jones <rj@kiwimcf.com>\r\nDate: Friday, March 27, 2026 at 12:18\u202fPM EDT\r\nSubject: Reasons\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>",
+      "received": "2026-03-27T16:21:29Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHnTYjjFXktBjaoowg40byM=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rhys Jones from Kiwi MCF is expressing frustration with Galaxy's communication effectiveness, indicating a breakdown in a business relationship or service delivery. This suggests a client or partner satisfaction issue that could impact Galaxy's reputation, renewal terms, or the broader relationship with Kiwi MCF.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Contact Rhys Jones directly to understand the specific communication failures and service gaps he's experiencing",
+        "Conduct an internal audit of all Galaxy touchpoints with Kiwi MCF to identify process breakdowns",
+        "Develop a corrective action plan with clear ownership and timeline to restore confidence in Galaxy's service delivery"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Dan <> Dave Catch Up",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/22608074011612?p=XoBDngFnyTKtR2pDts\r\nMeeting ID: 226 080 740 116 12\r\nPasscode: uG7fv9JT\r\n__________________",
+      "received": "2026-03-27T15:50:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALLfmz9htXxGoNeGBO6YnAg=",
+      "rules_score": 3,
+      "rules_label": "NOISE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 17x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Internal + customer (+1)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is notifying Dave of an upcoming Microsoft Teams meeting with Dan. This appears to be a scheduled sync between Dave (Managing Partner) and Dan to discuss matters relevant to Galaxy Capital Partners or Galaxy Data Centers. The meeting details and access credentials have been provided for Dave's calendar.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Add the Teams meeting to Dave's calendar using the provided meeting ID and passcode",
+        "Confirm with France what topics Dan intends to cover so Dave can prepare accordingly",
+        "Test Teams access before the meeting time to ensure connectivity"
+      ],
+      "ai_failed": false,
+      "final_score": 3,
+      "final_label": "NOISE"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -31,12 +162,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ash Gupta from Galaxy Capital Partners is forwarding a message regarding Project Cardinal that involves operational and HR coordination between the two organizations. This appears to be an internal routing of a discussion topic that requires alignment between Capital Partners and Data Centers leadership on staffing or organizational matters related to Project Cardinal.",
+      "ai_summary": "Ash Gupta from Galaxy Capital Partners is forwarding a message regarding Project Cardinal that involves operational and HR discussions. This appears to be an internal coordination matter between Galaxy Capital Partners and Galaxy Data Centers regarding staffing or organizational planning for a significant initiative. The matter requires attention to ensure proper resource allocation and human capital management across the two entities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Ash what specific operational or HR decisions are needed for Project Cardinal and the timeline",
-        "Identify which team members from Galaxy Data Centers should be involved in these discussions",
-        "Schedule the cross-functional ops/HR meeting with relevant stakeholders from both organizations"
+        "Clarify the specific scope and timeline of Project Cardinal with Ash to understand what operational and HR decisions need to be made",
+        "Coordinate with Galaxy Data Centers' operations and HR leadership to align on resource requirements and implementation plan",
+        "Schedule a dedicated meeting with relevant stakeholders from both Galaxy Capital Partners and Galaxy Data Centers to finalize decisions"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -3104,5 +3235,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 97
+  "total_tracked": 101
 }
