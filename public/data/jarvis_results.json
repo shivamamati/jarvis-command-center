@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T04:39:54.646314+00:00",
+  "timestamp": "2026-03-27T06:11:28.608622+00:00",
   "total": 4,
   "new": 4,
   "noise": 3,
-  "ai": 3,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 51,
   "items": [
+    {
+      "sender_email": "dhwani.kulshreshtha@schbang.com",
+      "sender_name": "Dhwani Kulshreshtha",
+      "subject": "Re: Hello from Schbang | Galaxy Data Centers",
+      "body_preview": "Hi Animesh,\r\n\r\nHope you\u2019re doing well.\r\n\r\nAs discussed, just bumping up the Schbang NDA for your reference. We would appreciate it if you could please share the signed copy along with an email confirmation.\r\n\r\nDo let me know if you have any questions, hap",
+      "received": "2026-03-27T05:30:33Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIX9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABXRf88R2W9Opi6BDi28FRc=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "KW: nda, lease, data cent",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Dhwani Kulshreshtha from Schbang (a creative/marketing agency) is following up on an NDA that was apparently discussed with Animesh (likely an employee at Galaxy). They're requesting signed NDA and email confirmation, suggesting an active engagement or partnership exploration is underway.",
+      "ai_action": "Route to Animesh immediately to confirm NDA status and next steps. If Animesh is unavailable, Dave should clarify with Animesh what Schbang engagement involves and whether this is a priority.",
+      "ai_next_steps": [
+        "Forward to Animesh (Galaxy employee referenced) to confirm NDA discussion and current status",
+        "Clarify what Schbang services/engagement Galaxy is exploring",
+        "If proceeding, ensure NDA is signed and returned promptly to maintain relationship momentum"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Daniel Scarbrough via Docusign",
@@ -2872,5 +2904,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 90
+  "total_tracked": 91
 }
