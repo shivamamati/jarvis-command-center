@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T09:00:10.893833+00:00",
-  "total": 4,
-  "new": 4,
+  "timestamp": "2026-03-27T10:00:52.668632+00:00",
+  "total": 5,
+  "new": 5,
   "noise": 4,
-  "ai": 3,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 51,
   "items": [
+    {
+      "sender_email": "rohanhoughton@eversheds-sutherland.com",
+      "sender_name": "Houghton, Rohan",
+      "subject": "RE: DORA - fee quote",
+      "body_preview": "Hi Paul\r\n\r\nSubject to us completing onboarding and KYC checks, we have set out below a table with our proposed scope of work and fee estimate to provide Galaxy Data Centers with legal support in relation to reviewing and negotiating the proposed DORA vari",
+      "received": "2026-03-27T09:41:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSpXR5-EV9HrccPcQ_ezQA=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: board, data cent",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Rohan Houghton from Eversheds Sutherland is providing a legal fee quote for DORA (Digital Operational Resilience Act) regulatory compliance work. This appears to be a follow-up to a request Dave or Galaxy made regarding DORA obligations, likely tied to data center regulatory requirements in Europe.",
+      "ai_action": "Dave should review the fee quote and scope of work. Confirm with internal team (likely France or ops lead) whether this aligns with Galaxy's DORA timeline and budget. Reply to Rohan with approval or negotiation points.",
+      "ai_next_steps": [
+        "Review Eversheds fee quote and scope completeness",
+        "Confirm DORA compliance timeline with internal operations/legal lead",
+        "Approve, negotiate, or defer based on current regulatory priorities"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dhwani.kulshreshtha@schbang.com",
       "sender_name": "Dhwani Kulshreshtha",
@@ -2904,5 +2935,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 91
+  "total_tracked": 92
 }
