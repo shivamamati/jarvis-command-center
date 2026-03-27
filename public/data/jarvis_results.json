@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T22:28:38.937449+00:00",
-  "total": 10,
-  "new": 10,
+  "timestamp": "2026-03-27T23:28:52.556019+00:00",
+  "total": 6,
+  "new": 6,
   "noise": 3,
-  "ai": 9,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
@@ -29,12 +29,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Galaxy IT has sent a new employee onboarding email to Shivam with account credentials and system access details. This is a standard IT provisioning notification for a new hire joining Galaxy Data Centers. Dave should ensure HR/People Ops has properly vetted this new employee and that all onboarding protocols have been followed.",
+      "ai_summary": "Galaxy IT has sent a new employee onboarding email to Shivam with account setup credentials and temporary access details. This appears to be a standard IT welcome message for a new hire joining Galaxy Data Centers. The email confirms account readiness and provides initial access information needed for the employee to begin work.",
       "ai_action": null,
       "ai_next_steps": [
-        "Verify Shivam's hiring with HR/People Ops to confirm legitimate new employee status",
-        "Ensure Galaxy IT follows security protocols for credential delivery (this email contains sensitive login information)",
-        "Flag to IT/France that passwords should never be transmitted via unencrypted email - implement secure credential delivery process"
+        "Verify Shivam's onboarding status and confirm his role/department within Galaxy Data Centers",
+        "Ensure France or IT leadership follows up on password reset and security protocol completion as indicated by the incomplete email",
+        "Review whether Shivam requires any infrastructure access or special permissions for his position"
       ],
       "ai_failed": false,
       "final_score": 6,
