@@ -1,13 +1,77 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T11:39:18.430649+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 5,
-  "ai": 4,
+  "timestamp": "2026-03-27T12:57:53.680888+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 6,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 50,
   "items": [
+    {
+      "sender_email": "paul.tester@redhilldatacentre.com",
+      "sender_name": "Paul Tester",
+      "subject": "Re: Monday.com Review",
+      "body_preview": "Hi Dave\r\n\r\nDo we still need these weekly calls on Fridays?, I am updating the new pulse board as we agreed and emailing the team every Friday to remind them to add things for discussion, is there a need for you and I to review before the meetings each wee",
+      "received": "2026-03-27T12:48:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFLQy-nj4U37pT_RCfnd89U=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Redhill ops",
+        "KW: nda, board"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Tester from Redhill Data Centre is questioning the necessity of weekly Friday review calls with Dave, noting that he's already managing pulse board updates and sending team reminders. He's implicitly asking if the pre-meeting review between them is still needed given the existing communication cadence.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Paul whether the Friday calls should continue, be modified to bi-weekly, or be replaced with async reviews of the pulse board",
+        "Define the specific value/purpose of the pre-meeting review calls to determine if they're redundant with the Friday email reminders",
+        "Confirm the pulse board structure and communication process are working as intended before deciding to eliminate any touchpoints"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "r.peck@2020-4.com",
+      "sender_name": "Robert Peck",
+      "subject": "Shawn Carstens Resume: Industrial Real Estate Executive, Acquisitions, Asset Management, Investments",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nI am pleased to introduce Shawn Carstens, an industrial real estate executive with more than 20 years delivering superior risk-adjusted returns across industrial and logistics investments. His resume is copied below (a pdf is available upon r",
+      "received": "2026-03-27T12:40:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBrmyLO1YlPnpT5u6f_B34=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment, lease, introduce"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Robert Peck is introducing Shawn Carstens, a seasoned industrial real estate executive with 20+ years of experience in acquisitions, asset management, and logistics investments. Peck is presenting Carstens as a potential candidate or strategic contact for Galaxy's industrial real estate and data center expansion efforts. This matters because Galaxy Data Centers is actively growing its portfolio, and experienced industrial real estate talent could accelerate acquisitions, optimize asset performance, or strengthen investment decision-making.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request the complete PDF resume and full background on Carstens' most relevant industrial/logistics deals to assess fit with Galaxy's current priorities",
+        "Schedule a call with Robert Peck to clarify whether this is a hiring recommendation, partnership opportunity, or vendor introduction",
+        "Have France review Carstens' experience against any open roles or upcoming capital deployment needs at Galaxy Data Centers"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "rohanhoughton@eversheds-sutherland.com",
       "sender_name": "Houghton, Rohan",
@@ -2935,5 +2999,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 92
+  "total_tracked": 94
 }
