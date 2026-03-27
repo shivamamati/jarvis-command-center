@@ -1,13 +1,108 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T17:47:06.950563+00:00",
-  "total": 24,
-  "new": 24,
-  "noise": 5,
-  "ai": 20,
+  "timestamp": "2026-03-27T18:51:54.598469+00:00",
+  "total": 25,
+  "new": 25,
+  "noise": 11,
+  "ai": 21,
   "skipped": 0,
-  "auto_learned": 58,
+  "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "dse@eumail.docusign.net",
+      "sender_name": "Daniel Scarbrough via Docusign",
+      "subject": "Docusign Evermere Capital Management MNDA",
+      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
+      "received": "2026-03-27T18:45:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABuiBszGWmZAuRQPeSNjzV4=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Daniel Scarbrough from Evermere Capital Management is sending an MNDA for execution. This appears to be a serious deal/partnership discussion that requires Dave's immediate review and signature.",
+      "ai_action": "Dave must review the MNDA document immediately and determine Evermere's business proposition. Route to Simmons & Simmons (legal) for review if proceeding.",
+      "ai_next_steps": [
+        "Review Evermere Capital Management's background and investment focus",
+        "Check if this relates to an existing deal discussion or is a new prospect",
+        "Forward MNDA to Simmons & Simmons for legal review before signing",
+        "Request full proposal/investment thesis from Daniel Scarbrough"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Kevin Feng and Dave Misra",
+      "body_preview": "Event Name: Galaxy External Meeting Channel\r\n\r\nNeed to make changes to this event?\r\nCancel: https://calendly.com/cancellations/85c19120-7813-4b5f-a658-3826436fe465\r\nReschedule: https://calendly.com/reschedulings/85c19120-7813-4b5f-a658-3826436fe465\r\n\r\nPow",
+      "received": "2026-03-27T17:54:07Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANYGTz9Tt0JOl8Bh_-Rvr04=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a calendar management notification for an external meeting between Kevin Feng and Dave Misra at Galaxy. The system is providing quick access links to cancel or reschedule the meeting if needed. This appears to be a routine calendar confirmation rather than a substantive business request requiring immediate action.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting is still needed and on Dave's calendar for the scheduled time",
+        "If rescheduling is necessary, use the provided Calendly link to coordinate with Kevin Feng"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "FW: AI info",
+      "body_preview": "From: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Thursday, March 12, 2026 at 11:37\u202fAM\r\nTo: Chris Lillie <c.lillie@uk.cdw.com>\r\nSubject: Re: AI info\r\n\r\nThank you Chris , I ll follow up with them to see if we can get some case studies to present to ",
+      "received": "2026-03-27T17:50:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFj4wgzx_IxNpMSMigSDUFU=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be an incomplete internal forwarding of Dave's reply to Chris Lillie at CDW UK regarding AI-related information. Dave is indicating he will pursue case studies to present to an unspecified party, suggesting Galaxy is exploring AI solutions or use cases with CDW's involvement.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Chris Lillie what specific AI solutions or case studies CDW is recommending for Galaxy's consideration",
+        "Identify the intended audience for these case studies and their business requirements",
+        "Complete the follow-up action to obtain relevant case studies and schedule a review meeting with the appropriate Galaxy stakeholders"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dmcneish@travelers.com",
       "sender_name": "McNeish, Dave",
@@ -28,12 +123,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave McNeish from Travelers Insurance is confirming that any transition to new service terms must maintain continuity with their current agreement\u2014they're unwilling to accept material changes to existing conditions despite the need to update documentation. This appears to be a response to a proposal for Galaxy to assume or renew Travelers' service relationship, where McNeish is setting a firm boundary that existing protections and terms remain non-negotiable.",
+      "ai_summary": "Dave McNeish from Travelers Insurance is confirming that any contract renewal or migration to new terms must preserve the existing operational conditions, with no material changes to current T&Cs. This appears to be a conditional requirement for their continued business with Galaxy, suggesting Travelers wants continuity and predictability in their service arrangement.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France clarify with McNeish what specific terms/conditions are considered 'material' and non-negotiable to ensure Galaxy's proposal doesn't inadvertently breach this requirement",
-        "Review Galaxy's current service agreement with Travelers to map which existing terms must be carried forward verbatim in any new documentation",
-        "Prepare a revised proposal or 'new paper' that explicitly preserves all current material terms while addressing whatever operational or contractual updates Travelers needs"
+        "Have France or legal review current Travelers contract terms to identify any proposed changes that might be considered 'material departures'",
+        "Schedule clarification call with McNeish to confirm which specific T&C provisions are non-negotiable before finalizing new agreement",
+        "Prepare Galaxy's position on which terms can remain unchanged versus which may need modernization or adjustment for new infrastructure/service model"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -46,7 +141,7 @@
       "body_preview": "Hi all,\r\n\r\nI hope you are all well.\r\n\r\nAs there was no update call yesterday, we thought it would be beneficial to send a short update email with a few items currently ongoing:\r\n\r\n\r\n  1.  Draft claims letter \u2013 a draft claims letter was sent to Kirstin fro",
       "received": "2026-03-27T17:36:36Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKqWS_atAkYtgjv3_j07bEU=",
       "rules_score": 9,
@@ -61,12 +156,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Josh Scammell from Simmons & Simmons (legal counsel) is providing a status update on the Redhill matter, including progress on a draft claims letter that was sent to Kirstin. This appears to be part of ongoing legal proceedings or dispute resolution that requires Galaxy's attention and coordination with the legal team.",
+      "ai_summary": "Josh Scammell from Simmons & Simmons (legal counsel) is providing a status update on the Redhill matter, indicating that a draft claims letter has been prepared and sent to Kirstin for review. This appears to be part of an active legal proceeding or dispute requiring Galaxy's attention and decision-making on next steps. The email suggests momentum in the matter and requires prompt review and client direction to move forward.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm receipt of the draft claims letter and have France or legal team review for completeness and accuracy",
-        "Schedule a call with Josh to get the full update on all items mentioned (email appears truncated) and clarify next milestones",
-        "Determine if Galaxy needs to provide any additional information or approvals to move the claims process forward"
+        "Dave or France should review the draft claims letter immediately and provide feedback to Kirstin regarding Galaxy's position and any revisions needed",
+        "Schedule a call with Josh Scammell and the team to discuss the claims letter strategy, timeline, and next phases of the Redhill matter",
+        "Clarify internal ownership and decision-making authority for approving legal actions or communications on this matter"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -79,7 +174,7 @@
       "body_preview": "Hi Dave,\r\n\r\nIt seems you were not included on the attached chain \u2013 Francis has confirmed it is with him and will be over with you shortly for review.\r\n\r\nI am sending round an update email on a few items which will be with you momentarily.\r\n\r\nMany thanks",
       "received": "2026-03-27T17:32:34Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSZWHI_4WNIoag6GQHTWhQ=",
       "rules_score": 10,
@@ -96,12 +191,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Josh Scammell from Simmons & Simmons (external counsel) is notifying Dave that documentation related to Travellers was already shared with France/Francis and will be forwarded to Dave shortly for review. He's also preparing a separate update email on related matters. This appears to be routine legal matter coordination requiring Dave's attention on transaction or deal documentation.",
+      "ai_summary": "Josh Scammell from Simmons & Simmons (external counsel) is notifying Dave that he was inadvertently omitted from an email chain regarding Travellers, which Francis has already received and will be forwarding to Dave shortly for review. Josh is also preparing to send a separate update email covering several related items.",
       "ai_action": null,
       "ai_next_steps": [
-        "Watch for the update email from Josh Scammell and review the Travellers documentation once France forwards it",
-        "Confirm receipt and timeline for review with France to ensure no delays in the matter",
-        "Flag any questions or required revisions after reviewing the documentation"
+        "Expect and review the Travellers documentation from Francis upon receipt",
+        "Review Josh's incoming update email once it arrives to understand the additional items being flagged",
+        "Coordinate with Francis on timeline and any immediate action items needed on the Travellers matter"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -133,12 +228,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is coordinating a speaking opportunity at DCW Power's European event and needs Galaxy to select a topic and designate an executive speaker. She's suggesting power procurement trends as a potential focus area. This is a brand visibility and thought leadership opportunity in the European data center power sector.",
+      "ai_summary": "Candace Sipos from JSA is coordinating a speaking opportunity at DCW Power in Europe and has shared topic options for Galaxy to choose from. She's asking Dave to select which topic Galaxy wants to present on (suggesting power procurement trends as an option) and which executive should be the speaker. This is a brand visibility and thought leadership opportunity in the European data center power market.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the attached landing page topics and decide which aligns best with Galaxy's market positioning and expertise",
-        "Confirm which Galaxy executive (likely France or another senior leader) will be the speaker and provide their availability",
-        "Reply to Candace with topic selection and speaker name so she can proceed with DCW Power confirmation"
+        "Review the attached DCW Power landing page and topic options, then confirm which topic aligns best with Galaxy's positioning and expertise",
+        "Identify and brief the executive who will represent Galaxy at this event",
+        "Respond to Candace with the topic selection and executive name so she can finalize the speaking slot"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -3255,31 +3350,6 @@
       "final_label": "URGENT"
     },
     {
-      "sender_email": "dse@eumail.docusign.net",
-      "sender_name": "Daniel Scarbrough via Docusign",
-      "subject": "Docusign Evermere Capital Management MNDA",
-      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Eve",
-      "received": "2026-03-22T20:28:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIZO_-mbROtNvWnoVxXPGgc=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "CRITICAL",
-      "ai_summary": "MNDA from Evermere Capital Management (via Daniel Scarbrough) requiring Dave's review and signature\u2014likely related to a potential investment or partnership discussion.",
-      "ai_action": "Dave must review and sign the MNDA immediately. Follow up with Daniel Scarbrough (dan.scarbrough@evermere.com) to understand the investment opportunity or deal context.",
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "bobcavoto@2020-4.com",
       "sender_name": "Bob Cavoto",
       "subject": "Hank Loughran Resume, Executive Equity Raiser for Real Estate and Private Equity",
@@ -3305,5 +3375,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 103
+  "total_tracked": 105
 }
