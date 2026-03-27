@@ -1,45 +1,183 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T12:57:53.680888+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 6,
-  "ai": 8,
+  "timestamp": "2026-03-27T14:13:23.133459+00:00",
+  "total": 22,
+  "new": 22,
+  "noise": 14,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 50,
   "items": [
     {
       "sender_email": "paul.tester@redhilldatacentre.com",
       "sender_name": "Paul Tester",
-      "subject": "Re: Monday.com Review",
-      "body_preview": "Hi Dave\r\n\r\nDo we still need these weekly calls on Fridays?, I am updating the new pulse board as we agreed and emailing the team every Friday to remind them to add things for discussion, is there a need for you and I to review before the meetings each wee",
-      "received": "2026-03-27T12:48:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "subject": "Monday.com Review",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/37678693963383?p=jafTCTH8HIA9HZ0Okz\r\nMeeting ID: 376 786 939 633 83\r\nPasscode: XE6zt3B4\r\n__________________",
+      "received": "2026-03-27T13:53:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFLQy-nj4U37pT_RCfnd89U=",
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALc0ELsB6hhMsJaXWZZJSLw=",
       "rules_score": 7,
       "rules_label": "URGENT",
       "rules_tier": "REDHILL OPS",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 4x (+2)",
+        "Dave replied 5x (+2)",
         "Redhill ops",
-        "KW: nda, board"
+        "KW: nda"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Tester from Redhill Data Centre is questioning the necessity of weekly Friday review calls with Dave, noting that he's already managing pulse board updates and sending team reminders. He's implicitly asking if the pre-meeting review between them is still needed given the existing communication cadence.",
+      "ai_summary": "Paul Tester from Redhill Data Centre is requesting a Microsoft Teams meeting to discuss Monday.com implementation or review. This appears to be a collaborative scheduling request for a platform evaluation that could impact Galaxy's operational workflows and project management capabilities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Paul whether the Friday calls should continue, be modified to bi-weekly, or be replaced with async reviews of the pulse board",
-        "Define the specific value/purpose of the pre-meeting review calls to determine if they're redundant with the Friday email reminders",
-        "Confirm the pulse board structure and communication process are working as intended before deciding to eliminate any touchpoints"
+        "Confirm attendance and clarify the specific agenda items Paul wants to cover regarding Monday.com",
+        "Prepare any current project management system requirements or pain points Galaxy wants to address",
+        "Schedule a follow-up internal debrief with France to align on Galaxy's evaluation criteria and decision timeline"
       ],
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
+    },
+    {
+      "sender_email": "paul.tester@redhilldatacentre.com",
+      "sender_name": "Paul Tester",
+      "subject": "Monday.com Review",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/37678693963383?p=jafTCTH8HIA9HZ0Okz\r\nMeeting ID: 376 786 939 633 83\r\nPasscode: XE6zt3B4\r\n__________________",
+      "received": "2026-03-27T13:53:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAYcR3ydAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFLQy-nj4U37pT_RCfnd89U=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Redhill ops",
+        "KW: nda",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Tester from Redhill Data Centre is requesting a Microsoft Teams meeting, likely to discuss Monday.com implementation or review. This appears to be a scheduling/collaboration request that may relate to operational tools or project management systems relevant to data center operations. Clarification is needed on the specific purpose and whether this aligns with Galaxy's current initiatives or vendor evaluations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting purpose and agenda with Paul Tester before the call\u2014specifically whether this is a vendor pitch, product demo, or operational review",
+        "Have France or relevant team member review any existing Galaxy relationships with Redhill Data Centre to understand context",
+        "Determine if Monday.com evaluation is relevant to Galaxy's current technology stack or if this is a Redhill-specific tool"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "JSA Galaxy ",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/2601108949442?p=yqOkkviuIH0j4RcDq4\r\nMeeting ID: 260 110 894 944 2\r\nPasscode: aX6Ak9su\r\n____________________",
+      "received": "2026-03-27T13:40:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIH9cRbNPNRIkOSlaD3mXzg=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a Microsoft Teams meeting link sent to you, likely for a scheduled call regarding a JSA (Job Safety Analysis) or joint project related to Galaxy. Without additional context in the email body, the specific purpose and participants are unclear, but this meeting request requires confirmation of timing and agenda alignment with your schedule.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify the meeting time and confirm who the other participants are (check your calendar or Teams for the full meeting details)",
+        "Clarify with the sender what JSA Galaxy initiative or topic will be discussed to prepare accordingly",
+        "Ensure France or relevant team members are looped in if this requires cross-functional input before the meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Additional Speaking Opportunities",
+      "body_preview": "In addition to the speaking opportunities below, PTC'27 recently opened its call for participation. Please find all details here.\r\n\r\nI would recommend that we submit for the individual speaker category. PTC generally looks at all the individual speaker su",
+      "received": "2026-03-27T13:05:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHIGrfZokntFsU5Al0FZnnk=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is notifying us that PTC'27 (a major industry conference) has opened its speaker submission window and recommends Galaxy submit for individual speaker slots. This is a brand-building opportunity to increase Galaxy's visibility and thought leadership within the data center and technology community.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review PTC'27 speaker submission requirements and deadline to determine which Galaxy executives are best positioned to present",
+        "Coordinate with Candace to understand her recommendation for individual speaker category and identify 1-2 compelling presentation topics aligned with Galaxy's market positioning",
+        "Assign ownership to prepare and submit application(s) within the submission window to secure speaking slots"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Speaking Opps \u2014 DCW Power / Europe",
+      "body_preview": "Good morning all,\r\n\r\nMaking sure you do not want to move forward with these speaking opportunities, as the deadline for both is today.\r\n\r\nIf you would like to move forward, we would need to know (in the next hour or two) which speaker you have in mind, wh",
+      "received": "2026-03-27T12:57:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: power",
+        "Urgency: deadline (+1)",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA (a speakers bureau) is following up on speaking opportunities at DCW Power events in Europe with a same-day deadline. She needs immediate confirmation on whether Galaxy wants to participate and, if so, which speaker to nominate within the next few hours.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should immediately decide whether Galaxy wants to pursue these speaking slots and communicate that to Candace",
+        "If proceeding, identify and confirm the preferred speaker from Galaxy's team within the next 1-2 hours",
+        "Provide Candace with speaker details (name, bio, availability confirmation) to meet the deadline"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
     },
     {
       "sender_email": "r.peck@2020-4.com",
@@ -61,12 +199,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Robert Peck is introducing Shawn Carstens, a seasoned industrial real estate executive with 20+ years of experience in acquisitions, asset management, and logistics investments. Peck is presenting Carstens as a potential candidate or strategic contact for Galaxy's industrial real estate and data center expansion efforts. This matters because Galaxy Data Centers is actively growing its portfolio, and experienced industrial real estate talent could accelerate acquisitions, optimize asset performance, or strengthen investment decision-making.",
+      "ai_summary": "Robert Peck is introducing Shawn Carstens, an experienced industrial real estate executive with 20+ years in logistics and industrial investments, likely for a potential role or partnership opportunity at Galaxy. This referral suggests Peck believes Carstens' expertise in risk-adjusted returns across industrial assets could add value to Galaxy's portfolio or operations. Understanding Carstens' capabilities and availability could strengthen Galaxy's industrial real estate and data center expansion efforts.",
       "ai_action": null,
       "ai_next_steps": [
-        "Request the complete PDF resume and full background on Carstens' most relevant industrial/logistics deals to assess fit with Galaxy's current priorities",
-        "Schedule a call with Robert Peck to clarify whether this is a hiring recommendation, partnership opportunity, or vendor introduction",
-        "Have France review Carstens' experience against any open roles or upcoming capital deployment needs at Galaxy Data Centers"
+        "Request the complete resume and professional background details from Robert Peck to assess Carstens' relevance to current or planned initiatives",
+        "Determine if this is a recruitment inquiry, partnership proposal, or potential advisory engagement before scheduling a conversation",
+        "If the fit appears strong, have France schedule an initial call with Carstens to explore alignment with Galaxy's industrial and data center strategy"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -1338,73 +1476,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Additional Speaking Opportunities",
-      "body_preview": "Hey Sai,\r\n\r\nIn addition to the two speaking opportunities I sent in a separate email just now, here are a few other relevant ones we found. Could you let me know if you'd like to move forward with any of these?\r\n\r\nAlso, how did it go with Datacloud Global",
-      "received": "2026-03-24T18:06:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHIGrfZokntFsU5Al0FZnnk=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is following up on multiple speaking engagement opportunities she's sourced, asking for confirmation on which ones to pursue. She's also checking on the status of a Datacloud Global initiative or event. This matters to Galaxy as speaking engagements enhance thought leadership visibility and market positioning for Dave and the company.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Sai review the list of speaking opportunities and provide Candace with Galaxy's ranking/selection of which engagements align with Q1-Q2 priorities",
-        "Get an update on the Datacloud Global status and share back with Candace so she can coordinate any follow-up",
-        "Clarify with Sai whether Dave has bandwidth for additional speaking commitments beyond the two already being evaluated"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Speaking Opps \u2014 DCW Power / Europe",
-      "body_preview": "Hi Sai,\r\n\r\nAny interest in submitting a speaking application for either of the below events?\r\n\r\nData Center World Power\r\nGaylord Texan Resort & Convention Center\r\nDallas, Texas\r\nSept. 21 - 23, 2026\r\n\r\nData Center World Europe\r\nMesse Wien Exhibition Congre",
-      "received": "2026-03-24T17:59:04Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: power, data cent",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is inviting Galaxy to submit speaking applications for two major industry conferences: Data Center World Power in Dallas (September 2026) and Data Center World Europe. This represents a platform to position Galaxy's leadership and expertise in front of industry peers and potential partners at premium venue events.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Determine which conference(s) align with Galaxy's 2026 visibility and business development strategy, and identify relevant topics/speakers",
-        "If interested, coordinate with France and marketing to prepare speaking abstracts and speaker bios that highlight Galaxy's data center infrastructure expertise",
-        "Respond to Candace with confirmation of interest and submission deadline to secure speaking slots"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "itay@torpedodatacenters.com",
@@ -2999,5 +3070,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 94
+  "total_tracked": 96
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-27T12:57:30.697739+00:00",
+  "timestamp": "2026-03-27T14:12:41.304511+00:00",
   "events": [
     {
       "subject": "Badminton Game with Peter ",
@@ -38,16 +38,17 @@
       "organizer": "Paul Tester",
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ouTyhTAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEy2UGFwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ouTyhTAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ%2BgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
-      "subject": "Sales Funnel Review with Ashley and Paul ",
+      "subject": "JSA Galaxy ",
       "start": "2026-03-27T14:30:00.0000000",
       "end": "2026-03-27T15:00:00.0000000",
       "attendees": [
-        "Paul",
         "Ashley",
-        "Tj"
+        "Sai",
+        "Candace",
+        "Dean"
       ],
       "organizer": "Dave Misra",
       "location": "Microsoft Teams Meeting",
