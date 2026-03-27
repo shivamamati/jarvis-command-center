@@ -1,13 +1,149 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T16:51:28.981785+00:00",
-  "total": 18,
-  "new": 18,
-  "noise": 7,
-  "ai": 15,
+  "timestamp": "2026-03-27T17:47:06.950563+00:00",
+  "total": 24,
+  "new": 24,
+  "noise": 5,
+  "ai": 20,
   "skipped": 0,
-  "auto_learned": 54,
+  "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "dmcneish@travelers.com",
+      "sender_name": "McNeish, Dave",
+      "subject": "Re: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "Ash, thank you. Per our discussion we want to emphasize that there will be no material departures from the terms and conditions that we are operating under today. I understand the need to move to new paper but our conditional bid award has this as a corne",
+      "received": "2026-03-27T17:40:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: travelers.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave McNeish from Travelers Insurance is confirming that any transition to new service terms must maintain continuity with their current agreement\u2014they're unwilling to accept material changes to existing conditions despite the need to update documentation. This appears to be a response to a proposal for Galaxy to assume or renew Travelers' service relationship, where McNeish is setting a firm boundary that existing protections and terms remain non-negotiable.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France clarify with McNeish what specific terms/conditions are considered 'material' and non-negotiable to ensure Galaxy's proposal doesn't inadvertently breach this requirement",
+        "Review Galaxy's current service agreement with Travelers to map which existing terms must be carried forward verbatim in any new documentation",
+        "Prepare a revised proposal or 'new paper' that explicitly preserves all current material terms while addressing whatever operational or contractual updates Travelers needs"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "josh.scammell@simmons-simmons.com",
+      "sender_name": "Josh Scammell",
+      "subject": "Redhill update [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi all,\r\n\r\nI hope you are all well.\r\n\r\nAs there was no update call yesterday, we thought it would be beneficial to send a short update email with a few items currently ongoing:\r\n\r\n\r\n  1.  Draft claims letter \u2013 a draft claims letter was sent to Kirstin fro",
+      "received": "2026-03-27T17:36:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKqWS_atAkYtgjv3_j07bEU=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments from known (+1)",
+        "VIP: simmons-simmons.com",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Josh Scammell from Simmons & Simmons (legal counsel) is providing a status update on the Redhill matter, including progress on a draft claims letter that was sent to Kirstin. This appears to be part of ongoing legal proceedings or dispute resolution that requires Galaxy's attention and coordination with the legal team.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt of the draft claims letter and have France or legal team review for completeness and accuracy",
+        "Schedule a call with Josh to get the full update on all items mentioned (email appears truncated) and clarify next milestones",
+        "Determine if Galaxy needs to provide any additional information or approvals to move the claims process forward"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "josh.scammell@simmons-simmons.com",
+      "sender_name": "Josh Scammell",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Dave,\r\n\r\nIt seems you were not included on the attached chain \u2013 Francis has confirmed it is with him and will be over with you shortly for review.\r\n\r\nI am sending round an update email on a few items which will be with you momentarily.\r\n\r\nMany thanks",
+      "received": "2026-03-27T17:32:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSZWHI_4WNIoag6GQHTWhQ=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments from known (+1)",
+        "VIP: simmons-simmons.com",
+        "4 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Josh Scammell from Simmons & Simmons (external counsel) is notifying Dave that documentation related to Travellers was already shared with France/Francis and will be forwarded to Dave shortly for review. He's also preparing a separate update email on related matters. This appears to be routine legal matter coordination requiring Dave's attention on transaction or deal documentation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Watch for the update email from Josh Scammell and review the Travellers documentation once France forwards it",
+        "Confirm receipt and timeline for review with France to ensure no delays in the matter",
+        "Flag any questions or required revisions after reviewing the documentation"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Speaking Opps \u2014 DCW Power / Europe",
+      "body_preview": "Hey Dave,\r\n\r\nThese are the topics they've outlined on the landing page here (see attached and below):\r\n\r\n\r\nLet us know which topic you'd like to go with (maybe power procurement trends) and which executive you'd like to put forward.\r\n\r\nThank you!\r\nCandace",
+      "received": "2026-03-27T17:04:58Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+4)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, power",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is coordinating a speaking opportunity at DCW Power's European event and needs Galaxy to select a topic and designate an executive speaker. She's suggesting power procurement trends as a potential focus area. This is a brand visibility and thought leadership opportunity in the European data center power sector.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached landing page topics and decide which aligns best with Galaxy's market positioning and expertise",
+        "Confirm which Galaxy executive (likely France or another senior leader) will be the speaker and provide their availability",
+        "Reply to Candace with topic selection and speaker name so she can proceed with DCW Power confirmation"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
       "sender_name": "Galaxy - M365 Infrastructure Modernization",
@@ -18,7 +154,7 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI9MQwZbFApArrz6WVw5Q2M=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
@@ -26,20 +162,21 @@
         "Dave replied 2x (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda",
-        "3 VIPs on thread (+2)"
+        "3 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is an internal Galaxy Data Centers M365 Infrastructure Modernization project team meeting notification. The email is scheduling a routine weekly sync to review progress on the M365 modernization initiative, track action items, discuss current priorities, and address any outstanding issues. This matters to Galaxy because M365 modernization is likely a critical infrastructure project impacting operational efficiency and cloud capabilities across the organization.",
+      "ai_summary": "This is an internal Galaxy M365 Infrastructure Modernization project team weekly sync meeting notification. The email serves as a standard meeting reminder with a structured agenda to review progress, track action items, and align on weekly priorities for the modernization initiative. This matters to Galaxy as M365 infrastructure modernization is likely a critical operational or customer-facing project that requires consistent cross-functional coordination and status tracking.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Dave's attendance and any specific topics he wants addressed in the M365 project weekly sync",
-        "Have France prepare a brief summary of key blockers or decisions needed from leadership before the meeting",
-        "Review action items from the previous week's meeting to ensure accountability and identify any escalations needed"
+        "Confirm attendance and any agenda additions with the M365 project team lead before the meeting",
+        "Review last week's action items and preparation materials to ensure productive discussion",
+        "Block time on Dave's calendar if this weekly sync requires Managing Partner-level input or decision-making on project escalations"
       ],
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -63,12 +200,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave has scheduled a Microsoft Teams meeting for a sales funnel review, likely to assess pipeline status, conversion metrics, or deal progress across Galaxy's business. This is a recurring checkpoint to ensure revenue targets are on track and identify any bottlenecks or opportunities that need management attention.",
+      "ai_summary": "Dave has scheduled a Microsoft Teams meeting regarding sales funnel review, likely to assess current pipeline status and conversion metrics across Galaxy's business development efforts. This meeting appears to be an internal check-in to evaluate sales performance, identify bottlenecks, and align on revenue targets or strategy adjustments.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm attendance and prepare sales pipeline data, win/loss analysis, and current quarter metrics before the meeting",
-        "Identify any deals requiring executive attention or resources that should be discussed during the review",
-        "Ensure relevant team members (sales leads, ops) are informed and have supporting materials ready for discussion"
+        "Confirm attendance and prepare current sales pipeline data, conversion rates, and key metrics by segment (data centers, capital partners, etc.)",
+        "Identify any deals at risk or requiring leadership attention to discuss during the meeting",
+        "Prepare summary of recent wins and losses to inform discussion on sales process effectiveness"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -96,12 +233,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rhys Jones from Kiwi MCF is expressing frustration with Galaxy's communication effectiveness, indicating a breakdown in a business relationship or service delivery. This suggests a client or partner satisfaction issue that could impact Galaxy's reputation, renewal terms, or the broader relationship with Kiwi MCF.",
+      "ai_summary": "Rhys Jones from Kiwi MCF is expressing serious dissatisfaction with communication from Galaxy, indicating a breakdown in the client or partner relationship. This suggests operational or service delivery issues are not being adequately explained or addressed, which could jeopardize the business relationship and Galaxy's reputation.",
       "ai_action": null,
       "ai_next_steps": [
-        "Contact Rhys Jones directly to understand the specific communication failures and service gaps he's experiencing",
-        "Conduct an internal audit of all Galaxy touchpoints with Kiwi MCF to identify process breakdowns",
-        "Develop a corrective action plan with clear ownership and timeline to restore confidence in Galaxy's service delivery"
+        "Dave should contact Rhys Jones directly to understand the specific communication failures and what expectations were unmet",
+        "Conduct an internal review of all Galaxy interactions with Kiwi MCF to identify process gaps and service issues",
+        "Develop a remediation plan with clear communication cadence and accountability to rebuild trust and demonstrate commitment"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -128,12 +265,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France is notifying Dave of an upcoming Microsoft Teams meeting with Dan. This appears to be a scheduled sync between Dave (Managing Partner) and Dan to discuss matters relevant to Galaxy Capital Partners or Galaxy Data Centers. The meeting details and access credentials have been provided for Dave's calendar.",
+      "ai_summary": "France is coordinating a Microsoft Teams meeting between Dan (unknown party) and Dave to catch up. This appears to be a scheduled sync meeting, likely related to business development, partnership discussion, or operational alignment. The specific agenda is not detailed in this message, so the business context and importance need clarification.",
       "ai_action": null,
       "ai_next_steps": [
-        "Add the Teams meeting to Dave's calendar using the provided meeting ID and passcode",
-        "Confirm with France what topics Dan intends to cover so Dave can prepare accordingly",
-        "Test Teams access before the meeting time to ensure connectivity"
+        "Confirm with France the purpose of the meeting, who Dan is, and what topics will be discussed before the call",
+        "Block time on Dave's calendar and ensure he has the meeting link and passcode",
+        "Prepare any relevant materials or talking points needed for the discussion"
       ],
       "ai_failed": false,
       "final_score": 3,
@@ -309,42 +446,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: Speaking Opps \u2014 DCW Power / Europe",
-      "body_preview": "Good morning all,\r\n\r\nMaking sure you do not want to move forward with these speaking opportunities, as the deadline for both is today.\r\n\r\nIf you would like to move forward, we would need to know (in the next hour or two) which speaker you have in mind, wh",
-      "received": "2026-03-27T12:57:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: power",
-        "Urgency: deadline (+1)",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA (a speakers bureau) is following up on speaking opportunities at DCW Power events in Europe with a same-day deadline. She needs immediate confirmation on whether Galaxy wants to participate and, if so, which speaker to nominate within the next few hours.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should immediately decide whether Galaxy wants to pursue these speaking slots and communicate that to Candace",
-        "If proceeding, identify and confirm the preferred speaker from Galaxy's team within the next 1-2 hours",
-        "Provide Candace with speaker details (name, bio, availability confirmation) to meet the deadline"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "r.peck@2020-4.com",
       "sender_name": "Robert Peck",
       "subject": "Shawn Carstens Resume: Industrial Real Estate Executive, Acquisitions, Asset Management, Investments",
@@ -467,37 +568,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "bgagne2@travelers.com",
-      "sender_name": "Gagne, Ben",
-      "subject": "RE: Travelers : Galaxy Follow up ",
-      "body_preview": "Ash,\r\n\r\nJust sending a quick note to check in on things. Do you have any visibility regarding when your legal folks will have something to share over with the Travelers team?\r\n\r\nBest,\r\n\r\nBen\r\n\r\n\r\nBen Gagne | Senior Director\r\nCorporate Procurement | Enterp",
-      "received": "2026-03-26T21:27:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIXrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: travelers.com",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ben Gagne from Travelers' Corporate Procurement is following up on a previous Galaxy legal matter and seeking a timeline for when Galaxy's legal team will deliver documentation or a response to Travelers. This appears to be part of an ongoing procurement or partnership discussion where legal review is a blocking step.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or legal team confirm current status and provide Ben with a specific delivery date for the legal deliverable",
-        "If there are blockers causing the delay, escalate internally to resolve and communicate revised timeline to Ben immediately",
-        "Once legal material is ready, have Dave or France send directly to Ben with a summary of next steps to keep the Travelers opportunity moving"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3235,5 +3305,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 101
+  "total_tracked": 103
 }
