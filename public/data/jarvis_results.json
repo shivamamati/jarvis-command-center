@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T10:00:52.668632+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 4,
-  "ai": 5,
+  "timestamp": "2026-03-27T11:39:18.430649+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 4,
   "skipped": 0,
-  "auto_learned": 51,
+  "auto_learned": 50,
   "items": [
     {
       "sender_email": "rohanhoughton@eversheds-sutherland.com",
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": 8,
       "ai_label": "URGENT",
-      "ai_summary": "Rohan Houghton from Eversheds Sutherland is providing a legal fee quote for DORA (Digital Operational Resilience Act) regulatory compliance work. This appears to be a follow-up to a request Dave or Galaxy made regarding DORA obligations, likely tied to data center regulatory requirements in Europe.",
-      "ai_action": "Dave should review the fee quote and scope of work. Confirm with internal team (likely France or ops lead) whether this aligns with Galaxy's DORA timeline and budget. Reply to Rohan with approval or negotiation points.",
+      "ai_summary": "Rohan Houghton from Eversheds Sutherland is responding with a legal fee quote for DORA (Digital Operational Resilience Act) regulatory compliance work. This is a specific deliverable related to Galaxy's data center operations, likely tied to EU regulatory obligations. The email appears to be a continuation of an existing request from Galaxy's team (possibly Paul).",
+      "ai_action": "Forward to Paul (Galaxy's legal/ops lead) for review and approval of scope and fees. Confirm Eversheds is the chosen counsel for DORA compliance and that this aligns with Galaxy's regulatory timeline and budget.",
       "ai_next_steps": [
-        "Review Eversheds fee quote and scope completeness",
-        "Confirm DORA compliance timeline with internal operations/legal lead",
-        "Approve, negotiate, or defer based on current regulatory priorities"
+        "Route to internal stakeholder who initiated DORA legal request (likely Paul or compliance officer)",
+        "Confirm fee estimate fits Galaxy's legal budget and project timeline",
+        "Once approved, authorize Eversheds to proceed with KYC and onboarding"
       ],
       "ai_failed": false,
       "final_score": 8,
