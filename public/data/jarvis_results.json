@@ -1,13 +1,118 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-27T19:39:17.401078+00:00",
-  "total": 18,
-  "new": 18,
-  "noise": 9,
-  "ai": 15,
+  "timestamp": "2026-03-27T20:34:48.987431+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 3,
+  "ai": 12,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "[time sensitive] Speaking Opps \u2014 DCW Power / Europe",
+      "body_preview": "Hi Sai & Dave,\r\n\r\nPlease find the drafted title and description in the attached, pulling from the DCS Awards submission but making it vendor-neutral / not salesy.\r\n\r\nPlease let me know if the next hour if you'd like to move forward and, if so, which speak",
+      "received": "2026-03-27T20:13:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+4)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: lease, power",
+        "Urgency: time sensitive (+1)",
+        "3 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is offering speaking opportunities at DCW Power (a European event) and needs immediate approval within the next hour on whether Galaxy wants to participate and which speaker slot to select. This is a time-sensitive request leveraging content from Galaxy's DCS Awards submission, positioning it as a vendor-neutral thought leadership platform in the European data center market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Immediately review the attached title and description to assess alignment with Galaxy's messaging and positioning",
+        "Decide on participation and confirm which speaker slot works best for Galaxy's schedule and strategic goals within the one-hour window",
+        "Respond to Candace with decision and speaker preference, or delegate to France if unavailable for quick turnaround"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "nick.marlow@bcsconsultancy.com",
+      "sender_name": "Nick Marlow",
+      "subject": "Re: BCS/Galaxy Catch Up",
+      "body_preview": "Hi Dave,\r\n\r\nThanks for the time on Thursday. As discussed we can work with Ash with the current project.\r\n\r\nPlease would you send me your NDA and I will get that through Group legal and out for signature.\r\n\r\nI will leave you to set up a one to one with @C",
+      "received": "2026-03-27T19:48:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANUPDJahlfdPqveKUBohSck=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: bcsconsultancy.com",
+        "KW: nda, lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Nick Marlow from BCS Consultancy is following up on a recent call with Dave regarding a current project involving Ash. He's requesting Galaxy's NDA template so his legal team can review and execute it, and he's asking Dave to schedule a one-on-one meeting with someone (referenced as @C). This appears to be moving toward formalizing a consulting or partnership engagement with BCS.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Send Galaxy's standard NDA template to Nick Marlow immediately",
+        "Identify who '@C' refers to and coordinate a one-on-one meeting with Nick",
+        "Follow up with Nick in 5-7 business days to track NDA progress through BCS Group legal"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Hi Dave\r\n\r\nI attach the draft MSA and Services Order which is based on the Redhill Power Exclusive template. This is in draft as I would appreciate your input on a number of points:\r\n\r\n\r\n  1.  In terms of power charging, Paul\u2019s email below suggests that t",
+      "received": "2026-03-27T19:40:09Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Attachments from known (+1)",
+        "VIP: simmons-simmons.com",
+        "KW: power",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons Simmons (Galaxy's legal counsel) has sent draft MSA and Services Order documents for the Travellers engagement, based on the Redhill Power template. He's seeking Dave's input on several points before finalizing, particularly regarding power charging terms that Paul had flagged in prior correspondence.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached MSA and Services Order drafts and identify key commercial concerns, especially around power charging rates and terms",
+        "Clarify with Francis what specific points require Dave's input (email appears truncated) and provide feedback within 2-3 business days",
+        "Schedule a call with Francis and Paul to align on power charging structure and resolve any outstanding commercial terms before proceeding to final execution"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "jake.rinsler@cbre.com",
       "sender_name": "Rinsler, Jake @ London HH",
@@ -29,51 +134,15 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Jake Rinsler from CBRE's London office is representing a client seeking 12MW of data center capacity in the UK with a 6-month timeline, with flexibility on acquisition structure (purchase, lease, or powered shell). He's inquiring whether Galaxy's Redhill facility can meet this requirement, representing a potential near-term commercial opportunity.",
+      "ai_summary": "Jake Rinsler from CBRE's London office is representing a client seeking 12MW of data center capacity in the UK with a 6-month timeline, open to purchase or lease arrangements and flexible on build-out stage. This is a direct inquiry about Galaxy's Redhill facility and represents a significant commercial opportunity if Galaxy can meet the timeline and capacity requirements. This matters because it's a qualified lead for immediate revenue generation and validates market demand for Galaxy's UK infrastructure.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Galaxy's current availability and timeline for 12MW capacity at Redhill, including any power constraints or construction lead times",
-        "Request additional details on the client's technical requirements, preferred terms (purchase vs. lease), and end-use to determine fit and pricing strategy",
-        "Have France or appropriate team member schedule a call with Jake to discuss commercial terms and next steps if feasible"
+        "Have France or appropriate Galaxy business development contact Jake within 24 hours to confirm Redhill's current availability, timeline feasibility, and pricing for 12MW",
+        "Prepare a site summary and capacity plan document for Redhill to share with CBRE for client qualification and due diligence",
+        "Clarify with Jake the client's specific requirements (preferred lease vs. purchase terms, power specs, cooling needs, timeline flexibility) to assess fit before detailed commercial discussions"
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: Speaking Opps \u2014 DCW Power / Europe",
-      "body_preview": "FYI, we will need to adjust the framing / content to be vendor-neutral, so I'll work on that now.\r\n\r\nTheir guidelines say: We will ONLY accept vendor-neutral presentations. Sales pitches, even thinly veiled, won\u2019t make it through the evaluation process.",
-      "received": "2026-03-27T19:09:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: power",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is confirming that a speaking opportunity at DCW Power in Europe requires strict vendor-neutral positioning. The event organizers have explicitly rejected any sales-focused or company-promotional content, so she's committing to reframe Galaxy's presentation materials accordingly.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Candace share the revised vendor-neutral draft with Dave for approval before final submission to DCW Power",
-        "Align with France on messaging strategy to ensure the presentation focuses on industry insights rather than Galaxy products/services",
-        "Confirm the speaking slot deadline and submission requirements with Candace to avoid delays"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -95,13 +164,12 @@
       "ai_reviewed": true,
       "ai_score": 8,
       "ai_label": "URGENT",
-      "ai_summary": "Daniel Scarbrough from Evermere Capital Management is sending an MNDA for execution. Evermere is a capital management firm\u2014likely an investor, LP prospect, or financial partner exploring a deal with Galaxy. The MNDA signals serious intent to discuss a specific transaction or partnership.",
-      "ai_action": "Dave should review the MNDA immediately via DocuSign link and determine: (1) What deal/partnership is Evermere proposing? (2) Is this an LP prospect or co-investment opportunity? (3) Forward to Simmons & Simmons for legal review before signing if not already engaged.",
+      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for execution via DocuSign. This is a formal legal document requiring Dave's attention\u2014likely related to a potential investment discussion, partnership, or deal exploration with Evermere.",
+      "ai_action": "Dave should review the MNDA immediately and coordinate with Simmons & Simmons (Galaxy's legal counsel) before signing. Clarify with Daniel what transaction or discussion this covers.",
       "ai_next_steps": [
-        "Click DocuSign link and review full MNDA terms",
-        "Identify what specific opportunity/deal Evermere wants to discuss",
-        "Forward to Simmons & Simmons for legal diligence on MNDA language",
-        "Request intro call with Daniel Scarbrough to understand investment thesis"
+        "Forward to Simmons & Simmons for legal review of MNDA terms",
+        "Contact Daniel Scarbrough at dan.scarbrough@evermere.com to confirm scope (investment, partnership, asset sale, etc.)",
+        "Review DocuSign document and sign once legal clears it"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -3407,5 +3475,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 106
+  "total_tracked": 108
 }
