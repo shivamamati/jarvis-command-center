@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-28T08:34:36.147745+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 4,
-  "ai": 4,
+  "timestamp": "2026-03-28T09:33:39.825248+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France has confirmed that Galaxy has shipped executed citizenship application documents to Paolo (likely an immigration attorney or consultant) via courier as previously instructed, and is providing the courier receipt as proof of shipment. France is awaiting confirmation of receipt and appears to be seeking final review or next steps on the citizenship application process.",
+      "ai_summary": "France has confirmed that Galaxy has sent executed citizenship application documents to Paolo (likely an immigration attorney or consultant) via courier as instructed, and is requesting confirmation of receipt. This appears to be a personal immigration matter for someone at Galaxy, and the incomplete message suggests France may be waiting for further guidance on next steps in the application process.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should ask France for clarity on whose citizenship application this is and the business context (employee visa sponsorship, investor residency, etc.)",
-        "Follow up with Paolo to confirm receipt and obtain timeline for final folder review and submission to relevant authorities",
-        "Ensure any compliance or HR implications are being properly tracked and documented given the formal nature of this process"
+        "Follow up with Paolo within 2-3 business days if receipt confirmation is not provided",
+        "Retain courier tracking documentation and receipt for record-keeping purposes",
+        "Clarify with France what the outstanding items or next milestones are in this application timeline"
       ],
       "ai_failed": false,
       "final_score": 7,
