@@ -1,6 +1,18 @@
 {
-  "timestamp": "2026-03-28T07:42:08.044884+00:00",
+  "timestamp": "2026-03-28T08:34:23.386271+00:00",
   "events": [
+    {
+      "subject": "\u274c Renewal Failed For: [galaxycapitalpartners.com], Sat, 28 Mar 2026 01:23:19 -0700",
+      "start": "2026-03-28T09:00:00.0000000",
+      "end": "2026-03-28T21:00:00.0000000",
+      "attendees": [
+        "Microsoft"
+      ],
+      "organizer": "Microsoft Domain Expiry",
+      "location": "Find Attached: (Admin_Center_Domains Portal File \ud83d\udd17)",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYebNoBAAA%3D&exvsurl=1&path=/calendar/item"
+    },
     {
       "subject": "Ops Team Weekly",
       "start": "2026-03-30T13:30:00.0000000",
