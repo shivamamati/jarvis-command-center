@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-28T09:33:39.825248+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 3,
-  "ai": 3,
+  "timestamp": "2026-03-28T10:28:19.833691+00:00",
+  "total": 2,
+  "new": 2,
+  "noise": 1,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France has confirmed that Galaxy has sent executed citizenship application documents to Paolo (likely an immigration attorney or consultant) via courier as instructed, and is requesting confirmation of receipt. This appears to be a personal immigration matter for someone at Galaxy, and the incomplete message suggests France may be waiting for further guidance on next steps in the application process.",
+      "ai_summary": "Paolo (likely an immigration attorney or consultant) provided guidance on a citizenship application process, and France has confirmed that Galaxy has already sent the required executed documents via courier to Paolo's office. France is requesting confirmation of receipt and appears to be waiting for next steps in what seems to be a personal immigration matter being handled through the company.",
       "ai_action": null,
       "ai_next_steps": [
-        "Follow up with Paolo within 2-3 business days if receipt confirmation is not provided",
-        "Retain courier tracking documentation and receipt for record-keeping purposes",
-        "Clarify with France what the outstanding items or next milestones are in this application timeline"
+        "Dave should clarify with France whether this citizenship application is a personal matter or related to Galaxy business/employee sponsorship, as it impacts how it should be tracked",
+        "Request that France obtain written confirmation from Paolo regarding receipt timeline and next milestone dates for the application",
+        "Ensure proper documentation and separation of personal vs. corporate legal matters in Galaxy's records"
       ],
       "ai_failed": false,
       "final_score": 7,
