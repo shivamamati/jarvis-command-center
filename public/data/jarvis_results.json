@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-29T07:54:05.176916+00:00",
+  "timestamp": "2026-03-29T08:35:44.690350+00:00",
   "total": 2,
   "new": 2,
   "noise": 1,
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Kirstin Dunn from Castle Forge is confirming scope clarification on a Travellers engagement, specifically that new leasing activities fall outside the existing retainer arrangement which covers advisory and transition work rather than deal-specific projects. This distinction is important for Galaxy's engagement model and resource allocation on this client relationship.",
+      "ai_summary": "Kirstin Dunn from CastleForge is confirming scope boundaries on a Travellers engagement, clarifying that new leasing activities fall outside the existing retainer arrangement and are separately billable as deal-specific work rather than ad hoc advisory. This is a critical commercial distinction that affects how Galaxy structures engagement fees and revenue recognition for this client relationship.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with France the specific scope boundaries between retainer-covered advisory work and billable deal-specific leasing activities for the Travellers account",
-        "Document the agreed fee structure and project categorization to ensure accurate billing and resource forecasting",
-        "Follow up with Kirstin to confirm what new leasing services Galaxy intends to propose and under what fee arrangement"
+        "Clarify with Paul and France whether Galaxy has already quoted separate fees for new leasing work on this Travellers opportunity or if pricing still needs to be established",
+        "Document the confirmed scope exclusion (new leasing outside retainer) in the engagement agreement to prevent future billing disputes",
+        "Determine if this Travellers engagement includes other potential deal-specific revenue streams that should be separately tracked and quoted"
       ],
       "ai_failed": false,
       "final_score": 10,
