@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-29T17:26:47.692065+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 6,
-  "ai": 7,
+  "timestamp": "2026-03-29T18:36:38.401336+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Wednesday Marketing Meeting",
+      "body_preview": "________________________________\r\nFrom: Sai Raman\r\nSent: Sunday, March 15, 2026 10:59:39 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Animesh Raha <animesh@galaxydatacenters.com>; SA <sa@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters.com>\r\nS",
+      "received": "2026-03-29T18:20:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYuLmawAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEet3ymAj5VEik-qc8rcrTw=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 17x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is scheduling an internal marketing meeting for Wednesday with the Galaxy Data Centers leadership team including you, Animesh, and SA. This appears to be a routine coordination message to align the marketing function across the organization.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm your availability for Wednesday and respond to Sai with any scheduling conflicts or agenda items you need covered",
+        "Request a detailed agenda from Sai before the meeting to understand the key topics to be discussed",
+        "Ensure Animesh and SA are prepared with relevant updates from their respective areas"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "bobcavoto@2020-4.com",
       "sender_name": "Bob Cavoto",
@@ -2031,38 +2064,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Wednesday Marketing Meeting",
-      "body_preview": "________________________________\r\nFrom: Sai Raman\r\nSent: Sunday, March 15, 2026 10:59:39 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Animesh Raha <animesh@galaxydatacenters.com>; SA <sa@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters.com>",
-      "received": "2026-03-24T23:27:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYQHs5BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEet3ymAj5VEik-qc8rcrTw=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman (Galaxy Data Centers internal team member) is sending a meeting reminder to the marketing leadership group including Dave Misra for a Wednesday marketing meeting. This appears to be an internal coordination message to align the marketing team on upcoming initiatives or strategic discussions.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and review any pre-meeting materials or agenda that Sai may send",
-        "Coordinate with Animesh and SA to understand what marketing topics or decisions need to be addressed in this meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Docklands ",
@@ -3633,32 +3634,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "bobcavoto@2020-4.com",
-      "sender_name": "Bob Cavoto",
-      "subject": "Hank Loughran Resume, Executive Equity Raiser for Real Estate and Private Equity",
-      "body_preview": "Dave,\r\n\r\n\r\n\r\nBelow is the resume of Hank Loughran (upon request we can attach a PDF version). Hank has raised over $3B institutional investors, family offices, RIA's and high net worth individuals acr",
-      "received": "2026-03-22T18:07:10Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2FjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHueNH3RwyBFtjHBfRHLTmY=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 114
+  "total_tracked": 113
 }
