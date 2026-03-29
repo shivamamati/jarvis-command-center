@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-29T16:30:06.786067+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 4,
-  "ai": 3,
+  "timestamp": "2026-03-29T17:26:47.692065+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 6,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "bobcavoto@2020-4.com",
+      "sender_name": "Bob Cavoto",
+      "subject": "Zev Nagel resume, Chief Administrative / Operating Officer",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nBelow is the resume of Zev Nagel (upon request we can attach a PDF version). Zev recently served as Chief Administrative Officer at Decron Properties, a large private commercial real estate company with over $3B in AUM. Zev has extensive expe",
+      "received": "2026-03-29T16:33:28Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYtOjy%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEaIP_82O8xEljntnjq-gbw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Bob Cavoto is presenting a candidate, Zev Nagel, who recently held a Chief Administrative Officer role at Decron Properties, a major commercial real estate firm managing over $3B in assets. Zev is being proposed for a Chief Administrative or Operating Officer position, likely at Galaxy. This matters because finding experienced COO/CAO talent with large-scale real estate operations background could strengthen Galaxy's leadership structure as the company scales its data center and capital operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review Zev's full resume and background, particularly experience scaling operations for multi-billion dollar real estate/infrastructure businesses",
+        "Have Bob clarify the specific role Galaxy is considering Zev for (CAO vs COO) and what hiring timeline is anticipated",
+        "Schedule a preliminary call between Dave/France and Zev to assess fit for Galaxy's current organizational needs and growth stage"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "kirstin.dunn@castleforge.com",
       "sender_name": "Kirstin Dunn",
@@ -3630,5 +3660,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 113
+  "total_tracked": 114
 }
