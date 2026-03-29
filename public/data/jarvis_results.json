@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-29T05:07:28.985712+00:00",
-  "total": 2,
-  "new": 2,
+  "timestamp": "2026-03-29T06:58:31.082684+00:00",
+  "total": 3,
+  "new": 3,
   "noise": 1,
-  "ai": 1,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "kirstin.dunn@castleforge.com",
+      "sender_name": "Kirstin Dunn",
+      "subject": "Re: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Hi Paul,\r\n\r\nMany thanks for the update on this one. I confirm that new leasing etc is not part of the retainer fee which largely covers ad hoc advice and transitional arrangements rather than deal specific work. In any event you will recall we are looking",
+      "received": "2026-03-29T06:48:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYojn8%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kirstin Dunn from Castle Forge is confirming that new leasing activities fall outside the scope of Galaxy's retainer agreement with them, which is limited to advisory and transitional support rather than transaction-specific work. This clarification is important for scoping future engagements and ensuring proper fee structures are applied to new deal work that may arise from the Travellers account.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or Paul clarify with Kirstin in writing what specific services ARE included under the retainer versus what triggers additional fees for new leasing deals",
+        "Review the Travellers retainer agreement to confirm scope boundaries and ensure Galaxy's team understands what work can be billed as ad hoc versus retainer",
+        "Establish a clear engagement model going forward if new leasing opportunities emerge, so both parties have aligned expectations on pricing"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Daniel Scarbrough via Docusign",
@@ -332,41 +365,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "Hi Dave\r\n\r\nI attach the draft MSA and Services Order which is based on the Redhill Power Exclusive template. This is in draft as I would appreciate your input on a number of points:\r\n\r\n\r\n  1.  In terms of power charging, Paul\u2019s email below suggests that t",
-      "received": "2026-03-27T19:40:09Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Attachments from known (+1)",
-        "VIP: simmons-simmons.com",
-        "KW: power",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons-Simmons (Galaxy's legal counsel) has circulated draft MSA and Services Order documents for the Travellers engagement, modeled on the Redhill Power Exclusive template. He is requesting Dave's input on several open points related to power charging terms and other commercial provisions before finalizing the legal agreements.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached MSA and Services Order drafts and provide specific feedback to Francis on power charging terms and any other material provisions",
-        "Coordinate with Paul (referenced in Francis's email) to clarify the power charging position and ensure commercial and legal terms are aligned",
-        "Schedule a call with Francis to discuss remaining open points and target a finalization timeline for execution"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "jake.rinsler@cbre.com",
