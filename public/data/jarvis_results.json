@@ -1,13 +1,83 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T21:38:33.374349+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 5,
-  "ai": 8,
+  "timestamp": "2026-03-30T22:31:53.044486+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 4,
+  "ai": 9,
   "skipped": 0,
-  "auto_learned": 59,
+  "auto_learned": 55,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Redhill Updated Deck",
+      "body_preview": "Hi Tom,\r\n\r\nThanks for the updated deck \u2014 the structural work is solid and the test fits are helpful, particularly the 25 kW and 100 kW configurations showing how the modular approach works within the existing shells. The Stage 2 scope and fee are clear.",
+      "received": "2026-03-30T22:28:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYy4XapAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLeMa6IsUcusiMkbzoHH_c=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: kw",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be Dave's own outgoing email confirming receipt of an updated presentation deck from Tom regarding the Redhill project. Dave is validating that the structural analysis, modular test configurations (25kW and 100kW units), and Stage 2 scope/pricing are acceptable and well-documented.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify who Tom is and whether a response/approval is needed from Dave or if this email confirms internal alignment",
+        "Confirm Stage 2 timeline and next milestone with Tom to move Redhill project forward",
+        "Schedule follow-up with France (if involved) to align on resource allocation and execution plan for Stage 2"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill Lease Renew",
+      "body_preview": "Thanks - I\u2019ll leave it with you then.  Just as a note, Dave floated the idea of greater than 20% discount by Rob separately and he indicated some flexibility.\r\n\r\nPaul\r\n\r\nOn Mar 30, 2026, at 6:17\u202fPM, Kirstin Dunn <kirstin.dunn@castleforge.com> wrote:\r\n\r\nI\u2019",
+      "received": "2026-03-30T22:19:22Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENI7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "3 VIPs on thread (+2)",
+        "Thread: 5 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is confirming delegation of the Redhill lease renewal negotiation and relaying that Dave previously discussed with Rob (likely the landlord or their representative) the possibility of securing a discount greater than 20%, to which Rob signaled openness. This suggests there may be room for more aggressive negotiation on lease terms than initially thought, which could materially improve Galaxy's occupancy cost structure.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Dave what specific discount threshold and terms he discussed with Rob to ensure alignment before next negotiation round",
+        "Prepare a revised proposal targeting a discount greater than 20% and present to Rob to test the extent of his stated flexibility",
+        "Document the financial impact of various discount levels (22%, 25%, 30%) on Galaxy's P&L to determine optimal negotiating position"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "a.zillig@2020-4.com",
       "sender_name": "Adam Zillig",
@@ -105,42 +175,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "FW: Redhill Updated Deck",
-      "body_preview": ". TRACK RECORD OF OTHER MODULAR BUILD COMPANIES\r\nBounding cap on the 12mm, bounding of the lead time,\r\nInstallation and delivery timeframes.\r\n\r\nHi All,\r\n\r\nAs per yesterday\u2019s call, please see responsibilities as follows:\r\n\r\n@Thomas Cooper Please recircul",
-      "received": "2026-03-30T19:50:34Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYy4XamAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLeMa6IsUcusiMkbzoHH_c=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: rack, lease",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is forwarding an incomplete email about a Redhill project deck that appears to focus on competitive analysis of modular construction companies, their delivery timelines, and installation capabilities. The message references action items from a previous call but cuts off before providing complete direction to the team. This appears to be a work-in-progress communication that needs clarification before the team can execute on the assigned responsibilities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Dave send the complete, finalized version of this email with full instructions and assigned responsibilities",
-        "Clarify what 'Redhill Updated Deck' deliverable is needed and the deadline for completion",
-        "Confirm who (Thomas Cooper and others) needs to recirculate what materials and by when"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "victoria.skrbensky@jll.com",
@@ -617,42 +651,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Redhill Lease Renew",
-      "body_preview": "Hi Rob - In addition to the DORA amendment for SMBC, I wanted to get a sense for you what your quote / rates to help on a lease renewal would be.  As you are aware Travelers is one of our tenants.  As part of an early renewal and extension, we are thinkin",
-      "received": "2026-03-30T07:18:01Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, renewal, tenant",
-        "Lease + customer",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is reaching out regarding a lease renewal opportunity with Travelers, one of Galaxy Data Centers' existing tenants, in addition to ongoing DORA amendment work with SMBC. He's requesting rate information and guidance on structuring a renewal and extension deal, indicating this is part of an early renewal strategy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should clarify with Paul the specific lease terms being considered (duration, space, pricing parameters) and timeline for Travelers' decision",
-        "Prepare a competitive rate proposal and renewal terms that align with Galaxy's portfolio strategy and current market positioning",
-        "Schedule a call with Paul to discuss the commercial structure and confirm whether this renewal requires legal/transactional support or just pricing guidance"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "animesh@galaxydatacenters.com",
@@ -3473,74 +3471,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Dave",
-      "body_preview": "Hi Delilah,\r\n\r\nThanks for following up.\r\n\r\nBefore scheduling time, it would be helpful to better understand the proposal. Could you please send over a brief deck or summary outlining:\r\n\r\n  *\r\nYour core offering and how you typically support companies like",
-      "received": "2026-03-23T22:29:28Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6h8nQWMH5EqbP2xdQWB7Q=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: proposal, lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal email from Dave Misra to himself (likely a forwarded message or misdirected), asking for clarification on an external proposal. Dave is requesting that someone (Delilah) provide a deck or summary before committing to a meeting, indicating there's an incoming business proposal that requires vetting.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify the sender - determine if this email was intended for Dave or if Dave needs to send this request to Delilah directly",
-        "Obtain the missing proposal details (deck/summary) that outlines the core offering and use case for Galaxy",
-        "Schedule a preliminary internal review with France to assess the proposal's strategic fit before any external meetings"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxycapitalpartners.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Invitation: Redhill - Salesforce Meeting  @ Tue 24 Mar 2026 3:30pm - 4:30pm (GMT+1) (dave@galaxycapitalpartners.com)",
-      "body_preview": "Ali can you please use this link and update it into the invite tomorrow, we prefer to use teams  Microsoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/23589988187091?p=ywYiaUbDrT0uvjGkA4\r\nMeeting ID: 235 899 881 870 91\r\nPasscode: NL6Rt6BZ\r\n\r\n___",
-      "received": "2026-03-23T22:15:49Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJmyNtfMPqVOhRsbIrL9G3o=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: capital, lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is requesting that Ali update the existing Redhill-Salesforce meeting invite (scheduled for March 24, 2026 at 3:30pm GMT+1) to replace the current meeting platform with a Microsoft Teams link instead. This is an internal coordination task to standardize on Galaxy's preferred collaboration platform for this client meeting.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Ali should update the calendar invite with the provided Teams meeting link and details (Meeting ID: 235 899 881 870 91, Passcode: NL6Rt6BZ)",
-        "Resend the updated invite to all attendees to ensure they have the correct Teams meeting information before March 24th",
-        "Confirm with Redhill/Salesforce contacts that Teams is acceptable for their participation in the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 106
+  "total_tracked": 104
 }
