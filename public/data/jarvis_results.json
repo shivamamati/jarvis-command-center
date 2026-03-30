@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T20:41:13.054400+00:00",
-  "total": 15,
-  "new": 15,
-  "noise": 10,
-  "ai": 11,
+  "timestamp": "2026-03-30T21:38:33.374349+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 5,
+  "ai": 8,
   "skipped": 0,
-  "auto_learned": 60,
+  "auto_learned": 59,
   "items": [
     {
       "sender_email": "a.zillig@2020-4.com",
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Adam Zillig from a recruiting firm is reaching out about two open positions (Head of Asset Management & Leasing and Development Manager) at an established, well-capitalized private retail real estate development firm in San Diego. This appears to be a recruitment inquiry, likely seeking Galaxy's involvement or referrals for these roles. The relevance to Galaxy depends on whether there's a potential partnership opportunity, talent pool overlap, or strategic business connection with this retail development firm.",
+      "ai_summary": "Adam Zillig from a recruitment firm is reaching out about two open positions at an established, well-capitalized private retail real estate development company in San Diego\u2014a Head of Asset Management & Leasing role and a Development Manager position. This appears to be a recruitment inquiry that may be relevant if Galaxy is exploring talent acquisition in the real estate development space or if there's a potential business development angle. Understanding their client's capital profile and development pipeline could identify partnership or investment opportunities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France or a team member schedule a call with Adam to clarify whether he's seeking Galaxy talent, partnership opportunities, or simply making a networking outreach",
-        "Determine if Galaxy has a strategic interest in the San Diego retail market or if any Galaxy portfolio companies could benefit from these hires",
-        "Request more details about the development firm's capitalization, portfolio, and any data center or infrastructure-adjacent projects that might align with Galaxy's core business"
+        "Have France or an operations lead request full details about the developer's current portfolio, capitalization, and project pipeline to assess strategic fit",
+        "Clarify whether this is an outbound recruitment inquiry aimed at Galaxy staff or a business development opportunity Galaxy should explore",
+        "If strategically relevant, schedule a brief call with Adam to understand the client's infrastructure needs and data center footprint requirements"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -61,12 +61,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman is confirming a marketing team meeting scheduled for Friday, April 3rd at 12:30 PM via Microsoft Teams. This appears to be an internal Galaxy Data Centers marketing sync that requires Dave or his team's attendance and participation.",
+      "ai_summary": "Sai Raman is circulating a calendar invite for an internal marketing meeting scheduled for Friday, April 3rd at 12:30 PM via Microsoft Teams. This appears to be a routine marketing team sync that may cover campaign strategy, messaging, or promotional initiatives relevant to Galaxy's data center or capital business lines. Dave should confirm attendance and ensure marketing priorities align with broader business objectives.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm attendance on the Teams meeting invite and block calendar time",
-        "Request meeting agenda from Sai to prepare any necessary talking points or updates",
-        "Delegate to France if Dave cannot attend and brief her on any critical marketing topics to cover"
+        "Confirm Dave's availability for the April 3rd marketing meeting and add to calendar",
+        "Request agenda details from Sai to understand specific topics and required preparation",
+        "Brief France (if relevant to her responsibilities) on meeting outcomes and any action items affecting her team"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -95,12 +95,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Louis Mueller from CastleForge is forwarding information regarding the Redhill Development project to Paul Leong and other stakeholders. The email appears to be initiating or advancing discussion on a development opportunity that involves Galaxy Capital Partners. This matters because it signals an active investment or partnership opportunity that requires Galaxy's attention and decision-making.",
+      "ai_summary": "Louis Mueller from CastleForge is forwarding communication regarding the Redhill Development project to Paul Leong and relevant stakeholders. The email appears to be initiating or continuing discussion on this development initiative involving both CastleForge and Galaxy Capital Partners. This project likely represents a significant investment or partnership opportunity that requires coordination between the two organizations.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should review the full Redhill Development proposal with Paul Leong to understand CastleForge's specific ask and Galaxy's investment role/exposure",
-        "Coordinate with Ash Gupta and Mike Adcock to clarify responsibilities and timeline for Galaxy's involvement",
-        "Schedule a call with Louis Mueller to confirm terms, capital requirements, and expected returns before commitment"
+        "Request Paul Leong provide full context on the Redhill Development project scope, timeline, and Galaxy's capital commitment or role",
+        "Confirm whether this is a new opportunity or existing project requiring escalation, and identify any immediate decisions or approvals needed from Dave",
+        "Schedule a brief call with Paul, Mike Adcock, and Ash Gupta to align on next actions and decision timeline"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -131,12 +131,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be an incomplete internal forward regarding a Redhill deck update that Dave is distributing to the team following a call. The message references tracking modular build company performance metrics, capacity constraints, and delivery timelines, but the actual context and sender information are cut off, making it unclear what specific action or decision is required from Dave at this time.",
+      "ai_summary": "Dave is forwarding an incomplete email about a Redhill project deck that appears to focus on competitive analysis of modular construction companies, their delivery timelines, and installation capabilities. The message references action items from a previous call but cuts off before providing complete direction to the team. This appears to be a work-in-progress communication that needs clarification before the team can execute on the assigned responsibilities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Request the complete email chain and full Redhill deck to understand the full context and requirements",
-        "Clarify with Dave what specific action items or approvals are needed from him on the modular build company analysis",
-        "Follow up with Thomas Cooper to ensure the circulation request is completed and all team members have necessary materials"
+        "Request Dave send the complete, finalized version of this email with full instructions and assigned responsibilities",
+        "Clarify what 'Redhill Updated Deck' deliverable is needed and the deadline for completion",
+        "Confirm who (Thomas Cooper and others) needs to recirculate what materials and by when"
       ],
       "ai_failed": false,
       "final_score": 10,
