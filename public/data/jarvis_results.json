@@ -1,13 +1,181 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T09:07:43.060235+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 2,
+  "timestamp": "2026-03-30T10:58:58.100826+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 7,
   "ai": 8,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "Channel Partners Cost",
+      "body_preview": "Hi Paul,\r\n\r\nPlease see cost for flights and hotel for Channel Partner. Once approved I\u2019ll book.\r\n\r\n\r\n\r\n\r\n\r\n\r\nAsh Roberts\r\n\r\nVice President, Commercial\r\n\r\nE: ashley@galaxydatacenters.com\r\nP: +44 (0) 7957 769185\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Mee",
+      "received": "2026-03-30T10:57:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENH5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHFJYQdtNyJKrIYK5wfgOJg=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 9x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts, VP of Commercial at Galaxy Data Centers, is seeking approval to book travel expenses (flights and hotel) for a channel partner visit. This likely involves a customer relationship or business development initiative that requires in-person engagement with a key partner.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request the detailed cost breakdown and itemized budget from Ashley before approving",
+        "Clarify the business purpose and expected ROI from the channel partner engagement",
+        "Once approved, authorize Ashley to proceed with booking"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "paul.tester@redhilldatacentre.com",
+      "sender_name": "Paul Tester",
+      "subject": "Re: Fw: Welcome to Customer Portal",
+      "body_preview": "Adding Colin!!\r\n________________________________\r\nFrom: Ali Elfanidi <alielfanidi@gmail.com>\r\nSent: 30 March 2026 10:22 AM\r\nTo: Support <support@redhilldatacentre.com>; Paul Tester <paul.tester@redhilldatacentre.com>\r\nCc: Hajar Zaiz <hajarzaiz04@gmail.com",
+      "received": "2026-03-30T09:25:11Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Redhill ops",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ali Elfanidi from Red Hill Data Centre is onboarding to the Galaxy customer portal and Paul Tester is coordinating internal handoff by adding Colin to the communication thread. This represents a new or expanding customer relationship that requires proper internal alignment on support and account management.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Colin's role and ensure he has appropriate portal access and customer context for Red Hill Data Centre",
+        "Verify Red Hill's service agreement terms, contract value, and any SLAs to understand account priority",
+        "Schedule an initial kickoff call with Ali, Paul, and internal Galaxy team to establish communication protocols and expectations"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Dave,\r\n\r\nPower commitment starting at 1 kW rather than 2 kW has been rejected I\u2019m afraid, we are already 1kW below our target density for this DC.\r\nScaling up to 6kW is possible if you have 32A power feeds from day 1.\r\nRack will be on our low density f",
+      "received": "2026-03-30T09:21:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Dave replied 3x (+4)",
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "KW: kw, rack, power",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty is rejecting Galaxy's proposal to start with 1 kW power allocation, citing their existing density constraints. She's signaling that Digital Realty can accommodate Galaxy's expansion only if Galaxy commits to 6 kW capacity with 32A power feeds available from day one, indicating this is a take-it-or-leave-it position on their low-density floor.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should immediately assess Galaxy's technical capability to provision 32A power feeds from day one and evaluate the cost/feasibility of this commitment",
+        "Clarify with Digital Realty whether the 6 kW minimum is a hard requirement or if there's flexibility on timeline or intermediate capacity steps",
+        "Determine strategic importance of this Digital Realty deployment against Galaxy's preferred phased approach and explore alternative co-location options if the commitment is misaligned with Galaxy's business model"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "james.locke@castleforge.com",
+      "sender_name": "James Locke",
+      "subject": "RE: Roof CAPEX works ",
+      "body_preview": "Hey,\r\n\r\nCan we jump on a call this afternoon to run through the Monday.com / Invoices to be approved / PO\u2019s needed for LH?\r\n\r\nI can be free to 4pm today?\r\n\r\nJames Locke\r\nO: +44 203 846 1694\r\nM: +44 7595 668 108\r\nE: james.locke@castleforge.com\r\n\r\nFrom: Luk",
+      "received": "2026-03-30T09:15:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKNdcsx7tXRLjEdWrhKbdpk=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: nda",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "James Locke from Castle Forge is requesting an urgent call this afternoon to review pending invoices, purchase orders, and Monday.com project management items related to the LH (likely Lakehouse or similar Galaxy facility project). This appears to be a time-sensitive operational matter involving procurement approvals that may be blocking project progress or vendor payments.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm availability for a call with James before 4pm today and send meeting details",
+        "Have France pull the relevant Monday.com board, pending invoices, and outstanding POs for the LH project to review before the call",
+        "Prepare a list of any blockers or missing approvals on Galaxy's side to resolve during the conversation"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "john.hall@techreconsulting.com",
+      "sender_name": "John Hall",
+      "subject": "Introducer agreement",
+      "body_preview": "Hi Ashley\r\n\r\nThanks for sending over your Introducer Agreement.\r\n\r\nWe have reviewed and proposed a few changes which hopefully will be acceptable to Galaxy.  The changes are focussed on making any introducer commission payment a simple 10% of Year One rev",
+      "received": "2026-03-30T09:11:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI_k1UsmWExPhJUe1OSBSZY=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [John Hall]",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "Tier 2: techreconsulting.com",
+        "Pipeline: john hall",
+        "KW: introducer, commission, introduce",
+        "Broker signal",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "John Hall from Tech Reconciling is responding to Galaxy's Introducer Agreement with proposed modifications. His team wants to simplify the commission structure to a straightforward 10% of Year One revenue, reducing complexity in the original terms. This impacts how Galaxy structures deal-sourcing relationships and revenue sharing with external introducers.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the specific changes John proposed to the Introducer Agreement and compare against Galaxy's original terms",
+        "Determine if the 10% Year One revenue model is competitive and acceptable relative to Galaxy's typical introducer economics",
+        "Schedule a call with John to discuss any counterproposals or clarifications needed before finalizing the agreement"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "ashley@galaxydatacenters.com",
       "sender_name": "Ashley  Roberts",
@@ -36,37 +204,6 @@
       "ai_next_steps": [
         "Clarify with Ashley what specific leasing matter or business item she intended to discuss",
         "If this relates to an active deal, schedule the meeting through her provided calendar link or contact methods"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "support@redhilldatacentre.com",
-      "sender_name": "Support",
-      "subject": "Fw: Welcome to Customer Portal",
-      "body_preview": "Hi guys,\r\n\r\nI have received this email from a customer.\r\n\r\nIs there any reason why the customer can only see the loading bay area for a visitor access request?\r\n\r\nThe account and contacts should all have Loading bay, S140/S140 COLO and Turnstiles.\r\n\r\nThan",
-      "received": "2026-03-30T07:23:03Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Internal \u2014 routine (suppressed)",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Red Hill Data Centre support is flagging a customer portal access issue where a visitor access request is showing limited visibility\u2014only the loading bay area instead of the full facility access (loading bay, S140/S140 COLO, and turnstiles) that should be available to this account. This suggests a permissions or configuration error in the customer portal that could frustrate clients, impact operational efficiency, and reflect poorly on Galaxy's service quality.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or the portal/operations team review this customer's account permissions and confirm why their facility access is restricted to only the loading bay",
-        "Identify if this is a one-off configuration error or a systemic issue affecting multiple customers, and communicate resolution timeline to Red Hill support",
-        "Once resolved, confirm with the customer that full facility access is now visible and working correctly"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -2060,40 +2197,6 @@
       "final_label": "IMPORTANT"
     },
     {
-      "sender_email": "fional@digitalrealty.com",
-      "sender_name": "Fiona Leon",
-      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Dave,\r\n\r\nI have put in a request for discounts to the NRC and a reduction to 1kW for the power requirement / MRC\u2026awaiting management approval.\r\n\r\nIn the meantime, if your entity of address needs changing\u2026please do let me know.\r\n\r\nKind regards\r\n\r\n\r\nFion",
-      "received": "2026-03-25T12:27:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Fiona Leon]",
-      "rules_reasons": [
-        "Dave replied 3x (+4)",
-        "Tier 1: digitalrealty.com",
-        "Pipeline: fiona leon",
-        "KW: kw, lease, power",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty Trust is working on cost reductions for the Galaxy/DRT partnership, having submitted a request to their NRC (Network Resource Center) for discounts and a reduction in power requirements from the current level to 1kW MRC. She's awaiting internal management approval and is also checking on any address or entity changes needed for Galaxy's records.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Galaxy's current entity name and address with Fiona to ensure accurate contract documentation",
-        "Follow up with Fiona in 5-7 business days on the status of the NRC discount and power requirement reduction requests",
-        "Prepare internally for potential cost savings and updated MRC terms once DRT management approval is received"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "kieran.rushe@rapleys.com",
       "sender_name": "Kieran Rushe",
       "subject": "1055872 / Rapleys\u00a0LLP / NDA",
@@ -2123,40 +2226,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "luke.gray@redhilldatacentre.com",
-      "sender_name": "Luke Gray",
-      "subject": "Re: Roof CAPEX works ",
-      "body_preview": "Just as an update on this, as of yesterday South Anston let me know that they will only hold this quote for 3  more weeks, then the price will go up.\r\n\r\n\r\nLuke Gray\r\n\r\nData Centre Manager\r\n\r\nRedhill Data Centre\r\nData Centre Services Ltd\r\nUnit 3, St Anne's",
-      "received": "2026-03-25T08:44:17Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKNdcsx7tXRLjEdWrhKbdpk=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Redhill ops",
-        "KW: data cent",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Luke Gray, Data Centre Manager at Redhill Data Centre, is notifying us that a roof CAPEX quote from South Anston has a deadline\u2014the supplier will only honor current pricing for 3 more weeks before increasing it. This is a time-sensitive capex decision that requires immediate approval to avoid cost overruns on facility maintenance.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave/France should review the South Anston roof quote immediately and determine if Galaxy can approve within the 3-week window",
-        "Confirm budget availability and obtain any required internal approvals to move forward with the work",
-        "Respond to Luke with a decision timeline so he can manage the supplier deadline and lock in pricing if approved"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "rj@galaxydatacenters.com",
@@ -3641,56 +3710,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "robdonell@eversheds-sutherland.com",
-      "sender_name": "Donell, Rob",
-      "subject": "RE: DORA",
-      "body_preview": "Hi Paul\r\n\r\nMany thanks for this. Just confirming that we will come back to you with a fee estimate presently.\r\n\r\nKind regards\r\n\r\nRob\r\n\r\n\r\nRob Donell | Partner | Real Estate | Eversheds Sutherland\r\n\r\nT",
-      "received": "2026-03-23T10:01:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHwNyC6_IlFAgzhHgol0JT8=",
-      "rules_score": 5,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 6,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Eversheds Sutherland partner (Real Estate) confirming fee estimate for DORA-related legal work, likely regulatory compliance or contract review for a data center asset.",
-      "ai_action": "File for reference; await fee estimate from Rob Donell. Confirm with Paul if DORA is part of active deal workflow.",
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "mail@kadiumpublishing.com",
-      "sender_name": "Networking+",
-      "subject": "TD SYNNEX unveils Cloud Insights: a data-driven tool for Microsoft CSP partners in the UK",
-      "body_preview": "If you are having trouble viewing this email please click here\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nTD SYNNEX unveils Cloud Insights: a data-driven tool for Microsoft CSP partners in the UK\r\n\r\nTD SYNNEX has launched Cloud ",
-      "received": "2026-03-23T09:48:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWh%2F2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANOLP08BT5lKkrLs5RTOKho=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: lease, lp"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
   "total_tracked": 114
