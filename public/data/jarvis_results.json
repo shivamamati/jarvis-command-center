@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T11:56:27.378300+00:00",
+  "timestamp": "2026-03-30T13:17:41.028407+00:00",
   "total": 12,
   "new": 12,
-  "noise": 8,
-  "ai": 6,
+  "noise": 9,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
@@ -13,17 +13,18 @@
       "sender_name": "Rodrigo M",
       "subject": "Re: Hyperview Server installation instructions",
       "body_preview": "Hi @Ash Gupta,\r\n\r\nFollowing up on the weekend work, please find the server setup handover document. Please note I will share a btiwarden note with you alongside with the details.\r\n\r\nShould you have any questions, do not hesitate in contact me.\r\n\r\nBest Reg",
-      "received": "2026-03-30T11:55:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENH%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "received": "2026-03-30T12:04:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENICAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
-      "has_attachments": false,
+      "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGN3YvdbIghPnuGbo0qXH3Y=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied 6x (+2)",
+        "Attachments + deal KW (+2)",
         "Internal \u2014 deal/customer related",
         "KW: lease",
         "3 VIPs on thread (+2)"
@@ -31,15 +32,15 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rodrigo from Galaxy Data Centers is providing Ash Gupta with documentation for Hyperview Server setup following weekend maintenance work, and will be sharing additional credential/configuration details via Bitwarden. This is an internal operational handoff to ensure proper server deployment and knowledge transfer.",
+      "ai_summary": "Rodrigo from Galaxy Data Centers is providing Ash Gupta with documentation for the Hyperview server setup following weekend maintenance work. He's offering to share additional details via a secure note and is available for clarification questions. This appears to be a routine internal IT handover, but the timing and security-conscious approach (using bitwarden) suggests this involves sensitive infrastructure configuration.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm receipt of the server setup handover document and Bitwarden note with Rodrigo",
-        "Review documentation and begin Hyperview Server installation per the provided instructions",
-        "Contact Rodrigo with any technical questions or blockers during the setup process"
+        "Confirm Ash has received both the setup handover document and the bitwarden note with all necessary credentials/details",
+        "Verify server installation is proceeding on schedule and escalate any blockers immediately to France or Rodrigo",
+        "Once setup is complete, schedule a brief validation checkpoint to ensure the Hyperview server is operational and meets performance requirements"
       ],
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -49,31 +50,32 @@
       "body_preview": "Hi @Sai Raman and @Dave Misra,\r\n\r\nPlease note, Piyush vendor access expires tomorrow according to the extension requested.\r\n\r\nCould you please confirm if you would like to extend once more and for how long, if not I will carry revoking his access from t",
       "received": "2026-03-30T11:40:18Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENH8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFiuzK2TjrhOtVALRoKjVsA=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
-        "Dave replied (+2)",
+        "Dave replied 2x (+2)",
         "Internal \u2014 deal/customer related",
         "KW: lease",
         "Urgency: expires tomorrow (+1)",
-        "3 VIPs on thread (+2)"
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Galaxy IT is notifying you that vendor Piyush from Think Learn Private Limited has access expiration tomorrow and needs immediate confirmation on whether to extend or revoke his system access. This is a routine vendor access management decision that requires urgent response to avoid service disruption or security gaps.",
+      "ai_summary": "Galaxy IT is notifying you that vendor access for Piyush from Think Learn Private Limited expires tomorrow and requires immediate decision on whether to extend. This is a critical access control issue that impacts vendor management and security compliance, requiring confirmation within the next 24 hours to avoid service disruption or unintended access revocation.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with France or the relevant business owner whether Think Learn's services are still actively needed and for how long",
-        "Reply to Galaxy IT within 24 hours with extension duration or explicit approval to revoke access",
-        "Review vendor contract terms and billing alignment to ensure access duration matches commercial agreements"
+        "Confirm with France whether Think Learn Private Limited (Piyush) should retain access and for what duration",
+        "If extension is needed, communicate the approved timeframe to Galaxy IT immediately to prevent access revocation",
+        "If access should be revoked, confirm with IT to proceed with the termination as scheduled"
       ],
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -3575,125 +3577,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "rod@ramsgrove.com",
-      "sender_name": "Rodrigo Matos",
-      "subject": "SOC2 and Salesforce engagement and remediation list",
-      "body_preview": "Please find attached two documents following our conversation on Friday. Adding @Dave Misra for visibility.",
-      "received": "2026-03-23T13:07:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAF4jLu4RvOBOonwesiSuOSg=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "HIGH importance (+2)",
-        "Attachments + deal KW (+2)",
-        "KW: lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Rodrigo Matos from Ramsgrove is sending follow-up documents (SOC2 and Salesforce engagement/remediation) that were discussed in a Friday conversation with Dave. This appears to be a legitimate business continuity or compliance matter tied to an existing engagement.",
-      "ai_action": "Dave should review the attached documents and determine if this relates to Galaxy's operational infrastructure, security compliance, or a specific portfolio company requirement.",
-      "ai_next_steps": [
-        "Review both attached documents for scope and urgency",
-        "Clarify with Rodrigo what Friday conversation this references (Galaxy operations, Redhill, or a portfolio company)",
-        "Determine if SOC2/Salesforce remediation impacts Galaxy's systems or a tenant/partner obligation"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "FW: Monday Marketing Meeting",
-      "body_preview": "From: sai@galaxydatacenters.com\r\nWhen: 12:00\u202fPM - 12:30\u202fPM March 23, 2026\r\nSubject: Monday Marketing Meeting\r\nLocation: Microsoft Teams Meeting\r\n\r\n\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams ",
-      "received": "2026-03-23T12:43:17Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4GgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJqo6lQ1-9VFi_hN4NUVaHY=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman is scheduling an internal marketing meeting for Monday, March 23rd at noon via Microsoft Teams. This appears to be a routine internal alignment discussion, likely covering marketing strategy, campaigns, or upcoming initiatives for Galaxy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm your availability for the 12:00 PM - 12:30 PM Teams meeting on March 23rd and alert France if needed",
-        "Request a meeting agenda from Sai to prepare key discussion points or decisions required",
-        "Block your calendar and ensure any critical marketing stakeholders are also invited if this affects broader company initiatives"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "matthew.welch@datacenternation.com",
-      "sender_name": "Matthew Welch",
-      "subject": "RE: Guest Speaker Invite | DCN Toronto 2026",
-      "body_preview": "Hi France,\r\n\r\nI hope you are well. I\u2019ve been on vacation and now onsite at an event, so thanks for your patience here.\r\n\r\nHappy to look to speak later this week when I return to the office on Thurs 26th or Fri 27th. We can also chat next week if that work",
-      "received": "2026-03-23T12:21:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMx_NUWezUyAnCnZBgcuvNw=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: datacenternation.com"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_next_steps": [],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "info@uptimeinstitute.com",
-      "sender_name": "Uptime Institute",
-      "subject": "Last Call | Beyond the Talent Gap: Strategies to Build and Retain Your Future Data Center Team",
-      "body_preview": "Register for our upcoming webinar\r\n\r\n\r\nMarch 25th, 2026 | 8:00 a.m. PDT | 11:00 a.m. EDT | 3:00 p.m. GMT\r\n\r\nPresented by:\r\nMatt Hawkins, Director, Uptime Education\r\nRose Weinschenk, Research Associate",
-      "received": "2026-03-23T12:01:39Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiACAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAZjtDgAtg9EpiPX8za3lYQ=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: data cent"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 113
+  "total_tracked": 109
 }
