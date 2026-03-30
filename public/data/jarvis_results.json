@@ -1,45 +1,116 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T16:52:49.279618+00:00",
-  "total": 21,
-  "new": 21,
-  "noise": 16,
-  "ai": 18,
+  "timestamp": "2026-03-30T17:52:37.263140+00:00",
+  "total": 24,
+  "new": 24,
+  "noise": 11,
+  "ai": 20,
   "skipped": 0,
-  "auto_learned": 62,
+  "auto_learned": 60,
   "items": [
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
-      "subject": "FW: Channel Partners Cost",
-      "body_preview": "From: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Monday, March 30, 2026 at 12:47\u202fPM\r\nTo: Galaxy Marketing <marketing@galaxydatacenters.com>, Animesh Raha <animesh@galaxydatacenters.com>\r\nSubject: FW: Channel Partners Cost\r\n\r\n\r\n\r\nFrom: Ashley Rober",
-      "received": "2026-03-30T16:50:53Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "subject": "Fw: Catchup Dave and Chris Galaxy <> CDW ",
+      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: T",
+      "received": "2026-03-30T17:32:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYy4XaiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHFJYQdtNyJKrIYK5wfgOJg=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADc8C7m0rH9OsimkoRRIDIQ=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Re customer: cdw",
         "Internal \u2014 deal/customer related",
-        "KW: nda",
+        "4 VIPs on thread (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ashley Rober is inquiring about channel partner pricing or cost structures for Galaxy Data Centers. This communication appears to be requesting clarification on how Galaxy compensates or prices services through its channel partner network. Understanding partner economics is critical for Galaxy's go-to-market strategy and can directly impact margin, partner satisfaction, and competitive positioning in the market.",
+      "ai_summary": "This appears to be a forwarded meeting request or catchup communication between Galaxy's leadership (Dave and Chris) and CDW, a major IT infrastructure provider. The email seems to be setting up a discussion to align on partnership opportunities or ongoing business matters. This matters because CDW is a significant player in IT procurement and distribution\u2014strengthening this relationship could impact Galaxy's vendor relationships, procurement terms, or potential collaborative opportunities in data center services.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave or France should clarify what specific cost information Ashley is seeking (partner margins, discount tiers, deal registration requirements, etc.) before responding",
-        "Review Galaxy's current channel partner pricing model and policies to ensure alignment with business strategy and competitiveness",
-        "Determine if this inquiry indicates a need to document or update channel partner cost structures and communicate them clearly to partners"
+        "Confirm availability and scheduling details with Chris for the CDW catchup meeting",
+        "Prepare a brief agenda covering key partnership priorities or business updates Galaxy wants to discuss with CDW",
+        "Review current CDW relationship status and any pending procurement or service discussions before the meeting"
       ],
       "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Reasons",
+      "body_preview": "Why aren\u2019t you copying Ash in this?\r\n\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, March 30, 2026 1:29:17 PM\r\nTo: Paul Leong <paul@galaxydatacenters.com>\r\nSubject: Fw: Reasons\r\n\r\nRegardless of him leaving",
+      "received": "2026-03-30T17:31:19Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENIjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHnTYjjFXktBjaoowg40byM=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 10x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is questioning why Ash was not included on a recent communication thread, suggesting this may be a process or protocol issue. Dave's forward mentions Ash's departure as context, indicating there may be transition-related communication gaps. This matters to Galaxy as it could indicate unclear handoff procedures or decision-making authority during personnel transitions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Paul and Dave whether Ash should remain on communications during his departure period and document the transition protocol",
+        "Review the original message to understand what information or decision Ash should have been looped into",
+        "Establish explicit guidelines for internal communication chains during employee departures to prevent future oversights"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Channel Partners Cost",
+      "body_preview": "Ash can you give us a list of appointments that you are looking to meet at this event ? Have you already booked some meetings ?\r\n\r\nFrom: Ashley Roberts <ashley@galaxydatacenters.com>\r\nDate: Monday, March 30, 2026 at 6:57\u202fAM\r\nTo: Paul Leong <paul@galaxydat",
+      "received": "2026-03-30T16:53:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHFJYQdtNyJKrIYK5wfgOJg=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Thread: 4 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts is seeking guidance on meeting logistics for an upcoming event, asking Dave to provide a list of target appointments and confirm which meetings have already been scheduled. This appears to be related to channel partner engagement or business development activities that require coordination and planning to maximize the event's return on investment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Ashley provide the complete list of target attendees/companies she wants to meet at the event and current meeting status",
+        "Align with Ashley on strategic priorities for the event to ensure meetings focus on highest-value channel partner opportunities",
+        "Confirm budget allocation and ROI expectations for this event engagement"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
     },
     {
       "sender_email": "mitch@baxtel.com",
@@ -63,12 +134,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Mitch Lenzi from Baxtel is inquiring about available 2026 capacity at the 55H facility that could potentially be allocated for use this year. He's asking if Dave can either provide information about current inventory or facilitate an introduction to the right contact at 55H who can discuss availability.",
+      "ai_summary": "Mitch Lenzi from Baxtel is inquiring about available 2026 capacity at the 55H facility that could potentially be allocated for use this year. He's asking Dave to either confirm availability or facilitate an introduction to the right contact who can discuss current inventory and allocation options.",
       "ai_action": null,
       "ai_next_steps": [
         "Confirm current 2026 capacity availability at 55H facility and any flexibility for near-term allocation",
-        "Provide Mitch with direct contact at 55H or facilitate introduction if Dave cannot answer inventory status directly",
-        "Follow up with Mitch on timeline and quantity requirements to assess feasibility"
+        "Connect Mitch with the appropriate Galaxy operations contact at 55H to discuss inventory and potential solutions",
+        "Follow up internally to understand any commercial implications or constraints around early 2026 capacity commitments"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -1162,39 +1233,6 @@
       "final_label": "NOTABLE"
     },
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fwd: Reasons",
-      "body_preview": "U are not doing your job well, u just suck at communication\r\n\r\n\r\n---------- Forwarded message ----------\r\nFrom: Rhys Jones <rj@kiwimcf.com>\r\nDate: Friday, March 27, 2026 at 12:18\u202fPM EDT\r\nSubject: Reasons\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>",
-      "received": "2026-03-27T16:21:29Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHnTYjjFXktBjaoowg40byM=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Kiwi MCF is expressing serious dissatisfaction with communication from Galaxy, indicating a breakdown in the client or partner relationship. This suggests operational or service delivery issues are not being adequately explained or addressed, which could jeopardize the business relationship and Galaxy's reputation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should contact Rhys Jones directly to understand the specific communication failures and what expectations were unmet",
-        "Conduct an internal review of all Galaxy interactions with Kiwi MCF to identify process gaps and service issues",
-        "Develop a remediation plan with clear communication cadence and accountability to rebuild trust and demonstrate commitment"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
       "subject": "Dan <> Dave Catch Up",
@@ -1894,41 +1932,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Catchup Dave and Chris Galaxy <> CDW ",
-      "body_preview": "Hi Chris,\r\n\r\nIt was great catching up last week \u2014 always good to connect.\r\n\r\nAs promised, I\u2019ve attached the updated Redhill presentation, along with the original December deck that you reviewed late last year for reference. The update covers everything de",
-      "received": "2026-03-26T08:10:19Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADc8C7m0rH9OsimkoRRIDIQ=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "5 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris from CDW is following up on a recent conversation with Dave, confirming receipt of updated materials related to a Redhill presentation that was previously shared in December. Dave is delivering on a commitment made during their meeting to provide refreshed documentation for CDW's review.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Chris that both the updated Redhill presentation and December reference deck were received and are accessible",
-        "Schedule a follow-up meeting with Chris and France to discuss CDW's feedback on the updated materials and next steps in the evaluation process",
-        "Clarify the scope and business opportunity tied to the Redhill initiative to ensure alignment on Galaxy's value proposition"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -3462,35 +3465,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "docusign@mail.docusign.com",
-      "sender_name": "Docusign",
-      "subject": "Your document is almost done",
-      "body_preview": "Pick up right where you left off and finish it today.\r\n\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
-      "received": "2026-03-23T17:24:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAthmbQzzHtAhZj_vr9TWNk=",
-      "rules_score": 3,
-      "rules_label": "NOTABLE",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "DocuSign notification that Dave has a document awaiting signature. Given Galaxy's active deal flow (Redhill JV, Poland 260MW, Innogate Milan, 18MW AI prospect), this is likely a time-sensitive contract, LOI, or closing document that needs immediate completion.",
-      "ai_action": "Dave should check DocuSign account immediately to identify which deal this relates to and complete signature if ready.",
-      "ai_next_steps": [
-        "Open DocuSign link to identify the document (likely NDA, LOI, or deal document)",
-        "Confirm with legal counsel (Simmons & Simmons) if any review needed before signing",
-        "Complete signature same day to maintain deal momentum"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 105
+  "total_tracked": 104
 }
