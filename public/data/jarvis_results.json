@@ -1,18 +1,116 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T19:54:16.138763+00:00",
+  "timestamp": "2026-03-30T20:41:13.054400+00:00",
   "total": 15,
   "new": 15,
-  "noise": 11,
-  "ai": 10,
+  "noise": 10,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
     {
+      "sender_email": "a.zillig@2020-4.com",
+      "sender_name": "Adam Zillig",
+      "subject": "Head of Asset Management & Development Manager, Retail Development Firm, San Diego, CA",
+      "body_preview": "We\u2019ve been retained by a well-capitalized, privately owned real estate development firm with a core focus on retail to recruit both a Head of Asset Management & Leasing and a Development Manager. With a track record spanning more than three decades, the f",
+      "received": "2026-03-30T20:29:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENIzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAABiIb8n5rlArUiTernkubs=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: rack, capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Adam Zillig from a recruiting firm is reaching out about two open positions (Head of Asset Management & Leasing and Development Manager) at an established, well-capitalized private retail real estate development firm in San Diego. This appears to be a recruitment inquiry, likely seeking Galaxy's involvement or referrals for these roles. The relevance to Galaxy depends on whether there's a potential partnership opportunity, talent pool overlap, or strategic business connection with this retail development firm.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or a team member schedule a call with Adam to clarify whether he's seeking Galaxy talent, partnership opportunities, or simply making a networking outreach",
+        "Determine if Galaxy has a strategic interest in the San Diego retail market or if any Galaxy portfolio companies could benefit from these hires",
+        "Request more details about the development firm's capitalization, portfolio, and any data center or infrastructure-adjacent projects that might align with Galaxy's core business"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "FW: Friday Marketing Meeting",
+      "body_preview": "From: sai@galaxydatacenters.com\r\nWhen: 12:30\u202fPM - 1:00\u202fPM April 3, 2026\r\nSubject: Friday Marketing Meeting\r\nLocation: Microsoft Teams Meeting\r\n\r\n\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams me",
+      "received": "2026-03-30T20:14:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGFWgKkfSqpMq1eAdlw_014=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 17x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is confirming a marketing team meeting scheduled for Friday, April 3rd at 12:30 PM via Microsoft Teams. This appears to be an internal Galaxy Data Centers marketing sync that requires Dave or his team's attendance and participation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance on the Teams meeting invite and block calendar time",
+        "Request meeting agenda from Sai to prepare any necessary talking points or updates",
+        "Delegate to France if Dave cannot attend and brief her on any critical marketing topics to cover"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Fw: Redhill Development",
+      "body_preview": "________________________________\r\nFrom: Louis Mueller <louis.mueller@castleforge.com>\r\nSent: Thursday, March 5, 2026 2:51 AM\r\nTo: Paul Leong <paul@galaxycapitalpartners.com>; Mike Adcock <mike.adcock@castleforge.com>; Ash Gupta <ash@galaxycapitalpartner",
+      "received": "2026-03-30T20:05:39Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENIyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAExIp9gI6U_CjznfYPwliPc=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Louis Mueller from CastleForge is forwarding information regarding the Redhill Development project to Paul Leong and other stakeholders. The email appears to be initiating or advancing discussion on a development opportunity that involves Galaxy Capital Partners. This matters because it signals an active investment or partnership opportunity that requires Galaxy's attention and decision-making.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should review the full Redhill Development proposal with Paul Leong to understand CastleForge's specific ask and Galaxy's investment role/exposure",
+        "Coordinate with Ash Gupta and Mike Adcock to clarify responsibilities and timeline for Galaxy's involvement",
+        "Schedule a call with Louis Mueller to confirm terms, capital requirements, and expected returns before commitment"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "FW: Redhill Updated Deck",
-      "body_preview": "@Rhys Jones @Mahendra C without paying for the 158K\r\n\r\nFrom: Tom Babbington <tom.babbington@adaptive-mdc.com>\r\nDate: Monday, March 23, 2026 at 5:24\u202fPM\r\nTo: Ash Gupta <ash@galaxydatacenters.com>, Dave Misra <dave@galaxydatacenters.com>\r\nCc: Steven Parker <",
+      "body_preview": ". TRACK RECORD OF OTHER MODULAR BUILD COMPANIES\r\nBounding cap on the 12mm, bounding of the lead time,\r\nInstallation and delivery timeframes.\r\n\r\nHi All,\r\n\r\nAs per yesterday\u2019s call, please see responsibilities as follows:\r\n\r\n@Thomas Cooper Please recircul",
       "received": "2026-03-30T19:50:34Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYy4XamAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
@@ -26,19 +124,19 @@
         "Attachments + deal KW (+2)",
         "Re customer: redhill",
         "Internal \u2014 deal/customer related",
-        "KW: nda",
+        "KW: rack, lease",
         "3 VIPs on thread (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Tom Babbington from Adaptive MDC has sent an updated Redhill deck and Dave is flagging a cost concern of 158K to Rhys Jones and Mahendra C. The incomplete forward suggests Galaxy may be evaluating a partnership or investment with Adaptive MDC but wants to avoid or negotiate down a specific 158K expense line item.",
+      "ai_summary": "This appears to be an incomplete internal forward regarding a Redhill deck update that Dave is distributing to the team following a call. The message references tracking modular build company performance metrics, capacity constraints, and delivery timelines, but the actual context and sender information are cut off, making it unclear what specific action or decision is required from Dave at this time.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Tom Babbington what the 158K line item represents and whether it's negotiable or essential to the deal",
-        "Have Rhys Jones and Mahendra C review the updated deck and provide cost breakdown analysis before committing to the expense",
-        "Determine if this 158K can be eliminated, deferred, or reallocated within Galaxy's budget for this initiative"
+        "Request the complete email chain and full Redhill deck to understand the full context and requirements",
+        "Clarify with Dave what specific action items or approvals are needed from him on the modular build company analysis",
+        "Follow up with Thomas Cooper to ensure the circulation request is completed and all team members have necessary materials"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -3442,43 +3540,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: S140 UPS A03",
-      "body_preview": "Great work Freddy! You re the man!\r\n\r\n________________________________\r\nFrom: Fredy Marie-Emilienne <fredy.marie-emilienne@redhilldatacentre.com>\r\nSent: Monday, March 23, 2026 3:59:48 PM\r\nTo: Luke Gray <luke.gray@redhilldatacentre.com>; Ash Gupta <ash@gal",
-      "received": "2026-03-23T20:01:04Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiA6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANktjQ6toE1PonNJG-ddk0c=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "11 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre has completed work on the S140 UPS A03 component, and Dave is confirming successful delivery and expressing satisfaction with the execution. This appears to be a critical infrastructure maintenance or upgrade task for one of Galaxy's data center operations. The positive resolution matters because UPS systems are essential to data center uptime and reliability, directly impacting service delivery to Galaxy's clients.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Luke Gray and Ash Gupta that S140 UPS A03 is fully operational and meets Galaxy's performance specifications",
-        "Schedule a post-completion review to document lessons learned and establish baseline metrics for future UPS maintenance cycles",
-        "Update Galaxy's capital expenditure tracking and maintenance logs to reflect completion and any warranty/support terms with Redhill Data Centre"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 104
+  "total_tracked": 106
 }
