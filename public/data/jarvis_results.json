@@ -1,13 +1,77 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T07:22:05.027693+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 1,
-  "ai": 3,
+  "timestamp": "2026-03-30T09:07:43.060235+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 2,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "Leasing Slide",
+      "body_preview": "Ash Roberts\r\n\r\nVice President, Commercial\r\n\r\nE: ashley@galaxydatacenters.com\r\nP: +44 (0) 7957 769185\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp",
+      "received": "2026-03-30T08:32:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACjeQkTjU79Dsoy4uGFU4ro=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 9x (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts, Vice President of Commercial at Galaxy Data Centers, has sent a contact card with her professional details and meeting scheduling options. This appears to be a routine communication or directory update rather than a substantive business request. No immediate action is required unless this is part of an ongoing commercial negotiation or relationship management process.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Ashley what specific leasing matter or business item she intended to discuss",
+        "If this relates to an active deal, schedule the meeting through her provided calendar link or contact methods"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "support@redhilldatacentre.com",
+      "sender_name": "Support",
+      "subject": "Fw: Welcome to Customer Portal",
+      "body_preview": "Hi guys,\r\n\r\nI have received this email from a customer.\r\n\r\nIs there any reason why the customer can only see the loading bay area for a visitor access request?\r\n\r\nThe account and contacts should all have Loading bay, S140/S140 COLO and Turnstiles.\r\n\r\nThan",
+      "received": "2026-03-30T07:23:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Red Hill Data Centre support is flagging a customer portal access issue where a visitor access request is showing limited visibility\u2014only the loading bay area instead of the full facility access (loading bay, S140/S140 COLO, and turnstiles) that should be available to this account. This suggests a permissions or configuration error in the customer portal that could frustrate clients, impact operational efficiency, and reflect poorly on Galaxy's service quality.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or the portal/operations team review this customer's account permissions and confirm why their facility access is restricted to only the loading bay",
+        "Identify if this is a one-off configuration error or a systemic issue affecting multiple customers, and communicate resolution timeline to Red Hill support",
+        "Once resolved, confirm with the customer that full facility access is now visible and working correctly"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -33,12 +97,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is reaching out to Rob regarding a lease renewal opportunity with Travelers, one of Galaxy's key tenants at the Redhill location. He's seeking quote/rate information for an early renewal and extension deal, separate from ongoing DORA amendment work with SMBC. This represents potential revenue from existing tenant relationship optimization and facility contract extension.",
+      "ai_summary": "Paul Leong is reaching out regarding a lease renewal opportunity with Travelers, one of Galaxy Data Centers' existing tenants, in addition to ongoing DORA amendment work with SMBC. He's requesting rate information and guidance on structuring a renewal and extension deal, indicating this is part of an early renewal strategy.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Dave or France clarify with Paul the specific scope, timeline, and financial terms Galaxy is considering for the Travelers lease renewal",
-        "Request complete details on the proposed extension period and any facility upgrade or service changes that would affect pricing",
-        "Schedule a call to align on internal Galaxy positioning and authority levels before providing formal quotes to the tenant"
+        "Dave or France should clarify with Paul the specific lease terms being considered (duration, space, pricing parameters) and timeline for Travelers' decision",
+        "Prepare a competitive rate proposal and renewal terms that align with Galaxy's portfolio strategy and current market positioning",
+        "Schedule a call with Paul to discuss the commercial structure and confirm whether this renewal requires legal/transactional support or just pricing guidance"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -66,12 +130,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Animesh Raha from Galaxy Data Centers is providing the final version of the Enterprise Deck for the BFSI (Banking, Financial Services, Insurance) colocation sales pitch, which he had previously shared via Teams. This deck is a key sales collateral for Galaxy's efforts to land enterprise-level financial services clients in the colocation market.",
+      "ai_summary": "Animesh Raha, a Galaxy Data Centers team member, is providing the finalized Enterprise Deck for the BFSI (Banking, Financial Services, and Insurance) colocation sales pitch that was previously discussed. This deck is critical for moving forward with a targeted enterprise sales initiative in a high-value vertical market segment.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the attached Enterprise Deck and provide feedback to Animesh on messaging, positioning, and competitive differentiation for BFSI prospects",
-        "Confirm the deck is ready for deployment and identify which Galaxy sales team members will use it in upcoming BFSI prospect conversations",
-        "Schedule a brief sync with Animesh to discuss timeline and target accounts for the BFSI colocation sales initiative"
+        "Review the attached Enterprise Deck and provide feedback to Animesh on messaging, positioning, and any necessary revisions before client engagement",
+        "Confirm the intended target accounts or prospects for the BFSI pitch and align on next meeting/presentation timeline",
+        "Ensure France and relevant sales team members have access to and are briefed on the final deck content"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -99,12 +163,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Animesh Raha from Galaxy Data Centers is providing feedback on LinkedIn carousel slide content, indicating misalignment issues with the current 5-slide deck. He's offering support and has prepared an alternative LinkedIn article with accompanying diagram that should replace or inform the current carousel approach.",
+      "ai_summary": "Animesh Raha from Galaxy Data Centers is providing feedback on LinkedIn carousel content and offering design support. He's identified misalignments in the existing carousel slides and is providing an article with accompanying diagram as corrected materials for the team to use.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have the design team contact Animesh directly to understand specific alignment issues with the current 5-slide carousel",
-        "Review the LinkedIn article and diagram Animesh provided to assess if they better meet content objectives",
-        "Schedule a call with Animesh and the design/marketing team to align on the final LinkedIn content approach before publication"
+        "Have the design team review Animesh's provided article and diagram against the original carousel content to identify specific alignment issues",
+        "Schedule a call with Animesh to clarify design requirements and ensure the team's revised approach meets expectations",
+        "Confirm with Rahul/marketing which LinkedIn assets are production-ready and schedule posting"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -3629,5 +3693,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 112
+  "total_tracked": 114
 }
