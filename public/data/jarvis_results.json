@@ -1,13 +1,79 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-30T15:00:47.095922+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 10,
-  "ai": 7,
+  "timestamp": "2026-03-30T16:52:49.279618+00:00",
+  "total": 21,
+  "new": 21,
+  "noise": 16,
+  "ai": 18,
   "skipped": 0,
-  "auto_learned": 60,
+  "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "FW: Channel Partners Cost",
+      "body_preview": "From: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Monday, March 30, 2026 at 12:47\u202fPM\r\nTo: Galaxy Marketing <marketing@galaxydatacenters.com>, Animesh Raha <animesh@galaxydatacenters.com>\r\nSubject: FW: Channel Partners Cost\r\n\r\n\r\n\r\nFrom: Ashley Rober",
+      "received": "2026-03-30T16:50:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHFJYQdtNyJKrIYK5wfgOJg=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Rober is inquiring about channel partner pricing or cost structures for Galaxy Data Centers. This communication appears to be requesting clarification on how Galaxy compensates or prices services through its channel partner network. Understanding partner economics is critical for Galaxy's go-to-market strategy and can directly impact margin, partner satisfaction, and competitive positioning in the market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should clarify what specific cost information Ashley is seeking (partner margins, discount tiers, deal registration requirements, etc.) before responding",
+        "Review Galaxy's current channel partner pricing model and policies to ensure alignment with business strategy and competitiveness",
+        "Determine if this inquiry indicates a need to document or update channel partner cost structures and communicate them clearly to partners"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "mitch@baxtel.com",
+      "sender_name": "Mitch Lenzi",
+      "subject": "Fwd: Baxtel-Galaxy Addendum",
+      "body_preview": "Dave,\r\n\r\nCurious if the guys at 55H have any of that additional 2026 capacity still available for this year?\r\n\r\nI was hoping you might know or be able to connect me so I can talk to them and find out what their inventory looks like?\r\n\r\n--\r\nSincerely,\r\nMit",
+      "received": "2026-03-30T16:08:31Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENIYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAK4_uTcpHxFhC0ctxrPqSM=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Mitch Lenzi]",
+      "rules_reasons": [
+        "Attachments from known (+1)",
+        "VIP: baxtel.com",
+        "Pipeline: mitch lenzi",
+        "KW: capacity"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mitch Lenzi from Baxtel is inquiring about available 2026 capacity at the 55H facility that could potentially be allocated for use this year. He's asking if Dave can either provide information about current inventory or facilitate an introduction to the right contact at 55H who can discuss availability.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm current 2026 capacity availability at 55H facility and any flexibility for near-term allocation",
+        "Provide Mitch with direct contact at 55H or facilitate introduction if Dave cannot answer inventory status directly",
+        "Follow up with Mitch on timeline and quantity requirements to assess feasibility"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -110,39 +176,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "Channel Partners Cost",
-      "body_preview": "Hi Paul,\r\n\r\nPlease see cost for flights and hotel for Channel Partner. Once approved I\u2019ll book.\r\n\r\n\r\n\r\n\r\n\r\n\r\nAsh Roberts\r\n\r\nVice President, Commercial\r\n\r\nE: ashley@galaxydatacenters.com\r\nP: +44 (0) 7957 769185\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Mee",
-      "received": "2026-03-30T10:57:53Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENH5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHFJYQdtNyJKrIYK5wfgOJg=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 9x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ashley Roberts, VP of Commercial at Galaxy Data Centers, is requesting approval for travel expenses (flights and hotel) related to a channel partner engagement. She's waiting for sign-off before booking these costs, which likely support a business development or partnership initiative.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the cost details Ashley referenced (appears to be in an attachment) and confirm budget approval",
-        "Clarify the purpose and expected ROI of the channel partner visit to ensure it aligns with strategic priorities",
-        "Authorize Ashley to proceed with bookings once costs are approved"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "paul.tester@redhilldatacentre.com",
@@ -3457,82 +3490,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "julian.elvis@truemarketreports.com",
-      "sender_name": "Julian Elvis",
-      "subject": "Re: Private 5G Market \u2013 Strategic & Procurement Insights",
-      "body_preview": "Hello Dave,\r\n\r\nI understand this may not be a current priority.\r\n\r\nIf helpful, I can share relevant market research updates or a brief list of report topics aligned with your interests for future refe",
-      "received": "2026-03-23T16:20:03Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKFhBwgIb3hJicBcWV_xV2M=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: lease"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "ngarcia@csi-ing.com",
-      "sender_name": "Nicol\u00e1s Garcia",
-      "subject": "POWERGEN San Antonio; Shall we connect?",
-      "body_preview": "Hi Dave,\r\n\r\nHope all is well. I wanted to reach out because the Redtree team will be attending POWERGEN in San Antonio from January 20th to 22nd.\r\n\r\nThis is a key event for connecting with industry le",
-      "received": "2026-03-23T16:06:06Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiAdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE9sbjiGqwBHj4UKisEPOD0=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: power"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "news@publications.bisnow.com",
-      "sender_name": "Bisnow First Draft",
-      "subject": "It's Funding Season",
-      "body_preview": "As a thank you for joining Bisnow as a speaker at our local events in 2025, you are receiving a complimentary one-year subscription to First Draft Insider Access.\r\n\r\n\r\n\r\n\r\nEditor\u2019s Note: The First Dra",
-      "received": "2026-03-23T15:36:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAYFA%2BJzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJb3JdOxV2dNvbcHVDiALIc=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: capital, fund"
-      ],
-      "ai_reviewed": false,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": null,
-      "ai_action": null,
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 107
+  "total_tracked": 105
 }
