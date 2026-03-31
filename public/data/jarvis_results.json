@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T22:31:03.601593+00:00",
-  "total": 11,
-  "new": 11,
+  "timestamp": "2026-03-31T23:31:04.173398+00:00",
+  "total": 7,
+  "new": 7,
   "noise": 6,
-  "ai": 6,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ash Gupta from Galaxy Data Centers is reaching out to schedule a synchronous discussion about SOC 2 compliance matters. This appears to be a routine internal catch-up on security and operational controls, which are critical for maintaining customer trust and meeting contractual compliance requirements across Galaxy's data center operations.",
+      "ai_summary": "Ash Gupta from Galaxy Data Centers is scheduling a meeting to discuss SOC 2 compliance status and next steps. This appears to be a catch-up session on security and compliance matters that are critical for Galaxy's operations and customer trust. SOC 2 certification is essential for data center credibility and client retention, particularly for enterprise customers.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm availability and join the Teams meeting at the scheduled time to understand specific SOC 2 gaps or action items",
-        "Ensure relevant compliance or operations leadership is included if this touches on audit findings or remediation priorities",
-        "Follow up with documented action items and ownership assignments post-meeting"
+        "Confirm attendance at the Teams meeting and clarify the current SOC 2 audit status and timeline",
+        "Prepare a summary of any outstanding SOC 2 requirements or remediation items before the meeting",
+        "Identify any resource or budget needs to accelerate SOC 2 compliance if there are delays"
       ],
       "ai_failed": false,
       "final_score": 4,
