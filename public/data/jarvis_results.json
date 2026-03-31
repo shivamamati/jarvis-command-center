@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T17:54:16.509021+00:00",
-  "total": 24,
-  "new": 24,
-  "noise": 14,
-  "ai": 17,
+  "timestamp": "2026-03-31T18:57:42.418471+00:00",
+  "total": 20,
+  "new": 20,
+  "noise": 13,
+  "ai": 16,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Fiona - Below is the correct address for Redhill.  Please send an execution copy and we will get it signed by the appropriate party.\r\n\r\nThanks\r\n\r\nPaul\r\n\r\nRedhill Data Centre Limited\r\n3rd Floor, Gasp\u00e9 House\r\n66-72 Esplanade\r\nSt Helier\r\nJersey, Channel I",
+      "received": "2026-03-31T18:30:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENKgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 13x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, data cent",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is providing the correct legal address for Redhill Data Centre Limited in Jersey for contract execution related to the Galaxy/DRT partnership and Cloud House deployment. He's requesting that an execution copy of the agreement be sent to this address so it can be signed by the appropriate party at Redhill, moving the partnership forward to completion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Prepare and send the execution copy of the Galaxy/DRT partnership agreement to the Redhill Data Centre address in Jersey",
+        "Establish a timeline with Paul for expected signature return and any required conditions precedent to deployment",
+        "Confirm with internal legal/contracts team that all terms are final and the document is ready for counterparty signature"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "shivam@galaxydatacenters.com",
       "sender_name": "Shivam Amati",
@@ -29,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Shivam Amati from Galaxy Data Centers is scheduling a Microsoft Teams meeting involving himself, Krish, Max, and Dave. The email provides meeting details but does not specify the agenda or purpose of the discussion. Dave should clarify the meeting objective to ensure preparedness and relevant stakeholder alignment.",
+      "ai_summary": "Shivam Amati, an internal Galaxy team member, has scheduled a meeting with Krish, Max, and Dave via Microsoft Teams. The meeting details and access information have been provided, but no specific agenda or context is included in this notification. Without knowing the purpose, this appears to be an internal alignment or update meeting that Dave should confirm attendance for.",
       "ai_action": null,
       "ai_next_steps": [
-        "Ask Shivam to provide the meeting agenda and expected outcomes",
-        "Confirm attendance and identify what Krish and Max's roles are in this discussion",
-        "Block the calendar time and prepare any relevant business context or materials needed for the conversation"
+        "Confirm your availability and mark the Teams meeting on your calendar",
+        "Reach out to Shivam or Krish to clarify the meeting agenda and any pre-read materials needed",
+        "Review any relevant projects or items that might be discussed with these team members before the call"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -1042,40 +1077,6 @@
         "Confirm Colin's role and ensure he has appropriate portal access and customer context for Red Hill Data Centre",
         "Verify Red Hill's service agreement terms, contract value, and any SLAs to understand account priority",
         "Schedule an initial kickoff call with Ali, Paul, and internal Galaxy team to establish communication protocols and expectations"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "fional@digitalrealty.com",
-      "sender_name": "Fiona Leon",
-      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Dave,\r\n\r\nPower commitment starting at 1 kW rather than 2 kW has been rejected I\u2019m afraid, we are already 1kW below our target density for this DC.\r\nScaling up to 6kW is possible if you have 32A power feeds from day 1.\r\nRack will be on our low density f",
-      "received": "2026-03-30T09:21:57Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Fiona Leon]",
-      "rules_reasons": [
-        "Dave replied 3x (+4)",
-        "Tier 1: digitalrealty.com",
-        "Pipeline: fiona leon",
-        "KW: kw, rack, power",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty is rejecting Galaxy's proposal to start with 1 kW power allocation, citing their existing density constraints. She's signaling that Digital Realty can accommodate Galaxy's expansion only if Galaxy commits to 6 kW capacity with 32A power feeds available from day one, indicating this is a take-it-or-leave-it position on their low-density floor.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should immediately assess Galaxy's technical capability to provision 32A power feeds from day one and evaluate the cost/feasibility of this commitment",
-        "Clarify with Digital Realty whether the 6 kW minimum is a hard requirement or if there's flexibility on timeline or intermediate capacity steps",
-        "Determine strategic importance of this Digital Realty deployment against Galaxy's preferred phased approach and explore alternative co-location options if the commitment is misaligned with Galaxy's business model"
       ],
       "ai_failed": false,
       "final_score": 9,
