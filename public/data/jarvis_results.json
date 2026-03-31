@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T10:02:47.774832+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 6,
-  "ai": 5,
+  "timestamp": "2026-03-31T11:44:37.250887+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 9,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Nomura Updated IRR models",
+      "body_preview": "Team,\r\n\r\nThese drafts updates include the current deal terms -\r\n\r\nThere are two models for review as before with the Chillers included and Not Included (as they were pre-committed maintenance ). This is the only difference between these two models\r\n\r\nLeas",
+      "received": "2026-03-31T11:41:50Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHmH-Q7fBfNHkuQ7KV-rsZ8=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 11x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: nomura",
+        "Internal \u2014 deal/customer related",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins from Galaxy Data Centers has circulated updated financial models for the Nomura deal showing IRR projections under two scenarios: one including chiller costs and one excluding them (treating chillers as pre-committed maintenance). This clarifies the deal structure and helps establish the baseline economics for board/investor review.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review both IRR models and determine which scenario aligns with Nomura's final commitment on chiller responsibility",
+        "Validate the assumptions and deal terms reflected in these models match current negotiations",
+        "Schedule a brief decision meeting with France and key stakeholders to select the operative model and confirm next steps with Nomura"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "charlie.bruinvels@bcsconsultancy.com",
       "sender_name": "Charlie Bruinvels",
@@ -3333,5 +3368,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 100
+  "total_tracked": 101
 }
