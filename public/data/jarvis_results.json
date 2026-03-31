@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T02:01:47.858018+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 3,
-  "ai": 8,
+  "timestamp": "2026-03-31T05:05:53.585762+00:00",
+  "total": 2,
+  "new": 2,
+  "noise": 1,
+  "ai": 2,
   "skipped": 0,
-  "auto_learned": 58,
+  "auto_learned": 59,
   "items": [
+    {
+      "sender_email": "dse@eumail.docusign.net",
+      "sender_name": "Daniel Scarbrough via Docusign",
+      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
+      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
+      "received": "2026-03-31T03:46:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOdM2Nb2KK9HqPVcVsIqVq4=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "CRITICAL",
+      "ai_summary": "Daniel Scarbrough from Evermere Capital Management is sending Dave an MNDA for execution. This is a formal legal document requiring signature\u2014likely prep work for a potential investment discussion, capital raise, or partnership negotiation with Evermere.",
+      "ai_action": "Forward to Simmons & Simmons (legal counsel) immediately for review and approval before Dave signs. Clarify with Daniel what deal/partnership this MNDA covers.",
+      "ai_next_steps": [
+        "Review MNDA terms via DocuSign link",
+        "Send to Simmons & Simmons for legal review",
+        "Email Daniel asking: context for this MNDA (investment, deal, partnership, capital raise?)\u2014what is Evermere proposing?"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -947,37 +977,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dse@eumail.docusign.net",
-      "sender_name": "Daniel Scarbrough via Docusign",
-      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
-      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
-      "received": "2026-03-29T04:16:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYojn88AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACRu6QDXO1xFt0ulR-f1a2w=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for review and signature. Evermere is likely a potential investor, LP, or capital partner evaluating Galaxy or a specific deal. This requires Dave's immediate attention to review terms and determine relationship status.",
-      "ai_action": "Dave should review the MNDA immediately via DocuSign. Check: (1) Evermere's fund size and focus, (2) whether this relates to Galaxy fundraising or a specific deal, (3) MNDA terms and duration. Confirm with France if this is an expected inbound or new prospect.",
-      "ai_next_steps": [
-        "Review MNDA document in DocuSign and assess terms",
-        "Cross-reference Evermere Capital Management with LP pipeline and recent outreach",
-        "Determine if this relates to Galaxy fundraising round or a specific deal introduction",
-        "Have France follow up with Daniel Scarbrough to clarify context and next steps if needed"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "france@galaxydatacenters.com",
@@ -3335,39 +3334,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Fw: SEO & AEO Retainer Proposal",
-      "body_preview": "SEO/AEO Proposal from piyush\r\n________________________________\r\nFrom: Piyush Ninawe <pninawe46@gmail.com>\r\nSent: Tuesday, March 24, 2026 2:38 AM\r\nTo: Animesh Raha <animesh@galaxydatacenters.com>\r\nSubject: SEO & AEO Retainer Proposal\r\n\r\n\r\nHi Animesh,\r\n\r\nI ",
-      "received": "2026-03-24T04:55:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK_T-SQ0KjVLjTQ7prdGVuc=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: proposal"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Piyush Ninawe is proposing an SEO and AEO (Answer Engine Optimization) retainer service to Galaxy Data Centers. This appears to be a request to engage professional services for improving the company's search visibility and organic traffic across traditional and emerging answer engine platforms. This matters because improved digital visibility could enhance Galaxy's market positioning, drive qualified leads to its data center and capital services offerings, and support the company's growth objectives.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Ask Animesh to provide the full proposal details (pricing, scope, timeline, expected deliverables) so Dave can evaluate ROI and alignment with Galaxy's marketing strategy",
-        "Clarify whether this proposal addresses both Galaxy Capital Partners and Galaxy Data Centers' digital presence, or if separate strategies are needed",
-        "Schedule a brief call with Piyush to understand his experience with B2B technology/infrastructure companies before committing to any retainer"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 101
+  "total_tracked": 100
 }
