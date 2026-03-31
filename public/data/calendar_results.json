@@ -1,52 +1,6 @@
 {
-  "timestamp": "2026-03-30T23:31:27.079001+00:00",
+  "timestamp": "2026-03-31T02:01:23.117481+00:00",
   "events": [
-    {
-      "subject": "Ops Team Weekly",
-      "start": "2026-03-30T13:30:00.0000000",
-      "end": "2026-03-30T14:00:00.0000000",
-      "attendees": [
-        "Ash",
-        "Tj",
-        "Rhys",
-        "Luke",
-        "Fredy",
-        "Benjamin"
-      ],
-      "organizer": "Ash Gupta",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3o3vSVIAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAE7IPQ6gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Monday Marketing Meeting",
-      "start": "2026-03-30T16:00:00.0000000",
-      "end": "2026-03-30T16:30:00.0000000",
-      "attendees": [
-        "Sai",
-        "Animesh",
-        "SA",
-        "vdhunna6@gmail.com"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3o3vSVIAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
-      "start": "2026-03-30T19:00:00.0000000",
-      "end": "2026-03-30T19:30:00.0000000",
-      "attendees": [
-        "Paul",
-        "Ash",
-        "Tj"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3o3vSVIAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Redhill Business Plan Call",
       "start": "2026-03-31T15:00:00.0000000",
@@ -102,6 +56,98 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3o%2BBniWAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Kevin Feng and Dave Misra",
+      "start": "2026-04-02T13:30:00.0000000",
+      "end": "2026-04-02T14:00:00.0000000",
+      "attendees": [
+        "Kevin"
+      ],
+      "organizer": "Dave Misra",
+      "location": "https://calendly.com/events/04e202b4-8032-4e31-a3d0-407d06c2cb89/microsoft_teams",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYebNn%2FAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Faye Pan and Dave Misra",
+      "start": "2026-04-02T14:00:00.0000000",
+      "end": "2026-04-02T14:30:00.0000000",
+      "attendees": [
+        "Faye"
+      ],
+      "organizer": "Dave Misra",
+      "location": "https://calendly.com/events/5f39d844-17ef-452c-9f41-0e1d1f2b38cc/microsoft_teams",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1lAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Redhill check in call ",
+      "start": "2026-04-02T15:00:00.0000000",
+      "end": "2026-04-02T15:25:00.0000000",
+      "attendees": [
+        "Barry",
+        "Ash",
+        "Paul",
+        "Francis",
+        "Suhaib",
+        "Pelle"
+      ],
+      "organizer": "Barry Gross",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pBKyI9AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAD%2F9VNRAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "You're In! Registration confirmation for Mastering the Framework that Triples Cold Call Conversions",
+      "start": "2026-04-02T17:00:00.0000000",
+      "end": "2026-04-02T18:00:00.0000000",
+      "attendees": [
+        "ZoomInfo"
+      ],
+      "organizer": "ZoomInfo Events",
+      "location": "https://www.zoominfo.com/resources/webinars/mastering-the-framework-that-triples-cold-call-conversio",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYQTJUNAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Galaxy - M365 Project weekly update",
+      "start": "2026-04-02T18:00:00.0000000",
+      "end": "2026-04-02T19:00:00.0000000",
+      "attendees": [
+        "Galaxy",
+        "Rodrigo",
+        "Ash",
+        "Savir"
+      ],
+      "organizer": "Galaxy - M365 Infrastructure Modernization",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pBKyI9AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvwwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Dave <> Research Sync",
+      "start": "2026-04-02T20:30:00.0000000",
+      "end": "2026-04-02T21:30:00.0000000",
+      "attendees": [
+        "Galaxy",
+        "Ash",
+        "Marcus"
+      ],
+      "organizer": "Galaxy Research",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pBKyI9AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEntkB0AAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Badminton Game with Peter ",
+      "start": "2026-04-02T23:00:00.0000000",
+      "end": "2026-04-03T01:00:00.0000000",
+      "attendees": [],
+      "organizer": "Dave Misra",
+      "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pBKyI9AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
