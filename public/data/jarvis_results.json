@@ -1,13 +1,150 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T14:59:03.406853+00:00",
-  "total": 19,
-  "new": 19,
-  "noise": 9,
-  "ai": 18,
+  "timestamp": "2026-03-31T16:09:06.685078+00:00",
+  "total": 28,
+  "new": 28,
+  "noise": 16,
+  "ai": 25,
   "skipped": 0,
-  "auto_learned": 62,
+  "auto_learned": 63,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fw: Salesforce Implementation Follow-Up",
+      "body_preview": "________________________________\r\nFrom: Hajar Zaiz\r\nSent: Tuesday, March 31, 2026 12:07:01 PM\r\nTo: Hajar Zaiz <hajarzaiz04@gmail.com>; ash.gupta@redhilldatacentre.com <ash.gupta@redhilldatacentre.com>; Ash Gupta <ash@galaxydatacenters.com>; alielfanid",
+      "received": "2026-03-31T16:08:01Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCQj-tX1yZFkGPksQc3cpE=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Hajar Zaiz from RedHill Data Centre is following up on a Salesforce implementation initiative involving multiple stakeholders from both RedHill and Galaxy Data Centers. This appears to be a collaborative project requiring coordination between Galaxy's team (Ash Gupta) and RedHill's leadership to move forward on CRM deployment and integration.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Hajar and Ash Gupta the specific scope, timeline, and success metrics for the Salesforce implementation to ensure alignment with Galaxy's infrastructure roadmap",
+        "Determine Galaxy's resource commitment and identify who will lead the implementation on our side to avoid delays",
+        "Schedule a joint kickoff meeting with both teams to establish governance, budget allocation, and technical requirements for the project"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Welcome to Customer Portal",
+      "body_preview": "Can you send out an invite, Colin Paul does that time work for you guys ?\r\n\r\n________________________________\r\nFrom: Ali Elfanidi <alielfanidi@gmail.com>\r\nSent: Tuesday, March 31, 2026 11:13:41 AM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nCc: Paul Tes",
+      "received": "2026-03-31T15:27:09Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALWIhkWI-zdDpnhv5qCwRmE=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "7 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ali Elfanidi is requesting access to Galaxy's customer portal and asking about scheduling availability with Colin Paul, who appears to handle portal invitations. Dave is responding by asking Colin Paul (the operations contact) to send out the portal invite and confirm if the proposed timing works for the team.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Colin Paul send the customer portal invitation to Ali Elfanidi at alielfanidi@gmail.com",
+        "Confirm the meeting/onboarding time with Colin Paul and reply to Ali with the scheduled date",
+        "Ensure Ali is added to any relevant customer communication channels once portal access is activated"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "it@galaxydatacenters.com",
+      "sender_name": "Galaxy IT",
+      "subject": "Re: Access Revoked - Think Learn Private Limited",
+      "body_preview": "Thank you @Dave Misra. I will extend on Monday until the end of june.",
+      "received": "2026-03-31T15:19:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJ%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFiuzK2TjrhOtVALRoKjVsA=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Galaxy IT is confirming they will extend system access for Think Learn Private Limited through the end of June, following Dave's approval. This appears to be a routine access management decision for an external party or partner requiring continued system privileges.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the business justification for Think Learn Private Limited's continued access and document the reason in access management records",
+        "Ensure the June 30 expiration date is calendared for review and automatic revocation if the relationship concludes",
+        "Follow up with Galaxy IT on Monday to verify the extension was implemented as discussed"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: 12MW UK Requirement",
+      "body_preview": "Hi Jake,\r\n\r\nThanks for reaching out \u2014 great to hear from you. Hope you are doing well.\r\n\r\nYes, this fits us perfectly. Redhill can absolutely accommodate 12MW within that timeframe, whether as a purchase, lease, or powered shell arrangement.\r\n\r\nDo you hav",
+      "received": "2026-03-31T15:09:22Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABJIqHBOqk-jjC1Msxf58AA=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: mw, lease, power",
+        "High MW: 12mw",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be Dave's draft reply to a prospect (Jake) regarding a 12MW power capacity requirement in the UK with a specific timeline. Dave is confirming that Galaxy's Redhill facility can meet this demand through various commercial arrangements (purchase, lease, or powered shell). The email cuts off mid-sentence, suggesting it needs completion before sending.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Complete and send Dave's email response to Jake with specific pricing and timeline details for the three service options",
+        "Have the commercial team prepare formal proposals/term sheets for the 12MW Redhill arrangement to move the opportunity forward",
+        "Clarify the prospect's preferred arrangement type and required timeline to tailor the offering and expedite deal progression"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "elizabeth.smith@castleforge.com",
       "sender_name": "Elizabeth Smith",
@@ -28,49 +165,16 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Elizabeth Smith from Castle Forge is reaching out to schedule a meeting with you regarding the Redhill business plan. This appears to be an initial outreach to discuss a potential business opportunity or partnership that Castle Forge believes warrants your attention as Managing Partner of Galaxy Capital Partners.",
+      "ai_summary": "Elizabeth Smith from Castle Forge is reaching out to Dave Misra to schedule a discussion regarding the Redhill business plan. This appears to be an initial outreach to connect on a specific project or proposal that Castle Forge believes may be relevant to Galaxy's data center or investment portfolio.",
       "ai_action": null,
       "ai_next_steps": [
-        "Determine if Redhill aligns with Galaxy's current investment or data center expansion priorities before committing calendar time",
-        "Have France or your team conduct preliminary research on Castle Forge and the Redhill project to assess strategic fit and credibility",
-        "If warranted, direct Elizabeth to provide a brief overview document or executive summary before scheduling a call to ensure efficient use of your time"
+        "Have France or Dave's team determine Castle Forge's business focus and how Redhill relates to Galaxy's current strategy before committing to a meeting",
+        "Request more context from Elizabeth Smith about the Redhill business plan's scope, capital requirements, and timeline to assess fit",
+        "Coordinate meeting availability once the opportunity's relevance is confirmed, using the provided contact methods"
       ],
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Welcome to Customer Portal",
-      "body_preview": "Ali can we do 10 AM ET tomorrow ?\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Paul Tester",
-      "received": "2026-03-31T14:09:28Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALWIhkWI-zdDpnhv5qCwRmE=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "7 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be Dave's outgoing reply to someone named Ali regarding a customer portal welcome, with Dave proposing a 10 AM ET meeting tomorrow. Without the original incoming message, the full context and business purpose is unclear, but this is a scheduling confirmation that requires Ali's acceptance.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Ali's availability for 10 AM ET tomorrow and send calendar invite",
-        "Clarify the meeting agenda and any materials Ali should prepare in advance",
-        "Identify what customer portal access or onboarding items need to be covered during the call"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "colin.bell@redhilldatacentre.com",
@@ -842,41 +946,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "it@galaxydatacenters.com",
-      "sender_name": "Galaxy IT",
-      "subject": "Re: Access Revoked - Think Learn Private Limited",
-      "body_preview": "Hi @Sai Raman and @Dave Misra,\r\n\r\nPlease note, Piyush vendor access expires tomorrow according to the extension requested.\r\n\r\nCould you please confirm if you would like to extend once more and for how long, if not I will carry revoking his access from t",
-      "received": "2026-03-30T11:40:18Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENH8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFiuzK2TjrhOtVALRoKjVsA=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Urgency: expires tomorrow (+1)",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Galaxy IT is notifying you that vendor access for Piyush from Think Learn Private Limited expires tomorrow and requires immediate decision on whether to extend. This is a critical access control issue that impacts vendor management and security compliance, requiring confirmation within the next 24 hours to avoid service disruption or unintended access revocation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with France whether Think Learn Private Limited (Piyush) should retain access and for what duration",
-        "If extension is needed, communicate the approved timeframe to Galaxy IT immediately to prevent access revocation",
-        "If access should be revoked, confirm with IT to proceed with the termination as scheduled"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "paul.tester@redhilldatacentre.com",
       "sender_name": "Paul Tester",
       "subject": "Re: Fw: Welcome to Customer Portal",
@@ -1499,38 +1568,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "jake.rinsler@cbre.com",
-      "sender_name": "Rinsler, Jake @ London HH",
-      "subject": "12MW UK Requirement",
-      "body_preview": "Hi Dave,\r\n\r\nI hope you\u2019re well.\r\n\r\nI have a client searching for 12MW in the UK within 6 months, either to buy or rent / can be a powered shell.\r\n\r\nIs this something that you would be able to accommodate for Redhill?\r\n\r\nKind regards,\r\n\r\nJake\r\n\r\nJake Rinsl",
-      "received": "2026-03-27T19:24:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABJIqHBOqk-jjC1Msxf58AA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: cbre.com",
-        "KW: mw, power",
-        "High MW: 12mw"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jake Rinsler from CBRE's London office is representing a client seeking 12MW of data center capacity in the UK with a 6-month timeline, open to purchase or lease arrangements and flexible on build-out stage. This is a direct inquiry about Galaxy's Redhill facility and represents a significant commercial opportunity if Galaxy can meet the timeline and capacity requirements. This matters because it's a qualified lead for immediate revenue generation and validates market demand for Galaxy's UK infrastructure.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or appropriate Galaxy business development contact Jake within 24 hours to confirm Redhill's current availability, timeline feasibility, and pricing for 12MW",
-        "Prepare a site summary and capacity plan document for Redhill to share with CBRE for client qualification and due diligence",
-        "Clarify with Jake the client's specific requirements (preferred lease vs. purchase terms, power specs, cooling needs, timeline flexibility) to assess fit before detailed commercial discussions"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dse@eumail.docusign.net",
@@ -3122,142 +3159,7 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "louis.mueller@castleforge.com",
-      "sender_name": "Louis Mueller",
-      "subject": "RE: Redhill Operations Call",
-      "body_preview": "Hi All,\r\n\r\nApologies for the late notice. We are running about 10 minutes behind schedule. Please plan for a 16:10 (UK time) start.\r\n\r\nThanks,\r\nLouis\r\n\r\n\r\n\r\nLouis Mueller\r\nE: louis.mueller@castleforge.com\r\n\r\n-----Original Appointment-----\r\nFrom: Elizabeth",
-      "received": "2026-03-24T15:53:14Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAADpHBfMcRZOt6Ag1lPBalg=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "KW: lease",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Louis Mueller from Castle Forge is notifying the team of a 10-minute delay to the Redhill Operations call, shifting the start time to 16:10 UK time. This appears to be a routine operational update for an ongoing partnership or vendor engagement with Castle Forge. The delay is minor but requires confirmation of attendance and preparation adjustments for Galaxy's team.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Galaxy's attendees are aware of the new 16:10 UK start time and adjust their calendars accordingly",
-        "Verify the call agenda and any pre-meeting materials are ready for the adjusted timeline",
-        "Assign someone to track action items from the Redhill Operations discussion for follow-up"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "FW: Galaxy Data Centers <> Inflect - PTC Follow Up & Next Steps",
-      "body_preview": "Hi Francis,\r\n\r\nPlease see redlines from Inflect. The commission rate in the schedule should be 15% not 18%.\r\n\r\nAsh\r\n\r\nFrom: Condreda Presley <legal@inflect.com>\r\nDate: Friday, 20 March 2026 at 19:43\r\nTo: Anna Wolfe <anna.wolfe@inflect.com>\r\nCc: Ashley Rob",
-      "received": "2026-03-24T15:41:51Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANi5ojEwCnVHqBGmjFHM2L0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: commission, lease, data cent",
-        "Broker signal"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ashley Roberts is flagging a contract discrepancy with Inflect regarding a commission rate in the agreement schedule\u2014it should be 15% rather than the currently stated 18%. This appears to be a partner agreement negotiation where the commission structure directly impacts Galaxy's profitability and cost structure with this vendor or client relationship.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review Inflect's redlines document to confirm the 15% rate is correct and assess financial impact of the 3% difference",
-        "Coordinate with Ashley and legal to incorporate the corrected 15% commission rate into the final contract version",
-        "Confirm revised terms with Inflect's legal team (Condreda Presley) and obtain execution on the corrected schedule"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "OT Network Design",
-      "body_preview": "Guys\r\n\r\nGiven the network design is apparently underway, can I please get visibility of what allowances; if any; have been made in respect a view to future migration from existing BMS philosophy [i.e. UPS connected to BMS via RS485] to something on market",
-      "received": "2026-03-24T15:18:25Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJo9Lr6dZkZLt26ARQT5aAU=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Galaxy Data Centers is requesting visibility into the network design currently in progress, specifically asking whether the design accounts for future flexibility to migrate from the existing Building Management System (BMS) architecture that relies on RS485 connections to UPS systems toward more modern market alternatives. This matters because locking into legacy BMS connectivity could create technical debt and limit Galaxy's ability to upgrade infrastructure or adopt newer, more efficient monitoring and control systems as technology evolves.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have the network design team provide Rhys with documentation showing what future-proofing provisions (if any) have been built into the current design regarding BMS/UPS connectivity flexibility",
-        "Schedule a brief sync between Rhys, France, and the network/BMS design leads to clarify modernization roadmap expectations and ensure design accommodates eventual migration paths",
-        "If gaps exist in the design, determine whether modifications are needed now or can be addressed as a Phase 2 upgrade"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "jade@zendoenergy.com",
-      "sender_name": "Jade Batstone",
-      "subject": "Re: Xela Energy - Private-wire solar opportunity for Redhill DC",
-      "body_preview": "Hi Jack,\r\n\r\nNice to e-meet you!\r\n\r\nAs Galaxy's energy broker, we're happy to have an initial conversation to understand more about the offering and evaluate possible synergies and opportunities as a first step. Adding my co-founder and COO @Drew Barrett a",
-      "received": "2026-03-24T15:15:51Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP6ZdA3qj0CunpShVmHKKJY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Jade Batstone]",
-      "rules_reasons": [
-        "Pipeline: jade batstone",
-        "Broker signal",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Jade Batstone from Zendo Energy is Galaxy's energy broker following up on a private-wire solar opportunity for Redhill Data Centre. She's proposing an initial conversation with her co-founder Drew Barrett to evaluate potential synergies\u2014this is directly relevant to Redhill's power strategy and sustainability profile.",
-      "ai_action": "Forward to Dave with context: Is Zendo already engaged as Galaxy's energy broker? If yes, this deserves a meeting slot. If no, clarify the relationship before responding. Either way, Redhill's power economics are critical.",
-      "ai_next_steps": [
-        "Confirm if Zendo Energy is Galaxy's official energy broker or if this is a new introduction",
-        "Request full proposal details: PPA terms, solar capacity (MW), cost per kWh, timeline to PPA execution",
-        "Schedule call with Jade and Drew to discuss Redhill's current power profile and PPA strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 98
+  "total_tracked": 95
 }
