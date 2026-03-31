@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T05:05:53.585762+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 1,
-  "ai": 2,
+  "timestamp": "2026-03-31T08:53:59.748702+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
-  "auto_learned": 59,
+  "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "charlie.bruinvels@bcsconsultancy.com",
+      "sender_name": "Charlie Bruinvels",
+      "subject": "Hi!",
+      "body_preview": "Hi Dave\r\n\r\nIt was great to meet last week!  I enjoyed our discussion.\r\n\r\nLet me know when is good for a follow up.\r\n\r\nThanks\r\nCharlie\r\n\r\nCharlie Bruinvels\r\n\u200b\u200b\u200b\u200b\r\nHead of Land Intelligence\r\n+44 (0) 750 379 3648\r\nCharlie.Bruinvels@bcsconsultancy.com\r\nBCS Co",
+      "received": "2026-03-31T08:43:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANAD-SzDs9lOkJqO0XzynY8=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: bcsconsultancy.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Charlie Bruinvels, Head of Land Intelligence at BCS Consultancy, is following up after a recent in-person meeting with Dave and wants to schedule a next discussion. This appears to be a relationship-building touchpoint from a land/real estate intelligence firm that may be relevant to Galaxy's data center site acquisition or development strategy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review notes from last week's meeting with Charlie to clarify what was discussed and what he may be scoping",
+        "Determine if BCS Consultancy's land intelligence services align with any current Galaxy projects or site selection needs",
+        "Reply with 2-3 specific time slots for a follow-up call in the next 2-3 weeks"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Daniel Scarbrough via Docusign",
@@ -3301,39 +3331,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Rescheduling Upcoming Call",
-      "body_preview": "Hi Candace,\r\nI hope you're doing well.\r\nI am Dave's Assistant. I wanted to reach out regarding the upcoming JSA call today. Dave mentioned we'd need to cancel this session and instead coordinate a time that works for you, Dave, and Sai.\r\nI\u2019ll follow up sh",
-      "received": "2026-03-24T05:44:18Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiBeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALAJsgS_GPFPnxf4BW7-lJs=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France is Dave's assistant communicating that Dave needs to cancel a scheduled JSA call today and is requesting to reschedule for a time that works for Dave, France, and Sai. This appears to be an important stakeholder meeting that requires coordination across multiple parties.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm cancellation of today's JSA call and send formal cancellation notice to all participants",
-        "Coordinate availability for Dave, France, and Sai to identify suitable rescheduling options",
-        "Send new meeting invitation once all parties confirm their availability"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 100
