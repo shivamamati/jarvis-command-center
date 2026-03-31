@@ -1,13 +1,113 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T20:39:42.753491+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 10,
-  "ai": 10,
+  "timestamp": "2026-03-31T21:36:05.367461+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 6,
+  "ai": 9,
   "skipped": 0,
-  "auto_learned": 62,
+  "auto_learned": 64,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Follow up - capacity optimisation pilot",
+      "body_preview": "Hi Jade,\r\n\r\nWhile we're waiting on the Ecostruxure data from Ash, we've pulled together what we can from our side to help unblock the analysis. See attached: 7.4 Site Schematics\r\n\r\nS140 Single Line Diagrams:\r\n\r\n  *   S140-1 LV Schematic (PDF)\r\n  *   S140-",
+      "received": "2026-03-31T21:22:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALEluCSELAJLvn1_zTmzM6I=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: capacity, lp",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal communication from Dave Misra to Jade regarding a capacity optimization pilot project. Dave is sharing preliminary site schematic and single line diagram documentation for the S140 facility to move forward with analysis while waiting for third-party Ecostruxure data from Ash. This matters because completing the capacity analysis is critical for understanding power distribution constraints and optimization opportunities at the site.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt of schematics with Jade and establish timeline for analysis completion",
+        "Follow up with Ash on Ecostruxure data delivery to ensure no further delays in the pilot",
+        "Assign resources to integrate the S140 schematics into the capacity optimization model"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Dave Misra shared the folder \"7.4 Site Schematics\" with you",
+      "body_preview": "Dave Misra shared a folder with you\r\n\r\nunit 3\r\n\r\n        7.4 Site Schematics\r\n        This link only works for the direct recipients of this message.\r\nOpen\r\n\r\n\r\nPrivacy Statement\r\n\r\nThis email is generated through Galaxy Capital Partners, LLC's use of Mic",
+      "received": "2026-03-31T21:16:26Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOSViz3tWzNNsu5MghSXEDs=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an automated notification that Dave Misra has shared a folder containing site schematics (7.4 Site Schematics) for Unit 3. The message appears to be a system-generated sharing confirmation from Galaxy Capital Partners' file sharing system, with access restricted to direct recipients only.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify the intended recipients of this folder share match the distribution list",
+        "Confirm the access permissions and retention policies for sensitive site schematic documents",
+        "Review folder contents to ensure only appropriate site documentation is included in the share"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Dave Misra shared the folder \"7.4 Site Schematics\" with you",
+      "body_preview": "Dave Misra shared a folder with you\r\n\r\nunit 3\r\n\r\n        7.4 Site Schematics\r\n        This link only works for the direct recipients of this message.\r\nOpen\r\n\r\n\r\nPrivacy Statement\r\n\r\nThis email is generated through Galaxy Capital Partners, LLC's use of Mic",
+      "received": "2026-03-31T21:16:07Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC0cXbxOVeVElxXF-eYIFfQ=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a system-generated notification confirming that Dave Misra has shared a folder containing site schematics (labeled 7.4) with recipients. The message is incomplete and lacks context about who the intended recipients are or the specific purpose of sharing these schematics.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify the intended recipients and purpose of the schematic sharing - determine if this was intentional or sent in error",
+        "Verify the access controls and security of the shared folder to ensure sensitive site information is only accessible to authorized parties",
+        "Confirm receipt and review the actual schematic contents to understand what site information has been distributed"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -3102,37 +3202,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "media@jsa.net",
-      "sender_name": "JSA",
-      "subject": "This Week\u2019s Data Center, Telecom & Tech Headlines in 60 Seconds \u23f2\ufe0f",
-      "body_preview": "Time for your weekly dose of data center, telecom & tech news. Here are the top headlines you may have missed.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
-      "received": "2026-03-24T21:23:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiC2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMbuNE33fQxBl_Qsqsc3nek=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: jsa.net",
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "JSA is a media/news distribution service sending Dave a weekly digest of industry headlines across data centers, telecom, and technology sectors. This is a routine newsletter subscription providing competitive intelligence and market trend summaries relevant to Galaxy's operating domains. Staying informed on sector developments helps Galaxy identify emerging opportunities, competitive threats, and market shifts affecting data center and infrastructure investments.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the headlines in this week's digest to identify any material developments affecting Galaxy's portfolio companies or competitive positioning",
-        "Determine if JSA's newsletter remains valuable relative to other news sources Dave is using, and adjust subscriptions accordingly"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 94
+  "total_tracked": 96
 }
