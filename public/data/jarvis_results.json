@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T18:57:42.418471+00:00",
+  "timestamp": "2026-03-31T19:55:24.869396+00:00",
   "total": 20,
   "new": 20,
-  "noise": 13,
-  "ai": 16,
+  "noise": 15,
+  "ai": 18,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Wednesday Marketing Meeting",
+      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Sai Raman\r\nSent: Sunday, March 15, 2026 10:59:39",
+      "received": "2026-03-31T19:09:33Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEet3ymAj5VEik-qc8rcrTw=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 13x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman from Galaxy Data Centers is reaching out to schedule a marketing meeting with you. This appears to be an internal coordination request to align on marketing strategy or initiatives. Confirming this meeting ensures alignment on go-to-market priorities and campaign planning across the organization.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Check your calendar availability for Wednesday and confirm meeting time with Sai",
+        "Clarify the meeting agenda with Sai to prepare discussion points or materials in advance",
+        "Determine if France or other team members should attend and loop them in on the meeting details"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -32,12 +65,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong is providing the correct legal address for Redhill Data Centre Limited in Jersey for contract execution related to the Galaxy/DRT partnership and Cloud House deployment. He's requesting that an execution copy of the agreement be sent to this address so it can be signed by the appropriate party at Redhill, moving the partnership forward to completion.",
+      "ai_summary": "Paul Leong is providing the correct registered address for Redhill Data Centre Limited in Jersey to facilitate execution of partnership documentation related to the Galaxy/DRT collaboration and Cloud House deployment. This is a procedural step needed to move the agreement forward and establish the formal legal relationship between the parties.",
       "ai_action": null,
       "ai_next_steps": [
-        "Prepare and send the execution copy of the Galaxy/DRT partnership agreement to the Redhill Data Centre address in Jersey",
-        "Establish a timeline with Paul for expected signature return and any required conditions precedent to deployment",
-        "Confirm with internal legal/contracts team that all terms are final and the document is ready for counterparty signature"
+        "Send the execution copy of the partnership agreement to the Redhill address at 3rd Floor, Gasp\u00e9 House, 66-72 Esplanade, St Helier, Jersey",
+        "Confirm receipt and expected signature timeline with Redhill's signatory authority",
+        "Track the signed document return to ensure timely contract finalization and project commencement"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -1244,39 +1277,6 @@
         "Have the design team review Animesh's provided article and diagram against the original carousel content to identify specific alignment issues",
         "Schedule a call with Animesh to clarify design requirements and ensure the team's revised approach meets expectations",
         "Confirm with Rahul/marketing which LinkedIn assets are production-ready and schedule posting"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Wednesday Marketing Meeting",
-      "body_preview": "________________________________\r\nFrom: Sai Raman\r\nSent: Sunday, March 15, 2026 10:59:39 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Animesh Raha <animesh@galaxydatacenters.com>; SA <sa@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters.com>",
-      "received": "2026-03-29T18:43:48Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYuPajwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEet3ymAj5VEik-qc8rcrTw=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 17x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman (Galaxy Data Centers internal team member) is sending a calendar invitation or meeting notice for a marketing discussion scheduled for Wednesday. This appears to be an internal alignment meeting among Galaxy's marketing and leadership stakeholders to coordinate strategy or review initiatives.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm your attendance and review the meeting agenda/materials if provided",
-        "Prepare any marketing priorities or data center updates you need to discuss with Sai, Animesh, and SA",
-        "Block calendar time and alert France if coordination is needed on any action items from this meeting"
       ],
       "ai_failed": false,
       "final_score": 7,
