@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T19:55:24.869396+00:00",
-  "total": 20,
-  "new": 20,
-  "noise": 15,
-  "ai": 18,
+  "timestamp": "2026-03-31T20:39:42.753491+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 10,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman from Galaxy Data Centers is reaching out to schedule a marketing meeting with you. This appears to be an internal coordination request to align on marketing strategy or initiatives. Confirming this meeting ensures alignment on go-to-market priorities and campaign planning across the organization.",
+      "ai_summary": "Sai Raman from Galaxy Data Centers is reaching out to schedule a marketing meeting with you. This appears to be an internal coordination request to align on marketing initiatives and strategy. Confirming this meeting ensures alignment across leadership on Galaxy's marketing priorities and upcoming campaigns.",
       "ai_action": null,
       "ai_next_steps": [
-        "Check your calendar availability for Wednesday and confirm meeting time with Sai",
-        "Clarify the meeting agenda with Sai to prepare discussion points or materials in advance",
-        "Determine if France or other team members should attend and loop them in on the meeting details"
+        "Check your calendar and respond to Sai with your availability for Wednesday",
+        "Prepare an agenda or ask Sai what specific marketing topics should be covered",
+        "Confirm the meeting format (in-person, video call, or hybrid) and location/link"
       ],
       "ai_failed": false,
       "final_score": 7,
