@@ -1,13 +1,116 @@
 {
   "version": "8.1",
-  "timestamp": "2026-03-31T16:09:06.685078+00:00",
-  "total": 28,
-  "new": 28,
-  "noise": 16,
-  "ai": 25,
+  "timestamp": "2026-03-31T17:54:16.509021+00:00",
+  "total": 24,
+  "new": 24,
+  "noise": 14,
+  "ai": 17,
   "skipped": 0,
-  "auto_learned": 63,
+  "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "shivam@galaxydatacenters.com",
+      "sender_name": "Shivam Amati",
+      "subject": "Shivam, Krish, Max & Dave Meeting",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/229519003220846?p=b7ppGRloYIbhrFJZgl\r\nMeeting ID: 229 519 003 220 846\r\nPasscode: L6AM7Ca2\r\n________________",
+      "received": "2026-03-31T17:10:41Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENKSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHKfY6MgIwRHnSNRxGHBaMc=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Shivam Amati]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Pipeline: shivam amati"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Shivam Amati from Galaxy Data Centers is scheduling a Microsoft Teams meeting involving himself, Krish, Max, and Dave. The email provides meeting details but does not specify the agenda or purpose of the discussion. Dave should clarify the meeting objective to ensure preparedness and relevant stakeholder alignment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Ask Shivam to provide the meeting agenda and expected outcomes",
+        "Confirm attendance and identify what Krish and Max's roles are in this discussion",
+        "Block the calendar time and prepare any relevant business context or materials needed for the conversation"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Nomura Updated IRR model for approval",
+      "body_preview": "Louis, Pelle , Mike & Paul,,\r\n\r\n\r\nAs requested, we added the commissions and legal at GBP 300K (see the yellow highlight at E51) and we have removed the NRC payment for Nomura. The term has been extended to a clean 6 years from Jun 1, 2026 at an all-in ra",
+      "received": "2026-03-31T16:35:22Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENKMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFYocSop3KVCmhf6yrePCQM=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 11x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: nomura",
+        "Internal \u2014 deal/customer related",
+        "KW: commission",
+        "Broker signal",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Tj Karklins is circulating an updated financial model for the Nomura investment opportunity that incorporates commission and legal costs totaling \u00a3300K while removing an NRC payment and extending the contract term to 6 years starting June 2026. This revised model impacts the projected IRR and deal economics that will drive Galaxy's investment decision and capital allocation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the updated IRR model in cell E51 and compare the revised returns against Galaxy's investment hurdle rate and portfolio benchmarks",
+        "Confirm the 6-year term structure and all-in rate assumptions with Nomura before final approval",
+        "Schedule a decision meeting with Louis, Pelle, Mike and Paul to approve or request further modifications to the model"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "kirstin.dunn@castleforge.com",
+      "sender_name": "Kirstin Dunn",
+      "subject": "RE: Redhill Lease Renew",
+      "body_preview": "Thanks Paul \u2013 please update Simmons on this basis and ask them to provide a revised quote for the narrower scope.  I will pick up with Rob.\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn@castleforge.com\r\n\r\nFrom: Paul Leong <paul@galaxydatacenter",
+      "received": "2026-03-31T16:19:39Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENKKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kirstin Dunn from Castle Forge is directing Paul Leong to update Simmons with revised scope parameters for the Redhill lease renewal and obtain a new quote accordingly, while she will handle direct communication with Rob on her end. This appears to be a negotiation coordination effort for a data center lease renewal, likely involving cost or scope adjustments. The outcome will impact Galaxy's lease terms and financial commitments at the Redhill facility.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Paul should clarify with Kirstin what the 'narrower scope' entails before contacting Simmons to avoid miscommunication on revised quote parameters",
+        "Coordinate with Rob to understand his position and ensure alignment before Kirstin engages with him directly",
+        "Track the revised quote from Simmons once submitted and schedule a follow-up meeting with Kirstin and the broader team to evaluate the new terms"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -26,18 +129,18 @@
         "Attachments from known (+1)",
         "Re customer: redhill",
         "Internal \u2014 deal/customer related",
-        "Thread: 3 msgs (+2)",
+        "Thread: 5 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Hajar Zaiz from RedHill Data Centre is following up on a Salesforce implementation initiative involving multiple stakeholders from both RedHill and Galaxy Data Centers. This appears to be a collaborative project requiring coordination between Galaxy's team (Ash Gupta) and RedHill's leadership to move forward on CRM deployment and integration.",
+      "ai_summary": "Hajar Zaiz from Redhill Data Centre is following up on a Salesforce implementation initiative that involves coordination between Redhill and Galaxy Data Centers teams. This appears to be a cross-company systems integration project that requires alignment and execution from both organizations' technical and operational leads.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Hajar and Ash Gupta the specific scope, timeline, and success metrics for the Salesforce implementation to ensure alignment with Galaxy's infrastructure roadmap",
-        "Determine Galaxy's resource commitment and identify who will lead the implementation on our side to avoid delays",
-        "Schedule a joint kickoff meeting with both teams to establish governance, budget allocation, and technical requirements for the project"
+        "Clarify the specific scope, timeline, and success metrics for the Salesforce implementation with Hajar and confirm Galaxy's resource commitment",
+        "Have Ash Gupta coordinate with the Redhill team (Ash Gupta and Hajar) to establish a joint project plan with clear ownership and milestones",
+        "Schedule a kickoff meeting to align on technical requirements, data migration approach, and go-live strategy"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -207,40 +310,6 @@
         "Immediately engage Galaxy's technical operations team to investigate the access cloning system failure and review the attached video for root cause analysis",
         "Contact Colin to determine the business impact (how many customers affected, how long manual processes take) and establish a timeline for remediation",
         "Escalate to France and the relevant technical lead to prioritize this as a production incident given the manual workaround burden on Redhill's team"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "kirstin.dunn@castleforge.com",
-      "sender_name": "Kirstin Dunn",
-      "subject": "RE: Redhill Lease Renew",
-      "body_preview": "Hi Paul,\r\n\r\nBoth Eversheds and Simmons are willing to cap their fees on this at \u00a320k assuming end of May completion.  Eversheds are satisfied to work with the Simmons template MSA so there is no issue on this front.  There are obviously benefits in terms ",
-      "received": "2026-03-31T13:23:53Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 1: castleforge.com",
-        "KW: lease",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Kirstin Dunn from Castle Forge is confirming that both legal firms (Eversheds and Simmons) have agreed to cap their fees at \u00a320k for the Redhill lease renewal with an end-of-May completion target, and that Eversheds will work from Simmons' MSA template to streamline the process. This resolves potential legal cost overruns and procedural delays that could have impacted the lease renewal timeline and Galaxy's operational continuity at the Redhill facility.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Paul (or relevant Galaxy legal/finance contact) that the \u00a320k fee cap and May completion date are acceptable and formally instruct both firms to proceed",
-        "Request a detailed project timeline from Eversheds and Simmons outlining key milestones through end of May to ensure no bottlenecks",
-        "Assign an internal stakeholder to coordinate between the two legal firms on the MSA template to prevent scope creep or disputes over deliverables"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -3062,104 +3131,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "itay@torpedodatacenters.com",
-      "sender_name": "Itay - Torpedo Datacenters",
-      "subject": "Great speaking with you",
-      "body_preview": "Hi Dave,\r\n\r\nIt was great speaking with you today.\r\n\r\nI appreciated the chance to learn more about Galaxy\u2019s platform, the three sites, and the efforts underway to strengthen the power position at select locations. It was a very interesting discussion.\r\n\r\nA",
-      "received": "2026-03-24T17:31:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACVXSIrao7VGuEiQ3a9jjVA=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "VIP: torpedodatacenters.com",
-        "KW: power"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Itay from Torpedo Datacenters is following up after a recent conversation with Dave about Galaxy's platform, facilities, and power infrastructure initiatives. This appears to be a positive engagement where Torpedo gained insight into Galaxy's operational strategy and capacity expansion efforts. The outreach suggests potential interest in partnership, collaboration, or further business discussions around Galaxy's three sites and power optimization plans.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should clarify with Itay what specific outcomes or next steps Torpedo is interested in pursuing (partnership, vendor services, capacity utilization, etc.)",
-        "France should prepare a summary of Galaxy's current power position, challenges, and expansion timeline at each of the three sites to support follow-up discussions",
-        "Schedule a formal follow-up meeting with defined agenda if Torpedo represents a strategic opportunity for Galaxy's power or infrastructure goals"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "marketing@galaxydatacenters.com",
-      "sender_name": "Galaxy Marketing",
-      "subject": "Re: Galaxy Data Centers and MarketJoy\u200b",
-      "body_preview": "That would be great. Thanks Chris!\r\n\r\nGet Outlook for Android\r\n________________________________\r\nFrom: Chris Bowles <chris@marketjoy.com>\r\nSent: Tuesday, March 24, 2026 1:01:02 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Animesh Raha <animesh@galaxydat",
-      "received": "2026-03-24T17:02:09Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAX%2FWiCaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABAQYFIqkztDpGNmHK5odKc=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Internal \u2014 routine (suppressed)",
-        "KW: data cent",
-        "3 VIPs on thread (+2)",
-        "Thread: 4 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris Bowles from MarketJoy is following up on a collaboration proposal with Galaxy Data Centers. Galaxy's marketing team has agreed to move forward with whatever Chris proposed, but the original request details are not visible in this email thread excerpt. This appears to be a marketing or business development initiative that requires clarification on scope and next steps.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Sai Raman or Animesh Raha clarify with Chris Bowles what specific deliverables or timeline were agreed to in the original conversation",
-        "Request a formal proposal or statement of work from MarketJoy outlining objectives, resources required, and expected business impact",
-        "Schedule a kickoff meeting with Dave, the marketing team, and relevant stakeholders to align on Galaxy's goals and success metrics for this partnership"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Dave - k-state alum?",
-      "body_preview": "Hi Lauren,\r\n\r\nThanks for reaching out \u2014 great to hear from a fellow Wildcat.\r\n\r\nWe don\u2019t have any immediate hiring requirements at the moment, but I\u2019m happy to keep you in mind when that changes. In the meantime, I\u2019d be interested to learn a bit more abou",
-      "received": "2026-03-24T16:30:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYBf4G1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFuEOOunHVVHr7yEMBUbYdc=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Lauren, a Kansas State alumna, reached out to Dave expressing interest in opportunities at Galaxy. Dave has acknowledged the connection and indicated Galaxy doesn't have current openings, but is open to staying in touch and learning more about her background for potential future roles.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Ask Lauren to send her resume and brief background summary for Galaxy's talent pipeline file",
-        "Schedule a brief 15-20 minute informational call to understand her professional interests and experience level",
-        "Follow up quarterly or when relevant hiring needs emerge to reconnect with qualified K-State network candidates"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 95
+  "total_tracked": 94
 }
