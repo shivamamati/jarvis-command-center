@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T20:47:45.405342+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 4,
-  "ai": 11,
+  "timestamp": "2026-04-01T21:38:27.739799+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 5,
+  "ai": 7,
   "skipped": 0,
-  "auto_learned": 62,
+  "auto_learned": 61,
   "items": [
     {
       "sender_email": "kirstin.dunn@castleforge.com",
@@ -31,12 +31,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Kirstin Dunn from Castle Forge has confirmed she's contacted an unspecified party regarding a Travellers insurance matter and is recommending that Galaxy engage Eversheds (likely for legal review or quotation). This appears to be a follow-up to a prior discussion about insurance or legal coverage for a specific infrastructure or operational concern.",
+      "ai_summary": "Kirstin Dunn from Castle Forge has confirmed she's reached out to a third party regarding a Travellers insurance matter and is endorsing Galaxy's plan to obtain a legal quote from Eversheds. This appears to be routine insurance or legal work related to an operational issue that requires external counsel review.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Paul Leong what the underlying business issue is (Travellers policy renewal, claim, coverage gap, etc.) and why Eversheds legal review is necessary",
-        "Request Kirstin provide context on who she contacted and what response is expected",
-        "Obtain a preliminary scope and timeline from Eversheds before committing to a full engagement"
+        "Have France or counsel contact Eversheds to request a quote for the legal work Kirstin is referencing",
+        "Clarify with Kirstin or Paul what specific Travellers matter requires legal review to ensure the scope is clearly defined",
+        "Set a timeline for receiving and reviewing the Eversheds quote before proceeding"
       ],
       "ai_failed": false,
       "final_score": 10,
