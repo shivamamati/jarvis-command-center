@@ -1,13 +1,85 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T15:01:42.319334+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 8,
-  "ai": 11,
+  "timestamp": "2026-04-01T16:50:15.947652+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 9,
+  "ai": 13,
   "skipped": 0,
-  "auto_learned": 62,
+  "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "Galaxy / NexGen Partnership",
+      "body_preview": "Hiren,\r\n\r\nGreat meeting you last week. I found the conversation engaging and keen to learn more about how we can work together.\r\n\r\nAs promised, please see capacity availability at our Redhill facility:\r\n\r\nMain Building: 3MW (immediately available)\r\nUnit 2",
+      "received": "2026-04-01T16:00:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABiMC2-pFENCqRHl8l8oS2M=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 14x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: mw, lease, capacity",
+        "Urgency: immediately (+1)",
+        "Redhill power"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts from Galaxy Data Centers is following up on a recent partnership discussion with Hiren regarding NexGen collaboration. She is providing specific capacity availability details for the Redhill facility, offering 3MW of immediate capacity in the Main Building Unit 2, indicating Galaxy is ready to move forward with resource commitments for this partnership opportunity.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should review the 3MW capacity offer against NexGen's stated requirements and timeline to assess fit and commercial viability",
+        "France should coordinate with Ashley to clarify the terms, pricing, and service level agreement for the Redhill capacity allocation",
+        "Schedule a follow-up meeting with Ashley and NexGen stakeholders to formalize the partnership terms and secure commitment within the next 1-2 weeks"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "ash@galaxycapitalpartners.com",
+      "sender_name": "Ash Gupta",
+      "subject": "Re: Meter reading sheet",
+      "body_preview": "Let me dive into this, I might be able to grab one of our interns to help with this, but leave it with me for now.  I may need to pick your brain a bit to ensure we're capturing the entire process.\r\n\r\nCheers,\r\n-Ash\r\n________________________________\r\nFrom:",
+      "received": "2026-04-01T15:37:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMtBchY99w5Ekt-M-d2e3hI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: lp",
+        "6 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ash Gupta is taking ownership of a meter reading sheet project and plans to allocate intern resources to assist. He's indicating he'll need to collaborate with the recipient to ensure comprehensive process documentation before proceeding.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule a working session with Ash to walk through the complete meter reading process and requirements",
+        "Prepare documentation or process notes on current meter reading procedures to streamline the discussion",
+        "Follow up with Ash within 2-3 days to confirm intern assignment and timeline for completion"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "charlie.bruinvels@bcsconsultancy.com",
       "sender_name": "Charlie Bruinvels",
@@ -202,40 +274,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
-      "sender_name": "Fredy Marie-Emilienne",
-      "subject": "Meter reading sheet",
-      "body_preview": "Hi Ash,\r\n\r\nThe meter reading sheet is becoming increasingly corrupted, and each month Colin and I are now having to spend several hours trying to correct errors.\r\n\r\nThe original calculations were set up by DLR, and unfortunately any changes we try to make",
-      "received": "2026-04-01T09:39:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMtBchY99w5Ekt-M-d2e3hI=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre is reporting that their meter reading sheet\u2014originally built by DLR\u2014is experiencing data corruption issues that require several hours of manual correction each month. This operational inefficiency is impacting their team's productivity and suggests the underlying system or calculation logic may need to be rebuilt or replaced to ensure reliable, automated billing/monitoring data.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or operations contact Fredy to understand the full scope of corruption issues and request a copy of the current meter reading sheet to assess the root cause",
-        "Determine whether DLR is still the appropriate vendor to fix this or if Galaxy should allocate resources to rebuild the sheet with better data validation and error handling",
-        "Establish a timeline to remediate this before next month's reading cycle to reduce manual burden on Redhill's team and prevent billing or compliance complications"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     },
     {
       "sender_email": "francis.turley@simmons-simmons.com",
@@ -3071,106 +3109,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Nextgen <> Galaxy Intro Meeting",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24425599510425?p=Q1aWLs0f2RUJoS0jLj\r\nMeeting ID: 244 255 995 104 25\r\nPasscode: KE38Sp6M\r\n__________________",
-      "received": "2026-03-25T16:10:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOF8fL1vK3NCreAxlPtYz00=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France has scheduled a Microsoft Teams meeting with Nextgen, likely for an introductory discussion. This appears to be a partnership, vendor, or business development opportunity that requires Dave's awareness and potential participation. The meeting details suggest this is a formal engagement that Galaxy wants to establish or explore.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm whether Dave needs to attend this Nextgen meeting and block calendar time if participation is required",
-        "Request context from France on Nextgen's business, the meeting objectives, and desired outcomes before the call",
-        "Determine if pre-meeting materials or talking points should be prepared to maximize the value of this introduction"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Nextgen <> Galaxy Meeting Confirmation",
-      "body_preview": "Hello Hiren,\r\nI hope this message finds you well.\r\nThis is Dave\u2019s Assistant confirming that I have sent a calendar invitation for an introductory meeting for you, Dave, and Ashley tomorrow at the agreed time.\r\nLooking forward to the discussion.\r\nKind rega",
-      "received": "2026-03-25T16:08:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHyIiLFChs9Ko62824YZvKo=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France is confirming that a calendar invitation has been sent for an introductory meeting between Dave, Ashley, and Hiren (presumably from Nextgen) scheduled for tomorrow. This appears to be an initial business development meeting that Dave has already agreed to, and France is following up to ensure all parties have the scheduling details confirmed.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of the calendar invitation and review meeting agenda/talking points with Ashley before tomorrow's call",
-        "Brief Ashley on Hiren's background and Nextgen's business to ensure alignment on meeting objectives",
-        "Prepare any relevant Galaxy materials or proposals to discuss during the introductory meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Nextgen <> Galaxy Intro Meeting",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24425599510425?p=Q1aWLs0f2RUJoS0jLj\r\nMeeting ID: 244 255 995 104 25\r\nPasscode: KE38Sp6M\r\n__________________",
-      "received": "2026-03-25T16:08:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAYVTnCwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHYfctu5Ju1Kvfwbgib4dMg=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a calendar invite for a Microsoft Teams meeting with Nextgen, indicating an introductory meeting has been scheduled between that organization and Galaxy. The meeting details and access information are provided, suggesting this is a new business development or partnership opportunity that requires Dave's attendance.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and add to calendar; determine the specific purpose and participants from Nextgen to prepare agenda",
-        "Brief France and relevant Galaxy team members on Nextgen's business, recent activities, and potential strategic fit before the meeting",
-        "Prepare talking points on Galaxy's capabilities, service offerings, and any relevant data center or infrastructure solutions that may align with Nextgen's needs"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 95
+  "total_tracked": 93
 }
