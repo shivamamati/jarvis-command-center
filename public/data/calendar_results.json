@@ -1,49 +1,6 @@
 {
-  "timestamp": "2026-03-31T23:30:50.703827+00:00",
+  "timestamp": "2026-04-01T02:09:29.578758+00:00",
   "events": [
-    {
-      "subject": "Redhill Business Plan Call",
-      "start": "2026-03-31T15:00:00.0000000",
-      "end": "2026-03-31T15:45:00.0000000",
-      "attendees": [
-        "Elizabeth",
-        "Jamie",
-        "Ash",
-        "Mike",
-        "Paul",
-        "Tj"
-      ],
-      "organizer": "Elizabeth Smith",
-      "location": "4.01",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3o64c7vAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAADthr2FgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Dave Misra <> Neil Oakley Catch Up",
-      "start": "2026-03-31T17:30:00.0000000",
-      "end": "2026-03-31T18:00:00.0000000",
-      "attendees": [
-        "neil.oakley.home@gmail.com"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1nAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Shivam, Krish, Max & Dave Meeting",
-      "start": "2026-03-31T18:30:00.0000000",
-      "end": "2026-03-31T19:30:00.0000000",
-      "attendees": [
-        "Shivam",
-        "Krish",
-        "Max"
-      ],
-      "organizer": "Shivam Amati",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1rAAA%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Badminton with Suhas ",
       "start": "2026-04-01T00:00:00.0000000",
@@ -193,6 +150,59 @@
       "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pBKyI9AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Monday.com Review",
+      "start": "2026-04-03T13:00:00.0000000",
+      "end": "2026-04-03T13:30:00.0000000",
+      "attendees": [
+        "Paul"
+      ],
+      "organizer": "Paul Tester",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pET8vkAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ%2BwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Sales Funnel Review with Ashley and Paul ",
+      "start": "2026-04-03T14:30:00.0000000",
+      "end": "2026-04-03T15:00:00.0000000",
+      "attendees": [
+        "Paul",
+        "Ashley",
+        "Tj"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pET8vkAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNiwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Friday Marketing Meeting",
+      "start": "2026-04-03T16:30:00.0000000",
+      "end": "2026-04-03T17:00:00.0000000",
+      "attendees": [
+        "Sai",
+        "Animesh",
+        "SA",
+        "Paul",
+        "Ash",
+        "Tj"
+      ],
+      "organizer": "Sai Raman",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pET8vkAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBFAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Osteo",
+      "start": "2026-04-03T22:00:00.0000000",
+      "end": "2026-04-03T22:30:00.0000000",
+      "attendees": [],
+      "organizer": "Dave Misra",
+      "location": "279 Lakeshore Rd E, Mississauga, ON L5G 1G8, Canada",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1fAAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
