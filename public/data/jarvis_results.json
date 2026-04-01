@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T19:58:18.007569+00:00",
-  "total": 20,
-  "new": 20,
-  "noise": 13,
-  "ai": 18,
+  "timestamp": "2026-04-01T20:47:45.405342+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 4,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "kirstin.dunn@castleforge.com",
+      "sender_name": "Kirstin Dunn",
+      "subject": "Re: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "I\u2019ve emailed them just now and yes please worth getting Eversheds to quote.\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Wednesday, Apr",
+      "received": "2026-04-01T20:16:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kirstin Dunn from Castle Forge has confirmed she's contacted an unspecified party regarding a Travellers insurance matter and is recommending that Galaxy engage Eversheds (likely for legal review or quotation). This appears to be a follow-up to a prior discussion about insurance or legal coverage for a specific infrastructure or operational concern.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Paul Leong what the underlying business issue is (Travellers policy renewal, claim, coverage gap, etc.) and why Eversheds legal review is necessary",
+        "Request Kirstin provide context on who she contacted and what response is expected",
+        "Obtain a preliminary scope and timeline from Eversheds before committing to a full engagement"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "louis.mueller@castleforge.com",
       "sender_name": "Louis Mueller",
@@ -29,16 +63,46 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Louis Mueller from Castle Forge is following up on a previous discussion about expanding the S160 project and is seeking confirmation on next steps and a formal proposal that hasn't yet been delivered. This suggests a stalled deal that risks losing momentum with an interested client and may indicate internal gaps in proposal execution or communication.",
+      "ai_summary": "Louis Mueller from Castle Forge is following up on a previously discussed S160 expansion opportunity and is requesting confirmation of next steps. He indicates no proposal has been delivered and communication has stalled over the past two weeks. This suggests a potential deal delay that requires immediate attention to maintain client momentum and prevent deal erosion.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France or relevant project lead immediately reach out to Louis to confirm the status of the S160 expansion proposal and provide a delivery timeline",
-        "Internally verify what commitments were made two weeks ago and ensure a formal proposal document is drafted and sent within 48 hours",
-        "Schedule a follow-up call with Louis to present the proposal details and clarify next phases for the expansion project"
+        "Dave or France should immediately review internal notes from the S160 expansion discussion two weeks ago to clarify what was promised and current status",
+        "Prepare and send Louis a concrete proposal or written timeline within 24-48 hours to re-establish confidence and momentum",
+        "Schedule a direct call with Louis to discuss any blockers, refine requirements, and commit to specific milestones"
       ],
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "ngarcia@csi-ing.com",
+      "sender_name": "Nicol\u00e1s Garcia",
+      "subject": "RE: Will you be at IMN Data Centers Power Capital?",
+      "body_preview": "Hi Dave,\r\nJust following up on the note below.\r\n\r\nAre you currently involved in any data center projects? How are you approaching the power supply side?\r\nWe\u2019ve been helping clients navigate different options to secure energy supply without relying entirel",
+      "received": "2026-04-01T19:16:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALrQ4E7MJh9Gn523VMJG-Jk=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: capital, power, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 5,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Nicol\u00e1s Garcia from CSI (likely a power/energy engineering firm) is following up on a previous conversation about IMN Data Centers Power Capital event. He's asking about Galaxy's current DC projects and power supply strategy\u2014a core operational concern for data center development.",
+      "ai_action": "Dave should respond if this is a warm follow-up from a prior conversation at IMN or industry event. If cold, lower priority but worth understanding what CSI offers on energy solutions.",
+      "ai_next_steps": [
+        "Clarify if Dave had prior conversation with Nicol\u00e1s at IMN Data Centers Power Capital",
+        "If warm lead: Request details on CSI's power supply solutions and relevant case studies",
+        "Assess fit against Galaxy's current Poland 260MW, Milan, and other projects' energy strategies"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "samantha@jsa.net",
@@ -61,50 +125,16 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Samantha Booth from JSA is requesting approval to schedule a social media post promoting Galaxy's Tech Capital Award shortlist nomination for April 15th and is seeking feedback on the promotional graphic she's provided. This is a visibility and brand recognition opportunity that highlights Galaxy's industry recognition to stakeholders and prospective clients.",
+      "ai_summary": "Samantha Booth from JSA is submitting a promotional graphic for the Tech Capital Award shortlist announcement and recommending a publication date of April 15th. This is a marketing opportunity to publicly recognize Galaxy's involvement with the awards program and build brand visibility in the tech capital community.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the attached graphic and provide feedback to Samantha on design, messaging, and any brand guidelines adjustments",
-        "Confirm the April 15th posting date works with Galaxy's marketing calendar and social media strategy",
-        "Coordinate with marketing/communications team to ensure the post aligns with any concurrent campaigns or announcements"
+        "Review the attached graphic for brand alignment and accuracy before approving",
+        "Confirm with Sai whether April 15th fits Galaxy's marketing calendar and social media strategy",
+        "Provide feedback to Samantha on any requested modifications or approve for scheduling"
       ],
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "Thanks Ashley, this is very helpful.\r\n\r\nOn this basis our scope of work would include drafting and negotiating the following documents:\r\n\r\n\r\n  *   the lease, to include the updated provisions described below;\r\n  *   an agreement for lease, to address the ",
-      "received": "2026-04-01T17:57:49Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: simmons-simmons.com",
-        "KW: lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's external legal counsel) is confirming the scope of legal work for the Travellers transaction, which includes drafting and negotiating key transaction documents such as the lease and agreement for lease with updated provisions. This matters because it defines the legal deliverables and timeline for closing a material real estate or data center transaction, directly impacting project execution and cost certainty.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the full scope document from Simmons & Simmons and confirm Galaxy's agreement with the proposed work and any budget/timeline implications with France",
-        "Clarify with Francis what the 'updated provisions' are and ensure they align with Galaxy's commercial terms and risk profile",
-        "Set a kick-off meeting with Francis to establish document delivery timeline and identify any data or approvals Galaxy needs to provide to keep the deal on track"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3033,38 +3063,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "info@datacenternation.com",
-      "sender_name": "Vraj Savaj",
-      "subject": "Don't Miss Your Chance to Attend DCN Toronto 2026",
-      "body_preview": "Don\u2019t miss your opportunity to be at the heart of Canada\u2019s data center ecosystem, in a market growing at a 10.3% CAGR.\r\nDCN Toronto will take place on 9 June 2026 at The International Centre. The event will bring together the leaders shaping Canada\u2019s di",
-      "received": "2026-03-25T20:41:23Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC30j7lFQOpCiheYQ4X95PE=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: datacenternation.com",
-        "KW: data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Vraj Savaj from Data Center Nation is inviting Galaxy to participate in DCN Toronto 2026, a major industry conference scheduled for June 9, 2026 at The International Centre. The event targets Canada's rapidly growing data center market (10.3% CAGR) and brings together ecosystem leaders, presenting a valuable networking and visibility opportunity for Galaxy's business development and market positioning.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Determine Galaxy's interest level and budget for sponsorship, exhibition booth, or speaking opportunity at DCN Toronto 2026",
-        "Request full event details including attendee demographics, sponsorship packages, and expected attendance from Galaxy's target customers and partners",
-        "Schedule a call with Vraj Savaj to discuss Galaxy's specific objectives and how DCN Toronto can support business goals in the Canadian market"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 92
