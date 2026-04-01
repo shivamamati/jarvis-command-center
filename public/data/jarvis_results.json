@@ -1,13 +1,76 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T13:13:17.869631+00:00",
-  "total": 14,
-  "new": 14,
+  "timestamp": "2026-04-01T15:01:42.319334+00:00",
+  "total": 12,
+  "new": 12,
   "noise": 8,
-  "ai": 13,
+  "ai": 11,
   "skipped": 0,
-  "auto_learned": 61,
+  "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "charlie.bruinvels@bcsconsultancy.com",
+      "sender_name": "Charlie Bruinvels",
+      "subject": "Re: Hi!",
+      "body_preview": "Hi Dave\r\n\r\nFriday and Monday are Easter bank holiday days in the UK.\r\n\r\nHow are you fixed next week?  My afternoons (your mornings) on Wednesday 8th and Thursday 9th are relatively clear for me. So are the following Monday, Wednesday and Friday afternoons",
+      "received": "2026-04-01T14:26:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANAD-SzDs9lOkJqO0XzynY8=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 2: bcsconsultancy.com",
+        "KW: nda",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Charlie Bruinvels from BCS Consultancy is reaching out to schedule a meeting with Dave, noting UK Easter bank holidays and proposing alternative time slots. He's offering his availability for the week of April 8th onwards, with afternoons that work for him (mornings for Dave's timezone). This appears to be a relationship-building or business development conversation that requires prompt calendar coordination.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Check Dave's calendar availability for Wednesday 8th and Thursday 9th afternoons (UK time/Dave's mornings) and confirm if either slot works",
+        "If those dates don't work, cross-reference Dave's schedule with the following week's Monday, Wednesday, and Friday afternoon slots Charlie mentioned",
+        "Send Charlie a confirmation of the meeting time, timezone, and meeting purpose/agenda once a slot is locked"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "henry.mileham@storm4.com",
+      "sender_name": "Henry Mileham",
+      "subject": "Re: 4+ GW+ Hyperscale Site Selection & Acquisitions Professional / 15 Years in DC",
+      "body_preview": "Morning Dave,\r\n\r\n\r\n\r\nWas there an interest in the Site Acquisitions & Land Development Leader I shared?\r\n\r\n\r\n\r\nThey are currently in conversations with Microsoft & Iron Mountain, so may not be on the market for long.\r\n\r\n\r\n\r\nBest,\r\n\r\nHenry\r\n\r\nHenry Mileham",
+      "received": "2026-04-01T13:45:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5b8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGQVofLsDL5AssnVhj5JbM8=",
+      "rules_score": 3,
+      "rules_label": "NOTABLE",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Henry Mileham (Storm4) is following up on a candidate introduction for a senior Site Acquisitions & Land Development Leader with 15+ years in hyperscale data centers. The person is actively engaged with Microsoft and Iron Mountain, suggesting they're a high-caliber executive who could add significant value to Galaxy's development pipeline.",
+      "ai_action": "Dave should confirm interest level to Henry immediately. If interested, request the candidate's full CV, background, and availability for a call. This is a time-sensitive opportunity given the candidate's active conversations with tier-1 operators.",
+      "ai_next_steps": [
+        "Reply to Henry confirming interest or pass",
+        "If interested, request candidate CV and call availability",
+        "Assess fit for Galaxy's current site selection / land development needs (Poland 260MW, Innogate Milan, other prospects)"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dmcneish@travelers.com",
       "sender_name": "McNeish, Dave",
@@ -207,36 +270,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "charlie.bruinvels@bcsconsultancy.com",
-      "sender_name": "Charlie Bruinvels",
-      "subject": "Re: Hi!",
-      "body_preview": "Hi France\r\n\r\nGreat yes 8-9 ET tomorrow works for me.\r\n\r\nThanks\r\nCharlie\r\n\r\n\r\nSent from Outlook for iOS\r\nCharlie Bruinvels\r\n\u200b\u200b\u200b\u200b\r\nHead of Land Intelligence\r\n+44 (0) 750 379 3648\r\nCharlie.Bruinvels@bcsconsultancy.com\r\nBCS Consultancy\r\n\u200b41 Eastcheap, London,",
-      "received": "2026-04-01T08:10:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENK9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANAD-SzDs9lOkJqO0XzynY8=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: bcsconsultancy.com"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Charlie Bruinvels, Head of Land Intelligence at BCS Consultancy, is confirming availability for a scheduled call with France tomorrow between 8-9 AM ET. This appears to be a follow-up to an earlier meeting request, likely related to real estate or land acquisition intelligence services that could support Galaxy's data center expansion or site selection strategy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the 8-9 AM ET call is on France's calendar and prepare any relevant discussion topics or materials about Galaxy's current or planned data center locations",
-        "Brief France on BCS Consultancy's services and any specific land intelligence needs Galaxy may have ahead of the call",
-        "Follow up with Charlie post-call to document any actionable insights or potential engagement opportunities"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "fional@digitalrealty.com",
@@ -708,36 +741,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "henry.mileham@storm4.com",
-      "sender_name": "Henry Mileham",
-      "subject": "4+ GW+ Hyperscale Site Selection & Acquisitions Professional / 15 Years in DC",
-      "body_preview": "Morning Dave,\r\n\r\n\r\n\r\nAs Galaxy continues scaling its data center platform to support AI and high-performance compute demand, I wanted to share a Site Selection & Acquisitions professional who could be highly relevant as you scale.\r\n\r\n\r\n\r\nThey have 15+ yea",
-      "received": "2026-03-31T13:19:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGQVofLsDL5AssnVhj5JbM8=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Henry Mileham (Storm4) is introducing a senior site selection & acquisitions professional with 15+ years in hyperscale data center development. This appears to be a talent/resource introduction timed to Galaxy's AI platform scaling needs.",
-      "ai_action": "Dave should clarify with Henry: (1) Is this person available for hire/advisory? (2) What specific experience in 4GW+ sites? (3) Can Henry complete the intro and provide full CV?",
-      "ai_next_steps": [
-        "Reply to Henry asking for candidate's full name, CV, and specific hyperscale deals they've led",
-        "Determine if this is an exec hire need or advisory/consultant role for Galaxy",
-        "If strong fit, have France schedule a call with candidate"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "tj@galaxydatacenters.com",
@@ -3167,38 +3170,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "bobcavoto@2020-4.com",
-      "sender_name": "Bob Cavoto",
-      "subject": "Michael Klein | CRE Executive \u2014 Driving Capital, Deals & Development",
-      "body_preview": "Dave,\r\n\r\n\r\n\r\nPlease find below the resume of Michael Klein for your review (upon request we can attach a PDF version). Michael is a real estate executive with primary experience in capital markets, acquisitions, development, and operations. His expertise ",
-      "received": "2026-03-25T13:27:25Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHDuWnSAxKVKvv1M78u8JTY=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Bob Cavoto is introducing Michael Klein, a commercial real estate executive with experience in capital markets, acquisitions, development, and operations, for Dave's consideration. The email appears to be a professional referral or recruitment pitch highlighting Klein's relevant expertise in CRE sectors that could align with Galaxy Capital Partners' or Galaxy Data Centers' business needs. This matters because it signals a potential candidate or partnership opportunity in real estate development and capital deployment.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the full PDF resume and detailed background on Michael Klein's specific experience with data center or infrastructure projects",
-        "Have France coordinate a preliminary call with Bob Cavoto to understand the exact role or opportunity being proposed",
-        "Assess whether Klein's capital markets and development expertise could support Galaxy's current acquisition or expansion pipeline"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 96
+  "total_tracked": 95
 }

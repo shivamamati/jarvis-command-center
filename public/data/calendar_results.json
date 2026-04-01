@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T13:12:37.351948+00:00",
+  "timestamp": "2026-04-01T15:01:05.949382+00:00",
   "events": [
     {
       "subject": "Badminton with Suhas ",
@@ -58,6 +58,18 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3o%2BBniWAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": " Charlie Bruinvels \u200b\u200b\u200b\u200b<> Dave Misra Catch Up",
+      "start": "2026-04-02T12:00:00.0000000",
+      "end": "2026-04-02T13:00:00.0000000",
+      "attendees": [
+        "Charlie.Bruinvels@bcsconsultancy.com"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpH8AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Kevin Feng and Dave Misra",
