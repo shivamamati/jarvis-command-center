@@ -1,43 +1,113 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T10:12:32.848648+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 3,
-  "ai": 10,
+  "timestamp": "2026-04-01T11:50:45.747248+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 7,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
     {
-      "sender_email": "dmcneish@travelers.com",
-      "sender_name": "McNeish, Dave",
-      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
-      "body_preview": "Ash,\r\nHope all is well \u2013 haven\u2019t heard back from my note below.  Checking to see a status of this agreement.  Should we set up a weekly check point?\r\nThanks\r\nDave\r\n\r\nDavid P McNeish | Vice President\r\nCorporate Procurement\r\nTravelers\r\n1 Tower Sq. | 1MS\r\nHa",
-      "received": "2026-04-01T10:09:10Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "Re: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "Perfect, I have just included you two, please forward to Colin and others in your team if required.\r\n\r\nAsh\r\n\r\nFrom: Gagne, Ben <BGAGNE2@travelers.com>\r\nDate: Wednesday, 1 April 2026 at 12:41\r\nTo: Ashley Roberts <ashley@galaxydatacenters.com>, McNeish, Dav",
+      "received": "2026-04-01T11:49:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
-        "Tier 1: travelers.com",
-        "3 VIPs on thread (+2)"
+        "Calendar match (+2)",
+        "Dave replied 14x (+2)",
+        "Re customer: travelers",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "3 VIPs on thread (+2)",
+        "Thread: 7 msgs (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave McNeish, Vice President of Corporate Procurement at Travelers, is following up on a previously sent message regarding an agreement with Galaxy and requesting a status update. He's proposing weekly check-in meetings to ensure momentum, suggesting the deal may be stalled or awaiting feedback. This matters because Travelers is a significant potential customer, and delays in agreement finalization could impact Galaxy's revenue pipeline and customer relationship credibility.",
+      "ai_summary": "Ben Gagne from Travelers Insurance is confirming that Ashley Roberts has added Dave and another recipient to a communication thread regarding a Galaxy follow-up. This appears to be part of an ongoing business discussion between Travelers and Galaxy, with Ben asking that the information be forwarded to Colin and other team members as needed.",
       "ai_action": null,
       "ai_next_steps": [
-        "France or Dave should contact McNeish directly within 24 hours to provide a concrete status update on the agreement and confirm capacity for weekly touchpoints",
-        "Identify the specific blockers or outstanding items preventing agreement closure and develop a resolution timeline",
-        "Schedule the first weekly checkpoint meeting for early next week to demonstrate commitment and re-establish momentum with Travelers"
+        "Review the full email thread from Travelers to understand the specific business proposal or requirements being discussed",
+        "Coordinate with Colin and relevant team members to ensure alignment on Galaxy's response and next actions with Travelers",
+        "Confirm receipt and clarify any outstanding questions or deliverables Travelers is expecting from Galaxy"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "Travelers Scoping Session",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24244588026472?p=jxh3ZRsaaDxlHHECTl\r\nMeeting ID: 242 445 880 264 72\r\nPasscode: Ed6Ho2VP\r\n__________________",
+      "received": "2026-04-01T11:48:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5byAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFzwVFYI3alKqTHyuZ3ClWQ=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 14x (+2)",
+        "Re customer: travelers",
+        "Internal \u2014 deal/customer related",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts from Galaxy Data Centers is scheduling a Microsoft Teams meeting to conduct a scoping session with Travelers, likely regarding potential infrastructure or data center services. This appears to be an initial discovery/planning meeting to understand Travelers' requirements and assess partnership or service opportunities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and prepare scoping materials (service offerings, capacity, SLAs, pricing models relevant to Travelers' industry vertical)",
+        "Designate internal stakeholders (technical, sales, account management) who should attend to address customer requirements comprehensively",
+        "Research Travelers' current infrastructure needs and competitive landscape before the meeting to maximize value creation"
       ],
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "r.peck@2020-4.com",
+      "sender_name": "Robert Peck",
+      "subject": "Re: Michael Todd Resume: CRE Chief Financial Officer and Investment Executive",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nI recently sent you a resume (upon request we can attach a PDF version) for Michael Todd, a real estate Chief Financial Officer with deep experience leading finance, investment, and asset management functions for institutional and entrepreneu",
+      "received": "2026-04-01T10:51:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGET72U6PWtBlLw4v-UIEYM=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Robert Peck is introducing Michael Todd, a CRE CFO candidate with institutional real estate finance and investment management experience, in response to a prior request from Dave. This appears to be a recruitment referral for a senior finance leadership position that could address Galaxy's potential need for experienced real estate financial expertise as the company scales its data center operations and capital deployment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request the complete resume PDF and detailed background on Michael Todd's specific experience with data center or infrastructure investments",
+        "Schedule a preliminary call with Robert Peck to understand the role profile Galaxy is seeking and whether Michael's experience aligns with current or planned hiring needs",
+        "If potentially relevant, have France coordinate initial screening conversation with Michael Todd to assess fit for Galaxy's finance leadership priorities"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "paul.tester@redhilldatacentre.com",
@@ -3132,5 +3202,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 94
+  "total_tracked": 96
 }
