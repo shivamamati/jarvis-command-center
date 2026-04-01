@@ -1,13 +1,41 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T22:33:38.642583+00:00",
-  "total": 7,
-  "new": 7,
+  "timestamp": "2026-04-01T23:33:03.958230+00:00",
+  "total": 8,
+  "new": 8,
   "noise": 7,
-  "ai": 5,
+  "ai": 4,
   "skipped": 0,
-  "auto_learned": 61,
+  "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "loansupport@saltlending.com",
+      "sender_name": "SALT Loan Support",
+      "subject": "Action Needed: Maturing Loan - SALT Lending Loan Operations/Joe Specific",
+      "body_preview": "Hi Dave,\r\n\r\n\r\nHope you\u2019ve been doing great! This is a friendly reminder that your loan\u2019s maturity date is April 15th, 2026.\r\n\r\n\r\nBefore your loan reaches its maturity date, you have the option to submit a Refinance to extend your loan term or borrow addit",
+      "received": "2026-04-01T23:11:31Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFjl5nronFhNvyaQUqowk8Y=",
+      "rules_score": 3,
+      "rules_label": "NOTABLE",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "SALT Lending is notifying Dave of a maturing loan due April 15, 2026, with refinancing options available. This requires immediate attention to determine if Galaxy needs to refinance, repay, or restructure this debt obligation.",
+      "ai_action": "Dave should review the full loan terms with finance/legal team immediately. Confirm loan details, maturity date, outstanding balance, and refinancing options. Determine if this relates to Redhill Data Centre financing or another Galaxy asset.",
+      "ai_next_steps": [
+        "Retrieve complete SALT Lending loan agreement and current balance sheet to verify which Galaxy asset/project this loan relates to",
+        "Assess refinancing vs. repayment options and timeline given April 2026 maturity",
+        "Contact SALT Lending (Joe Specific noted in subject) to discuss structured refinancing if needed"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "kirstin.dunn@castleforge.com",
       "sender_name": "Kirstin Dunn",
@@ -3065,5 +3093,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 92
+  "total_tracked": 93
 }
