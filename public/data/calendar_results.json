@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T17:46:21.262422+00:00",
+  "timestamp": "2026-04-01T18:56:17.052328+00:00",
   "events": [
     {
       "subject": "Badminton with Suhas ",
@@ -44,6 +44,18 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3o%2BBniWAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "D <> F",
+      "start": "2026-04-01T18:26:00.0000000",
+      "end": "2026-04-01T18:56:00.0000000",
+      "attendees": [
+        "France"
+      ],
+      "organizer": "France",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpH%2FAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",

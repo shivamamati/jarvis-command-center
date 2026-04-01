@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T17:46:50.297229+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 6,
-  "ai": 10,
+  "timestamp": "2026-04-01T18:57:00.530607+00:00",
+  "total": 19,
+  "new": 19,
+  "noise": 12,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Thanks Ashley, this is very helpful.\r\n\r\nOn this basis our scope of work would include drafting and negotiating the following documents:\r\n\r\n\r\n  *   the lease, to include the updated provisions described below;\r\n  *   an agreement for lease, to address the ",
+      "received": "2026-04-01T17:57:49Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) is confirming scope of work for a Travellers-related real estate transaction, which will involve drafting and negotiating lease documents and agreements for lease with updated provisions. This is a material transaction requiring legal documentation and negotiation that could impact Galaxy's data center or capital partnership commitments. The scope confirmation ensures alignment on deliverables and timeline for what appears to be a significant property-related engagement.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the full list of document scope items from Francis to confirm all necessary provisions are covered and aligned with Galaxy's business requirements",
+        "Coordinate with France (if not already done) to discuss updated lease provisions and any specific Galaxy Data Centers operational or financial terms that must be protected",
+        "Confirm timeline and budget for Simmons & Simmons legal work and establish a kickoff meeting with key stakeholders"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -29,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be an incomplete or corrupted email forwarding chain from Dave Misra to Galaxy Marketing and Sarthak Arora regarding 'AI info,' but the actual content and sender details are cut off. Without the full message body, it's unclear what specific information is being requested or what business context requires attention.",
+      "ai_summary": "This appears to be an incomplete or truncated email forwarding chain where Dave Misra is sharing AI-related information with the Galaxy Marketing team and an external contact (sarthak10arora@gmail.com). The email body is cut off, making it unclear what specific AI topic or request is being communicated, but the distribution suggests it relates to marketing or business development efforts.",
       "ai_action": null,
       "ai_next_steps": [
-        "Request Dave clarify or resend the complete email with full content and original sender details",
-        "Confirm with Sarthak Arora and Galaxy Marketing team what AI-related information or initiative this concerns",
-        "Once clarified, assess any Galaxy Data Centers AI infrastructure, partnership, or strategic implications"
+        "Request the complete email body from Dave to understand the full context and specific AI information being shared",
+        "Clarify the purpose of including the external contact and whether this requires confidentiality/NDA considerations",
+        "Determine if this requires Galaxy Marketing to take action or if it's informational only"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -66,12 +100,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is providing financial modeling details on a Nomura deal extension, including commission calculations and legal cost estimates. He's clarifying that the current effective rate is GBP 135.14 and noting that legal costs should be minimal since this involves only a lease extension and rate adjustment rather than a full restructuring. This appears to be seeking approval to move forward with updated deal terms.",
+      "ai_summary": "Paul Leong from Galaxy Data Centers is providing financial modeling details on a Nomura deal, specifically clarifying commission calculations and legal cost estimates for a lease extension and rate adjustment. The current effective rate of GBP 135.14 is being documented as part of IRR model approval, with legal costs estimated at a top-up of 300k and described as minimal given the scope is limited to extension and rate modification.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the attached commission calculation backup and confirm the 300k legal cost estimate is acceptable within deal economics",
-        "Verify the GBP 135.14 effective rate aligns with current market rates and Nomura's lease terms before approval",
-        "Obtain Dave's sign-off on the extension terms and authorize Paul to proceed with Nomura on the rate change"
+        "Review attached commission calculation backup and confirm the 300k legal cost estimate is reasonable for the lease extension scope",
+        "Validate that the GBP 135.14 effective rate properly ties to the lease terms and business plan assumptions in the IRR model",
+        "Obtain formal approval on the updated Nomura IRR model once financial terms and legal costs are confirmed"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -97,11 +131,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "JSA (a media/newsletter organization) is sending a weekly industry briefing covering data center, telecom, and technology news headlines. This is a routine informational newsletter designed to keep subscribers updated on sector developments relevant to their business.",
+      "ai_summary": "JSA is sending Galaxy's weekly industry newsletter covering data center, telecom, and tech headlines. This is a routine market intelligence digest designed to keep leadership informed on sector trends and competitive developments relevant to Galaxy's infrastructure investments.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the headline summary to identify any competitive threats, market opportunities, or regulatory changes affecting Galaxy's data center portfolio",
-        "Flag any items relevant to current Galaxy business development initiatives or customer conversations for discussion with the team"
+        "Review the full newsletter content to identify any material market shifts, competitive moves, or regulatory changes affecting Galaxy's portfolio",
+        "Flag any items with direct relevance to Galaxy Data Centers' current projects or strategic priorities for deeper analysis"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -372,40 +406,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "Hi Paul\r\n\r\nYes no problem. I will need to know the commercial terms please in order to do so, as these are integrated within the lease (unlike the MSA which confines these to the services order), so could you respond to my email below. In particular, in o",
-      "received": "2026-04-01T09:18:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: simmons-simmons.com",
-        "KW: lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons is requesting clarification on commercial terms for the Travellers matter, noting that these terms are embedded within the lease structure rather than separated into a services order as with the MSA. He's waiting for a response to his previous email to move forward with his review.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Locate and provide Francis with the complete commercial terms section from the Travellers lease document",
-        "Clarify which specific commercial terms (pricing, duration, renewal conditions, etc.) are most critical for the legal review",
-        "Follow up with Francis to ensure he has all required information and confirm timeline for his analysis"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -3001,73 +3001,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "France shared \"2026 NDA GALAXY DATA CENTERS\" with you",
-      "body_preview": "France invited you to review a file\r\n\r\nDave, kindly review before I send over for your docusign and for execution of NDA purposes.\r\n\r\n        2026 NDA GALAXY DATA CENTERS\r\n        This invite will only work for you and people with existing access.\r\nOpen  ",
-      "received": "2026-03-25T18:30:06Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhDHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIuiBv_OFqJIjrRPQ5ii6OM=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France is requesting Dave's review of a 2026 NDA document for Galaxy Data Centers before sending it to DocuSign for execution. This is a standard legal compliance step where France needs Dave's approval on the terms before moving forward with formal signing. The NDA likely governs confidentiality obligations for a new business relationship or partnership launching in 2026.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the shared NDA document and provide feedback to France within 24 hours",
-        "Confirm any required modifications or approve as-is so France can proceed with DocuSign routing",
-        "Clarify with France which counterparty or transaction this NDA covers to ensure alignment with Galaxy's 2026 strategic priorities"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fwd: Fwd: Cold calling at 5%? Here is how top performers hit 15%+",
-      "body_preview": "France sign Sai and me up for this webinar, get it on our calendars\r\n\r\n\r\n---------- Forwarded message ----------\r\nFrom: TJ Karklins <tjk@globalvectors.net>\r\nDate: Wednesday, March 25, 2026 at 11:49\u202fAM EDT\r\nSubject: Fwd: Cold calling at 5%? Here is how top",
-      "received": "2026-03-25T17:49:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYQHs5GAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFhvtCoQ5Y9MjppsFpc3S94=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins from Global Vectors is promoting a webinar about improving cold calling conversion rates from 5% to 15%+. Dave is requesting that France register both himself and Sai for this sales training session, indicating Galaxy leadership wants to enhance their outbound prospecting effectiveness.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France locate the webinar registration link and secure spots for Dave and Sai",
-        "Add the webinar to both Dave's and Sai's calendars with any prep materials",
-        "Follow up with Dave post-webinar to discuss applicability of techniques to Galaxy's sales process"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 92
+  "total_tracked": 90
 }
