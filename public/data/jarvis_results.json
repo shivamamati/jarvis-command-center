@@ -1,13 +1,145 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T08:59:37.339329+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 2,
-  "ai": 4,
+  "timestamp": "2026-04-01T10:12:32.848648+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 3,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "dmcneish@travelers.com",
+      "sender_name": "McNeish, Dave",
+      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "Ash,\r\nHope all is well \u2013 haven\u2019t heard back from my note below.  Checking to see a status of this agreement.  Should we set up a weekly check point?\r\nThanks\r\nDave\r\n\r\nDavid P McNeish | Vice President\r\nCorporate Procurement\r\nTravelers\r\n1 Tower Sq. | 1MS\r\nHa",
+      "received": "2026-04-01T10:09:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: travelers.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave McNeish, Vice President of Corporate Procurement at Travelers, is following up on a previously sent message regarding an agreement with Galaxy and requesting a status update. He's proposing weekly check-in meetings to ensure momentum, suggesting the deal may be stalled or awaiting feedback. This matters because Travelers is a significant potential customer, and delays in agreement finalization could impact Galaxy's revenue pipeline and customer relationship credibility.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "France or Dave should contact McNeish directly within 24 hours to provide a concrete status update on the agreement and confirm capacity for weekly touchpoints",
+        "Identify the specific blockers or outstanding items preventing agreement closure and develop a resolution timeline",
+        "Schedule the first weekly checkpoint meeting for early next week to demonstrate commitment and re-establish momentum with Travelers"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul.tester@redhilldatacentre.com",
+      "sender_name": "Paul Tester",
+      "subject": "Re: Welcome to Customer Portal",
+      "body_preview": "Not seen any invite, 10AM ET is not great for Colin as he is busy with Customer reports, Colin is most important for the portal. Can the guide that has been requested be sent to show how all this works and we can then test.\r\n\r\nThanks\r\nPaul\r\n______________",
+      "received": "2026-04-01T09:47:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5biAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALWIhkWI-zdDpnhv5qCwRmE=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Redhill ops",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Tester from Redhill Data Centre is confirming receipt of portal onboarding but hasn't received the expected invitation yet. He's flagging that the proposed 10 AM ET demo time doesn't work for Colin, their key user who handles customer reporting, and is requesting instructional documentation so they can self-test the portal before a scheduled walkthrough.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Resend the customer portal invitation link directly to Paul and confirm Colin's email is included",
+        "Share the portal user guide documentation immediately and offer to reschedule the demo to a time that works for Colin (request his availability)",
+        "Have France or the onboarding team confirm receipt and set a follow-up check-in after Redhill completes self-testing"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
+      "sender_name": "Fredy Marie-Emilienne",
+      "subject": "Meter reading sheet",
+      "body_preview": "Hi Ash,\r\n\r\nThe meter reading sheet is becoming increasingly corrupted, and each month Colin and I are now having to spend several hours trying to correct errors.\r\n\r\nThe original calculations were set up by DLR, and unfortunately any changes we try to make",
+      "received": "2026-04-01T09:39:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMtBchY99w5Ekt-M-d2e3hI=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre is reporting that their meter reading sheet\u2014originally built by DLR\u2014is experiencing data corruption issues that require several hours of manual correction each month. This operational inefficiency is impacting their team's productivity and suggests the underlying system or calculation logic may need to be rebuilt or replaced to ensure reliable, automated billing/monitoring data.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or operations contact Fredy to understand the full scope of corruption issues and request a copy of the current meter reading sheet to assess the root cause",
+        "Determine whether DLR is still the appropriate vendor to fix this or if Galaxy should allocate resources to rebuild the sheet with better data validation and error handling",
+        "Establish a timeline to remediate this before next month's reading cycle to reduce manual burden on Redhill's team and prevent billing or compliance complications"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Hi Paul\r\n\r\nYes no problem. I will need to know the commercial terms please in order to do so, as these are integrated within the lease (unlike the MSA which confines these to the services order), so could you respond to my email below. In particular, in o",
+      "received": "2026-04-01T09:18:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons is requesting clarification on commercial terms for the Travellers matter, noting that these terms are embedded within the lease structure rather than separated into a services order as with the MSA. He's waiting for a response to his previous email to move forward with his review.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Locate and provide Francis with the complete commercial terms section from the Travellers lease document",
+        "Clarify which specific commercial terms (pricing, duration, renewal conditions, etc.) are most critical for the legal review",
+        "Follow up with Francis to ensure he has all required information and confirm timeline for his analysis"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "charlie.bruinvels@bcsconsultancy.com",
       "sender_name": "Charlie Bruinvels",
@@ -373,40 +505,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Welcome to Customer Portal",
-      "body_preview": "Can you send out an invite, Colin Paul does that time work for you guys ?\r\n\r\n________________________________\r\nFrom: Ali Elfanidi <alielfanidi@gmail.com>\r\nSent: Tuesday, March 31, 2026 11:13:41 AM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nCc: Paul Tes",
-      "received": "2026-03-31T15:27:09Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALWIhkWI-zdDpnhv5qCwRmE=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "7 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ali Elfanidi is requesting access to Galaxy's customer portal and asking about scheduling availability with Colin Paul, who appears to handle portal invitations. Dave is responding by asking Colin Paul (the operations contact) to send out the portal invite and confirm if the proposed timing works for the team.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Colin Paul send the customer portal invitation to Ali Elfanidi at alielfanidi@gmail.com",
-        "Confirm the meeting/onboarding time with Colin Paul and reply to Ali with the scheduled date",
-        "Ensure Ali is added to any relevant customer communication channels once portal access is activated"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "it@galaxydatacenters.com",
@@ -1443,39 +1541,6 @@
       "final_label": "IMPORTANT"
     },
     {
-      "sender_email": "kirstin.dunn@castleforge.com",
-      "sender_name": "Kirstin Dunn",
-      "subject": "Re: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "Hi Paul,\r\n\r\nMany thanks for the update on this one. I confirm that new leasing etc is not part of the retainer fee which largely covers ad hoc advice and transitional arrangements rather than deal specific work. In any event you will recall we are looking",
-      "received": "2026-03-29T06:48:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYojn8%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 1: castleforge.com",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Kirstin Dunn from CastleForge is confirming scope boundaries on a Travellers engagement, clarifying that new leasing activities fall outside the existing retainer arrangement and are separately billable as deal-specific work rather than ad hoc advisory. This is a critical commercial distinction that affects how Galaxy structures engagement fees and revenue recognition for this client relationship.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Paul and France whether Galaxy has already quoted separate fees for new leasing work on this Travellers opportunity or if pricing still needs to be established",
-        "Document the confirmed scope exclusion (new leasing outside retainer) in the engagement agreement to prevent future billing disputes",
-        "Determine if this Travellers engagement includes other potential deal-specific revenue streams that should be separately tracked and quoted"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
       "subject": "Re: Citizenship Application \u2013 Final Folder Review Request",
@@ -1863,37 +1928,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dmcneish@travelers.com",
-      "sender_name": "McNeish, Dave",
-      "subject": "Re: [External] Re: Travelers : Galaxy Follow up",
-      "body_preview": "Ash, thank you. Per our discussion we want to emphasize that there will be no material departures from the terms and conditions that we are operating under today. I understand the need to move to new paper but our conditional bid award has this as a corne",
-      "received": "2026-03-27T17:40:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: travelers.com",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave McNeish from Travelers Insurance is confirming that any new agreement with Galaxy must maintain continuity with their current terms and conditions, with no material changes despite transitioning to updated contract documentation. This appears to be a conditional bid award where preservation of existing operational terms is a key requirement for Travelers' commitment.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France clarify the specific terms and conditions Travelers wants preserved and identify any gaps between their requirements and Galaxy's proposed new agreement",
-        "Confirm in writing with McNeish which elements of the current arrangement are non-negotiable to secure the bid award and avoid deal collapse",
-        "Review the conditional bid award details to ensure Galaxy can meet Travelers' requirement for no material departures while modernizing contract documentation"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "josh.scammell@simmons-simmons.com",
@@ -3096,37 +3130,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "kieran.rushe@rapleys.com",
-      "sender_name": "Kieran Rushe",
-      "subject": "1055872 / Rapleys\u00a0LLP / NDA",
-      "body_preview": "Good Morning,\r\n\r\nPlease see the attached document for your review.\r\n\r\nKieran Rushe\r\n\u200b\u200b\u200b\u200b\r\nPartner\r\n,\r\nPlanning\r\nConnected  |  Creative  |  Proactive\r\n|\r\nRapleys LLP\r\nM:\r\n07740 196 419\r\n |\r\nT:\r\n0370 777 2692\r\n |\r\nrapleys.com\r\nOne Upper James Street\r\n,\r\nLon",
-      "received": "2026-03-25T10:04:39Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK6oVAI5moVPrtWM3Da2JVw=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "KW: nda, lease, lp"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Kieran Rushe from Rapleys LLP (planning & development consultancy) is sending Dave an NDA for review under reference 1055872. This appears to be a specific deal or site matter requiring immediate attention\u2014likely related to a data center planning/development project.",
-      "ai_action": "Dave should review the attached NDA immediately and confirm with Kieran if this relates to an existing prospect (Poland 260MW, Innogate Milan, or another site). France should flag the deal code 1055872 in internal systems.",
-      "ai_next_steps": [
-        "Review the attached NDA document",
-        "Confirm with Kieran which asset/deal this relates to",
-        "Route to Simmons & Simmons (legal counsel) for standard review if not already done"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 94
