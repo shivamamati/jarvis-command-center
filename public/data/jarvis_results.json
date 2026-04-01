@@ -1,13 +1,112 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T16:50:15.947652+00:00",
-  "total": 14,
-  "new": 14,
-  "noise": 9,
-  "ai": 13,
+  "timestamp": "2026-04-01T17:46:50.297229+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 6,
+  "ai": 10,
   "skipped": 0,
-  "auto_learned": 61,
+  "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "FW: AI info",
+      "body_preview": "From: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Friday, March 27, 2026 at 1:50\u202fPM\r\nTo: Galaxy Marketing <marketing@galaxydatacenters.com>, sarthak10arora <sarthak10arora@gmail.com>\r\nSubject: FW: AI info\r\n\r\n\r\n\r\nFrom: Dave Misra <dave@galaxydatacen",
+      "received": "2026-04-01T17:35:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTegAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFj4wgzx_IxNpMSMigSDUFU=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be an incomplete or corrupted email forwarding chain from Dave Misra to Galaxy Marketing and Sarthak Arora regarding 'AI info,' but the actual content and sender details are cut off. Without the full message body, it's unclear what specific information is being requested or what business context requires attention.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Dave clarify or resend the complete email with full content and original sender details",
+        "Confirm with Sarthak Arora and Galaxy Marketing team what AI-related information or initiative this concerns",
+        "Once clarified, assess any Galaxy Data Centers AI infrastructure, partnership, or strategic implications"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Nomura Updated IRR model for approval",
+      "body_preview": "Hi Pelle - See attached backup for the commission calc. The top up to 300k is an estimate of legal.  As this is just an extension and rate change it should be really minimal.\r\n\r\nThe current effective rate is GBP 135.14.  This ties to the lease and the bus",
+      "received": "2026-04-01T17:09:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFYocSop3KVCmhf6yrePCQM=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 12x (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: nomura",
+        "Internal \u2014 deal/customer related",
+        "KW: commission, lease",
+        "Broker signal",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is providing financial modeling details on a Nomura deal extension, including commission calculations and legal cost estimates. He's clarifying that the current effective rate is GBP 135.14 and noting that legal costs should be minimal since this involves only a lease extension and rate adjustment rather than a full restructuring. This appears to be seeking approval to move forward with updated deal terms.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached commission calculation backup and confirm the 300k legal cost estimate is acceptable within deal economics",
+        "Verify the GBP 135.14 effective rate aligns with current market rates and Nomura's lease terms before approval",
+        "Obtain Dave's sign-off on the extension terms and authorize Paul to proceed with Nomura on the rate change"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "media@jsa.net",
+      "sender_name": "JSA",
+      "subject": "This Week\u2019s Data Center, Telecom & Tech Headlines in 60 Seconds \u23f2\ufe0f",
+      "body_preview": "Time for your weekly dose of data center, telecom & tech news. Here are the top headlines you may have missed.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
+      "received": "2026-04-01T17:08:08Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABkAc3YibA5Kk9yC_1X5q64=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: jsa.net",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "JSA (a media/newsletter organization) is sending a weekly industry briefing covering data center, telecom, and technology news headlines. This is a routine informational newsletter designed to keep subscribers updated on sector developments relevant to their business.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the headline summary to identify any competitive threats, market opportunities, or regulatory changes affecting Galaxy's data center portfolio",
+        "Flag any items relevant to current Galaxy business development initiatives or customer conversations for discussion with the team"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "ashley@galaxydatacenters.com",
       "sender_name": "Ashley  Roberts",
@@ -33,12 +132,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ashley Roberts from Galaxy Data Centers is following up on a recent partnership discussion with Hiren regarding NexGen collaboration. She is providing specific capacity availability details for the Redhill facility, offering 3MW of immediate capacity in the Main Building Unit 2, indicating Galaxy is ready to move forward with resource commitments for this partnership opportunity.",
+      "ai_summary": "Ashley Roberts from Galaxy Data Centers is following up on a recent partnership discussion with Hiren regarding NexGen, confirming Galaxy's capacity to support their needs. She's offering 3MW of immediately available power capacity at the Redhill facility's Main Building, Unit 2, signaling Galaxy is ready to move forward with commercial discussions.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should review the 3MW capacity offer against NexGen's stated requirements and timeline to assess fit and commercial viability",
-        "France should coordinate with Ashley to clarify the terms, pricing, and service level agreement for the Redhill capacity allocation",
-        "Schedule a follow-up meeting with Ashley and NexGen stakeholders to formalize the partnership terms and secure commitment within the next 1-2 weeks"
+        "Dave should clarify with Ashley/Hiren who the NexGen prospect is and what their capacity/timeline requirements are to assess fit",
+        "Request detailed specifications on the Redhill Main Building Unit 2 capacity (power, cooling, space, pricing) to prepare a formal proposal",
+        "Schedule a follow-up call with both Ashley and Hiren to align on next steps, contract terms, and timeline for deployment"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -538,43 +637,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Nomura Updated IRR model for approval",
-      "body_preview": "Louis, Pelle , Mike & Paul,,\r\n\r\n\r\nAs requested, we added the commissions and legal at GBP 300K (see the yellow highlight at E51) and we have removed the NRC payment for Nomura. The term has been extended to a clean 6 years from Jun 1, 2026 at an all-in ra",
-      "received": "2026-03-31T16:35:22Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENKMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFYocSop3KVCmhf6yrePCQM=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 11x (+2)",
-        "Attachments from known (+1)",
-        "Re customer: nomura",
-        "Internal \u2014 deal/customer related",
-        "KW: commission",
-        "Broker signal",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Tj Karklins is circulating an updated financial model for the Nomura investment opportunity that incorporates commission and legal costs totaling \u00a3300K while removing an NRC payment and extending the contract term to 6 years starting June 2026. This revised model impacts the projected IRR and deal economics that will drive Galaxy's investment decision and capital allocation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the updated IRR model in cell E51 and compare the revised returns against Galaxy's investment hurdle rate and portfolio benchmarks",
-        "Confirm the 6-year term structure and all-in rate assumptions with Nomura before final approval",
-        "Schedule a decision meeting with Louis, Pelle, Mike and Paul to approve or request further modifications to the model"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "kirstin.dunn@castleforge.com",
@@ -2006,39 +2068,6 @@
       "final_label": "NOTABLE"
     },
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "FW: AI info",
-      "body_preview": "From: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Thursday, March 12, 2026 at 11:37\u202fAM\r\nTo: Chris Lillie <c.lillie@uk.cdw.com>\r\nSubject: Re: AI info\r\n\r\nThank you Chris , I ll follow up with them to see if we can get some case studies to present to ",
-      "received": "2026-03-27T17:50:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFj4wgzx_IxNpMSMigSDUFU=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be an incomplete forwarded email chain where Dave is responding to Chris Lillie at CDW regarding AI-related information. Dave is indicating he will follow up with an unspecified party to obtain case studies for presentation purposes, suggesting Galaxy is preparing materials to demonstrate AI capabilities or solutions to prospects or stakeholders.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Chris Lillie what specific AI solutions or case studies CDW is requesting and from which vendors or product lines",
-        "Identify the target audience for these case studies and determine what specific use cases or metrics would be most compelling",
-        "Set a timeline for obtaining and compiling case studies, and assign ownership to ensure follow-up is completed"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
       "sender_email": "josh.scammell@simmons-simmons.com",
       "sender_name": "Josh Scammell",
       "subject": "Redhill update [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
@@ -3038,78 +3067,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill renewal",
-      "body_preview": "Hi Nic - Please see attached some comments from our counsel.  I don't think there is anything too controversial there but let me know if you have any questions.\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Smith, Nicholas L. <nicholas.l.smit",
-      "received": "2026-03-25T17:22:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhC6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Attachments + deal KW (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, renewal",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is forwarding legal counsel's comments on the Redhill renewal contract to Nicholas Smith. He indicates the legal review contains no significant issues and is requesting feedback on the attorney's proposed revisions.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached legal counsel comments and assess any contract modifications to Redhill renewal terms",
-        "Determine if revisions are acceptable or if counterproposals are needed before responding to Paul",
-        "Coordinate with France (if involved in contract approvals) to align on next steps with Redhill counterparty"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Thanks Francis - The markup makes sense to me.  I'll will get it back to Accenture.\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Francis Turley <Francis.Turley@simmons-simmons.com>\r\nSent: Wednesday, March 25, 2026 1:59 AM\r\nTo: Paul Leong <pa",
-      "received": "2026-03-25T16:59:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhC4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Re customer: accenture",
-        "Internal \u2014 deal/customer related",
-        "KW: renewal",
-        "Lease + customer"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong (Galaxy Data Centers internal stakeholder) is confirming approval of a markup proposal for the Redhill contract renewal with Accenture and will communicate this decision back to the client. This represents progress on a significant EMEA infrastructure contract renewal that requires legal/commercial alignment.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Follow up with Paul to confirm Accenture has received the markup and timeline for their response",
-        "Prepare for contract execution or next phase of negotiations once Accenture provides feedback",
-        "Flag the Redhill renewal status in Galaxy's contract pipeline to ensure delivery and revenue recognition"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 93
+  "total_tracked": 92
 }
