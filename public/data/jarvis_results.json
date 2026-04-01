@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-01T07:15:01.621995+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 0,
-  "ai": 1,
+  "timestamp": "2026-04-01T08:59:37.339329+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 2,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "charlie.bruinvels@bcsconsultancy.com",
+      "sender_name": "Charlie Bruinvels",
+      "subject": "Re: Hi!",
+      "body_preview": "Hi France\r\n\r\nGreat yes 8-9 ET tomorrow works for me.\r\n\r\nThanks\r\nCharlie\r\n\r\n\r\nSent from Outlook for iOS\r\nCharlie Bruinvels\r\n\u200b\u200b\u200b\u200b\r\nHead of Land Intelligence\r\n+44 (0) 750 379 3648\r\nCharlie.Bruinvels@bcsconsultancy.com\r\nBCS Consultancy\r\n\u200b41 Eastcheap, London,",
+      "received": "2026-04-01T08:10:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENK9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANAD-SzDs9lOkJqO0XzynY8=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: bcsconsultancy.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Charlie Bruinvels, Head of Land Intelligence at BCS Consultancy, is confirming availability for a scheduled call with France tomorrow between 8-9 AM ET. This appears to be a follow-up to an earlier meeting request, likely related to real estate or land acquisition intelligence services that could support Galaxy's data center expansion or site selection strategy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the 8-9 AM ET call is on France's calendar and prepare any relevant discussion topics or materials about Galaxy's current or planned data center locations",
+        "Brief France on BCS Consultancy's services and any specific land intelligence needs Galaxy may have ahead of the call",
+        "Follow up with Charlie post-call to document any actionable insights or potential engagement opportunities"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "fional@digitalrealty.com",
       "sender_name": "Fiona Leon",
@@ -611,36 +641,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "charlie.bruinvels@bcsconsultancy.com",
-      "sender_name": "Charlie Bruinvels",
-      "subject": "Hi!",
-      "body_preview": "Hi Dave\r\n\r\nIt was great to meet last week!  I enjoyed our discussion.\r\n\r\nLet me know when is good for a follow up.\r\n\r\nThanks\r\nCharlie\r\n\r\nCharlie Bruinvels\r\n\u200b\u200b\u200b\u200b\r\nHead of Land Intelligence\r\n+44 (0) 750 379 3648\r\nCharlie.Bruinvels@bcsconsultancy.com\r\nBCS Co",
-      "received": "2026-03-31T08:43:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANAD-SzDs9lOkJqO0XzynY8=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: bcsconsultancy.com"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Charlie Bruinvels, Head of Land Intelligence at BCS Consultancy, is following up on a recent in-person meeting with Dave and wants to schedule a next conversation. This appears to be an early-stage relationship development outreach, likely related to data center site selection or land intelligence services that could support Galaxy's infrastructure expansion strategy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should confirm availability for a follow-up call and propose 2-3 specific time slots in the coming 1-2 weeks",
-        "Before the call, clarify what specific services or intelligence BCS Consultancy offers and how they might align with Galaxy's current site acquisition or development pipeline",
-        "Assign France or relevant team member to prepare background on BCS Consultancy and any prior discussions about their capabilities"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "dse@eumail.docusign.net",
@@ -3127,43 +3127,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "Fw: 25/02312/F - Redhill data centre",
-      "body_preview": "Gents\r\n\r\nCan I have some input on item iii below?\r\n\r\nI suspect we are going to be pushed for this.\r\n\r\nI'm trying to work through with the team a mechanism to prevent Unit 1+2 being treated in combination with Unit 3\r\n\r\nSent from Outlook for Android\r\n\r\n___",
-      "received": "2026-03-25T08:27:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYQLhCNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMggACePzk4tndbU3-KBthI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Attachments from known (+1)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: data cent",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones is requesting input on a planning matter (25/02312/F) related to a Redhill data center project, specifically regarding how Unit 1+2 should be contractually or operationally separated from Unit 3 to avoid them being treated as a combined development. He anticipates regulatory or stakeholder pushback and is working to establish a mechanism to keep these units distinct in the planning/permitting process.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the full planning application 25/02312/F and identify the specific condition or requirement (item iii) that Rhys is concerned about",
-        "Coordinate with Rhys and the project team to understand the commercial and regulatory implications of Unit 1+2 being combined with Unit 3, then develop separation strategies (e.g., separate operating agreements, phased timelines, or distinct ownership structures)",
-        "Engage with legal and planning consultants to draft language or structural solutions that satisfy regulatory requirements while protecting Galaxy's flexibility on the Redhill project"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 95
+  "total_tracked": 94
 }
