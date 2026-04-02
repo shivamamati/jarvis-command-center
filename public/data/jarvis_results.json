@@ -1,13 +1,79 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-02T20:31:25.273418+00:00",
+  "timestamp": "2026-04-02T21:34:07.919562+00:00",
   "total": 8,
   "new": 8,
-  "noise": 4,
-  "ai": 3,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 55,
+  "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "saulakh@graingp.com",
+      "sender_name": "Suraj Aulakh",
+      "subject": "RE: NWS Operating Role for Data Center Initiative",
+      "body_preview": "That sounds great, thank you for the update Dave!\r\n\r\n\r\nSuraj Aulakh\r\nGrain Management, LLC\r\nDirect +1 (202) 843-9418  |  Mobile +1 (202) 993-4520\r\nCONFIDENTIALITY AND SECURITY NOTICE: This communication, including any attachments, is intended only for the",
+      "received": "2026-04-02T21:04:58Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5ecAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "KW: data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Suraj Aulakh from Grain Management is responding positively to a proposal about an operating role for a data center initiative. This appears to be a continuation of an active discussion Dave initiated, suggesting a potential partnership or operational arrangement.",
+      "ai_action": "Dave should review his sent email to Suraj to understand the context of the 'NWS Operating Role' proposal and determine next steps for this data center initiative partnership.",
+      "ai_next_steps": [
+        "Locate Dave's original email to Suraj about the NWS Operating Role to understand what was proposed",
+        "Clarify scope: Is this about staffing, operational management, or a specific deal?",
+        "Schedule follow-up call with Suraj to advance discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fwd: Update from Friday Call",
+      "body_preview": "FYI\r\n\r\n\r\n---------- Forwarded message ----------\r\nFrom: Candace Sipos <candace@jsa.net>\r\nDate: Thursday, April 2, 2026 at 12:48\u202fPM EDT\r\nSubject: Update from Friday Call\r\nTo: Dave Misra <dave@galaxydatacenters.com>, Sai Raman <sai@galaxydatacenters.com>, A",
+      "received": "2026-04-02T20:54:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTexAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is following up on a Friday discussion with you and Sai Raman regarding an unspecified matter. Without the full email body visible, the specific request or update cannot be determined, but this appears to be a time-sensitive communication that requires immediate clarification of context and next actions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Retrieve the complete forwarded email thread to identify the Friday call topic and Candace's specific request or update",
+        "Schedule a brief sync with Sai Raman to confirm what was discussed and align on Galaxy's response",
+        "Reply to Candace with Galaxy's position or requested information within 24 hours to maintain momentum"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "rodrigo@galaxydatacenters.com",
       "sender_name": "Rodrigo M",
@@ -69,70 +135,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Update from Friday Call",
-      "body_preview": "Hey Dave, Sai & Ash,\r\n\r\nThank you again for the call with Dean & I on Friday!\r\n\r\nAs a quick update, we threw in a few more complimentary hours after that call, so you've received 40+ free hours over the past few months between the ones we added recently +",
-      "received": "2026-04-02T16:48:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is following up on a Friday call with Dean and providing notice that JSA has extended complimentary service hours to Galaxy\u2014now totaling 40+ hours of free usage accumulated over recent months. This appears to be a goodwill gesture following a business discussion and signals JSA's commitment to the relationship.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Candace what services these hours cover and confirm Galaxy's usage tracking to ensure proper accounting and value capture",
-        "Determine if these complimentary hours are part of a broader negotiation or trial for potential paid services, and establish timeline/terms for conversion",
-        "Have Finance or Operations reconcile the 40+ hours against Galaxy's records and assess ROI from this relationship"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "saulakh@graingp.com",
-      "sender_name": "Suraj Aulakh",
-      "subject": "RE: NWS Operating Role for Data Center Initiative",
-      "body_preview": "Hi Dave,\r\n\r\nI just wanted to check in and see if you had any updates.\r\n\r\nThank you,\r\n\r\nSuraj Aulakh\r\nGrain Management, LLC\r\nDirect +1 (202) 843-9418  |  Mobile +1 (202) 993-4520\r\nCONFIDENTIALITY AND SECURITY NOTICE: This communication, including any attac",
-      "received": "2026-04-02T16:43:28Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Suraj Aulakh from Grain Management is following up on a previous conversation about an NWS (likely Northwest/Network) Operating Role related to a data center initiative. This appears to be a continuation of an active discussion\u2014Dave has already engaged with Suraj on this topic, making this a priority follow-up.",
-      "ai_action": "Dave should respond to Suraj with a status update on the NWS operating role / data center initiative. If this is related to an active deal or partnership, prioritize clarifying next steps.",
-      "ai_next_steps": [
-        "Review previous email thread with Suraj Aulakh to confirm what NWS initiative was being discussed",
-        "Determine current status and provide Suraj with a substantive update",
-        "Schedule a call if timeline/terms need discussion"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "matthew.welch@datacenternation.com",
