@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-02T11:43:50.327845+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 7,
-  "ai": 9,
+  "timestamp": "2026-04-02T13:04:33.701822+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 8,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "dan@528consulting.com",
+      "sender_name": "Dan Ryan",
+      "subject": "Available Inventory/ 2.5 MW recips/ LM6000s/ Frame 5 \u2013 26 MW/ LM2500 G4/ New MTU/ CAT C175",
+      "body_preview": "Hi Dave\r\n\r\nOur team @ AeroGenIQ.com is pleased to present this inventory list for your review:\r\n\r\n14 \u00d7 2.5 MW recips\r\n10 \u00d7 LM6000\r\n2 \u00d7 LM6000\r\nFrame 5 \u2013 26 MW (GE turbine, new, 2014 build, preserved in crate)\r\n10 \u00d7 Siemens SGT-A05 (5.4 MW each, ~54 MW tot",
+      "received": "2026-04-02T12:01:14Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5ddAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABNJN-ziMmdKs8MC4dthbSI=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: mw, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Dan Ryan from 528 Consulting (representing AeroGenIQ) is offering specific power generation equipment inventory directly to Dave: reciprocating engines (2.5 MW units), gas turbines (LM6000s, Frame 5 26 MW GE unit, Siemens SGT-A05s totaling ~54 MW), and new MTU/CAT generators. This is directly relevant to Galaxy's data center power infrastructure needs and could support both existing operations and new development projects.",
+      "ai_action": "Dave should review the equipment list and specifications, then have someone (likely engineering contact at Adaptive MDC or operations team) vet the condition, pricing, and logistics. Request detailed specs, pricing, and availability timeline.",
+      "ai_next_steps": [
+        "Forward to Adaptive MDC engineering team for technical assessment of equipment condition and suitability for Galaxy projects",
+        "Ask Dan for pricing, delivery timeline, and any certifications/maintenance records on the turbines and engines",
+        "Determine if this inventory fits current projects (Redhill expansion, Poland 260MW, or 18MW TechRE prospect)"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "colin.bell@redhilldatacentre.com",
       "sender_name": "Colin Bell",
@@ -3128,109 +3158,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: Scheduling JSA Discussion with Candace",
-      "body_preview": "Yes, 2:30 Eastern works for us today! Thank you for the flexibility.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Wed, Mar 25, 2026 at 10:45\u202fPM Dave Misra <dave@galaxydatacenters.com> wrote:\r\nCandace can y",
-      "received": "2026-03-26T12:39:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZD1E-Kax5JusobrsfKwvc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, has confirmed availability for a scheduled discussion today at 2:30 PM Eastern time. This appears to be a follow-up to a previous meeting proposal, and her confirmation indicates JSA's willingness to proceed with the conversation Galaxy initiated.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the 2:30 PM ET call with Candace and ensure all participants from Galaxy are prepared with relevant materials for the JSA discussion",
-        "Brief France on the meeting objectives and any outstanding items from prior JSA conversations before the call",
-        "Follow up with meeting notes and next actions immediately after the call to maintain momentum"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "UPS Service and Client Training",
-      "body_preview": "Gents\r\n\r\nHaving spoken to Luke, it seems we may be invertedly tag-teaming Eaton as I understand that he has made a request of Eaton for a maintenance proposal and Stuart Farmer has approached Eaton for a proposal also - based on 4h clock and either 1 or 2",
-      "received": "2026-03-26T11:57:09Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH_rtiwSZOVJi80-G4OLPSY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: proposal",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones is flagging potential coordination issues with Eaton regarding UPS service proposals. It appears multiple Galaxy team members (Luke, Rhys, and Stuart Farmer) may be independently requesting overlapping proposals from Eaton based on different service level parameters (4-hour response with 1 or 2-shift coverage options), creating duplicative efforts and potential confusion with the vendor.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Luke and Stuart Farmer what specific UPS maintenance proposals each requested from Eaton to eliminate redundancy and consolidate into a single, coordinated RFP",
-        "Establish clear ownership and timeline for the Eaton engagement to ensure consistent messaging and prevent vendor frustration",
-        "Define Galaxy's actual UPS service requirements (response time, shift coverage, scope) before finalizing any proposal discussions with Eaton"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "9395x install - RDCL",
-      "body_preview": "Gents\r\n\r\nI need some input as to the demarcation of activity between installer and commissioning engineers - as it seems the approach has changed from 9395p to 9295x.\r\n\r\nIt seems the expectation of Eaton's commissioning engineers was that the installer wo",
-      "received": "2026-03-26T11:53:08Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH5bZemobv5KrwEVnlI8NnY=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: commission",
-        "Broker signal"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Galaxy Data Centers is requesting clarity on the division of responsibilities between installation and commissioning teams for the 9395x equipment at RDCL, noting that the workflow has shifted from the previous 9395p approach. This demarcation issue could impact project timeline, cost allocation, and resource planning if roles and accountabilities aren't clearly defined between Galaxy's installers and Eaton's commissioning engineers.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Eaton the specific commissioning scope and deliverables expected from their engineers versus Galaxy's installer responsibilities for the 9395x",
-        "Document the agreed demarcation in writing to avoid scope creep or disputes during the RDCL installation",
-        "Review the 9395p approach and identify what changed to understand resource and scheduling implications for the current project"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 97
+  "total_tracked": 95
 }
