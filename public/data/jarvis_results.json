@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-02T09:58:31.740115+00:00",
+  "timestamp": "2026-04-02T10:56:11.794209+00:00",
   "total": 8,
   "new": 8,
-  "noise": 3,
-  "ai": 8,
+  "noise": 4,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "dean.roberts@savills.com",
+      "sender_name": "Dean Roberts",
+      "subject": "RE: S140 TX Consumption \u2013 Alignment and Source of Truth",
+      "body_preview": "Hi Colin,\r\n\r\nTo simplify this while the meter issue remains unresolved, I will be applying a fixed estimated consumption based on the last 12 months of validated usage where the meter was operating correctly.\r\n\r\nThe average monthly consumption over that p",
+      "received": "2026-04-02T10:53:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGemCM06jjtCrq9xd8oIw5E=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "HIGH importance (+2)",
+        "VIP: savills.com",
+        "10 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dean Roberts from Savills is communicating a temporary workaround for an unresolved metering issue at S140 TX by implementing a fixed estimated consumption baseline derived from 12 months of validated historical data. This matters to Galaxy because it establishes a provisional billing methodology and consumption baseline for your Texas facility while the technical metering problem is being resolved, which impacts revenue accuracy and operational reporting.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France coordinate with Dean Roberts to confirm the exact fixed consumption figure being applied and get written documentation of this baseline for Galaxy's records",
+        "Establish a timeline with Savills for when the meter issue will be fully resolved and consumption will revert to actual readings",
+        "Flag this consumption adjustment in Galaxy's financial and operational reporting until live metering is restored"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -3198,5 +3231,5 @@
       "final_label": "URGENT"
     }
   ],
-  "total_tracked": 96
+  "total_tracked": 97
 }
