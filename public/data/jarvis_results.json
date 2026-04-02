@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-02T06:10:02.070709+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 4,
-  "ai": 6,
+  "timestamp": "2026-04-02T08:04:13.698200+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 1,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is forwarding a tax preparation services agreement and checklist to Anuj ahead of a Friday call discussion. He wants to ensure Anuj reviews the tax compliance materials in advance so they can discuss them substantively during their meeting. This matters to Galaxy because timely tax preparation and compliance planning is critical for maintaining operational efficiency and avoiding penalties before year-end.",
+      "ai_summary": "Dave is forwarding a tax preparation services agreement and checklist to Anuj in advance of a Friday call discussion. This appears to be routine tax compliance preparation for Galaxy Capital Partners/Galaxy Data Centers ahead of year-end or annual tax filing. The proactive sharing ensures Anuj has time to review materials before the scheduled discussion.",
       "ai_action": null,
       "ai_next_steps": [
-        "Anuj should review the tax checklist and services agreement before Friday's call to identify any questions or items requiring clarification",
-        "Dave should confirm the specific time for Friday's call and clarify which tax items or compliance areas are priorities for discussion",
-        "Assign responsibility for completing any pre-call action items (e.g., gathering documents, reviewing prior year returns) to ensure productive discussion"
+        "Review the tax checklist and services agreement before the Friday call to identify any questions or missing items",
+        "Confirm the Friday call time and ensure both Dave and Anuj are aligned on agenda items related to tax preparation",
+        "Gather any outstanding documents or information Galaxy may need to provide to the tax preparation service"
       ],
       "ai_failed": false,
       "final_score": 4,
