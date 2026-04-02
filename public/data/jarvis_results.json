@@ -1,13 +1,148 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-02T13:04:33.701822+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 8,
-  "ai": 7,
+  "timestamp": "2026-04-02T14:53:10.301460+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 9,
+  "ai": 14,
   "skipped": 0,
   "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Kevin Feng Cornell '27 | Unpaid Internship Inquiry",
+      "body_preview": "From: Kevin Feng <kf376@cornell.edu>\r\nDate: Friday, March 27, 2026 at 1:54\u202fPM\r\nTo: France <france@galaxydatacenters.com>, Galaxy Hiring <hiring@galaxycapitalpartners.com>\r\nSubject: \u56de\u590d: Kevin Feng Cornell '27 | Unpaid Internship Inquiry\r\n\r\nHi France,",
+      "received": "2026-04-02T14:49:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAZBLfVqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGqUrv6606RAsPjm0fvfwnc=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kevin Feng, a Cornell University student (Class of 2027), has submitted an inquiry about an unpaid internship opportunity at Galaxy. He is seeking hands-on experience and appears to be reaching out through both the data centers and capital partners divisions. This represents a potential talent pipeline opportunity for Galaxy to nurture early-stage engineering or finance talent while meeting operational needs at minimal cost.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France clarify with Kevin which division (Galaxy Data Centers or Galaxy Capital Partners) and which specific department aligns with his academic focus and career goals",
+        "Determine if Galaxy has formal unpaid internship programs, legal compliance requirements, and whether this could convert to paid opportunity based on performance",
+        "If proceeding, route to appropriate hiring manager with details on internship scope, timeline, and mentorship structure"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Queen's Commerce - Infrastructure Underwriting & Data Analytics Bandwidth",
+      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 650-448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\nFrom: Faye Pan <faye.p@queensu.ca>\r\nDate: Monday, March 30, 2026 at 7:58\u202fPM\r\nTo: Dave Misra ",
+      "received": "2026-04-02T14:31:25Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5drAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM_xu6jQJG5OmZhiqhzguXI=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Faye Pan from Queen's University Commerce is reaching out to Dave Misra regarding infrastructure underwriting and data analytics bandwidth capabilities. This appears to be an inquiry about Galaxy's technical infrastructure services potentially for an academic or research initiative at Queen's Commerce. The engagement could represent a new institutional customer opportunity and establish Galaxy as a preferred infrastructure provider for a major Canadian university.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or a business development lead reach out to Faye to schedule an initial call to understand Queen's specific infrastructure and bandwidth requirements",
+        "Prepare a capabilities overview document highlighting Galaxy's data center services, analytics bandwidth, and relevant case studies for institutional clients",
+        "Explore whether this is a one-time project or potential multi-year partnership opportunity with Queen's Commerce department"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "colin.bell@redhilldatacentre.com",
+      "sender_name": "Colin Bell",
+      "subject": "ARM Monthly Operations Meeting",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 399 615 340 622 19\r\nPasscode: fo6MF2GP\r\n________________________________\r\nFor organisers: Meeting options\r\n__",
+      "received": "2026-04-02T13:43:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIhBFlK-iXhPgqI4wP_oR2M=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Redhill ops",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Bell from Redhill Data Centre is sending a Microsoft Teams meeting invite for an ARM Monthly Operations Meeting. This appears to be a routine operational sync, likely covering performance metrics, maintenance, or service delivery issues relevant to Galaxy's data center operations or partnerships. Attendance ensures Galaxy stays aligned on critical ARM infrastructure and operational standards that may impact Galaxy Data Centers' services or clients.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and add to Dave's calendar for the ARM Monthly Operations Meeting",
+        "Brief France on meeting agenda and any Galaxy-specific items to discuss with Redhill",
+        "Prepare any Galaxy operational metrics or issues to raise with Colin's team"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Hi Kirstin\r\n\r\nThe fee is a cap, which is less than the \u00a355,000 cap we have set out in the engagement letter. If the matter comes in at less than that we would of course only charge for the time spent.\r\n\r\nLeases are much less flexible than MSAs so in order",
+      "received": "2026-04-02T13:29:25Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5diAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons is clarifying that the quoted fee for Travellers is a capped amount below the \u00a355,000 engagement letter threshold, with actual charges based on time spent if lower. He's beginning to explain differences between lease and MSA flexibility, suggesting potential complications with the transaction structure.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Obtain the complete email from Francis to understand the full scope of lease vs. MSA concerns and any implications for deal timeline or costs",
+        "Confirm with legal counsel whether the quoted fee is acceptable and obtain detailed scope of work to be delivered within that cap",
+        "Schedule a call with Francis to clarify the lease flexibility constraints and determine if any deal structure adjustments are needed"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dan@528consulting.com",
       "sender_name": "Dan Ryan",
@@ -536,40 +671,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "kirstin.dunn@castleforge.com",
-      "sender_name": "Kirstin Dunn",
-      "subject": "Re: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "I\u2019ve emailed them just now and yes please worth getting Eversheds to quote.\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Wednesday, Apr",
-      "received": "2026-04-01T20:16:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 1: castleforge.com",
-        "KW: lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Kirstin Dunn from Castle Forge has confirmed she's reached out to a third party regarding a Travellers insurance matter and is endorsing Galaxy's plan to obtain a legal quote from Eversheds. This appears to be routine insurance or legal work related to an operational issue that requires external counsel review.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or counsel contact Eversheds to request a quote for the legal work Kirstin is referencing",
-        "Clarify with Kirstin or Paul what specific Travellers matter requires legal review to ensure the scope is clearly defined",
-        "Set a timeline for receiving and reviewing the Eversheds quote before proceeding"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "louis.mueller@castleforge.com",
@@ -1602,40 +1703,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Queen's Commerce - Infrastructure Underwriting & Data Analytics Bandwidth",
-      "body_preview": "Faye, as you coordinate with France. Can you build a tool using LLMS to scan for data center acquisition opportunities in EMEA. Feel free to vibe code it.\r\n\r\n\r\nTech-Enabled Diligence & Sourcing: Highly proficient in Python (pandas) and advanced LLM\r\n\r\nwor",
-      "received": "2026-03-30T23:05:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAYy4XarAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM_xu6jQJG5OmZhiqhzguXI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, data cent",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is requesting that Faye (in coordination with France) develop an LLM-powered tool to identify data center acquisition targets across EMEA, with flexibility on implementation approach. This directly supports Galaxy's M&A pipeline by automating the sourcing and initial screening of acquisition opportunities in a key geographic market, reducing manual diligence time and improving deal flow velocity.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Faye and France scope the LLM tool requirements: define data sources (public listings, market reports, financial filings), search criteria (size, location, financial metrics), and output format for deal qualification",
-        "Allocate development resources and establish a timeline for a prototype; clarify whether this should integrate with existing systems or operate as a standalone screening tool",
-        "Define success metrics for the tool (deal quality, time savings, accuracy of targets identified) and establish a review cycle with Dave once initial results are available"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3092,72 +3159,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul.tester@redhilldatacentre.com",
-      "sender_name": "Paul Tester",
-      "subject": "Re: (Salesforce) How to find the access management app",
-      "body_preview": "Hi\r\n\r\nI can see that display below, and then if I select a company like DCSL it comes up.\r\nCant see any way to actually enter a NEW contact and give them access, can others on this email try this so its not just me going mad...\r\n\r\nAs we explained, we need",
-      "received": "2026-03-26T14:00:25Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIW0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACrL5YGneqZPm36wXgDzaHg=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 4x (+2)",
-        "Redhill ops",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Tester from Redhill Data Centre is reporting a usability issue with Galaxy's Salesforce access management app\u2014specifically that he cannot find a way to add new contacts and grant them system access, despite being able to view existing companies. He's asking other team members to confirm whether this is a widespread problem or a personal issue, which suggests this functionality gap may be blocking customer onboarding or access provisioning workflows.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or a technical lead verify whether the 'add new contact' feature exists in the current Salesforce configuration and assess if it's a UI/UX issue or missing functionality",
-        "Contact Paul directly to understand the exact workflow he's trying to complete and whether this is blocking an active customer need",
-        "If confirmed as a gap, prioritize a fix or workaround to prevent delays in customer access provisioning for Galaxy Data Centers"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "Fw: Graphene Batteries",
-      "body_preview": "FYI\r\n\r\n\r\n________________________________\r\nFrom: Stuart Farmer <s.farmer@mercurypower.net>\r\nSent: 26 March 2026 1:05 PM\r\nTo: Rhys Jones <rj@galaxydatacenters.com>; Tom Benfield <t.benfield@mercurypower.net>\r\nSubject: Re: Graphene Batteries\r\n\r\nHi Rhys\r\n\r\nT",
-      "received": "2026-03-26T13:13:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIWvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAF7fCD4HOFBNuQvz-0fTxMk=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: power"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Stuart Farmer from Mercury Power is following up on a graphene battery discussion with Rhys Jones and Tom Benfield. The email appears to be incomplete or a forwarded thread regarding a technical or commercial opportunity around graphene battery technology that may be relevant to Galaxy's data center operations or energy infrastructure.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Ask Rhys Jones to provide the full email thread and context on Mercury Power's graphene battery proposal and how it relates to Galaxy's current or future power/cooling needs",
-        "Determine if this represents a potential cost-saving opportunity for data center operations or a business development/partnership opportunity",
-        "Schedule a call with Stuart Farmer and Tom Benfield to understand their timeline, technical specifications, and commercial terms if this warrants further exploration"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
   "total_tracked": 95
