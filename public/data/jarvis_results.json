@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-02T16:59:03.008709+00:00",
-  "total": 32,
-  "new": 32,
-  "noise": 18,
-  "ai": 25,
+  "timestamp": "2026-04-02T17:53:24.143691+00:00",
+  "total": 19,
+  "new": 19,
+  "noise": 13,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "ash@thefamilyofficesglobal.com",
+      "sender_name": "Ashmoret Mishal",
+      "subject": "House of Lords",
+      "body_preview": "Hi Dave,\r\nHow are you?\r\nIs this of interest to you?\r\n HOL Pitch Deck Final 3-2-26.pdf\r\n--\r\n\r\nDISCLAIMER AND CONFIDENTIALITY NOTICE: Securities offered by FNEX Capital, LLC, a member of FINRA and SIPC. Advisory Services offered through The Family Offices G",
+      "received": "2026-04-02T17:30:46Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAF84cReTvuRBsem2_eWl7Tk=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Ashmoret Mishal from The Family Offices Global is reaching out directly to Dave with a specific pitch deck attachment labeled 'House of Lords' (likely a data center or infrastructure project codename). This appears to be a personalized investment or partnership opportunity from a family office contact.",
+      "ai_action": "Dave should review the attached pitch deck immediately. France should follow up with Ashmoret to clarify the project scope, MW capacity, geography, and investment structure within 24 hours.",
+      "ai_next_steps": [
+        "Review HOL Pitch Deck Final 3-2-26.pdf to understand project details, location, and capital requirements",
+        "France to call/email Ashmoret asking: project name, location, MW capacity, timeline, and type of opportunity (co-invest, JV, acquisition)",
+        "Determine if this fits Galaxy's European data center investment thesis and current capital availability"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -31,12 +61,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is following up on a Friday call with Dave and the team, confirming that JSA has added additional complimentary service hours to Galaxy's account as a goodwill gesture, bringing the total free hours provided to over 40 in recent months.",
+      "ai_summary": "Candace Sipos from JSA is following up on a Friday call with Dean and providing notice that JSA has extended complimentary service hours to Galaxy\u2014now totaling 40+ hours of free usage accumulated over recent months. This appears to be a goodwill gesture following a business discussion and signals JSA's commitment to the relationship.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Candace what services these hours cover and confirm they are being properly applied to Galaxy's account",
-        "Review JSA's pricing and service model to understand the commercial value of these complimentary hours and assess ROI",
-        "Schedule follow-up discussion with Candace to discuss potential commercial agreement or expansion of the relationship"
+        "Clarify with Candace what services these hours cover and confirm Galaxy's usage tracking to ensure proper accounting and value capture",
+        "Determine if these complimentary hours are part of a broader negotiation or trial for potential paid services, and establish timeline/terms for conversion",
+        "Have Finance or Operations reconcile the 40+ hours against Galaxy's records and assess ROI from this relationship"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -61,12 +91,12 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "URGENT",
-      "ai_summary": "Suraj Aulakh from Grain Management is following up on a previous conversation about an NWS (likely Northwest/Network) Operating Role for a data center initiative. This appears to be an ongoing discussion about a potential operational or partnership opportunity that Dave was previously engaged with.",
-      "ai_action": "Dave should respond with an update on the NWS operating role discussion. If this relates to a specific Galaxy asset or prospect, flag context from prior conversations with Suraj.",
+      "ai_summary": "Suraj Aulakh from Grain Management is following up on a previous conversation about an NWS (likely Northwest/Network) Operating Role related to a data center initiative. This appears to be a continuation of an active discussion\u2014Dave has already engaged with Suraj on this topic, making this a priority follow-up.",
+      "ai_action": "Dave should respond to Suraj with a status update on the NWS operating role / data center initiative. If this is related to an active deal or partnership, prioritize clarifying next steps.",
       "ai_next_steps": [
-        "Retrieve prior email thread with Suraj to understand the NWS operating role scope and timeline",
-        "Clarify whether this relates to Redhill, the 18MW AI prospect, or another Galaxy initiative",
-        "Respond to Suraj with status update or next meeting date"
+        "Review previous email thread with Suraj Aulakh to confirm what NWS initiative was being discussed",
+        "Determine current status and provide Suraj with a substantive update",
+        "Schedule a call if timeline/terms need discussion"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -92,12 +122,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Matthew Welch from Data Center Nation is responding to a speaking invitation for DCN Toronto 2026 and offering to schedule a meeting through his calendar link to discuss further. This represents a potential speaking opportunity for Galaxy at a major industry conference that could enhance visibility and thought leadership in the data center space. The incomplete message suggests he's interested but needs to finalize logistics with France.",
+      "ai_summary": "Matthew Welch from Data Center Nation is responding to a speaking opportunity inquiry for DCN Toronto 2026 and is offering to schedule a meeting to discuss further. He's apologizing for delayed responsiveness but is now engaged and willing to move the conversation forward at Galaxy's convenience. This represents a confirmed interest in a potential partnership or speaking engagement that could enhance Galaxy's visibility in the data center industry.",
       "ai_action": null,
       "ai_next_steps": [
-        "Click the calendar link in Matthew's email signature to schedule a meeting with him to confirm speaking details and event logistics",
-        "Prepare a speaker outline or talking points for Dave or France to present at DCN Toronto 2026 once the commitment is confirmed",
-        "Add the confirmed speaking slot to Dave's calendar and brief him on the conference agenda, audience, and any pre-event promotional requirements"
+        "France should use the scheduling link in Matthew's email signature to book a meeting at an optimal time",
+        "Prepare a brief overview of what Galaxy would want to accomplish through the DCN Toronto 2026 speaking opportunity before the call",
+        "Confirm attendance details and speaking format expectations once the meeting is scheduled"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -124,12 +154,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Josh Scammell from Simmons Simmons (legal counsel) is coordinating the collection of underlying evidence documentation for the Redhill matter, with Ashley Roberts and Jamie responsible for gathering and submitting specific items. This appears to be a legal discovery or due diligence process that requires coordinated document submission from multiple parties. Timely provision of these materials is critical to maintain momentum on what appears to be a material transaction or legal proceeding involving Galaxy.",
+      "ai_summary": "Josh Scammell from Simmons & Simmons is coordinating the collection of underlying evidence documentation for the Redhill matter, with Ashley Roberts providing available items and Jamie providing the remainder. This appears to be part of a legal discovery or due diligence process that requires documentation from multiple parties on Galaxy's side.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Ashley Roberts and Jamie what specific evidence items are required and establish a clear submission timeline",
-        "Review the full email chain (appears cut off) to understand the complete scope of documentation needed and any deadlines",
-        "Designate a point person to coordinate with Simmons Simmons and ensure all requested materials are compiled and delivered promptly"
+        "Confirm with Ashley Roberts what evidence items are currently available and establish a deadline for submission",
+        "Clarify with Jamie what remaining documentation is required and create a detailed checklist to ensure complete delivery",
+        "Have France coordinate internally to identify all requested materials and ensure timely compilation to avoid litigation delays"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -3254,5 +3284,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 98
+  "total_tracked": 99
 }
