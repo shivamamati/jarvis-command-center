@@ -1,13 +1,140 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-02T15:58:29.081946+00:00",
-  "total": 28,
-  "new": 28,
-  "noise": 13,
+  "timestamp": "2026-04-02T16:59:03.008709+00:00",
+  "total": 32,
+  "new": 32,
+  "noise": 18,
   "ai": 25,
   "skipped": 0,
-  "auto_learned": 62,
+  "auto_learned": 60,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Update from Friday Call",
+      "body_preview": "Hey Dave, Sai & Ash,\r\n\r\nThank you again for the call with Dean & I on Friday!\r\n\r\nAs a quick update, we threw in a few more complimentary hours after that call, so you've received 40+ free hours over the past few months between the ones we added recently +",
+      "received": "2026-04-02T16:48:45Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is following up on a Friday call with Dave and the team, confirming that JSA has added additional complimentary service hours to Galaxy's account as a goodwill gesture, bringing the total free hours provided to over 40 in recent months.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Candace what services these hours cover and confirm they are being properly applied to Galaxy's account",
+        "Review JSA's pricing and service model to understand the commercial value of these complimentary hours and assess ROI",
+        "Schedule follow-up discussion with Candace to discuss potential commercial agreement or expansion of the relationship"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "saulakh@graingp.com",
+      "sender_name": "Suraj Aulakh",
+      "subject": "RE: NWS Operating Role for Data Center Initiative",
+      "body_preview": "Hi Dave,\r\n\r\nI just wanted to check in and see if you had any updates.\r\n\r\nThank you,\r\n\r\nSuraj Aulakh\r\nGrain Management, LLC\r\nDirect +1 (202) 843-9418  |  Mobile +1 (202) 993-4520\r\nCONFIDENTIALITY AND SECURITY NOTICE: This communication, including any attac",
+      "received": "2026-04-02T16:43:28Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Suraj Aulakh from Grain Management is following up on a previous conversation about an NWS (likely Northwest/Network) Operating Role for a data center initiative. This appears to be an ongoing discussion about a potential operational or partnership opportunity that Dave was previously engaged with.",
+      "ai_action": "Dave should respond with an update on the NWS operating role discussion. If this relates to a specific Galaxy asset or prospect, flag context from prior conversations with Suraj.",
+      "ai_next_steps": [
+        "Retrieve prior email thread with Suraj to understand the NWS operating role scope and timeline",
+        "Clarify whether this relates to Redhill, the 18MW AI prospect, or another Galaxy initiative",
+        "Respond to Suraj with status update or next meeting date"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "matthew.welch@datacenternation.com",
+      "sender_name": "Matthew Welch",
+      "subject": "RE: Guest Speaker Invite | DCN Toronto 2026",
+      "body_preview": "Hi France,\r\n\r\nI hope you are well. Sincere apologies that I have been difficult to get hold of at the moment \u2013 busy time!\r\n\r\nFor ease, please just click \u2018book time to meet with me\u2019 in my email signature at a time that suits your schedule, and it will auto",
+      "received": "2026-04-02T16:33:08Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMx_NUWezUyAnCnZBgcuvNw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: datacenternation.com",
+        "KW: lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Welch from Data Center Nation is responding to a speaking invitation for DCN Toronto 2026 and offering to schedule a meeting through his calendar link to discuss further. This represents a potential speaking opportunity for Galaxy at a major industry conference that could enhance visibility and thought leadership in the data center space. The incomplete message suggests he's interested but needs to finalize logistics with France.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Click the calendar link in Matthew's email signature to schedule a meeting with him to confirm speaking details and event logistics",
+        "Prepare a speaker outline or talking points for Dave or France to present at DCN Toronto 2026 once the commitment is confirmed",
+        "Add the confirmed speaking slot to Dave's calendar and brief him on the conference agenda, audience, and any pre-event promotional requirements"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "josh.scammell@simmons-simmons.com",
+      "sender_name": "Josh Scammell",
+      "subject": "RE: Redhill update [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi all,\r\n\r\nI am forwarding the below email as requested, which details examples of the underlying evidence we need. @Ashley  Roberts, I understand you are to send across those items you have available and the rest is to follow from Jamie.\r\n\r\nBy way of gen",
+      "received": "2026-04-02T16:30:09Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKqWS_atAkYtgjv3_j07bEU=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Dave replied 3x (+4)",
+        "VIP: simmons-simmons.com",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Josh Scammell from Simmons Simmons (legal counsel) is coordinating the collection of underlying evidence documentation for the Redhill matter, with Ashley Roberts and Jamie responsible for gathering and submitting specific items. This appears to be a legal discovery or due diligence process that requires coordinated document submission from multiple parties. Timely provision of these materials is critical to maintain momentum on what appears to be a material transaction or legal proceeding involving Galaxy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Ashley Roberts and Jamie what specific evidence items are required and establish a clear submission timeline",
+        "Review the full email chain (appears cut off) to understand the complete scope of documentation needed and any deadlines",
+        "Designate a point person to coordinate with Simmons Simmons and ensure all requested materials are compiled and delivered promptly"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -15,7 +142,7 @@
       "body_preview": "Perfect, thank you! I just sent you an invite for 10am Eastern on Wednesday. I'll be there as well.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Thu, Apr 2, 2026 at 11:45\u202fAM Dave Misra <dave@galaxydatacent",
       "received": "2026-04-02T15:50:31Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5d5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
       "rules_score": 10,
@@ -34,12 +161,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, has confirmed a speaking opportunity related to DCW Power/Europe and sent a calendar invite for a Wednesday 10am ET meeting that she will attend. This appears to be a confirmed engagement for a speaking opportunity, likely related to data center or power infrastructure positioning in the European market.",
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, has confirmed a meeting and sent a calendar invite for 10am Eastern on Wednesday. She will be attending as well. This appears to be a follow-up to a previous discussion about speaking opportunities related to DCW Power/Europe.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm attendance and prepare speaking points/presentation materials for the Wednesday 10am ET call",
-        "Clarify scope of speaking opportunity with Candace (event format, audience, topic focus, timeline)",
-        "Coordinate with France on any Europe/DCW Power strategy alignment needed before the call"
+        "Confirm receipt of the calendar invite and add to your schedule for Wednesday 10am Eastern",
+        "Prepare talking points on DCW Power and Europe strategy ahead of the call with Candace",
+        "Clarify with France or internal team what specific speaking opportunities or partnership details were being discussed in the prior conversation"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -70,12 +197,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is inviting Dave to a 30-minute meeting focused on Galaxy and DCW Europe, scheduled for April 8, 2026. This appears to be a partnership or business development discussion, likely involving data center operations or expansion in Europe. Confirming attendance and understanding the meeting objectives will help Galaxy assess potential collaboration or growth opportunities in the European market.",
+      "ai_summary": "Candace Sipos from JSA is inviting Dave to a 30-minute meeting focused on Galaxy and DCW Europe scheduled for April 8, 2026. This appears to be a strategic discussion or partnership opportunity involving Galaxy's data center operations and European market expansion through DCW (Data Center World or similar). The meeting timing and specificity suggest a formal business development or partnership discussion that could impact Galaxy's European growth strategy.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm attendance and ask Candace for a meeting agenda or context on what DCW Europe represents and the purpose of this discussion",
-        "Brief France in advance on the meeting topic and any relevant Galaxy Europe strategy or initiatives",
-        "Prepare any Galaxy capabilities overview or talking points relevant to European data center operations before the call"
+        "Confirm attendance and brief France Menard on the meeting objectives and DCW Europe's relevance to Galaxy's expansion plans",
+        "Research Candace Sipos and JSA's background to understand their role and what partnership or opportunity they may be proposing",
+        "Prepare talking points on Galaxy's European data center strategy, capacity plans, and partnership criteria before the April 8 call"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -106,12 +233,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ashley Roberts is coordinating an internal review of an introducer agreement with Paul Leong before requesting formal contract language from Simmons. This appears to be a standard deal governance process to ensure Galaxy's terms are properly vetted internally before external negotiation.",
+      "ai_summary": "Ashley Roberts is circulating internal review comments on an introducer agreement and has tagged Paul Leong for additional feedback before requesting proposed wording from Simmons. This appears to be an internal workflow step for finalizing a business development or partnership agreement.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Paul Leong has completed his review and identified any additional concerns beyond Ashley's comments",
-        "Once internal alignment is reached, have Ashley or France formally request Simmons' proposed wording for the introducer agreement",
-        "Schedule a follow-up review with Dave to approve the final terms before execution"
+        "Wait for Paul Leong's comments and Ashley's consolidated feedback before engaging Simmons on proposed wording",
+        "Clarify with Ashley the timeline and business priority for this introducer agreement once internal review is complete",
+        "Ensure Simmons has context on Galaxy's key commercial terms and requirements before drafting language"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -140,12 +267,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Renata Batariere from FluidOne is communicating with Paul Leong regarding the relocation of FluidOne's operations from the Redhill data center. This appears to be a facility migration initiative that involves coordination between Galaxy Capital Partners and Galaxy Data Centers. The relocation could impact Galaxy's data center occupancy, customer retention, and revenue from FluidOne's current hosting arrangements.",
+      "ai_summary": "Paul Leong from Galaxy Capital Partners is communicating with Renata Batariere at FluidOne regarding a data center relocation project at Redhill. This appears to be a forwarded message thread involving Dave Misra at Galaxy Capital Partners and Paul Leong at Galaxy Data Centers, suggesting a potential infrastructure or client engagement requiring coordination between the two Galaxy entities. The relocation project likely represents a significant operational or revenue opportunity that requires alignment across both capital and data center divisions.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Paul Leong the specific timeline, scope, and cost implications of FluidOne's relocation to understand whether this represents a churn risk or a managed transition opportunity",
-        "Determine if Galaxy can offer alternative capacity or services within its portfolio to retain FluidOne's business or negotiate extended service terms",
-        "Schedule a direct meeting with Renata Batariere to understand FluidOne's drivers for relocation and identify potential solutions that keep the relationship within Galaxy"
+        "Clarify with Paul Leong the specific timeline and scope requirements for the Redhill DC relocation to assess resource allocation and project prioritization",
+        "Confirm FluidOne's service level expectations and any SLA commitments to ensure Galaxy Data Centers can meet their operational demands",
+        "Schedule a kickoff meeting with Paul Leong, Renata Batariere, and relevant Galaxy operations leadership to establish project governance and success metrics"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -161,27 +288,25 @@
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGqUrv6606RAsPjm0fvfwnc=",
-      "rules_score": 10,
+      "rules_score": 9,
       "rules_label": "CRITICAL",
       "rules_tier": "UNKNOWN",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 4x (+4)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
+        "Dave replied 4x (+4)"
       ],
       "ai_reviewed": true,
       "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Kevin Feng, Cornell student, is following up after a conversation with Dave about an unpaid internship opportunity at Galaxy. He's committing to review materials and deliver a polished response\u2014this is a direct candidate engagement for a role Dave discussed with him.",
-      "ai_action": "File for hiring pipeline. Kevin is actively pursuing the internship; follow up when he submits his materials.",
+      "ai_label": "URGENT",
+      "ai_summary": "Kevin Feng (Cornell '27) is following up after a conversation with Dave about an unpaid internship opportunity at Galaxy. He's committing to review materials and provide a polished response, indicating active recruitment pipeline for junior talent.",
+      "ai_action": "File for follow-up in 3-5 days; expect Kevin's next submission. If strong, could support deal execution on current prospects (Poland 260MW, Milan, AI deals).",
       "ai_next_steps": [
-        "Dave: No immediate action needed\u2014Kevin is working on his response",
-        "Flag in recruiting tracker for internship role",
-        "France/ops: Expect Kevin's materials within 1-2 weeks; review and schedule next conversation if strong"
+        "Monitor Kevin's next email with polished materials",
+        "If quality is strong, route to France/operations for onboarding prep",
+        "Establish clear start date and deal assignment if accepted"
       ],
       "ai_failed": false,
-      "final_score": 10,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -2630,39 +2755,6 @@
     {
       "sender_email": "josh.scammell@simmons-simmons.com",
       "sender_name": "Josh Scammell",
-      "subject": "Redhill update [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi all,\r\n\r\nI hope you are all well.\r\n\r\nAs there was no update call yesterday, we thought it would be beneficial to send a short update email with a few items currently ongoing:\r\n\r\n\r\n  1.  Draft claims letter \u2013 a draft claims letter was sent to Kirstin fro",
-      "received": "2026-03-27T17:36:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIY1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKqWS_atAkYtgjv3_j07bEU=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "Attachments from known (+1)",
-        "VIP: simmons-simmons.com",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Josh Scammell from Simmons & Simmons (legal counsel) is providing a status update on the Redhill matter, indicating that a draft claims letter has been prepared and sent to Kirstin for review. This appears to be part of an active legal proceeding or dispute requiring Galaxy's attention and decision-making on next steps. The email suggests momentum in the matter and requires prompt review and client direction to move forward.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should review the draft claims letter immediately and provide feedback to Kirstin regarding Galaxy's position and any revisions needed",
-        "Schedule a call with Josh Scammell and the team to discuss the claims letter strategy, timeline, and next phases of the Redhill matter",
-        "Clarify internal ownership and decision-making authority for approving legal actions or communications on this matter"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "josh.scammell@simmons-simmons.com",
-      "sender_name": "Josh Scammell",
       "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
       "body_preview": "Hi Dave,\r\n\r\nIt seems you were not included on the attached chain \u2013 Francis has confirmed it is with him and will be over with you shortly for review.\r\n\r\nI am sending round an update email on a few items which will be with you momentarily.\r\n\r\nMany thanks",
       "received": "2026-03-27T17:32:34Z",
@@ -3160,40 +3252,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: family office equity round $2-35 million for Galaxy Capital Partners",
-      "body_preview": "Can you book a time using the link in my signature? Happy to have an intro call. In the meantime, could you share a bit more about your role and, if available, a brief deck on your firm?\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.c",
-      "received": "2026-03-26T16:36:11Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH_2HMLWWSNOlOBDBS7yZA0=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be Dave's outgoing response to a potential investor inquiry regarding a family office equity round for Galaxy Capital Partners (targeting $2-35M). Dave is proactively engaging by offering a call, requesting more information about the prospect's background and firm, and asking them to use his calendar link to schedule. This indicates an active fundraising effort where Dave is qualifying and moving forward with interested capital sources.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Ensure Dave's calendar link in his signature is active and properly configured to prevent scheduling friction",
-        "Prepare a brief institutional deck for Galaxy Capital Partners and Galaxy Data Centers to send to interested family offices",
-        "Follow up within 48-72 hours if the prospect doesn't book a call or respond with their background information"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 96
+  "total_tracked": 98
 }
