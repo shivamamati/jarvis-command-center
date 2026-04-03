@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T11:34:44.264263+00:00",
+  "timestamp": "2026-04-03T12:55:26.242756+00:00",
   "events": [
     {
       "subject": "Badminton Game with Peter ",
@@ -23,18 +23,6 @@
       "location": "https://meet.google.com/utn-thif-ixu",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIBAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Monday.com Review",
-      "start": "2026-04-03T13:00:00.0000000",
-      "end": "2026-04-03T13:30:00.0000000",
-      "attendees": [
-        "Paul"
-      ],
-      "organizer": "Paul Tester",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pET8vkAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ%2BwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Sales Funnel Review with Ashley and Paul ",

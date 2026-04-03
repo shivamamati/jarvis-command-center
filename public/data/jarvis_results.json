@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T11:34:55.433298+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 4,
-  "ai": 4,
+  "timestamp": "2026-04-03T12:55:40.638923+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 6,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
@@ -31,12 +31,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is confirming a rescheduled meeting to review Monday.com, likely an operational tool or potential platform integration for Galaxy Data Centers. This appears to be an administrative calendar coordination rather than a substantive business request.",
+      "ai_summary": "Dave is confirming a rescheduled meeting to review Monday.com, likely a work management or project tracking tool evaluation for Galaxy Data Centers. This appears to be an internal coordination message about timing a critical platform assessment that could impact operational efficiency across the organization.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm the Monday.com review meeting is on Dave's calendar for Monday with all relevant stakeholders",
-        "Prepare a pre-meeting agenda outlining what aspects of Monday.com will be evaluated (pricing, features, implementation timeline, ROI)",
-        "Identify which Galaxy team members should attend based on Monday.com's intended use case (operations, project management, etc.)"
+        "Confirm Monday.com demo/review details with France and relevant stakeholders (agenda, attendees, platform scope)",
+        "Prepare evaluation criteria and use-case requirements that Galaxy needs Monday.com to address",
+        "Block calendar time and ensure key decision-makers can attend the review meeting"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -3150,38 +3150,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "r.peck@2020-4.com",
-      "sender_name": "Robert Peck",
-      "subject": "Shawn Carstens Resume: Industrial Real Estate Executive, Acquisitions, Asset Management, Investments",
-      "body_preview": "Dave,\r\n\r\n\r\n\r\nI am pleased to introduce Shawn Carstens, an industrial real estate executive with more than 20 years delivering superior risk-adjusted returns across industrial and logistics investments. His resume is copied below (a pdf is available upon r",
-      "received": "2026-03-27T12:40:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBrmyLO1YlPnpT5u6f_B34=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: investment, lease, introduce"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Robert Peck is introducing Shawn Carstens, an experienced industrial real estate executive with 20+ years in logistics and industrial investments, likely for a potential role or partnership opportunity at Galaxy. This referral suggests Peck believes Carstens' expertise in risk-adjusted returns across industrial assets could add value to Galaxy's portfolio or operations. Understanding Carstens' capabilities and availability could strengthen Galaxy's industrial real estate and data center expansion efforts.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the complete resume and professional background details from Robert Peck to assess Carstens' relevance to current or planned initiatives",
-        "Determine if this is a recruitment inquiry, partnership proposal, or potential advisory engagement before scheduling a conversation",
-        "If the fit appears strong, have France schedule an initial call with Carstens to explore alignment with Galaxy's industrial and data center strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 96
+  "total_tracked": 95
 }
