@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T20:31:50.730571+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 5,
-  "ai": 6,
+  "timestamp": "2026-04-03T21:29:50.693477+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
-  "auto_learned": 54,
+  "auto_learned": 53,
   "items": [
     {
       "sender_email": "paul@galaxycapitalpartners.com",
@@ -2846,42 +2846,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "luke.gray@redhilldatacentre.com",
-      "sender_name": "Luke Gray",
-      "subject": "Automatic reply: Shift cover",
-      "body_preview": "I am currently out of office returning 30.03.26, if not urgent I will respond on my return, if urgent please contact -\r\n\r\nFor operations - Fredy Marie-Emilienne at fredy.marie-emilienne@redhilldatacentre.com\r\nFor Compliance - Benjamin Tyson at Benjamin.ty",
-      "received": "2026-03-27T20:59:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGQZCMBd12xEp05Z4TBmI1E=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 4x (+2)",
-        "Redhill ops",
-        "KW: lease",
-        "Urgency: urgent (+1)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Luke Gray from Redhill Data Centre is out of office until March 30, 2026, and has delegated urgent matters to Fredy Marie-Emilienne (operations) and Benjamin Tyson (compliance). This is an auto-reply indicating Galaxy may need to route any time-sensitive operational or compliance issues through these alternate contacts rather than waiting for Luke's return.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Identify if the original communication to Luke was urgent and, if so, redirect to either Fredy (operations@redhilldatacentre.com) or Benjamin (benjamin.ty@redhilldatacentre.com) depending on the subject matter",
-        "Note the out-of-office dates and ensure any ongoing Galaxy-Redhill discussions have clear owners assigned during this period",
-        "Confirm the complete email address for Benjamin Tyson (the auto-reply was cut off) before attempting further contact"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 87
+  "total_tracked": 86
 }
