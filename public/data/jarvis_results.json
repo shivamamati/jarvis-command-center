@@ -1,9 +1,9 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T08:00:37.747013+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 4,
+  "timestamp": "2026-04-03T09:50:06.479654+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 3,
   "ai": 3,
   "skipped": 0,
   "auto_learned": 58,
@@ -3180,38 +3180,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "rohanhoughton@eversheds-sutherland.com",
-      "sender_name": "Houghton, Rohan",
-      "subject": "RE: DORA - fee quote",
-      "body_preview": "Hi Paul\r\n\r\nSubject to us completing onboarding and KYC checks, we have set out below a table with our proposed scope of work and fee estimate to provide Galaxy Data Centers with legal support in relation to reviewing and negotiating the proposed DORA vari",
-      "received": "2026-03-27T09:41:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSpXR5-EV9HrccPcQ_ezQA=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: board, data cent",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Rohan Houghton from Eversheds Sutherland is responding with a legal fee quote for DORA (Digital Operational Resilience Act) regulatory compliance work. This is a specific deliverable related to Galaxy's data center operations, likely tied to EU regulatory obligations. The email appears to be a continuation of an existing request from Galaxy's team (possibly Paul).",
-      "ai_action": "Forward to Paul (Galaxy's legal/ops lead) for review and approval of scope and fees. Confirm Eversheds is the chosen counsel for DORA compliance and that this aligns with Galaxy's regulatory timeline and budget.",
-      "ai_next_steps": [
-        "Route to internal stakeholder who initiated DORA legal request (likely Paul or compliance officer)",
-        "Confirm fee estimate fits Galaxy's legal budget and project timeline",
-        "Once approved, authorize Eversheds to proceed with KYC and onboarding"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 97
+  "total_tracked": 96
 }
