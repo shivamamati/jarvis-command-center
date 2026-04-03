@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T19:36:14.925662+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 4,
-  "ai": 5,
+  "timestamp": "2026-04-03T20:31:50.730571+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 5,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 54,
   "items": [
@@ -2881,39 +2881,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "nick.marlow@bcsconsultancy.com",
-      "sender_name": "Nick Marlow",
-      "subject": "Re: BCS/Galaxy Catch Up",
-      "body_preview": "Hi Dave,\r\n\r\nThanks for the time on Thursday. As discussed we can work with Ash with the current project.\r\n\r\nPlease would you send me your NDA and I will get that through Group legal and out for signature.\r\n\r\nI will leave you to set up a one to one with @C",
-      "received": "2026-03-27T19:48:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANUPDJahlfdPqveKUBohSck=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: bcsconsultancy.com",
-        "KW: nda, lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Nick Marlow from BCS Consultancy is following up on a Thursday meeting with Dave regarding a project collaboration involving Ash. He's requesting Galaxy's NDA to be processed through BCS Group legal for execution, and is deferring scheduling of a follow-up one-on-one meeting to Dave's discretion.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Send Galaxy's standard NDA to Nick Marlow at nick.marlow@bcsconsultancy.com",
-        "Coordinate with France or relevant team member to prepare for one-on-one meeting scheduling",
-        "Track NDA signature timeline to ensure timely contract execution for the project kickoff"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 88
+  "total_tracked": 87
 }
