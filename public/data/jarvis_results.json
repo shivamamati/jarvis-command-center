@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T16:35:41.580128+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 5,
-  "ai": 7,
+  "timestamp": "2026-04-03T17:30:57.177409+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 6,
+  "ai": 8,
   "skipped": 0,
-  "auto_learned": 58,
+  "auto_learned": 56,
   "items": [
+    {
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Channel Partners Cost",
+      "body_preview": "Ok, that\u2019s fine.  Go ahead and book it.\r\n\r\nOn Apr 3, 2026, at 12:34\u202fPM, Ashley Roberts <ashley@galaxydatacenters.com> wrote:\r\n\r\nYes the event is at the Venetian.\r\nThe flight was around 2,600 - it keeps creeping up as we get closer.\r\n\r\nAsh\r\n\r\n<Image.jpeg>",
+      "received": "2026-04-03T16:36:31Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5fPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHFJYQdtNyJKrIYK5wfgOJg=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts is requesting approval to proceed with booking travel arrangements for an event at the Venetian, with flight costs now running approximately $2,600 and increasing as the event date approaches. Paul has authorized her to move forward with the booking. This appears to be an approved business expense for a channel partner event that Galaxy is attending.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the booking is completed and obtain the confirmation details for expense tracking",
+        "Monitor the final invoice once the booking is locked in to ensure costs align with budget allocations for channel partner activities",
+        "Clarify the event details and business objectives with Ashley to understand the strategic importance of this channel partner engagement"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -23,7 +55,7 @@
       "rules_tier": "PIPELINE [Candace Sipos]",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+4)",
+        "Dave replied 4x (+4)",
         "VIP: jsa.net",
         "Pipeline: candace sipos",
         "KW: nda, lease",
@@ -32,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is forwarding an invitation for Galaxy to secure a table or sponsorship opportunity at the DCS Awards 2026, indicating Galaxy has been selected as a finalist. This is a brand visibility and networking opportunity that could strengthen Galaxy's market positioning in the data center and infrastructure sector.",
+      "ai_summary": "Candace Sipos (EVP of Business Strategy & Development at JSA) is forwarding an invitation for Galaxy to secure table seating or sponsorship opportunities at the DCS Awards 2026, for which Galaxy has been selected as a finalist. This is a networking and visibility opportunity that could enhance Galaxy's brand positioning within the data center and infrastructure sectors.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Galaxy's finalist status and request full DCS Awards 2026 sponsorship/table details, including pricing, benefits, and deadline",
-        "Have Candace or France coordinate with Candace Sipos to discuss sponsorship tiers and alignment with Galaxy's marketing objectives",
-        "Make a go/no-go decision on sponsorship commitment within 1 week to secure preferred sponsorship level"
+        "Clarify with Candace the sponsorship tiers, costs, and visibility benefits associated with each option",
+        "Determine Galaxy's finalist category and the marketing/PR value of participation",
+        "Decide internally on budget allocation and whether sponsorship or table attendance aligns with 2026 marketing priorities"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -137,39 +169,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxycapitalpartners.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Channel Partners Cost",
-      "body_preview": "Thanks Ashley -\r\n\r\n1. Do you have the breakout between the Air fare and the hotel?\r\n2. Is the conference at the Venetian?\r\n\r\n\r\nOn Mar 30, 2026, at 6:57\u202fAM, Ashley Roberts <ashley@galaxydatacenters.com> wrote:\r\n\r\nHi Paul,\r\n\r\nPlease see cost for flights and",
-      "received": "2026-04-03T05:33:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5evAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHFJYQdtNyJKrIYK5wfgOJg=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is following up on channel partner travel expense details that Ashley Roberts from Galaxy Data Centers provided. He needs clarification on the cost breakdown between airfare and accommodations, and confirmation of the conference venue location. This matters for accurate expense tracking and budget reconciliation across Galaxy entities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Ashley provide detailed cost breakdown separating airfare from hotel charges",
-        "Confirm the conference venue is the Venetian and verify associated accommodation costs",
-        "Reconcile the expenses against the channel partner budget for proper financial reporting"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "animesh@galaxydatacenters.com",
@@ -3011,42 +3010,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "galaxy-m365infrastructuremodernization@galaxydatacenters.com",
-      "sender_name": "Galaxy - M365 Infrastructure Modernization",
-      "subject": "Galaxy - M365 Project weekly update",
-      "body_preview": "This meeting is to facilitate all the updates and discussions of the M365 project.\r\n\r\n\r\n\r\nMeeting Agenda:\r\n\r\n  1.  Greetings\r\n  2.  Review actionable items from thelast meeting\r\n  3.  Updates\r\n  4.  Priorities for the week\r\n  5.  Miscellaneous\r\n\r\nLooking ",
-      "received": "2026-03-27T16:44:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI9MQwZbFApArrz6WVw5Q2M=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal Galaxy M365 Infrastructure Modernization project team weekly sync meeting notification. The email serves as a standard meeting reminder with a structured agenda to review progress, track action items, and align on weekly priorities for the modernization initiative. This matters to Galaxy as M365 infrastructure modernization is likely a critical operational or customer-facing project that requires consistent cross-functional coordination and status tracking.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and any agenda additions with the M365 project team lead before the meeting",
-        "Review last week's action items and preparation materials to ensure productive discussion",
-        "Block time on Dave's calendar if this weekly sync requires Managing Partner-level input or decision-making on project escalations"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 92
+  "total_tracked": 91
 }
