@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T10:39:38.472889+00:00",
-  "total": 4,
-  "new": 4,
+  "timestamp": "2026-04-03T11:34:55.433298+00:00",
+  "total": 5,
+  "new": 5,
   "noise": 4,
-  "ai": 3,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "New Time Proposed: Monday.com Review",
+      "body_preview": "",
+      "received": "2026-04-03T11:31:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTezAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALc0ELsB6hhMsJaXWZZJSLw=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Internal + customer (+1)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is confirming a rescheduled meeting to review Monday.com, likely an operational tool or potential platform integration for Galaxy Data Centers. This appears to be an administrative calendar coordination rather than a substantive business request.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the Monday.com review meeting is on Dave's calendar for Monday with all relevant stakeholders",
+        "Prepare a pre-meeting agenda outlining what aspects of Monday.com will be evaluated (pricing, features, implementation timeline, ROI)",
+        "Identify which Galaxy team members should attend based on Monday.com's intended use case (operations, project management, etc.)"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxycapitalpartners.com",
       "sender_name": "Paul Leong",
@@ -3013,39 +3047,6 @@
       ],
       "ai_failed": false,
       "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "paul.tester@redhilldatacentre.com",
-      "sender_name": "Paul Tester",
-      "subject": "Monday.com Review",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/37678693963383?p=jafTCTH8HIA9HZ0Okz\r\nMeeting ID: 376 786 939 633 83\r\nPasscode: XE6zt3B4\r\n__________________",
-      "received": "2026-03-27T13:53:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALc0ELsB6hhMsJaXWZZJSLw=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Redhill ops",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Tester from Redhill Data Centre is scheduling a Microsoft Teams meeting to discuss a Monday.com review. This appears to be a collaboration or integration discussion around project management tooling that may impact operational workflows at Galaxy Data Centers. Understanding Redhill's Monday.com implementation could inform Galaxy's own project management strategy and potential partnership opportunities in the data center sector.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance at the Teams meeting and clarify the specific scope of the Monday.com review with Paul before Monday",
-        "Prepare Galaxy's current project management processes and pain points to discuss during the call",
-        "Have France or relevant ops lead document any takeaways and assess whether Monday.com adoption would benefit Galaxy's portfolio management"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
       "final_label": "URGENT"
     },
     {
