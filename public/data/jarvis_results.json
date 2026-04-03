@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T14:01:42.544671+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 10,
-  "ai": 8,
+  "timestamp": "2026-04-03T15:36:38.725245+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Mahendra <> Dave <> Ash ",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/27301652736202?p=YT9VhsdS0RMT9UyLrA\r\nMeeting ID: 273 016 527 362 02\r\nPasscode: at2GL6WD\r\n__________________",
+      "received": "2026-04-03T14:46:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTe1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA-RoH0uKQlAsR_brcNpn64=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a calendar invitation for a Microsoft Teams meeting involving Dave, Mahendra, and Ash. The meeting details are provided with join link and access credentials. Without additional context about the meeting agenda, this appears to be an internal or partner coordination call that requires confirmation of attendance.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and add to calendar if not already scheduled",
+        "Request meeting agenda from organizer (Mahendra or Ash) to prepare talking points",
+        "Test Teams access and audio/video setup before the scheduled meeting time"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "faye.p@queensu.ca",
       "sender_name": "Faye Pan",
@@ -3044,40 +3076,6 @@
       "ai_failed": false,
       "final_score": 3,
       "final_label": "NOISE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: [External] Project Cardinal - Ops / HR discussion",
-      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Ash Gupta <ash@galaxycapitalpartners.com>\r\nSent:",
-      "received": "2026-03-27T15:20:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALtTIW6fykayvzvaFi_kLY8=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta from Galaxy Capital Partners is forwarding a message regarding Project Cardinal that involves operational and HR discussions. This appears to be an internal coordination matter between Galaxy Capital Partners and Galaxy Data Centers regarding staffing or organizational planning for a significant initiative. The matter requires attention to ensure proper resource allocation and human capital management across the two entities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify the specific scope and timeline of Project Cardinal with Ash to understand what operational and HR decisions need to be made",
-        "Coordinate with Galaxy Data Centers' operations and HR leadership to align on resource requirements and implementation plan",
-        "Schedule a dedicated meeting with relevant stakeholders from both Galaxy Capital Partners and Galaxy Data Centers to finalize decisions"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 93
