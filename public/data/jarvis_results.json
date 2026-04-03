@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T15:36:38.725245+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 4,
-  "ai": 4,
+  "timestamp": "2026-04-03T16:35:41.580128+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 5,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Fwd: FW: You\u2019re a Finalist \u2013 Now Secure Your Place at DCS Awards 2026",
+      "body_preview": "Hi Sai, Dave & Ash,\r\n\r\nPlease see below for details about booking a table or sponsorship at the DCS Awards, if you're interested.\r\n\r\nThank you!\r\nCandace\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\nFrom: Sukhi ",
+      "received": "2026-04-03T15:39:48Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5fJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAATVymZSbohAhHTnRWEDiLE=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, lease",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is forwarding an invitation for Galaxy to secure a table or sponsorship opportunity at the DCS Awards 2026, indicating Galaxy has been selected as a finalist. This is a brand visibility and networking opportunity that could strengthen Galaxy's market positioning in the data center and infrastructure sector.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Galaxy's finalist status and request full DCS Awards 2026 sponsorship/table details, including pricing, benefits, and deadline",
+        "Have Candace or France coordinate with Candace Sipos to discuss sponsorship tiers and alignment with Galaxy's marketing objectives",
+        "Make a go/no-go decision on sponsorship commitment within 1 week to secure preferred sponsorship level"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -29,12 +64,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a calendar invitation for a Microsoft Teams meeting involving Dave, Mahendra, and Ash. The meeting details are provided with join link and access credentials. Without additional context about the meeting agenda, this appears to be an internal or partner coordination call that requires confirmation of attendance.",
+      "ai_summary": "This is a Teams meeting invitation from Dave to himself with Mahendra and Ash, likely an internal Galaxy Capital/Data Centers discussion. The email appears to be a calendar invite or meeting confirmation rather than a substantive business communication requiring action. No specific business impact or decision point is evident from the content provided.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm attendance and add to calendar if not already scheduled",
-        "Request meeting agenda from organizer (Mahendra or Ash) to prepare talking points",
-        "Test Teams access and audio/video setup before the scheduled meeting time"
+        "Confirm meeting attendance and ensure calendar is blocked for the scheduled time",
+        "Clarify the meeting agenda with Mahendra or Ash before joining to ensure preparedness"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -3012,71 +3046,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Sales Funnel Review ",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/2601108949442?p=yqOkkviuIH0j4RcDq4\r\nMeeting ID: 260 110 894 944 2\r\nPasscode: aX6Ak9su\r\n____________________",
-      "received": "2026-03-27T16:30:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYcdUNsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACtHK1AwRetMsjpGQnEdUBM=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave has scheduled a Microsoft Teams meeting regarding sales funnel review, likely to assess current pipeline status and conversion metrics across Galaxy's business development efforts. This meeting appears to be an internal check-in to evaluate sales performance, identify bottlenecks, and align on revenue targets or strategy adjustments.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and prepare current sales pipeline data, conversion rates, and key metrics by segment (data centers, capital partners, etc.)",
-        "Identify any deals at risk or requiring leadership attention to discuss during the meeting",
-        "Prepare summary of recent wins and losses to inform discussion on sales process effectiveness"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Dan <> Dave Catch Up",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/22608074011612?p=XoBDngFnyTKtR2pDts\r\nMeeting ID: 226 080 740 116 12\r\nPasscode: uG7fv9JT\r\n__________________",
-      "received": "2026-03-27T15:50:17Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIYmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALLfmz9htXxGoNeGBO6YnAg=",
-      "rules_score": 3,
-      "rules_label": "NOISE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied 17x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Internal + customer (+1)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France is coordinating a Microsoft Teams meeting between Dan (unknown party) and Dave to catch up. This appears to be a scheduled sync meeting, likely related to business development, partnership discussion, or operational alignment. The specific agenda is not detailed in this message, so the business context and importance need clarification.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with France the purpose of the meeting, who Dan is, and what topics will be discussed before the call",
-        "Block time on Dave's calendar and ensure he has the meeting link and passcode",
-        "Prepare any relevant materials or talking points needed for the discussion"
-      ],
-      "ai_failed": false,
-      "final_score": 3,
-      "final_label": "NOISE"
     }
   ],
-  "total_tracked": 93
+  "total_tracked": 92
 }
