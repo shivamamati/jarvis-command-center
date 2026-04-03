@@ -1,9 +1,9 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-03T21:29:50.693477+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 4,
+  "timestamp": "2026-04-03T22:29:02.895182+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 5,
   "ai": 4,
   "skipped": 0,
   "auto_learned": 53,
@@ -2814,39 +2814,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "it@galaxydatacenters.com",
-      "sender_name": "Galaxy IT",
-      "subject": "Welcome to Galaxy Data Centre - Your Account details",
-      "body_preview": "Hi Shivam,\r\n\r\nWelcome aboard to Galaxy Data Centre. Great to have you with us.\r\n\r\nYour account has been set up and is ready to go. Here are your details:\r\n\r\nEmail address: shivam@galaxydatacenters.com\r\nTemporary password: L@485664952781aq\r\n\r\nBefore you si",
-      "received": "2026-03-27T21:55:29Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC_lUvzxkotJiL6_FpoqjnQ=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: board, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Galaxy IT has sent a new employee onboarding email to Shivam with account setup credentials and temporary access details. This appears to be a standard IT welcome message for a new hire joining Galaxy Data Centers. The email confirms account readiness and provides initial access information needed for the employee to begin work.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify Shivam's onboarding status and confirm his role/department within Galaxy Data Centers",
-        "Ensure France or IT leadership follows up on password reset and security protocol completion as indicated by the incomplete email",
-        "Review whether Shivam requires any infrastructure access or special permissions for his position"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 86
+  "total_tracked": 85
 }
