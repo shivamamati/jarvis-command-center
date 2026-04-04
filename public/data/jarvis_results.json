@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-04T04:14:10.264630+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 1,
-  "ai": 1,
+  "timestamp": "2026-04-04T05:54:31.916914+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 3,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
@@ -2689,132 +2689,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "shivam@galaxydatacenters.com",
-      "sender_name": "Shivam Amati",
-      "subject": "OpenClaw Setup | Dave & Shivam",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24028265133513?p=KT3T1U47X3DWAYM8AH\r\nMeeting ID: 240 282 651 335 13\r\nPasscode: wt6BW2E9\r\n__________________",
-      "received": "2026-03-28T04:28:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADwA6YWmHh5FocYQwa2Ddco=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Shivam Amati]",
-      "rules_reasons": [
-        "Internal \u2014 routine (suppressed)",
-        "Pipeline: shivam amati"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Shivam Amati from Galaxy Data Centers is scheduling a Microsoft Teams meeting with Dave to discuss OpenClaw setup. This appears to be an internal coordination on a technical infrastructure initiative that requires direct alignment between leadership and the technical team.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and add the Teams meeting to Dave's calendar",
-        "Prepare any outstanding questions or blockers related to OpenClaw implementation before the meeting",
-        "Have Shivam send a brief agenda outlining specific OpenClaw setup topics to be discussed"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "shivam@galaxydatacenters.com",
-      "sender_name": "Shivam Amati",
-      "subject": "Voice Mail (17 seconds)",
-      "body_preview": "\u554a\r\n\r\nEnglish\r\nAh\r\n\r\nYou received a voice mail from Shivam Amati at shivam@galaxydatacenters.com.\r\n\r\nEmail:  shivam@galaxydatacenters.com\r\n\r\n\r\n________________________________\r\n\r\nThank you for using Transcription! If you don't see a transcript above, it's ",
-      "received": "2026-03-28T04:27:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKCI6Jn1yk1KgPPaGInTYIw=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Shivam Amati]",
-      "rules_reasons": [
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "Pipeline: shivam amati"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Shivam Amati from Galaxy Data Centers left a brief 17-second voicemail that was transcribed as a single utterance with no discernible content or message. This appears to be either an accidental voicemail, a connection issue, or an incomplete message that requires follow-up to determine if there is an actual business matter requiring attention.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or an assistant contact Shivam directly to confirm whether he intended to leave a message and what the subject matter is",
-        "Check if there are any pending items or discussions with Shivam that might provide context for the voicemail attempt"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "shivam@galaxydatacenters.com",
-      "sender_name": "Shivam Amati",
-      "subject": "Voice Mail (1 minute and 23 seconds)",
-      "body_preview": "\u554a\r\n\r\nEnglish\r\nAh\r\n\r\nYou received a voice mail from Shivam Amati at shivam@galaxydatacenters.com.\r\n\r\nEmail:  shivam@galaxydatacenters.com\r\n\r\n\r\n________________________________\r\n\r\nThank you for using Transcription! If you don't see a transcript above, it's ",
-      "received": "2026-03-28T04:26:49Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAONL5kQsfZJMuTPG_2o3730=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Shivam Amati]",
-      "rules_reasons": [
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "Pipeline: shivam amati"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a voice mail from Shivam Amati (Galaxy Data Centers internal employee) that was transcribed with minimal content - the transcript captured only an utterance ('Ah') and is largely unintelligible. Without clear context or message, it's unclear what action or information Shivam intended to communicate, which could represent a missed communication or technical transcription failure.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Contact Shivam directly to clarify the purpose of the voice mail and any urgent items he may need to discuss",
-        "Review recent communications with Shivam to understand if there are pending decisions or updates required from leadership",
-        "Consider whether voice mail transcription quality issues warrant review of the transcription service provider"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "shivam@galaxydatacenters.com",
-      "sender_name": "Shivam Amati",
-      "subject": "Voice Mail (35 seconds)",
-      "body_preview": "You received a voice mail from Shivam Amati at shivam@galaxydatacenters.com.\r\n\r\nEmail:  shivam@galaxydatacenters.com\r\n\r\n\r\nSet Up Voice Mail",
-      "received": "2026-03-28T04:22:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYchIZbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMk5pTjdx91IsV6j9xC4Ukk=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Shivam Amati]",
-      "rules_reasons": [
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "Pipeline: shivam amati"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a system notification that Shivam Amati (an internal Galaxy Data Centers team member) has a voicemail waiting but hasn't yet set up voicemail on his account. This is a routine administrative task with no immediate business impact, though it may indicate a new employee or account setup that needs completion.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Shivam complete voicemail setup through the phone system admin portal or IT support",
-        "Verify Shivam's contact information and communication preferences are properly configured in the employee directory"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 85
+  "total_tracked": 81
 }
