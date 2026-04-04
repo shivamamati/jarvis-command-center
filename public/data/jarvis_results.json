@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-04T08:36:39.923856+00:00",
-  "total": 3,
-  "new": 3,
+  "timestamp": "2026-04-04T09:33:43.567466+00:00",
+  "total": 4,
+  "new": 4,
   "noise": 3,
-  "ai": 1,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "lauren.brownlow@castleforge.com",
+      "sender_name": "Lauren Brownlow",
+      "subject": "Re: recruiter terms",
+      "body_preview": "Hi Paul - have been through the contract and all looks pretty standard. Rate is very reasonable and includes rebate or replacement terms for 3 months which we'd expect.\r\n\r\nOnly comments are I would be clear bonuses are discretionary and fees will be on ba",
+      "received": "2026-04-04T09:07:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5fkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI9ROR1jsHlCpDjGxjHJEAA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: castleforge.com",
+        "KW: nda, contract",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Lauren Brownlow from Castle Forge has reviewed a recruiter contract and found the terms acceptable, including a reasonable rate with a 3-month guarantee period. She's flagging that bonus structures should be explicitly stated as discretionary and fee arrangements need clarification, as her message appears to cut off mid-sentence regarding the fee basis.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Follow up with Lauren to clarify the complete fee arrangement comment that was truncated in her email",
+        "Confirm with legal/Paul that bonus language is clear in the final contract that bonuses are discretionary, not guaranteed",
+        "Review the 3-month rebate/replacement guarantee terms to ensure they align with Galaxy's risk tolerance and recruiter expectations"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxycapitalpartners.com",
       "sender_name": "Paul Leong",
@@ -959,40 +991,6 @@
         "Review the tax checklist and services agreement before the Friday call to identify any questions or missing items",
         "Confirm the Friday call time and ensure both Dave and Anuj are aligned on agenda items related to tax preparation",
         "Gather any outstanding documents or information Galaxy may need to provide to the tax preparation service"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "recruiter terms",
-      "body_preview": "Hi Lauren - I think you are in the know with the issues around Luke.  I spoke with Mike and he is in agreement that we should begin a search for a replacement.  If we end up replacing Luke, which seems likely, he would very much like to have the replaceme",
-      "received": "2026-04-02T04:47:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI9ROR1jsHlCpDjGxjHJEAA=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 14x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is informing Lauren that Galaxy may need to replace Luke in a key role, and Mike agrees they should initiate a search. The email appears to address recruiter engagement and potentially Luke's transition preferences, which requires immediate clarity on the staffing decision and its timeline.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Paul and Mike the specific role Luke holds, the performance/behavior issues requiring replacement, and the urgency timeline",
-        "Determine Luke's severance/transition terms and any contractual obligations before engaging external recruiters",
-        "Define the job specification and search parameters for the replacement candidate to provide to recruitment partners"
       ],
       "ai_failed": false,
       "final_score": 4,
