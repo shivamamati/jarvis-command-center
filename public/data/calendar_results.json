@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T23:27:44.477943+00:00",
+  "timestamp": "2026-04-05T07:00:25.973367+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -45,6 +45,23 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pNvcjZAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Redhill Operations Call",
+      "start": "2026-04-07T15:00:00.0000000",
+      "end": "2026-04-07T15:45:00.0000000",
+      "attendees": [
+        "Elizabeth",
+        "4.02",
+        "Ash",
+        "Mike",
+        "Neil",
+        "Paul"
+      ],
+      "organizer": "Elizabeth Smith",
+      "location": "4.01",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pQ4nKAAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEFTImBgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
