@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T11:45:04.797149+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 9,
-  "ai": 6,
+  "timestamp": "2026-04-06T13:01:28.660514+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 53,
+  "auto_learned": 52,
   "items": [
     {
       "sender_email": "animesh@galaxydatacenters.com",
@@ -31,12 +31,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Animesh Raha from Galaxy Data Centers is responding positively to Schbang's content strategy proposal and confirming readiness to move forward with a kickoff call to align on content planning and calendar. He's requesting an introduction to the account manager and has provided supporting materials including blog samples and thought leadership content outlines to inform the collaboration.",
+      "ai_summary": "Animesh Raha from Galaxy Data Centers is responding positively to a content strategy partnership proposal from Schbang and is ready to move forward with a kickoff call to align on strategy and publishing calendar. He's offering to connect with Galaxy's account manager and has provided reference materials including blog posts and thought leadership content for review. This indicates Galaxy is exploring content marketing services to strengthen their thought leadership positioning.",
       "ai_action": null,
       "ai_next_steps": [
-        "Schedule the kickoff call between Animesh, Schbang, and the assigned account manager to discuss content strategy and editorial calendar",
-        "Review the attached blog posts and thought leadership content sequencing to understand Galaxy's existing content voice and proposed direction",
-        "Confirm Schbang's account manager assignment and ensure they're prepared with Galaxy's business objectives and audience targets before the kickoff"
+        "Schedule kickoff call between Schbang, Animesh, and Galaxy's account manager to finalize content strategy and editorial calendar",
+        "Review the attached blog posts and thought leadership pieces to understand Galaxy's current content positioning and quality standards",
+        "Clarify deliverables, timeline, and budget for the content partnership before proceeding to ensure alignment with Galaxy's marketing objectives"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2557,42 +2557,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
-      "subject": "Re: Hyperview Server installation instructions",
-      "body_preview": "Hi @Ash Gupta,\r\n\r\nFollowing up on the weekend work, please find the server setup handover document. Please note I will share a btiwarden note with you alongside with the details.\r\n\r\nShould you have any questions, do not hesitate in contact me.\r\n\r\nBest Reg",
-      "received": "2026-03-30T12:04:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENICAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGN3YvdbIghPnuGbo0qXH3Y=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rodrigo from Galaxy Data Centers is providing Ash Gupta with documentation for the Hyperview server setup following weekend maintenance work. He's offering to share additional details via a secure note and is available for clarification questions. This appears to be a routine internal IT handover, but the timing and security-conscious approach (using bitwarden) suggests this involves sensitive infrastructure configuration.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Ash has received both the setup handover document and the bitwarden note with all necessary credentials/details",
-        "Verify server installation is proceeding on schedule and escalate any blockers immediately to France or Rodrigo",
-        "Once setup is complete, schedule a brief validation checkpoint to ensure the Hyperview server is operational and meets performance requirements"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 77
 }
