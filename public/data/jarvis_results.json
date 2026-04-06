@@ -1,44 +1,114 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T21:34:39.060595+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 5,
+  "timestamp": "2026-04-06T22:32:28.182297+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 6,
   "ai": 10,
   "skipped": 0,
   "auto_learned": 54,
   "items": [
     {
-      "sender_email": "saulakh@graingp.com",
-      "sender_name": "Suraj Aulakh",
-      "subject": "RE: NWS Operating Role for Data Center Initiative",
-      "body_preview": "Hi Dave,\r\n\r\nThank you for the update. I am available at 4pm tomorrow or Wednesday, but Ricardo is on PTO and returns Thursday.\r\n\r\nAny chance you can speak with the team during these windows:\r\n\r\n4/9\u2002\u2002\u2002\u200211 am - 1 pm ET\r\n4/10\u2002\u2002\u2002\u20029-11 am ET\r\n\r\nIf not, I can a",
-      "received": "2026-04-06T21:27:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: NWS Operating Role for Data Center Initiative",
+      "body_preview": "Hi Suraj,\r\n\r\nLet\u2019s do Thursday, April 9 at 10:00 AM ET. Kindly circulate an invite.\r\n\r\nThanks,\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  Wh",
+      "received": "2026-04-06T21:50:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
-        "Dave replied 3x (+4)",
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
         "KW: data cent",
         "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Suraj Aulakh (Grain GP) is responding to Dave about a specific operating role discussion for a data center initiative. He's proposing meeting windows with his team (Ricardo unavailable until Thursday). This appears to be an active deal conversation requiring Dave's direct participation.",
-      "ai_action": "Dave should review previous emails with Suraj to understand the data center initiative context, confirm availability for 4/9 or 4/10 calls, and respond with preferred time slot.",
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is Dave Misra's confirmation email responding to a meeting request from Suraj regarding an NWS (Network Working Group or similar) operating role related to Galaxy's data center initiative. Dave has accepted and locked in a specific meeting time, indicating he's moving forward with whatever operational or partnership discussion Suraj had proposed.",
+      "ai_action": null,
       "ai_next_steps": [
-        "Pull full email thread with Suraj Aulakh regarding 'NWS Operating Role for Data Center Initiative'",
-        "Check Dave's calendar for 4/9 (11am-1pm ET) and 4/10 (9-11am ET) availability",
-        "Respond to Suraj with confirmed time or propose alternative"
+        "France or Dave's assistant should send the calendar invite for Thursday, April 9 at 10:00 AM ET to Suraj and relevant stakeholders",
+        "Prepare an agenda and relevant materials for the NWS operating role discussion before the meeting",
+        "Confirm attendees and any pre-meeting prep materials needed from Suraj's side"
       ],
       "ai_failed": false,
       "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "HOLD : Catchup Dave and Chris // Galaxy <> CDW ",
+      "body_preview": "From: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Monday, April 6, 2026 at 5:37\u202fPM\r\nTo: Chris Lillie <c.lillie@uk.cdw.com>\r\nCc: Ash Gupta <ash@galaxydatacenters.com>, Paul Leong <paul@galaxydatacenters.com>, Ashley Roberts <ashley@galaxydatacenters",
+      "received": "2026-04-06T21:41:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEozqDwAQRBIlj1M6Qd0oyA=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "4 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave Misra is holding a previously scheduled catchup meeting with Chris Lillie from CDW (a major IT infrastructure distributor). This appears to be an internal note to Galaxy's team indicating the meeting is being postponed or placed on hold, likely due to scheduling conflicts or strategic prioritization.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Chris Lillie at CDW the new meeting date and ensure alignment on agenda items",
+        "Brief Ash Gupta and Paul Leong on the reason for the hold and any pending CDW partnership or commercial discussions that need attention",
+        "Reestablish the meeting once scheduling clarity is achieved, as CDW relationships are critical to Galaxy's distribution and market reach strategy"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Catchup Dave and Chris Galaxy <> CDW ",
+      "body_preview": "Hi Chris,\r\n\r\nI hope you had a wonderful Easter break.\r\n\r\nI'm glad to hear the meetings went well. Wednesday works perfectly\u2014I've sent over a Hold over to your diary  for 2 PM BST / 9 AM ET. If this timing isn't suitable, kindly let me know, and I'll be ha",
+      "received": "2026-04-06T21:37:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTe%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADc8C7m0rH9OsimkoRRIDIQ=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "4 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Chris (likely from CDW) is confirming a meeting with Dave and Galaxy following successful prior meetings. Dave has scheduled a hold for Wednesday at 2 PM BST / 9 AM ET and is awaiting Chris's confirmation of this timing.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Chris receives and accepts the Wednesday 2 PM BST / 9 AM ET calendar hold",
+        "Prepare meeting agenda and materials with relevant Galaxy team members (likely Chris from Galaxy) for the CDW discussion",
+        "Flag this meeting internally to ensure Dave and Chris are prepped on the topics from the previous successful meetings"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -2358,5 +2428,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 71
+  "total_tracked": 73
 }
