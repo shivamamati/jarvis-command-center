@@ -1,42 +1,75 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T22:32:28.182297+00:00",
+  "timestamp": "2026-04-06T23:32:03.150832+00:00",
   "total": 12,
   "new": 12,
-  "noise": 6,
+  "noise": 4,
   "ai": 10,
   "skipped": 0,
-  "auto_learned": 54,
+  "auto_learned": 50,
   "items": [
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: NWS Operating Role for Data Center Initiative",
-      "body_preview": "Hi Suraj,\r\n\r\nLet\u2019s do Thursday, April 9 at 10:00 AM ET. Kindly circulate an invite.\r\n\r\nThanks,\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  Wh",
-      "received": "2026-04-06T21:50:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "sender_email": "saulakh@graingp.com",
+      "sender_name": "Suraj Aulakh",
+      "subject": "RE: NWS Operating Role for Data Center Initiative",
+      "body_preview": "Sounds good, just sent the invite. Thanks Dave.\r\n\r\n\r\nSuraj Aulakh\r\nGrain Management, LLC\r\nDirect +1 (202) 843-9418  |  Mobile +1 (202) 993-4520\r\nCONFIDENTIALITY AND SECURITY NOTICE: This communication, including any attachments, is intended only for the u",
+      "received": "2026-04-06T22:52:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
+      "rules_tier": "UNKNOWN",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
+        "Dave replied 6x (+4)",
         "KW: data cent",
-        "Thread: 3 msgs (+2)",
+        "Thread: 4 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is Dave Misra's confirmation email responding to a meeting request from Suraj regarding an NWS (Network Working Group or similar) operating role related to Galaxy's data center initiative. Dave has accepted and locked in a specific meeting time, indicating he's moving forward with whatever operational or partnership discussion Suraj had proposed.",
-      "ai_action": null,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Suraj Aulakh from Grain Management has just sent Dave a calendar invite related to an NWS (likely Network/Operations) operating role for a data center initiative. This appears to be a follow-up to a prior conversation Dave initiated\u2014Suraj is confirming he's sent the invite as requested.",
+      "ai_action": "Check calendar for the invite from Suraj; confirm details of the NWS operating role and the data center initiative scope. Clarify whether this is a hiring need, operational partnership, or specific project role.",
       "ai_next_steps": [
-        "France or Dave's assistant should send the calendar invite for Thursday, April 9 at 10:00 AM ET to Suraj and relevant stakeholders",
-        "Prepare an agenda and relevant materials for the NWS operating role discussion before the meeting",
-        "Confirm attendees and any pre-meeting prep materials needed from Suraj's side"
+        "Review calendar invite from saulakh@graingp.com for meeting details and agenda",
+        "Confirm with Suraj what 'NWS Operating Role' entails and which data center asset/initiative it relates to",
+        "Assess if Grain Management is a potential operational partner or service provider for Galaxy"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "saulakh@graingp.com",
+      "sender_name": "Suraj Aulakh",
+      "subject": "Grain / Galaxy - NWS Operating Role for Data Center Initiative",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/29482745871012?p=KV05SWDfMJxELpktIO\r\nMeeting ID: 294 827 458 710 12\r\nPasscode: dn223iP3\r\n__________________",
+      "received": "2026-04-06T22:51:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAZCT%2BJ5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAUxeVp5gkx6v3g_Z_y6HHM=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+4)",
+        "KW: data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Suraj Aulakh from Grain GP is proposing an operating role for Dave/Galaxy related to a data center initiative (likely NWS - Northwest/Northern Europe expansion). This appears to be a partnership or employment discussion tied to Galaxy's infrastructure strategy.",
+      "ai_action": "Dave should clarify with Suraj: (1) What specific role/scope is being proposed? (2) Is this a partnership, JV, or operational hire? (3) Timeline and next steps. Get context before joining the Teams call.",
+      "ai_next_steps": [
+        "Confirm who Grain GP is and their relevance to Galaxy's portfolio/pipeline",
+        "Ask Suraj for an agenda/brief before the Teams meeting to understand the proposal",
+        "Determine if this relates to an existing prospect (Poland 260MW, Innogate, or new initiative)"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -66,12 +99,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave Misra is holding a previously scheduled catchup meeting with Chris Lillie from CDW (a major IT infrastructure distributor). This appears to be an internal note to Galaxy's team indicating the meeting is being postponed or placed on hold, likely due to scheduling conflicts or strategic prioritization.",
+      "ai_summary": "Dave Misra is scheduling a catch-up meeting with Chris Lillie at CDW (a major IT solutions and services provider), with Galaxy's Ash Gupta and Paul Leong attending. This appears to be a strategic business discussion between Galaxy Data Centers and CDW, likely concerning partnership opportunities, service offerings, or account management for an important vendor relationship.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Chris Lillie at CDW the new meeting date and ensure alignment on agenda items",
-        "Brief Ash Gupta and Paul Leong on the reason for the hold and any pending CDW partnership or commercial discussions that need attention",
-        "Reestablish the meeting once scheduling clarity is achieved, as CDW relationships are critical to Galaxy's distribution and market reach strategy"
+        "Confirm meeting date/time with Chris Lillie and ensure all attendees (Ash, Paul, Ashley Roberts) have calendar invites and pre-meeting materials",
+        "Prepare meeting agenda and any relevant Galaxy service/product updates or partnership proposals to discuss with CDW",
+        "Brief Ash and Paul on key discussion objectives and CDW's current business priorities before the call"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -100,12 +133,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Chris (likely from CDW) is confirming a meeting with Dave and Galaxy following successful prior meetings. Dave has scheduled a hold for Wednesday at 2 PM BST / 9 AM ET and is awaiting Chris's confirmation of this timing.",
+      "ai_summary": "Chris from CDW is confirming a follow-up meeting with Dave and Galaxy leadership after successful recent discussions. Dave has scheduled a meeting for Wednesday at 2 PM BST / 9 AM ET and is waiting for Chris to confirm this time works or suggest an alternative.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Chris receives and accepts the Wednesday 2 PM BST / 9 AM ET calendar hold",
-        "Prepare meeting agenda and materials with relevant Galaxy team members (likely Chris from Galaxy) for the CDW discussion",
-        "Flag this meeting internally to ensure Dave and Chris are prepped on the topics from the previous successful meetings"
+        "Confirm the Wednesday 2 PM BST / 9 AM ET meeting is on both parties' calendars and prepare an agenda for the CDW discussion",
+        "Brief internal Galaxy team (particularly leadership attending) on CDW meeting objectives and any outstanding items from previous meetings",
+        "Set a reminder to follow up with Chris if confirmation isn't received within 24 hours"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2357,76 +2390,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Fwd: Baxtel-Galaxy Addendum",
-      "body_preview": "Les do next week. Enjoy Spring break and some very well deserved time off.\r\n\r\nDave\r\n\r\nFrom: Mitch Lenzi <mitch@baxtel.com>\r\nDate: Monday, March 30, 2026 at 7:26\u202fPM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Re: Fwd: Baxtel-Galaxy Addendum\r\n\r\nH",
-      "received": "2026-03-30T23:27:17Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAK4_uTcpHxFhC0ctxrPqSM=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Mitch Lenzi from Baxtel is confirming availability to discuss the Baxtel-Galaxy Addendum next week. Dave has agreed to the timing and is currently out for spring break. This appears to be a follow-up to finalized contract terms or amendments that require executive alignment before implementation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Schedule a meeting with Mitch Lenzi for the following week to review and finalize the Baxtel-Galaxy Addendum",
-        "Prepare any outstanding contract revisions or supporting documents for the addendum discussion",
-        "Confirm with France or relevant team members their availability and preparation for the addendum review meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Redhill Updated Deck",
-      "body_preview": "Hi Tom,\r\n\r\n\r\nThanks for the updated deck. The structural work is solid, and the test fits, particularly the 25 kW and 100 kW configurations, are helpful. They show how the modular approach works within the existing shells. The Stage 2 scope and fee are cl",
-      "received": "2026-03-30T22:37:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLeMa6IsUcusiMkbzoHH_c=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: kw",
-        "6 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be an incomplete email from Dave Misra acknowledging receipt of an updated presentation deck for what seems to be a Redhill project, likely related to data center infrastructure or modular configurations. Dave is providing positive feedback on the structural design and modular test scenarios but the message cuts off mid-sentence, preventing full assessment of any outstanding requests or concerns.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Obtain the complete email text to identify what specific item Dave was addressing regarding Stage 2 scope and fees",
-        "Clarify with the sender (Tom) what response or action item, if any, Dave was about to request",
-        "Schedule a follow-up meeting with the Redhill project team to discuss next phases based on the deck review"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 73
+  "total_tracked": 72
 }
