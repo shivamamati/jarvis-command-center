@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T15:42:10.299751+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 8,
-  "ai": 7,
+  "timestamp": "2026-04-06T16:42:13.073651+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 14,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 52,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Queen's Commerce - Infrastructure Underwriting & Data Analytics Bandwidth",
+      "body_preview": "Faye, could we do a joint review at 3PM ET tomorrow ?\r\n\r\nFrom: Faye Pan <faye.p@queensu.ca>\r\nDate: Monday, April 6, 2026 at 11:53\u202fAM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Re: Queen's Commerce - Infrastructure Underwriting & Data Analytics",
+      "received": "2026-04-06T16:04:44Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTe4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM_xu6jQJG5OmZhiqhzguXI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Faye Pan from Queen's University Commerce is engaged in discussions with Galaxy about infrastructure underwriting and data analytics bandwidth capabilities. Dave has proposed a joint review meeting at 3PM ET tomorrow to advance this potential engagement. This appears to be an academic partnership opportunity that could position Galaxy's infrastructure and analytics services within Queen's Commerce programs.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the 3PM ET tomorrow meeting with Faye and prepare a briefing document on Galaxy's infrastructure underwriting and data analytics service offerings",
+        "Identify which Galaxy team members should join the call (likely France and subject matter experts on analytics and infrastructure services)",
+        "Clarify the scope of Queen's Commerce needs - whether this is for curriculum integration, research collaboration, or data center/analytics infrastructure requirements"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "animesh@galaxydatacenters.com",
       "sender_name": "Animesh Raha",
@@ -793,40 +827,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Queen's Commerce - Infrastructure Underwriting & Data Analytics Bandwidth",
-      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 650-448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\nFrom: Faye Pan <faye.p@queensu.ca>\r\nDate: Monday, March 30, 2026 at 7:58\u202fPM\r\nTo: Dave Misra ",
-      "received": "2026-04-02T14:31:25Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5drAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM_xu6jQJG5OmZhiqhzguXI=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Faye Pan from Queen's University is reaching out to Dave regarding potential infrastructure underwriting and data analytics bandwidth capabilities for Queen's Commerce program. This appears to be an inquiry about Galaxy's technical infrastructure or partnership opportunities to support Queen's academic or research initiatives. The engagement could represent a new institutional client relationship and establish Galaxy as a preferred infrastructure provider for a major Canadian university.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "France or Dave should schedule a call with Faye Pan to understand Queen's specific infrastructure and analytics bandwidth requirements",
-        "Prepare a service overview highlighting Galaxy's data center capabilities, analytics resources, and any existing university partnerships",
-        "Determine if this is a pilot project or longer-term engagement, and identify decision-makers and budget authority at Queen's Commerce"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "colin.bell@redhilldatacentre.com",
