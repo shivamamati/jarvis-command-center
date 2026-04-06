@@ -1,42 +1,109 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T19:50:38.390004+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 8,
-  "ai": 7,
+  "timestamp": "2026-04-06T20:34:21.782575+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 5,
+  "ai": 9,
   "skipped": 0,
   "auto_learned": 54,
   "items": [
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
-      "subject": "Re: Galaxy Data Centers & Upcall",
-      "body_preview": "From: Sai Raman <sai@solarisstrategiesinc.com>\r\nDate: Monday, April 6, 2026 at 1:26\u202fPM\r\nTo: Dave Misra <dave@galaxydatacenters.com>, Animesh Raha <animesh@galaxydatacenters.com>\r\nSubject: Fwd: Galaxy Data Centers & Upcall\r\n\r\nPlease see this outsourced",
-      "received": "2026-04-06T19:49:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAZBLfV8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "subject": "Re: NWS Operating Role for Data Center Initiative",
+      "body_preview": "Hi Suraj, hope you had a good Easter weekend. Wanted to give you an update on this, I\r\n\r\nFrom: Suraj Aulakh <saulakh@graingp.com>\r\nDate: Thursday, April 2, 2026 at 5:04\u202fPM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nCc: Ricardo Rodriguez <rrodriguez@gra",
+      "received": "2026-04-06T20:32:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAZBLfV%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB3dEr-PNhJDpCRHOMrk4OY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease, data cent",
-        "Internal + customer (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: data cent",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman from Solaris Strategies is forwarding an external inquiry regarding Galaxy Data Centers and a company or service called Upcall. The message appears incomplete but suggests there may be an outsourced opportunity or partnership inquiry that requires Galaxy's attention. This could represent a business development lead or operational partnership that needs immediate review and clarification.",
+      "ai_summary": "Suraj Aulakh from Grain GP is reaching out regarding an operating role opportunity related to a data center initiative, and Dave was preparing to provide him with a project update. This appears to be a partnership or operational engagement discussion that requires Dave's direct attention and follow-up communication.",
       "ai_action": null,
       "ai_next_steps": [
-        "Contact Sai Raman to request the complete forwarded message and full context about the Upcall inquiry",
-        "Determine what Upcall is and whether this represents a potential customer, vendor, or partnership opportunity relevant to Galaxy's business model",
-        "Assign Animesh Raha or appropriate team member to evaluate the business opportunity and recommend next steps within 48 hours"
+        "Complete and send the update email to Suraj clarifying Galaxy's position on the NWS operating role and timeline expectations",
+        "Schedule a call with Suraj and Ricardo Rodriguez to align on scope, responsibilities, and next milestones for the data center initiative",
+        "Prepare internal briefing materials for France on this partnership opportunity and resource requirements"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "sai@solarisstrategiesinc.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Galaxy Data Centers & Upcall",
+      "body_preview": "Yes will do\r\n\r\nOn Mon, Apr 6, 2026, 3:51\u202fp.m. Dave Misra <dave@galaxydatacenters.com> wrote:\r\n\r\nGuys could we add this to the data room. This is a great proposal when we get to it.\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +",
+      "received": "2026-04-06T19:56:54Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB3dEr-PNhJDpCRHOMrk4OY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 2: solarisstrategiesinc.com",
+        "KW: proposal, data cent, data room",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman from Solaris Strategies is confirming agreement to add a proposal to Galaxy's data room for future review. This appears to be a follow-up to Dave's request to include materials related to an initiative that Sai considers valuable for Galaxy's consideration.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Sai the specific document(s) or proposal details to be added to the data room and the target upload date",
+        "Designate a team member to manage data room access and ensure the materials are properly indexed and categorized",
+        "Schedule a brief sync with Sai to discuss the proposal's strategic fit and timing for Galaxy's review cycle"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Fw: Redhill",
+      "body_preview": "________________________________\r\nFrom: VIJAY RAJ THAMPI <vijay.thampi@tcs.com>\r\nSent: Tuesday, April 7, 2026 3:54 AM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Dilmohan Singh <dilmohan.singh@tcs.com>\r\nSubject: RE: Redhill\r\n\r\n\r\nTCS Confidential",
+      "received": "2026-04-06T19:50:54Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI5mNROLPYREqIa4G_rfRw4=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Re customer: tcs",
+        "Internal \u2014 deal/customer related",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Vijay Raj Thampi from Tata Consultancy Services (TCS) is responding to Paul Leong regarding the Redhill project. The email appears to be part of an ongoing discussion about a potential engagement or partnership between TCS and Galaxy Data Centers. This matters because TCS is a major global IT services provider, and any collaboration on Redhill could represent a significant business opportunity for Galaxy's data center operations or services.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Paul Leong provide Dave with full context on the Redhill project scope, timeline, and Galaxy's objectives with TCS",
+        "Clarify what TCS's role and deliverables are expected to be, and ensure alignment on commercial terms",
+        "Schedule a call between Dave (or France) and the TCS stakeholders to establish executive-level relationship and confirm next milestones"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -498,38 +565,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "saulakh@graingp.com",
-      "sender_name": "Suraj Aulakh",
-      "subject": "RE: NWS Operating Role for Data Center Initiative",
-      "body_preview": "That sounds great, thank you for the update Dave!\r\n\r\n\r\nSuraj Aulakh\r\nGrain Management, LLC\r\nDirect +1 (202) 843-9418  |  Mobile +1 (202) 993-4520\r\nCONFIDENTIALITY AND SECURITY NOTICE: This communication, including any attachments, is intended only for the",
-      "received": "2026-04-02T21:04:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5ecAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "KW: data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Suraj Aulakh from Grain Management is responding positively to Dave about an operating role for a data center initiative. This appears to be an ongoing conversation about a specific operational position or engagement related to Galaxy's data center business.",
-      "ai_action": "Dave should review his prior email to Suraj to understand the full context of the 'NWS Operating Role' proposal and confirm next steps for this data center initiative.",
-      "ai_next_steps": [
-        "Locate Dave's previous email to Suraj Aulakh about the NWS Operating Role",
-        "Clarify scope: Is this a role for Grain Management to play in one of Galaxy's assets (Redhill, Poland 260MW, or another prospect)?",
-        "Schedule follow-up call with Suraj to finalize terms and timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -1261,40 +1296,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Redhill",
-      "body_preview": "Hi Dilmohan and Vijay - I hope you are both well.  Although it seems not that long ago that we wrapped up the documentation of the Redhill Data Centre renewal, I wanted to inquire about TCS's desire to remain at Redhill past your current lease term ending",
-      "received": "2026-04-02T03:44:20Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5c9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI5mNROLPYREqIa4G_rfRw4=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 14x (+2)",
-        "Re customer: tcs",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, renewal, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is inquiring about TCS's intention to renew or extend their lease at the Redhill Data Centre facility beyond the current term expiration. This is a critical retention question for Galaxy Data Centers that will impact future revenue, facility utilization planning, and long-term customer relationships at one of the portfolio's key properties.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should have France or the account team contact TCS leadership directly to understand their strategic requirements and renewal timeline for Redhill",
-        "Assess Redhill's competitive positioning and identify any service gaps or commercial terms that might be driving TCS to consider alternatives",
-        "Prepare a renewal proposal addressing TCS's needs well in advance of lease expiration to secure commitment and avoid customer loss"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2355,105 +2356,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "a.zillig@2020-4.com",
-      "sender_name": "Adam Zillig",
-      "subject": "Head of Asset Management & Development Manager, Retail Development Firm, San Diego, CA",
-      "body_preview": "We\u2019ve been retained by a well-capitalized, privately owned real estate development firm with a core focus on retail to recruit both a Head of Asset Management & Leasing and a Development Manager. With a track record spanning more than three decades, the f",
-      "received": "2026-03-30T20:29:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENIzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAABiIb8n5rlArUiTernkubs=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: rack, capital"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Adam Zillig from a recruitment firm is reaching out about two open positions at an established, well-capitalized private retail real estate development company in San Diego\u2014a Head of Asset Management & Leasing role and a Development Manager position. This appears to be a recruitment inquiry that may be relevant if Galaxy is exploring talent acquisition in the real estate development space or if there's a potential business development angle. Understanding their client's capital profile and development pipeline could identify partnership or investment opportunities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or an operations lead request full details about the developer's current portfolio, capitalization, and project pipeline to assess strategic fit",
-        "Clarify whether this is an outbound recruitment inquiry aimed at Galaxy staff or a business development opportunity Galaxy should explore",
-        "If strategically relevant, schedule a brief call with Adam to understand the client's infrastructure needs and data center footprint requirements"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "FW: Friday Marketing Meeting",
-      "body_preview": "From: sai@galaxydatacenters.com\r\nWhen: 12:30\u202fPM - 1:00\u202fPM April 3, 2026\r\nSubject: Friday Marketing Meeting\r\nLocation: Microsoft Teams Meeting\r\n\r\n\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams me",
-      "received": "2026-03-30T20:14:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGFWgKkfSqpMq1eAdlw_014=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 17x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman is circulating a calendar invite for an internal marketing meeting scheduled for Friday, April 3rd at 12:30 PM via Microsoft Teams. This appears to be a routine marketing team sync that may cover campaign strategy, messaging, or promotional initiatives relevant to Galaxy's data center or capital business lines. Dave should confirm attendance and ensure marketing priorities align with broader business objectives.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Dave's availability for the April 3rd marketing meeting and add to calendar",
-        "Request agenda details from Sai to understand specific topics and required preparation",
-        "Brief France (if relevant to her responsibilities) on meeting outcomes and any action items affecting her team"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "paul@galaxycapitalpartners.com",
-      "sender_name": "Paul Leong",
-      "subject": "Fw: Redhill Development",
-      "body_preview": "________________________________\r\nFrom: Louis Mueller <louis.mueller@castleforge.com>\r\nSent: Thursday, March 5, 2026 2:51 AM\r\nTo: Paul Leong <paul@galaxycapitalpartners.com>; Mike Adcock <mike.adcock@castleforge.com>; Ash Gupta <ash@galaxycapitalpartner",
-      "received": "2026-03-30T20:05:39Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENIyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAExIp9gI6U_CjznfYPwliPc=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Louis Mueller from CastleForge is forwarding communication regarding the Redhill Development project to Paul Leong and relevant stakeholders. The email appears to be initiating or continuing discussion on this development initiative involving both CastleForge and Galaxy Capital Partners. This project likely represents a significant investment or partnership opportunity that requires coordination between the two organizations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Paul Leong provide full context on the Redhill Development project scope, timeline, and Galaxy's capital commitment or role",
-        "Confirm whether this is a new opportunity or existing project requiring escalation, and identify any immediate decisions or approvals needed from Dave",
-        "Schedule a brief call with Paul, Mike Adcock, and Ash Gupta to align on next actions and decision timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 74
+  "total_tracked": 71
 }
