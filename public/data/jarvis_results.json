@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T05:20:27.065191+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 1,
-  "ai": 4,
+  "timestamp": "2026-04-06T07:24:25.400307+00:00",
+  "total": 1,
+  "new": 1,
+  "noise": 0,
+  "ai": 1,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "dse@eumail.docusign.net",
+      "sender_name": "Daniel Scarbrough via Docusign",
+      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
+      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
+      "received": "2026-04-06T07:08:26Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5gOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPExMLELp-9PmMCSMB5GAZI=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for review and signature via DocuSign. This is a legal document requiring Dave's attention\u2014either Evermere is a prospective investor, LP, or deal partner exploring a business relationship with Galaxy.",
+      "ai_action": "Dave should review the MNDA immediately via DocuSign link and determine Evermere's interest (investor, capital partner, or deal-related). Have Simmons & Simmons (legal counsel) review if not already done.",
+      "ai_next_steps": [
+        "Click DocuSign link and review MNDA terms",
+        "Confirm with Evermere Capital what deal/partnership this relates to",
+        "Loop in Simmons & Simmons legal team for review if required"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "ash@galaxydatacenters.com",
       "sender_name": "Ash Gupta",
@@ -1090,36 +1120,6 @@
         "Confirm with Samantha that the post has been published and monitor engagement metrics",
         "Verify the post aligns with Galaxy's brand messaging and track any customer or stakeholder responses",
         "Schedule a follow-up with Samantha to review performance and plan future Tech Capital-related communications"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dse@eumail.docusign.net",
-      "sender_name": "Daniel Scarbrough via Docusign",
-      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
-      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
-      "received": "2026-04-02T04:02:18Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKJO7mzRNMxIvErzXHhMqQs=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for execution via DocuSign. This is a legal document requiring Dave's signature\u2014likely precursor to discussing a specific investment, partnership, or deal with Evermere.",
-      "ai_action": "Dave should review the MNDA immediately and forward to Simmons & Simmons (Galaxy's legal counsel) for review before signing. Confirm what deal/partnership this relates to.",
-      "ai_next_steps": [
-        "Review MNDA via DocuSign link",
-        "Forward to Simmons & Simmons for legal review and negotiation",
-        "Confirm scope of discussion with Evermere (investment opportunity, asset sale, partnership, etc.)"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -2657,73 +2657,7 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Re: BFSI Colocation Sales Pitch ",
-      "body_preview": "Hi Dave ,\r\n\r\nPlease find the final copy of the Enterprise Deck attached which I have shared earlier on teams.\r\n\r\nBest Regards\r\nAnimesh\r\n________________________________\r\nFrom: Animesh Raha <animesh@galaxydatacenters.com>\r\nSent: Wednesday, March 25, 2026 1",
-      "received": "2026-03-30T07:13:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA9eGeNraV9JrJiiYaHBD6U=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Animesh Raha, a Galaxy Data Centers team member, is providing the finalized Enterprise Deck for the BFSI (Banking, Financial Services, and Insurance) colocation sales pitch that was previously discussed. This deck is critical for moving forward with a targeted enterprise sales initiative in a high-value vertical market segment.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached Enterprise Deck and provide feedback to Animesh on messaging, positioning, and any necessary revisions before client engagement",
-        "Confirm the intended target accounts or prospects for the BFSI pitch and align on next meeting/presentation timeline",
-        "Ensure France and relevant sales team members have access to and are briefed on the final deck content"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "LinkedIn Article / Post and Carousel",
-      "body_preview": "Hi Rahul ,\r\nI have gone through the 5 Carousel Slides it doesn't aligns , so here to support. Pls feel to call and ask me if any questions by your design team.\r\nPlease find the LinkedIn Article , and the diagram which should go inside the article.\r\nAlso f",
-      "received": "2026-03-30T07:11:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENHkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH2R7Z9OuntKl45dS5a-shs=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Animesh Raha from Galaxy Data Centers is providing feedback on LinkedIn carousel content and offering design support. He's identified misalignments in the existing carousel slides and is providing an article with accompanying diagram as corrected materials for the team to use.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have the design team review Animesh's provided article and diagram against the original carousel content to identify specific alignment issues",
-        "Schedule a call with Animesh to clarify design requirements and ensure the team's revised approach meets expectations",
-        "Confirm with Rahul/marketing which LinkedIn assets are production-ready and schedule posting"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 82
+  "total_tracked": 80
 }
