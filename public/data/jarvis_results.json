@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T17:42:08.599206+00:00",
-  "total": 20,
-  "new": 20,
-  "noise": 15,
-  "ai": 18,
+  "timestamp": "2026-04-06T18:53:48.642377+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 9,
+  "ai": 9,
   "skipped": 0,
   "auto_learned": 52,
   "items": [
@@ -29,12 +29,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman from Solaris Strategies is forwarding an introduction to Upcall, an outsourced sales development representative service that conducts outbound calling campaigns. This appears to be a vendor pitch for lead generation services targeting Galaxy's prospect list, with no prior business engagement established.",
+      "ai_summary": "Steven Mangra from Upcall, an outsourced SDR (sales development representative) service provider, is being introduced by Sai Raman at Solaris Strategies. Upcall offers cold calling services targeting prospect lists, and Sai is forwarding this as a potential vendor option for Galaxy's sales development efforts. This is relevant to Galaxy as a scalable way to augment outbound prospecting capacity for data center and infrastructure services without building internal sales development headcount.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Sai whether Galaxy has an existing relationship need or if this is an unsolicited vendor outreach",
-        "If relevant, have France evaluate Upcall's service offering, pricing, and performance metrics against current SDR capacity and cost",
-        "Decide whether to request a formal proposal or decline based on Galaxy's current lead generation strategy and budget allocation"
+        "Have France or the sales team request Upcall's case studies, pricing, and call performance metrics (connect rate, qualified lead rate) specific to the data center or enterprise infrastructure verticals",
+        "Clarify Galaxy's current outbound prospecting gaps and target ICPs to determine if outsourced SDR services align with immediate priorities versus other sales enablement investments",
+        "Schedule a brief call with Steven Mangra to understand process, compliance requirements (especially for B2B enterprise sales), and trial/pilot options before committing to a larger engagement"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -62,12 +62,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be Dave's outgoing response to Rahul from Schbang, confirming willingness to connect via phone or WhatsApp. Dave is ready to proceed with a conversation but needs clarification on communication method and contact details.",
+      "ai_summary": "This is an internal email from Dave to someone named Rahul (likely from Schbang, a marketing/creative agency) confirming readiness to connect via phone or WhatsApp. Dave is waiting for Rahul to initiate contact and is offering flexibility on communication method, suggesting preliminary engagement stages for a potential business opportunity.",
       "ai_action": null,
       "ai_next_steps": [
-        "Await Rahul's response with preferred contact method and phone number",
-        "If no response within 24-48 hours, consider sending a follow-up message to move the conversation forward",
-        "Once contact details are confirmed, schedule the call at a mutually convenient time"
+        "Dave should clarify with Rahul the purpose and scope of the potential engagement to assess strategic fit with Galaxy's business objectives",
+        "Establish a scheduled call with clear agenda items rather than ad-hoc coordination to ensure productive use of time",
+        "Route conversation to France or appropriate team member if this relates to marketing, branding, or service offerings for Galaxy Data Centers"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -2451,76 +2451,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "victoria.skrbensky@jll.com",
-      "sender_name": "Skrbensky, Victoria",
-      "subject": "Re: 80 MW + 180 MW Data Centre Opportunity in Poland",
-      "body_preview": "Hi Dave,\r\n\r\nJust following up on your interest in this opportunity? We may have a local development who might be willing to engage in development JV with you, taking a minority position. This would align with your investment requirements, as per our call ",
-      "received": "2026-03-30T18:09:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENIlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC-fr_inykGonrkrSdaKcrA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Victoria Skrbensky]",
-      "rules_reasons": [
-        "Attachments from known (+1)",
-        "VIP: jll.com",
-        "Pipeline: victoria skrbensky",
-        "KW: mw, investment, data cent",
-        "High MW: 80 mw"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Victoria Skrbensky from JLL is following up on a previously discussed 260 MW data center development opportunity in Poland, indicating they've identified a local developer willing to partner with Galaxy in a minority equity position on the project. This aligns with Galaxy's stated investment thesis and could provide access to a significant operational asset with reduced capital burden through a development JV structure.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Schedule a call with Victoria to clarify the local partner's identity, development timeline, and specific capital/equity contribution structure for the JV",
-        "Prepare preliminary financial model and due diligence requirements for Poland 260 MW project to evaluate against Galaxy's return thresholds",
-        "Have France connect with Victoria to confirm next meeting and establish process timeline for partner introduction and term sheet negotiation"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
-      "body_preview": "We should hold an hour for our catch-up call monday.  I think there are a lot of open things\r\n\r\n1. TJ\u2019s note on Nomura\r\n2. \u2060Evidence for Digital Case\r\n3. \u2060Quotes for retrofit options\r\n4. \u2060TCS VS SMBC\r\n5. \u20601Q is over, what are we saying about new business",
-      "received": "2026-03-30T17:58:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8LjmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACtXD--82xlFjc_KpG6cMG0=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: nomura",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal calendar hold request from Dave Misra to himself and key Galaxy leadership (Paul, Ash, TJ) for a Monday sync call. The agenda spans multiple critical business items including a Nomura engagement update, litigation evidence preparation, infrastructure retrofit decisions, and competitive positioning between TCS and SMBC, with a need to establish messaging around new business now that Q1 has closed. This matters because it consolidates several high-priority strategic and operational decisions that require aligned leadership sign-off.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Monday call time with Paul, Ash, and TJ, and request each brings prepared updates on their respective agenda items (TJ on Nomura status, evidence compilation, retrofit quotes, TCS/SMBC analysis)",
-        "Pre-call, have France or ops team compile the retrofit option quotes and TCS vs SMBC comparison matrix so discussion is data-driven",
-        "Post-call, document decisions and assign owners for new business messaging and Q2 positioning before it needs to go external"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 76
+  "total_tracked": 74
 }
