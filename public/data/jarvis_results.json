@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T10:52:39.391160+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 7,
-  "ai": 4,
+  "timestamp": "2026-04-06T11:45:04.797149+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 9,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "animesh@galaxydatacenters.com",
+      "sender_name": "Animesh Raha",
+      "subject": "Re: Hello from Schbang | Galaxy Data Centers / Content Strategy Discussion and Next Steps",
+      "body_preview": "Hi Rahul,\r\nLet\u2019s use our kickoff call to discuss the content strategy and calendar. Happy to get introduce to our account manager .\r\nI\u2019ve attached the blog and post I shared earlier. You\u2019ll also find three thought leadership posts along with their sequenc",
+      "received": "2026-04-06T11:16:06Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5gbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEiANQcyG19JoJ5WVIqZsZU=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, data cent, introduce"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Animesh Raha from Galaxy Data Centers is responding positively to Schbang's content strategy proposal and confirming readiness to move forward with a kickoff call to align on content planning and calendar. He's requesting an introduction to the account manager and has provided supporting materials including blog samples and thought leadership content outlines to inform the collaboration.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule the kickoff call between Animesh, Schbang, and the assigned account manager to discuss content strategy and editorial calendar",
+        "Review the attached blog posts and thought leadership content sequencing to understand Galaxy's existing content voice and proposed direction",
+        "Confirm Schbang's account manager assignment and ensure they're prepared with Galaxy's business objectives and audience targets before the kickoff"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Daniel Scarbrough via Docusign",
@@ -2560,5 +2594,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 77
+  "total_tracked": 78
 }
