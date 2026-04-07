@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T07:10:33.199516+00:00",
+  "timestamp": "2026-04-07T08:57:29.390923+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -7,11 +7,11 @@
       "end": "2026-04-07T14:30:00.0000000",
       "attendees": [
         "Ash",
+        "Luke",
         "Tj",
         "Rhys",
         "Fredy",
-        "Benjamin",
-        "Colin"
+        "Benjamin"
       ],
       "organizer": "Ash Gupta",
       "location": "Microsoft Teams Meeting",

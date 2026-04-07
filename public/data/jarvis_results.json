@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T07:10:52.147529+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 3,
-  "ai": 6,
+  "timestamp": "2026-04-07T08:57:41.334302+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 49,
   "items": [
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Paul,\r\n\r\nPlease see the service order with amended address attached.\r\n\r\nPlease arrange for signature and return back to me. I will then obtain counter signature and send onto our implemention team.\r\n\r\nKind regards\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales",
+      "received": "2026-04-07T08:53:33Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "KW: lease",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty is sending an amended service order related to the Galaxy/DRT partnership and Cloud House deployment. She needs Galaxy to sign the document so she can obtain counter-signature and move the project to the implementation team. This is a critical step to activate the partnership and move toward operational deployment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Paul or France review the amended service order immediately to confirm the address and all terms are correct before signing",
+        "Arrange for authorized signature on the document and return to Fiona Leon promptly to keep the implementation timeline on track",
+        "Confirm receipt of counter-signed documents and coordinate with France to ensure implementation team readiness for the next phase"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -1426,38 +1459,6 @@
         "Have France or operations immediately audit the three conflicting S140 TX meter readings to identify which source is authoritative and reconcile the discrepancies",
         "Reach out to Colin directly to acknowledge the unresponded inquiry, explain the root cause, and provide a corrected reading with timeline for resolution",
         "Implement a process review to prevent multiple conflicting meter readings from being generated in parallel (workbook vs. report vs. rebilling sheet)"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "fional@digitalrealty.com",
-      "sender_name": "Fiona Leon",
-      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "I can send blank via PDF, not a problem.\r\n\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales\r\nMob: 07557 268924\r\n60 London Wall, London, EC2M 5TQ\r\n\r\n\r\n\r\n\r\n\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Wednesday, April 1, 2026 5:35 PM\r\nTo: Fiona Leon <fion",
-      "received": "2026-04-02T08:22:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Fiona Leon]",
-      "rules_reasons": [
-        "Tier 1: digitalrealty.com",
-        "Pipeline: fiona leon",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is confirming she can provide a blank PDF document as requested, likely related to the Galaxy-DRT partnership and Cloud House deployment initiative. This appears to be a procedural confirmation on deliverables needed to move forward with contract documentation or technical specifications for the partnership. Obtaining these materials promptly is critical to maintaining momentum on what appears to be a strategic infrastructure partnership between Galaxy and Digital Realty.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Paul Leong confirm receipt of the PDF from Fiona and review it for completeness against Galaxy's technical and commercial requirements",
-        "Schedule a follow-up call with Digital Realty to clarify the scope and timeline for Cloud House deployment phases",
-        "Ensure France (or relevant Galaxy team member) integrates this deliverable into the partnership implementation plan and identifies any blocking items"
       ],
       "ai_failed": false,
       "final_score": 9,
