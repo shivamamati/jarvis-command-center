@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T22:34:44.906235+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 3,
-  "ai": 4,
+  "timestamp": "2026-04-07T23:34:08.208516+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 2,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
@@ -25,17 +25,18 @@
         "Calendar match (+2)",
         "Dave replied 11x (+4)",
         "KW: lease",
+        "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
-      "ai_score": 7,
+      "ai_score": 8,
       "ai_label": "URGENT",
-      "ai_summary": "Faye Pan is working on Docklands presentation materials and needs Dave to provide missing content to complete the deck in Redhill CIM format and valuation section. This appears to be internal deal work on an active project.",
-      "ai_action": "Dave should respond with the requested materials/information to keep Docklands presentation on track.",
+      "ai_summary": "Faye Pan is working on the Docklands presentation deck in Redhill CIM format and needs additional materials from Dave to complete the valuation section. This appears to be an active deal prep task requiring Dave's direct input.",
+      "ai_action": "Dave should respond immediately with the missing materials Faye is requesting (email appears truncated\u2014follow up to confirm what she needs).",
       "ai_next_steps": [
-        "Clarify what specific content Faye needs (email appears cut off)",
-        "Provide missing Redhill CIM format documentation and valuation inputs",
-        "Confirm Docklands timeline and presentation deadline"
+        "Confirm what specific materials/data Faye needs for the valuation section",
+        "Gather and send requested documents to Faye",
+        "Coordinate timeline for deck completion"
       ],
       "ai_failed": false,
       "final_score": 10,
