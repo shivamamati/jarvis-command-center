@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T15:04:07.388165+00:00",
+  "timestamp": "2026-04-07T16:53:13.903641+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -73,8 +73,8 @@
     },
     {
       "subject": "Galaxy + DCW Europe",
-      "start": "2026-04-08T14:00:00.0000000",
-      "end": "2026-04-08T14:30:00.0000000",
+      "start": "2026-04-08T13:00:00.0000000",
+      "end": "2026-04-08T13:30:00.0000000",
       "attendees": [
         "Candace",
         "christopher.greaves@informa.com"
