@@ -1,13 +1,81 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-06T23:32:03.150832+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 4,
-  "ai": 10,
+  "timestamp": "2026-04-07T02:02:07.388848+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 2,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 50,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fw: Docklands Deck review with Faye ",
+      "body_preview": "________________________________\r\nFrom: Faye Pan\r\nSent: Monday, April 6, 2026 12:26:46 PM\r\nTo: Faye Pan <faye.p@queensu.ca>; Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Docklands Deck review with Faye\r\nWhen: Tuesday, April 7, 2026 3:00 PM-3:30 P",
+      "received": "2026-04-07T02:00:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOQIf4Z10S5EnaP8dQqz1HI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Thread: 4 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Faye Pan is scheduling a 30-minute meeting for Tuesday, April 7 at 3:00 PM to review the Docklands presentation deck with Dave. This appears to be a preparation or feedback session ahead of a potential investor pitch or stakeholder presentation for Galaxy's Docklands data center project, which is critical for securing funding or alignment on strategy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and prepare any questions or concerns about the Docklands deck content before the 3:00 PM meeting",
+        "Gather current financial projections, timeline, and competitive positioning materials for the Docklands project to have on hand during the review",
+        "Clarify with Faye post-meeting whether revisions are needed and what the next milestone is (investor meetings, board approval, etc.)"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fw: Revised Docklands Model",
+      "body_preview": "________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, March 30, 2026 9:45:58 PM\r\nTo: Marcus Bartolini <marcus.bartolini@gmail.com>\r\nSubject: Fw: Revised Docklands Model\r\n\r\n\r\n\r\n________________________________",
+      "received": "2026-04-07T01:58:28Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM5VLmI7HgpKr6Rt26O-7sY=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a forwarded email chain regarding a revised Docklands model, likely related to a data center or infrastructure project. Without the original message content visible in the forwarding thread, the specific request and business context cannot be determined from this transmission alone.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Dave clarify the original message content and what action items the revised Docklands model requires",
+        "Identify whether this pertains to a Galaxy Data Centers facility expansion or infrastructure investment that needs review",
+        "Schedule a follow-up with Marcus Bartolini to understand project status, timeline, and any decisions needed from Galaxy leadership"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "saulakh@graingp.com",
       "sender_name": "Suraj Aulakh",
@@ -2290,107 +2358,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: DCR Excellence awards",
-      "body_preview": "Hey Sai!\r\n\r\nChecking in on this one \u2014 entries are due Wednesday, so we would need the additional information by tomorrow morning (March 31) to move forward.\r\n\r\nNo worries if you decide to skip this one this year, but wanted to check in one more time!\r\n\r\nC",
-      "received": "2026-03-31T01:34:19Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOz52lkouM9JqQ7RDdcbrmU=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 8x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is following up on DCR Excellence Award entries with an urgent deadline\u2014submissions are due Wednesday and she needs additional information by tomorrow morning (March 31) to include Galaxy's entry. She's giving Dave/the team a final opportunity to decide whether to participate this year.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm by end of business today whether Galaxy wants to submit an entry for the DCR Excellence Awards",
-        "If yes, gather and send required information to Candace by March 31 morning",
-        "If no, notify Candace promptly so she can plan accordingly"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "max@galaxydatacenters.com",
-      "sender_name": "Max Salomon",
-      "subject": "Revised Docklands Model",
-      "body_preview": "Hi all,\r\n\r\nPlease find the revised model attached for the Docklands site.\r\n\r\nBest,\r\nMax",
-      "received": "2026-03-31T01:20:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM5VLmI7HgpKr6Rt26O-7sY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Max Salomon from Galaxy Data Centers has shared an updated financial or operational model for the Docklands facility. This revision likely addresses previous feedback or incorporates new assumptions, and requires review to ensure the site remains on track for approval and execution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the revised Docklands model to identify key changes from the previous version and assess financial/operational impact",
-        "Schedule a sync with Max to clarify assumptions, timeline, and any critical dependencies that need stakeholder alignment",
-        "Determine if France or other leadership needs to review before proceeding to the next decision gate"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "mitch@baxtel.com",
-      "sender_name": "Mitch Lenzi",
-      "subject": "Proposed new time: Mitch Dave Sync  @ Wed Apr 8, 2026 10:15am - 11:15am (CDT) (Dave Misra)",
-      "body_preview": "Mitch Dave Sync\r\n\r\nMitch Lenzi has replied \"Maybe\" to this invitation and proposed a new time:\r\nWed Apr 8, 2026 10:30am \u2013 11:30am\r\n\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https:/",
-      "received": "2026-03-31T01:08:16Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENJKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALk-kqMES19Mp8AmUPAOjMI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Mitch Lenzi]",
-      "rules_reasons": [
-        "Dave replied 3x (+4)",
-        "Attachments from known (+1)",
-        "VIP: baxtel.com",
-        "Pipeline: mitch lenzi",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Mitch Lenzi from Baxtel is confirming a sync meeting with Dave but has proposed a 15-minute time shift (10:30am-11:30am instead of 10:15am-11:15am) on Wednesday, April 8th. This appears to be a routine scheduling adjustment that requires Dave's confirmation to finalize the meeting.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm whether Dave can accommodate the 10:30am start time or if the original 10:15am slot is necessary",
-        "Once confirmed, send formal calendar acceptance to Mitch to lock in the final meeting time",
-        "Prepare relevant materials for Dave's sync with Mitch (agenda, recent updates on any active initiatives between Galaxy and Baxtel)"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 72
+  "total_tracked": 71
 }
