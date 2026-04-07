@@ -1,13 +1,145 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T05:05:52.576630+00:00",
-  "total": 6,
-  "new": 6,
+  "timestamp": "2026-04-07T07:10:52.147529+00:00",
+  "total": 8,
+  "new": 8,
   "noise": 3,
-  "ai": 4,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 49,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Revised Docklands Model",
+      "body_preview": "For the presentation you should follow the flow of the Redhill CIM. CF helped edit this CIM so it's a flow they will be familiar with. I'm attaching it for reference.\r\n\r\n\r\n  1.\r\nClearly state the investment highlights (location, power expansion, operating",
+      "received": "2026-04-07T06:01:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM5VLmI7HgpKr6Rt26O-7sY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 11x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: investment, power",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is providing guidance on structuring the Docklands presentation by recommending alignment with the Redhill CIM format, which Cushman & Wakefield (CF) already reviewed and understands. This approach should streamline stakeholder buy-in by using a familiar framework for investment highlights and operational details.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached Redhill CIM to understand the proven presentation structure and flow",
+        "Adapt the Docklands model presentation to follow the same format, ensuring investment highlights, location, power expansion, and operating metrics are clearly sequenced",
+        "Confirm with Paul and/or France that the revised structure is ready for C&W presentation"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "You have been added to a team in Microsoft Teams",
+      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Marketing team!\r\n\r\n\r\nGALAXY - Marketing\r\n\r\n        3 members\r\n        Campaigns, content, and brand\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team.",
+      "received": "2026-04-07T05:52:19Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEQ9ptDAe2lNv4t-IV__emw=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a system notification from Microsoft Teams indicating that Dave Misra has been added to the GALAXY - Marketing team workspace. The team is designed as a collaborative hub for marketing campaigns, content strategy, and brand management with 3 current members. This matters because it establishes the digital infrastructure needed for Galaxy's marketing function to operate efficiently, ensuring alignment on campaigns and brand initiatives across the organization.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify team membership and ensure all relevant marketing stakeholders have been added to the workspace",
+        "Establish team guidelines, communication norms, and define primary channels for campaigns, content reviews, and brand communications",
+        "Schedule an initial team sync to clarify current marketing priorities and how this Teams workspace will support Galaxy's go-to-market strategy"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "You have been added to a team in Microsoft Teams",
+      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Marketing team!\r\n\r\n\r\nGALAXY - Marketing\r\n\r\n        3 members\r\n        Campaigns, content, and brand\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team.",
+      "received": "2026-04-07T05:52:18Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADhV4Ff5eCdCiF7s4NHb1Os=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an automated notification that Dave Misra has been added to the Galaxy Marketing team in Microsoft Teams, a collaborative platform for the company's marketing department. The team consists of 3 members and is focused on campaigns, content, and brand initiatives. This establishes a centralized communication channel for marketing coordination across Galaxy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm access to the GALAXY - Marketing Teams channel and review existing conversations and project status",
+        "Clarify with the team lead what specific marketing campaigns or initiatives Dave should prioritize or oversee",
+        "Establish communication norms and meeting cadence with the 3-member marketing team to align on deliverables and timelines"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "You have been added to a team in Microsoft Teams",
+      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Marketing team!\r\n\r\n\r\nGALAXY - Marketing\r\n\r\n        3 members\r\n        Campaigns, content, and brand\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team.",
+      "received": "2026-04-07T05:52:18Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJLUDovpJW1Pqo4-phcPBb4=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a system notification from Microsoft Teams indicating that Dave Misra has been added to the GALAXY - Marketing team workspace. The team appears to be a collaborative channel for 3 members focused on marketing campaigns, content strategy, and brand management for Galaxy. This suggests Galaxy is organizing its marketing function within Teams for improved cross-functional collaboration and centralized communication.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm access to the GALAXY - Marketing Teams channel and review any pinned messages or existing documentation to understand current marketing priorities",
+        "Identify the other 2 team members and clarify roles/responsibilities within the marketing team",
+        "Establish team norms and confirm how marketing initiatives, campaigns, and content decisions will be tracked and communicated through the channel"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -74,40 +206,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: Revised Docklands Model",
-      "body_preview": "________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, March 30, 2026 9:45:58 PM\r\nTo: Marcus Bartolini <marcus.bartolini@gmail.com>\r\nSubject: Fw: Revised Docklands Model\r\n\r\n\r\n\r\n________________________________",
-      "received": "2026-04-07T01:58:28Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM5VLmI7HgpKr6Rt26O-7sY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a forwarded email chain regarding a revised Docklands model, likely related to a data center or infrastructure project. Without the original message content visible in the forwarding thread, the specific request and business context cannot be determined from this transmission alone.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Dave clarify the original message content and what action items the revised Docklands model requires",
-        "Identify whether this pertains to a Galaxy Data Centers facility expansion or infrastructure investment that needs review",
-        "Schedule a follow-up with Marcus Bartolini to understand project status, timeline, and any decisions needed from Galaxy leadership"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -2394,5 +2492,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 72
+  "total_tracked": 75
 }
