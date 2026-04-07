@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T17:57:01.358271+00:00",
-  "total": 30,
-  "new": 30,
-  "noise": 20,
-  "ai": 26,
+  "timestamp": "2026-04-07T19:01:06.460945+00:00",
+  "total": 21,
+  "new": 21,
+  "noise": 15,
+  "ai": 18,
   "skipped": 0,
-  "auto_learned": 47,
+  "auto_learned": 46,
   "items": [
+    {
+      "sender_email": "faye.p@queensu.ca",
+      "sender_name": "Faye Pan",
+      "subject": "Deck for Our Meeting Today",
+      "body_preview": "Hi Dave,\r\n\r\nI hope you\u2019re doing well.\r\n\r\nPlease find attached the presentation deck for our meeting in 20mins. I\u2019ve included the latest updates and revisions for your review.\r\n\r\n\r\nBest,\r\nFaye",
+      "received": "2026-04-07T18:44:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANuu_6VWFcFOvVfal4QVrsQ=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+4)",
+        "Attachments + deal KW (+2)",
+        "KW: lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Faye Pan is sending a presentation deck for an imminent meeting with Dave in 20 minutes. This appears to be a pre-meeting document delivery for a scheduled discussion, likely related to a business matter that Dave has already committed to.",
+      "ai_action": "Dave should review the attached deck immediately before the meeting. France should confirm meeting details (time, location, dial-in) and ensure Dave has the materials.",
+      "ai_next_steps": [
+        "Open and review attached presentation deck now",
+        "Confirm meeting time, location, and attendees with Faye if needed",
+        "Have any relevant background materials or notes ready for the discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "bobcavoto@2020-4.com",
       "sender_name": "Bob Cavoto",
@@ -27,12 +60,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Bob Cavoto is forwarding Jocelyn Friel's resume, a seasoned Real Estate Private Credit Executive with portfolio management experience overseeing a $5B platform. This appears to be a candidate introduction for a potential hiring or advisory opportunity at Galaxy. Given Galaxy's real estate and data center infrastructure focus, an experienced private credit executive could add significant value to capital formation or debt structure strategy.",
+      "ai_summary": "Bob Cavoto is referring a candidate, Jocelyn Friel, who has significant experience as a Portfolio Manager overseeing a $5B real estate private credit platform. This appears to be a talent referral for a potential leadership or investment role that aligns with Galaxy Capital Partners' real estate and credit investment focus. This matters because Galaxy may be looking to strengthen its real estate credit team or this candidate could fill a critical portfolio management gap.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review Jocelyn's full resume and determine if there's an open role or advisory need within Galaxy Capital or Galaxy Data Centers",
-        "If of interest, schedule a preliminary call with Bob to clarify the context of the introduction and Jocelyn's availability/expectations",
-        "Have France evaluate fit against current hiring priorities and capital structure initiatives"
+        "Review Jocelyn's full resume and request the PDF version from Bob to assess fit for specific open roles at Galaxy Capital or Galaxy Data Centers",
+        "Have France schedule a preliminary call with Bob to understand what role he believes Jocelyn is suited for and whether this is a passive introduction or an active placement",
+        "Determine if Galaxy Capital has immediate hiring needs in real estate private credit that warrant advancing this candidate to interviews"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -2970,5 +3003,5 @@
       "final_label": "URGENT"
     }
   ],
-  "total_tracked": 90
+  "total_tracked": 91
 }
