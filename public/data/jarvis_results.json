@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T20:57:32.950792+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 1,
-  "ai": 7,
+  "timestamp": "2026-04-07T21:43:03.998069+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 3,
+  "ai": 3,
   "skipped": 0,
-  "auto_learned": 49,
+  "auto_learned": 47,
   "items": [
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2875,107 +2875,7 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Follow up - capacity optimisation pilot",
-      "body_preview": "Hi Jade,\r\n\r\nWhile we're waiting on the Ecostruxure data from Ash, we've pulled together what we can from our side to help unblock the analysis. See attached: 7.4 Site Schematics\r\n\r\nS140 Single Line Diagrams:\r\n\r\n  *   S140-1 LV Schematic (PDF)\r\n  *   S140-",
-      "received": "2026-03-31T21:22:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALEluCSELAJLvn1_zTmzM6I=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: capacity, lp",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is responding to Jade regarding the capacity optimization pilot by providing site schematic documentation (S140 single line diagrams) that Galaxy has compiled internally while waiting for Ecostruxure data from Ash. This proactive document sharing aims to unblock the analysis work and move the pilot forward despite incomplete external data dependencies.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Jade that the provided schematics are the correct format and completeness needed for the capacity analysis",
-        "Follow up with Ash on the Ecostruxure data timeline to establish when the analysis can proceed with both internal and external data sets",
-        "Schedule a working session with Jade and the technical team to begin preliminary analysis once all documentation is received"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Dave Misra shared the folder \"7.4 Site Schematics\" with you",
-      "body_preview": "Dave Misra shared a folder with you\r\n\r\nunit 3\r\n\r\n        7.4 Site Schematics\r\n        This link only works for the direct recipients of this message.\r\nOpen\r\n\r\n\r\nPrivacy Statement\r\n\r\nThis email is generated through Galaxy Capital Partners, LLC's use of Mic",
-      "received": "2026-03-31T21:16:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOSViz3tWzNNsu5MghSXEDs=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a system-generated notification that Dave Misra has shared a folder containing site schematics (labeled '7.4 Site Schematics') for unit 3. The message is incomplete and appears to be a template or test email rather than a substantive communication requiring action. Without clarity on the actual business purpose or recipient, it's difficult to assess immediate impact.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify whether this email was intentionally sent and to whom it was meant to be distributed",
-        "Confirm the contents and business purpose of the '7.4 Site Schematics' folder to determine if action is needed",
-        "Check if this is part of a larger data center project or facility planning initiative that requires follow-up"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Dave Misra shared the folder \"7.4 Site Schematics\" with you",
-      "body_preview": "Dave Misra shared a folder with you\r\n\r\nunit 3\r\n\r\n        7.4 Site Schematics\r\n        This link only works for the direct recipients of this message.\r\nOpen\r\n\r\n\r\nPrivacy Statement\r\n\r\nThis email is generated through Galaxy Capital Partners, LLC's use of Mic",
-      "received": "2026-03-31T21:16:07Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAYy8Lj7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC0cXbxOVeVElxXF-eYIFfQ=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a system-generated notification indicating that Dave Misra has shared the '7.4 Site Schematics' folder (specifically for Unit 3) with recipients via a secure link. This appears to be an internal Galaxy Capital Partners/Galaxy Data Centers document sharing action, likely related to data center facility planning or infrastructure documentation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify the intended recipients of this folder share and confirm all access permissions are correct",
-        "Review the schematic contents to ensure sensitive site information is only distributed to authorized personnel",
-        "Follow up on any outstanding action items or decisions that depend on these schematics being shared"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 90
+  "total_tracked": 87
 }
