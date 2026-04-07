@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T02:01:47.202422+00:00",
+  "timestamp": "2026-04-07T05:05:42.278257+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -34,6 +34,20 @@
       "location": "4.01",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pQ4nKAAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEFTImBgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Galaxy Call",
+      "start": "2026-04-07T18:00:00.0000000",
+      "end": "2026-04-07T18:30:00.0000000",
+      "attendees": [
+        "Kyle",
+        "Ash",
+        "Krish"
+      ],
+      "organizer": "Kyle Fan",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIOAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Docklands Deck review with Faye ",
