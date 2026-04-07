@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T16:54:48.809138+00:00",
-  "total": 33,
-  "new": 33,
-  "noise": 23,
-  "ai": 32,
+  "timestamp": "2026-04-07T17:57:01.358271+00:00",
+  "total": 30,
+  "new": 30,
+  "noise": 20,
+  "ai": 26,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "bobcavoto@2020-4.com",
+      "sender_name": "Bob Cavoto",
+      "subject": "Jocelyn Friel Resume \u2013 Real Estate Private Credit Executive",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nBelow is the resume of Jocelyn Friel, a highly accomplished Real Estate Private Credit Executive. Upon request, we can attach a pdf version.\r\n\r\n\r\n\r\nJocelyn served as the Portfolio Manager of a $5B real estate private credit platform where she",
+      "received": "2026-04-07T17:54:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAY%2BI76PAAAuilH2jaEmTaBeWRekOs%2B0AAZwNoHgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGVEZVV1acVFilw5F_9wbE0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Bob Cavoto is forwarding Jocelyn Friel's resume, a seasoned Real Estate Private Credit Executive with portfolio management experience overseeing a $5B platform. This appears to be a candidate introduction for a potential hiring or advisory opportunity at Galaxy. Given Galaxy's real estate and data center infrastructure focus, an experienced private credit executive could add significant value to capital formation or debt structure strategy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review Jocelyn's full resume and determine if there's an open role or advisory need within Galaxy Capital or Galaxy Data Centers",
+        "If of interest, schedule a preliminary call with Bob to clarify the context of the introduction and Jocelyn's availability/expectations",
+        "Have France evaluate fit against current hiring priorities and capital structure initiatives"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "adam.leponis@kennedyrenewables.com",
       "sender_name": "Adam Leponis",
@@ -15,7 +45,7 @@
       "body_preview": "Hi Dave,\r\n\r\nThank you for your time just now,\r\n\r\nTo keep this simple I am going to go away and produce a proposal so you can see the figures for Redhill and all I ask for is 15/20 minutes to show you the high level information dn give you the opportunity ",
       "received": "2026-04-07T16:48:20Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5i5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPgtFPCfUUOyqZcPpMK_SAI=",
       "rules_score": 6,
@@ -28,12 +58,12 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Adam Leponis from Kennedy Renewables is following up on a recent conversation with Dave about a solar proposal for Redhill Data Centre. He's preparing a formal proposal with financial figures and requesting a brief 15-20 minute meeting to present the opportunity.",
-      "ai_action": "Flag for Dave's review. This is a direct follow-up from a conversation Dave just had. Solar/renewable energy at Redhill is strategically relevant given the asset's operational costs. Have Dave confirm availability for the proposal review when it arrives.",
+      "ai_summary": "Adam Leponis from Kennedy Renewables is following up on a recent conversation with Dave about a solar proposal for Redhill Data Centre. He's preparing a formal proposal with financial figures and requesting a brief 15-20 minute follow-up meeting to present the business case.",
+      "ai_action": "Dave should confirm availability for the follow-up meeting and clarify scope (is this solar-only or part of broader renewable energy strategy for Redhill?). Flag timing relative to other Redhill priorities.",
       "ai_next_steps": [
-        "Confirm Dave is expecting this proposal and when he's available for the 15-20 min review",
-        "When proposal arrives, prioritize it for Dave's review before the meeting",
-        "Check if this aligns with any ESG or capex initiatives for Redhill JV with Castleforge"
+        "Confirm meeting time with Adam (15-20 min window)",
+        "Request draft proposal in advance if possible",
+        "Brief Castleforge Partners on solar proposal for Redhill (JV partner alignment)"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -60,12 +90,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Kirstin Dunn from Castle Forge has confirmed her acceptance of Galaxy Data Centers' fee proposal for the DORA project. This represents a closed deal and move to execution phase with an established client. The confirmation allows us to proceed with resource allocation and service delivery planning.",
+      "ai_summary": "Kirstin Dunn from Castle Forge has approved the fee quote that Paul Leong submitted for a DORA-related engagement. This represents confirmation of commercial terms and readiness to proceed with the project.",
       "ai_action": null,
       "ai_next_steps": [
-        "Coordinate with Paul Leong to formalize the contract and establish project timeline and milestones",
-        "Assign delivery team and confirm service commencement date with Castle Forge",
-        "Schedule kickoff meeting with Kirstin to align on DORA implementation requirements and success metrics"
+        "Confirm receipt with Kirstin and clarify project start date and key deliverable timelines",
+        "Have Paul or France coordinate with Castle Forge on contract execution and any remaining legal/commercial terms",
+        "Ensure internal Galaxy Data Centers resources are allocated and scheduled to support the DORA engagement"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -92,12 +122,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Elizabeth Smith from Castle Forge is requesting a meeting to discuss a Redhill business plan via Microsoft Teams. The meeting invitation suggests Castle Forge may be seeking partnership, investment, or strategic alignment with Galaxy on a specific project or initiative. This could represent a business development opportunity or due diligence requirement for a potential deal involving Galaxy's capital or data center infrastructure.",
+      "ai_summary": "Elizabeth Smith from Castle Forge is requesting a meeting via Microsoft Teams to discuss a Redhill Business Plan. This appears to be an initial connection or project discussion that requires direct engagement to understand Castle Forge's requirements and potential partnership or investment opportunity with Galaxy.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm meeting attendance and clarify the purpose/agenda of the Redhill business plan discussion before the call",
-        "Have France or relevant team member review any prior Castle Forge correspondence or relationship history to prepare context",
-        "Prepare preliminary questions about scope, timeline, capital requirements, and how this aligns with Galaxy's current portfolio"
+        "Confirm attendance at the Teams meeting and identify which Galaxy stakeholder (Dave or France) should participate based on the Redhill project scope",
+        "Request a pre-call agenda from Elizabeth Smith to understand the business plan details, financial requirements, and timeline expectations",
+        "Prepare relevant Galaxy capabilities overview and data center/capital resources that may be applicable to the Redhill initiative"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -125,12 +155,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is confirming or scheduling a biweekly call between JSA and Galaxy to discuss ongoing partnership or business matters. This recurring touchpoint appears to be an established cadence for alignment between the two organizations on their relationship.",
+      "ai_summary": "Candace Sipos from JSA is coordinating a biweekly call between JSA and Galaxy to maintain ongoing communication and alignment. This recurring touchpoint is likely focused on a strategic partnership or ongoing business engagement that requires regular check-ins to ensure execution and resolve issues.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm the biweekly call schedule with Candace and ensure Dave or France's calendar is blocked for these sessions",
-        "Prepare an agenda document outlining key discussion topics, project status, or deliverables to be reviewed in the call",
-        "Verify that all necessary Galaxy stakeholders (Sai Raman and others) are confirmed as attendees and have pre-call materials if needed"
+        "Confirm the biweekly call schedule and ensure Dave or France blocks time for these sessions",
+        "Request agenda items from Candace ahead of each call to prepare key discussion points and decisions",
+        "Assign Sai Raman as the primary Galaxy point of contact to manage continuity across calls"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -160,12 +190,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is confirming an updated meeting invitation for Galaxy with DCW Europe scheduled for Wednesday, April 8, 2026 at 9am EDT (30-minute call via Google Meet). The meeting time has been adjusted from the original invitation, requiring confirmation of Dave's availability for this rescheduled slot.",
+      "ai_summary": "Candace Sipos from JSA is confirming an updated meeting invitation for Galaxy's participation in a DCW Europe event scheduled for April 8, 2026 at 9am EDT. The meeting time has been adjusted from the original schedule, and attendance is expected via Google Meet. This appears to be a significant industry or partnership engagement that Dave should confirm attendance for.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Dave's availability for April 8, 2026 at 9am EDT and accept/decline the updated calendar invite",
-        "Clarify the agenda and purpose of the Galaxy + DCW Europe meeting with Candace or France to ensure proper preparation",
-        "Block the 9am-9:30am slot on Dave's calendar and brief France on any pre-call materials or talking points needed"
+        "Confirm Dave's availability for April 8, 2026 at 9am EDT and accept the calendar invitation",
+        "Clarify with Candace or France the purpose of the DCW Europe meeting and what Galaxy's role/presentation is expected to be",
+        "Prepare any relevant materials, talking points, or stakeholder briefing needed for the 30-minute meeting"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2934,38 +2964,6 @@
         "Check your calendar and respond to Sai with your availability for Wednesday",
         "Prepare an agenda or ask Sai what specific marketing topics should be covered",
         "Confirm the meeting format (in-person, video call, or hybrid) and location/link"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "shivam@galaxydatacenters.com",
-      "sender_name": "Shivam Amati",
-      "subject": "Shivam, Krish, Max & Dave Meeting",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/229519003220846?p=b7ppGRloYIbhrFJZgl\r\nMeeting ID: 229 519 003 220 846\r\nPasscode: L6AM7Ca2\r\n________________",
-      "received": "2026-03-31T17:10:41Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAYvENKSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHKfY6MgIwRHnSNRxGHBaMc=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Shivam Amati]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Pipeline: shivam amati"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Shivam Amati, an internal Galaxy team member, has scheduled a meeting with Krish, Max, and Dave via Microsoft Teams. The meeting details and access information have been provided, but no specific agenda or context is included in this notification. Without knowing the purpose, this appears to be an internal alignment or update meeting that Dave should confirm attendance for.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm your availability and mark the Teams meeting on your calendar",
-        "Reach out to Shivam or Krish to clarify the meeting agenda and any pre-read materials needed",
-        "Review any relevant projects or items that might be discussed with these team members before the call"
       ],
       "ai_failed": false,
       "final_score": 7,

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T16:53:13.903641+00:00",
+  "timestamp": "2026-04-07T17:55:44.008840+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -106,11 +106,11 @@
       "end": "2026-04-08T14:45:00.0000000",
       "attendees": [
         "Ashley",
-        "McNeish,",
-        "Gagne,",
         "Colin",
         "Luke",
-        "Ash"
+        "Ash",
+        "McNeish,",
+        "Gagne,"
       ],
       "organizer": "Ashley  Roberts",
       "location": "Microsoft Teams Meeting",
@@ -236,7 +236,8 @@
         "Galaxy",
         "Rodrigo",
         "Ash",
-        "Savir"
+        "Savir",
+        "France"
       ],
       "organizer": "Galaxy - M365 Infrastructure Modernization",
       "location": "Microsoft Teams Meeting",
