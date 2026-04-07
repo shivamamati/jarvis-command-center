@@ -1,13 +1,112 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T08:57:41.334302+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 4,
-  "ai": 4,
+  "timestamp": "2026-04-07T10:09:18.751384+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 7,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 49,
   "items": [
+    {
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
+      "subject": "Redhill - April '26 IPD Reporting Pack",
+      "body_preview": "All,\r\n\r\nAs you are aware, the next Redhill IPD is approaching on April 20th.\r\n\r\nPlease see attached for the interest statements from Apex.\r\n\r\nWe are required to provide the following materials five (5) business days ahead of the IPD - Monday, April 13th:",
+      "received": "2026-04-07T09:28:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHoO6lbLZztAukZmUvRSMEA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Tier 1: castleforge.com",
+        "KW: nda, lease",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castle Forge is notifying the team that the Redhill IPD (likely an investment committee or decision meeting) is scheduled for April 20th, 2026, and has shared interest statements from Apex. Galaxy needs to submit required documentation by April 13th\u2014five business days prior\u2014to meet the formal deadline.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with France what specific materials Galaxy is responsible for delivering by April 13th and assign ownership",
+        "Review the attached Apex interest statements and assess any implications or required responses from Galaxy's perspective",
+        "Set internal deadline of April 10th to compile and quality-check all submission materials before the April 13th hard deadline"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "postmaster@castleforge.com",
+      "sender_name": "Microsoft Outlook",
+      "subject": "Notification: Redhill - April '26 IPD Reporting Pack",
+      "body_preview": "Do not open these types of files\u2014unless you were expecting them\u2014because the files may contain malicious code and knowing the sender isn't a guarantee of safety. This email may have been quarantined and may require manual release. Please contact IT for any",
+      "received": "2026-04-07T09:28:33Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK0ZUCtHVndChcI02Djd51I=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: castleforge.com",
+        "KW: lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a security warning from Microsoft Outlook (routed through castleforge.com) regarding a suspicious email attachment related to an April 2026 IPD reporting pack for Redhill. The message was flagged as potentially malicious and quarantined, indicating a possible phishing or malware attempt targeting Galaxy's systems.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Contact Galaxy's IT security team immediately to confirm whether this email was legitimately expected and to verify the sender's authenticity",
+        "Do not open or release the attachment until IT completes a full security scan and validates the sender",
+        "Review recent communications with Redhill or any April 2026 reporting obligations to determine if this could be a spoofed legitimate business email"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "josh.scammell@simmons-simmons.com",
+      "sender_name": "Josh Scammell",
+      "subject": "RE: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Dave,\r\n\r\nThank you for sending this through.\r\n\r\nWe have passed this on to Neil Wesward from our Digital Business team who is dealing with this one. He will come back to you directly with any comments.\r\n\r\nMany thanks\r\nJosh\r\n\r\nJosh Scammell\r\nAssociate, R",
+      "received": "2026-04-07T09:21:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC1x1oKepJtNiKG4y4tSB1o=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "VIP: simmons-simmons.com",
+        "KW: introducer, introduce",
+        "Broker signal",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Josh Scammell from Simmons & Simmons law firm is acknowledging receipt of an introducer agreement and routing it to Neil Wesward in their Digital Business team for review and feedback. This matters because it indicates Galaxy's legal documentation is now under active review by the client's counsel, and timely feedback from their specialist will be critical to closing this transaction.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Anticipate Neil Wesward's comments and prepare Galaxy's position on any potential legal issues or deal terms",
+        "Set a follow-up timeline with Neil Wesward directly to ensure review doesn't stall",
+        "Brief France on the handoff and establish clear accountability for managing the legal review process"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "fional@digitalrealty.com",
       "sender_name": "Fiona Leon",
@@ -30,12 +129,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty is sending an amended service order related to the Galaxy/DRT partnership and Cloud House deployment. She needs Galaxy to sign the document so she can obtain counter-signature and move the project to the implementation team. This is a critical step to activate the partnership and move toward operational deployment.",
+      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is returning a revised service order with corrected address details and requesting immediate execution. She will obtain Digital Realty's counter-signature and route to their implementation team, which means the deal is ready to move from commercial agreement to operational deployment phase.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Paul or France review the amended service order immediately to confirm the address and all terms are correct before signing",
-        "Arrange for authorized signature on the document and return to Fiona Leon promptly to keep the implementation timeline on track",
-        "Confirm receipt of counter-signed documents and coordinate with France to ensure implementation team readiness for the next phase"
+        "Review the amended service order attachment to confirm Galaxy's address is accurate and all terms align with negotiated partnership terms",
+        "Arrange for Dave or authorized signatory to execute the service order and return signed copy to Fiona within 24-48 hours to maintain deployment timeline",
+        "Flag this to the internal Galaxy implementation/operations team once signed so they are prepared for Digital Realty's implementation team engagement"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2493,5 +2592,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 75
+  "total_tracked": 78
 }
