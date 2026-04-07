@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-07T20:00:17.808741+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 8,
-  "ai": 17,
+  "timestamp": "2026-04-07T20:57:32.950792+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 1,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 49,
   "items": [
@@ -31,12 +31,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Bhavesh Amin from 2020 Capital is following up on the status of a potential property deal at 8 Greenwich View Place in London's E14 district. Dave's incomplete response suggests Galaxy is still actively pursuing this opportunity, but the conversation appears to have been cut off mid-sentence. This London real estate transaction could be significant for Galaxy Data Centers' UK expansion strategy or a capital partner investment.",
+      "ai_summary": "Bhavesh Amin from 2020 Capital is following up on the status of the Greenwich View Place property in London E14, seeking confirmation that Galaxy is continuing with the project. This appears to be a real estate or development matter requiring clarification on Galaxy's commitment and next steps for this London-based asset.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should complete and send his response to Bhavesh clarifying Galaxy's current status and timeline for the Greenwich View Place project",
-        "Confirm with Ash Gupta and Marcus Bartolini on the deal specifics, financing structure, and any milestones needed to move forward",
-        "Schedule a call with Bhavesh to establish clear next steps and decision deadlines for this property opportunity"
+        "Dave should complete and send the email response to Bhavesh confirming Galaxy's current status and timeline for the Greenwich View Place project",
+        "Coordinate with Ash Gupta and Marcus Bartolini to align on project details and any outstanding items before finalizing communications",
+        "Schedule a call with Bhavesh if project parameters or terms need to be discussed or renegotiated"
       ],
       "ai_failed": false,
       "final_score": 10,
