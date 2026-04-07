@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T13:11:04.931183+00:00",
+  "timestamp": "2026-04-07T15:04:07.388165+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -72,21 +72,6 @@
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pQ4nKAAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9wAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
-      "subject": "HOLD : Catchup Dave and Chris // Galaxy <> CDW ",
-      "start": "2026-04-08T13:00:00.0000000",
-      "end": "2026-04-08T13:30:00.0000000",
-      "attendees": [
-        "Chris",
-        "Ashley",
-        "Ash",
-        "Paul"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIMAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
       "subject": "Galaxy + DCW Europe",
       "start": "2026-04-08T14:00:00.0000000",
       "end": "2026-04-08T14:30:00.0000000",
@@ -98,6 +83,22 @@
       "location": "https://meet.google.com/sta-tygf-aeg",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIEAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "HOLD : Catchup Dave and Chris // Galaxy <> CDW ",
+      "start": "2026-04-08T14:00:00.0000000",
+      "end": "2026-04-08T14:30:00.0000000",
+      "attendees": [
+        "Chris",
+        "Ashley",
+        "Ash",
+        "Paul",
+        "Tj"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIMAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Travelers Scoping Session",
@@ -115,18 +116,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpH7AAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Mitch <> Dave Sync ",
-      "start": "2026-04-08T15:30:00.0000000",
-      "end": "2026-04-08T16:30:00.0000000",
-      "attendees": [
-        "Mitch"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1mAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Wednesday Marketing Meeting",
@@ -158,6 +147,18 @@
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pUBxwnAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
+      "subject": "Mitch <> Dave Sync ",
+      "start": "2026-04-08T20:00:00.0000000",
+      "end": "2026-04-08T21:00:00.0000000",
+      "attendees": [
+        "Mitch"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1mAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
       "subject": " Charlie <> Dave Follow Up ",
       "start": "2026-04-09T13:00:00.0000000",
       "end": "2026-04-09T14:00:00.0000000",
@@ -168,6 +169,22 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIGAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Brainstrom Ticketing - Salesforce/Monday",
+      "start": "2026-04-09T13:00:00.0000000",
+      "end": "2026-04-09T14:00:00.0000000",
+      "attendees": [
+        "Paul",
+        "Ash",
+        "Sam",
+        "Colin",
+        "Rodrigo"
+      ],
+      "organizer": "Paul Tester",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIQAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Redhill check in call ",
@@ -185,6 +202,18 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pXK8XOAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAD%2F9VNRAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Henry Mileham  and Dave Misra",
+      "start": "2026-04-09T15:30:00.0000000",
+      "end": "2026-04-09T16:00:00.0000000",
+      "attendees": [
+        "Henry"
+      ],
+      "organizer": "Dave Misra",
+      "location": "https://calendly.com/events/1291f8b2-132e-4130-98b9-4460795c247c/microsoft_teams",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIPAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Eric's Birthday",
