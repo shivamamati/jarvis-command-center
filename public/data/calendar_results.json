@@ -1,66 +1,6 @@
 {
-  "timestamp": "2026-04-07T23:33:56.584948+00:00",
+  "timestamp": "2026-04-08T02:02:32.263438+00:00",
   "events": [
-    {
-      "subject": "Ops Team Weekly",
-      "start": "2026-04-07T14:00:00.0000000",
-      "end": "2026-04-07T14:30:00.0000000",
-      "attendees": [
-        "Ash",
-        "Luke",
-        "Tj",
-        "Rhys",
-        "Fredy",
-        "Benjamin"
-      ],
-      "organizer": "Ash Gupta",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pNvcjZAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAE7IPQ6gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Redhill Operations Call",
-      "start": "2026-04-07T15:00:00.0000000",
-      "end": "2026-04-07T15:45:00.0000000",
-      "attendees": [
-        "Elizabeth",
-        "4.02",
-        "Ash",
-        "Mike",
-        "Neil",
-        "Paul"
-      ],
-      "organizer": "Elizabeth Smith",
-      "location": "4.01",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pQ4nKAAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEFTImBgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Galaxy Call",
-      "start": "2026-04-07T18:00:00.0000000",
-      "end": "2026-04-07T18:30:00.0000000",
-      "attendees": [
-        "Kyle",
-        "Ash",
-        "Krish"
-      ],
-      "organizer": "Kyle Fan",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIOAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Docklands Deck review with Faye ",
-      "start": "2026-04-07T19:00:00.0000000",
-      "end": "2026-04-07T19:30:00.0000000",
-      "attendees": [
-        "Faye"
-      ],
-      "organizer": "Faye Pan",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIKAAA%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Badminton with Suhas ",
       "start": "2026-04-08T00:00:00.0000000",
@@ -253,6 +193,62 @@
       "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pXK8XOAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Grain / Galaxy - NWS Operating Role for Data Center Initiative",
+      "start": "2026-04-10T14:00:00.0000000",
+      "end": "2026-04-10T14:30:00.0000000",
+      "attendees": [
+        "Suraj",
+        "Ricardo",
+        "Paul",
+        "Jeff"
+      ],
+      "organizer": "Suraj Aulakh",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpINAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Sales Funnel Review with Ashley and Paul ",
+      "start": "2026-04-10T14:30:00.0000000",
+      "end": "2026-04-10T15:00:00.0000000",
+      "attendees": [
+        "Paul",
+        "Ashley",
+        "Tj"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3paUG91AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNiwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Friday Marketing Meeting",
+      "start": "2026-04-10T16:30:00.0000000",
+      "end": "2026-04-10T17:00:00.0000000",
+      "attendees": [
+        "Sai",
+        "Animesh",
+        "SA"
+      ],
+      "organizer": "Sai Raman",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3paUG91AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBFAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Dan <> Dave Catch Up",
+      "start": "2026-04-10T18:00:00.0000000",
+      "end": "2026-04-10T18:30:00.0000000",
+      "attendees": [
+        "France",
+        "Dan"
+      ],
+      "organizer": "France",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYebNn8AAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
