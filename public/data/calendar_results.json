@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T15:06:37.521925+00:00",
+  "timestamp": "2026-04-08T16:57:34.382845+00:00",
   "events": [
     {
       "subject": "Badminton with Suhas ",
@@ -74,8 +74,8 @@
     },
     {
       "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
-      "start": "2026-04-08T19:00:00.0000000",
-      "end": "2026-04-08T19:30:00.0000000",
+      "start": "2026-04-08T19:30:00.0000000",
+      "end": "2026-04-08T20:00:00.0000000",
       "attendees": [
         "Paul",
         "Ash",
@@ -85,18 +85,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pUBxwnAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Mitch <> Dave Sync ",
-      "start": "2026-04-08T20:00:00.0000000",
-      "end": "2026-04-08T21:00:00.0000000",
-      "attendees": [
-        "Mitch"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1mAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": " Charlie <> Dave Follow Up ",
@@ -167,6 +155,18 @@
       "location": "",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pXK8XOAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAAlj7v%2FwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Mitch <> Dave Sync ",
+      "start": "2026-04-09T17:00:00.0000000",
+      "end": "2026-04-09T17:30:00.0000000",
+      "attendees": [
+        "Mitch"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1mAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Galaxy - M365 Project weekly update",
