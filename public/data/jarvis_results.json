@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T19:57:08.865767+00:00",
-  "total": 14,
-  "new": 14,
-  "noise": 12,
-  "ai": 11,
+  "timestamp": "2026-04-08T20:42:37.033602+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 9,
+  "ai": 8,
   "skipped": 0,
-  "auto_learned": 47,
+  "auto_learned": 49,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00017.FID3584712]",
+      "body_preview": "Hey Kirstin,\r\n\r\nSimmons has indicated they would charge GBP 750 to review the redlines on the referral agreement we shared with a broker. Given that the original referral agreement template was created by Simmons, can you confirm whether this review would",
+      "received": "2026-04-08T20:24:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAZBLfWtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO_otx4hAvZJuu0DXibZF0c=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: introducer, referral, introduce",
+        "Broker signal",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is seeking confirmation from Kirstin regarding a \u00a3750 legal review fee that Simmons & Co. is charging to review proposed changes to a referral/introducer agreement with a broker. Since Simmons originally drafted the template, Dave wants to understand whether this review charge is justified and potentially whether there's a more efficient path forward given their prior work on the document.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Kirstin contact Simmons to clarify the scope of the redline review and confirm whether this is a standard fee or if there's flexibility given they authored the original template",
+        "Request Kirstin obtain an itemized estimate or timeline from Simmons to assess if the \u00a3750 is proportionate to the work required",
+        "Consider whether Galaxy's in-house team can handle the redline review internally before engaging external counsel, or negotiate a flat fee arrangement with Simmons"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -438,39 +473,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "neil.westwood@simmons-simmons.com",
-      "sender_name": "Neil Westwood",
-      "subject": "RE: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00017.FID3584712]",
-      "body_preview": "Dave,\r\n\r\nJosh has forwarded your request below to me (as I worked on development of the referral templates).\r\n\r\nOur fee quote for carrying out one turn of the document to be sent back to the broker is \u00a3750 (ex VAT) \u2013 most of the time will be spent on ensu",
-      "received": "2026-04-08T12:49:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO_otx4hAvZJuu0DXibZF0c=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: simmons-simmons.com",
-        "KW: introducer, referral, introduce",
-        "Broker signal",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Neil Westwood from Simmons & Simmons (legal counsel who developed Galaxy's referral templates) is providing a fee quote of \u00a3750 plus VAT for one round of legal revisions to an introducer agreement destined for a broker. This represents standard legal review work on Galaxy's standard referral documentation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Neil whether the \u00a3750 quote covers all anticipated revisions or if additional rounds will incur additional fees",
-        "Determine if this broker engagement is material enough to justify the legal cost and whether to proceed with Galaxy's standard introducer agreement",
-        "Forward final approval/direction to Josh so Neil can begin the revision work on schedule"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
