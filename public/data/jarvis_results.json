@@ -1,13 +1,175 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T13:13:48.164063+00:00",
-  "total": 14,
-  "new": 14,
-  "noise": 8,
-  "ai": 12,
+  "timestamp": "2026-04-08T15:07:26.364217+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 9,
+  "ai": 14,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "charlie@ekotalent.co.uk",
+      "sender_name": "Charlie Symes",
+      "subject": "Eko Talent - Data Centre - Electrician ",
+      "body_preview": "Good Afternoon Dave,\r\n\r\nThank you for your time on the phone earlier,\r\n\r\nAs discussed, please find attached the CV of the candidate I am currently representing in the local area.\r\n\r\nThe candidate is currently based in Redhill, and commutes into London wor",
+      "received": "2026-04-08T14:42:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL6R65ZrLHZFsZrS5BS_z8g=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "KW: lease, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Charlie Symes from Eko Talent is following up on a prior phone call with Dave about an electrician candidate based in Redhill. This is a direct referral for a specific hire at Galaxy's flagship Redhill Data Centre asset.",
+      "ai_action": "Review the attached CV. If qualified, forward to your facilities/engineering lead (likely Adaptive MDC contact) for interview consideration. Confirm with Charlie next steps and timeline.",
+      "ai_next_steps": [
+        "Review candidate CV attachment",
+        "Check if role is currently open at Redhill Data Centre",
+        "Forward to engineering/facilities hiring contact if fit",
+        "Reply to Charlie with timeline or next interview steps"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Hi Kirstin\r\n\r\nI don\u2019t know if you have had a chance to consider this but I have discussed this with Ali in the meantime and we able to reduce our fee quote to \u00a320,000 plus Vat to be in line with the MSA proposal.\r\n\r\nPlease let me know if you wish to discu",
+      "received": "2026-04-08T14:25:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "VIP: simmons-simmons.com",
+        "KW: proposal, lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons (legal counsel) has negotiated a reduced fee quote of \u00a320,000 plus VAT for legal services related to the Travellers matter, aligning it with Galaxy's MSA proposal expectations. This fee reduction removes a potential pricing objection and positions the engagement favorably for closure. The matter appears ready to move forward pending Galaxy's acceptance of the revised commercial terms.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should confirm acceptance of the \u00a320,000 + VAT fee quote to Simmons & Simmons to lock in the reduced rate",
+        "Clarify the scope of work and timeline for deliverables under the Travellers engagement before formal engagement",
+        "Review the MSA proposal to ensure all terms (fee, scope, liability, confidentiality) are aligned before execution"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "hoeblinger@execon-managementberatung.com",
+      "sender_name": "hoeblinger@execon-managementberatung.com",
+      "subject": "AW: Re: Vienna",
+      "body_preview": "Hello Dave and Marcus,\r\n\r\nAs Reinhard has provided you with all relevant information regarding Vienna / Bruck an der Leitha, we would now like to move forward with the next concrete step.\r\nFrom our perspective, this would be preparing an LOI and a term sh",
+      "received": "2026-04-08T14:01:44Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANKTXkTUSZhNjmb3a3RWPFU=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: loi, vienna",
+        "Internal + customer (+1)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Reinhard Hoeblinger from Execon Management Beratung is advancing a Vienna/Bruck an der Leitha data center opportunity toward LOI stage. This appears to be a follow-up to prior discussions with Galaxy, and they're ready to move to formal deal documentation.",
+      "ai_action": "Dave should review prior emails from Reinhard about Vienna/Bruck an der Leitha site, confirm Marcus (likely Marcus Hawkins) has details, and respond to clarify LOI timeline and term sheet expectations.",
+      "ai_next_steps": [
+        "Find prior correspondence from Reinhard Hoeblinger re: Vienna/Bruck an der Leitha project scope, MW capacity, and commercial terms",
+        "Confirm Marcus has full project details and is driving this workstream",
+        "Respond to Hoeblinger with Galaxy's LOI timeline and any info needed before proceeding"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "ash@galaxycapitalpartners.com",
+      "sender_name": "Ash Gupta",
+      "subject": "Re: Advice requested regarding potential misconduct concern",
+      "body_preview": "Hi Lauren,\r\n\r\nI just caught up with the Galaxy guys on this as well.  We've decided that the operational risk for Graham to do another shift is too great for him to cover those shifts on his own,  and that we will require temporary resources to cover thos",
+      "received": "2026-04-08T13:51:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPvFlJRByBBBjgG80_938mg=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ash Gupta from Galaxy Capital Partners is communicating a decision regarding operational risk mitigation for an employee named Graham. The team has determined that Graham should not work shifts solo due to identified risks, and temporary staffing resources will be required to cover his responsibilities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify the nature of the misconduct concern and confirm whether this is a precautionary measure or based on specific incident documentation",
+        "Coordinate with HR and operations to source and onboard temporary resources to cover Graham's shifts immediately",
+        "Schedule a follow-up meeting with Ash to understand the full scope of the operational risk assessment and any additional mitigation measures needed"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "colin.bell@redhilldatacentre.com",
+      "sender_name": "Colin Bell",
+      "subject": "Re: Fw: Welcome to Customer Portal",
+      "body_preview": "Hi Ali,\r\n\r\nDon't worry about the bulk delete, I manually deleted all areas from account/contacts and have re-added.\r\n\r\nCheers,\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager\r\n\r\nE:colin.bell@redhilldatacentre.com\r\nP:+44 07484 456529\r\nW:galaxydatacenters.com",
+      "received": "2026-04-08T13:17:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Redhill ops",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Bell, Service Delivery Manager at Redhill Data Centre, is confirming that he has resolved a bulk delete issue in the customer portal by manually removing and re-adding all account contact areas. This appears to be follow-up communication regarding a portal administration matter that was causing concern.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify with Colin that the portal is functioning correctly and all critical contacts have been properly restored",
+        "Review the incident to determine if process controls need to be implemented to prevent similar bulk delete issues in the future",
+        "Confirm this resolution doesn't impact any pending customer requests or service deliverables"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -167,40 +329,6 @@
         "Clarify with Paul whether Galaxy intends to raise these issues informally with Di and what the timeline is",
         "Determine whether Galaxy wants Castle Forge to hold off on the formal letter pending the informal outreach",
         "Schedule a call with Kirstin to align on strategy before any formal communications are sent"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "colin.bell@redhilldatacentre.com",
-      "sender_name": "Colin Bell",
-      "subject": "Re: Fw: Welcome to Customer Portal",
-      "body_preview": "Hi Ali,\r\n\r\nPlease go ahead and bulk delete the locations from the account and all users.\r\n\r\nCould this have been from the bug that was stopping the access cloning on the app?\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager\r\n\r\nE:colin.bell@redhilldatacentre.co",
-      "received": "2026-04-08T10:32:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5j8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Redhill ops",
-        "KW: lease",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Colin Bell, Service Delivery Manager at Redhill Data Centre, is authorizing the bulk deletion of locations and users from an account and inquiring whether a known bug related to access cloning functionality may have caused the issue. This suggests potential data cleanup or account remediation is underway, and there may be technical issues affecting customer portal access that could impact Galaxy's operations or customer experience.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify with France or the relevant technical team whether Galaxy accounts were affected by the access cloning bug mentioned and assess any impact to our data center operations",
-        "Confirm the scope and business reason for the bulk deletion to ensure no Galaxy-related data or accounts are inadvertently removed",
-        "Follow up with Redhill on the root cause of the bug and timeline for a permanent fix to prevent future access issues"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2375,40 +2503,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "Hi Kirstin\r\n\r\nThe fee is a cap, which is less than the \u00a355,000 cap we have set out in the engagement letter. If the matter comes in at less than that we would of course only charge for the time spent.\r\n\r\nLeases are much less flexible than MSAs so in order",
-      "received": "2026-04-02T13:29:25Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5diAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: simmons-simmons.com",
-        "KW: lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons is clarifying that the quoted fee for Travellers is a capped amount below the \u00a355,000 engagement letter threshold, with actual charges based on time spent if lower. He's beginning to explain differences between lease and MSA flexibility, suggesting potential complications with the transaction structure.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Obtain the complete email from Francis to understand the full scope of lease vs. MSA concerns and any implications for deal timeline or costs",
-        "Confirm with legal counsel whether the quoted fee is acceptable and obtain detailed scope of work to be delivered within that cap",
-        "Schedule a call with Francis to clarify the lease flexibility constraints and determine if any deal structure adjustments are needed"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "dan@528consulting.com",
       "sender_name": "Dan Ryan",
       "subject": "Available Inventory/ 2.5 MW recips/ LM6000s/ Frame 5 \u2013 26 MW/ LM2500 G4/ New MTU/ CAT C175",
@@ -2971,5 +3065,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 90
+  "total_tracked": 93
 }
