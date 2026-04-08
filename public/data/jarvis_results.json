@@ -1,13 +1,144 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T11:52:09.743257+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 9,
-  "ai": 8,
+  "timestamp": "2026-04-08T13:13:48.164063+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 8,
+  "ai": 12,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Galaxy + DCW Europe",
+      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Candace Sipos\r\nSent: Thursday, April 2, 2026 11:",
+      "received": "2026-04-08T13:00:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOHAOLfYpYtFv15-Cog7UYk=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+4)",
+        "Attachments + deal KW (+2)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is reaching out to discuss a potential partnership or business opportunity between Galaxy Data Centers and DCW Europe. The email appears to be an initial outreach attempting to schedule a meeting with Dave Misra to explore this collaboration. This matters to Galaxy as it could represent a significant expansion opportunity into the European data center market through a partnership with DCW Europe.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should research DCW Europe's market position, service offerings, and financial health to assess strategic fit before committing to a meeting",
+        "Clarify with Candace the specific nature of the partnership or opportunity being proposed (acquisition, joint venture, service partnership, etc.) before scheduling",
+        "Schedule an initial discovery call to understand DCW Europe's goals, Galaxy's role, and timeline expectations"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "neil.westwood@simmons-simmons.com",
+      "sender_name": "Neil Westwood",
+      "subject": "RE: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00017.FID3584712]",
+      "body_preview": "Dave,\r\n\r\nJosh has forwarded your request below to me (as I worked on development of the referral templates).\r\n\r\nOur fee quote for carrying out one turn of the document to be sent back to the broker is \u00a3750 (ex VAT) \u2013 most of the time will be spent on ensu",
+      "received": "2026-04-08T12:49:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO_otx4hAvZJuu0DXibZF0c=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: simmons-simmons.com",
+        "KW: introducer, referral, introduce",
+        "Broker signal",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Neil Westwood from Simmons & Simmons (legal counsel who developed Galaxy's referral templates) is providing a fee quote of \u00a3750 plus VAT for one round of legal revisions to an introducer agreement destined for a broker. This represents standard legal review work on Galaxy's standard referral documentation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Neil whether the \u00a3750 quote covers all anticipated revisions or if additional rounds will incur additional fees",
+        "Determine if this broker engagement is material enough to justify the legal cost and whether to proceed with Galaxy's standard introducer agreement",
+        "Forward final approval/direction to Josh so Neil can begin the revision work on schedule"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dmcneish@travelers.com",
+      "sender_name": "McNeish, Dave",
+      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "No problem\r\n\r\nDavid P McNeish | Vice President\r\nCorporate Procurement\r\nTravelers\r\n1 Tower Sq. | 1MS\r\nHartford, CT  06106\r\nW: 860.954.8584   dmcneish@travelers.com\r\nVisit us on  Inside\r\n\r\nFrom: Ashley Roberts <ashley@galaxydatacenters.com>\r\nSent: Wednesday",
+      "received": "2026-04-08T12:13:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: travelers.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave McNeish, VP of Corporate Procurement at Travelers, is confirming agreement to a previous proposal or request from Galaxy. This appears to be a positive acknowledgment that removes a potential blocker in ongoing discussions with a major insurance carrier about data center services or infrastructure.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France follow up with Dave McNeish within 2-3 business days to confirm next meeting/deliverable timeline and document the agreed-upon terms",
+        "Prepare proposal or service agreement documentation for Travelers based on what was discussed with Ashley Roberts",
+        "Flag this as an active opportunity in the sales pipeline and assign account management responsibility to track momentum with Travelers"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "r.peck@2020-4.com",
+      "sender_name": "Robert Peck",
+      "subject": "Re: Dan Goldenberg Resume: Real Estate Executive, Capital Raising, Investments, Transaction Management, Investor Relations",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nI am following up on my previous email introducing Dan Goldenberg, whose r\u00e9sum\u00e9 is included below (please let me know if you would prefer a PDF). Dan is a capital markets and investment professional with experience raising capital from high-n",
+      "received": "2026-04-08T11:53:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzOTiaN5bdGpibuF971t-g=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment, capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Robert Peck is following up on a previous introduction of Dan Goldenberg, a capital markets and investment professional with real estate and capital-raising expertise. Peck is seeking to formalize or advance consideration of Goldenberg for a potential role or opportunity within Galaxy, and is offering to provide additional materials in the candidate's preferred format.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Robert Peck what specific role or opportunity he is proposing for Dan Goldenberg and how it aligns with Galaxy's current hiring needs",
+        "Review Dan Goldenberg's complete resume and background to assess fit for capital raising or investment management functions at Galaxy Capital Partners or Galaxy Data Centers",
+        "Determine whether to schedule a call or meeting with Robert Peck and/or Dan Goldenberg to discuss the opportunity in detail"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "kirstin.dunn@castleforge.com",
       "sender_name": "Kirstin Dunn",
@@ -499,41 +630,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Updated invitation: Galaxy + DCW Europe @ Wed Apr 8, 2026 9am - 9:30am (EDT) (dave@galaxydatacenters.com)",
-      "body_preview": "Galaxy + DCW Europe\r\nJoin with Google Meet \u2013 You have been invited by Candace Sipos to attend an event named Galaxy + DCW Europe on Wednesday Apr 8, 2026 \u22c5 9am \u2013 9:30am (Eastern Time - New York).\r\n\r\nThis event has been updated\r\nChanged: time\r\n\r\nJoin with ",
-      "received": "2026-04-07T15:57:04Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5iqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOHAOLfYpYtFv15-Cog7UYk=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+4)",
-        "Attachments + deal KW (+2)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is confirming an updated meeting invitation for Galaxy's participation in a DCW Europe event scheduled for April 8, 2026 at 9am EDT. The meeting time has been adjusted from the original schedule, and attendance is expected via Google Meet. This appears to be a significant industry or partnership engagement that Dave should confirm attendance for.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Dave's availability for April 8, 2026 at 9am EDT and accept the calendar invitation",
-        "Clarify with Candace or France the purpose of the DCW Europe meeting and what Galaxy's role/presentation is expected to be",
-        "Prepare any relevant materials, talking points, or stakeholder briefing needed for the 30-minute meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "sam.burton@castleforge.com",
@@ -2873,41 +2969,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dmcneish@travelers.com",
-      "sender_name": "McNeish, Dave",
-      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
-      "body_preview": "Ash,\r\nThanks \u2013 from a contract perspective it will only be Ben and I going forward.  We will bring in others as needed.\r\n\r\nDave\r\n\r\nDavid P McNeish | Vice President\r\nCorporate Procurement\r\nTravelers\r\n1 Tower Sq. | 1MS\r\nHartford, CT  06106\r\nW: 860.954.8584 ",
-      "received": "2026-04-01T11:54:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5b0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: travelers.com",
-        "KW: contract",
-        "3 VIPs on thread (+2)",
-        "Thread: 5 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave McNeish, VP of Corporate Procurement at Travelers, is confirming that he and Ben will be the primary contract contacts going forward, with flexibility to bring in additional stakeholders as needed. This clarifies the communication structure for Galaxy's ongoing relationship with Travelers and streamlines decision-making authority on their side.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt and document Ben and Dave McNeish as primary contacts in Galaxy's CRM/contract management system",
-        "Schedule a kickoff call with both McNeish and Ben to establish communication cadence and next steps on the Travelers engagement",
-        "Prepare contract templates and key terms document for review by McNeish and Ben to maintain momentum"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 88
+  "total_tracked": 90
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T11:51:45.900410+00:00",
+  "timestamp": "2026-04-08T13:13:09.152390+00:00",
   "events": [
     {
       "subject": "Badminton with Suhas ",
@@ -46,11 +46,10 @@
       "end": "2026-04-08T14:45:00.0000000",
       "attendees": [
         "Ashley",
-        "Colin",
-        "Luke",
-        "Ash",
         "McNeish,",
-        "Gagne,"
+        "Gagne,",
+        "Paul",
+        "Howard,"
       ],
       "organizer": "Ashley  Roberts",
       "location": "Microsoft Teams Meeting",
