@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T18:08:46.952255+00:00",
-  "total": 18,
-  "new": 18,
-  "noise": 7,
-  "ai": 15,
+  "timestamp": "2026-04-08T19:57:08.865767+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 12,
+  "ai": 11,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: houston energy - Galaxy Capital Partners",
+      "body_preview": "Hi Todd \u2014 we are focused on digital infrastructure, and this is not within our thesis.\r\n\r\n\r\n________________________________\r\nFrom: Todd Lodel <toddlodel.tl@globalenergycapitalgroup.com>\r\nSent: Wednesday, April 8, 2026 12:55:31 PM\r\nTo: Dave Misra <dave@ga",
+      "received": "2026-04-08T18:16:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTflAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMqIle_FS6ZLgoYvhDIxIVc=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Todd Lodel from Global Energy Capital Group approached Dave about a Houston energy opportunity. Dave has declined, clarifying that Galaxy Capital Partners' investment focus is on digital infrastructure rather than energy sector investments.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "File or archive this outreach for future reference in case energy infrastructure pivots arise",
+        "Consider a polite follow-up to Todd explaining Galaxy's digital infrastructure thesis to maintain the relationship",
+        "Document this decline to help screen similar energy sector pitches"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -2961,69 +2994,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "louis.mueller@castleforge.com",
-      "sender_name": "Louis Mueller",
-      "subject": "RE: S160 Proposal",
-      "body_preview": "Hi All,\r\n\r\nI know we discussed a couple of weeks ago about the potential expansion of S160. Could you confirm what the next steps are please?\r\n\r\nI don\u2019t believe we\u2019ve seen a proposal or heard anything since?\r\n\r\nThanks,\r\nLouis\r\n\r\nLouis Mueller\r\nE: louis.mu",
-      "received": "2026-04-01T19:33:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5clAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB3Uw5SCvZJLlvQl-7Cc4S0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: castleforge.com",
-        "KW: proposal, lease",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Louis Mueller from Castle Forge is following up on a previously discussed S160 expansion opportunity and is requesting confirmation of next steps. He indicates no proposal has been delivered and communication has stalled over the past two weeks. This suggests a potential deal delay that requires immediate attention to maintain client momentum and prevent deal erosion.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should immediately review internal notes from the S160 expansion discussion two weeks ago to clarify what was promised and current status",
-        "Prepare and send Louis a concrete proposal or written timeline within 24-48 hours to re-establish confidence and momentum",
-        "Schedule a direct call with Louis to discuss any blockers, refine requirements, and commit to specific milestones"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ngarcia@csi-ing.com",
-      "sender_name": "Nicol\u00e1s Garcia",
-      "subject": "RE: Will you be at IMN Data Centers Power Capital?",
-      "body_preview": "Hi Dave,\r\nJust following up on the note below.\r\n\r\nAre you currently involved in any data center projects? How are you approaching the power supply side?\r\nWe\u2019ve been helping clients navigate different options to secure energy supply without relying entirel",
-      "received": "2026-04-01T19:16:57Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5cjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALrQ4E7MJh9Gn523VMJG-Jk=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: capital, power, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 5,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Nicol\u00e1s Garcia from CSI (likely a power/energy engineering firm) is following up on a previous conversation about IMN Data Centers Power Capital event. He's asking about Galaxy's current DC projects and power supply strategy\u2014a core operational concern for data center development.",
-      "ai_action": "Dave should respond if this is a warm follow-up from a prior conversation at IMN or industry event. If cold, lower priority but worth understanding what CSI offers on energy solutions.",
-      "ai_next_steps": [
-        "Clarify if Dave had prior conversation with Nicol\u00e1s at IMN Data Centers Power Capital",
-        "If warm lead: Request details on CSI's power supply solutions and relevant case studies",
-        "Assess fit against Galaxy's current Poland 260MW, Milan, and other projects' energy strategies"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 92
+  "total_tracked": 91
 }
