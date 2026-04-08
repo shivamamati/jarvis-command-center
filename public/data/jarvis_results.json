@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T10:09:10.539468+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 7,
-  "ai": 12,
+  "timestamp": "2026-04-08T11:52:09.743257+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 9,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "kirstin.dunn@castleforge.com",
+      "sender_name": "Kirstin Dunn",
+      "subject": "RE: Claim against Digital ",
+      "body_preview": "Hi Paul \u2013 thanks for the update.   I don\u2019t think this precludes us with going ahead with the formal letter formal but appreciate you may prefer to hold off from a relationship perspective.  Are you still planning to introduce the issues informally with Di",
+      "received": "2026-04-08T11:00:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5j%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJc67I6SqEh1i927iEjBiwU=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: introduce",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kirstin Dunn from Castle Forge is responding to a previous update about a claim involving Digital and is asking whether Paul (likely at Galaxy) plans to raise concerns informally with a contact named Di. She's indicating Castle Forge is ready to proceed with a formal letter but acknowledges Galaxy may want to handle this more delicately to preserve the relationship.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Paul whether Galaxy intends to raise these issues informally with Di and what the timeline is",
+        "Determine whether Galaxy wants Castle Forge to hold off on the formal letter pending the informal outreach",
+        "Schedule a call with Kirstin to align on strategy before any formal communications are sent"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "colin.bell@redhilldatacentre.com",
+      "sender_name": "Colin Bell",
+      "subject": "Re: Fw: Welcome to Customer Portal",
+      "body_preview": "Hi Ali,\r\n\r\nPlease go ahead and bulk delete the locations from the account and all users.\r\n\r\nCould this have been from the bug that was stopping the access cloning on the app?\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager\r\n\r\nE:colin.bell@redhilldatacentre.co",
+      "received": "2026-04-08T10:32:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5j8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Redhill ops",
+        "KW: lease",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Bell, Service Delivery Manager at Redhill Data Centre, is authorizing the bulk deletion of locations and users from an account and inquiring whether a known bug related to access cloning functionality may have caused the issue. This suggests potential data cleanup or account remediation is underway, and there may be technical issues affecting customer portal access that could impact Galaxy's operations or customer experience.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify with France or the relevant technical team whether Galaxy accounts were affected by the access cloning bug mentioned and assess any impact to our data center operations",
+        "Confirm the scope and business reason for the bulk deletion to ensure no Galaxy-related data or accounts are inadvertently removed",
+        "Follow up with Redhill on the root cause of the bug and timeline for a permanent fix to prevent future access issues"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "luke.gray@redhilldatacentre.com",
       "sender_name": "Luke Gray",
@@ -71,40 +138,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "colin.bell@redhilldatacentre.com",
-      "sender_name": "Colin Bell",
-      "subject": "Re: Fw: Welcome to Customer Portal",
-      "body_preview": "To be honest I'm done trying.\r\n\r\nI assigned these areas through the app, I didn't change any parent or child locations. Just added the locations to the account and then applied them to the contacts via the app.\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager",
-      "received": "2026-04-08T08:57:17Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Redhill ops",
-        "6 VIPs on thread (+2)",
-        "Thread: 6 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Colin Bell, Service Delivery Manager at Redhill Data Centre, is expressing frustration with a customer portal system issue. He's clarifying that he properly assigned areas through the app without modifying parent/child location structures, suggesting he's encountered technical problems or unclear guidance that's led to configuration challenges. This indicates a usability or support gap in Galaxy's customer portal that's affecting customer satisfaction and operational efficiency.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or support team contact Colin directly to understand the specific error or issue he encountered with area assignments in the portal",
-        "Review the portal's area assignment workflow and documentation to identify usability gaps or bugs causing customer friction",
-        "Escalate to product/engineering team if the portal has a technical defect, or provide Colin with corrective guidance if it's a process issue"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -958,40 +991,6 @@
         "Review the attached draft auto-renewal notice and confirm the 3% rent increase is acceptable within Galaxy's budget and operational plans",
         "Coordinate with Kirstin and Tom to determine any required modifications or approvals needed before accepting the renewal",
         "Respond to Jamie with Galaxy's decision and any necessary terms adjustments to prevent default auto-renewal"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ali.crosthwaite@simmons-simmons.com",
-      "sender_name": "Ali Crosthwaite",
-      "subject": "RE: Claim against Digital",
-      "body_preview": "Thanks Kirstin\r\n\r\n+@Jason Juden, @Barry Gross and @Josh Scammell\r\n\r\nPlease could they be kept copied in relation to this matter.\r\n\r\nThanks all\r\nAli\r\n\r\nAli Crosthwaite\r\nPartner, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT +44 20 7825 4914\r\nM +44 7809 595 855",
-      "received": "2026-04-07T10:42:31Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5h4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJc67I6SqEh1i927iEjBiwU=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "VIP: simmons-simmons.com",
-        "KW: lease",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ali Crosthwaite, a Real Estate Partner at Simmons & Simmons (external legal counsel), is requesting that three colleagues (Jason Juden, Barry Gross, and Josh Scammell) be added to the distribution list for ongoing communications regarding a claim matter involving Digital. This indicates Galaxy likely has active legal proceedings requiring coordinated external counsel oversight, and maintaining proper stakeholder alignment is critical for case management and decision-making.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with France or legal contact that the three named Simmons & Simmons team members (Juden, Gross, Scammell) are added to all future email chains on this Digital claim",
-        "Clarify with Ali the current status and timeline of the Digital claim to assess potential exposure and resource requirements for Galaxy",
-        "Establish a communication protocol with the Simmons & Simmons team regarding case updates, decision points, and escalation thresholds"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2908,72 +2907,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "Travelers Scoping Session",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/24244588026472?p=jxh3ZRsaaDxlHHECTl\r\nMeeting ID: 242 445 880 264 72\r\nPasscode: Ed6Ho2VP\r\n__________________",
-      "received": "2026-04-01T11:48:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5byAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFzwVFYI3alKqTHyuZ3ClWQ=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 14x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ashley Roberts from Galaxy Data Centers is sending a Microsoft Teams meeting link for a scoping session, likely with Travelers Insurance or a related prospect. This appears to be an internal coordination for a client discovery or project planning call that requires Dave or France's participation to align on requirements and scope.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and add the meeting to calendar with passcode Ed6Ho2VP",
-        "Request meeting agenda and attendee list from Ashley to prepare talking points",
-        "Clarify Travelers' business objectives and any specific infrastructure or data center requirements before the call"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "r.peck@2020-4.com",
-      "sender_name": "Robert Peck",
-      "subject": "Re: Michael Todd Resume: CRE Chief Financial Officer and Investment Executive",
-      "body_preview": "Dave,\r\n\r\n\r\n\r\nI recently sent you a resume (upon request we can attach a PDF version) for Michael Todd, a real estate Chief Financial Officer with deep experience leading finance, investment, and asset management functions for institutional and entrepreneu",
-      "received": "2026-04-01T10:51:03Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5bqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGET72U6PWtBlLw4v-UIEYM=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: investment"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Robert Peck is introducing Michael Todd, a CRE CFO candidate with institutional real estate finance and investment management experience, in response to a prior request from Dave. This appears to be a recruitment referral for a senior finance leadership position that could address Galaxy's potential need for experienced real estate financial expertise as the company scales its data center operations and capital deployment.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the complete resume PDF and detailed background on Michael Todd's specific experience with data center or infrastructure investments",
-        "Schedule a preliminary call with Robert Peck to understand the role profile Galaxy is seeking and whether Michael's experience aligns with current or planned hiring needs",
-        "If potentially relevant, have France coordinate initial screening conversation with Michael Todd to assess fit for Galaxy's finance leadership priorities"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 90
+  "total_tracked": 88
 }
