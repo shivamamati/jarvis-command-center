@@ -1,43 +1,171 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T20:42:37.033602+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 9,
-  "ai": 8,
+  "timestamp": "2026-04-08T21:38:33.219713+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 7,
+  "ai": 11,
   "skipped": 0,
-  "auto_learned": 49,
+  "auto_learned": 48,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "You have been added to a team in Microsoft Teams",
+      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
+      "received": "2026-04-08T20:52:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAICF6jbxDb9NkTkEuf5rr0Q=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "You've been added to a new Microsoft Teams workspace called 'GALAXY - Commercial' with 3 members. This appears to be a system notification setting up a collaborative channel for Galaxy's commercial operations. This matters because it establishes a centralized communication hub for your commercial team to coordinate on deals, strategy, and operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Open the Teams channel and review the 3 members to confirm appropriate personnel are included",
+        "Set up or review any pinned documents, channels structure, and ground rules for the commercial team's collaboration"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "You have been added to a team in Microsoft Teams",
+      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
+      "received": "2026-04-08T20:52:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB_fC3pY0s9MuiSP-eguOuE=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave has been added to the GALAXY - Commercial team workspace in Microsoft Teams, a collaborative platform notification. This is a standard team setup communication with 3 members for internal commercial operations coordination. Ensuring proper access and team structure is important for seamless communication and project management across Galaxy's commercial functions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify team membership and confirm all relevant commercial staff are included",
+        "Set up channel structure and pinned resources (e.g., deal pipeline, key contacts, project documentation)",
+        "Establish team communication norms and check Teams regularly for commercial updates"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "You have been added to a team in Microsoft Teams",
+      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
+      "received": "2026-04-08T20:52:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKiDsESi0-1IpwlAK734EaM=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "You've been added to the Galaxy - Commercial team in Microsoft Teams, a collaborative workspace for your team. This notification confirms your access to a new team channel for internal Galaxy Capital Partners and Galaxy Data Centers commercial operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Open Microsoft Teams and familiarize yourself with the Galaxy - Commercial channel structure and any pinned messages or guidelines",
+        "Review the 3 current members to understand who is in this workspace and their roles",
+        "Set up channel notifications/preferences to ensure you receive relevant updates without noise"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "You have been added to a team in Microsoft Teams",
+      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
+      "received": "2026-04-08T20:52:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPubFvu48L5GkNH4Pi5I1WI=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "You've been added to a new Microsoft Teams channel called 'GALAXY - Commercial' with 3 members, which appears to be a collaborative workspace for Galaxy's commercial operations. This is a routine notification confirming your access to what is likely a key internal coordination hub for commercial initiatives across the organization. Ensuring proper team setup and member alignment in this channel will be critical for streamlined communication on commercial priorities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Log into Microsoft Teams and review the GALAXY - Commercial channel to understand its purpose, existing discussions, and member roles",
+        "Confirm the channel scope with the team owner to ensure it covers the intended commercial workstreams and identify any gaps in communication structure",
+        "Set channel guidelines and pin key commercial objectives or documentation to ensure all 3 members have aligned context"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Re: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00017.FID3584712]",
       "body_preview": "Hey Kirstin,\r\n\r\nSimmons has indicated they would charge GBP 750 to review the redlines on the referral agreement we shared with a broker. Given that the original referral agreement template was created by Simmons, can you confirm whether this review would",
-      "received": "2026-04-08T20:24:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAZBLfWtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "received": "2026-04-08T20:48:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
-      "has_attachments": false,
+      "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO_otx4hAvZJuu0DXibZF0c=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
         "Internal \u2014 routine (suppressed)",
         "KW: introducer, referral, introduce",
         "Broker signal",
-        "3 VIPs on thread (+2)",
+        "4 VIPs on thread (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is seeking confirmation from Kirstin regarding a \u00a3750 legal review fee that Simmons & Co. is charging to review proposed changes to a referral/introducer agreement with a broker. Since Simmons originally drafted the template, Dave wants to understand whether this review charge is justified and potentially whether there's a more efficient path forward given their prior work on the document.",
+      "ai_summary": "Dave is seeking clarification from Kirstin regarding a legal review cost that Simmons (likely their legal counsel) has quoted at GBP 750 to review redlines on a referral agreement with a broker. Since Simmons originally drafted the template, Dave is questioning whether this fee is justified or if there's a more efficient path forward given their prior involvement.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Kirstin contact Simmons to clarify the scope of the redline review and confirm whether this is a standard fee or if there's flexibility given they authored the original template",
-        "Request Kirstin obtain an itemized estimate or timeline from Simmons to assess if the \u00a3750 is proportionate to the work required",
-        "Consider whether Galaxy's in-house team can handle the redline review internally before engaging external counsel, or negotiate a flat fee arrangement with Simmons"
+        "Confirm with Kirstin whether Simmons' GBP 750 review fee is standard or negotiable given they created the original template",
+        "Request Simmons provide a detailed scope of what redline review will entail to assess value",
+        "Consider whether an alternative counsel review or internal legal assessment could reduce costs before engaging Simmons"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -1554,102 +1682,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Marketing team!\r\n\r\n\r\nGALAXY - Marketing\r\n\r\n        3 members\r\n        Campaigns, content, and brand\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team.",
-      "received": "2026-04-07T05:52:19Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEQ9ptDAe2lNv4t-IV__emw=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a system notification from Microsoft Teams indicating that Dave Misra has been added to the GALAXY - Marketing team workspace. The team is designed as a collaborative hub for marketing campaigns, content strategy, and brand management with 3 current members. This matters because it establishes the digital infrastructure needed for Galaxy's marketing function to operate efficiently, ensuring alignment on campaigns and brand initiatives across the organization.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify team membership and ensure all relevant marketing stakeholders have been added to the workspace",
-        "Establish team guidelines, communication norms, and define primary channels for campaigns, content reviews, and brand communications",
-        "Schedule an initial team sync to clarify current marketing priorities and how this Teams workspace will support Galaxy's go-to-market strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Marketing team!\r\n\r\n\r\nGALAXY - Marketing\r\n\r\n        3 members\r\n        Campaigns, content, and brand\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team.",
-      "received": "2026-04-07T05:52:18Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADhV4Ff5eCdCiF7s4NHb1Os=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an automated notification that Dave Misra has been added to the Galaxy Marketing team in Microsoft Teams, a collaborative platform for the company's marketing department. The team consists of 3 members and is focused on campaigns, content, and brand initiatives. This establishes a centralized communication channel for marketing coordination across Galaxy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm access to the GALAXY - Marketing Teams channel and review existing conversations and project status",
-        "Clarify with the team lead what specific marketing campaigns or initiatives Dave should prioritize or oversee",
-        "Establish communication norms and meeting cadence with the 3-member marketing team to align on deliverables and timelines"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Marketing team!\r\n\r\n\r\nGALAXY - Marketing\r\n\r\n        3 members\r\n        Campaigns, content, and brand\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team.",
-      "received": "2026-04-07T05:52:18Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJLUDovpJW1Pqo4-phcPBb4=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a system notification from Microsoft Teams indicating that Dave Misra has been added to the GALAXY - Marketing team workspace. The team appears to be a collaborative channel for 3 members focused on marketing campaigns, content strategy, and brand management for Galaxy. This suggests Galaxy is organizing its marketing function within Teams for improved cross-functional collaboration and centralized communication.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm access to the GALAXY - Marketing Teams channel and review any pinned messages or existing documentation to understand current marketing priorities",
-        "Identify the other 2 team members and clarify roles/responsibilities within the marketing team",
-        "Establish team norms and confirm how marketing initiatives, campaigns, and content decisions will be tracked and communicated through the channel"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
       "subject": "Re: 2025 files",
@@ -2998,5 +3030,5 @@
       "final_label": "URGENT"
     }
   ],
-  "total_tracked": 91
+  "total_tracked": 92
 }
