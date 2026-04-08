@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T07:12:34.902874+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 2,
-  "ai": 4,
+  "timestamp": "2026-04-08T08:57:21.084431+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 4,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "colin.bell@redhilldatacentre.com",
+      "sender_name": "Colin Bell",
+      "subject": "Re: Fw: Welcome to Customer Portal",
+      "body_preview": "Hi Hajar,\r\n\r\nThis is FluidOne.\r\n\r\nAll areas are assigned, customer is saying that they can only see/select loading bay.\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager\r\n\r\nE:colin.bell@redhilldatacentre.com\r\nP:+44 07484 456529\r\nW:galaxydatacenters.com\r\n\r\nOffic",
+      "received": "2026-04-08T08:21:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5juAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Redhill ops",
+        "6 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Bell from Redhill Data Centre (part of Galaxy) is reporting a customer portal issue where a FluidOne customer has restricted visibility\u2014they can only access the loading bay section despite all areas being assigned to their account. This is a potential customer experience problem that could impact service delivery and satisfaction for an active tenant.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Escalate to technical/portal support team to investigate why FluidOne customer's permission settings aren't reflecting all assigned areas in the customer portal",
+        "Contact FluidOne directly to confirm their actual space assignments and provide a timeline for portal access resolution",
+        "Review portal configuration process to prevent similar visibility issues with other customers"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Paul,\r\n\r\nAttached for you\r\n\r\nKind regards\r\n\r\nFiona\r\n\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Wednesday, April 8, 2026 4:51 AM\r\nTo: Fiona Leon <fional@digitalrealty.com>; Dave Misra <dave@galaxydatacenters.com>; Darren Chan <darrenchan@d",
+      "received": "2026-04-08T07:22:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Attachments from known (+1)",
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty is responding to Paul Leong's request regarding the Galaxy/DRT partnership and Cloud House deployment with an attachment. This appears to be a follow-up communication on a previously discussed strategic initiative, though the specific content of the attachment is not visible in this email chain. Dave should review the attachment immediately to understand what deliverables or updates Digital Realty is providing on this partnership opportunity.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attachment Fiona sent to understand the current status and requirements for the Cloud House deployment",
+        "Confirm with Paul Leong what specific feedback or action items Galaxy needs to provide to Digital Realty",
+        "Schedule a follow-up meeting with Fiona, Paul, and Darren Chan to align on next milestones and timelines for the partnership"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "colin.bell@redhilldatacentre.com",
       "sender_name": "Colin Bell",
@@ -991,39 +1058,6 @@
         "Anticipate Neil Wesward's comments and prepare Galaxy's position on any potential legal issues or deal terms",
         "Set a follow-up timeline with Neil Wesward directly to ensure review doesn't stall",
         "Brief France on the handoff and establish clear accountability for managing the legal review process"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "fional@digitalrealty.com",
-      "sender_name": "Fiona Leon",
-      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Paul,\r\n\r\nPlease see the service order with amended address attached.\r\n\r\nPlease arrange for signature and return back to me. I will then obtain counter signature and send onto our implemention team.\r\n\r\nKind regards\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales",
-      "received": "2026-04-07T08:53:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Fiona Leon]",
-      "rules_reasons": [
-        "Tier 1: digitalrealty.com",
-        "Pipeline: fiona leon",
-        "KW: lease",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is returning a revised service order with corrected address details and requesting immediate execution. She will obtain Digital Realty's counter-signature and route to their implementation team, which means the deal is ready to move from commercial agreement to operational deployment phase.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the amended service order attachment to confirm Galaxy's address is accurate and all terms align with negotiated partnership terms",
-        "Arrange for Dave or authorized signatory to execute the service order and return signed copy to Fiona within 24-48 hours to maintain deployment timeline",
-        "Flag this to the internal Galaxy implementation/operations team once signed so they are prepared for Digital Realty's implementation team engagement"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2909,5 +2943,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 88
+  "total_tracked": 89
 }
