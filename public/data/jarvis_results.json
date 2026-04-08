@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T05:08:09.493430+00:00",
+  "timestamp": "2026-04-08T07:12:34.902874+00:00",
   "total": 5,
   "new": 5,
   "noise": 2,
@@ -8,6 +8,73 @@
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "colin.bell@redhilldatacentre.com",
+      "sender_name": "Colin Bell",
+      "subject": "Travelers Monthly Operations Meeting",
+      "body_preview": "Please add any attendees that I may have missed.\r\n\r\nKind regards,\r\n\r\nColin Bell\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 331 489 623 485 59\r\nPasscode",
+      "received": "2026-04-08T06:04:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP2B5_GzkT9NnWkuRI6_wl0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Redhill ops",
+        "KW: lease",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Bell from Redhill Data Centre is reaching out regarding an upcoming monthly operations meeting and asking for confirmation of the attendee list. This appears to be a routine coordination request for a Travelers-related meeting, likely involving operational stakeholders from multiple organizations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Galaxy's attendees for the Travelers monthly operations meeting and respond to Colin with names/roles",
+        "Review the meeting agenda to assess what operational or business matters will be discussed and prepare any necessary briefing materials",
+        "Determine if France or another Galaxy representative should attend and communicate final headcount to Colin"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Apollo sequences",
+      "body_preview": "Hi Sarthak,\r\n\r\nPlease see the sequences doc below.\r\nThis structure sub segments by decision makers of the P1 list and addresses their pain points, talks about our compliance/certs.\r\nGenerated from the different materials created so far -  so please track ",
+      "received": "2026-04-08T05:48:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANuFhXqdCTFFvSTzl19AYBc=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: rack, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal team member) is sharing a sequences document that organizes outreach messaging by decision-maker segments from the P1 prospect list, emphasizing compliance credentials and tailored pain-point messaging. This is a sales enablement asset compiled from existing marketing materials, and Sai is flagging the need to track its usage and evolution as a living document for the Apollo campaign.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the sequences document to ensure messaging alignment with Galaxy's compliance differentiators and validate segment targeting strategy",
+        "Establish a tracking mechanism (shared doc, CRM tags, or project management tool) to monitor which segments are being targeted and conversion outcomes",
+        "Coordinate with Sai to cascade messaging training to the sales team and confirm all P1 decision-maker segments have assigned outreach sequences"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "faye.p@queensu.ca",
       "sender_name": "Faye Pan",
@@ -2842,5 +2909,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 86
+  "total_tracked": 88
 }
