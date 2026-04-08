@@ -1,20 +1,85 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-08T08:57:21.084431+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 4,
-  "ai": 8,
+  "timestamp": "2026-04-08T10:09:10.539468+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 7,
+  "ai": 12,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
     {
+      "sender_email": "luke.gray@redhilldatacentre.com",
+      "sender_name": "Luke Gray",
+      "subject": "Re: Salesforce",
+      "body_preview": "Ash / Dave\r\n\r\nAs Salesforce is a complete mess, not as a result of what Colin or the site team have or haven't done, someone needs to take ownership of this and be a point of contact for these customer complaints ( not Colin, not RDC staff )\r\n\r\nA response",
+      "received": "2026-04-08T09:44:01Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5j3AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMLx_xS9yUROoJ4FEUty5jw=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Redhill ops",
+        "10 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Luke Gray from Redhill Data Centre is escalating ongoing Salesforce system issues that are generating customer complaints. He's explicitly stating that the problem isn't operational (not Colin's or RDC staff's fault) and is requesting Galaxy Capital assign a dedicated point of contact to manage customer communication and resolution, removing this burden from the site operations team.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Designate a Galaxy representative to own Salesforce issue management and serve as the primary customer contact for complaints",
+        "Schedule a meeting with Luke Gray, Colin, and the designated owner to understand the scope of issues and establish a communication protocol",
+        "Conduct a Salesforce system audit to identify root causes and develop a remediation timeline to present to affected customers"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "tom.babbington@adaptive-mdc.com",
+      "sender_name": "Tom Babbington",
+      "subject": "RE: Redhill Updated Deck",
+      "body_preview": "Hi Dave,\r\n\r\nAs we spoke about before the Easter break \u2013 we are on hand to come and present our solution direct to CFP.\r\n\r\nAll the output requested would be included in the Stage 2 report. Ultimately, we would be taking the work done in the current Stage 2",
+      "received": "2026-04-08T09:13:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5j0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLeMa6IsUcusiMkbzoHH_c=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Tom Babbington]",
+      "rules_reasons": [
+        "Tier 2: adaptive-mdc.com",
+        "Pipeline: tom babbington",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Tom Babbington from Adaptive MDC is following up on a previous conversation about presenting their solution directly to Galaxy Capital Partners' leadership. He's confirming that their Stage 2 deliverables will include all requested outputs and build upon the current work in progress. This indicates readiness to move forward with a formal presentation that could advance the Redhill project evaluation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule a presentation date/time with Tom and confirm attendees from Galaxy's CFO/investment team",
+        "Review the current Stage 2 work and prepare key questions or requirements for the Adaptive MDC presentation",
+        "Clarify what specific outputs/deliverables are needed in the Stage 2 report to ensure alignment before the formal pitch"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
       "sender_email": "colin.bell@redhilldatacentre.com",
       "sender_name": "Colin Bell",
       "subject": "Re: Fw: Welcome to Customer Portal",
-      "body_preview": "Hi Hajar,\r\n\r\nThis is FluidOne.\r\n\r\nAll areas are assigned, customer is saying that they can only see/select loading bay.\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager\r\n\r\nE:colin.bell@redhilldatacentre.com\r\nP:+44 07484 456529\r\nW:galaxydatacenters.com\r\n\r\nOffic",
-      "received": "2026-04-08T08:21:10Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5juAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "To be honest I'm done trying.\r\n\r\nI assigned these areas through the app, I didn't change any parent or child locations. Just added the locations to the account and then applied them to the contacts via the app.\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager",
+      "received": "2026-04-08T08:57:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEWv5Qc289lIlIAm39Z_Nxg=",
@@ -26,17 +91,17 @@
         "Dave replied (+2)",
         "Redhill ops",
         "6 VIPs on thread (+2)",
-        "Thread: 4 msgs (+2)"
+        "Thread: 6 msgs (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Colin Bell from Redhill Data Centre (part of Galaxy) is reporting a customer portal issue where a FluidOne customer has restricted visibility\u2014they can only access the loading bay section despite all areas being assigned to their account. This is a potential customer experience problem that could impact service delivery and satisfaction for an active tenant.",
+      "ai_summary": "Colin Bell, Service Delivery Manager at Redhill Data Centre, is expressing frustration with a customer portal system issue. He's clarifying that he properly assigned areas through the app without modifying parent/child location structures, suggesting he's encountered technical problems or unclear guidance that's led to configuration challenges. This indicates a usability or support gap in Galaxy's customer portal that's affecting customer satisfaction and operational efficiency.",
       "ai_action": null,
       "ai_next_steps": [
-        "Escalate to technical/portal support team to investigate why FluidOne customer's permission settings aren't reflecting all assigned areas in the customer portal",
-        "Contact FluidOne directly to confirm their actual space assignments and provide a timeline for portal access resolution",
-        "Review portal configuration process to prevent similar visibility issues with other customers"
+        "Have France or support team contact Colin directly to understand the specific error or issue he encountered with area assignments in the portal",
+        "Review the portal's area assignment workflow and documentation to identify usability gaps or bugs causing customer friction",
+        "Escalate to product/engineering team if the portal has a technical defect, or provide Colin with corrective guidance if it's a process issue"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2908,40 +2973,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "paul.tester@redhilldatacentre.com",
-      "sender_name": "Paul Tester",
-      "subject": "Re: Welcome to Customer Portal",
-      "body_preview": "Not seen any invite, 10AM ET is not great for Colin as he is busy with Customer reports, Colin is most important for the portal. Can the guide that has been requested be sent to show how all this works and we can then test.\r\n\r\nThanks\r\nPaul\r\n______________",
-      "received": "2026-04-01T09:47:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5biAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALWIhkWI-zdDpnhv5qCwRmE=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Redhill ops",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Tester from Redhill Data Centre is confirming receipt of portal onboarding but hasn't received the expected invitation yet. He's flagging that the proposed 10 AM ET demo time doesn't work for Colin, their key user who handles customer reporting, and is requesting instructional documentation so they can self-test the portal before a scheduled walkthrough.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Resend the customer portal invitation link directly to Paul and confirm Colin's email is included",
-        "Share the portal user guide documentation immediately and offer to reschedule the demo to a time that works for Colin (request his availability)",
-        "Have France or the onboarding team confirm receipt and set a follow-up check-in after Redhill completes self-testing"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 89
+  "total_tracked": 90
 }
