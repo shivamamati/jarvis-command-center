@@ -1,13 +1,78 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T01:54:48.123711+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 2,
-  "ai": 3,
+  "timestamp": "2026-04-09T04:31:47.062811+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 42,
+  "auto_learned": 49,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: 2025 Tax Preparation Services Agreement and Tax Checklist ",
+      "body_preview": "Hi Ritesh, hope you are well and thank your for the patience.\r\n\r\nJust wanted to give you a quick update on your request \u2014 parents first, then the home office discussion.\r\n\r\nParents : Vinita & Rajesh Misra\r\n\r\nAs you know for  my parents  US personal  retur",
+      "received": "2026-04-09T04:25:11Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is responding to Ritesh (likely his tax advisor) regarding 2025 tax preparation services, providing updates on documentation needed for his parents' US tax returns and signaling he'll address a home office deduction question separately. This is routine tax planning for Galaxy's managing partner to ensure compliance and optimize deductions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should compile complete documentation for Vinita & Rajesh Misra's US personal returns and send to Ritesh",
+        "Schedule follow-up discussion with Ritesh on home office deduction calculations and supporting documentation",
+        "Confirm tax preparation timeline and filing deadlines with the advisor to ensure timely completion"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": " Charlie <> Dave Follow Up ",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/22207999948802?p=5jkB7Jl1c4ikHxIvBM\r\nMeeting ID: 222 079 999 488 02\r\nPasscode: jj6NT3qc\r\n__________________",
+      "received": "2026-04-09T02:50:29Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJwjL7TifZpCtRBgPbvOba8=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a Teams meeting link for a follow-up conversation between Dave and Charlie. The email provides meeting details but lacks context about the discussion topic, participants, or business purpose. Without knowing the agenda or Charlie's role/company, it's unclear what outcome Galaxy should prepare for.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting time and add it to Dave's calendar with a clear agenda",
+        "Identify who Charlie is and their company/role to determine meeting prep materials needed",
+        "Ensure France (or relevant team member) is looped in if this relates to active business matters requiring support"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -2937,39 +3002,6 @@
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
-      "subject": "Fw: 2025 Tax Preparation Services Agreement and Tax Checklist",
-      "body_preview": "Anuj in the latter part of the call on Friday, I would also like to discuss this checklist. Sending it to you in advance.\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule ",
-      "received": "2026-04-02T06:04:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTepAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is forwarding a tax preparation services agreement and checklist to Anuj in advance of a Friday call discussion. This appears to be routine tax compliance preparation for Galaxy Capital Partners/Galaxy Data Centers ahead of year-end or annual tax filing. The proactive sharing ensures Anuj has time to review materials before the scheduled discussion.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the tax checklist and services agreement before the Friday call to identify any questions or missing items",
-        "Confirm the Friday call time and ensure both Dave and Anuj are aligned on agenda items related to tax preparation",
-        "Gather any outstanding documents or information Galaxy may need to provide to the tax preparation service"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
       "subject": "Re: Tech Capital Social Post",
       "body_preview": "Go for it Samantha.\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Samantha Booth <samantha@",
       "received": "2026-04-02T04:43:59Z",
@@ -3001,5 +3033,5 @@
       "final_label": "URGENT"
     }
   ],
-  "total_tracked": 91
+  "total_tracked": 92
 }
