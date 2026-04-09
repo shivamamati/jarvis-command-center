@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T22:37:26.934621+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 4,
-  "ai": 5,
+  "timestamp": "2026-04-09T23:34:54.153293+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
@@ -27,12 +27,12 @@
       "ai_reviewed": true,
       "ai_score": 9,
       "ai_label": "CRITICAL",
-      "ai_summary": "Paul Leong (Galaxy Capital Partners internal) has sent a DocuSign document for Dave's signature on a GCP LLC Operating Agreement Amendment. This is a legal document requiring immediate review and execution.",
-      "ai_action": "Dave must review and sign the GCP LLC Operating Agreement Amendment via DocuSign immediately. Contact Paul Leong if clarification needed before signing.",
+      "ai_summary": "Paul Leong (Galaxy Capital Partners internal) has sent a DocuSign request for Dave to review and sign an amendment to the GCP LLC Operating Agreement. This is a legally binding document requiring immediate attention and signature.",
+      "ai_action": "Dave must review and sign the GCP LLC Operating Agreement Amendment via DocuSign immediately. Confirm receipt with Paul Leong.",
       "ai_next_steps": [
-        "Open DocuSign link and review GCP LLC Operating Agreement Amendment",
-        "Clarify with Paul Leong if any questions on amendment terms",
-        "Sign and return via DocuSign"
+        "Open the DocuSign link and review the GCP LLC Operating Agreement Amendment",
+        "Flag any concerns or questions to Paul Leong before signing",
+        "Execute signature via DocuSign"
       ],
       "ai_failed": false,
       "final_score": 9,
