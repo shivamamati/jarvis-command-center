@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T06:19:41.294056+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 0,
-  "ai": 5,
+  "timestamp": "2026-04-09T08:18:22.148511+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 2,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 48,
   "items": [
+    {
+      "sender_email": "muckle-1411@firmexpostmaster.com",
+      "sender_name": "Muckle (Firmex)",
+      "subject": "Sale of Town End Farm - There is new Document activity",
+      "body_preview": "1 new document is available in the Sale of Town End Farm Project, powered by Firmex. Please do not reply to this message.\r\nPlease log in to view your documents.\r\n\r\nProject: Sale of Town End Farm\r\n\r\nPlanning - Industrial Development\r\nConsent and S.106\r\nDec",
+      "received": "2026-04-09T08:01:06Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC-aBmW7cZBGuFWn7ZZOwRs=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: lease, power"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Firmex document management notification for 'Sale of Town End Farm' project with planning/industrial development consent documents. This appears to be a real estate transaction with regulatory components (S.106 agreement) that could be relevant to Galaxy's UK data center operations or land acquisition.",
+      "ai_action": "Dave should log into Firmex to review the new document. Confirm with France/deal team if this relates to an active Galaxy acquisition or development project.",
+      "ai_next_steps": [
+        "Log into Firmex portal to view the new document in Sale of Town End Farm project",
+        "Clarify with France/deal ops if Town End Farm is a Galaxy prospect or related asset",
+        "If relevant: review planning consent and S.106 terms for potential impact on data center development"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "paul.tester@redhilldatacentre.com",
       "sender_name": "Paul Tester",
@@ -3039,5 +3069,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 92
+  "total_tracked": 93
 }
