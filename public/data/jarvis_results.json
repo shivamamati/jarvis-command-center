@@ -1,13 +1,82 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T11:53:06.545991+00:00",
+  "timestamp": "2026-04-09T13:18:35.415683+00:00",
   "total": 11,
   "new": 11,
-  "noise": 8,
-  "ai": 9,
+  "noise": 7,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 48,
   "items": [
+    {
+      "sender_email": "kirstin.dunn@castleforge.com",
+      "sender_name": "Kirstin Dunn",
+      "subject": "Re: Redhill Lease Renew",
+      "body_preview": "Sounds sensible, thanks Paul. Hopefully this will get costs closer to \u00a310-15k tops.\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Wednes",
+      "received": "2026-04-09T12:35:07Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5ljAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kirstin Dunn from Castle Forge is confirming agreement with Paul Leong's proposal regarding the Redhill lease renewal, with an expectation to reduce costs to approximately \u00a310-15k. This appears to be a cost optimization decision on an existing data center or facility lease that Galaxy is managing or consulting on.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Paul Leong what specific proposal was made to achieve the \u00a310-15k cost target and ensure it aligns with Galaxy's commercial objectives",
+        "Document the agreed terms with Castle Forge in writing to formalize the cost estimate and prevent scope creep",
+        "Schedule a follow-up with Paul and Kirstin to establish timeline and next milestones for the Redhill lease renewal"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "kirstin.dunn@castleforge.com",
+      "sender_name": "Kirstin Dunn",
+      "subject": "Re: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00017.FID3584712]",
+      "body_preview": "Yes I think we should push for this to be covered by ad hoc advice under the retainer (even when the scope is reduced) given the small scope.\r\nThanks\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn@castleforge.com\r\n\r\n\r\n___________________________",
+      "received": "2026-04-09T12:33:52Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO_otx4hAvZJuu0DXibZF0c=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "KW: introducer, introduce",
+        "Broker signal",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kirstin Dunn from Castle Forge is responding to ongoing discussions about an introducer agreement, advocating that ad hoc advisory services should remain covered under the existing retainer arrangement despite the reduced scope of work. This is a cost-efficiency and service continuity matter affecting how Galaxy will be billed for Castle Forge's legal support on this transaction.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with France whether Castle Forge's proposed retainer coverage for ad hoc advice on the reduced-scope introducer agreement aligns with Galaxy's budget and engagement expectations",
+        "Clarify the specific scope reduction and obtain written confirmation of what services remain covered under the retainer vs. billable separately",
+        "Document the final terms of the introducer agreement and retainer arrangement to avoid future billing disputes"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "it@galaxydatacenters.com",
       "sender_name": "Galaxy IT",
@@ -15,7 +84,7 @@
       "body_preview": "Hi @rahul@butterworks.in,\r\nThank you for completing and signing the Vendor Onboarding Form for Butterworks - much appreciated.\r\nAs the next step in the onboarding process, could you please review and sign the following documents attached to this email:",
       "received": "2026-04-09T11:50:31Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADk0jF74VP9Fo6gJuJ23cck=",
       "rules_score": 6,
@@ -29,12 +98,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Butterworks, a new vendor, has completed initial onboarding documentation and Galaxy IT is requesting they review and execute additional contractual agreements to proceed with formal vendor engagement. This is a routine but critical step to establish proper legal and operational frameworks before any business activities commence.",
+      "ai_summary": "Butterworks has successfully completed their initial vendor onboarding form and Galaxy IT is now progressing them to the next phase by requesting signature on additional contractual documents. This is a routine vendor onboarding milestone that needs to be tracked to completion for Butterworks to become an active vendor.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm receipt of the attached documents with Butterworks and establish a signing deadline to keep onboarding on schedule",
-        "Have legal review the specific agreements being sent to ensure they align with Galaxy's standard vendor terms and data center security requirements",
-        "Track completion status and schedule final vendor kickoff meeting once all documents are executed"
+        "Confirm receipt of signed documents from Butterworks and verify all signatures are complete and valid",
+        "Route signed documents through legal review if not already completed, then file in vendor management system",
+        "Set timeline for Butterworks vendor activation and communicate expected go-live date to relevant internal stakeholders"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -61,12 +130,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rodrigo from Galaxy Data Centers is forwarding a vendor access request that requires management approval. This appears to be a security and operational matter involving onboarding a new external party into Galaxy's systems or facilities.",
+      "ai_summary": "Rodrigo from Galaxy Data Centers is forwarding a vendor access request that requires management attention. This appears to be a security and operational matter involving third-party access to Galaxy's infrastructure or systems. Approval decisions on vendor access directly impact security posture, compliance, and operational efficiency.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the original vendor access request details to assess the business purpose and risk profile",
-        "Confirm security vetting procedures have been completed before granting any access",
-        "Determine approval authority and establish access parameters (scope, duration, systems/facilities involved)"
+        "Request the complete vendor access request details from Rodrigo, including vendor name, scope of access needed, and business justification",
+        "Have security/compliance team review the request against Galaxy's vendor management and access control policies before approval",
+        "Coordinate with France or appropriate stakeholder to make a decision and communicate approval status to Rodrigo with any conditions or requirements"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -466,42 +535,6 @@
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
-      "subject": "Re: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00017.FID3584712]",
-      "body_preview": "Hey Kirstin,\r\n\r\nSimmons has indicated they would charge GBP 750 to review the redlines on the referral agreement we shared with a broker. Given that the original referral agreement template was created by Simmons, can you confirm whether this review would",
-      "received": "2026-04-08T20:48:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO_otx4hAvZJuu0DXibZF0c=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: introducer, referral, introduce",
-        "Broker signal",
-        "4 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is seeking clarification from Kirstin about whether Simmons' proposed \u00a3750 fee to review redlines on a referral agreement is justified, given that Simmons originally created the template being modified. This directly impacts Galaxy's legal costs and negotiation efficiency with a broker partner.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Kirstin whether the \u00a3750 review fee is standard practice or negotiable given Simmons' original authorship of the template",
-        "Request Simmons provide a detailed scope of work for the redline review to assess if the fee is proportionate to the actual work required",
-        "Consider whether internal resources or alternative counsel could handle the redline review more cost-effectively"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
       "subject": "Re: houston energy - Galaxy Capital Partners",
       "body_preview": "Hi Todd \u2014 we are focused on digital infrastructure, and this is not within our thesis.\r\n\r\n\r\n________________________________\r\nFrom: Todd Lodel <toddlodel.tl@globalenergycapitalgroup.com>\r\nSent: Wednesday, April 8, 2026 12:55:31 PM\r\nTo: Dave Misra <dave@ga",
       "received": "2026-04-08T18:16:24Z",
@@ -564,42 +597,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Fw: Redhill Lease Renew",
-      "body_preview": "Hi Kirstin - Ashley and I had a very productive call with Travelers.  They have agreed to stay with the current lease expiration if we credit them the difference (~5 months of delta) between the existing and new agreement.  This will remove the need for t",
-      "received": "2026-04-08T17:39:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5krAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 13x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Lease + customer",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong reports that Galaxy successfully negotiated with Travelers Insurance to renew their lease by offering a credit for the rate differential over approximately 5 months, eliminating the need for a full lease renegotiation. This resolution keeps an important tenant in place while preserving the relationship through favorable financial terms. The deal removes operational complexity and potential revenue disruption from a lease transition.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the credit amount and lease renewal terms in writing with Travelers to lock in the agreement",
-        "Update financial forecasting and revenue projections to reflect the 5-month credit impact",
-        "Schedule follow-up with Paul and Ashley to document final lease terms and implementation timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2965,37 +2962,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dan@528consulting.com",
-      "sender_name": "Dan Ryan",
-      "subject": "Available Inventory/ 2.5 MW recips/ LM6000s/ Frame 5 \u2013 26 MW/ LM2500 G4/ New MTU/ CAT C175",
-      "body_preview": "Hi Dave\r\n\r\nOur team @ AeroGenIQ.com is pleased to present this inventory list for your review:\r\n\r\n14 \u00d7 2.5 MW recips\r\n10 \u00d7 LM6000\r\n2 \u00d7 LM6000\r\nFrame 5 \u2013 26 MW (GE turbine, new, 2014 build, preserved in crate)\r\n10 \u00d7 Siemens SGT-A05 (5.4 MW each, ~54 MW tot",
-      "received": "2026-04-02T12:01:14Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5ddAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABNJN-ziMmdKs8MC4dthbSI=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: mw, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Dan Ryan from 528 Consulting (representing AeroGenIQ) is offering specific power generation equipment inventory directly to Dave: reciprocating engines (2.5 MW units), gas turbines (LM6000s, Frame 5 26 MW GE unit, Siemens SGT-A05s totaling ~54 MW), and new MTU/CAT generators. This is directly relevant to Galaxy's data center power infrastructure needs and could support both existing operations and new development projects.",
-      "ai_action": "Dave should review the equipment list and specifications, then have someone (likely engineering contact at Adaptive MDC or operations team) vet the condition, pricing, and logistics. Request detailed specs, pricing, and availability timeline.",
-      "ai_next_steps": [
-        "Forward to Adaptive MDC engineering team for technical assessment of equipment condition and suitability for Galaxy projects",
-        "Ask Dan for pricing, delivery timeline, and any certifications/maintenance records on the turbines and engines",
-        "Determine if this inventory fits current projects (Redhill expansion, Poland 260MW, or 18MW TechRE prospect)"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 91
+  "total_tracked": 90
 }
