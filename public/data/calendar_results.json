@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-09T17:03:05.486748+00:00",
+  "timestamp": "2026-04-09T18:59:18.015255+00:00",
   "events": [
     {
       "subject": "Brainstrom Ticketing - Salesforce/Monday",
@@ -57,18 +57,6 @@
       "location": "https://calendly.com/events/1291f8b2-132e-4130-98b9-4460795c247c/microsoft_teams",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIPAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Mitch <> Dave Sync ",
-      "start": "2026-04-09T17:00:00.0000000",
-      "end": "2026-04-09T17:30:00.0000000",
-      "attendees": [
-        "Mitch"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAYu8k1mAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Galaxy - M365 Project weekly update",

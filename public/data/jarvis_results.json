@@ -1,13 +1,279 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T17:04:41.136152+00:00",
-  "total": 35,
-  "new": 35,
-  "noise": 12,
-  "ai": 34,
+  "timestamp": "2026-04-09T19:00:04.406775+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 6,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "dse@eumail.docusign.net",
+      "sender_name": "Charlie Bruinvels via Docusign",
+      "subject": "Completed: Complete with Docusign: NDA Galaxy and BCS.pdf",
+      "body_preview": "Your document has been completed\r\nView Completed Document\r\nCharlie Bruinvels\r\ncharlie.bruinvels@bcsconsultancy.com\r\n\r\nAll parties have completed Complete with Docusign: NDA Galaxy and BCS.pdf.\r\n\r\nHi Dave, please see our NDA as discussed. Many thanks.\r\n\r\nP",
+      "received": "2026-04-09T18:57:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJ1NsKR_ESBLkx3gRljWqeA=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Charlie Bruinvels (BCS Consultancy) has completed and executed an NDA with Galaxy Capital Partners via DocuSign. This is a formal legal document that signals a new business discussion or partnership exploration is moving forward.",
+      "ai_action": "Dave should review the completed NDA immediately to understand the scope of confidentiality and what business discussion is being protected. Follow up with Charlie to confirm next steps in the engagement.",
+      "ai_next_steps": [
+        "Review the completed NDA document in DocuSign to understand the counterparty and scope",
+        "Confirm with Charlie Bruinvels what business opportunity or partnership this NDA covers",
+        "Brief France or relevant deal lead on the engagement and timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "FW: CodeTwo Email Signatures 365 - order 1307465 (invoice)",
+      "body_preview": "From: CodeTwo Sales <sales@codetwo.com>\r\nDate: Thursday, April 9, 2026 at 6:56\u202fAM\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>\r\nSubject: CodeTwo Email Signatures 365 - order 1307465 (invoice)\r\n\r\n\r\n\r\nDear Ashutosh Gupta,\r\n\r\nThank you for choosing C",
+      "received": "2026-04-09T18:41:49Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAF1lpWWkj5pGgAL4ftinKQo=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "CodeTwo, a software vendor, is sending an invoice for their Email Signatures 365 product (order 1307465) to what appears to be an incorrect recipient name (Ashutosh Gupta) at Galaxy's email domain. This is a routine vendor billing communication, but the recipient mismatch suggests either a data entry error during purchase or account setup that should be corrected to ensure proper invoice routing and payment processing.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify the correct recipient and contact information in the CodeTwo order to ensure future invoices route to the appropriate finance contact",
+        "Confirm Galaxy's current subscription details and licensing count for Email Signatures 365 matches the invoice",
+        "Update CodeTwo's records with accurate Galaxy contact information to prevent future delivery issues"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "mitch@baxtel.com",
+      "sender_name": "Mitch Lenzi",
+      "subject": "Proposed new time: Baxtel <> Galaxy Sync  @ Thu Apr 23, 2026 11:30am - 12pm (CDT) (Dave Misra)",
+      "body_preview": "Baxtel <> Galaxy Sync\r\n\r\nMitch Lenzi has accepted this invitation and proposed a new time:\r\nThu Apr 23, 2026 11:30am \u2013 12:30pm\r\n\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://te",
+      "received": "2026-04-09T18:37:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALk-kqMES19Mp8AmUPAOjMI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Mitch Lenzi]",
+      "rules_reasons": [
+        "Dave replied 5x (+4)",
+        "Attachments from known (+1)",
+        "VIP: baxtel.com",
+        "Pipeline: mitch lenzi",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mitch Lenzi from Baxtel has accepted the sync meeting invitation and proposed a new time slot of Thursday, April 23rd at 11:30am-12:30pm CDT. This is a routine calendar coordination between Galaxy and Baxtel, likely related to ongoing business discussions or partnership alignment. Confirming this meeting time ensures continuity of communication with an important contact.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm acceptance of the new meeting time with Mitch and update your calendar accordingly",
+        "Have France or your team prepare any relevant materials or talking points for the Baxtel sync meeting",
+        "Send a confirmation response to Mitch with the Teams link and any pre-meeting agenda items"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "FW: DCSL IT Program and Castleforge IT Induction",
+      "body_preview": "From: Sam Burton <sam.burton@castleforge.com>\r\nDate: Tuesday, November 18, 2025 at 11:01\u202fAM\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>, dave.misra@redhilldatacentre.com <dave.misra@redhilldatacentre.com>\r\nCc: DCSL Service Desk <service.desk@data",
+      "received": "2026-04-09T18:30:18Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTf%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABQ2Xbee0MtKktkthjqpdP8=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sam Burton from Castleforge is notifying you about an IT onboarding program related to DCSL (likely a data center or shared services entity) and appears to be initiating an induction process for Castleforge's IT integration. This suggests a new operational or contractual relationship between Castleforge and Galaxy's infrastructure that requires formal IT system access and support setup.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Sam Burton the scope of Castleforge's IT requirements and identify which Galaxy systems/services they need access to",
+        "Coordinate with France or your IT team to ensure DCSL Service Desk has clear onboarding documentation and approval for Castleforge personnel",
+        "Clarify the business purpose and duration of this IT relationship to properly scope resource allocation and security protocols"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "mitch@baxtel.com",
+      "sender_name": "Mitch Lenzi",
+      "subject": "GCore FYI: Delivery Status Notification (Failure)",
+      "body_preview": "FYI Dave,\r\n\r\nCan you double check the email or see if you had an alternative contact?\r\n\r\nI can pull someone from our database, but wanted to run through first.\r\n\r\n--\r\nSincerely,\r\nMitch Lenzi\r\nVP, Sales & Operations\r\nm: +1-630-903-3026\r\nMitch@Baxtel.com",
+      "received": "2026-04-09T18:13:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5meAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL3Shll2xDpEs-dobxvZDSg=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Mitch Lenzi]",
+      "rules_reasons": [
+        "Dave replied 5x (+4)",
+        "Attachments from known (+1)",
+        "VIP: baxtel.com",
+        "Pipeline: mitch lenzi"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mitch Lenzi, VP of Sales & Operations at Baxtel, is flagging a delivery failure notification related to GCore and asking Dave to verify email contact information or provide an alternative contact. Mitch is offering to source a contact from their database but wants Dave's input first before proceeding, suggesting this is tied to an active deal or partnership discussion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should contact Mitch directly at +1-630-903-3026 or via email to clarify which GCore contact or communication failed and provide the correct contact information",
+        "If uncertain about the specific GCore relationship, have France review Galaxy's recent GCore correspondence or deal status to understand the context before responding",
+        "Once verified, either provide Mitch with the correct contact or authorize him to pull an alternative from Baxtel's database to keep the business moving"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "mitch@baxtel.com",
+      "sender_name": "Mitch Lenzi",
+      "subject": "GCore Sourcing Requirements",
+      "body_preview": "Hey Djordje,\r\n\r\nI heard that your team was looking for some colo space in the US this year and wanted to reach out and see if you were still searching?\r\n\r\nI am not certain if we've met, but I oversee sales and operations here at Baxtel tracking capacity o",
+      "received": "2026-04-09T18:11:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI4eeLp_FKBNrEmpCly6uK8=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Mitch Lenzi]",
+      "rules_reasons": [
+        "Dave replied 5x (+4)",
+        "VIP: baxtel.com",
+        "Pipeline: mitch lenzi",
+        "KW: rack, capacity"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mitch Lenzi from Baxtel, a colocation provider, is proactively reaching out based on intelligence that Galaxy may be seeking US data center capacity this year. He wants to explore whether Galaxy is still actively looking for colo space and position Baxtel as a potential provider. This matters because it suggests external market awareness of Galaxy's infrastructure needs and could represent a cost-effective sourcing opportunity for capacity.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or Dave confirm internally whether Galaxy has active US colo sourcing requirements and current timeline",
+        "Request Baxtel's current US availability, pricing, and service terms to evaluate competitiveness versus existing vendor relationships",
+        "Schedule a brief call with Mitch to understand Baxtel's capabilities, SLA offerings, and any unique advantages relevant to Galaxy's capacity needs"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "FW: [External] 5MW NJ",
+      "body_preview": "Mitch\r\n\r\nI am formally registering the following customer as Qualified Referral per our agreement\r\n\r\n\r\nQualified Referral #\r\n\r\n  *   Date: April 9, 2026\r\n\r\n  *   Broker Name: GALAXY CAPITAL PARTNERS, LLC\r\n\r\n  *   Customer Name: G-Core Labs S.A.\r\n\r\n  *  ",
+      "received": "2026-04-09T17:30:01Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTf9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFc2sAYvQC5MncTihb_2j7c=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: mw, capital, referral",
+        "Broker signal",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is formally registering G-Core Labs S.A. as a qualified referral under Galaxy Capital Partners' broker agreement, dated April 9, 2026, for what appears to be a 5MW capacity opportunity in New Jersey. This registration triggers contractual obligations and commission/revenue rights for Galaxy Capital Partners under the referral agreement. The referral represents a potential significant infrastructure deal that Galaxy Data Centers should prioritize for conversion and delivery.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt of the qualified referral registration with Mitch and ensure all contractual documentation is filed properly to protect Galaxy's revenue rights",
+        "Schedule a kickoff meeting with the G-Core Labs account team to understand their 5MW NJ requirements, timeline, and any special infrastructure needs",
+        "Verify that the 5MW NJ capacity is available and reserved, and coordinate with operations to prepare facility details and proposal timeline for the prospect"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "nicholas.l.smith@accenture.com",
+      "sender_name": "Smith, Nicholas L.",
+      "subject": "RE: Redhill renewal",
+      "body_preview": "Hey Paul,\r\n\r\nJust merging the threads here \u2013 have you received the NDA from Madhu with our clean version for your review and acceptance before we submit to signature.\r\n\r\n@Rao, Madhu an FYR that @Paul Leong will be the signatory.\r\n\r\nSemper anticus,\r\n\r\nNic ",
+      "received": "2026-04-09T17:24:58Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "Tier 1: accenture.com",
+        "KW: nda, renewal",
+        "10 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Nicholas Smith from Accenture is following up on a Redhill renewal contract, asking Paul Leong to review and accept a clean NDA version that Madhu Rao prepared before it goes to signature. This appears to be a routine contract execution checkpoint for what may be a significant renewal agreement with an Accenture client or partner.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Paul Leong that he has received the NDA from Madhu Rao and obtain his review/acceptance timeline",
+        "Verify with Madhu Rao the status of the clean NDA version and ensure it aligns with Galaxy's standard terms",
+        "Once Paul approves, coordinate with the signatory process to move this renewal forward without delays"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "jsa_events@jsa.net",
       "sender_name": "JSA Events",
@@ -1203,42 +1469,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "mitch@baxtel.com",
-      "sender_name": "Mitch Lenzi",
-      "subject": "Proposed new time: Mitch <> Dave Sync  @ Wed Apr 8, 2026 3pm - 4pm (CDT) (Dave Misra)",
-      "body_preview": "Mitch <> Dave Sync\r\n\r\nMitch Lenzi has replied \"Maybe\" to this invitation and proposed a new time:\r\nThu Apr 9, 2026 12pm \u2013 12:30pm\r\n\"I can't make the new time you proposed as I have a call, but I can do this time instead.\"\r\n\r\n\r\n____________________________",
-      "received": "2026-04-08T16:28:41Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAACy8iaAAAuilH2jaEmTaBeWRekOs%2B0AAZLA8b5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALk-kqMES19Mp8AmUPAOjMI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Mitch Lenzi]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+4)",
-        "Attachments from known (+1)",
-        "VIP: baxtel.com",
-        "Pipeline: mitch lenzi",
-        "Thread: 4 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Mitch Lenzi from Baxtel is unable to attend the originally proposed sync meeting on Wednesday, April 8 at 3pm CDT due to a scheduling conflict, but is offering Thursday, April 9 at noon-12:30pm as an alternative. This requires Dave to confirm availability and reschedule the meeting to maintain momentum on whatever Baxtel partnership or business discussion is on the agenda.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Dave's availability for Thursday, April 9 at 12pm CDT and formally accept or decline Mitch's proposed time slot",
-        "If Dave cannot make the Thursday slot, propose 2-3 alternative times that work for both parties to keep the relationship moving forward",
-        "Ensure calendar invites are updated and any pre-meeting prep materials are ready for whichever time is confirmed"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2983,38 +3213,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "nicholas.l.smith@accenture.com",
-      "sender_name": "Smith, Nicholas L.",
-      "subject": "RE: Redhill renewal",
-      "body_preview": "Hi Paul,\r\n\r\nMy sincerest apologies for the delays on our side \u2013 legal has reviewed the comments for the NDA and I\u2019ve added my own which they\u2019re reviewing today/tomorrow. @Ariyathullil, Athira (Accenture Buyside Legal) will share the clean version of the N",
-      "received": "2026-04-02T21:37:21Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5edAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: accenture.com",
-        "KW: nda, renewal",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Nicholas Smith from Accenture is updating on the Redhill renewal NDA, indicating that legal has completed their initial review of Galaxy's comments and Smith has added his own feedback, which is currently under review by Accenture's legal team (Athira Ariyathullil). A clean NDA version should be shared imminently, addressing a previous bottleneck that was delaying contract progression.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of the clean NDA from Athira Ariyathullil and schedule immediate internal review with France to meet Redhill renewal timeline",
-        "Prepare Galaxy's final approval and signature authority chain to enable rapid execution once Accenture's legal clears the document",
-        "Flag any remaining business terms or deal conditions that need finalization before the renewed contract can close"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Fwd: Update from Friday Call",
@@ -3047,69 +3245,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nRodrigo added you to the GALAXY - Interns team!\r\n\r\n\r\nGALAXY - Interns\r\n\r\n        1 members\r\n        Intern onboarding, coordination and resources\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace",
-      "received": "2026-04-02T18:42:07Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAjCdoByeSVGs7zfwyEekR0=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: board"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rodrigo has added you to the Galaxy Interns Microsoft Teams channel, which serves as the central hub for intern onboarding, coordination, and resource sharing. This is a standard administrative action to integrate you into the company's intern management and communication infrastructure.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the Teams channel to understand current intern onboarding processes and any pending coordination items",
-        "Confirm channel access is working and familiarize yourself with any existing resources or documentation posted there"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ash@thefamilyofficesglobal.com",
-      "sender_name": "Ashmoret Mishal",
-      "subject": "House of Lords",
-      "body_preview": "Hi Dave,\r\nHow are you?\r\nIs this of interest to you?\r\n HOL Pitch Deck Final 3-2-26.pdf\r\n--\r\n\r\nDISCLAIMER AND CONFIDENTIALITY NOTICE: Securities offered by FNEX Capital, LLC, a member of FINRA and SIPC. Advisory Services offered through The Family Offices G",
-      "received": "2026-04-02T17:30:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5eLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAF84cReTvuRBsem2_eWl7Tk=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: capital"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Ashmoret Mishal from The Family Offices Global is reaching out to Dave personally with what appears to be a pitch deck attachment (House of Lords related). The vague subject line and minimal context suggest this could be a fund opportunity, investment proposal, or partnership\u2014but the deck itself is needed to assess relevance to Galaxy's infrastructure strategy.",
-      "ai_action": "Dave should open the attached pitch deck to determine if this is relevant to Galaxy's data center or digital infrastructure portfolio. If it is, brief Ashmoret on Galaxy's current focus areas and capacity.",
-      "ai_next_steps": [
-        "Review HOL Pitch Deck Final 3-2-26.pdf to determine business relevance",
-        "If relevant, reply to Ashmoret with specific questions about fit with Galaxy's strategy",
-        "If not relevant, polite pass with brief explanation"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 94
+  "total_tracked": 98
 }
