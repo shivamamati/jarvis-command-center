@@ -1,13 +1,116 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T04:31:47.062811+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 5,
+  "timestamp": "2026-04-09T06:19:41.294056+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 0,
   "ai": 5,
   "skipped": 0,
-  "auto_learned": 49,
+  "auto_learned": 48,
   "items": [
+    {
+      "sender_email": "paul.tester@redhilldatacentre.com",
+      "sender_name": "Paul Tester",
+      "subject": "Re: IT Escalations",
+      "body_preview": "Hi\r\n\r\nYep I only mentioned it when it came up in the call as we were told in the meeting that tickets were monitored 24*7 by CF and Rodrigo, so I mentioned my one I submitted on the 30th March for the bluetooth issue (I know there was a bank holiday in be",
+      "received": "2026-04-09T05:56:18Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADOVl1YEEodEk_SZ9IQ2g90=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Redhill ops",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Tester from Red Hill Data Centre is following up on an IT support ticket he submitted on March 30th regarding a Bluetooth issue. He's referencing a previous discussion where he was told that CF and Rodrigo monitor tickets 24/7, implying concern about ticket response times or resolution status. This suggests potential service level agreement gaps or communication breakdown with a key data center client.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or the support team locate and review Paul's March 30th Bluetooth ticket to assess current status and any blocking issues",
+        "Clarify with CF and Rodrigo the actual ticket monitoring coverage and escalation procedures to align with client expectations",
+        "Reach out directly to Paul to confirm ticket status and set clear resolution timeline to restore confidence in support responsiveness"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Francis - Accenture's comments back on the NDA.  They've asked for Redhill to be a party if it wants to enforce so I guess it will have to go to LH for signature.\r\n\r\nPaul\r\n________________________________\r\nFrom: Francis Turley <Francis.Turley@simmons-s",
+      "received": "2026-04-09T05:30:29Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 13x (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: accenture",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, renewal",
+        "Lease + customer"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is reporting that Accenture has returned comments on the NDA for the Redhill renewal, with a key requirement that Redhill be named as a party to enforce the agreement. This means the contract execution will need to route through Redhill's legal/leadership for signature, adding another approval step to the deal closure process.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Route the revised NDA to Redhill's legal/leadership (LH) for review and signature authority",
+        "Confirm with Accenture that naming Redhill as a party satisfies their enforcement requirements and accelerates timeline to execution",
+        "Track signature status and identify any remaining blockers to close the Redhill renewal deal"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Fiona - Apologized if this was shared with Dave already, but can you send the base agreement that the amendment refers to (#00121275.0)? I'm sure I will be asked for this when I send this for signature.  I did see in a prior email reference to onboardi",
+      "received": "2026-04-09T05:17:48Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 13x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: board",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is requesting the base agreement document (#00121275.0) that an amendment references, as he anticipates needing it when routing the amendment for signature. He's preparing materials for what appears to be a DRT partnership and Cloud House deployment initiative.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Locate and send Paul the base agreement #00121275.0 immediately to support his signature process",
+        "Confirm with Paul what the amendment covers and whether any other supporting documentation is needed before signature routing",
+        "Verify with Dave whether there are any outstanding legal or business issues with the DRT partnership terms before execution"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -30,12 +133,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is responding to Ritesh (likely his tax advisor) regarding 2025 tax preparation services, providing updates on documentation needed for his parents' US tax returns and signaling he'll address a home office deduction question separately. This is routine tax planning for Galaxy's managing partner to ensure compliance and optimize deductions.",
+      "ai_summary": "Ritesh (likely a tax advisor or accountant) is following up on Dave's 2025 tax preparation agreement and checklist. Dave is providing information about his parents (Vinita & Rajesh Misra) and appears to be explaining tax filing priorities, starting with parental returns before addressing a home office deduction question. This matters to Galaxy because Dave's personal tax complexity could impact his focus on company operations and financial planning.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave or France should compile complete documentation for Vinita & Rajesh Misra's US personal returns and send to Ritesh",
-        "Schedule follow-up discussion with Ritesh on home office deduction calculations and supporting documentation",
-        "Confirm tax preparation timeline and filing deadlines with the advisor to ensure timely completion"
+        "Dave should complete the full response to Ritesh with specific details about parents' tax situation and home office deduction to finalize the 2025 tax preparation agreement",
+        "France (or finance team) should ensure all Galaxy entity tax documentation is compiled separately and on schedule so personal tax prep doesn't delay corporate filings",
+        "Confirm deadline with Ritesh for when finalized personal returns will be completed to avoid any impact on Galaxy's consolidated financial planning or audit schedules"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -896,39 +999,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "fional@digitalrealty.com",
-      "sender_name": "Fiona Leon",
-      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Paul,\r\n\r\nAttached for you\r\n\r\nKind regards\r\n\r\nFiona\r\n\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Wednesday, April 8, 2026 4:51 AM\r\nTo: Fiona Leon <fional@digitalrealty.com>; Dave Misra <dave@galaxydatacenters.com>; Darren Chan <darrenchan@d",
-      "received": "2026-04-08T07:22:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Fiona Leon]",
-      "rules_reasons": [
-        "Attachments from known (+1)",
-        "Tier 1: digitalrealty.com",
-        "Pipeline: fiona leon",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty is responding to Paul Leong's request regarding the Galaxy/DRT partnership and Cloud House deployment with an attachment. This appears to be a follow-up communication on a previously discussed strategic initiative, though the specific content of the attachment is not visible in this email chain. Dave should review the attachment immediately to understand what deliverables or updates Digital Realty is providing on this partnership opportunity.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attachment Fiona sent to understand the current status and requirements for the Cloud House deployment",
-        "Confirm with Paul Leong what specific feedback or action items Galaxy needs to provide to Digital Realty",
-        "Schedule a follow-up meeting with Fiona, Paul, and Darren Chan to align on next milestones and timelines for the partnership"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "colin.bell@redhilldatacentre.com",
       "sender_name": "Colin Bell",
       "subject": "Travelers Monthly Operations Meeting",
@@ -1216,37 +1286,6 @@
         "Confirm the biweekly call schedule and ensure Dave or France blocks time for these sessions",
         "Request agenda items from Candace ahead of each call to prepare key discussion points and decisions",
         "Assign Sai Raman as the primary Galaxy point of contact to manage continuity across calls"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "sam.burton@castleforge.com",
-      "sender_name": "Sam Burton",
-      "subject": "IT Escalations",
-      "body_preview": "Hi Ash, Dave,\r\n\r\nCan you remember who raised the issue with not having a response on a ticket for 8 days?\r\nI'll have a look and see if I can see this in the system, it would surprise me if there is an issue that has not been addressed for this amount of t",
-      "received": "2026-04-07T15:50:11Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5ipAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADOVl1YEEodEk_SZ9IQ2g90=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sam Burton from Castle Forge is following up on a service ticket that apparently went unaddressed for 8 days and is trying to identify who originally flagged this issue. This suggests a potential support responsiveness gap that could indicate service level agreement (SLA) violations or customer dissatisfaction, which could impact Galaxy's reputation and client relationships.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Ash or France pull the ticket history to locate the 8-day unaddressed issue and determine root cause of the delay",
-        "Review support queue processes and SLA compliance metrics to prevent similar escalations",
-        "Respond to Sam with findings and corrective action plan to restore confidence in service quality"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -2998,39 +3037,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Tech Capital Social Post",
-      "body_preview": "Go for it Samantha.\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Samantha Booth <samantha@",
-      "received": "2026-04-02T04:43:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTemAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPq0f6We0zJHhFftSBUMZhs=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Samantha Booth has requested approval to proceed with a social media post related to Tech Capital, and Dave has given the green light. This appears to be a marketing/communications initiative that Dave considers ready for public distribution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Samantha that the post has been published and monitor engagement metrics",
-        "Verify the post aligns with Galaxy's brand messaging and track any customer or stakeholder responses",
-        "Schedule a follow-up with Samantha to review performance and plan future Tech Capital-related communications"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 92
