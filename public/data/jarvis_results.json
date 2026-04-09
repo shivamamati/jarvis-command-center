@@ -1,13 +1,77 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T19:00:04.406775+00:00",
-  "total": 15,
-  "new": 15,
-  "noise": 6,
-  "ai": 15,
+  "timestamp": "2026-04-09T22:37:26.934621+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 4,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "dse_na4@docusign.net",
+      "sender_name": "Paul Leong via Docusign",
+      "subject": "Complete with Docusign: GCP LLC Operating Agreement Amendment.docx",
+      "body_preview": "Paul Leong sent you a document to review and sign.\r\nReview Document\r\nPaul Leong\r\npaul@galaxycapitalpartners.com\r\nDave Misra,\r\n\r\nComplete with Docusign: GCP LLC Operating Agreement Amendment.docx\r\n\r\nThank You, Paul Leong\r\nDo Not Share This Email\r\n\r\n\r\nThis ",
+      "received": "2026-04-09T22:13:29Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACRfDcSiMRtMmqYI_3yorFo=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 9,
+      "ai_label": "CRITICAL",
+      "ai_summary": "Paul Leong (Galaxy Capital Partners internal) has sent a DocuSign document for Dave's signature on a GCP LLC Operating Agreement Amendment. This is a legal document requiring immediate review and execution.",
+      "ai_action": "Dave must review and sign the GCP LLC Operating Agreement Amendment via DocuSign immediately. Contact Paul Leong if clarification needed before signing.",
+      "ai_next_steps": [
+        "Open DocuSign link and review GCP LLC Operating Agreement Amendment",
+        "Clarify with Paul Leong if any questions on amendment terms",
+        "Sign and return via DocuSign"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: 2025 files",
+      "body_preview": "Hi Ritesh - please see annotated sheet with the response to your questions.\r\n\r\nWe have agreed on $25k expense cap.  I will send the signed from sometime later today.\r\n\r\nThanks\r\n\r\nPaul\r\n\r\nOn Apr 9, 2026, at 1:48\u202fPM, Ritesh.daswani@avtarcorp.com wrote:\r\n\r\nD",
+      "received": "2026-04-09T21:28:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPi2XXoHPxp8aGdGGm0SsV0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is responding to Ritesh Daswani at Avtar Corp regarding 2025 file questions with an annotated response sheet. Galaxy has reached agreement on a $25k expense cap with Avtar Corp, and Paul is preparing to send signed documentation today.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt and review of the annotated sheet from Paul once sent to Ritesh",
+        "Obtain and file the signed documentation from Paul when delivered",
+        "Verify the $25k expense cap terms align with Galaxy's budget and contract requirements before final execution"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Charlie Bruinvels via Docusign",
@@ -2583,40 +2647,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: 2025 files",
-      "body_preview": "Hi Ritesh - As requested, Citi and Chase year end statements.\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: ritesh.daswani@avtarcorp.com <ritesh.daswani@avtarcorp.com>\r\nSent: Monday, April 6, 2026 9:04 PM\r\nTo: Paul Leong <paul@galaxydatacente",
-      "received": "2026-04-07T04:32:39Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5heAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPi2XXoHPxp8aGdGGm0SsV0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 11x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong (Galaxy Data Centers) is responding to a request from Ritesh Daswani at Avtar Corp by providing year-end bank statements from Citi and Chase for 2025. This appears to be a financial documentation request, likely related to accounting, audit, or third-party verification needs. The business impact depends on the context\u2014this could be for regulatory compliance, investor reporting, or partnership verification with Avtar Corp.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Ritesh Daswani what these statements will be used for and any confidentiality/NDA requirements",
-        "Ensure Paul followed proper document handling procedures for sensitive financial records before sending",
-        "Confirm receipt and intended use of the statements with appropriate Galaxy Finance/Legal oversight"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Fw: Docklands Deck review with Faye ",
@@ -3210,40 +3240,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fwd: Update from Friday Call",
-      "body_preview": "FYI\r\n\r\n\r\n---------- Forwarded message ----------\r\nFrom: Candace Sipos <candace@jsa.net>\r\nDate: Thursday, April 2, 2026 at 12:48\u202fPM EDT\r\nSubject: Update from Friday Call\r\nTo: Dave Misra <dave@galaxydatacenters.com>, Sai Raman <sai@galaxydatacenters.com>, A",
-      "received": "2026-04-02T20:54:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTexAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is following up on a Friday call with the Galaxy team. The forwarded message indicates she is providing an update or next steps from that discussion, though the full content is truncated. This appears to be a continuation of an ongoing business conversation that requires attention to ensure alignment on commitments or deliverables discussed.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the complete email body from Dave to understand the specific update and any action items from the Friday call",
-        "Confirm with Sai Raman what was discussed on the Friday call with Candace to ensure Galaxy's responses are aligned",
-        "Follow up with Candace to clarify any open items or decisions needed from Galaxy's side"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     }
   ],
