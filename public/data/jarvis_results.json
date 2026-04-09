@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-09T08:18:22.148511+00:00",
-  "total": 3,
-  "new": 3,
-  "noise": 2,
-  "ai": 2,
+  "timestamp": "2026-04-09T10:09:57.622830+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 8,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 48,
   "items": [
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Paul\r\n\r\nPlease find the Commercial MSA attached, its not been executed by you as yet\r\n\r\nKind regards\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales\r\nMob: 07557 268924\r\n60 London Wall, London, EC2M 5TQ\r\n\r\n\r\n\r\n\r\n\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.com>",
+      "received": "2026-04-09T09:55:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "KW: lease",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is sending over an executed Commercial Master Service Agreement related to the Galaxy/DRT partnership and Cloud House deployment, noting that it still requires Galaxy's signature to finalize.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have legal review the attached Commercial MSA for any final concerns before execution",
+        "Dave or Paul should execute the agreement and return it to Fiona to complete the partnership formalization",
+        "Confirm timeline for Cloud House deployment activation once MSA is fully executed by both parties"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "muckle-1411@firmexpostmaster.com",
       "sender_name": "Muckle (Firmex)",
@@ -102,40 +136,6 @@
         "Route the revised NDA to Redhill's legal/leadership (LH) for review and signature authority",
         "Confirm with Accenture that naming Redhill as a party satisfies their enforcement requirements and accelerates timeline to execution",
         "Track signature status and identify any remaining blockers to close the Redhill renewal deal"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Fiona - Apologized if this was shared with Dave already, but can you send the base agreement that the amendment refers to (#00121275.0)? I'm sure I will be asked for this when I send this for signature.  I did see in a prior email reference to onboardi",
-      "received": "2026-04-09T05:17:48Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 13x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: board",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is requesting the base agreement document (#00121275.0) that an amendment references, as he anticipates needing it when routing the amendment for signature. He's preparing materials for what appears to be a DRT partnership and Cloud House deployment initiative.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Locate and send Paul the base agreement #00121275.0 immediately to support his signature process",
-        "Confirm with Paul what the amendment covers and whether any other supporting documentation is needed before signature routing",
-        "Verify with Dave whether there are any outstanding legal or business issues with the DRT partnership terms before execution"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2965,109 +2965,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Speaker Opportunity - Advancing Data Center Construction Canada 2026",
-      "body_preview": "This is an automated message by Tasks in a Box.\r\n\r\n  *   Hit Reply or Reply All to answer this email.\r\n  *   Not ready yet to deal with this email? Just Snooze it again.\r\n  *   Done with this email? Move it to the #done folder.\r\n\r\nBetter manage your inbox",
-      "received": "2026-04-02T08:31:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHdhL3j600nqqlAL0nQq8HY=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an automated task management notification indicating someone has submitted a speaker opportunity request for the Advancing Data Center Construction Canada 2026 event. The message is prompting Dave to take action on what appears to be a speaking engagement or panel participation opportunity relevant to Galaxy's data center business. This represents a potential platform for thought leadership and industry visibility in the Canadian data center market.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the original speaker opportunity request details to assess fit with Galaxy's strategic messaging and Dave's availability in 2026",
-        "Evaluate the event's relevance, audience composition, and media reach to determine if participation aligns with Galaxy's brand positioning",
-        "Decide whether to accept, decline, or negotiate terms of the speaking engagement and communicate decision back to the organizer"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "colin.bell@redhilldatacentre.com",
-      "sender_name": "Colin Bell",
-      "subject": "Re: Monthly Meter reads",
-      "body_preview": "Hi all,\r\n\r\nI didn't receive a response regarding this last month and now when I look at the S140 TX consumption values I have 3 different readings across the meter reading workbook, customer report and the power rebilling sheet.\r\n\r\nI use the meter reading",
-      "received": "2026-04-02T08:24:25Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN25s2AcfypHumxLWxQTSEY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Redhill ops",
-        "KW: power, billing",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Colin Bell from Redhill Data Centre is escalating a billing discrepancy issue that went unresolved last month\u2014he's now identified three conflicting meter readings for S140 TX consumption across different internal documents (meter reading workbook, customer report, and power rebilling sheet). This represents a data integrity and customer service problem that could impact billing accuracy, customer trust, and potential revenue reconciliation for Galaxy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or operations immediately audit the three conflicting S140 TX meter readings to identify which source is authoritative and reconcile the discrepancies",
-        "Reach out to Colin directly to acknowledge the unresponded inquiry, explain the root cause, and provide a corrected reading with timeline for resolution",
-        "Implement a process review to prevent multiple conflicting meter readings from being generated in parallel (workbook vs. report vs. rebilling sheet)"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
-      "sender_name": "Fredy Marie-Emilienne",
-      "subject": "March - Meter readings",
-      "body_preview": "Good morning all,\r\n\r\nFind attached March meter readings. Please note the sheet is corrupted hopefully the values you need are ok, Colin and I worked on it yesterday hence the delay in sending it.\r\n\r\n\r\nKind regards,\r\n\r\nFredy Marie-Emilienne\r\n\r\nSenior Site ",
-      "received": "2026-04-02T08:22:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5dJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJoJsFQ-bh5AkvDL_1_aN9k=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre is submitting March meter readings with a caveat that the spreadsheet file may be corrupted due to technical issues encountered during preparation with Colin. This is a routine operational submission but carries risk of data integrity issues that could affect billing, usage tracking, or compliance reporting for Galaxy's infrastructure or client accounts.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or operations team verify the meter reading data immediately\u2014cross-reference against backup systems or previous readings to identify any anomalies or missing values",
-        "Request a clean copy of the March readings from Fredy/Colin or ask them to resend the file through an alternative method to ensure data integrity",
-        "Document any discrepancies and confirm final numbers with Redhill before finalizing monthly reports or billing cycles"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 93
+  "total_tracked": 90
 }
