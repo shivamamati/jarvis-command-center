@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T21:33:33.174317+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 4,
-  "ai": 2,
+  "timestamp": "2026-04-10T22:33:10.868925+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 54,
+  "auto_learned": 55,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Inside Health Booking",
+      "body_preview": "Thank you for your note. Please keep the appointment confirmed \u2014 sharing the credit card details below so you can place the card on file.\r\n\r\nOakville Capital LLC\r\nName on card: Vinita Misra\r\nCard number: 4466 1663 0741 2534\r\nExpiry: 02/31\r\n\r\nBilling addre",
+      "received": "2026-04-10T22:23:28Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALVma3Hd_BlEvdKLSil7yDg=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital, lease, billing",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This email contains Dave Misra's response confirming an appointment and providing credit card information for payment processing. The message appears incomplete (billing address cuts off) and contains a card with an invalid expiration date (02/31 does not exist). This requires immediate attention due to security and payment processing risks.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify this email's authenticity immediately - confirm directly with Dave whether he actually sent this, as credential sharing via email is a significant security risk",
+        "Do not process or store the credit card details; initiate secure payment handling procedures through proper channels if this appointment payment is legitimate",
+        "Request Dave resubmit payment information through Galaxy's secure payment portal and clarify the appointment details and correct billing address"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxycapitalpartners.com",
       "sender_name": "Dave Misra",
@@ -3463,5 +3496,5 @@
       "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 105
+  "total_tracked": 106
 }
