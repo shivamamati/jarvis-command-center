@@ -1,13 +1,75 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T14:44:38.812412+00:00",
-  "total": 15,
-  "new": 15,
+  "timestamp": "2026-04-10T15:48:35.028669+00:00",
+  "total": 12,
+  "new": 12,
   "noise": 5,
-  "ai": 13,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Friday Marketing Meeting",
+      "body_preview": "________________________________\r\nFrom: Sai Raman\r\nSent: Sunday, March 15, 2026 11:00:41 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Animesh Raha <animesh@galaxydatacenters.com>; SA <sa@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters.com>",
+      "received": "2026-04-10T15:25:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGFWgKkfSqpMq1eAdlw_014=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 9x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal team member) is sending a meeting reminder to the marketing leadership group regarding a Friday marketing meeting. The email appears to be a calendar notification or meeting confirmation sent to Dave, Animesh, and SA to ensure attendance and alignment on upcoming marketing initiatives.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and review any pre-read materials for Friday's marketing meeting",
+        "Coordinate with Animesh and SA to align on meeting agenda and key discussion topics before Friday"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "rgandara@stirlingst.com",
+      "sender_name": "Roco Gandara",
+      "subject": "Unique Data Center Investment Opportunity",
+      "body_preview": "Hi Dave,\r\n\r\nMy name is Roco Gandara. I'm an SVP at Stirling Street, a real estate-focused investment bank. I wanted to connect on a unique investment opportunity in the data center space we've been working on, to see if you'd be interested in taking a dee",
+      "received": "2026-04-10T15:18:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5noAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, investment, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Roco Gandara, SVP at Stirling Street (real estate investment bank), is reaching out directly to Dave about a specific data center investment opportunity. Email appears truncated but signals a real business proposition from a relevant financial intermediary.",
+      "ai_action": "Dave should reply to Roco to get the full pitch and details on the opportunity. France can research Stirling Street's track record in data center deals while Dave responds.",
+      "ai_next_steps": [
+        "Reply to Roco asking for complete details on the investment opportunity (location, MW, stage, structure)",
+        "Research Stirling Street's recent data center transactions and track record",
+        "If compelling, schedule a call to understand deal thesis and timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -15,10 +77,10 @@
       "body_preview": "No, JSA isn't attending this year unfortunately.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Fri, Apr 10, 2026 at 9:57\u202fAM Ashley Roberts <ashley@galaxydatacenters.com> wrote:\r\nI did take a look but I\u2019m on",
       "received": "2026-04-10T14:02:05Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
-      "rules_score": 10,
+      "rules_score": 9,
       "rules_label": "CRITICAL",
       "rules_tier": "PIPELINE [Candace Sipos]",
       "rules_reasons": [
@@ -26,21 +88,20 @@
         "VIP: jsa.net",
         "Pipeline: candace sipos",
         "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Thread: 5 msgs (+2)"
+        "3 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is confirming that JSA will not be attending an event this year that Galaxy had apparently invited them to or discussed during a Friday call. This represents a loss of an anticipated partnership presence or business opportunity.",
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is confirming that JSA will not be attending an event this year that Galaxy had apparently discussed with them. This indicates a lost networking or partnership opportunity that was previously under consideration.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Ashley Roberts what event JSA was expected to attend and whether there are alternative engagement opportunities with JSA this year",
-        "Follow up with Candace to understand JSA's reasoning for declining attendance and whether it signals broader partnership concerns",
-        "Document the declined attendance and assess impact on Galaxy's event strategy and JSA relationship roadmap"
+        "Clarify with Ashley Roberts what event JSA was being recruited for and why they declined",
+        "Follow up with Candace to understand JSA's reasons for non-attendance and explore alternative engagement opportunities",
+        "Document the outcome and reassess Galaxy's event strategy for other potential partners"
       ],
       "ai_failed": false,
-      "final_score": 10,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -3230,72 +3291,6 @@
         "Confirm the booking is completed and obtain the confirmation details for expense tracking",
         "Monitor the final invoice once the booking is locked in to ensure costs align with budget allocations for channel partner activities",
         "Clarify the event details and business objectives with Ashley to understand the strategic importance of this channel partner engagement"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Fwd: FW: You\u2019re a Finalist \u2013 Now Secure Your Place at DCS Awards 2026",
-      "body_preview": "Hi Sai, Dave & Ash,\r\n\r\nPlease see below for details about booking a table or sponsorship at the DCS Awards, if you're interested.\r\n\r\nThank you!\r\nCandace\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\nFrom: Sukhi ",
-      "received": "2026-04-03T15:39:48Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5fJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAATVymZSbohAhHTnRWEDiLE=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 4x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda, lease",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos (EVP of Business Strategy & Development at JSA) is forwarding an invitation for Galaxy to secure table seating or sponsorship opportunities at the DCS Awards 2026, for which Galaxy has been selected as a finalist. This is a networking and visibility opportunity that could enhance Galaxy's brand positioning within the data center and infrastructure sectors.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Candace the sponsorship tiers, costs, and visibility benefits associated with each option",
-        "Determine Galaxy's finalist category and the marketing/PR value of participation",
-        "Decide internally on budget allocation and whether sponsorship or table attendance aligns with 2026 marketing priorities"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Mahendra <> Dave <> Ash ",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/27301652736202?p=YT9VhsdS0RMT9UyLrA\r\nMeeting ID: 273 016 527 362 02\r\nPasscode: at2GL6WD\r\n__________________",
-      "received": "2026-04-03T14:46:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTe1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA-RoH0uKQlAsR_brcNpn64=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a Teams meeting invitation from Dave to himself with Mahendra and Ash, likely an internal Galaxy Capital/Data Centers discussion. The email appears to be a calendar invite or meeting confirmation rather than a substantive business communication requiring action. No specific business impact or decision point is evident from the content provided.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm meeting attendance and ensure calendar is blocked for the scheduled time",
-        "Clarify the meeting agenda with Mahendra or Ash before joining to ensure preparedness"
       ],
       "ai_failed": false,
       "final_score": 4,
