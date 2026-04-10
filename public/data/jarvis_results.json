@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T02:07:38.864700+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 1,
-  "ai": 0,
+  "timestamp": "2026-04-10T05:21:38.905946+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 3,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
@@ -3207,41 +3207,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Re: Page speed",
-      "body_preview": "Hi Piyush ,\r\n\r\nPlease look at the audit report and pls inform us , what's the reason behind speed poor ratings .\r\n\r\nBest Regards\r\nAnimesh\r\n________________________________\r\nFrom: Sai Raman <sai@galaxydatacenters.com>\r\nSent: Friday, April 3, 2026 10:38 AM",
-      "received": "2026-04-03T05:10:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5erAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI958Kn-5sVJgbIKbzP1uc4=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, audit",
-        "Thread: 6 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Animesh Raha (internal Galaxy team member) is requesting a performance analysis of a website audit report, specifically asking why page speed metrics are underperforming. This indicates potential issues with Galaxy's digital properties that could impact user experience, SEO rankings, and business conversion rates.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the full audit report from Sai Raman to identify specific speed bottlenecks (image optimization, server response time, caching issues)",
-        "Coordinate with the technical/infrastructure team to assess whether Galaxy Data Centers' own infrastructure is contributing to or can solve the performance issues",
-        "Schedule a review meeting with Animesh and Sai to prioritize remediation and assign ownership for fixes"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 98
+  "total_tracked": 97
 }
