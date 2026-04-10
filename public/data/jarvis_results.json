@@ -1,13 +1,141 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T07:21:56.219505+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 1,
-  "ai": 1,
+  "timestamp": "2026-04-10T09:04:59.275438+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 6,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "kirstin.dunn@castleforge.com",
+      "sender_name": "Kirstin Dunn",
+      "subject": "RE: Redhill Lease Renew",
+      "body_preview": "Thanks Rob, based on the agreed \u00a320k previously, is the proposal that fees will be \u00a315,500 without the surrender workstream assuming completion within the timeframe set out in your original quote?\r\n\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn",
+      "received": "2026-04-10T08:56:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "KW: proposal, lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Kirstin Dunn from Castle Forge is confirming lease renewal fee terms for Redhill, seeking clarification that the revised proposal of \u00a315,500 (down from the originally agreed \u00a320k) applies only if the surrender workstream is excluded and the project completes on the original timeline. This is a cost negotiation on a transaction that Galaxy likely has underway, with potential savings if scope is reduced and timing holds.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Rob (internal contact) whether the \u00a315,500 fee structure and scope exclusion align with Galaxy's position and original quote timeline",
+        "Clarify in writing back to Kirstin whether Galaxy accepts these revised terms or if further negotiation on scope/fees is needed",
+        "Ensure all parties agree on what 'completion within the timeframe' means and document any dependencies or risk factors that could impact the deadline"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "elizabeth.smith@castleforge.com",
+      "sender_name": "Elizabeth Smith",
+      "subject": "Redhill Business Plan Call",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 330 060 489 006\r\nPasscode: fJ2SQ2WU\r\n________________________________\r\nDial in by phone\r\n+44 20 7660 6816,,",
+      "received": "2026-04-10T08:44:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPUwFa8uiI1BvL6e77067Rs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "19 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Elizabeth Smith from Castle Forge is inviting Dave to join a Microsoft Teams meeting to discuss the Redhill business plan. This appears to be a scheduled call to review strategic plans or proposals related to the Redhill project, which may have implications for Galaxy's operations, partnerships, or investment decisions. Timely participation is important to ensure Galaxy's interests are represented and to understand any dependencies or opportunities tied to this initiative.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting date/time with Elizabeth and add to Dave's calendar with France as backup attendee",
+        "Prepare agenda items and any pre-read materials about Redhill to ensure productive discussion",
+        "Brief France on key discussion points and decision-making authority needed before the call"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "sam.burton@castleforge.com",
+      "sender_name": "Sam Burton",
+      "subject": "Re: IT Escalations",
+      "body_preview": "Thanks All,\r\n\r\nSounds like we need to put in place an escalation path and confirm our support requirements. Tickets are not currently monitored 24\\7 by Castleforge and we don't have the resource to provide that capability.\r\n\r\n@Ash Gupta - One for us to di",
+      "received": "2026-04-10T08:04:46Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5m%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADOVl1YEEodEk_SZ9IQ2g90=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sam Burton from Castleforge is signaling a resource constraint in their IT support operations\u2014they currently lack 24/7 ticket monitoring capability and are asking to formalize an escalation process and clarify support service level requirements. This directly impacts Galaxy's operational continuity and SLA compliance, as unmonitored tickets could lead to delayed incident response for Galaxy's critical infrastructure.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should schedule a call with Sam and Ash Gupta to define specific escalation procedures, response time SLAs, and confirm what 24/7 support Galaxy requires from Castleforge",
+        "Determine if Galaxy needs to supplement Castleforge's support with additional monitoring/on-call resources or third-party support to meet operational requirements",
+        "Document agreed escalation path and support SLAs in writing to formalize expectations and accountability"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "reece.cooksey@hansonwade.com",
+      "sender_name": "Reece Cooksey",
+      "subject": "Re: Speaker Opportunity - Advancing Data Center Construction Canada 2026",
+      "body_preview": "Hi Dave,\r\n\r\nI hope your week is rounding off well! Are you available Monday morning for a quick call to discuss our inaugural Advancing Data Centre Construction Canada summit (Oct 26-28, Calgary, AB)?\r\n\r\nI'd love to hear your thoughts on how this agenda s",
+      "received": "2026-04-10T07:43:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5m%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHdhL3j600nqqlAL0nQq8HY=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 5,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Reece Cooksey from Hanson Wade is following up on a previous speaker opportunity discussion for their inaugural Advancing Data Centre Construction Canada summit (Oct 26-28, Calgary). He's requesting a call Monday morning to discuss agenda and Dave's potential involvement.",
+      "ai_action": "France to confirm Dave's Monday morning availability and brief him on the summit scope before the call. Assess if this is a strategic speaking opportunity or panel fit for Galaxy's profile in North American markets.",
+      "ai_next_steps": [
+        "Check Dave's Monday calendar and reply to Reece with availability",
+        "Research Hanson Wade's event track record and attendee profile for this inaugural summit",
+        "Determine if Canada data center market aligns with Galaxy's current expansion strategy"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "dse_na4@docusign.net",
       "sender_name": "Paul Leong via Docusign",
@@ -940,42 +1068,6 @@
       "final_label": "URGENT"
     },
     {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill Lease Renew",
-      "body_preview": "Hi Rob - We had a productive call with Travelers yesterday.  They have agreed to keep the existing lease in place until expiration if we credit them the difference between the current lease from Dec 1 to March 1 and the reduced charge and capacity in the ",
-      "received": "2026-04-09T13:38:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPokdvH11PtKtB2qc3VoJzE=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 13x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, capacity",
-        "Lease + customer",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is reporting that Galaxy's negotiation with Travelers Insurance regarding the Redhill facility lease renewal has reached a conditional agreement. Travelers will maintain the existing lease through its natural expiration if Galaxy provides a credit for the rate differential between the current terms and a reduced charge structure for the December through March period. This agreement preserves a key customer relationship and avoids potential lease disruption while managing pricing adjustments.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify the total credit amount owed to Travelers and confirm the reduced capacity commitment for the Dec 1 - March 1 period",
-        "Document the agreement terms in writing and have both parties execute the amended lease amendment",
-        "Determine financial impact to Galaxy's revenue and adjust forecasting accordingly for this contract period"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Re: Charlie <> Dave Follow Up ",
@@ -1140,39 +1232,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "paul.tester@redhilldatacentre.com",
-      "sender_name": "Paul Tester",
-      "subject": "Re: IT Escalations",
-      "body_preview": "Hi\r\n\r\nYep I only mentioned it when it came up in the call as we were told in the meeting that tickets were monitored 24*7 by CF and Rodrigo, so I mentioned my one I submitted on the 30th March for the bluetooth issue (I know there was a bank holiday in be",
-      "received": "2026-04-09T05:56:18Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADOVl1YEEodEk_SZ9IQ2g90=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Redhill ops",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Tester from Red Hill Data Centre is following up on an IT support ticket he submitted on March 30th regarding a Bluetooth issue. He's referencing a previous discussion where he was told that CF and Rodrigo monitor tickets 24/7, implying concern about ticket response times or resolution status. This suggests potential service level agreement gaps or communication breakdown with a key data center client.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or the support team locate and review Paul's March 30th Bluetooth ticket to assess current status and any blocking issues",
-        "Clarify with CF and Rodrigo the actual ticket monitoring coverage and escalation procedures to align with client expectations",
-        "Reach out directly to Paul to confirm ticket status and set clear resolution timeline to restore confidence in support responsiveness"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "paul@galaxydatacenters.com",
@@ -2084,38 +2143,6 @@
         "Confirm receipt with Kirstin and clarify project start date and key deliverable timelines",
         "Have Paul or France coordinate with Castle Forge on contract execution and any remaining legal/commercial terms",
         "Ensure internal Galaxy Data Centers resources are allocated and scheduled to support the DORA engagement"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "elizabeth.smith@castleforge.com",
-      "sender_name": "Elizabeth Smith",
-      "subject": "Redhill Business Plan Call",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 330 060 489 006\r\nPasscode: fJ2SQ2WU\r\n________________________________\r\nDial in by phone\r\n+44 20 7660 6816,,",
-      "received": "2026-04-07T16:37:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5i1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE7LUYuVy6VGrlINxkXlBK4=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "19 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Elizabeth Smith from Castle Forge is requesting a meeting via Microsoft Teams to discuss a Redhill Business Plan. This appears to be an initial connection or project discussion that requires direct engagement to understand Castle Forge's requirements and potential partnership or investment opportunity with Galaxy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance at the Teams meeting and identify which Galaxy stakeholder (Dave or France) should participate based on the Redhill project scope",
-        "Request a pre-call agenda from Elizabeth Smith to understand the business plan details, financial requirements, and timeline expectations",
-        "Prepare relevant Galaxy capabilities overview and data center/capital resources that may be applicable to the Redhill initiative"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -3209,5 +3236,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 97
+  "total_tracked": 98
 }
