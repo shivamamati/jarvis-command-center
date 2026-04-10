@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T18:45:29.628520+00:00",
-  "total": 18,
-  "new": 18,
+  "timestamp": "2026-04-10T19:40:50.429991+00:00",
+  "total": 15,
+  "new": 15,
   "noise": 11,
   "ai": 8,
   "skipped": 0,
-  "auto_learned": 55,
+  "auto_learned": 54,
   "items": [
+    {
+      "sender_email": "dave@galaxycapitalpartners.com",
+      "sender_name": "Dave Misra",
+      "subject": "",
+      "body_preview": "Sai, thank you for the motivation. I want to be candid that I\u2019m feeling a bit stressed today, and after reviewing the email, messages like this can sometimes trigger a strong stress response for me. I\u2019m still learning how to manage that better.\r\n\r\nThat sa",
+      "received": "2026-04-10T18:53:45Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAErKjJFa3k1Ii7qQXXMaSPo=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be an incomplete internal message from Dave to someone named Sai, where Dave is acknowledging receipt of motivational communication but candidly sharing that he's experiencing stress and has difficulty managing triggered stress responses. This is a personal reflection rather than a business communication requiring action.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "No immediate business action required - this appears to be a personal note that may have been sent incomplete",
+        "If Dave needs support resources, consider flagging wellness or executive coaching programs available to leadership"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "microsoftexchange329e71ec88ae4615bbc36ab6ce41109e@galaxydatacenters.com",
       "sender_name": "Microsoft Outlook",
@@ -29,12 +61,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "An email sharing the Week 3 marketing update document failed to deliver to vdhunna@gmail.com due to an invalid or non-existent email address. This appears to be a communication breakdown where Dave attempted to share internal marketing materials with a recipient whose contact information is incorrect or outdated.",
+      "ai_summary": "An email Dave attempted to send to vdhunna@gmail.com bounced back as undeliverable due to an invalid or non-existent email address. This appears to be a failed sharing attempt for an internal marketing document (GDC_Marketing_Update_Week3), indicating either a typo in the recipient's email or that this contact is no longer active at that domain.",
       "ai_action": null,
       "ai_next_steps": [
-        "Verify the correct email address for the intended recipient (vdhunna) through internal directories or recent communication history",
-        "Resend the GDC_Marketing_Update_Week3 document to the correct email address once validated",
-        "Audit other recent file shares to ensure no other critical communications failed due to incorrect recipient addresses"
+        "Verify the correct email address for vdhunna and resend the marketing update to the proper recipient",
+        "Check internal contact records or ask colleagues to confirm if vdhunna still works with the intended organization or if there's an updated contact method",
+        "Review other recent communications sent to this address to ensure no other important documents were blocked"
       ],
       "ai_failed": false,
       "final_score": 5,
@@ -63,12 +95,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be an incomplete draft email from Dave Misra to someone named Dan, likely a business contact, requesting to reschedule a call to the following week for a private conversation. Dave indicates there are organizational changes involving Renata and Paul, and he wants to discuss a potential win-win solution that requires a confidential one-on-one discussion.",
+      "ai_summary": "This appears to be an incomplete draft email from Dave to someone named Dan, likely a business partner or stakeholder. Dave is requesting to reschedule a call to the following week for a private one-on-one conversation due to recent personnel changes involving Renata and Paul. Dave indicates he's developing a mutually beneficial solution that he wants to discuss confidentially.",
       "ai_action": null,
       "ai_next_steps": [
-        "Complete and send the email to Dan with the full context of what solution Dave wants to propose",
-        "Determine the current meeting status and confirm availability for next week with Dan before sending",
-        "Brief France on the situation with Renata and Paul to ensure alignment on any changes or concerns Dave is addressing"
+        "Complete and send the email to Dan with the full context of the proposed solution Dave wants to discuss",
+        "Block time on Dave's calendar for next week's 1-on-1 call with Dan",
+        "Prepare talking points or framework for the win-win solution Dave references before the call"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -3430,5 +3462,5 @@
       "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 104
+  "total_tracked": 105
 }
