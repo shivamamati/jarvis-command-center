@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T13:02:00.341845+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 6,
-  "ai": 11,
+  "timestamp": "2026-04-10T14:44:38.812412+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 5,
+  "ai": 13,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Update from Friday Call",
+      "body_preview": "No, JSA isn't attending this year unfortunately.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Fri, Apr 10, 2026 at 9:57\u202fAM Ashley Roberts <ashley@galaxydatacenters.com> wrote:\r\nI did take a look but I\u2019m on",
+      "received": "2026-04-10T14:02:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 4x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda",
+        "3 VIPs on thread (+2)",
+        "Thread: 5 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is confirming that JSA will not be attending an event this year that Galaxy had apparently invited them to or discussed during a Friday call. This represents a loss of an anticipated partnership presence or business opportunity.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Ashley Roberts what event JSA was expected to attend and whether there are alternative engagement opportunities with JSA this year",
+        "Follow up with Candace to understand JSA's reasoning for declining attendance and whether it signals broader partnership concerns",
+        "Document the declined attendance and assess impact on Galaxy's event strategy and JSA relationship roadmap"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "elizabeth.smith@castleforge.com",
       "sender_name": "Elizabeth Smith",
@@ -29,46 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Elizabeth Smith from Castle Forge is requesting a meeting via Microsoft Teams to discuss a Redhill business plan. This appears to be a scheduled call that requires immediate attention to confirm attendance and prepare relevant materials related to the Redhill project or initiative.",
+      "ai_summary": "Elizabeth Smith from Castle Forge is requesting a meeting via Microsoft Teams to discuss the Redhill Business Plan. This appears to be a scheduled call requiring Galaxy's participation to review or approve plans related to the Redhill project, which likely has direct implications for Galaxy's investment, operational strategy, or partnership commitments.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Elizabeth whether this meeting is still scheduled and Dave's availability for the Teams call (Meeting ID: 330 060 489 006)",
-        "Prepare briefing materials on the Redhill business plan initiative and identify any action items or decisions needed before the call",
-        "Assign France to support the preparation or attend the call to ensure follow-up items are captured and actioned"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: Update from Friday Call",
-      "body_preview": "Hi all!\r\n\r\nChecking in on the below \u2014 are you still planning to attend Channel Partners next week? If so, are you planning to promote that on LinkedIn, Sai?\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Thu",
-      "received": "2026-04-10T12:29:57Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 4x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is following up on a previous conversation about Galaxy's attendance at Channel Partners conference next week and asking whether Sai plans to promote the event on LinkedIn to amplify visibility.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Sai whether Galaxy will attend Channel Partners and if LinkedIn promotion is planned",
-        "If attending, align on key messaging and promotional timeline with Sai for social media coverage",
-        "Respond to Candace with confirmation and any partnership opportunities JSA might facilitate at the event"
+        "Confirm attendance and add the Teams meeting (ID: 330 060 489 006) to Dave's calendar with France copied",
+        "Obtain context on Redhill project scope, financials, and current status before the call",
+        "Prepare key questions or decision points needed from Galaxy regarding the business plan ahead of the discussion"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -3299,37 +3300,7 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "faye.p@queensu.ca",
-      "sender_name": "Faye Pan",
-      "subject": "Docklands Deck \u2013 Proposed Revision Approach",
-      "body_preview": "Dear Dave,\r\n\r\nFollowing my review of the Docklands test deck, my planned revisions are focused on three areas.\r\n\r\nFirst, I would rebuild the executive summary so that it functions as an underwriting conclusion rather than a market narrative. The revised o",
-      "received": "2026-04-03T13:31:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5fDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK4CAZB-PZREpTF8xTxfpNI=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 5x (+4)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Faye Pan from Queen's University is writing directly to Dave about revisions to the 'Docklands test deck' \u2014 likely a pitch or investment document. She's outlining a strategic approach to rebuild the executive summary as an underwriting conclusion, suggesting she's involved in deal preparation or due diligence work on what appears to be a data center investment.",
-      "ai_action": "Dave should review Faye's full email (it appears truncated) and confirm her role in the Docklands project. If she's internal or a retained advisor, this is a working document update. If external, determine scope of engagement.",
-      "ai_next_steps": [
-        "Request complete email from Faye to review all three proposed revision areas",
-        "Clarify Faye's role (internal team, advisor, consultant, or external resource)",
-        "Schedule brief call with Faye to align on executive summary approach before she proceeds"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 101
+  "total_tracked": 100
 }
