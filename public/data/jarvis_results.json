@@ -1,13 +1,79 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T17:44:05.684014+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 8,
-  "ai": 7,
+  "timestamp": "2026-04-10T18:45:29.628520+00:00",
+  "total": 18,
+  "new": 18,
+  "noise": 11,
+  "ai": 8,
   "skipped": 0,
-  "auto_learned": 53,
+  "auto_learned": 55,
   "items": [
+    {
+      "sender_email": "microsoftexchange329e71ec88ae4615bbc36ab6ce41109e@galaxydatacenters.com",
+      "sender_name": "Microsoft Outlook",
+      "subject": "Undeliverable: Dave Misra shared \"GDC_Marketing_Update_Week3\" with you",
+      "body_preview": "Your message to vdhunna@gmail.com couldn't be delivered.\r\nvdhunna wasn't found at gmail.com.\r\ndave    Office 365      vdhunna\r\nAction Required                 Recipient\r\nUnknown To address\r\n\r\nHow to Fix It\r\nThe address may be misspelled or may not exist. ",
+      "received": "2026-04-10T18:34:58Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAZCMV3rAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIjUOoKIbuJLuXB_TbW8HyM=",
+      "rules_score": 5,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Internal \u2014 routine (suppressed)",
+        "Urgency: action required (+1)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "An email sharing the Week 3 marketing update document failed to deliver to vdhunna@gmail.com due to an invalid or non-existent email address. This appears to be a communication breakdown where Dave attempted to share internal marketing materials with a recipient whose contact information is incorrect or outdated.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify the correct email address for the intended recipient (vdhunna) through internal directories or recent communication history",
+        "Resend the GDC_Marketing_Update_Week3 document to the correct email address once validated",
+        "Audit other recent file shares to ensure no other critical communications failed due to incorrect recipient addresses"
+      ],
+      "ai_failed": false,
+      "final_score": 5,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Dan <> Dave Catch Up",
+      "body_preview": "Dan \u2014 with everything moving around between Renata and Paul, would you be open to rescheduling this call to next week for just the two of us?\r\n\r\nI\u2019m trying to work through a solution that turns this into a true win\u2011win, and I think a 1\u2011on\u20111 would allow me",
+      "received": "2026-04-10T17:51:11Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALLfmz9htXxGoNeGBO6YnAg=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Internal + customer (+1)",
+        "Thread: 4 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be an incomplete draft email from Dave Misra to someone named Dan, likely a business contact, requesting to reschedule a call to the following week for a private conversation. Dave indicates there are organizational changes involving Renata and Paul, and he wants to discuss a potential win-win solution that requires a confidential one-on-one discussion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Complete and send the email to Dan with the full context of what solution Dave wants to propose",
+        "Determine the current meeting status and confirm availability for next week with Dan before sending",
+        "Brief France on the situation with Renata and Paul to ensure alignment on any changes or concerns Dave is addressing"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
@@ -23,19 +89,19 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 2x (+2)",
+        "Dave replied 4x (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France is responding to Nehal and Gabriella regarding a strategic consulting opportunity and is offering to schedule a meeting with Dave. She's providing two specific time windows (Monday or Tuesday, 10-11 AM ET) and offering a direct scheduling link as an alternative, indicating this is a priority engagement that Dave has carved out time for.",
+      "ai_summary": "France is coordinating a scheduling request for Dave to meet with Nehal and Gabriella regarding a strategic consulting opportunity. She has identified Monday or Tuesday 10-11 AM ET as available slots and is offering either direct booking or a scheduling link for convenience. This appears to be an initial meeting to discuss a potential consulting engagement that may be relevant to Galaxy's business.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm receipt of the scheduling link from France and share it with Nehal & Gabriella to lock in the meeting",
-        "Prepare a briefing document on the consulting opportunity details before Dave's meeting",
-        "Flag the meeting on Dave's calendar and brief him on the strategic context and objectives beforehand"
+        "Confirm Dave's final availability for Monday or Tuesday 10-11 AM ET and communicate back to France/Nehal/Gabriella",
+        "Prepare briefing materials on Galaxy's current strategic priorities and consulting needs ahead of the meeting",
+        "Follow up with France after the call to discuss potential value and next steps if the opportunity is viable"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -62,12 +128,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Matthew Reid from CastleForge is requesting an urgent group meeting to address multiple operational issues across the Redhill project workstreams, following a prior call between Mike and Paul. This suggests project management problems that require senior leadership alignment across both organizations to implement corrective action.",
+      "ai_summary": "Matthew Reid from Castle Forge is requesting an urgent group meeting to address multiple operational issues across different workstreams on the Redhill project, following a prior call between Mike and Paul. This suggests there are escalating execution or management challenges that require immediate cross-functional alignment between Galaxy and Castle Forge leadership to prevent further project deterioration.",
       "ai_action": null,
       "ai_next_steps": [
-        "Schedule a meeting with Matthew Reid, Paul, Ash, and relevant Redhill project leads to identify and document the specific issues across workstreams",
-        "Prepare a summary of Galaxy's current concerns and objectives for Redhill to align expectations before the meeting",
-        "Follow up with Paul to understand the context from his call with Mike and clarify what changes CastleForge is proposing"
+        "Dave should confirm receipt and schedule a meeting with Matthew Reid, Paul, Ash, and relevant Galaxy stakeholders within 48 hours",
+        "Request that Matthew provide the complete summary of issues and workstream concerns before the meeting so Dave can prepare with his team",
+        "Have France or operations lead prepare a status report on Redhill to compare against Castle Forge's identified issues"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -88,19 +154,19 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 2x (+2)",
+        "Dave replied 4x (+2)",
         "Internal \u2014 routine (suppressed)",
         "KW: data cent"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Nikos from Guidepoint is requesting an industry research interview with Dave about the data centers space. France has confirmed Dave's interest and provided a scheduling link for the call. This appears to be a market research or due diligence inquiry that could provide competitive intelligence or validate Galaxy's market positioning.",
+      "ai_summary": "Nikos from Guidepoint (an industry research firm) requested an interview with Dave about the data centers space. France confirmed Dave's interest and provided a scheduling link for a preliminary call to understand Guidepoint's research objectives and scope.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should review Guidepoint's research scope and client list to understand who is requesting this intelligence before the call",
-        "Prepare 3-5 key talking points about Galaxy's data center strategy, competitive advantages, and market outlook to guide the conversation",
-        "Confirm the call is scheduled and send Dave any background materials about Guidepoint's research methodology or specific research areas they're covering"
+        "Dave should review Guidepoint's recent data center research reports and identify key talking points about Galaxy's market position and differentiation",
+        "France should set a calendar reminder to follow up if Nikos doesn't schedule within 5 business days, and prepare a brief on what Guidepoint typically covers in such interviews",
+        "After the call, determine if Galaxy should participate in any formal research engagement and assess potential PR/visibility benefits versus time commitment"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -3364,5 +3430,5 @@
       "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 102
+  "total_tracked": 104
 }
