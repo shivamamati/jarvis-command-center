@@ -1,13 +1,177 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-10T11:43:59.497544+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 3,
-  "ai": 2,
+  "timestamp": "2026-04-10T13:02:00.341845+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 6,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 53,
   "items": [
+    {
+      "sender_email": "elizabeth.smith@castleforge.com",
+      "sender_name": "Elizabeth Smith",
+      "subject": "Redhill Business Plan Call",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 330 060 489 006\r\nPasscode: fJ2SQ2WU\r\n________________________________\r\nDial in by phone\r\n+44 20 7660 6816,,",
+      "received": "2026-04-10T12:57:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPUwFa8uiI1BvL6e77067Rs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "19 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Elizabeth Smith from Castle Forge is requesting a meeting via Microsoft Teams to discuss a Redhill business plan. This appears to be a scheduled call that requires immediate attention to confirm attendance and prepare relevant materials related to the Redhill project or initiative.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Elizabeth whether this meeting is still scheduled and Dave's availability for the Teams call (Meeting ID: 330 060 489 006)",
+        "Prepare briefing materials on the Redhill business plan initiative and identify any action items or decisions needed before the call",
+        "Assign France to support the preparation or attend the call to ensure follow-up items are captured and actioned"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Update from Friday Call",
+      "body_preview": "Hi all!\r\n\r\nChecking in on the below \u2014 are you still planning to attend Channel Partners next week? If so, are you planning to promote that on LinkedIn, Sai?\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Thu",
+      "received": "2026-04-10T12:29:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 4x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is following up on a previous conversation about Galaxy's attendance at Channel Partners conference next week and asking whether Sai plans to promote the event on LinkedIn to amplify visibility.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Sai whether Galaxy will attend Channel Partners and if LinkedIn promotion is planned",
+        "If attending, align on key messaging and promotional timeline with Sai for social media coverage",
+        "Respond to Candace with confirmation and any partnership opportunities JSA might facilitate at the event"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "jake.rinsler@cbre.com",
+      "sender_name": "Rinsler, Jake @ London HH",
+      "subject": "RE: 12MW UK Requirement",
+      "body_preview": "Hi Ash,\r\n\r\nStill waiting for feedback, I\u2019ve already chased again yesterday and this morning, hoping to provide an update for you asap.\r\n\r\nKind regards,\r\n\r\nJake\r\n\r\nJake Rinsler\r\nAssociate Director\r\nCBRE | Data Centre Solutions\r\nHenrietta House | Henrietta ",
+      "received": "2026-04-10T12:18:06Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABJIqHBOqk-jjC1Msxf58AA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: cbre.com",
+        "KW: mw, data cent",
+        "Urgency: asap (+1)",
+        "High MW: 12mw"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Jake Rinsler from CBRE's Data Centre Solutions team is following up on a 12MW UK power requirement deal, indicating he's been actively pursuing internal feedback multiple times but hasn't yet received the information needed to brief Ash. This suggests Galaxy may be slow-walking a response to a time-sensitive inquiry from a major commercial real estate broker.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France prioritize gathering internal feedback on the 12MW UK requirement and provide Jake with a substantive response within 24 hours",
+        "Clarify with Jake the decision timeline and commercial terms Galaxy needs to match to move this forward",
+        "Determine if this is a qualified lead worth expediting or if Galaxy should manage expectations with CBRE regarding capacity/availability"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Speaking Opps \u2014 DCW Power / Europe",
+      "body_preview": "Hey Dave,\r\n\r\nChris Greaves just added you to the panel prep call invite (happening Tuesday at 2:30 Eastern). I'll be in the air during that time; let me know if you'd like someone from JSA there and I'll pull in a teammate!\r\n\r\nChris asked me for the follo",
+      "received": "2026-04-10T12:15:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 4x (+4)",
+        "Attachments from known (+1)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: power",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is confirming your participation in a panel prep call for a DCW Power/Europe speaking opportunity scheduled for Tuesday at 2:30 PM ET, organized by Chris Greaves. She's offering to have a JSA teammate join the call if needed since she'll be unavailable.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance at Tuesday 2:30 PM ET panel prep call and add to calendar",
+        "Decide whether JSA support is needed for the call and notify Candace of preference",
+        "Follow up with Chris Greaves or Candace to clarify what preparation materials or topics will be covered"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "s.browning@xelaenergy.com",
+      "sender_name": "Sophie Browning",
+      "subject": "NDCA Event Invitation - Energy for Data Centres",
+      "body_preview": "Hi Dave,\r\n\r\nWe're speaking at an event next Thursday (April 16) in Leamington Spa which focuses on how data centres are accessing power outside the grid connection queue \u2014 thought it might be relevant given what you're working on.\r\n\r\nIt's a full-day agend",
+      "received": "2026-04-10T12:09:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSmZP2VmOFFjXsOgCdpEoQ=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: power, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 6,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Sophie Browning from Xela Energy is inviting Dave to speak at or attend a data centre power/energy event on April 16 in Leamington Spa. The focus is off-grid power solutions for data centres \u2014 directly relevant to Galaxy's infrastructure challenges, particularly for sites facing grid connection delays.",
+      "ai_action": "Dave should clarify: (1) Is this an invitation to speak or attend? (2) Who else is speaking? (3) What's the full agenda and attendee list? Could be valuable networking or a speaking opportunity.",
+      "ai_next_steps": [
+        "Reply to Sophie asking for full event details and agenda",
+        "Check Dave's calendar for April 16 availability",
+        "If speaking opportunity, brief PR team (JSA) on messaging around Galaxy's power strategy"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "christopher.greaves@informa.com",
       "sender_name": "Greaves, Christopher",
@@ -71,38 +235,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "elizabeth.smith@castleforge.com",
-      "sender_name": "Elizabeth Smith",
-      "subject": "Redhill Business Plan Call",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 330 060 489 006\r\nPasscode: fJ2SQ2WU\r\n________________________________\r\nDial in by phone\r\n+44 20 7660 6816,,",
-      "received": "2026-04-10T08:44:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPUwFa8uiI1BvL6e77067Rs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "19 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Elizabeth Smith from Castle Forge is inviting Dave to join a Microsoft Teams meeting to discuss the Redhill business plan. This appears to be a scheduled call to review strategic plans or proposals related to the Redhill project, which may have implications for Galaxy's operations, partnerships, or investment decisions. Timely participation is important to ensure Galaxy's interests are represented and to understand any dependencies or opportunities tied to this initiative.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the meeting date/time with Elizabeth and add to Dave's calendar with France as backup attendee",
-        "Prepare agenda items and any pre-read materials about Redhill to ensure productive discussion",
-        "Brief France on key discussion points and decision-making authority needed before the call"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -559,40 +691,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: Speaking Opps \u2014 DCW Power / Europe",
-      "body_preview": "Hey Dave,\r\n\r\nGreat conversation with Chris from Data Center World Europe yesterday, thank you!\r\n\r\nHere's the information about the panel Chris mentioned at the end of the call. Would Galaxy be available to send a representative to round out the panel \u2014 or",
-      "received": "2026-04-09T16:42:14Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzXfOIReAFLtIAODQ4dJvY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 4x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: power, data cent",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is following up on a conversation with Chris at Data Center World Europe regarding a speaking panel opportunity. She's requesting confirmation of Galaxy's availability to send a representative to participate in the panel discussion, which would provide industry visibility and thought leadership positioning.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Contact Candace to request the complete panel details including date, topic, format, and other confirmed speakers",
-        "Evaluate internal availability and identify appropriate Galaxy representative (likely France or subject matter expert) for the speaking slot",
-        "Confirm participation to Candace and Data Center World Europe to secure Galaxy's position on the panel"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "pelle.jorgen@castleforge.com",
@@ -3233,5 +3331,5 @@
       "final_label": "URGENT"
     }
   ],
-  "total_tracked": 98
+  "total_tracked": 101
 }
