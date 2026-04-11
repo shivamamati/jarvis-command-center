@@ -1,13 +1,79 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-11T11:27:02.208868+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 2,
-  "ai": 1,
+  "timestamp": "2026-04-11T12:49:27.902347+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 7,
+  "ai": 6,
   "skipped": 0,
-  "auto_learned": 55,
+  "auto_learned": 56,
   "items": [
+    {
+      "sender_email": "ritesh.daswani@avtarcorp.com",
+      "sender_name": "ritesh.daswani@avtarcorp.com",
+      "subject": "RE: 2025 Tax Preparation Services Agreement and Tax Checklist ",
+      "body_preview": "Dear Dave\r\n\r\nAs requested, and also because you had a difference in total distributions received by you vs Galaxy\u2019s books of accounts, I have listed below the distribution transaction summary for your reference and reconciliation.\r\n\r\n\r\nPlease let me know ",
+      "received": "2026-04-11T12:45:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5oYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "KW: lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Ritesh Daswani from Avtar Corp is providing a distribution transaction summary reconciliation that Dave specifically requested. There's a discrepancy between Dave's personal distributions and Galaxy's books that needs to be resolved for 2025 tax preparation.",
+      "ai_action": "Dave should review the attached distribution summary, reconcile with his records, and respond to Ritesh with any questions or confirmation.",
+      "ai_next_steps": [
+        "Review distribution transaction summary provided by Ritesh",
+        "Compare against Dave's personal distribution records",
+        "Verify reconciliation with Galaxy's accounting/finance team",
+        "Respond to Ritesh with confirmation or outstanding questions"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Nikos and Dave Misra",
+      "body_preview": "Event Name\r\nGALAXY VIP\r\n\r\nNeed to make changes to this event? Cancel Reschedule\r\nPowered by Calendly\r\n________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/2765279",
+      "received": "2026-04-11T11:47:33Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACqSFwZh8vlIlfvU7HSPih8=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: power",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a calendar invitation confirmation for a Galaxy VIP event with Nikos, delivered via Calendly. The email provides meeting details and options to modify or cancel the scheduled meeting.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting time and attendees with Nikos to ensure alignment on discussion agenda",
+        "Review any pre-meeting materials or context about what Nikos needs to discuss",
+        "Ensure Teams meeting link is accessible and test connectivity prior to the scheduled time"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -1690,39 +1756,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: 2025 Tax Preparation Services Agreement and Tax Checklist ",
-      "body_preview": "Hi Ritesh, hope you are well and thank your for the patience.\r\n\r\nJust wanted to give you a quick update on your request \u2014 parents first, then the home office discussion.\r\n\r\nParents : Vinita & Rajesh Misra\r\n\r\nAs you know for  my parents  US personal  retur",
-      "received": "2026-04-09T04:25:11Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ritesh (likely a tax advisor or accountant) is following up on Dave's 2025 tax preparation agreement and checklist. Dave is providing information about his parents (Vinita & Rajesh Misra) and appears to be explaining tax filing priorities, starting with parental returns before addressing a home office deduction question. This matters to Galaxy because Dave's personal tax complexity could impact his focus on company operations and financial planning.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should complete the full response to Ritesh with specific details about parents' tax situation and home office deduction to finalize the 2025 tax preparation agreement",
-        "France (or finance team) should ensure all Galaxy entity tax documentation is compiled separately and on schedule so personal tax prep doesn't delay corporate filings",
-        "Confirm deadline with Ritesh for when finalized personal returns will be completed to avoid any impact on Galaxy's consolidated financial planning or audit schedules"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3496,5 +3529,5 @@
       "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 106
+  "total_tracked": 107
 }
