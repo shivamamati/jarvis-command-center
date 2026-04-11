@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-11T13:53:41.940399+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 7,
-  "ai": 7,
+  "timestamp": "2026-04-11T14:33:32.800896+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 56,
   "items": [
@@ -29,13 +29,13 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Ritesh Daswani from Avtar Corp is responding to Dave's request about tax preparation services and providing a distribution transaction summary to reconcile a discrepancy between Dave's personal distributions and Galaxy's books. This is a financial/accounting matter requiring Dave's direct attention.",
-      "ai_action": "Dave should review the distribution summary provided, reconcile against his records, and respond to Ritesh with any questions or confirmation.",
+      "ai_summary": "Ritesh Daswani from Avtar Corp is responding to Dave's request about tax preparation services and has identified a discrepancy between Dave's personal distributions and Galaxy's accounting records. This requires Dave's attention for reconciliation and tax filing accuracy.",
+      "ai_action": "Dave should review the distribution transaction summary provided, reconcile his records with Galaxy's books, and respond to Ritesh with any questions before tax deadline.",
       "ai_next_steps": [
-        "Review attached distribution transaction summary",
-        "Cross-check against personal records and Galaxy's accounting",
-        "Follow up with Ritesh on any discrepancies or clarifications needed",
-        "Ensure 2025 tax prep timeline is on track"
+        "Review distribution summary from Ritesh for accuracy",
+        "Reconcile personal distribution records against Galaxy's accounting records",
+        "Identify source of discrepancy (if material)",
+        "Respond to Ritesh with confirmation or clarifications needed"
       ],
       "ai_failed": false,
       "final_score": 8,
