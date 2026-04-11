@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-11T12:49:27.902347+00:00",
-  "total": 9,
-  "new": 9,
+  "timestamp": "2026-04-11T13:53:41.940399+00:00",
+  "total": 8,
+  "new": 8,
   "noise": 7,
-  "ai": 6,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 56,
   "items": [
@@ -15,7 +15,7 @@
       "body_preview": "Dear Dave\r\n\r\nAs requested, and also because you had a difference in total distributions received by you vs Galaxy\u2019s books of accounts, I have listed below the distribution transaction summary for your reference and reconciliation.\r\n\r\n\r\nPlease let me know ",
       "received": "2026-04-11T12:45:36Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5oYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
       "rules_score": 8,
@@ -29,13 +29,13 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Ritesh Daswani from Avtar Corp is providing a distribution transaction summary reconciliation that Dave specifically requested. There's a discrepancy between Dave's personal distributions and Galaxy's books that needs to be resolved for 2025 tax preparation.",
-      "ai_action": "Dave should review the attached distribution summary, reconcile with his records, and respond to Ritesh with any questions or confirmation.",
+      "ai_summary": "Ritesh Daswani from Avtar Corp is responding to Dave's request about tax preparation services and providing a distribution transaction summary to reconcile a discrepancy between Dave's personal distributions and Galaxy's books. This is a financial/accounting matter requiring Dave's direct attention.",
+      "ai_action": "Dave should review the distribution summary provided, reconcile against his records, and respond to Ritesh with any questions or confirmation.",
       "ai_next_steps": [
-        "Review distribution transaction summary provided by Ritesh",
-        "Compare against Dave's personal distribution records",
-        "Verify reconciliation with Galaxy's accounting/finance team",
-        "Respond to Ritesh with confirmation or outstanding questions"
+        "Review attached distribution transaction summary",
+        "Cross-check against personal records and Galaxy's accounting",
+        "Follow up with Ritesh on any discrepancies or clarifications needed",
+        "Ensure 2025 tax prep timeline is on track"
       ],
       "ai_failed": false,
       "final_score": 8,
