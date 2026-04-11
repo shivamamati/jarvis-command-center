@@ -1,88 +1,77 @@
 {
-  "timestamp": "2026-04-10T23:31:04.894147+00:00",
+  "timestamp": "2026-04-11T04:21:18.189999+00:00",
   "events": [
     {
-      "subject": "Badminton Game with Peter ",
-      "start": "2026-04-09T23:00:00.0000000",
-      "end": "2026-04-10T01:00:00.0000000",
-      "attendees": [],
-      "organizer": "Dave Misra",
-      "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pXK8XOAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Shivam & Dave",
-      "start": "2026-04-10T02:30:00.0000000",
-      "end": "2026-04-10T03:00:00.0000000",
+      "subject": "Ops Team Weekly",
+      "start": "2026-04-13T13:30:00.0000000",
+      "end": "2026-04-13T14:00:00.0000000",
       "attendees": [
-        "Shivam"
+        "Ash",
+        "Tj",
+        "Rhys",
+        "Luke",
+        "Fredy",
+        "Benjamin"
       ],
-      "organizer": "Shivam Amati",
+      "organizer": "Ash Gupta",
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIdAAA%3D&exvsurl=1&path=/calendar/item"
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pjvmxqAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAE7IPQ6gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
-      "subject": "Grain / Galaxy - NWS Operating Role for Data Center Initiative",
-      "start": "2026-04-10T14:00:00.0000000",
-      "end": "2026-04-10T14:30:00.0000000",
+      "subject": "BWG: Data Center Server Focused IT HW and Chips Outlook \u00a0Bridge:\u00a0(646) 757-9995\u00a0",
+      "start": "2026-04-13T16:00:00.0000000",
+      "end": "2026-04-13T17:00:00.0000000",
       "attendees": [
-        "Suraj",
-        "Ricardo",
-        "Paul",
-        "Jeff"
+        "BWG"
       ],
-      "organizer": "Suraj Aulakh",
+      "organizer": "BWG Global Events",
+      "location": "",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpH%2BAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Monday Marketing Meeting",
+      "start": "2026-04-13T16:00:00.0000000",
+      "end": "2026-04-13T16:30:00.0000000",
+      "attendees": [
+        "Sai",
+        "Animesh",
+        "SA"
+      ],
+      "organizer": "Sai Raman",
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpINAAA%3D&exvsurl=1&path=/calendar/item"
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pjvmxqAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
-      "subject": "Sales Funnel Review with Ashley and Paul ",
-      "start": "2026-04-10T14:30:00.0000000",
-      "end": "2026-04-10T15:00:00.0000000",
+      "subject": "Ubersmith:Galaxy Data Centers Introduction",
+      "start": "2026-04-13T17:00:00.0000000",
+      "end": "2026-04-13T17:30:00.0000000",
+      "attendees": [
+        "Ryan",
+        "Ash",
+        "Rodrigo",
+        "hello@meetingconfirmation.net"
+      ],
+      "organizer": "Ryan Ward",
+      "location": "Microsoft Teams",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIbAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
+      "start": "2026-04-13T19:00:00.0000000",
+      "end": "2026-04-13T19:30:00.0000000",
       "attendees": [
         "Paul",
-        "Ashley",
+        "Ash",
         "Tj"
       ],
       "organizer": "Dave Misra",
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3paUG91AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNiwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Friday Marketing Meeting",
-      "start": "2026-04-10T16:30:00.0000000",
-      "end": "2026-04-10T17:00:00.0000000",
-      "attendees": [
-        "Sai",
-        "Animesh",
-        "SA",
-        "Ashley",
-        "vdhunna6@gmail.com"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3paUG91AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBFAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Basil Leaf - Design Agency kick off call",
-      "start": "2026-04-10T17:00:00.0000000",
-      "end": "2026-04-10T17:30:00.0000000",
-      "attendees": [
-        "Animesh",
-        "Sai",
-        "meghna@basilleafcreative.com",
-        "SA",
-        "falguni.p@basilleafcreative.com"
-      ],
-      "organizer": "Animesh Raha",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIfAAA%3D&exvsurl=1&path=/calendar/item"
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pjvmxqAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
