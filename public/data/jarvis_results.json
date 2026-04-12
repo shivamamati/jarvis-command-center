@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-11T22:28:02.973690+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 2,
-  "ai": 1,
+  "timestamp": "2026-04-12T05:20:04.687200+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 1,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 57,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill renewal",
+      "body_preview": "Hi Nic - I did receive the NDA and it is back with us for review. One thing to clarify on the proposed changes is the structure and how it relates to the signatories. In short, there is a OpCo/PropCo structure in place.  The drafting is consistent with Op",
+      "received": "2026-04-12T04:47:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5otAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 12x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, renewal",
+        "10 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is addressing a renewal discussion with Redhill regarding an NDA that has been returned for internal review. He's flagging a structural question about how proposed changes align with the OpCo/PropCo framework and the relevant signatories, indicating the current draft may need clarification on these points.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have legal review the NDA draft to ensure it properly addresses the OpCo/PropCo structure and identifies correct signatories",
+        "Follow up with Paul to confirm what specific structural clarifications are needed before Galaxy can execute",
+        "Escalate to France if signatories or deal structure require partner-level decisions"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -1046,39 +1081,6 @@
         "Confirm receipt of the qualified referral registration with Mitch and ensure all contractual documentation is filed properly to protect Galaxy's revenue rights",
         "Schedule a kickoff meeting with the G-Core Labs account team to understand their 5MW NJ requirements, timeline, and any special infrastructure needs",
         "Verify that the 5MW NJ capacity is available and reserved, and coordinate with operations to prepare facility details and proposal timeline for the prospect"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "nicholas.l.smith@accenture.com",
-      "sender_name": "Smith, Nicholas L.",
-      "subject": "RE: Redhill renewal",
-      "body_preview": "Hey Paul,\r\n\r\nJust merging the threads here \u2013 have you received the NDA from Madhu with our clean version for your review and acceptance before we submit to signature.\r\n\r\n@Rao, Madhu an FYR that @Paul Leong will be the signatory.\r\n\r\nSemper anticus,\r\n\r\nNic ",
-      "received": "2026-04-09T17:24:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "Tier 1: accenture.com",
-        "KW: nda, renewal",
-        "10 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Nicholas Smith from Accenture is following up on a Redhill renewal contract, asking Paul Leong to review and accept a clean NDA version that Madhu Rao prepared before it goes to signature. This appears to be a routine contract execution checkpoint for what may be a significant renewal agreement with an Accenture client or partner.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Paul Leong that he has received the NDA from Madhu Rao and obtain his review/acceptance timeline",
-        "Verify with Madhu Rao the status of the clean NDA version and ensure it aligns with Galaxy's standard terms",
-        "Once Paul approves, coordinate with the signatory process to move this renewal forward without delays"
       ],
       "ai_failed": false,
       "final_score": 9,
