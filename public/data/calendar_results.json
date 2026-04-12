@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-04-12T17:30:50.277544+00:00",
+  "timestamp": "2026-04-12T18:41:09.669665+00:00",
   "events": [
     {
-      "subject": "Dave Misra Tax Strategy session 2 ",
+      "subject": "Dave Misra Tax Strategy session 2 post",
       "start": "2026-04-12T15:30:00.0000000",
-      "end": "2026-04-12T16:00:00.0000000",
+      "end": "2026-04-12T18:00:00.0000000",
       "attendees": [
+        "Ash",
+        "Anuj.aggarwal@cparsa.in",
         "piyushjindal003@gmail.com",
         "Ritesh",
-        "Anuj.aggarwal@cparsa.in",
-        "'Rajesh",
-        "Ash"
+        "'Rajesh"
       ],
       "organizer": "Dave Misra",
       "location": "Microsoft Teams Meeting",
