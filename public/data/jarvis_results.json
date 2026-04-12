@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-12T15:32:42.940766+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 2,
-  "ai": 1,
+  "timestamp": "2026-04-12T16:33:52.314668+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 57,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Dave Misra Tax Strategy session 2 ",
+      "body_preview": "From: dave@galaxydatacenters.com\r\nWhen: 11:30\u202fAM - 12:00\u202fPM April 12, 2026\r\nSubject: Dave Misra Tax Strategy session 2\r\nLocation: Microsoft Teams Meeting\r\n\r\n\r\n\r\n________________________________________________________________________________\r\nMicrosof",
+      "received": "2026-04-12T15:36:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJFaEpJTMYxFvON-7L4tNAs=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a calendar invitation for a tax strategy meeting scheduled for April 12, 2026 at 11:30 AM via Microsoft Teams. The meeting appears to be a follow-up session (session 2) focused on tax planning matters relevant to Dave's role at Galaxy Capital Partners and Galaxy Data Centers. This likely addresses tax optimization opportunities across Galaxy's investment portfolio and data center operations, which directly impacts shareholder returns and operational efficiency.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm attendance and identify which tax advisors or finance team members should join the meeting",
+        "Prepare relevant financial documents and prior session notes to discuss specific tax strategies for Galaxy entities",
+        "Define key tax planning objectives to cover during the 30-minute session to maximize meeting productivity"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -105,38 +138,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Dave Misra Tax Strategy session 2 ",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 286 392 760 349\r\nPasscode: PM6EN3sQ\r\n________________________________\r\nDial in by phone\r\n+1 323-795-4889,,252",
-      "received": "2026-04-11T19:26:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJFaEpJTMYxFvON-7L4tNAs=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a Microsoft Teams meeting link for a tax strategy session involving Dave Misra. The message contains meeting credentials (ID, passcode, and dial-in number) but lacks context about participants, specific tax topics, or business objectives being addressed.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify the agenda and participants for this tax strategy session before the meeting",
-        "Confirm whether this relates to Galaxy Data Centers' corporate structure, M&A activity, or other specific tax planning needs",
-        "Ensure relevant team members (finance, legal, tax advisor) have the meeting details and any pre-read materials needed"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
