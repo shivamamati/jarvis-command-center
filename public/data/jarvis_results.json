@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-12T21:30:53.385364+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 2,
-  "ai": 2,
+  "timestamp": "2026-04-12T22:29:20.609259+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 59,
   "items": [
+    {
+      "sender_email": "victoria.skrbensky@jll.com",
+      "sender_name": "Skrbensky, Victoria",
+      "subject": "Project Br\u00f8ndby | 50 MVA Powered Land in Copenhagen",
+      "body_preview": "Hi Dave,\r\n\r\nI hope you've had a lovely weekend. Following our discussions on Poland, I wanted to share with you a near-term powered land opportunity in Br\u00f8ndby, Copenhagen, that JLL is exclusively mandated on. Let me know if this geography would be of int",
+      "received": "2026-04-12T21:32:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5iAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGucUX-pEOJNlcCPp6fKtRA=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Victoria Skrbensky]",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "VIP: jll.com",
+        "Pipeline: victoria skrbensky",
+        "KW: nda, power"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Victoria Skrbensky from JLL is presenting an exclusive powered land opportunity in Br\u00f8ndby, Copenhagen with 50 MVA capacity as a near-term investment prospect. This follows earlier discussions about Galaxy's expansion into Eastern Europe and represents a potential data center site in Northern Europe. The exclusivity and ready-to-develop nature of this asset could be strategically valuable for Galaxy's geographic diversification and power-constrained site acquisition strategy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request full project details from Victoria including site specifications, power infrastructure timeline, and acquisition terms to assess fit with Galaxy's development pipeline",
+        "Conduct preliminary market analysis on Copenhagen's data center demand, grid stability, and regulatory environment for mission-critical infrastructure",
+        "Schedule follow-up call with Victoria and involve France to determine if Br\u00f8ndby aligns with Galaxy's current investment thesis and geographic priorities"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -3789,5 +3822,5 @@
       "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 115
+  "total_tracked": 116
 }
