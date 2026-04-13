@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T20:03:49.332542+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 14,
-  "ai": 13,
+  "timestamp": "2026-04-13T21:43:53.683668+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 6,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
@@ -4124,41 +4124,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Catchup Dave and Chris Galaxy <> CDW ",
-      "body_preview": "Hi Chris,\r\n\r\nI hope you had a wonderful Easter break.\r\n\r\nI'm glad to hear the meetings went well. Wednesday works perfectly\u2014I've sent over a Hold over to your diary  for 2 PM BST / 9 AM ET. If this timing isn't suitable, kindly let me know, and I'll be ha",
-      "received": "2026-04-06T21:37:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTe%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADc8C7m0rH9OsimkoRRIDIQ=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "4 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris from CDW is confirming a follow-up meeting with Dave and Galaxy leadership after successful recent discussions. Dave has scheduled a meeting for Wednesday at 2 PM BST / 9 AM ET and is waiting for Chris to confirm this time works or suggest an alternative.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the Wednesday 2 PM BST / 9 AM ET meeting is on both parties' calendars and prepare an agenda for the CDW discussion",
-        "Brief internal Galaxy team (particularly leadership attending) on CDW meeting objectives and any outstanding items from previous meetings",
-        "Set a reminder to follow up with Chris if confirmation isn't received within 24 hours"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 126
+  "total_tracked": 125
 }
