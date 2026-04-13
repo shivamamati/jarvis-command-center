@@ -1,13 +1,82 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T02:13:50.976475+00:00",
+  "timestamp": "2026-04-13T05:37:52.850817+00:00",
   "total": 6,
   "new": 6,
-  "noise": 3,
-  "ai": 4,
+  "noise": 1,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "Update",
+      "body_preview": "Hi Dave,\r\n\r\nTelnyx - Lost - They initially wanted 2 locations out of Paris, London and Frankfurt. They have ruled out London due to power cost.\r\n\r\nAvant - 20MW - Customer needs it by April next year, they have engaged with operators across Europe already ",
+      "received": "2026-04-13T04:45:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5vAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMfaKXJXUSpCv7I03AVyaZA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 10x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: mw, power",
+        "High MW: 20mw"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts reports that Telnyx opportunity has narrowed as they've eliminated London from their location requirements due to cost constraints, leaving Paris and Frankfurt as options. Separately, Avant is actively shopping a significant 20MW capacity requirement with a tight April deadline across multiple European operators, indicating we're competing against established alternatives for this deal.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify Galaxy's competitive positioning on power costs in Paris and Frankfurt to determine if we can re-engage Telnyx or focus resources elsewhere",
+        "Immediately contact Avant to understand their specific infrastructure needs and timeline to assess feasibility and develop a compelling proposal against competing bids",
+        "Get Ashley's assessment on win probability and deal size impact for both opportunities to prioritize sales efforts"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Re: Slides",
+      "body_preview": "So, this slide is dated March 18, but looks like it has been updated.  Thanks, TJ\r\n\r\nGet Outlook for iOS\r\n________________________________\r\nFrom: Tj Karklins <tj@galaxydatacenters.com>\r\nSent: Sunday, April 12, 2026 10:39:49 PM\r\nTo: Ashley Roberts <ashley@",
+      "received": "2026-04-13T04:42:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5uAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAF2n4FYjaWNGpxzADoQSRlU=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 6x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "3 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins from Galaxy Data Centers is confirming receipt of an updated slide deck and noting a discrepancy between the original date (March 18) and what appears to be more recent modifications. This suggests a presentation or proposal document has been revised since its initial creation, and TJ is acknowledging the update.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with TJ what specific updates were made to the slides and confirm the current version is the one to be used for presentations",
+        "Verify the slide deck is being circulated to the appropriate stakeholders with the correct version control",
+        "Confirm the content aligns with current Galaxy strategy and any recent business developments"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -3823,72 +3892,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ash@galaxydatacenters.com",
-      "sender_name": "Ash Gupta",
-      "subject": "BMSI Quote",
-      "body_preview": "Hi Josh,\r\n\r\nJust piecemealing the documents discussed on the call last week.  In this email please find the BMSI quote and the SOC2 and ISO 27001 Gap Analysis and Engagement letter.\r\n\r\nI still need to get you the sum total invoices from Plante Moran as we",
-      "received": "2026-04-06T05:00:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5gNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACRmn_Lqq6RAqIWwNPwsmdw=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta (internal Galaxy employee) is following up on a prior call by providing BMSI quote documentation along with SOC2 and ISO 27001 gap analysis and engagement letter materials. He indicates that additional invoice summaries from Plante Moran are still pending delivery. This appears to be part of a compliance or security certification initiative that requires completion of supporting documentation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of the BMSI quote and compliance gap analysis documents with Ash, and clarify the timeline needed for the Plante Moran invoice summary",
-        "Review the SOC2 and ISO 27001 gap analysis to understand scope, timeline, and resource requirements for closing any identified gaps",
-        "Determine if these compliance certifications are client-driven requirements or internal strategic initiatives, and confirm budget/priority alignment"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ash@galaxydatacenters.com",
-      "sender_name": "Ash Gupta",
-      "subject": "Ops Team Weekly",
-      "body_preview": "Moving to Tuesday due to the Easter Holiday.\r\n\r\nHappy Easter everyone!\r\n________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 221 567 605 811 30\r\nPasscode: cc333oL7",
-      "received": "2026-04-06T04:54:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5gMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGbhQaZ8NM1Ou47bV47uFKk=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "11 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta from Galaxy Data Centers operations is notifying the team of a schedule change for the weekly operations meeting, moving it from its standard day to Tuesday to accommodate the Easter Holiday. This is an administrative coordination matter to ensure team continuity during the holiday week.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm your availability for Tuesday's rescheduled ops meeting and add it to your calendar",
-        "Ensure relevant team members are aware of the Tuesday timing change"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ],
   "total_tracked": 118
