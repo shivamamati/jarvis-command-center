@@ -1,13 +1,78 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T07:56:52.310563+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 1,
-  "ai": 0,
+  "timestamp": "2026-04-13T09:55:57.235278+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 2,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "jamie.thirlwall@castleforge.com",
+      "sender_name": "Jamie Thirlwall",
+      "subject": "Re: UrbanChain pricing",
+      "body_preview": "Hi Ash,\r\n\r\nPlease find attached the Urban Chain Bills for both January and February.\r\n\r\nRegards\r\nJamie\r\n\r\n\r\n\r\n\r\n\r\n\r\n________________________________\r\nFrom: Ash Gupta <ash@galaxydatacenters.com>\r\nSent: Thursday, April 09, 2026 4:47 PM\r\nTo: Jamie Thirlwall ",
+      "received": "2026-04-13T09:54:41Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR51AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK9gRZZOeE1KtwS2ev81ybg=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Tier 1: castleforge.com",
+        "KW: lease, bills",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Jamie Thirlwall from Castle Forge is responding to a pricing inquiry by sending UrbanChain billing statements for January and February. This appears to be a follow-up to a previous discussion about UrbanChain pricing, likely related to data center services or infrastructure costs that Galaxy is evaluating. Understanding these billing details is important for Galaxy to assess the cost structure and competitiveness of UrbanChain services for potential business decisions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached January and February UrbanChain bills to analyze pricing structure, service components, and total costs",
+        "Have Ash or France compare UrbanChain pricing against Galaxy's current vendor rates and internal cost benchmarks",
+        "Schedule a follow-up with Jamie to clarify any pricing questions and discuss volume discounts or contract terms if Galaxy is considering UrbanChain as a service provider"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "danfisher@fluidone.com",
+      "sender_name": "Dan Fisher | FluidOne",
+      "subject": "Re: Dan <> Dave Catch Up",
+      "body_preview": "Hi Dave,\r\n\r\nNo worries, not a problem, let me know a date/time that works for you and I will endeavour to make it.\r\n\r\nThanks\r\nDan\r\n\r\nDan Fisher\r\nGroup IT & Network Director\r\n\u200b\u200b\u200b\u200b\r\n  02070996885\r\n  danfisher@fluidone.com\r\n  0345 868 7848\r\n  www.fluidone.co",
+      "received": "2026-04-13T08:01:09Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5yAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALLfmz9htXxGoNeGBO6YnAg=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Tier 1: fluidone.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dan Fisher, Group IT & Network Director at FluidOne, is confirming his availability for a previously discussed meeting with Dave and is ready to accommodate Dave's schedule. This appears to be a relationship-building or business development conversation with a key IT decision-maker at a potential partner or client organization. Establishing this relationship could open doors for Galaxy's data center or infrastructure services.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Send Dan a specific meeting date/time proposal that works for Dave's calendar",
+        "Prepare talking points on Galaxy's data center capabilities and services relevant to FluidOne's potential IT/network infrastructure needs",
+        "Brief France on the meeting context and FluidOne's business to ensure alignment on objectives before the call"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "ashley@galaxydatacenters.com",
       "sender_name": "Ashley  Roberts",
@@ -635,40 +700,6 @@
       "ai_failed": false,
       "final_score": 5,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Dan <> Dave Catch Up",
-      "body_preview": "Dan \u2014 with everything moving around between Renata and Paul, would you be open to rescheduling this call to next week for just the two of us?\r\n\r\nI\u2019m trying to work through a solution that turns this into a true win\u2011win, and I think a 1\u2011on\u20111 would allow me",
-      "received": "2026-04-10T17:51:11Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALLfmz9htXxGoNeGBO6YnAg=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Internal + customer (+1)",
-        "Thread: 4 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be an incomplete draft email from Dave to someone named Dan, likely a business partner or stakeholder. Dave is requesting to reschedule a call to the following week for a private one-on-one conversation due to recent personnel changes involving Renata and Paul. Dave indicates he's developing a mutually beneficial solution that he wants to discuss confidentially.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Complete and send the email to Dan with the full context of the proposed solution Dave wants to discuss",
-        "Block time on Dave's calendar for next week's 1-on-1 call with Dan",
-        "Prepare talking points or framework for the win-win solution Dave references before the call"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "france@galaxydatacenters.com",
@@ -1550,40 +1581,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "ash@galaxydatacenters.com",
-      "sender_name": "Ash Gupta",
-      "subject": "UrbanChain pricing",
-      "body_preview": "Hi Jamie,\r\n\r\nDo you happen to have a copy of the full bill?  We'd like to be able to understand if the number we've been providing customers for energy costs (18.59p/kWh) is accurate, and if so the build-up of the costs such that the final billing comes o",
-      "received": "2026-04-09T15:47:21Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK9gRZZOeE1KtwS2ev81ybg=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 10x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: billing",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta from Galaxy Data Centers is requesting the complete billing documentation from UrbanChain to validate the energy cost rate being quoted to customers ($0.1859/kWh) and to understand the cost structure breakdown. This is critical for ensuring billing accuracy and maintaining customer trust in Galaxy's pricing transparency.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Locate and send Ash the full UrbanChain bill with itemized cost breakdown",
-        "Have Ash reconcile the per-kWh rate against customer-facing quotes to identify any discrepancies",
-        "Review cost structure components with Finance to ensure accuracy before next customer communication"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "tj@galaxydatacenters.com",
