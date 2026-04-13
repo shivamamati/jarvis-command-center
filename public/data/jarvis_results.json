@@ -1,13 +1,82 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-12T23:30:38.016030+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 1,
-  "ai": 1,
+  "timestamp": "2026-04-13T02:13:50.976475+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 3,
+  "ai": 4,
   "skipped": 0,
-  "auto_learned": 59,
+  "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Marketing Update",
+      "body_preview": "Hi Paul,\r\n\r\nPlease see the \u200bmarketing deck\u200b we presented to Dave and Ashley on Friday.\r\n\r\nThis week we are going live with:\r\n\r\n  1.\r\nThe social media agency (they are creating our Channel Partners related Linkedin post)\r\n  2.\r\n5 separate series of emails ",
+      "received": "2026-04-13T01:52:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5pAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH8QRmMmdlBKvL8cfmB3LkI=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 10x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman (Galaxy Data Centers marketing team) is confirming that Galaxy is launching a multi-channel marketing initiative this week, including a social media campaign focused on channel partner content and five coordinated email series. This represents an executed decision from Friday's leadership meeting and directly supports Galaxy's partner acquisition and customer engagement strategy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the LinkedIn post draft from the social media agency and approve messaging before publication",
+        "Confirm email series targeting, sequencing, and content alignment with broader business objectives",
+        "Schedule brief check-in mid-week to assess early engagement metrics and campaign performance"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Urgent - Channel Partners Post",
+      "body_preview": "Attached image for Ash. Please work with Dada and give us 2 options. Keep it simple.\r\n\r\nWe are going to channel partners -> -> we have the right credentials and capacity and we are excited to meet MSPs.\r\n\r\nLinkedin\r\nAsh Roberts - Vice President, Commercia",
+      "received": "2026-04-13T01:26:06Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5mAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJwplrmNqZROtljss1AKvl4=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 10x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, capacity",
+        "Urgency: urgent (+1)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is requesting that you and Dada develop two simple channel partner positioning options for LinkedIn, specifically targeting MSPs. Galaxy is preparing to actively pursue the channel partner market and wants to leverage its credentials and capacity as key differentiators in outreach efforts.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Coordinate with Dada to develop 2 distinct LinkedIn post/messaging options for channel partner outreach that emphasize Galaxy's credentials and capacity",
+        "Share drafts with Sai and Ash Roberts (VP Commercial) for review and selection",
+        "Execute the selected option(s) on LinkedIn targeting MSP audiences once approved"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "victoria.skrbensky@jll.com",
       "sender_name": "Skrbensky, Victoria",
@@ -3822,5 +3891,5 @@
       "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 116
+  "total_tracked": 118
 }
