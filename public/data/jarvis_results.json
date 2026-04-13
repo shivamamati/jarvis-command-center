@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T05:37:52.850817+00:00",
-  "total": 6,
-  "new": 6,
+  "timestamp": "2026-04-13T07:56:52.310563+00:00",
+  "total": 1,
+  "new": 1,
   "noise": 1,
-  "ai": 6,
+  "ai": 0,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
@@ -3862,37 +3862,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dse@eumail.docusign.net",
-      "sender_name": "Daniel Scarbrough via Docusign",
-      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
-      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
-      "received": "2026-04-06T07:08:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5gOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPExMLELp-9PmMCSMB5GAZI=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for Dave's review and signature. This is a formal legal document requiring execution\u2014likely precursor to investment discussions or a specific deal. Needs immediate attention.",
-      "ai_action": "Forward to Simmons & Simmons (legal counsel) for review while Dave reviews the document terms. Clarify with Scarbrough what deal/investment this MNDA covers.",
-      "ai_next_steps": [
-        "Open Docusign link and review MNDA terms",
-        "Send to Simmons & Simmons with question: what is Evermere Capital's interest (investor, lender, partner)?",
-        "Reply to Scarbrough acknowledging receipt and timeline for execution"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 118
+  "total_tracked": 117
 }
