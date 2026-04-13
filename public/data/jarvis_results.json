@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T21:43:53.683668+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 6,
-  "ai": 6,
+  "timestamp": "2026-04-13T22:39:56.031386+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 1,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "1MW Requirement",
+      "body_preview": "Hi Rhys/Colin,\r\n\r\nPlease see opportunity below for unit 3\u2026\r\n\r\nWe\u2019re supporting a client with an immediate 1MW requirement in the UK.\r\nThe key specifications are:\r\n\r\n  *   Density: 35 - 50kW per rack\r\n  *   Cooling: Air-cooled\r\n  *   RFS: May 2026\r\n\r\nI app",
+      "received": "2026-04-13T21:55:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACMaQKVW-qNDqRf3FTBYrDc=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: mw, kw, rack",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts from Galaxy Data Centers is flagging a significant commercial opportunity: a UK-based client needs 1MW of capacity with mid-to-high density requirements (35-50kW per rack) and air-cooling, with a ready-for-service date of May 2026. This is a material near-term revenue opportunity that requires immediate attention to secure the deal and ensure Unit 3 capacity planning aligns with the timeline.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Dave or France contact Ashley to understand client identity, contract terms, and any competitive threats to lock in the deal",
+        "Conduct Unit 3 capacity assessment to confirm 1MW availability and air-cooling infrastructure readiness by May 2026",
+        "Develop commercial proposal including pricing, SLA terms, and build-out schedule to submit within 1 week"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxycapitalpartners.com",
       "sender_name": "Paul Leong",
@@ -4126,5 +4161,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 125
+  "total_tracked": 126
 }
