@@ -1,13 +1,146 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T15:13:53.851933+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 8,
-  "ai": 10,
+  "timestamp": "2026-04-13T17:01:02.180929+00:00",
+  "total": 31,
+  "new": 31,
+  "noise": 19,
+  "ai": 27,
   "skipped": 0,
-  "auto_learned": 58,
+  "auto_learned": 62,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Ubersmith:Galaxy Data Centers Introduction",
+      "body_preview": "Hi Ryan,\r\n\r\nNext Thursday at 1:30 PM ET works well for me. Thank you for accommodating the reschedule request.\r\n\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting",
+      "received": "2026-04-13T16:58:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGzFVmyzqtNAtN2Hqo4gPng=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: data cent, introduction",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave has confirmed a meeting with Ryan from Ubersmith for next Thursday at 1:30 PM ET to discuss a business introduction. This appears to be a rescheduled meeting that Ryan accommodated, indicating Ubersmith is prioritizing engagement with Galaxy Data Centers.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Add the meeting to Dave's calendar for next Thursday at 1:30 PM ET with Ryan from Ubersmith",
+        "Prepare background materials on Ubersmith's platform and services relevant to Galaxy Data Centers' operations before the meeting",
+        "Confirm the meeting logistics (video call or in-person) and send calendar invite to both parties"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Our DC Server Call is Starting Soon",
+      "body_preview": "I am on the call via cell\r\n\r\n\r\nOn Mon, Apr 13, 2026 at 11:49\u202fAM, Laura Maltez <Laura.Maltez@bwgglobal.com> wrote:\r\nHi Dave,\r\n\r\nOur call is starting soon \u2013 please dial in a few minutes early so we can get started on time.\r\n\r\n\r\nDial-in Instructions:\r\n\r\nPhon",
+      "received": "2026-04-13T16:17:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6ZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAASA_OpQ-iJKqJGtleKknq8=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Thread: 6 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Laura Maltez from BWG Global is reminding Dave that a data center server discussion call is beginning shortly and requesting early dial-in to ensure punctual start. Dave has already confirmed he's joining via cell phone, indicating he's aware and en route to the call.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "No action required \u2013 Dave is already on the call via cell",
+        "If needed, follow up with Laura post-call to document any action items or decisions from the discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Please Confirm - DC Server Discussion on Monday 4/13",
+      "body_preview": "Confirmed, thank you.\r\n\r\n________________________________\r\nFrom: Laura Maltez <Laura.Maltez@bwgglobal.com>\r\nSent: Friday, April 10, 2026 10:12:31 AM\r\nTo: Dave Misra <dave.misra@galaxydatacenters.com>\r\nSubject: Please Confirm - DC Server Discussion on Mond",
+      "received": "2026-04-13T16:12:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAaF4ARLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAATvi9cjwZxAngla88FkH9s=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Laura Maltez from BWG Global is confirming a scheduled discussion with Dave about data center server topics for Monday, April 13th. Dave has accepted the meeting. This appears to be a preliminary confirmation for what could be a commercial opportunity or partnership discussion involving Galaxy's data center services.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Prepare talking points and relevant data center offerings/capabilities for the Monday 4/13 meeting with Laura Maltez",
+        "Confirm meeting logistics (time, location/call format) with Laura if not already specified",
+        "Research BWG Global's business profile and identify potential synergies or deal opportunities before the call"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Good catching up",
+      "body_preview": "Hey George \u2014 just a quick update. In good faith, I\u2019ve shared your profile with the fund for a potential advisory role. I\u2019ll be speaking with them on Friday and will keep you posted as things progress.\r\n\r\nBest,\r\nDave\r\n\r\nFrom: George Rogers <grogers@skyline",
+      "received": "2026-04-13T15:22:39Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJNrErmNYEjQgrQAO4D7YQ8=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: fund",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be Dave's outgoing email to George Rogers regarding a potential advisory position. Dave has proactively submitted George's profile to the Galaxy fund and is scheduling a discussion with fund leadership this Friday to advance the conversation. The business impact is contingent on securing fund approval for adding an advisor, which could strengthen Galaxy's strategic capabilities or network.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Prepare talking points for Friday fund discussion on George's qualifications and advisory value proposition",
+        "Clarify with the fund what advisory scope, commitment level, and compensation they envision",
+        "Follow up with George after Friday call with concrete next steps or timeline if fund is interested"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "francis.turley@simmons-simmons.com",
       "sender_name": "Francis Turley",
@@ -3858,41 +3991,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Queen's Commerce - Infrastructure Underwriting & Data Analytics Bandwidth",
-      "body_preview": "Faye, could we do a joint review at 3PM ET tomorrow ?\r\n\r\nFrom: Faye Pan <faye.p@queensu.ca>\r\nDate: Monday, April 6, 2026 at 11:53\u202fAM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Re: Queen's Commerce - Infrastructure Underwriting & Data Analytics",
-      "received": "2026-04-06T16:04:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTe4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM_xu6jQJG5OmZhiqhzguXI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Thread: 5 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Faye Pan from Queen's University Commerce is seeking Galaxy's partnership on infrastructure underwriting and data analytics bandwidth requirements. Dave has proposed a joint review meeting at 3PM ET tomorrow to discuss the engagement. This represents a potential academic-corporate collaboration opportunity that could expand Galaxy's service offerings into higher education analytics and infrastructure planning.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the 3PM ET meeting time with Faye and prepare an agenda covering Queen's Commerce's specific infrastructure and analytics needs",
-        "Brief France (presumably France Larocque or relevant team lead) on the scope of Queen's requirements and Galaxy's capacity/capabilities before the call",
-        "Gather preliminary internal documentation on Galaxy's data analytics and infrastructure underwriting services to present during the review"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 118
+  "total_tracked": 121
 }
