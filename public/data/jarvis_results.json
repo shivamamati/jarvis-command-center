@@ -1,13 +1,147 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T13:18:29.418217+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 3,
-  "ai": 5,
+  "timestamp": "2026-04-13T15:13:53.851933+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 8,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 58,
   "items": [
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Redhill DC relocation - FluidOne cost [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Paul\r\n\r\nThanks for your email.\r\n\r\nThe agreement with Fluidone states that Redhill will \u201creimburse Customer for all reasonable and documented out of pocket expenses paid by Customer following any such relocation\u201d.  To my mind, this will cover third part",
+      "received": "2026-04-13T14:55:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6KAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAg1kHyoNPhDunMh02EmSrs=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons Simmons (Galaxy's legal counsel) is confirming that the FluidOne agreement language supports reimbursement of reasonable documented expenses Galaxy incurs as a result of the Redhill data center relocation. This is a favorable legal interpretation that protects Galaxy's financial position by ensuring FluidOne covers third-party costs associated with the move.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France compile a detailed list of all third-party relocation expenses incurred to date with documentation",
+        "Prepare formal reimbursement claim to FluidOne with supporting invoices and cost breakdowns",
+        "Confirm with Francis the specific documentation format and submission process FluidOne requires"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Paul\r\n\r\nThe amendments they propose around Affiliates work for us so we cannot accept those and still proceed with DCSL as the signatory.\r\n\r\nI have partially reinstated one sentence to make it clear that a party is still responsible for the actions of ",
+      "received": "2026-04-13T14:43:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6IAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Attachments from known (+1)",
+        "VIP: simmons-simmons.com",
+        "KW: renewal",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons is advising that proposed amendments to the affiliate provisions in the Redhill renewal are unacceptable if Galaxy intends to proceed with DCSL as the signatory party. He is partially reinstating language to clarify that a party remains liable for its affiliates' actions, indicating a negotiation sticking point that could jeopardize the deal structure.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Dave review the specific affiliate amendments Francis rejected and determine if Galaxy can accept them with alternative signatory arrangements (e.g., using a parent entity instead of DCSL)",
+        "Confirm with Francis the exact reinstated language and whether it resolves the liability concern, then assess impact on deal terms and timeline",
+        "Schedule a call between Dave, France, and Francis to decide whether to push back on the amendments, restructure the deal, or walk away"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "jamie.thirlwall@castleforge.com",
+      "sender_name": "Jamie Thirlwall",
+      "subject": "Re: April Board Report",
+      "body_preview": "Hi All,\r\n\r\nCan you please send over your April Board Report slides ASAP, as the meeting is fast approaching, and I need to get the report finalised and sent out.\r\n\r\nThanks\r\nJamie\r\n\r\n\r\n\r\n\r\n\r\n\r\n________________________________\r\nFrom: Jamie Thirlwall <jamie.",
+      "received": "2026-04-13T14:20:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6GAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACChfPv6Rh1GmZnKhnCdUxw=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: lease, board",
+        "Urgency: asap (+1)",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Jamie Thirlwall from Castle Forge is requesting April Board Report slides urgently ahead of an upcoming board meeting. He needs these materials promptly to finalize and distribute the board report. This is a time-sensitive deliverable that impacts Galaxy's board-level communication and governance compliance.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt and establish a clear deadline for when slides must be delivered to Jamie",
+        "Assign responsibility for preparing Galaxy's April Board Report slides and verify what content/metrics should be included",
+        "Ensure slides are compiled and sent to Jamie well ahead of the board meeting date to avoid delays"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "jamie.thirlwall@castleforge.com",
+      "sender_name": "Jamie Thirlwall",
+      "subject": "Re: Redhill - April '26 IPD Reporting Pack",
+      "body_preview": "Hi Jayan,\r\n\r\nTata are the main downward driver, reducing the annual PR by \u00a3521k, but this is mitigated by a genuine increase in the PR by the new Arm agreement, which increases the PR by c.\u00a3250k.\r\n\r\nThere are several other small, immaterial movements, wit",
+      "received": "2026-04-13T13:38:26Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHoO6lbLZztAukZmUvRSMEA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Jamie Thirlwall from Castle Forge is providing a financial update on the Redhill property's April 2026 IPD reporting, indicating that Tata's tenant reduction is creating a significant \u00a3521k annual profit rent headwind, partially offset by a new Arm tenant agreement adding approximately \u00a3250k in annual profit rent. This represents a material net decline of roughly \u00a3271k in annual income from this Galaxy asset that requires attention for financial forecasting and tenant diversification strategy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request the complete Redhill IPD reporting pack from Jamie to review all tenant movements and validate the net profit rent impact on Q2 2026 financial projections",
+        "Schedule a call with the Redhill asset management team to discuss tenant retention strategy and identify potential replacement tenants for the Tata space",
+        "Assess whether the Arm agreement terms (lease length, credit quality, renewal options) adequately mitigate the Tata loss and inform capital allocation decisions"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "tj@galaxydatacenters.com",
       "sender_name": "Tj Karklins",
@@ -1653,38 +1787,6 @@
       "final_label": "URGENT"
     },
     {
-      "sender_email": "jayan.patel@castleforge.com",
-      "sender_name": "Jayan Patel",
-      "subject": "RE: Redhill - April '26 IPD Reporting Pack",
-      "body_preview": "Hi Jamie,\r\n\r\nGreat thanks very much \u2013 much appreciated.\r\n\r\nOkay makes sense on the annual rent point. Wondering if we may hit a Debt Yield pinch in 2027 with the forecasts in mind and with our loan balance increasing with capex draws.\r\n\r\nAside from Tata, ",
-      "received": "2026-04-09T15:42:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHoO6lbLZztAukZmUvRSMEA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jayan Patel from Castle Forge is following up on Redhill IPD reporting materials and raising a concern about potential debt service coverage constraints in 2027 as loan balances increase from capital expenditure draws. This is a material refinancing and financial risk that could impact Galaxy's ability to manage debt covenants and future capital availability on this asset.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or finance team model 2027 debt yield scenarios with updated capex draw schedule to quantify covenant headroom",
-        "Evaluate options to address 2027 refinancing risk (debt restructuring, capex timing adjustment, or equity injection)",
-        "Schedule call with Jayan to discuss mitigation strategies before this becomes a lender issue"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "rodrigo@galaxydatacenters.com",
       "sender_name": "Rodrigo M",
       "subject": "Re: New Vendor Access Request",
@@ -1885,40 +1987,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "jamie.thirlwall@castleforge.com",
-      "sender_name": "Jamie Thirlwall",
-      "subject": "April Board Report",
-      "body_preview": "Hi All,\r\n\r\nIt's that time of the month again.\r\n\r\nThe monthly board meeting is in the diary for Wednesday 15th April, so we need to get the board report prepared and sent out early next week.\r\n\r\nPlease find attached the draft report as it currently stands,",
-      "received": "2026-04-09T14:03:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACChfPv6Rh1GmZnKhnCdUxw=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Tier 1: castleforge.com",
-        "KW: lease, board",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jamie Thirlwall from Castle Forge is requesting preparation of the monthly board report ahead of the April 15th board meeting, with a draft already in progress. The report needs to be finalized and distributed to board members early the following week to ensure adequate review time before the meeting. This is a routine governance requirement that likely impacts Galaxy's board reporting obligations and stakeholder communication.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached draft board report and identify any Galaxy-related content or updates that need to be included or revised",
-        "Coordinate with France and relevant team members to gather any missing financial, operational, or strategic updates needed for the final report",
-        "Confirm the distribution timeline and ensure the finalized report is ready for send-out by early the week of April 15th"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dse@eumail.docusign.net",
@@ -2183,42 +2251,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Francis - Accenture's comments back on the NDA.  They've asked for Redhill to be a party if it wants to enforce so I guess it will have to go to LH for signature.\r\n\r\nPaul\r\n________________________________\r\nFrom: Francis Turley <Francis.Turley@simmons-s",
-      "received": "2026-04-09T05:30:29Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 13x (+2)",
-        "Attachments + deal KW (+2)",
-        "Re customer: accenture",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, renewal",
-        "Lease + customer"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is reporting that Accenture has returned comments on the NDA for the Redhill renewal, with a key requirement that Redhill be named as a party to enforce the agreement. This means the contract execution will need to route through Redhill's legal/leadership for signature, adding another approval step to the deal closure process.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Route the revised NDA to Redhill's legal/leadership (LH) for review and signature authority",
-        "Confirm with Accenture that naming Redhill as a party satisfies their enforcement requirements and accelerates timeline to execution",
-        "Track signature status and identify any remaining blockers to close the Redhill renewal deal"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3862,5 +3894,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 117
+  "total_tracked": 118
 }
