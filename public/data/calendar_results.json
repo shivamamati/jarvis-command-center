@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-13T18:09:34.472880+00:00",
+  "timestamp": "2026-04-13T20:03:05.839365+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -60,8 +60,8 @@
     },
     {
       "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
-      "start": "2026-04-13T19:00:00.0000000",
-      "end": "2026-04-13T19:30:00.0000000",
+      "start": "2026-04-13T19:15:00.0000000",
+      "end": "2026-04-13T19:45:00.0000000",
       "attendees": [
         "Paul",
         "Ash",

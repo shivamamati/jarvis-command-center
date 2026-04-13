@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T18:11:11.179559+00:00",
-  "total": 37,
-  "new": 37,
-  "noise": 15,
-  "ai": 32,
+  "timestamp": "2026-04-13T20:03:49.332542+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 14,
+  "ai": 13,
   "skipped": 0,
-  "auto_learned": 62,
+  "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: DCM Information",
+      "body_preview": "Hi Jodi - UK version is preferred.  Thank you for going to 17.5% on the fee.  If you get me back the revised contract incorporating the comments (the background reference checks that you will do etc) we\u2019ve had to date I think we can get moving with this.",
+      "received": "2026-04-13T19:15:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR68AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANIg2YU3X7pIuQf7-kE_WDg=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: contract",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong (Galaxy Capital Partners internal) is confirming preference for the UK version of a contract and acknowledging a fee reduction to 17.5%. He's requesting that the counterparty send back a revised contract that incorporates previously discussed comments regarding background reference checks, indicating Galaxy is close to signing and ready to proceed once those revisions are received.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Obtain and review the revised contract incorporating the agreed-upon comments and 17.5% fee terms",
+        "Confirm the background reference check procedures are clearly documented in the revised contract",
+        "Prepare for execution once revisions are satisfactory"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
+      "body_preview": "Meeting Notes tracker : Galaxy_Leadership_Sync.docx\r\n\r\n\r\n\u2708\ufe0f This meeting has 0 talking points on Fellow: https://fellow.link/icIce3fx \u2708\ufe0f\r\n\r\n\r\nMeeting notes : https://view.monday.com/18401298423-9edf0febe9dd779f79d3abca395fa764?r=use1https://view.monday.",
+      "received": "2026-04-13T18:47:26Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMQzrhZtiA9Bt0UqPJDr_lw=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, rack",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is an internal recurring leadership sync meeting among Galaxy's core management team (Dave, Paul, Ash, and TJ). The meeting appears to lack documented talking points on Fellow and references meeting notes stored in Monday.com, suggesting potential gaps in meeting preparation or documentation workflow.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm whether talking points should be pre-populated in Fellow before the next sync and establish a meeting prep protocol",
+        "Verify the Monday.com link is working and ensure all attendees have access to centralized meeting notes",
+        "Clarify the purpose and expected outcomes of this recurring sync to ensure it's delivering value to the leadership team"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "kristina.mcauliffe@orennia.com",
       "sender_name": "Kristina McAuliffe",
@@ -15,7 +82,7 @@
       "body_preview": "Dave,\r\n\r\nOne broader signal we\u2019re watching is how hyperscalers are responding when grid uncertainty becomes the gating factor.\r\n\r\nGoogle\u2019s $4.75B acquisition of Intersect Power was less about generation margins and more about time to power and certainty. ",
       "received": "2026-04-13T18:09:22Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6wAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALgJKMXmb3pLtJtFoadfpxk=",
       "rules_score": 6,
@@ -27,12 +94,12 @@
       "ai_reviewed": true,
       "ai_score": 6,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Kristina McAuliffe from Orennia is continuing a conversation about power-ready data center sites and hyperscaler behavior. She's sharing strategic market intelligence on Google's Intersect Power acquisition, positioning it as a signal about how hyperscalers prioritize power certainty over generation margins\u2014directly relevant to Galaxy's site development and power acquisition strategy.",
-      "ai_action": "Review in context of ongoing conversation with Kristina; determine if this is part of a deeper discussion about Galaxy's power sourcing strategy or a potential partnership opportunity with Orennia.",
+      "ai_summary": "Kristina McAuliffe from Orennia is continuing a conversation about power-ready data center availability and sharing strategic intelligence on hyperscaler behavior. She's flagging that hyperscalers (specifically Google's Intersect Power deal) are prioritizing power certainty over generation margins\u2014directly relevant to Galaxy's strategy around power-constrained sites like Redhill and Poland 260MW.",
+      "ai_action": "Dave should engage with Kristina on this thread. This is market intelligence that informs Galaxy's positioning on power solutions and could influence deal strategy on supply-constrained prospects.",
       "ai_next_steps": [
-        "Check email thread history to understand the original conversation context and what prompted Dave's initial question",
-        "Assess if Orennia has a specific proposition (consulting, partnership, deal flow) or if this is exploratory market discussion",
-        "If substantive, consider a brief call to understand Orennia's angle and any relevance to Galaxy's 260MW Poland deal or other power-constrained prospects"
+        "Reply to Kristina asking for her latest data on European power-ready sites and hyperscaler strategies",
+        "Flag insights about hyperscaler power priorities for the Poland 260MW and TechRE 18MW deals",
+        "Determine if Orennia has advisory or commercial capacity that could support Galaxy's power strategy"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -2912,40 +2979,6 @@
       "final_label": "NOTABLE"
     },
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
-      "body_preview": "Meeting Notes tracker : Galaxy_Leadership_Sync.docx\r\n\r\n\r\n\u2708\ufe0f This meeting has 0 talking points on Fellow: https://fellow.link/icIce3fx \u2708\ufe0f\r\n\r\n\r\nMeeting notes : https://view.monday.com/18401298423-9edf0febe9dd779f79d3abca395fa764?r=use1https://view.monday.",
-      "received": "2026-04-08T16:25:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKUJPhnXPRlCrxeAU_LtiOY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, rack",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal recurring leadership sync among Galaxy's top executives (Dave, Paul, Ash, and TJ) with meeting notes tracked in a shared document and Monday.com board. The email indicates the meeting currently has no prepared talking points in Fellow, suggesting the agenda needs to be developed before the next sync. Dave should ensure structured preparation to maximize the effectiveness of this critical leadership alignment meeting.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the Monday.com board and Galaxy_Leadership_Sync.docx document to understand current topics and determine if talking points need to be added to Fellow before the next meeting",
-        "Coordinate with Paul, Ash, and TJ to establish a standard agenda-setting process for these recurring syncs to ensure talking points are prepared in advance",
-        "Clarify the meeting cadence and confirm whether this sync is currently scheduled or if it needs to be rebooked with structured preparation"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "henry.dyer@simmons-simmons.com",
       "sender_name": "Henry Dyer",
       "subject": "FW: Claim against Digital [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
@@ -4125,75 +4158,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "sai@solarisstrategiesinc.com",
-      "sender_name": "Sai Raman",
-      "subject": "Re: Galaxy Data Centers & Upcall",
-      "body_preview": "Yes will do\r\n\r\nOn Mon, Apr 6, 2026, 3:51\u202fp.m. Dave Misra <dave@galaxydatacenters.com> wrote:\r\n\r\nGuys could we add this to the data room. This is a great proposal when we get to it.\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +",
-      "received": "2026-04-06T19:56:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB3dEr-PNhJDpCRHOMrk4OY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 2: solarisstrategiesinc.com",
-        "KW: proposal, data cent, data room",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman from Solaris Strategies is confirming agreement to add a proposal to the data room that Dave identified as valuable for future consideration. This appears to be a follow-up to a prior discussion about a partnership or service offering that Galaxy wants to evaluate.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Sai what specific materials need to be added to the data room and the deadline for submission",
-        "Brief France on the nature of this proposal and why Dave considers it strategically important for Galaxy's evaluation",
-        "Establish a timeline for when Galaxy will formally review this proposal in the data room"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Fw: Redhill",
-      "body_preview": "________________________________\r\nFrom: VIJAY RAJ THAMPI <vijay.thampi@tcs.com>\r\nSent: Tuesday, April 7, 2026 3:54 AM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Dilmohan Singh <dilmohan.singh@tcs.com>\r\nSubject: RE: Redhill\r\n\r\n\r\nTCS Confidential",
-      "received": "2026-04-06T19:50:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI5mNROLPYREqIa4G_rfRw4=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 9x (+2)",
-        "Re customer: tcs",
-        "Internal \u2014 deal/customer related",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Vijay Raj Thampi from Tata Consultancy Services (TCS) is responding to Paul Leong regarding the Redhill project, which appears to be a confidential TCS matter. The email lacks substantive content in the forwarded message, making it unclear what specific request or update is being communicated, but the TCS confidentiality marking suggests this involves a sensitive partnership or infrastructure initiative relevant to Galaxy's operations. This requires immediate clarification to determine if Galaxy has contractual obligations, technical requirements, or business implications related to this Redhill engagement.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Contact Paul Leong to request the full email context and clarify what specific action or information TCS is seeking from Galaxy regarding Redhill",
-        "Review any existing Galaxy-TCS agreements or memoranda related to 'Redhill' to understand the project scope and Galaxy's role",
-        "Schedule a call with Paul and relevant Galaxy stakeholders to assess bandwidth and technical feasibility before responding to TCS"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 127
+  "total_tracked": 126
 }
