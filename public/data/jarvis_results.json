@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-14T22:41:34.654838+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 9,
-  "ai": 5,
+  "timestamp": "2026-04-14T23:39:07.081522+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 7,
+  "ai": 6,
   "skipped": 0,
-  "auto_learned": 55,
+  "auto_learned": 56,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Maturing Loan - Action Needed",
+      "body_preview": "Joe,\r\n\r\nBoth items are done \u2014 auto-collateral payments disabled, term extension submitted. Please confirm the liquidation is off the table.\r\n\r\nA couple of things I want to address.\r\n\r\nI've been with Salt since the early days and have maintained a healthy ",
+      "received": "2026-04-14T23:32:18Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70agAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADN1HzdBZGlPi4CUA8E6_Ao=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be Dave's response to a lender (Joe) confirming completion of loan restructuring actions\u2014disabling auto-collateral payments and submitting a term extension request. Dave is seeking confirmation that liquidation won't proceed and wants to address relationship concerns with Salt, suggesting there may be tension around loan terms or the maturity event that needs resolution.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Await Joe's written confirmation that liquidation is off the table and document this formally",
+        "Prepare a summary of Galaxy's relationship history and payment performance with Salt to support Dave's renegotiation discussion",
+        "Schedule a call with Joe to discuss Dave's concerns before they escalate further"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -30,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be a fraudulent or compromised email where someone is impersonating Dave Misra and providing bank account details (allegedly belonging to Satyam Devesh Misra at TD Canada Trust) to settle a case reference. This is a critical security concern as it involves potential financial fraud, unauthorized use of Dave's email identity, and risk of unauthorized fund transfers.",
+      "ai_summary": "This appears to be a suspicious email where someone is impersonating Dave Misra and providing banking details (account holder: Satyam Devesh Misra, TD Canada Trust Mississauga) to settle a case reference. This is a critical security incident\u2014either Dave's email has been compromised or this is a phishing/fraud attempt targeting Galaxy or its business partners.",
       "ai_action": null,
       "ai_next_steps": [
-        "Immediately verify with Dave Misra whether he actually sent this email and authorized sharing of any bank account information",
-        "Contact TD Canada Trust and the account holder to alert them of potential fraudulent activity and freeze/monitor the referenced account",
-        "Conduct a security audit of Dave's email account for unauthorized access and review recent sent items for other suspicious communications"
+        "Immediately verify if Dave actually sent this email and confirm he authorized sharing these banking details",
+        "Contact TD Canada Trust to verify the account details and place a fraud alert if the account appears legitimate but unauthorized",
+        "Review email logs and security for potential compromise of Dave's email account; reset credentials and enable enhanced monitoring if breached"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -3793,5 +3826,5 @@
       "final_label": "URGENT"
     }
   ],
-  "total_tracked": 115
+  "total_tracked": 116
 }
