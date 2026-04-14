@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-14T02:08:09.047731+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 1,
-  "ai": 2,
+  "timestamp": "2026-04-14T05:20:09.629803+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "dave@galaxycapitalpartners.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fw: Points of Contention",
+      "body_preview": "FYI \u2014 this is an older email from Rhys, but it highlights several ongoing issues with Reid and CFP. It will be interesting to see whether Matt Reid now engages with Rhys, given that these points were largely ignored for a long time and now he appreciates ",
+      "received": "2026-04-14T04:19:45Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70acAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANwmAHmHgEZCuq_3lfJ4rfw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rhys previously raised multiple unresolved concerns with Reid regarding CFP operations, which were largely dismissed at the time. Now that Matt Reid has assumed greater responsibility or visibility, Dave is flagging this historical friction point to assess whether Reid will finally address these long-standing issues or if the same pattern of avoidance will continue.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Locate and review Rhys's original email detailing the specific points of contention with Reid and CFP to understand the substantive issues at stake",
+        "Schedule a meeting with Matt Reid to present these outstanding concerns and establish clear expectations for resolution and engagement",
+        "Brief France (if involved in CFP oversight) on the history of this dispute to ensure alignment on priorities and accountability measures"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -4160,5 +4194,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 126
+  "total_tracked": 127
 }
