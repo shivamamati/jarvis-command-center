@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-14T16:04:33.108915+00:00",
+  "timestamp": "2026-04-14T18:01:52.794051+00:00",
   "events": [
     {
       "subject": "Mtg. Dave - Amit - IRA Application ",
@@ -70,6 +70,23 @@
       "location": "Online (Medeo)",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIlAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Data Center World panel rehearsal",
+      "start": "2026-04-14T18:30:00.0000000",
+      "end": "2026-04-14T19:15:00.0000000",
+      "attendees": [
+        "Greaves,",
+        "Jim",
+        "Archibald,",
+        "Neinstadt,",
+        "AFCOM",
+        "brett@bastille.io"
+      ],
+      "organizer": "Greaves, Christopher",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G1AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Badminton with Suhas ",
