@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-13T23:39:20.111874+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 3,
-  "ai": 9,
+  "timestamp": "2026-04-14T02:08:09.047731+00:00",
+  "total": 2,
+  "new": 2,
+  "noise": 1,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "marketing write up ",
+      "body_preview": "Can you check here:\r\n\r\nMarketing & Demand Generation\r\nGalaxy Data Centers has undertaken a comprehensive overhaul of its marketing and demand generation strategy. The previous agency arrangement (JSA) was terminated due to underperformance, and the compan",
+      "received": "2026-04-14T00:31:14Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7MAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFjiX_lw7LVBjEpkE4KrPwM=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman (Galaxy Data Centers team member) is requesting review of a marketing and demand generation strategy document that outlines Galaxy's pivot away from a underperforming agency partner (JSA) toward a new approach. This matters because effective demand generation directly impacts revenue pipeline and competitive positioning in the data center market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the complete marketing strategy document and provide feedback on the new direction and projected impact",
+        "Clarify the timeline and budget allocation for the new demand generation strategy",
+        "Discuss key performance metrics and accountability measures with Sai to ensure measurable outcomes"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "tj@galaxydatacenters.com",
       "sender_name": "Tj Karklins",
@@ -4124,40 +4157,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: Docklands Deck review with Faye ",
-      "body_preview": "________________________________\r\nFrom: Faye Pan\r\nSent: Monday, April 6, 2026 12:26:46 PM\r\nTo: Faye Pan <faye.p@queensu.ca>; Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Docklands Deck review with Faye\r\nWhen: Tuesday, April 7, 2026 3:00 PM-3:30 P",
-      "received": "2026-04-07T02:00:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOQIf4Z10S5EnaP8dQqz1HI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Thread: 4 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Faye Pan is scheduling a 30-minute meeting for Tuesday, April 7 at 3:00 PM to review the Docklands presentation deck with Dave. This appears to be a preparation or feedback session ahead of a potential investor pitch or stakeholder presentation for Galaxy's Docklands data center project, which is critical for securing funding or alignment on strategy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and prepare any questions or concerns about the Docklands deck content before the 3:00 PM meeting",
-        "Gather current financial projections, timeline, and competitive positioning materials for the Docklands project to have on hand during the review",
-        "Clarify with Faye post-meeting whether revisions are needed and what the next milestone is (investor meetings, board approval, etc.)"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     }
   ],

@@ -1,77 +1,6 @@
 {
-  "timestamp": "2026-04-13T23:38:53.125388+00:00",
+  "timestamp": "2026-04-14T02:08:01.917246+00:00",
   "events": [
-    {
-      "subject": "Ops Team Weekly",
-      "start": "2026-04-13T13:30:00.0000000",
-      "end": "2026-04-13T14:00:00.0000000",
-      "attendees": [
-        "Ash",
-        "Tj",
-        "Rhys",
-        "Luke",
-        "Fredy",
-        "Benjamin"
-      ],
-      "organizer": "Ash Gupta",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pjvmxqAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAE7IPQ6gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "BWG: Data Center Server Focused IT HW and Chips Outlook \u00a0Bridge:\u00a0(646) 757-9995\u00a0",
-      "start": "2026-04-13T16:00:00.0000000",
-      "end": "2026-04-13T17:00:00.0000000",
-      "attendees": [
-        "BWG"
-      ],
-      "organizer": "BWG Global Events",
-      "location": "",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpH%2BAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Monday Marketing Meeting",
-      "start": "2026-04-13T16:00:00.0000000",
-      "end": "2026-04-13T16:30:00.0000000",
-      "attendees": [
-        "Sai",
-        "Animesh",
-        "SA"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pjvmxqAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Laura Meltez <> Dave Misra ",
-      "start": "2026-04-13T18:00:00.0000000",
-      "end": "2026-04-13T18:30:00.0000000",
-      "attendees": [
-        "Laura",
-        "Galaxy",
-        "Animesh"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GsAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
-      "start": "2026-04-13T19:15:00.0000000",
-      "end": "2026-04-13T19:45:00.0000000",
-      "attendees": [
-        "Paul",
-        "Ash",
-        "Tj"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pjvmxqAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Mtg. Dave - Amit - IRA Application ",
       "start": "2026-04-14T02:00:00.0000000",
@@ -258,6 +187,109 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pqB7%2B4AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Navisite/Accenture Monthly Operations Meeting",
+      "start": "2026-04-16T13:00:00.0000000",
+      "end": "2026-04-16T13:30:00.0000000",
+      "attendees": [
+        "Colin",
+        "Ahmed,",
+        "rnarbonne@navisite.com",
+        "Luke",
+        "Ashley",
+        "Tj"
+      ],
+      "organizer": "Colin Bell",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ptLGlfAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEkJ%2F79AAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Redhill check in call ",
+      "start": "2026-04-16T15:00:00.0000000",
+      "end": "2026-04-16T15:25:00.0000000",
+      "attendees": [
+        "Barry",
+        "Ash",
+        "Paul",
+        "Francis",
+        "Suhaib",
+        "Pelle"
+      ],
+      "organizer": "Barry Gross",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ptLGlfAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAD%2F9VNRAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "ABB Electrification Services including Battery Energy Storage Solutions (BESS) ",
+      "start": "2026-04-16T15:30:00.0000000",
+      "end": "2026-04-16T16:00:00.0000000",
+      "attendees": [
+        "Jerome",
+        "Rhys",
+        "France"
+      ],
+      "organizer": "Jerome Nessi",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AASD4M%2BPAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Ubersmith:Galaxy Data Centers Introduction",
+      "start": "2026-04-16T17:30:00.0000000",
+      "end": "2026-04-16T18:00:00.0000000",
+      "attendees": [
+        "Ryan",
+        "Ash",
+        "Rodrigo",
+        "hello@meetingconfirmation.net",
+        "JP",
+        "Rodrigo"
+      ],
+      "organizer": "Ryan Ward",
+      "location": "Microsoft Teams",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GqAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Galaxy - M365 Project weekly update",
+      "start": "2026-04-16T18:00:00.0000000",
+      "end": "2026-04-16T19:00:00.0000000",
+      "attendees": [
+        "Galaxy",
+        "Rodrigo",
+        "Ash",
+        "Savir"
+      ],
+      "organizer": "Galaxy - M365 Infrastructure Modernization",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ptLGlfAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvwwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Mitch/Dave Galaxy Sync",
+      "start": "2026-04-16T21:00:00.0000000",
+      "end": "2026-04-16T21:45:00.0000000",
+      "attendees": [
+        "Mitch",
+        "Ken"
+      ],
+      "organizer": "Mitch Lenzi",
+      "location": "https://meet.google.com/wwq-xmak-iic",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GvAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Badminton Game with Peter ",
+      "start": "2026-04-16T23:00:00.0000000",
+      "end": "2026-04-17T01:00:00.0000000",
+      "attendees": [],
+      "organizer": "Dave Misra",
+      "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ptLGlfAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
