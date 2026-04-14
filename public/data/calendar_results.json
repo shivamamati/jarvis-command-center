@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-14T07:25:01.164288+00:00",
+  "timestamp": "2026-04-14T09:13:52.719654+00:00",
   "events": [
     {
       "subject": "Mtg. Dave - Amit - IRA Application ",
@@ -58,23 +58,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GpAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Redhill Business Plan Call",
-      "start": "2026-04-14T16:00:00.0000000",
-      "end": "2026-04-14T17:00:00.0000000",
-      "attendees": [
-        "Elizabeth",
-        "Jamie",
-        "Ash",
-        "Mike",
-        "Tj",
-        "Matthew"
-      ],
-      "organizer": "Elizabeth Smith",
-      "location": "4.01",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pm4xYRAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAADthr2FgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Dr Abdul Shaheed ",

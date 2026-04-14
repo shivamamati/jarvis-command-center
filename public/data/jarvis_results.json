@@ -1,13 +1,172 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-14T07:25:04.629934+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 1,
-  "ai": 1,
+  "timestamp": "2026-04-14T09:14:20.056856+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 2,
+  "ai": 9,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi Tom,\r\n\r\nTo confirm, Digital Realty have not yet received the signed order.\r\n\r\n Kind regards\r\n\r\nFiona Leon\r\nUK&I Commercial Sales\r\nMob: 07557 268924\r\n60 London Wall, London, EC2M 5TQ\r\n\r\n\r\n\r\n\r\n\r\n\r\nFrom: Tom Le-Quelenec <tom.le-quelenec@langhamhall.com>",
+      "received": "2026-04-14T08:57:44Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7cAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "11 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is confirming that they have not yet received a signed order related to the Galaxy/DRT partnership and Cloud House deployment. This suggests a critical contract execution is pending and could be blocking the progression of a potentially significant infrastructure deal between our companies.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Locate the signed order document and confirm its current status with Tom Le-Quelenec (Langham Hall) immediately",
+        "Contact Fiona Leon directly to understand any blockers or timeline expectations for order receipt and subsequent deployment",
+        "Establish a clear handoff process and target date for Digital Realty to receive the executed agreement to keep the project on track"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Paul\r\n\r\nSorry my typo, the amendments do work for us so we can use DCSL.\r\n\r\nRegards\r\n\r\nFrancis Turley\r\nOf Counsel, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT : +44 20 7825 3421\r\nFrancis.Turley@simmons-simmons.com\r\n\r\n\r\nFrom: Paul Leong <paul@galaxycapitalp",
+      "received": "2026-04-14T08:33:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7ZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "KW: capital, renewal",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) is confirming that proposed amendments to a Redhill renewal agreement are acceptable and that Galaxy can proceed with using DCSL (likely a subsidiary or operational entity). This clarification removes a potential blocker on a contract renewal that appears material to Galaxy's data center or capital operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Paul Leong that the Redhill renewal can move forward with the approved amendments and DCSL structure",
+        "Prepare final renewal documentation incorporating the agreed amendments for execution",
+        "Verify timeline and ensure all parties are aligned on next execution steps"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "reece.cooksey@hansonwade.com",
+      "sender_name": "Reece Cooksey",
+      "subject": "Re: Speaker Opportunity - Advancing Data Center Construction Canada 2026",
+      "body_preview": "Hi Dave,\r\n\r\nI hope you had a lovely weekend - I'd love to jump on the phone with you one morning this week to discuss Advancing Data Centre Construction Canada (Oct 6-8, Calgary, AB).\r\n\r\nHaving already had conversations with Microsoft, Compass, Yondr, Tur",
+      "received": "2026-04-14T08:30:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7XAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHdhL3j600nqqlAL0nQq8HY=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 5,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Reece Cooksey from Hanson Wade is following up on a speaker opportunity for Advancing Data Centre Construction Canada (Oct 6-8, Calgary). He's had conversations with major operators (Microsoft, Compass, Yondr, Tur[key?]) and wants to schedule a call this week to discuss Dave's involvement.",
+      "ai_action": "France should schedule a brief call with Reece this week to understand the speaking opportunity details, audience, and time commitment before Dave commits.",
+      "ai_next_steps": [
+        "France to call/email Reece to confirm speaking role details and event logistics",
+        "Assess if this aligns with Galaxy's PR/visibility strategy in North America",
+        "If relevant, calendar 30-min call between Dave and Reece to discuss"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "chris.turner@nomura.com",
+      "sender_name": "chris.turner@nomura.com",
+      "subject": "RE: Nomura Invoices",
+      "body_preview": "Thanks for the info TJ.\r\n\r\nRegards\r\nChris Turner AIWFM\r\nCritical Environment & Building Controls Manager\r\nReal Estate & Services EMEA\r\nNomura\r\n1Angel Lane, London\r\nEC4R 3AB\r\nPhone: +44 (0) 20 7102 4412\r\nMobile: +44 (0) 7850 948657\r\nEmail: chris.turner@nom",
+      "received": "2026-04-14T08:15:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7WAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPevWFIeSsFBipQdhVXcp8E=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: nomura.com",
+        "Urgency: critical (+1)",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Chris Turner is the Critical Environment & Building Controls Manager for Nomura's EMEA Real Estate & Services division, acknowledging receipt of invoice information from TJ. This appears to be a routine administrative confirmation regarding facility management invoicing at Nomura's London office. The interaction suggests an existing billing relationship that may involve Galaxy's data center or facility services.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with TJ what invoice details were sent and verify Nomura's payment timeline and any outstanding amounts",
+        "Flag Chris Turner's contact information for future EMEA facility communications and ensure proper account management",
+        "Review the underlying invoices to ensure accuracy and follow up if payment is due or overdue"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "muckle-1411@firmexpostmaster.com",
+      "sender_name": "Muckle (Firmex)",
+      "subject": "Sale of Town End Farm - There is new Document activity",
+      "body_preview": "2 new documents are available in the Sale of Town End Farm Project, powered by Firmex. Please do not reply to this message.\r\nPlease log in to view your documents.\r\n\r\nProject: Sale of Town End Farm\r\n\r\nPlanning - Industrial Development\r\nConsent and S.106\r\nL",
+      "received": "2026-04-14T08:00:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7VAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP5HybgeiKxBs_JM7v1wzJ4=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: lease, power"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Firmex document notification for 'Sale of Town End Farm' project with new planning/industrial development documents. This appears to be a real estate transaction with planning consent and Section 106 agreement documents that require Dave's review.",
+      "ai_action": "Dave should log into Firmex to review the 2 new documents immediately. Determine if this is a Galaxy Capital or personal asset transaction, and whether it relates to a current data center development or land acquisition.",
+      "ai_next_steps": [
+        "Log into Firmex and review the 2 new documents in the 'Sale of Town End Farm' project",
+        "Clarify if this is a Galaxy Capital deal (potential data center site) or unrelated transaction",
+        "If Galaxy-related, escalate to deal team and legal (Simmons & Simmons)"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "dave@galaxycapitalpartners.com",
       "sender_name": "Dave Misra",
@@ -74,42 +233,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Fw: Nomura Invoices",
-      "body_preview": "Chris,\r\n\r\nWe know these were sent to the designated contacts at Nomura. We are double sending  to make sure you received them as well. The Jan and Feb 2026 bills attached make Redhill power billing current as March is processing now.\r\n\r\nBest,\r\n\r\nTJ\r\n\r\n___",
-      "received": "2026-04-13T23:27:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7JAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPevWFIeSsFBipQdhVXcp8E=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 9x (+2)",
-        "Attachments from known (+1)",
-        "Re customer: nomura",
-        "Internal \u2014 deal/customer related",
-        "KW: power, bills, billing",
-        "7 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins is confirming that Nomura invoices for January and February 2026 related to Redhill power billing have been sent to designated Nomura contacts and is now resending them to Chris to ensure receipt; March billing is currently being processed. This appears to be a routine billing confirmation to maintain current payment status with an important customer.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of the January and February 2026 Redhill power invoices and verify they match Nomura's records",
-        "Track the March 2026 billing processing to ensure timely delivery and payment",
-        "Establish a process to prevent future duplicate sends by clarifying distribution lists between Galaxy and Nomura contacts"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "saulakh@graingp.com",
@@ -640,41 +763,6 @@
         "Have France compile a detailed list of all third-party relocation expenses incurred to date with documentation",
         "Prepare formal reimbursement claim to FluidOne with supporting invoices and cost breakdowns",
         "Confirm with Francis the specific documentation format and submission process FluidOne requires"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Paul\r\n\r\nThe amendments they propose around Affiliates work for us so we cannot accept those and still proceed with DCSL as the signatory.\r\n\r\nI have partially reinstated one sentence to make it clear that a party is still responsible for the actions of ",
-      "received": "2026-04-13T14:43:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6IAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Attachments from known (+1)",
-        "VIP: simmons-simmons.com",
-        "KW: renewal",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons is advising that proposed amendments to the affiliate provisions in the Redhill renewal are unacceptable if Galaxy intends to proceed with DCSL as the signatory party. He is partially reinstating language to clarify that a party remains liable for its affiliates' actions, indicating a negotiation sticking point that could jeopardize the deal structure.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Dave review the specific affiliate amendments Francis rejected and determine if Galaxy can accept them with alternative signatory arrangements (e.g., using a parent entity instead of DCSL)",
-        "Confirm with Francis the exact reinstated language and whether it resolves the liability concern, then assess impact on deal terms and timeline",
-        "Schedule a call between Dave, France, and Francis to decide whether to push back on the amendments, restructure the deal, or walk away"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -1897,36 +1985,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "reece.cooksey@hansonwade.com",
-      "sender_name": "Reece Cooksey",
-      "subject": "Re: Speaker Opportunity - Advancing Data Center Construction Canada 2026",
-      "body_preview": "Hi Dave,\r\n\r\nI hope your week is rounding off well! Are you available Monday morning for a quick call to discuss our inaugural Advancing Data Centre Construction Canada summit (Oct 26-28, Calgary, AB)?\r\n\r\nI'd love to hear your thoughts on how this agenda s",
-      "received": "2026-04-10T07:43:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5m%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHdhL3j600nqqlAL0nQq8HY=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 5,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Reece Cooksey from Hanson Wade is following up on a previous speaker opportunity discussion for their inaugural Advancing Data Centre Construction Canada summit (Oct 26-28, Calgary). He's requesting a call Monday morning to discuss agenda and Dave's potential involvement.",
-      "ai_action": "France to confirm Dave's Monday morning availability and brief him on the summit scope before the call. Assess if this is a strategic speaking opportunity or panel fit for Galaxy's profile in North American markets.",
-      "ai_next_steps": [
-        "Check Dave's Monday calendar and reply to Reece with availability",
-        "Research Hanson Wade's event track record and attendee profile for this inaugural summit",
-        "Determine if Canada data center market aligns with Galaxy's current expansion strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "dse_na4@docusign.net",
       "sender_name": "Paul Leong via Docusign",
       "subject": "Complete with Docusign: GCP LLC Operating Agreement Amendment.docx",
@@ -2791,70 +2849,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "fional@digitalrealty.com",
-      "sender_name": "Fiona Leon",
-      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Paul\r\n\r\nPlease find the Commercial MSA attached, its not been executed by you as yet\r\n\r\nKind regards\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales\r\nMob: 07557 268924\r\n60 London Wall, London, EC2M 5TQ\r\n\r\n\r\n\r\n\r\n\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.com>",
-      "received": "2026-04-09T09:55:16Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Fiona Leon]",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "Tier 1: digitalrealty.com",
-        "Pipeline: fiona leon",
-        "KW: lease",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is following up on the Galaxy/DRT partnership agreement regarding Cloud House deployment. She has sent over the Commercial Master Service Agreement (MSA) that requires Galaxy's execution signature to move forward with the partnership.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Paul or France review the attached Commercial MSA for terms, obligations, and any required modifications before signing",
-        "Confirm timelines and dependencies with Digital Realty regarding Cloud House deployment to ensure alignment with Galaxy's roadmap",
-        "Execute and return the signed MSA to Fiona Leon to activate the partnership agreement"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "muckle-1411@firmexpostmaster.com",
-      "sender_name": "Muckle (Firmex)",
-      "subject": "Sale of Town End Farm - There is new Document activity",
-      "body_preview": "1 new document is available in the Sale of Town End Farm Project, powered by Firmex. Please do not reply to this message.\r\nPlease log in to view your documents.\r\n\r\nProject: Sale of Town End Farm\r\n\r\nPlanning - Industrial Development\r\nConsent and S.106\r\nDec",
-      "received": "2026-04-09T08:01:06Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC-aBmW7cZBGuFWn7ZZOwRs=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: lease, power"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Firmex document management notification for 'Sale of Town End Farm' project with planning/industrial development consent documents. This appears to be a real estate transaction with regulatory components (S.106 agreement) that could be relevant to Galaxy's UK data center operations or land acquisition.",
-      "ai_action": "Dave should log into Firmex to review the new document. Confirm with France/deal team if this relates to an active Galaxy acquisition or development project.",
-      "ai_next_steps": [
-        "Log into Firmex portal to view the new document in Sale of Town End Farm project",
-        "Clarify with France/deal ops if Town End Farm is a Galaxy prospect or related asset",
-        "If relevant: review planning consent and S.106 terms for potential impact on data center development"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
