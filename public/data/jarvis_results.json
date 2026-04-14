@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-14T09:14:20.056856+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 2,
-  "ai": 9,
+  "timestamp": "2026-04-14T10:59:22.639417+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "mail@redhilldatacentre.com",
+      "sender_name": "Svetlana",
+      "subject": "New Message From Redhill Data Centre",
+      "body_preview": "Svetlana\r\n01933654828\r\nS.Tauteriene@electro-engineering.co.uk\r\nElectro Engineering ltd\r\n%%designation%%\r\nContact Sales: Schedule a meeting or tour\r\n\r\n\r\nGood morning,\r\n \r\nWe are Electro Thermal, an engineer led service and part of Electro Engineering Ltd  ",
+      "received": "2026-04-14T10:24:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7iAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALtzrPOW2PlOlwSlKGdpzxQ=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Svetlana from Electro Thermal (part of Electro Engineering Ltd) is reaching out with what appears to be a service offering related to engineering or thermal solutions. The contact is requesting a meeting or tour, suggesting they may be pitching a product or service relevant to data center operations. This could represent a potential vendor partnership or infrastructure solution opportunity for Galaxy Data Centers.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or the business development team clarify what specific services Electro Thermal provides and how they relate to Galaxy's data center operations",
+        "Request a formal proposal or service overview before committing to a meeting or tour",
+        "Determine if this aligns with any current infrastructure needs or vendor evaluation initiatives at Galaxy Data Centers"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "fional@digitalrealty.com",
       "sender_name": "Fiona Leon",
@@ -4055,138 +4087,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "jamie.thirlwall@castleforge.com",
-      "sender_name": "Jamie Thirlwall",
-      "subject": "IDS-Indata Auto-Renewal Notice",
-      "body_preview": "Hi Kirstin & Tom,\r\n\r\nIt's that time of the year again when the IDS-Indata lease gets auto renewed.\r\n\r\nPlease find attached the draft auto renewal notice, with the rent being increased by the required 3% per annum.\r\n\r\nPlease let me know what you require Ki",
-      "received": "2026-04-07T10:45:34Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5h5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJ4wCxTQoblBg342b0kbgrI=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Tier 1: castleforge.com",
-        "KW: nda, lease, renewal",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jamie Thirlwall from Castle Forge is notifying the team that the IDS-Indata lease is up for auto-renewal with a standard 3% annual rent increase. This is a routine lease renewal matter that requires approval and action before the auto-renewal takes effect.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached draft auto-renewal notice and confirm the 3% rent increase is acceptable within Galaxy's budget and operational plans",
-        "Coordinate with Kirstin and Tom to determine any required modifications or approvals needed before accepting the renewal",
-        "Respond to Jamie with Galaxy's decision and any necessary terms adjustments to prevent default auto-renewal"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "akshay.hirani@bcsconsultancy.com",
-      "sender_name": "Akshay Hirani",
-      "subject": "Re: BCS/Galaxy Catch Up",
-      "body_preview": "Adding @Ash Gupta\r\n\r\nHi Ash,\r\n\r\nFollowing our initial chat with Dave, do you have an NDA that we can review and process with our group legal teams.\r\n\r\nThank you\r\n\r\nAkshay Hirani\r\n\u200b\u200b\u200b\u200b\r\nTeam Lead\r\nAkshay.Hirani@bcsconsultancy.com\r\n\r\n\r\nBCS\r\n\u200b41 Eastcheap,",
-      "received": "2026-04-07T10:28:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5h1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANUPDJahlfdPqveKUBohSck=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: bcsconsultancy.com",
-        "KW: nda",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Akshay Hirani from BCS Consultancy is requesting an NDA to move forward discussions with Galaxy following an initial conversation with Dave. This is a standard legal gating step that indicates BCS is serious about proceeding with potential business discussions and needs proper confidentiality protections in place before sharing sensitive information.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or legal counsel send Galaxy's standard NDA template to Akshay and Ash Gupta for BCS's legal team to review",
-        "Clarify the scope of discussions BCS wants to cover under the NDA to ensure our template addresses their needs",
-        "Schedule a follow-up call with Akshay once legal teams exchange the NDA to accelerate execution"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "postmaster@castleforge.com",
-      "sender_name": "Microsoft Outlook",
-      "subject": "Notification: Redhill - April '26 IPD Reporting Pack",
-      "body_preview": "Do not open these types of files\u2014unless you were expecting them\u2014because the files may contain malicious code and knowing the sender isn't a guarantee of safety. This email may have been quarantined and may require manual release. Please contact IT for any",
-      "received": "2026-04-07T09:28:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK0ZUCtHVndChcI02Djd51I=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: castleforge.com",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a security warning from Microsoft Outlook (routed through castleforge.com) regarding a suspicious email attachment related to an April 2026 IPD reporting pack for Redhill. The message was flagged as potentially malicious and quarantined, indicating a possible phishing or malware attempt targeting Galaxy's systems.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Contact Galaxy's IT security team immediately to confirm whether this email was legitimately expected and to verify the sender's authenticity",
-        "Do not open or release the attachment until IT completes a full security scan and validates the sender",
-        "Review recent communications with Redhill or any April 2026 reporting obligations to determine if this could be a spoofed legitimate business email"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "josh.scammell@simmons-simmons.com",
-      "sender_name": "Josh Scammell",
-      "subject": "RE: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Dave,\r\n\r\nThank you for sending this through.\r\n\r\nWe have passed this on to Neil Wesward from our Digital Business team who is dealing with this one. He will come back to you directly with any comments.\r\n\r\nMany thanks\r\nJosh\r\n\r\nJosh Scammell\r\nAssociate, R",
-      "received": "2026-04-07T09:21:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5hqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC1x1oKepJtNiKG4y4tSB1o=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "VIP: simmons-simmons.com",
-        "KW: introducer, introduce",
-        "Broker signal",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Josh Scammell from Simmons & Simmons law firm is acknowledging receipt of an introducer agreement and routing it to Neil Wesward in their Digital Business team for review and feedback. This matters because it indicates Galaxy's legal documentation is now under active review by the client's counsel, and timely feedback from their specialist will be critical to closing this transaction.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Anticipate Neil Wesward's comments and prepare Galaxy's position on any potential legal issues or deal terms",
-        "Set a follow-up timeline with Neil Wesward directly to ensure review doesn't stall",
-        "Brief France on the handoff and establish clear accountability for managing the legal review process"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 127
+  "total_tracked": 124
 }
