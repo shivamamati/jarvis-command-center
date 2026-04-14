@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-14T10:59:22.639417+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 5,
-  "ai": 4,
+  "timestamp": "2026-04-14T12:02:33.904663+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 9,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 61,
   "items": [
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Leasing update for Board Call on 15 April attached",
+      "body_preview": "Tj Karklins\r\n\r\nSenior Advisor & CRO\r\n\r\nE: tj@galaxydatacenters.com\r\nP: +1 (303) 884-1306\r\nW: galaxydatacenters.com\r\n\r\n  LinkedIn\r\n  WhatsApp",
+      "received": "2026-04-14T11:48:54Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7mAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABHl_kSlGZxBoseAE9aUA5w=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 10x (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 deal/customer related",
+        "KW: board",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Tj Karklins, Senior Advisor and Chief Risk Officer at Galaxy Data Centers, is providing a leasing update that needs to be prepared for the Board call scheduled for April 15th. This briefing material is critical for presenting the company's real estate and occupancy metrics to the Board, directly impacting how stakeholders perceive Galaxy's operational performance and growth trajectory.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached leasing update document and identify key metrics (occupancy rates, new leases, pipeline deals) for Board presentation",
+        "Coordinate with Tj to confirm talking points and Q&A preparation for the April 15th Board call",
+        "Ensure any material risks or exceptional items in the leasing update are highlighted for Dave's remarks"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "mail@redhilldatacentre.com",
       "sender_name": "Svetlana",
@@ -29,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Svetlana from Electro Thermal (part of Electro Engineering Ltd) is reaching out with what appears to be a service offering related to engineering or thermal solutions. The contact is requesting a meeting or tour, suggesting they may be pitching a product or service relevant to data center operations. This could represent a potential vendor partnership or infrastructure solution opportunity for Galaxy Data Centers.",
+      "ai_summary": "Svetlana from Electro Thermal (part of Electro Engineering Ltd) is reaching out as a potential service provider or partner, likely offering engineering or thermal management solutions relevant to data center operations. They're seeking to schedule a meeting or tour to discuss potential business opportunities with Galaxy. This represents a possible vendor relationship or operational partnership that could impact Galaxy's data center infrastructure capabilities or efficiency.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France or the business development team clarify what specific services Electro Thermal provides and how they relate to Galaxy's data center operations",
-        "Request a formal proposal or service overview before committing to a meeting or tour",
-        "Determine if this aligns with any current infrastructure needs or vendor evaluation initiatives at Galaxy Data Centers"
+        "Have France or business development team research Electro Thermal's service offerings and determine strategic fit with Galaxy's current infrastructure needs",
+        "Schedule an exploratory call with Svetlana to understand their specific capabilities and what they're proposing",
+        "If relevant, coordinate a facility tour with one of Galaxy's data centers to assess potential value-add"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -4055,37 +4090,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ekearney@travelers.com",
-      "sender_name": "Kearney, Emma",
-      "subject": "RE: Travelers Monthly Operations Meeting",
-      "body_preview": "Hi Colin could we pls move to 1:00 p.m. to add in an American colleague.\r\n\r\n\r\n\r\n\r\n\r\n\r\nEmma\r\n\r\n\r\nEmma Kearney | Senior Director - Corporate Real Estate and Services | Europe\r\nTravelers\r\n9th floor, 30 Fenchurch Street | London, EC3M 3BD\r\n\r\nM: +44 (0)7501 22",
-      "received": "2026-04-07T11:08:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5h8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPcIgE539HRGlb_QCInChL4=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: travelers.com",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Emma Kearney, Senior Director of Corporate Real Estate and Services at Travelers' London office, is requesting to reschedule the monthly operations meeting to 1:00 p.m. to accommodate an American colleague's time zone. This suggests Travelers is coordinating cross-Atlantic real estate or facilities discussions that likely impact Galaxy's service delivery or operational planning for their account.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the new 1:00 p.m. meeting time with Colin and Galaxy's team to ensure alignment with our calendar",
-        "Clarify the agenda items and whether this American colleague brings new requirements or changes to Travelers' infrastructure or data center needs",
-        "Prepare any relevant updates on Galaxy's service metrics or upcoming initiatives for the European office to discuss"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     }
   ],
