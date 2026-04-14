@@ -1,13 +1,144 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-14T14:49:44.331569+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 10,
-  "ai": 13,
+  "timestamp": "2026-04-14T16:05:44.385004+00:00",
+  "total": 23,
+  "new": 23,
+  "noise": 14,
+  "ai": 22,
   "skipped": 0,
-  "auto_learned": 58,
+  "auto_learned": 57,
   "items": [
+    {
+      "sender_email": "jayan.patel@castleforge.com",
+      "sender_name": "Jayan Patel",
+      "subject": "RE: Redhill - April '26 IPD Reporting Pack",
+      "body_preview": "@Pelle Jorgen FYI the compliance certificate came through yesterday. Attached for good order.\r\n\r\nJayan Patel\r\nO: +44 203 846 1671\r\nE: jayan.patel@castleforge.com\r\n\r\nFrom: Paul Leong <paul@galaxycapitalpartners.com>\r\nSent: 14 April 2026 17:00\r\nTo: Pelle Jo",
+      "received": "2026-04-14T16:03:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR8NAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHoO6lbLZztAukZmUvRSMEA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Tier 1: castleforge.com",
+        "KW: capital",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Jayan Patel from Castle Forge is notifying Pelle Jorgen that a required compliance certificate for the Redhill April 2026 IPD reporting has been received and is being shared for documentation purposes. This is a routine compliance milestone for an ongoing data center or infrastructure project reporting requirement. Timely compliance certification ensures Galaxy can meet regulatory and reporting obligations for this asset.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or relevant compliance team review the attached certificate to confirm it meets all requirements for the April IPD reporting pack",
+        "Confirm receipt with Jayan and verify the certificate is properly filed in the project documentation system for audit trail purposes",
+        "Confirm the Redhill reporting pack can proceed to completion on schedule with this compliance item now satisfied"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "sai@solarisstrategiesinc.com",
+      "sender_name": "Sai Raman",
+      "subject": "Price list: Individual Tax Return 2025 || Sairam",
+      "body_preview": "Sharing if helpful\r\n\r\n---------- Forwarded message ---------\r\nFrom: Udit Gupta <udit@taxccount.com>\r\nDate: Tue, Apr 14, 2026, 11:09\u202fa.m.\r\nSubject: Individual Tax Return 2025 || Sairam\r\nTo: <sai@solarisstrategiesinc.com>\r\nCc: Abhinav Gupta <abhinav@taxccou",
+      "received": "2026-04-14T16:01:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR8MAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFx5Rrm4o-lCra5AFsug8Cg=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Attachments from known (+1)",
+        "Tier 2: solarisstrategiesinc.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman from Solaris Strategies is forwarding a tax service price list from TaxCCount (a third-party tax preparation vendor) regarding 2025 individual tax returns. This appears to be informational sharing rather than a direct request, but may indicate Solaris or an associated entity is evaluating tax filing services for individuals. Without clear business context, the relevance to Galaxy's data center and capital operations is unclear and requires clarification.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should ask France or Sai directly why this tax service pricing was shared and whether Galaxy has any relationship or engagement with Solaris Strategies or TaxCCount",
+        "Confirm if this relates to Galaxy employee benefits, portfolio company services, or a business development opportunity that requires follow-up",
+        "If not relevant to Galaxy's operations, file or discard to maintain inbox hygiene"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "ash@galaxydatacenters.com",
+      "sender_name": "Ash Gupta",
+      "subject": "Re: Leasing update for Board Call on 15 April attached",
+      "body_preview": "Attached please find the April Key Actions slides.\r\n\r\nCheers,\r\n-Ash\r\n________________________________\r\nFrom: Jamie Thirlwall <jamie.thirlwall@castleforge.com>\r\nSent: Tuesday, April 14, 2026 9:56 AM\r\nTo: Ash Gupta <ash@galaxydatacenters.com>; Tj Karklins <",
+      "received": "2026-04-14T15:13:41Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR8BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABHl_kSlGZxBoseAE9aUA5w=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 17x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, board",
+        "4 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ash Gupta is forwarding the April Key Actions presentation slides that were requested for Dave's board call on April 15th. The slides appear to be a leasing update summary prepared for board discussion. This is a time-sensitive delivery needed for tomorrow's board meeting.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the April Key Actions slides before the April 15th board call to familiarize yourself with key leasing metrics and talking points",
+        "Confirm receipt of the slides and identify any gaps or additional data points needed before presenting to the board",
+        "Brief France on the leasing update content if she will be participating in or supporting the board call"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "events@jsa.net",
+      "sender_name": "JSA Events",
+      "subject": "Be a part of the Greener Data Exchange Volume 3 Launch at ITW",
+      "body_preview": "Secure an exclusive sponsorship before it's too late\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f",
+      "received": "2026-04-14T15:02:01Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAY%2BI76PAAAuilH2jaEmTaBeWRekOs%2B0AAaFwXvYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHPQmeQDwn5KvU6mRuvHmF8=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: jsa.net"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "JSA Events is promoting a sponsorship opportunity for the Greener Data Exchange Volume 3 Launch at an industry conference (ITW). They're seeking Galaxy Capital/Galaxy Data Centers to secure an exclusive sponsorship spot before availability closes. This aligns with the data center and sustainability focus of Galaxy's business, offering brand visibility and networking within the green infrastructure market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Forward to France with sponsorship cost/details and ask if this fits Galaxy's marketing budget and strategic conference calendar for the year",
+        "Request more specifics from JSA Events on sponsorship tiers, benefits, and audience demographics to assess ROI",
+        "Determine if Galaxy wants speaking or exhibit presence at this event given its sustainability positioning"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
@@ -23,19 +154,19 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 5x (+2)",
+        "Dave replied 4x (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Mahati Dharanipathi from Wharton is a prospective intern candidate who has confirmed availability for a meeting with Galaxy on Friday at 4:00 PM ET. France is moving forward with scheduling this campus recruiting conversation. This represents an opportunity to engage a talented Penn student for potential internship placement at Galaxy Data Centers.",
+      "ai_summary": "Mahati Dharanipathi from Wharton is following up on internship opportunities with Galaxy and has proposed a meeting time. France has confirmed Friday at 4:00 PM ET to discuss further, indicating Galaxy has interest in engaging with this candidate or broader Wharton recruitment efforts.",
       "ai_action": null,
       "ai_next_steps": [
-        "Send calendar invite to Mahati for Friday 4:00 PM ET with meeting details and any pre-call materials",
-        "Prepare internship program overview and role descriptions relevant to Galaxy's data center operations",
-        "Confirm with Dave if he needs a briefing on this candidate before the call or if France will handle the initial screening"
+        "France should send the calendar invite to Mahati for Friday 4:00 PM ET and include any relevant internship program details or interview logistics",
+        "Dave should review Galaxy's current internship needs and position requirements to prepare talking points before the meeting",
+        "Confirm whether this is part of a broader Wharton recruiting relationship or a one-off candidate inquiry to determine appropriate scope and follow-up"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -106,41 +237,6 @@
         "Review the attached change freeze calendar and isolation test dates to identify any conflicts with Galaxy's scheduled operations or client commitments at 1 Angel Lane",
         "Coordinate with France to confirm Galaxy's ability to comply with Nomura's maintenance windows and adjust internal operational schedules if needed",
         "Confirm receipt with Chris Turner and flag any scheduling concerns or resource constraints immediately"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Leasing update for Board Call on 15 April attached",
-      "body_preview": "Tj Karklins\r\n\r\nSenior Advisor & CRO\r\n\r\nE: tj@galaxydatacenters.com\r\nP: +1 (303) 884-1306\r\nW: galaxydatacenters.com\r\n\r\n  LinkedIn\r\n  WhatsApp",
-      "received": "2026-04-14T11:48:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7mAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABHl_kSlGZxBoseAE9aUA5w=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 10x (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 deal/customer related",
-        "KW: board",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Tj Karklins, Senior Advisor and Chief Risk Officer at Galaxy Data Centers, is providing a leasing update that needs to be prepared for the Board call scheduled for April 15th. This briefing material is critical for presenting the company's real estate and occupancy metrics to the Board, directly impacting how stakeholders perceive Galaxy's operational performance and growth trajectory.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached leasing update document and identify key metrics (occupancy rates, new leases, pipeline deals) for Board presentation",
-        "Coordinate with Tj to confirm talking points and Q&A preparation for the April 15th Board call",
-        "Ensure any material risks or exceptional items in the leasing update are highlighted for Dave's remarks"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -970,38 +1066,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "jamie.thirlwall@castleforge.com",
-      "sender_name": "Jamie Thirlwall",
-      "subject": "Re: Redhill - April '26 IPD Reporting Pack",
-      "body_preview": "Hi Jayan,\r\n\r\nTata are the main downward driver, reducing the annual PR by \u00a3521k, but this is mitigated by a genuine increase in the PR by the new Arm agreement, which increases the PR by c.\u00a3250k.\r\n\r\nThere are several other small, immaterial movements, wit",
-      "received": "2026-04-13T13:38:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHoO6lbLZztAukZmUvRSMEA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jamie Thirlwall from Castle Forge is providing a financial update on the Redhill property's April 2026 IPD reporting, indicating that Tata's tenant reduction is creating a significant \u00a3521k annual profit rent headwind, partially offset by a new Arm tenant agreement adding approximately \u00a3250k in annual profit rent. This represents a material net decline of roughly \u00a3271k in annual income from this Galaxy asset that requires attention for financial forecasting and tenant diversification strategy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the complete Redhill IPD reporting pack from Jamie to review all tenant movements and validate the net profit rent impact on Q2 2026 financial projections",
-        "Schedule a call with the Redhill asset management team to discuss tenant retention strategy and identify potential replacement tenants for the Tata space",
-        "Assess whether the Arm agreement terms (lease length, credit quality, renewal options) adequately mitigate the Tata loss and inform capital allocation decisions"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -3864,66 +3928,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ethan@zendoenergy.com",
-      "sender_name": "Ethan OBrien",
-      "subject": "Re: You're invited: Private dinner, London \u2014 23rd April",
-      "body_preview": "Hi Ash, Dave,\r\n\r\nHope you both had a great Easter break.\r\n\r\nI just wanted to follow up on the dinner invitation I sent two weeks ago\u2014we'd genuinely love to have you there.\r\n\r\nTo be clear, the evening is not a sales pitch. It's a small, relaxed dinner with",
-      "received": "2026-04-07T15:09:34Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5iiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH-D0HJv4ttBlTWLo9OK_3c=",
-      "rules_score": 3,
-      "rules_label": "NOTABLE",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [],
-      "ai_reviewed": true,
-      "ai_score": 6,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Ethan O'Brien from Zendo Energy is following up on a previous dinner invitation for April 23rd in London. This appears to be a relationship-building event (not a sales pitch) with a small group. Dave had apparently received and presumably accepted or acknowledged the initial invite two weeks ago.",
-      "ai_action": "Confirm attendance or politely decline if scheduling conflict. Brief France on the dinner context and attendees if Dave plans to attend.",
-      "ai_next_steps": [
-        "Check Dave's calendar for April 23rd availability",
-        "If attending, ask Ethan for guest list and dinner focus/agenda",
-        "Determine if this aligns with Galaxy's energy/data center infrastructure interests"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Assessments & Scheduling",
-      "body_preview": "Jodie, Tuesday at 3:00 PM ET works well for me.\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFro",
-      "received": "2026-04-07T15:08:14Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADGgcSr1PtxLp6SSwwb8wZk=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is Dave's confirmation reply to Jodie accepting a meeting request for Tuesday at 3:00 PM ET regarding assessments and scheduling. The message is a simple calendar confirmation with no additional context or special requests provided.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the Tuesday 3:00 PM ET meeting with Jodie and send calendar invite",
-        "Prepare any assessment materials or agenda items needed for the meeting",
-        "Brief France on the meeting topic and outcomes if follow-up action is required"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ],
   "total_tracked": 119

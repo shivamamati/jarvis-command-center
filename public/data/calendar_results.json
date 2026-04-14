@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-14T14:48:03.345083+00:00",
+  "timestamp": "2026-04-14T16:04:33.108915+00:00",
   "events": [
     {
       "subject": "Mtg. Dave - Amit - IRA Application ",
@@ -58,16 +58,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GpAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Dr Abdul Shaheed ",
-      "start": "2026-04-14T16:45:00.0000000",
-      "end": "2026-04-14T17:45:00.0000000",
-      "attendees": [],
-      "organizer": "Dave Misra",
-      "location": "",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIaAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Video appointment with Dr. Rami Abdelshaheed at Oakville Respirology",
