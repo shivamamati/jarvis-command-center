@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-14T21:46:46.405908+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 8,
+  "timestamp": "2026-04-14T22:41:34.654838+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 9,
   "ai": 5,
   "skipped": 0,
   "auto_learned": 55,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Your Response from BA Customer Relations",
+      "body_preview": "Dear Abulhasan,\r\n\r\nThank you for your email. Please find the requested bank account details below to settle case reference 11350642:\r\n\r\n\r\n  *\r\nAccount holder name: Mr. Satyam Devesh Misra\r\n  *\r\nBank name: TD Canada Trust\r\n  *\r\nBranch name: Mississauga (20",
+      "received": "2026-04-14T22:33:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70afAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFk2Tffcd1hLk65b9aoV2Xo=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a fraudulent or compromised email where someone is impersonating Dave Misra and providing bank account details (allegedly belonging to Satyam Devesh Misra at TD Canada Trust) to settle a case reference. This is a critical security concern as it involves potential financial fraud, unauthorized use of Dave's email identity, and risk of unauthorized fund transfers.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Immediately verify with Dave Misra whether he actually sent this email and authorized sharing of any bank account information",
+        "Contact TD Canada Trust and the account holder to alert them of potential fraudulent activity and freeze/monitor the referenced account",
+        "Conduct a security audit of Dave's email account for unauthorized access and review recent sent items for other suspicious communications"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "hit-reply@linkedin.com",
       "sender_name": "Gavin Adamson",
@@ -1493,39 +1526,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Your Response from BA Customer Relations",
-      "body_preview": "Dear British Airways Customer Relations,\r\n\r\n\r\nThank you for your response.\r\n\r\n\r\nPlease find attached a clear image of the photo page of the passport used to check in for the flight, provided for identity verification in relation to case reference 11350642",
-      "received": "2026-04-12T17:41:13Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPJtPc-G1r1OpoqTScUtIfc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a personal matter unrelated to Galaxy's business operations\u2014Dave is corresponding with British Airways Customer Relations regarding a flight issue, submitting passport documentation for identity verification on a case reference number.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm this email was sent to the correct recipient and wasn't misdirected to a Galaxy business account",
-        "If this is Dave's personal matter, consider using a personal email account for future BA correspondence to maintain separation from business communications"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "sai@galaxydatacenters.com",
@@ -3791,41 +3791,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "faye.p@queensu.ca",
-      "sender_name": "Faye Pan",
-      "subject": "Re: Revised Docklands Model",
-      "body_preview": "Hi Dave,\r\n\r\nI reviewed the materials I have and mapped what is already covered versus what is still missing for the Docklands deck.\r\n\r\nTo complete the presentation in the Redhill CIM format, and to pull together the valuation section, could you please sen",
-      "received": "2026-04-07T21:52:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5jTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM5VLmI7HgpKr6Rt26O-7sY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 11x (+4)",
-        "KW: lease",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Faye Pan is working on the Docklands presentation deck in Redhill CIM format and needs additional materials from Dave to complete the valuation section. This appears to be an active deal prep task requiring Dave's direct input.",
-      "ai_action": "Dave should respond immediately with the missing materials Faye is requesting (email appears truncated\u2014follow up to confirm what she needs).",
-      "ai_next_steps": [
-        "Confirm what specific materials/data Faye needs for the valuation section",
-        "Gather and send requested documents to Faye",
-        "Coordinate timeline for deck completion"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 116
+  "total_tracked": 115
 }
