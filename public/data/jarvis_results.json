@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-15T21:48:13.488985+00:00",
-  "total": 15,
-  "new": 15,
-  "noise": 13,
-  "ai": 13,
+  "timestamp": "2026-04-15T22:38:43.895406+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 11,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 56,
   "items": [
@@ -18,7 +18,7 @@
       "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
-      "rules_score": 10,
+      "rules_score": 9,
       "rules_label": "CRITICAL",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
@@ -26,21 +26,20 @@
         "Attachments + deal KW (+2)",
         "Internal \u2014 deal/customer related",
         "KW: lease",
-        "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Ritesh Daswani from Avtar Corp has sent Form 8878 (the IRS form for net unrealized appreciation elections on employee stock) for Dave's review and execution. Dave has now returned the executed form and acknowledges understanding the final balance terms. This appears to be routine tax preparation documentation related to Galaxy's 2025 tax filing and equity compensation planning.",
+      "ai_summary": "Ritesh Daswani from Avtar Corp has sent Dave a Form 8878 (related to tax preparation services) requiring review and authorization. Dave has now executed and returned the form, and acknowledges understanding a final balance payment obligation. This appears to be routine tax compliance documentation for Galaxy's 2025 tax year preparation.",
       "ai_action": null,
       "ai_next_steps": [
-        "File the executed Form 8878 with tax authorities or retain it in Galaxy's tax records per Ritesh's instructions",
-        "Confirm final balance payment amount with accounting/Ritesh to ensure timely settlement",
-        "Follow up with Ritesh to confirm receipt and completion of the 2025 tax preparation agreement"
+        "File the executed Form 8878 in Galaxy's tax records and confirm receipt with Ritesh",
+        "Clarify the final balance amount and payment terms with Ritesh or France to ensure timely payment processing",
+        "Coordinate with Finance to schedule payment and close out the 2025 tax preparation engagement"
       ],
       "ai_failed": false,
-      "final_score": 10,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
