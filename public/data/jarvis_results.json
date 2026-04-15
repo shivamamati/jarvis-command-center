@@ -1,13 +1,149 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-15T18:08:28.206019+00:00",
-  "total": 9,
-  "new": 9,
+  "timestamp": "2026-04-15T20:01:24.302620+00:00",
+  "total": 11,
+  "new": 11,
   "noise": 5,
-  "ai": 7,
+  "ai": 10,
   "skipped": 0,
-  "auto_learned": 56,
+  "auto_learned": 57,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: How many \u201cpower\u2011ready\u201d data center sites actually exist?",
+      "body_preview": "Ash@galaxydatacenters.com\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Kristina McAuliffe ",
+      "received": "2026-04-15T19:22:06Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70apAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALgJKMXmb3pLtJtFoadfpxk=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: power, data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be Dave's own email signature and contact information rather than an incoming message requiring a briefing. The email shows Dave Misra's details as Managing Partner of Galaxy Data Centers but contains no substantive communication from an external party to analyze.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify if there is an actual incoming email from Kristina McAuliffe that was intended to be analyzed",
+        "If this was a test, confirm the correct email thread or message to brief on"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "CDW Lease Variance",
+      "body_preview": "Gentlemen,\r\n\r\nI am checking in on the CDW lease variance draft we discussed last week on our  call. We are hoping to provide this to CDW this week. Again, this was for a 3-year renewal and a single 2-year extension at the end of the 3 years. We also have ",
+      "received": "2026-04-15T18:57:23Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR96AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAD99ObrXwSRKmSsDS8SPz14=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 10x (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, renewal",
+        "Lease + customer",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins is following up on a pending lease variance document for CDW that was discussed in a recent call. The document covers a 3-year renewal with a single 2-year extension option and needs to be delivered to CDW this week to keep the deal on track.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the CDW lease variance draft is finalized and ready for delivery by end of week",
+        "Verify the 3-year renewal and 2-year extension terms are correctly reflected in the final document",
+        "Assign responsibility for CDW delivery and confirm receipt timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: 2025 Tax Preparation Services Agreement and Tax Checklist ",
+      "body_preview": "Ritesh, apparently they did have this for the 2024 return.\r\n\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Wednesday, April 15, 2026 at 2:39\u202fPM\r\nTo: ritesh.daswani@avtarcorp.com <ritesh.daswani@avtarcorp.com>, Ash Gupta <ash@galaxycapitalpartners.",
+      "received": "2026-04-15T18:55:46Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is responding to Ritesh regarding tax preparation services for 2025, noting that their tax service provider apparently retained documentation from the 2024 return. This clarification is important for understanding what materials are already on file and what additional documentation Galaxy needs to prepare for the upcoming tax season.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Dave confirm which 2024 tax documents the provider retained so Galaxy doesn't duplicate efforts",
+        "Have Ritesh coordinate with the tax service provider to obtain a complete inventory of 2024 files and identify any gaps for 2025 preparation",
+        "Determine if Galaxy needs to submit the 2025 Tax Checklist or if the provider's existing records satisfy compliance requirements"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: [time sensitive] Data Center World Panel",
+      "body_preview": "Hey Candace, unfortunately TJ has declined. I am happy to write to Christopher if you think that is appropriate. I am so sorry about this.\r\n\r\nDave\r\n\r\n\r\nFrom: Candace Sipos <candace@jsa.net>\r\nDate: Wednesday, April 15, 2026 at 8:28\u202fAM\r\nTo: Dave Misra <dave",
+      "received": "2026-04-15T18:48:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70anAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPECejmuWthKu3hNQbYXV4w=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, data cent",
+        "Urgency: time sensitive (+1)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is coordinating a Data Center World panel and had requested TJ (likely a Galaxy executive) as a speaker, but TJ has declined participation. Dave is offering to reach out to Christopher as an alternative panelist to fulfill the speaking commitment for what appears to be a time-sensitive industry event.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Candace whether Christopher is an appropriate alternative speaker and obtain his availability before extending the invitation",
+        "Coordinate with Christopher immediately to brief him on panel topic, timing, and expected audience given the time-sensitive nature",
+        "Follow up with Candace with Christopher's confirmation and any required speaker details (bio, headshot, presentation outline) for the event"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -201,39 +337,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "[time sensitive] Data Center World Panel",
-      "body_preview": "Good morning TJ!\r\n\r\nSorry to bug you \u2014 have you had a chance to decide whether you can make it to the Data Center World panel on Monday afternoon in DC? I've included the details below.\r\n\r\nIf not, we'll go ahead and ask a few folks within the JSA network ",
-      "received": "2026-04-15T12:28:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9iAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPECejmuWthKu3hNQbYXV4w=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda, data cent",
-        "Urgency: time sensitive (+1)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is requesting urgent confirmation of participation in a Data Center World panel scheduled for Monday afternoon in Washington DC. She needs a timely response to finalize the speaker lineup, otherwise she'll approach other candidates from her network. This is a public speaking opportunity that could provide visibility for Galaxy in the industry.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should confirm availability for the Monday DC panel by end of business today and reply directly to Candace",
-        "If Dave cannot attend, identify an alternative Galaxy executive who could represent the company and have them contact Candace immediately",
-        "Clarify the panel topic, timing, audience size, and any prep materials needed before Monday to ensure effective participation"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "faye.p@queensu.ca",
@@ -1184,36 +1287,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "kristina.mcauliffe@orennia.com",
-      "sender_name": "Kristina McAuliffe",
-      "subject": "Re: How many \u201cpower\u2011ready\u201d data center sites actually exist?",
-      "body_preview": "Dave,\r\n\r\nOne broader signal we\u2019re watching is how hyperscalers are responding when grid uncertainty becomes the gating factor.\r\n\r\nGoogle\u2019s $4.75B acquisition of Intersect Power was less about generation margins and more about time to power and certainty. ",
-      "received": "2026-04-13T18:09:22Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6wAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALgJKMXmb3pLtJtFoadfpxk=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: power, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 6,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Kristina McAuliffe from Orennia is continuing a conversation about power-ready data center availability and sharing strategic intelligence on hyperscaler behavior. She's flagging that hyperscalers (specifically Google's Intersect Power deal) are prioritizing power certainty over generation margins\u2014directly relevant to Galaxy's strategy around power-constrained sites like Redhill and Poland 260MW.",
-      "ai_action": "Dave should engage with Kristina on this thread. This is market intelligence that informs Galaxy's positioning on power solutions and could influence deal strategy on supply-constrained prospects.",
-      "ai_next_steps": [
-        "Reply to Kristina asking for her latest data on European power-ready sites and hyperscaler strategies",
-        "Flag insights about hyperscaler power priorities for the Poland 260MW and TechRE 18MW deals",
-        "Determine if Orennia has advisory or commercial capacity that could support Galaxy's power strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "FW: Laura Meltez <> Dave Misra ",
@@ -2079,39 +2152,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "ritesh.daswani@avtarcorp.com",
-      "sender_name": "ritesh.daswani@avtarcorp.com",
-      "subject": "RE: 2025 Tax Preparation Services Agreement and Tax Checklist ",
-      "body_preview": "Dear Dave\r\n\r\nAs requested, and also because you had a difference in total distributions received by you vs Galaxy\u2019s books of accounts, I have listed below the distribution transaction summary for your reference and reconciliation.\r\n\r\n\r\nPlease let me know ",
-      "received": "2026-04-11T12:45:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5oYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "Attachments + deal KW (+2)",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Ritesh Daswani from Avtar Corp is responding to Dave's request about tax preparation services and has identified a discrepancy between Dave's personal distributions and Galaxy's accounting records. This requires Dave's attention for reconciliation and tax filing accuracy.",
-      "ai_action": "Dave should review the distribution transaction summary provided, reconcile his records with Galaxy's books, and respond to Ritesh with any questions before tax deadline.",
-      "ai_next_steps": [
-        "Review distribution summary from Ritesh for accuracy",
-        "Reconcile personal distribution records against Galaxy's accounting records",
-        "Identify source of discrepancy (if material)",
-        "Respond to Ritesh with confirmation or clarifications needed"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3689,39 +3729,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: houston energy - Galaxy Capital Partners",
-      "body_preview": "Hi Todd \u2014 we are focused on digital infrastructure, and this is not within our thesis.\r\n\r\n\r\n________________________________\r\nFrom: Todd Lodel <toddlodel.tl@globalenergycapitalgroup.com>\r\nSent: Wednesday, April 8, 2026 12:55:31 PM\r\nTo: Dave Misra <dave@ga",
-      "received": "2026-04-08T18:16:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTflAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMqIle_FS6ZLgoYvhDIxIVc=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Todd Lodel from Global Energy Capital Group approached Dave about a Houston energy opportunity. Dave has declined, clarifying that Galaxy Capital Partners' investment focus is on digital infrastructure rather than energy sector investments.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "File or archive this outreach for future reference in case energy infrastructure pivots arise",
-        "Consider a polite follow-up to Todd explaining Galaxy's digital infrastructure thesis to maintain the relationship",
-        "Document this decline to help screen similar energy sector pitches"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 113
