@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-15T20:01:24.302620+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 5,
-  "ai": 10,
+  "timestamp": "2026-04-15T21:48:13.488985+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 13,
+  "ai": 13,
   "skipped": 0,
-  "auto_learned": 57,
+  "auto_learned": 56,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re:  2025 Tax Preparation Services Agreement and Tax Checklist",
+      "body_preview": "Ritesh, please find the executed Form 8878 attached. Understood on the final balance.\r\n\r\nDave\r\n\r\n\r\nOn Wed, Apr 15, 2026 at 4:34 PM, Ritesh Daswani <ritesh.daswani@avtarcorp.com> wrote:\r\nHi Dave\r\n\r\nI have attached the Form 8878 for review and authorization",
+      "received": "2026-04-15T20:58:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ritesh Daswani from Avtar Corp has sent Form 8878 (the IRS form for net unrealized appreciation elections on employee stock) for Dave's review and execution. Dave has now returned the executed form and acknowledges understanding the final balance terms. This appears to be routine tax preparation documentation related to Galaxy's 2025 tax filing and equity compensation planning.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "File the executed Form 8878 with tax authorities or retain it in Galaxy's tax records per Ritesh's instructions",
+        "Confirm final balance payment amount with accounting/Ritesh to ensure timely settlement",
+        "Follow up with Ritesh to confirm receipt and completion of the 2025 tax preparation agreement"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -74,40 +109,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: 2025 Tax Preparation Services Agreement and Tax Checklist ",
-      "body_preview": "Ritesh, apparently they did have this for the 2024 return.\r\n\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nDate: Wednesday, April 15, 2026 at 2:39\u202fPM\r\nTo: ritesh.daswani@avtarcorp.com <ritesh.daswani@avtarcorp.com>, Ash Gupta <ash@galaxycapitalpartners.",
-      "received": "2026-04-15T18:55:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is responding to Ritesh regarding tax preparation services for 2025, noting that their tax service provider apparently retained documentation from the 2024 return. This clarification is important for understanding what materials are already on file and what additional documentation Galaxy needs to prepare for the upcoming tax season.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Dave confirm which 2024 tax documents the provider retained so Galaxy doesn't duplicate efforts",
-        "Have Ritesh coordinate with the tax service provider to obtain a complete inventory of 2024 files and identify any gaps for 2025 preparation",
-        "Determine if Galaxy needs to submit the 2025 Tax Checklist or if the provider's existing records satisfy compliance requirements"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -3601,135 +3602,7 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
-      "received": "2026-04-08T20:52:23Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAICF6jbxDb9NkTkEuf5rr0Q=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an automated notification that Dave Misra has been added to the 'GALAXY - Commercial' team in Microsoft Teams, a collaboration platform with 3 members. This appears to be a standard team workspace setup notification with no specific business request or action items embedded in the message itself.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify the team composition and confirm all intended members have been added to GALAXY - Commercial",
-        "Review the team's charter, purpose, and communication norms to ensure alignment with current commercial initiatives",
-        "Check if any preliminary documents, project briefs, or discussion threads are already posted in the team channels"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
-      "received": "2026-04-08T20:52:21Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB_fC3pY0s9MuiSP-eguOuE=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a system notification from Microsoft Teams indicating that Dave Misra has been added to the GALAXY - Commercial team workspace with 3 members. This appears to be a standard team creation notification rather than actionable communication, likely establishing a collaborative channel for Galaxy's commercial operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify team membership and confirm all intended commercial team members have been added",
-        "Set up channel structure and naming conventions (e.g., separate channels for sales, partnerships, deals) to organize commercial discussions",
-        "Establish team guidelines and pin key documents or resources relevant to Galaxy's commercial strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
-      "received": "2026-04-08T20:52:16Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKiDsESi0-1IpwlAK734EaM=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a system notification from Microsoft Teams indicating that Dave Misra has been added to the GALAXY - Commercial team workspace with 3 members. This appears to be an internal Galaxy Capital Partners/Galaxy Data Centers collaboration channel setup rather than an external communication requiring action. The notification confirms team infrastructure is being established for commercial operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify team membership and confirm all intended Galaxy Commercial stakeholders are included",
-        "Review team channel structure and establish naming conventions/guidelines for organization",
-        "Set up initial team documentation or pinned resources outlining the team's purpose and communication protocols"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "You have been added to a team in Microsoft Teams",
-      "body_preview": "Microsoft Teams\r\nDave added you to the GALAXY - Commercial team!\r\n\r\n\r\nGALAXY - Commercial\r\n\r\n        3 members\r\n        Galaxy - Commercial\r\nOpen Microsoft Teams\r\n\r\nBring your team together\r\n\r\nCreate an open, collaborative workspace for your team. Use cha",
-      "received": "2026-04-08T20:52:16Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPubFvu48L5GkNH4Pi5I1WI=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Microsoft Teams has automatically notified you that you've been added to the GALAXY - Commercial team workspace, which currently has 3 members. This appears to be a system notification confirming your access to a new collaborative channel for Galaxy's commercial operations. Ensuring proper team structure and communication infrastructure is foundational for coordinating commercial activities across the organization.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify the team membership list and confirm all intended commercial team members have been added",
-        "Review and establish team guidelines, channel structure, and communication protocols for the GALAXY - Commercial workspace",
-        "Confirm with France or relevant team leads what specific projects or initiatives this team will coordinate"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 113
+  "total_tracked": 109
 }
