@@ -1,13 +1,77 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-15T15:07:11.154865+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 4,
-  "ai": 8,
+  "timestamp": "2026-04-15T16:59:12.464045+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 7,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 57,
   "items": [
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Cloudhouse Cabinet Service Order and MSA [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Paul\r\n\r\nThanks for your email. Are you looking for us to summarise the key terms and suggest any amendments that we recommend, with a view to the Galaxy team negotiating these directly, or do you want us to engage with DR directly and provide detailed ",
+      "received": "2026-04-15T16:54:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR92AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHd0xuG4qA5NqBfb8esvcDs=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) is seeking clarification on how Galaxy wants to proceed with reviewing the Cloudhouse Cabinet Service Order and MSA\u2014specifically whether Galaxy prefers to handle negotiations internally after receiving a legal summary and recommendations, or whether Galaxy wants Simmons & Simmons to engage directly with the counterparty. This clarification is critical to establishing the negotiation approach and timeline for this service agreement.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should decide and communicate Galaxy's preferred engagement model: internal negotiation with legal summary vs. direct legal engagement with counterparty",
+        "Confirm scope, timeline, and any key commercial terms that are non-negotiable for Galaxy's data center operations",
+        "Provide Francis with the complete MSA and service order documents if not already shared, and any existing related agreements for reference"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "loansupport@saltlending.com",
+      "sender_name": "SALT Loan Support",
+      "subject": "Re: Maturing Loan - Action Needed",
+      "body_preview": "Hi Dave,\r\n\r\nThank you for submitting the term extension. Reviewing the application, we found a couple of items that need addressing before we can process your extension.\r\n\r\n  1.  Business Status - Galaxy Canada is listed as dissolved with the Canadian Bus",
+      "received": "2026-04-15T16:45:19Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR91AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADN1HzdBZGlPi4CUA8E6_Ao=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied (+3)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "SALT Lending is flagging issues with a maturing loan extension application for Galaxy Canada. They've identified that Galaxy Canada shows as dissolved in Canadian business records and need clarification before processing the extension. This requires immediate attention to avoid loan default or unfavorable terms.",
+      "ai_action": "Dave needs to contact SALT Lending immediately to clarify Galaxy Canada's corporate status and provide required documentation. Escalate to legal/finance team (Simmons & Simmons) if corporate restructuring is needed.",
+      "ai_next_steps": [
+        "Call SALT Loan Support to understand full list of outstanding items (email appears cut off)",
+        "Verify Galaxy Canada's actual corporate status and registration records",
+        "Provide corrected documentation/explanation to SALT before extension deadline",
+        "Engage Simmons & Simmons if corporate restructuring or entity issue exists"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -435,39 +499,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Maturing Loan - Action Needed",
-      "body_preview": "Joe,\r\n\r\nBoth items are done \u2014 auto-collateral payments disabled, term extension submitted. Please confirm the liquidation is off the table.\r\n\r\nA couple of things I want to address.\r\n\r\nI've been with Salt since the early days and have maintained a healthy ",
-      "received": "2026-04-14T23:32:18Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70agAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADN1HzdBZGlPi4CUA8E6_Ao=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be Dave's response to a lender (Joe) confirming completion of loan restructuring actions\u2014disabling auto-collateral payments and submitting a term extension request. Dave is seeking confirmation that liquidation won't proceed and wants to address relationship concerns with Salt, suggesting there may be tension around loan terms or the maturity event that needs resolution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Await Joe's written confirmation that liquidation is off the table and document this formally",
-        "Prepare a summary of Galaxy's relationship history and payment performance with Salt to support Dave's renegotiation discussion",
-        "Schedule a call with Joe to discuss Dave's concerns before they escalate further"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3723,37 +3754,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "henry.dyer@simmons-simmons.com",
-      "sender_name": "Henry Dyer",
-      "subject": "FW: Claim against Digital [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Kirstin / all\r\n\r\nWe\u2019ve not yet sent a W&I Claim Notice to insurers nor communicated with them.\r\n\r\nFrom a Policy perspective, we are not under immediate time pressure. The BMS issue is a General Warranty point with a three\u2011year warranty period from Comp",
-      "received": "2026-04-08T16:09:53Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5kjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGmSOERjBhxKjXAexcOowxc=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: simmons-simmons.com",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Henry Dyer from Simmons & Simmons (legal counsel) is advising that a Warranties & Indemnities (W&I) insurance claim related to a BMS issue has not yet been formally notified to insurers. The claim falls under the general warranty provisions with a three-year window from completion, meaning there is no urgent deadline for submission despite the claim's existence.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Henry the specific nature of the BMS issue and estimated financial exposure to determine claim materiality and priority",
-        "Establish an internal timeline for W&I claim submission that optimizes the three-year warranty period while gathering required documentation",
-        "Designate ownership between France and the legal team for coordinating the formal claim notice and insurer communications"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 114
