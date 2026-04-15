@@ -1,93 +1,6 @@
 {
-  "timestamp": "2026-04-14T23:38:49.788446+00:00",
+  "timestamp": "2026-04-15T02:05:17.197354+00:00",
   "events": [
-    {
-      "subject": "Mtg. Dave - Amit - IRA Application ",
-      "start": "2026-04-14T02:00:00.0000000",
-      "end": "2026-04-14T03:00:00.0000000",
-      "attendees": [
-        "Amit"
-      ],
-      "organizer": "Amit Singh",
-      "location": "",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GoAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Nomura Monthly Operation Meeting",
-      "start": "2026-04-14T12:00:00.0000000",
-      "end": "2026-04-14T13:00:00.0000000",
-      "attendees": [
-        "Colin",
-        "Chris",
-        "Mark",
-        "Luke",
-        "Ashley",
-        "Tj"
-      ],
-      "organizer": "Colin Bell",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pm4xYRAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEkJ%2F78gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Nikos and Dave Misra",
-      "start": "2026-04-14T14:00:00.0000000",
-      "end": "2026-04-14T15:00:00.0000000",
-      "attendees": [
-        "Nikos"
-      ],
-      "organizer": "Dave Misra",
-      "location": "https://calendly.com/events/0e0d2b41-b579-453a-8690-32600c35a544/microsoft_teams",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIhAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Redhill - Action Plan Review",
-      "start": "2026-04-14T16:00:00.0000000",
-      "end": "2026-04-14T17:00:00.0000000",
-      "attendees": [
-        "Matthew",
-        "Ash",
-        "Paul",
-        "Tj",
-        "Mike",
-        "Neil"
-      ],
-      "organizer": "Matthew Reid",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GpAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Video appointment with Dr. Rami Abdelshaheed at Oakville Respirology",
-      "start": "2026-04-14T16:45:00.0000000",
-      "end": "2026-04-14T17:45:00.0000000",
-      "attendees": [
-        "Dave"
-      ],
-      "organizer": "Dave Misra",
-      "location": "Online (Medeo)",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIlAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Data Center World panel rehearsal",
-      "start": "2026-04-14T18:30:00.0000000",
-      "end": "2026-04-14T19:15:00.0000000",
-      "attendees": [
-        "Greaves,",
-        "Jim",
-        "Archibald,",
-        "Neinstadt,",
-        "AFCOM",
-        "brett@bastille.io"
-      ],
-      "organizer": "Greaves, Christopher",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G1AAA%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Badminton with Suhas ",
       "start": "2026-04-15T00:00:00.0000000",
@@ -263,6 +176,120 @@
       "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ptLGlfAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Travelers Monthly Operations Meeting",
+      "start": "2026-04-17T10:00:00.0000000",
+      "end": "2026-04-17T10:30:00.0000000",
+      "attendees": [
+        "Valobobhai,",
+        "Bendall,",
+        "Ball,",
+        "Kearney,",
+        "Fredy",
+        "Dean"
+      ],
+      "organizer": "Valobobhai, Digvijay",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAD0nmIXgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Travelers Monthly Operations Meeting",
+      "start": "2026-04-17T12:00:00.0000000",
+      "end": "2026-04-17T12:30:00.0000000",
+      "attendees": [
+        "Colin",
+        "Bangay,",
+        "aball3@travelers.com",
+        "Luke",
+        "Ashley",
+        "Tj"
+      ],
+      "organizer": "Colin Bell",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEkJ%2F79QAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Dr Abdul Shaheed ",
+      "start": "2026-04-17T13:00:00.0000000",
+      "end": "2026-04-17T14:00:00.0000000",
+      "attendees": [],
+      "organizer": "Dave Misra",
+      "location": "",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIaAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Monday.com Review",
+      "start": "2026-04-17T13:00:00.0000000",
+      "end": "2026-04-17T13:30:00.0000000",
+      "attendees": [
+        "Paul"
+      ],
+      "organizer": "Paul Tester",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ%2BwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Redhill Data Centre - Catch up",
+      "start": "2026-04-17T14:30:00.0000000",
+      "end": "2026-04-17T15:00:00.0000000",
+      "attendees": [
+        "Holly",
+        "Ash",
+        "Paul",
+        "Tj",
+        "Jamie",
+        "Wayne"
+      ],
+      "organizer": "Holly Winch",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pqB7%2B4AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEV2ns7gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Sales Funnel Review with Ashley and Paul ",
+      "start": "2026-04-17T14:30:00.0000000",
+      "end": "2026-04-17T15:00:00.0000000",
+      "attendees": [
+        "Paul",
+        "Ashley",
+        "Tj"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNiwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Friday Marketing Meeting",
+      "start": "2026-04-17T16:30:00.0000000",
+      "end": "2026-04-17T17:00:00.0000000",
+      "attendees": [
+        "Sai",
+        "Animesh",
+        "SA"
+      ],
+      "organizer": "Sai Raman",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBFAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Mahati <> Dave - Internship Opportunities ",
+      "start": "2026-04-17T20:00:00.0000000",
+      "end": "2026-04-17T20:25:00.0000000",
+      "attendees": [
+        "France",
+        "mahatid@wharton.upenn.edu"
+      ],
+      "organizer": "France",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G0AAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
