@@ -1,20 +1,122 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-15T09:15:07.038953+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 4,
-  "ai": 4,
+  "timestamp": "2026-04-15T10:56:44.011566+00:00",
+  "total": 19,
+  "new": 19,
+  "noise": 9,
+  "ai": 17,
   "skipped": 0,
   "auto_learned": 56,
   "items": [
     {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Hi Paul\r\n\r\nThe most cost efficient way of dealing with this is to issue a lease on the same terms as the existing (but referencing the new space, power and MRCs mentioned in Ashley\u2019s email below), and having a side letter to the existing lease that broadl",
+      "received": "2026-04-15T10:36:37Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9YAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "KW: lease, power",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons is advising on the most cost-efficient lease structuring approach for the Travellers property matter. He's recommending issuing a new lease on existing terms while using a side letter to modify specific commercial terms, rather than renegotiating the full agreement. This approach could reduce legal costs and timeline for Galaxy while maintaining existing lease protections.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Obtain the complete side letter language from Francis to understand the full scope of proposed modifications to space, power, and MRC terms",
+        "Have Dave or France confirm with Ashley (referenced in the prior email) whether the new space/power/MRC specifications are finalized before proceeding with lease documentation",
+        "Review the cost-benefit of the side letter approach versus a full amendment with Galaxy's finance team to validate the efficiency claim"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Redhill DC relocation - FluidOne cost [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Looks good Paul, yes please send that out.\r\n\r\nFrancis Turley\r\nOf Counsel, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT : +44 20 7825 3421\r\nFrancis.Turley@simmons-simmons.com\r\n\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: 15 April 2026 06:10\r\nTo: Fra",
+      "received": "2026-04-15T10:11:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9WAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAg1kHyoNPhDunMh02EmSrs=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers has submitted cost information related to the Redhill data center relocation and FluidOne services, which Francis Turley (Galaxy's legal counsel at Simmons & Simmons) has approved for distribution. This represents movement on a facility relocation project that requires legal coordination between Galaxy's operational and legal teams.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Paul Leong that he has sent out the approved cost documentation to relevant stakeholders (landlord, FluidOne, internal finance)",
+        "Follow up with Francis to clarify the timeline for any required legal documentation or agreements related to the Redhill relocation",
+        "Ensure Dave Misra is updated on project status and any financial/contractual commitments being finalized"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Paul\r\n\r\nThere is one amendment to make it clear that a party is still responsible for the actions of persons to whom they disclose information, so I you should return it to Accenture and ask them to approve it.\r\n\r\nRegards\r\n\r\nFrancis Turley\r\nOf Counsel,",
+      "received": "2026-04-15T10:10:22Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9VAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: simmons-simmons.com",
+        "KW: renewal",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons is requesting a contractual amendment to the Redhill renewal agreement that clarifies ongoing liability for parties who receive disclosed information. This requires Accenture's approval before proceeding, suggesting the amendment impacts information handling obligations in the deal.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Prepare the amended Redhill renewal agreement with the liability clarification language and send to Accenture for approval",
+        "Track Accenture's response and flag any concerns they raise about the amended provision",
+        "Once approved, coordinate with Francis to finalize and execute the revised agreement"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
       "sender_email": "fional@digitalrealty.com",
       "sender_name": "Fiona Leon",
       "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "Hi Paul, yes a longer term is no issue at all, I\u2019ll get that updated.\r\n\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales\r\nMob: 07557 268924\r\n60 London Wall, London, EC2M 5TQ\r\n\r\n\r\n\r\n\r\n\r\n\r\nFrom: Paul Leong <paul@galaxycapitalpartners.com>\r\nSent: Wednesday, April 15, ",
-      "received": "2026-04-15T06:52:22Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "Hi Tom,\r\n\r\nThe most recent Service order sent was already updated to reflect\r\n\r\nAlbeit slightly strange lay out on our contracts\r\n\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales\r\nMob: 07557 268924\r\n60 London Wall, London, EC2M 5TQ\r\n\r\n\r\n\r\n\r\n\r\n\r\nFrom: Tom Le-Quelen",
+      "received": "2026-04-15T10:06:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9TAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
@@ -24,21 +126,89 @@
       "rules_reasons": [
         "Tier 1: digitalrealty.com",
         "Pipeline: fiona leon",
-        "KW: capital",
-        "4 VIPs on thread (+2)"
+        "KW: contract",
+        "11 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is confirming agreement to extend the contract term for the Galaxy/DRT partnership and Cloud House deployment. This is a positive signal that DRT is flexible on commercial terms, which improves Galaxy's negotiating position and reduces risk of deal delays on a key infrastructure partnership.",
+      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales team is confirming that a recent Service Order has been updated, though she notes the contract layout is somewhat unusual. This appears to be a follow-up on the Galaxy/DRT partnership and Cloud House deployment initiative, with confirmation that commercial terms have been reflected in the order despite formatting concerns.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Paul Leong confirm the specific extended term length with Fiona and get written confirmation of the revised contract terms",
-        "Coordinate with France to review updated contract documentation once Fiona sends the revised agreement",
-        "Schedule a call with DRT to finalize remaining terms and establish deployment timeline for Cloud House"
+        "Have France or legal review the Service Order to confirm all Galaxy terms and conditions are properly captured despite the noted layout issues",
+        "Verify with Fiona that the contract formatting doesn't create any ambiguity on critical commercial terms before final execution",
+        "Confirm the updated Service Order aligns with Galaxy's deployment timeline and requirements for the Cloud House project"
       ],
       "ai_failed": false,
       "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "jamie.thirlwall@castleforge.com",
+      "sender_name": "Jamie Thirlwall",
+      "subject": "Monthly Deck for the April Business Review",
+      "body_preview": "Hi All,\r\n\r\nPlease find attached the Monthly Report for our meeting this afternoon.\r\n\r\nRegards\r\nJamie",
+      "received": "2026-04-15T09:41:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9OAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABzJQndNTD9IhkQk4da_b9Y=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Jamie Thirlwall from CastleForge is sending a monthly report ahead of an April business review meeting scheduled for later today. The attachment contains performance metrics and updates needed for the discussion. This is a routine business review touchpoint that requires Dave's attention before the afternoon meeting to ensure alignment on key metrics and any issues that may be raised.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached monthly report before the afternoon business review meeting",
+        "Flag any significant variances, concerns, or items requiring decision-making to discuss with Jamie",
+        "Confirm attendance and any agenda items with Jamie if the meeting time or format has changed"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "rj@galaxydatacenters.com",
+      "sender_name": "Rhys  Jones",
+      "subject": "Re: 1MW Requirement",
+      "body_preview": "Guys\r\n\r\nOn the basis that 1,000 kW at 35 kW per, this requires nominally 30 racks.\r\n\r\nNominal row length in S160 is 15,600 mm\r\n\r\nAssuming we need two rows of 15 racks, there appears to be plenty of space.\r\n\r\nKey issues:\r\n\r\n\r\n  1.\r\nWho pays for RDHx and pi",
+      "received": "2026-04-15T09:25:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9KAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACMaQKVW-qNDqRf3FTBYrDc=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: mw, kw, rack",
+        "6 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rhys Jones from Galaxy Data Centers is analyzing the spatial and infrastructure requirements for a 1MW customer deployment, confirming that 30 racks can be accommodated in the S160 facility using two rows. The critical blocking issue is determining the financial responsibility for power distribution hardware (RDHx) and related infrastructure costs, which must be resolved before proceeding with the deployment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Rhys and the customer whether Galaxy Data Centers or the customer bears the cost of power distribution hardware (RDHx) and associated infrastructure (pi)",
+        "Once cost responsibility is determined, finalize the deployment plan and timeline for the 1MW capacity in S160",
+        "Confirm with France or relevant stakeholders that the facility layout and power distribution strategy aligns with Galaxy's standard terms and profitability requirements"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -467,40 +637,6 @@
       "final_label": "IMPORTANT"
     },
     {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Redhill renewal [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Paul\r\n\r\nSorry my typo, the amendments do work for us so we can use DCSL.\r\n\r\nRegards\r\n\r\nFrancis Turley\r\nOf Counsel, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT : +44 20 7825 3421\r\nFrancis.Turley@simmons-simmons.com\r\n\r\n\r\nFrom: Paul Leong <paul@galaxycapitalp",
-      "received": "2026-04-14T08:33:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7ZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHCFoLS7UmdBp4UDhwWYuzo=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: simmons-simmons.com",
-        "KW: capital, renewal",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) is confirming that proposed amendments to a Redhill renewal agreement are acceptable and that Galaxy can proceed with using DCSL (likely a subsidiary or operational entity). This clarification removes a potential blocker on a contract renewal that appears material to Galaxy's data center or capital operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Paul Leong that the Redhill renewal can move forward with the approved amendments and DCSL structure",
-        "Prepare final renewal documentation incorporating the agreed amendments for execution",
-        "Verify timeline and ensure all parties are aligned on next execution steps"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "reece.cooksey@hansonwade.com",
       "sender_name": "Reece Cooksey",
       "subject": "Re: Speaker Opportunity - Advancing Data Center Construction Canada 2026",
@@ -690,41 +826,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "1MW Requirement",
-      "body_preview": "Hi Rhys/Colin,\r\n\r\nPlease see opportunity below for unit 3\u2026\r\n\r\nWe\u2019re supporting a client with an immediate 1MW requirement in the UK.\r\nThe key specifications are:\r\n\r\n  *   Density: 35 - 50kW per rack\r\n  *   Cooling: Air-cooled\r\n  *   RFS: May 2026\r\n\r\nI app",
-      "received": "2026-04-13T21:55:13Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACMaQKVW-qNDqRf3FTBYrDc=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: mw, kw, rack",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ashley Roberts from Galaxy Data Centers is notifying the team of an immediate 1MW capacity opportunity for a UK client with specific technical requirements including 35-50kW per rack density and air-cooled infrastructure, with a May 2026 ready-for-service date. This represents a significant revenue opportunity for Unit 3 that requires rapid resource allocation and feasibility confirmation. The tight timeline and specific cooling/density specs need to be validated against current capacity and capabilities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should confirm Unit 3 availability and cooling infrastructure capacity to meet the 35-50kW per rack density specification by May 2026",
-        "France should prepare a detailed project timeline and resource plan to validate delivery feasibility for the 1MW buildout",
-        "Clarify total contract value and margins with Ashley to assess strategic priority alongside other committed projects"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "paul@galaxycapitalpartners.com",
@@ -1124,39 +1225,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Redhill DC relocation - FluidOne cost [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Paul\r\n\r\nThanks for your email.\r\n\r\nThe agreement with Fluidone states that Redhill will \u201creimburse Customer for all reasonable and documented out of pocket expenses paid by Customer following any such relocation\u201d.  To my mind, this will cover third part",
-      "received": "2026-04-13T14:55:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6KAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAg1kHyoNPhDunMh02EmSrs=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: simmons-simmons.com",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons Simmons (Galaxy's legal counsel) is confirming that the FluidOne agreement language supports reimbursement of reasonable documented expenses Galaxy incurs as a result of the Redhill data center relocation. This is a favorable legal interpretation that protects Galaxy's financial position by ensuring FluidOne covers third-party costs associated with the move.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France compile a detailed list of all third-party relocation expenses incurred to date with documentation",
-        "Prepare formal reimbursement claim to FluidOne with supporting invoices and cost breakdowns",
-        "Confirm with Francis the specific documentation format and submission process FluidOne requires"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "jamie.thirlwall@castleforge.com",
@@ -3106,41 +3174,6 @@
       "final_label": "NOTABLE"
     },
     {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "Hi Francis - We had a productive call with Travelers yesterday.  They have agreed to keep the existing lease in place until expiration if we credit them the difference between the current lease from Dec 1 to March 1 and the reduced charge and capacity in ",
-      "received": "2026-04-09T13:35:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5lmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 13x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, capacity",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong reports that Galaxy recently negotiated with Travelers Insurance to maintain their existing lease through its natural expiration. In exchange, Galaxy will provide a credit covering the rate difference between the current lease terms and a reduced charge structure for the December 1 through March 1 period. This agreement preserves a key customer relationship while Galaxy adjusts pricing on their EMEA1 facility.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify the exact credit amount and capacity reduction terms with Paul to ensure financial impact is properly modeled",
-        "Confirm the lease expiration date and post-March 1 renewal terms with Travelers to secure long-term revenue visibility",
-        "Review the SIMS-L_LIVE_EMEA1 facility utilization to assess whether the capacity concession affects other customer commitments or revenue"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "kirstin.dunn@castleforge.com",
       "sender_name": "Kirstin Dunn",
       "subject": "Re: Introducer agreement [SIMS-L_LIVE_EMEA1.143566.143566-00017.FID3584712]",
@@ -3689,39 +3722,6 @@
         "Clarify with Paul whether Galaxy intends to raise these issues informally with Di and what the timeline is",
         "Determine whether Galaxy wants Castle Forge to hold off on the formal letter pending the informal outreach",
         "Schedule a call with Kirstin to align on strategy before any formal communications are sent"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "luke.gray@redhilldatacentre.com",
-      "sender_name": "Luke Gray",
-      "subject": "Re: Salesforce",
-      "body_preview": "Ash / Dave\r\n\r\nAs Salesforce is a complete mess, not as a result of what Colin or the site team have or haven't done, someone needs to take ownership of this and be a point of contact for these customer complaints ( not Colin, not RDC staff )\r\n\r\nA response",
-      "received": "2026-04-08T09:44:01Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5j3AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMLx_xS9yUROoJ4FEUty5jw=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Redhill ops",
-        "10 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Luke Gray from Redhill Data Centre is escalating ongoing Salesforce system issues that are generating customer complaints. He's explicitly stating that the problem isn't operational (not Colin's or RDC staff's fault) and is requesting Galaxy Capital assign a dedicated point of contact to manage customer communication and resolution, removing this burden from the site operations team.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Designate a Galaxy representative to own Salesforce issue management and serve as the primary customer contact for complaints",
-        "Schedule a meeting with Luke Gray, Colin, and the designated owner to understand the scope of issues and establish a communication protocol",
-        "Conduct a Salesforce system audit to identify root causes and develop a remediation timeline to present to affected customers"
       ],
       "ai_failed": false,
       "final_score": 9,
