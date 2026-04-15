@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-15T07:25:40.124583+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 3,
-  "ai": 5,
+  "timestamp": "2026-04-15T09:15:07.038953+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 56,
   "items": [
@@ -3726,39 +3726,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "tom.babbington@adaptive-mdc.com",
-      "sender_name": "Tom Babbington",
-      "subject": "RE: Redhill Updated Deck",
-      "body_preview": "Hi Dave,\r\n\r\nAs we spoke about before the Easter break \u2013 we are on hand to come and present our solution direct to CFP.\r\n\r\nAll the output requested would be included in the Stage 2 report. Ultimately, we would be taking the work done in the current Stage 2",
-      "received": "2026-04-08T09:13:13Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5j0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLeMa6IsUcusiMkbzoHH_c=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Tom Babbington]",
-      "rules_reasons": [
-        "Tier 2: adaptive-mdc.com",
-        "Pipeline: tom babbington",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Tom Babbington from Adaptive MDC is following up on a previous conversation about presenting their solution directly to Galaxy Capital Partners' leadership. He's confirming that their Stage 2 deliverables will include all requested outputs and build upon the current work in progress. This indicates readiness to move forward with a formal presentation that could advance the Redhill project evaluation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Schedule a presentation date/time with Tom and confirm attendees from Galaxy's CFO/investment team",
-        "Review the current Stage 2 work and prepare key questions or requirements for the Adaptive MDC presentation",
-        "Clarify what specific outputs/deliverables are needed in the Stage 2 report to ensure alignment before the formal pitch"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 114
+  "total_tracked": 113
 }
