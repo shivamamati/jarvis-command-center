@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-16T21:39:45.097354+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 6,
+  "timestamp": "2026-04-16T22:36:35.160613+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 7,
   "ai": 10,
   "skipped": 0,
   "auto_learned": 40,
   "items": [
+    {
+      "sender_email": "a.cox@2020-4.com",
+      "sender_name": "Alex Cox",
+      "subject": "SVP Commercial Development - Fully Integrated, 35+ yrs Developer of Master-Planned (Houston)",
+      "body_preview": "We have been exclusively retained by an award-winning, fully integrated real estate development and investment firm to find a SVP \u2013 Commercial Development. The company specializes in large-scale master-planned communities and mixed-use developments, creat",
+      "received": "2026-04-16T22:31:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOLS84fakcNOuxiVCReFURU=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Alex Cox from 2020-4 is a recruiter seeking to fill a Senior Vice President of Commercial Development role for a major Houston-based real estate developer with 35+ years of experience in master-planned communities. This is a leadership-level placement opportunity for a fully integrated development firm. This matters to Galaxy as it represents potential partnership or investment opportunities in large-scale commercial real estate development projects that could align with Galaxy's infrastructure and data center expansion strategies.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France request the complete job specification and candidate profile to assess strategic fit with Galaxy's development pipeline",
+        "Determine if this developer operates or plans to develop properties requiring data center infrastructure or colocation services",
+        "Schedule a brief call with Alex Cox to explore whether Galaxy should engage as a strategic partner or investor in upcoming projects"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "microsoftexchange329e71ec88ae4615bbc36ab6ce41109e@galaxydatacenters.com",
       "sender_name": "Microsoft Outlook",
@@ -28,47 +59,49 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is a system notification from Microsoft Exchange indicating that an email sent from the Galaxy Capital Partners domain was blocked by a mail flow rule at the Galaxy Data Centers domain due to sender authentication/legitimacy concerns. The message appears incomplete but suggests a configuration issue preventing proper email routing between the two Galaxy entities.",
+      "ai_summary": "This is a system notification from Microsoft Exchange indicating that an email sent from the Galaxy Capital Partners domain was blocked by a mail flow rule at Galaxy Data Centers. The blocking rule suggests potential security concerns about the sender's legitimacy or domain configuration, which could impact internal communications between the two Galaxy entities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Contact Galaxy Data Centers IT/security team to review the mail flow rule blocking galaxycapitalpartners@galaxycapitalpartners.com and confirm domain alignment requirements",
-        "Verify email authentication records (SPF, DKIM, DMARC) are properly configured for galaxycapitalpartners.com to authenticate with galaxydatacenters.com infrastructure",
-        "Audit other critical business communications between Galaxy Capital Partners and Galaxy Data Centers to identify if additional messages have been blocked"
+        "Contact your IT/Exchange administrator to review the mail flow rule blocking emails from galaxycapitalpartners@galaxycapitalpartners.com and determine if this is a misconfiguration or intentional security policy",
+        "Verify that the sending email address and domain authentication (SPF, DKIM, DMARC) for Galaxy Capital Partners are properly configured to prevent legitimate emails from being flagged as suspicious",
+        "Establish a direct communication channel with the Galaxy Data Centers IT team to ensure critical business emails between the two entities are not blocked going forward"
       ],
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
     },
     {
-      "sender_email": "loansupport@saltlending.com",
-      "sender_name": "SALT Loan Support",
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
       "subject": "Re: Rescheduling Tomorrow\u2019s Meeting",
-      "body_preview": "Hi France,\r\nThank you for reaching out.\r\n\r\nYes, we can provide an extension on maturity until 4/22 and a meeting Monday would be great. You can find the link to my calendar in my signature below allowing you to choose a convenient time.\r\n\r\nDuring this tim",
-      "received": "2026-04-16T20:36:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "Hi Joe,\r\n\r\nConfirmed for Monday \u2014 I'll book through your calendar link.\r\n\r\nOne item ahead of the call: rather than reinstating the dissolved Canadian entity, I'd like to move this loan to a U.S. LLC \u2014 Oakville Capital LLC, registered in Delaware and curre",
+      "received": "2026-04-16T20:43:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaUOO09AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMB9pkSEELpItbWe2dCfEI4=",
-      "rules_score": 9,
+      "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "KW: nda",
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, capital",
+        "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "SALT Lending is confirming a meeting reschedule and offering a maturity extension until 4/22 on what appears to be an active loan facility. This is a direct response to France (likely France Hoang, COO) about a specific financing matter requiring Dave's awareness.",
-      "ai_action": "Alert Dave immediately \u2014 active loan extension being negotiated. France should confirm the Monday meeting time and ensure Dave is briefed on discussion points before the call.",
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is confirming a Monday meeting with Joe and signaling a structural preference change for an upcoming loan transaction\u2014specifically, he wants to establish a new Delaware LLC (Oakville Capital LLC) rather than reviving a previously dissolved Canadian entity. This matters because it affects the legal jurisdiction, tax treatment, and operational framework of what appears to be a material financing arrangement that Galaxy is pursuing.",
+      "ai_action": null,
       "ai_next_steps": [
-        "Confirm Monday meeting time with SALT Lending",
-        "Prepare briefing memo on loan terms, current status, and extension rationale for Dave",
-        "Ensure Dave reviews SALT Lending facility terms before Monday call"
+        "Clarify with Joe whether Oakville Capital LLC already exists or needs to be formed, and confirm he's aligned with the Delaware structure before the Monday call",
+        "Have legal review the implications of a U.S. LLC structure vs. the dissolved Canadian entity (tax, compliance, lender requirements)",
+        "Prepare documentation and timeline for Oakville Capital LLC setup to present during Monday's meeting"
       ],
       "ai_failed": false,
-      "final_score": 9,
+      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -3266,36 +3299,6 @@
         "Dave or France should schedule a call with Sam and Ash Gupta to define specific escalation procedures, response time SLAs, and confirm what 24/7 support Galaxy requires from Castleforge",
         "Determine if Galaxy needs to supplement Castleforge's support with additional monitoring/on-call resources or third-party support to meet operational requirements",
         "Document agreed escalation path and support SLAs in writing to formalize expectations and accountability"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dse_na4@docusign.net",
-      "sender_name": "Paul Leong via Docusign",
-      "subject": "Complete with Docusign: GCP LLC Operating Agreement Amendment.docx",
-      "body_preview": "Paul Leong sent you a document to review and sign.\r\nReview Document\r\nPaul Leong\r\npaul@galaxycapitalpartners.com\r\nDave Misra,\r\n\r\nComplete with Docusign: GCP LLC Operating Agreement Amendment.docx\r\n\r\nThank You, Paul Leong\r\nDo Not Share This Email\r\n\r\n\r\nThis ",
-      "received": "2026-04-09T22:13:29Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACRfDcSiMRtMmqYI_3yorFo=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: capital"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 9,
-      "ai_label": "CRITICAL",
-      "ai_summary": "Paul Leong (Galaxy Capital Partners internal) has sent a DocuSign request for Dave to review and sign an amendment to the GCP LLC Operating Agreement. This is a legally binding document requiring immediate attention and signature.",
-      "ai_action": "Dave must review and sign the GCP LLC Operating Agreement Amendment via DocuSign immediately. Confirm receipt with Paul Leong.",
-      "ai_next_steps": [
-        "Open the DocuSign link and review the GCP LLC Operating Agreement Amendment",
-        "Flag any concerns or questions to Paul Leong before signing",
-        "Execute signature via DocuSign"
       ],
       "ai_failed": false,
       "final_score": 9,
