@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T18:05:31.919535+00:00",
+  "timestamp": "2026-04-16T19:58:13.769396+00:00",
   "events": [
     {
       "subject": "Redhill",
@@ -59,20 +59,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3ptLGlfAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAD%2F9VNRAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "ABB Electrification Services including Battery Energy Storage Solutions (BESS) ",
-      "start": "2026-04-16T15:30:00.0000000",
-      "end": "2026-04-16T16:00:00.0000000",
-      "attendees": [
-        "Jerome",
-        "Rhys",
-        "France"
-      ],
-      "organizer": "Jerome Nessi",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AASD4M%2BPAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Faye and Dave Misra",
