@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-16T20:54:29.842644+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 4,
-  "ai": 9,
+  "timestamp": "2026-04-16T21:39:45.097354+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 6,
+  "ai": 10,
   "skipped": 0,
   "auto_learned": 40,
   "items": [
+    {
+      "sender_email": "microsoftexchange329e71ec88ae4615bbc36ab6ce41109e@galaxydatacenters.com",
+      "sender_name": "Microsoft Outlook",
+      "subject": "Undeliverable: (ATTN): 4/16/2026 ** Access Exipry ** MSG ID:5887053740 ** ///  Please Read ///",
+      "body_preview": "Your email couldn't be forwarded from galaxycapitalpartners@galaxycapitalpartners.com to another email address.\r\nA custom mail flow rule created by an admin at galaxydatacenters.com has blocked your message.\r\nYou are not a legitimate email sender to send ",
+      "received": "2026-04-16T21:25:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAaUGmi1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK1zxUgEkl1PsXN6EIfnvkk=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Internal \u2014 deal/customer related",
+        "KW: capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a system notification from Microsoft Exchange indicating that an email sent from the Galaxy Capital Partners domain was blocked by a mail flow rule at the Galaxy Data Centers domain due to sender authentication/legitimacy concerns. The message appears incomplete but suggests a configuration issue preventing proper email routing between the two Galaxy entities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Contact Galaxy Data Centers IT/security team to review the mail flow rule blocking galaxycapitalpartners@galaxycapitalpartners.com and confirm domain alignment requirements",
+        "Verify email authentication records (SPF, DKIM, DMARC) are properly configured for galaxycapitalpartners.com to authenticate with galaxydatacenters.com infrastructure",
+        "Audit other critical business communications between Galaxy Capital Partners and Galaxy Data Centers to identify if additional messages have been blocked"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "loansupport@saltlending.com",
       "sender_name": "SALT Loan Support",
@@ -27,14 +58,14 @@
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "SALT Lending is confirming a maturity extension to 4/22 on what appears to be an existing loan facility and scheduling a Monday meeting with France. This is a direct response to Galaxy's request and involves material debt terms.",
-      "ai_action": "Dave should review the email thread history immediately to understand which Galaxy facility this concerns, confirm the 4/22 maturity extension terms are acceptable, and ensure France (or Dave) attends Monday's meeting prepared with any outstanding questions on covenants or conditions.",
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "SALT Lending is confirming a meeting reschedule and offering a maturity extension until 4/22 on what appears to be an active loan facility. This is a direct response to France (likely France Hoang, COO) about a specific financing matter requiring Dave's awareness.",
+      "ai_action": "Alert Dave immediately \u2014 active loan extension being negotiated. France should confirm the Monday meeting time and ensure Dave is briefed on discussion points before the call.",
       "ai_next_steps": [
-        "Pull full email thread to identify which Galaxy loan/facility this applies to",
-        "Confirm 4/22 maturity extension does not conflict with refinancing or capital deployment timeline",
-        "France to book Monday meeting and prepare agenda (covenant compliance status, any draws, upcoming obligations)"
+        "Confirm Monday meeting time with SALT Lending",
+        "Prepare briefing memo on loan terms, current status, and extension rationale for Dave",
+        "Ensure Dave reviews SALT Lending facility terms before Monday call"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -64,12 +95,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong is confirming internal approval to proceed with CDW renewal documentation based on Francis's proposal. Galaxy has authorized moving forward at the estimated \u00a35k cost with a \u00a310k maximum threshold. This represents approved budget allocation for a key vendor renewal process.",
+      "ai_summary": "Paul Leong is confirming that internal stakeholder Kirstin has approved moving forward with CDW renewal documentation. Galaxy has authorized spending up to \u00a35k with a \u00a310k ceiling for this renewal process.",
       "ai_action": null,
       "ai_next_steps": [
-        "Francis should prepare and submit the CDW renewal documentation with the approved \u00a35k estimate",
-        "Establish tracking mechanism to monitor actual costs against the \u00a310k cap to ensure budget compliance",
-        "Coordinate with CDW to confirm renewal timeline and ensure execution before any current agreement deadlines"
+        "Prepare CDW renewal documentation for execution within the \u00a35k-\u00a310k budget parameters",
+        "Confirm timeline and deliverables with Paul to ensure alignment on scope and deadlines",
+        "Track actual costs against the approved budget to stay within the \u00a310k cap"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -98,12 +129,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong is acknowledging receipt of information from Kirstin Dunn at Castle Forge regarding CDW and confirming he will communicate this message to an unspecified party. This appears to be a brief relay of information with limited context, but the mention of CDW suggests potential business development, partnership, or client communication that requires follow-up coordination.",
+      "ai_summary": "Paul Leong is confirming receipt of information from Kirstin Dunn at Castle Forge regarding CDW (likely a business development or partnership matter) and will communicate this to relevant parties. This appears to be a brief confirmation in an ongoing conversation about a potential opportunity or update. The context suggests Galaxy Data Centers is engaged with Castle Forge on a CDW-related initiative that requires internal communication.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Paul what specific message or information he committed to sharing with CDW and confirm delivery",
-        "Obtain full context from Kirstin Dunn about CDW's requirements or the nature of this engagement",
-        "Schedule a brief sync with Paul to ensure alignment on Galaxy's position and next steps with CDW"
+        "Clarify with Paul what specific message he is conveying to CDW and confirm the business objective",
+        "Follow up with Kirstin Dunn to understand the full scope of the CDW initiative and any timelines or deliverables",
+        "Schedule a briefing with Dave to review the CDW opportunity and Galaxy's involvement or exposure"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -3265,40 +3296,6 @@
         "Open the DocuSign link and review the GCP LLC Operating Agreement Amendment",
         "Flag any concerns or questions to Paul Leong before signing",
         "Execute signature via DocuSign"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxycapitalpartners.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: 2025 files",
-      "body_preview": "Hi Ritesh - please see annotated sheet with the response to your questions.\r\n\r\nWe have agreed on $25k expense cap.  I will send the signed from sometime later today.\r\n\r\nThanks\r\n\r\nPaul\r\n\r\nOn Apr 9, 2026, at 1:48\u202fPM, Ritesh.daswani@avtarcorp.com wrote:\r\n\r\nD",
-      "received": "2026-04-09T21:28:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5mtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPi2XXoHPxp8aGdGGm0SsV0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is responding to Ritesh Daswani at Avtar Corp regarding 2025 file questions with an annotated response sheet. Galaxy has reached agreement on a $25k expense cap with Avtar Corp, and Paul is preparing to send signed documentation today.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt and review of the annotated sheet from Paul once sent to Ritesh",
-        "Obtain and file the signed documentation from Paul when delivered",
-        "Verify the $25k expense cap terms align with Galaxy's budget and contract requirements before final execution"
       ],
       "ai_failed": false,
       "final_score": 9,
