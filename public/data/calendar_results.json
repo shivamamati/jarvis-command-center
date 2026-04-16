@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T02:12:59.623677+00:00",
+  "timestamp": "2026-04-16T05:27:03.350547+00:00",
   "events": [
     {
       "subject": "Redhill",
@@ -73,6 +73,18 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AASD4M%2BPAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Faye and Dave Misra",
+      "start": "2026-04-16T16:30:00.0000000",
+      "end": "2026-04-16T17:00:00.0000000",
+      "attendees": [
+        "Faye"
+      ],
+      "organizer": "Dave Misra",
+      "location": "https://calendly.com/events/49d6ce8a-2660-4db7-9214-eb900aa1303e/microsoft_teams",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G6AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Ubersmith:Galaxy Data Centers Introduction",
