@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T16:19:45.434050+00:00",
+  "timestamp": "2026-04-16T18:05:31.919535+00:00",
   "events": [
     {
       "subject": "Redhill",
@@ -162,6 +162,18 @@
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEkJ%2F79QAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
+      "subject": "Ash <> Dave catch up",
+      "start": "2026-04-17T12:30:00.0000000",
+      "end": "2026-04-17T13:00:00.0000000",
+      "attendees": [
+        "Ashley"
+      ],
+      "organizer": "Ashley  Roberts",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaS2fSyAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
       "subject": "Dr Abdul Shaheed ",
       "start": "2026-04-17T13:00:00.0000000",
       "end": "2026-04-17T14:00:00.0000000",
@@ -170,18 +182,6 @@
       "location": "",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpIaAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Monday.com Review",
-      "start": "2026-04-17T13:00:00.0000000",
-      "end": "2026-04-17T13:30:00.0000000",
-      "attendees": [
-        "Paul"
-      ],
-      "organizer": "Paul Tester",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ%2BwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Redhill Data Centre - Catch up",
@@ -253,19 +253,6 @@
       "location": "https://meet.google.com/fwf-mqje-ofk",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G5AAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Mahati <> Dave - Internship Opportunities ",
-      "start": "2026-04-17T20:00:00.0000000",
-      "end": "2026-04-17T20:25:00.0000000",
-      "attendees": [
-        "France",
-        "mahatid@wharton.upenn.edu"
-      ],
-      "organizer": "France",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G0AAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
