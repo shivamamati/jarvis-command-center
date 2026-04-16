@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-16T07:26:30.679197+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 6,
-  "ai": 6,
+  "timestamp": "2026-04-16T09:14:43.858145+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 2,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 51,
   "items": [
+    {
+      "sender_email": "luke.gray@redhilldatacentre.com",
+      "sender_name": "Luke Gray",
+      "subject": "Fw: RedHill DC SOC1/SOC2/ISO certification reports",
+      "body_preview": "Hi Ash\r\n\r\nAs per TCS's question below, is SOC1 something we will be getting?\r\n\r\n\r\nLuke Gray\r\n\r\nData Centre Manager\r\n\r\nRedhill Data Centre\r\nData Centre Services Ltd\r\nUnit 3, St Anne's Boulevard, Redhill,Surrey,RH1 1AX\r\n\r\nM: +447435739311\r\nE: luke.gray@redh",
+      "received": "2026-04-16T08:57:50Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRJ9quAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO7f3zx3eSFAoILXjSlvs7w=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Redhill ops",
+        "KW: data cent",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Luke Gray, Data Centre Manager at Redhill Data Centre (a Galaxy asset), is asking whether Redhill will pursue SOC1 certification in response to a third-party inquiry from TCS. This question indicates a customer or partner needs SOC1 compliance documentation, which is a critical audit standard for service organizations handling financial data and controls\u2014obtaining it could unlock new revenue opportunities and strengthen Redhill's competitive positioning in enterprise markets.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Luke and Redhill management the scope and timeline of TCS's SOC1 requirement and whether this is a blocker for a material contract",
+        "Assess the cost and effort to achieve SOC1 Type II certification at Redhill and determine ROI based on customer demand",
+        "Decide on Galaxy's certification strategy: pursue SOC1, SOC2, or both across the portfolio, and communicate timeline to Luke for customer response"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -3539,5 +3572,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 107
+  "total_tracked": 108
 }
