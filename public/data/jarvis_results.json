@@ -1,13 +1,114 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-16T19:58:42.519611+00:00",
+  "timestamp": "2026-04-16T20:54:29.842644+00:00",
   "total": 10,
   "new": 10,
-  "noise": 6,
+  "noise": 4,
   "ai": 9,
   "skipped": 0,
   "auto_learned": 40,
   "items": [
+    {
+      "sender_email": "loansupport@saltlending.com",
+      "sender_name": "SALT Loan Support",
+      "subject": "Re: Rescheduling Tomorrow\u2019s Meeting",
+      "body_preview": "Hi France,\r\nThank you for reaching out.\r\n\r\nYes, we can provide an extension on maturity until 4/22 and a meeting Monday would be great. You can find the link to my calendar in my signature below allowing you to choose a convenient time.\r\n\r\nDuring this tim",
+      "received": "2026-04-16T20:36:38Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMB9pkSEELpItbWe2dCfEI4=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "KW: nda",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "SALT Lending is confirming a maturity extension to 4/22 on what appears to be an existing loan facility and scheduling a Monday meeting with France. This is a direct response to Galaxy's request and involves material debt terms.",
+      "ai_action": "Dave should review the email thread history immediately to understand which Galaxy facility this concerns, confirm the 4/22 maturity extension terms are acceptable, and ensure France (or Dave) attends Monday's meeting prepared with any outstanding questions on covenants or conditions.",
+      "ai_next_steps": [
+        "Pull full email thread to identify which Galaxy loan/facility this applies to",
+        "Confirm 4/22 maturity extension does not conflict with refinancing or capital deployment timeline",
+        "France to book Monday meeting and prepare agenda (covenant compliance status, any draws, upcoming obligations)"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "CDW",
+      "body_preview": "Hi Francis - I have run your proposal by Kirstin. We are approved to move forward with the CDW renewal documentation at your \u00a35k estimate with a \u00a310k cap.\r\n\r\nThanks\r\n\r\nPaul",
+      "received": "2026-04-16T20:11:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB_bIYWot8xPmCh91HwE-Js=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "KW: proposal, renewal",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is confirming internal approval to proceed with CDW renewal documentation based on Francis's proposal. Galaxy has authorized moving forward at the estimated \u00a35k cost with a \u00a310k maximum threshold. This represents approved budget allocation for a key vendor renewal process.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Francis should prepare and submit the CDW renewal documentation with the approved \u00a35k estimate",
+        "Establish tracking mechanism to monitor actual costs against the \u00a310k cap to ensure budget compliance",
+        "Coordinate with CDW to confirm renewal timeline and ensure execution before any current agreement deadlines"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: CDW",
+      "body_preview": "Thanks Kirstin - I will let them know.\r\n\r\nPaul\r\n\r\n________________________________\r\nFrom: Kirstin Dunn <kirstin.dunn@castleforge.com>\r\nSent: Thursday, April 16, 2026 12:15:36 PM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Pelle Jorgen <pelle.jorgen@cast",
+      "received": "2026-04-16T20:09:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKDSmvLtKeJNhvhCLDXSxTQ=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is acknowledging receipt of information from Kirstin Dunn at Castle Forge regarding CDW and confirming he will communicate this message to an unspecified party. This appears to be a brief relay of information with limited context, but the mention of CDW suggests potential business development, partnership, or client communication that requires follow-up coordination.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Paul what specific message or information he committed to sharing with CDW and confirm delivery",
+        "Obtain full context from Kirstin Dunn about CDW's requirements or the nature of this engagement",
+        "Schedule a brief sync with Paul to ensure alignment on Galaxy's position and next steps with CDW"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "claus.habermeier@gtai.de",
       "sender_name": "Habermeier, Claus",
@@ -27,12 +128,12 @@
       "ai_reviewed": true,
       "ai_score": 6,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Claus Habermeier from GTAI (Germany's federal export-import bank) is reaching out ahead of Data Center World conference to explore Galaxy's expansion into Germany. This is a legitimate business development inquiry from a government-backed institution that finances infrastructure projects.",
-      "ai_action": "Dave should consider this a genuine exploratory conversation worth 15 minutes at DCW. GTAI can be a useful partner for German expansion financing. Have France prepare a 1-pager on Galaxy's current German footprint (if any) and expansion appetite before the conference.",
+      "ai_summary": "Claus Habermeier from Germany Trade & Invest (GTAI) is reaching out ahead of Data Center World conference to discuss Galaxy's potential expansion into Germany (EU's largest economy). This is a targeted introduction about market opportunity, not mass marketing.",
+      "ai_action": "Dave should decide if a Data Center World meeting with GTAI makes sense given current pipeline priorities (Poland 260MW, Milan, 18MW AI prospect). If Germany is strategic, France can schedule a brief coffee/call.",
       "ai_next_steps": [
-        "Confirm Galaxy's attendance at Data Center World and flag this contact for in-person meeting",
-        "Research GTAI's typical deal sizes and Germany financing terms for data center infrastructure",
-        "Prepare brief on Galaxy's German expansion strategy/appetite to discuss at meeting"
+        "Clarify: Is Germany a target market for Galaxy's 2024-2025 expansion?",
+        "If yes: Have France reach out to confirm Data Center World meeting",
+        "If no: Polite decline but keep Habermeier's contact for future reference"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -60,48 +161,15 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is an internal email fragment from Dave Misra to Suraj regarding coordination on a data center initiative. Dave is confirming that Mahendra (likely an internal stakeholder) is ready to meet with Suraj and the Grain team, and Dave is attempting to propose meeting times for early next week, though the email appears incomplete.",
+      "ai_summary": "Suraj is coordinating scheduling between Mahendra and the Grain team for an early next week meeting related to the NWS operating role for Galaxy's data center initiative. Dave has already aligned with Mahendra on this connection and is now waiting for Suraj to confirm availability or propose alternative times. This meeting appears critical to moving forward on the operational staffing or partnership structure for the data center project.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify the complete meeting time options that Dave intended to propose to Suraj",
-        "Confirm Mahendra's availability and preferred meeting slot for early next week",
-        "Ensure Grain team members are looped in with finalized meeting details and agenda"
+        "Complete the email to Suraj with specific meeting time windows that work for Dave and Mahendra's calendars",
+        "Confirm with Mahendra the key topics and outcomes needed from the Grain team meeting",
+        "Ensure France is looped in on the meeting details and any pre-call materials needed"
       ],
       "ai_failed": false,
       "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Rescheduling Tomorrow\u2019s Meeting",
-      "body_preview": "Hi Joe,\r\nI hope you\u2019re doing well.\r\nI am France, executive assistant to Dave. I just wanted to inform ahead that Dave will be traveling to Abu Dhabi tomorrow and will unfortunately not be able to attend the scheduled meeting.\r\nWould Monday work on your en",
-      "received": "2026-04-16T17:38:44Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMB9pkSEELpItbWe2dCfEI4=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "France (Galaxy's executive assistant) is notifying an external contact that Dave cannot attend a scheduled meeting tomorrow due to travel to Abu Dhabi, and is proposing to reschedule for Monday. This appears to be a routine calendar coordination that requires confirmation from the other party to maintain an important business relationship.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm whether Monday works for the other party and specify the time/format for the rescheduled meeting",
-        "Ensure Dave's calendar is updated to reflect the Abu Dhabi travel and the new Monday meeting slot",
-        "Follow up if no response is received to secure the Monday meeting confirmation"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
       "final_label": "URGENT"
     },
     {
@@ -238,38 +306,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "kirstin.dunn@castleforge.com",
-      "sender_name": "Kirstin Dunn",
-      "subject": "Re: CDW",
-      "body_preview": "Thanks Paul, the below seems sensible so good to get them going.\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Thursday, April 16, 2026 ",
-      "received": "2026-04-16T16:15:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0B3AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKDSmvLtKeJNhvhCLDXSxTQ=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Kirstin Dunn from Castle Forge has approved moving forward with a CDW-related initiative that Paul Leong proposed. This appears to be a green light to proceed with implementation, suggesting Castle Forge is a partner or stakeholder aligned with Galaxy's approach on this matter.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Paul Leong what specific CDW deliverables or timelines Kirstin's approval enables",
-        "Ensure Galaxy Data Centers has the internal resources allocated to execute on whatever Castle Forge has endorsed",
-        "Schedule a kick-off or status call with Castle Forge to establish milestones and accountability"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "francis.turley@simmons-simmons.com",
@@ -3269,5 +3305,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 99
+  "total_tracked": 100
 }

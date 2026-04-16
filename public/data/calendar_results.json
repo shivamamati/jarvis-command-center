@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T19:58:13.769396+00:00",
+  "timestamp": "2026-04-16T20:54:02.569786+00:00",
   "events": [
     {
       "subject": "Redhill",
@@ -89,19 +89,6 @@
       "location": "Microsoft Teams",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GqAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Mitch/Dave Galaxy Sync",
-      "start": "2026-04-16T21:00:00.0000000",
-      "end": "2026-04-16T21:45:00.0000000",
-      "attendees": [
-        "Mitch",
-        "Ken"
-      ],
-      "organizer": "Mitch Lenzi",
-      "location": "https://meet.google.com/wwq-xmak-iic",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GvAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Badminton Game with Peter ",
