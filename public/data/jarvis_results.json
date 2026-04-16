@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-15T23:38:45.069332+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 6,
-  "ai": 4,
+  "timestamp": "2026-04-16T02:13:06.071353+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 4,
+  "ai": 2,
   "skipped": 0,
-  "auto_learned": 56,
+  "auto_learned": 53,
   "items": [
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -3536,72 +3536,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Lead Gen Plan from JSA",
-      "body_preview": "Giovanni,\r\n\r\nHope you're doing well \u2014 to the contrary, we've discussed you quite a bit internally. Just this Monday I got the green light from our CFO to explore customizing your proposal, which he's now open to.\r\n\r\nWould next Thursday at 10am ET / 3pm GM",
-      "received": "2026-04-09T01:47:11Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAZBLfWyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHKNgew6Bk9ClDEVV_fev-0=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, proposal",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Giovanni from JSA has submitted a lead generation proposal that has gained internal traction\u2014Dave's CFO has approved exploring a customized version. Dave is proposing a meeting for next Thursday to discuss terms, indicating Galaxy is seriously considering moving forward with JSA's services.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm availability for next Thursday 10am ET / 3pm GMT meeting and send calendar invite to Giovanni",
-        "Prepare customization requirements document outlining Galaxy's specific lead gen needs and budget parameters before the call",
-        "Brief the CFO on discussion points and approval thresholds for contract terms to ensure alignment during negotiation"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: 8 GREENWICH VIEW PLACE LONDON E14",
-      "body_preview": "Bhavesh,\r\n\r\nThanks for reaching out while Marcus is away.\r\n\r\nJust to give you a sense of where things stand on our end \u2014 we're still at the desktop underwriting stage. Our team at Galaxy is putting together a preliminary memo and model, which we'll be pre",
-      "received": "2026-04-09T01:45:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTfsAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFKpdNsqbyFHs1u7nn5gfgo=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal email from Dave Misra to Bhavesh indicating that Galaxy Capital Partners is in early-stage evaluation of the Greenwich View Place London property. The underwriting process is still preliminary with a memo and financial model in development. This matters because it signals Galaxy's active deal pipeline and financing readiness on what appears to be a significant real estate or data center asset.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Complete the preliminary underwriting memo and financial model to move beyond desktop analysis",
-        "Clarify investment decision timeline and any outstanding information needed from the asset sponsor/seller",
-        "Schedule a follow-up with Bhavesh once preliminary materials are ready to confirm Galaxy's level of interest"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 109
+  "total_tracked": 107
 }
