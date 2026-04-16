@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-16T22:36:35.160613+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 7,
-  "ai": 10,
+  "timestamp": "2026-04-16T23:37:23.316879+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 6,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 40,
   "items": [
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Alex Cox from 2020-4 is a recruiter seeking to fill a Senior Vice President of Commercial Development role for a major Houston-based real estate developer with 35+ years of experience in master-planned communities. This is a leadership-level placement opportunity for a fully integrated development firm. This matters to Galaxy as it represents potential partnership or investment opportunities in large-scale commercial real estate development projects that could align with Galaxy's infrastructure and data center expansion strategies.",
+      "ai_summary": "Alex Cox from 2020-4 is a recruiter placing a Senior Vice President of Commercial Development role at a major Houston-based master-planned community developer with 35+ years of track record. They're seeking an executive to lead commercial development strategy for large-scale, integrated projects. This could represent a talent/partnership opportunity if Galaxy is looking to expand its real estate development capabilities or enter the master-planned community space.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France request the complete job specification and candidate profile to assess strategic fit with Galaxy's development pipeline",
-        "Determine if this developer operates or plans to develop properties requiring data center infrastructure or colocation services",
-        "Schedule a brief call with Alex Cox to explore whether Galaxy should engage as a strategic partner or investor in upcoming projects"
+        "Have France clarify if this role aligns with any current Galaxy expansion plans or if it's a talent source for future operations",
+        "Request the full job description and company profile to assess strategic fit and potential collaboration opportunities",
+        "Determine if Galaxy should engage or simply file for future reference when building out development teams"
       ],
       "ai_failed": false,
       "final_score": 6,
