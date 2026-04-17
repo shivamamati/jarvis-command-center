@@ -1,13 +1,76 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-17T17:46:49.052646+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 7,
+  "timestamp": "2026-04-17T18:55:21.087858+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 10,
   "ai": 10,
   "skipped": 0,
-  "auto_learned": 50,
+  "auto_learned": 48,
   "items": [
+    {
+      "sender_email": "josh.scammell@simmons-simmons.com",
+      "sender_name": "Josh Scammell",
+      "subject": "RE: CDW [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Paul,\r\n\r\nJust by way of updated, we have drafted the reversionary lease of DC space and the corresponding office lease.\r\n\r\nI have just sent these across to Francis for final sign-off and will then be sent across to you for review and comment.\r\n\r\nHave a",
+      "received": "2026-04-17T18:17:49Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHYycN3zIJVEmNqM8SICc6w=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: simmons-simmons.com",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Josh Scammell from Simmons & Simmons (Galaxy's external counsel) is updating on progress with lease documentation for a data center space transaction. He has completed drafts of both a reversionary lease for DC space and an associated office lease, which are now with Francis for final sign-off before reaching Dave for review. This is a critical transactional milestone that requires prompt legal review to keep the deal timeline on track.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Coordinate with Francis to confirm receipt and expedite sign-off on both lease documents",
+        "Schedule immediate review of the leases once Francis approves to identify any commercial or operational concerns before final execution",
+        "Clarify the timeline and counterparty expectations for lease execution to ensure Galaxy meets any critical deadlines"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "postmaster@galaxydatacenters.com",
+      "sender_name": "Microsoft Outlook",
+      "subject": "Undeliverable: Received: Audio-eMessage Missed 10:50 AM for  Galaxycapitalpartners  ",
+      "body_preview": "Your email couldn't be forwarded from galaxycapitalpartners@galaxycapitalpartners.com to another email address.\r\nA custom mail flow rule created by an admin at galaxydatacenters.com has blocked your message.\r\nYou are not a legitimate email sender to send ",
+      "received": "2026-04-17T17:50:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DiAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFwfLuQ2-Q5JjnysO5Onfr0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Internal \u2014 deal/customer related",
+        "KW: capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "An outbound email from the Galaxy Capital Partners domain was blocked by a mail flow rule at Galaxy Data Centers, indicating a configuration issue between the two organizations' email systems. This suggests a potential authentication or domain routing problem that could be preventing legitimate business communications from reaching intended recipients.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Contact Galaxy Data Centers IT/email admin to review the custom mail flow rule and confirm Galaxy Capital Partners is whitelisted as a legitimate sender",
+        "Verify DKIM/SPF/DMARC authentication settings are properly configured for galaxycapitalpartners.com domain",
+        "Test email delivery from Galaxy Capital Partners addresses to ensure the issue is resolved before it impacts critical business communications"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "francis.turley@simmons-simmons.com",
       "sender_name": "Francis Turley",
@@ -18,29 +81,28 @@
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
+      "rules_score": 8,
+      "rules_label": "URGENT",
       "rules_tier": "VIP FIRM",
       "rules_reasons": [
         "Calendar match (+2)",
         "VIP: simmons-simmons.com",
         "KW: nda, capital",
-        "5 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
+        "5 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's external real estate counsel) is confirming delivery of requested Travellers-related documentation by end of business Monday. This appears to be time-sensitive legal materials needed for a transaction or property matter, likely requiring review before moving forward on deal execution or due diligence.",
+      "ai_summary": "Francis Turley, Of Counsel in Real Estate at Simmons & Simmons (Galaxy's legal counsel), is confirming he will deliver requested Travellers-related deliverables by end of business Monday. This appears to be a time-sensitive legal matter requiring prompt turnaround, likely related to a transaction, contract review, or compliance issue affecting Galaxy's operations or deal pipeline.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm receipt of materials from Francis when delivered Monday and schedule review meeting with relevant stakeholders",
-        "Identify what decision or action is dependent on these legal documents and ensure timeline aligns with deal milestones",
-        "Follow up with Paul Leong to understand if any concurrent action items need completion in parallel"
+        "Confirm with Francis what specific deliverables are expected and verify Monday deadline aligns with Galaxy's decision timeline",
+        "Brief relevant team members (likely Deal/Operations) on the incoming Travellers documentation and identify who needs to review/approve",
+        "Schedule follow-up with Paul Leong for Tuesday morning to discuss next actions based on Francis's deliverables"
       ],
       "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
+      "final_score": 8,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "ashley@galaxydatacenters.com",
@@ -409,38 +471,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "josh.scammell@simmons-simmons.com",
-      "sender_name": "Josh Scammell",
-      "subject": "RE: CDW [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Thanks for the confirmation, Paul.\r\n\r\nWe will preparing first draft DCW reversionary lease and send across for your review and comment once prepared.\r\n\r\nMany thanks\r\nJosh\r\n\r\nJosh Scammell\r\nAssociate, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT +44 20 7825 486",
-      "received": "2026-04-17T08:25:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHYycN3zIJVEmNqM8SICc6w=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: simmons-simmons.com",
-        "KW: lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Josh Scammell from Simmons & Simmons (Galaxy's real estate counsel) is confirming he will draft a reversionary lease agreement for the CDW property and will send it to Paul for review and feedback. This is a critical step in finalizing the lease structure for what appears to be a significant data center or real estate transaction, and delays in legal documentation could impact deal timeline.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Paul the expected timeline for receiving the first draft and establish a review deadline",
-        "Prepare internally (with France or relevant team) to review the draft promptly to avoid deal delays",
-        "Clarify with Josh any specific terms or conditions Galaxy wants emphasized in the reversionary lease language before final drafting"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "paul@galaxycapitalpartners.com",
@@ -3180,72 +3210,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxycapitalpartners.com",
-      "sender_name": "Dave Misra",
-      "subject": "",
-      "body_preview": "Sai, thank you for the motivation. I want to be candid that I\u2019m feeling a bit stressed today, and after reviewing the email, messages like this can sometimes trigger a strong stress response for me. I\u2019m still learning how to manage that better.\r\n\r\nThat sa",
-      "received": "2026-04-10T18:53:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAErKjJFa3k1Ii7qQXXMaSPo=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a personal message from Dave to himself or a colleague named Sai, reflecting on stress management and acknowledging receipt of motivational communication. The message is incomplete and seems to be a draft or private note rather than an actionable business communication.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify whether this email was intended to be sent and to whom",
-        "If this is a draft, determine if it requires completion or should be discarded",
-        "No immediate business action required pending clarification of intent"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "microsoftexchange329e71ec88ae4615bbc36ab6ce41109e@galaxydatacenters.com",
-      "sender_name": "Microsoft Outlook",
-      "subject": "Undeliverable: Dave Misra shared \"GDC_Marketing_Update_Week3\" with you",
-      "body_preview": "Your message to vdhunna@gmail.com couldn't be delivered.\r\nvdhunna wasn't found at gmail.com.\r\ndave    Office 365      vdhunna\r\nAction Required                 Recipient\r\nUnknown To address\r\n\r\nHow to Fix It\r\nThe address may be misspelled or may not exist. ",
-      "received": "2026-04-10T18:34:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAZCMV3rAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIjUOoKIbuJLuXB_TbW8HyM=",
-      "rules_score": 5,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Internal \u2014 routine (suppressed)",
-        "Urgency: action required (+1)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "A document sharing attempt from Dave's Office 365 account to an external Gmail address (vdhunna@gmail.com) failed because the recipient address doesn't exist or is invalid. This is a routine delivery failure notification with no immediate business impact, but indicates a potential typo in the recipient email or an outdated contact.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify the correct email address for the intended recipient and resend the GDC_Marketing_Update_Week3 document",
-        "Check internal contact records or ask the relevant team member to confirm vdhunna's current email address",
-        "If this is a recurring contact, update the address book to prevent future delivery failures"
-      ],
-      "ai_failed": false,
-      "final_score": 5,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 98
+  "total_tracked": 97
 }
