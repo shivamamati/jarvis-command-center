@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-17T18:55:21.087858+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 10,
-  "ai": 10,
+  "timestamp": "2026-04-17T19:57:01.690018+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 9,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 48,
   "items": [
@@ -29,12 +29,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Josh Scammell from Simmons & Simmons (Galaxy's external counsel) is updating on progress with lease documentation for a data center space transaction. He has completed drafts of both a reversionary lease for DC space and an associated office lease, which are now with Francis for final sign-off before reaching Dave for review. This is a critical transactional milestone that requires prompt legal review to keep the deal timeline on track.",
+      "ai_summary": "Josh Scammell from Simmons & Simmons (external counsel) is providing an update that he has completed drafting both a reversionary lease for data center space and an associated office lease for CDW. The documents have been sent to Francis for final approval before being delivered to Dave for review. This is a critical step in finalizing lease terms that directly impact Galaxy's data center operations and CDW's occupancy arrangements.",
       "ai_action": null,
       "ai_next_steps": [
-        "Coordinate with Francis to confirm receipt and expedite sign-off on both lease documents",
-        "Schedule immediate review of the leases once Francis approves to identify any commercial or operational concerns before final execution",
-        "Clarify the timeline and counterparty expectations for lease execution to ensure Galaxy meets any critical deadlines"
+        "Follow up with Francis to confirm receipt and timeline for final sign-off on both lease documents",
+        "Prepare preliminary review notes and identify any terms requiring negotiation or clarification before the full legal review",
+        "Confirm execution timeline with Josh and ensure stakeholders are aligned on next milestone dates"
       ],
       "ai_failed": false,
       "final_score": 8,
