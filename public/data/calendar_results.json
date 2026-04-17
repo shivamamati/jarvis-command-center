@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T02:09:17.395563+00:00",
+  "timestamp": "2026-04-17T05:24:27.845830+00:00",
   "events": [
     {
       "subject": "Badminton Game with Peter ",
@@ -58,6 +58,21 @@
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaS2fSyAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
+      "subject": "Redhill",
+      "start": "2026-04-17T13:00:00.0000000",
+      "end": "2026-04-17T13:30:00.0000000",
+      "attendees": [
+        "VIJAY",
+        "Tj",
+        "Paul",
+        "Dilmohan"
+      ],
+      "organizer": "VIJAY RAJ THAMPI",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G3AAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
       "subject": "Dr Abdul Shaheed ",
       "start": "2026-04-17T13:00:00.0000000",
       "end": "2026-04-17T14:00:00.0000000",
@@ -111,32 +126,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaS2fSxAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Friday Marketing Meeting",
-      "start": "2026-04-17T16:30:00.0000000",
-      "end": "2026-04-17T17:00:00.0000000",
-      "attendees": [
-        "Sai",
-        "Animesh",
-        "SA"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBFAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "dave misra and joe sanchez",
-      "start": "2026-04-17T19:00:00.0000000",
-      "end": "2026-04-17T19:15:00.0000000",
-      "attendees": [
-        "Joe"
-      ],
-      "organizer": "Joe Sanchez",
-      "location": "https://meet.google.com/fwf-mqje-ofk",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G5AAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
