@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T15:56:39.732776+00:00",
+  "timestamp": "2026-04-17T16:54:53.836312+00:00",
   "events": [
     {
       "subject": "Badminton Game with Peter ",
@@ -112,6 +112,20 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNiwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "End of week marketing meeting",
+      "start": "2026-04-18T16:30:00.0000000",
+      "end": "2026-04-18T17:30:00.0000000",
+      "attendees": [
+        "Sai",
+        "SA",
+        "Animesh"
+      ],
+      "organizer": "Sai Raman",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pzdbytAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGktn0tgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
