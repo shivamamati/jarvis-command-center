@@ -1,13 +1,76 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-17T13:10:25.689366+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 10,
+  "timestamp": "2026-04-17T14:52:30.932585+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 7,
   "ai": 8,
   "skipped": 0,
-  "auto_learned": 49,
+  "auto_learned": 50,
   "items": [
+    {
+      "sender_email": "media@jsa.net",
+      "sender_name": "JSA",
+      "subject": "JSA & Our Clients are Gearing Up for ITW 2026!",
+      "body_preview": "Join us in National Harbor as the industry comes together \u2014 and connect with our clients.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
+      "received": "2026-04-17T14:33:45Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJXoPB7pG69JonxtPoi0EQc=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: jsa.net"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "JSA, a media/communications firm, is promoting attendance at ITW 2026 (InfoTech World) in National Harbor and positioning themselves as a connector between Galaxy and their client network at the event. This is a networking and brand visibility opportunity where Galaxy could establish presence, meet JSA's client base, and engage with industry peers in the technology sector.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm whether ITW 2026 aligns with Galaxy's conference strategy and sponsorship/attendance priorities",
+        "Request specific details from JSA about their client attendee list, booth opportunities, and speaking/branding options",
+        "Evaluate whether France or Dave should attend, and if Galaxy should consider a booth or sponsorship presence at the event"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "matthew.reid@castleforge.com",
+      "sender_name": "Matthew Reid",
+      "subject": "Re: Redhill - Remedial Action Plan",
+      "body_preview": "Hi guys,\r\n\r\nFollowing our talk Tuesday please our summary of the discussion and some key follow up actions. Let us know if you think anything is incorrect or if we missed any key points. I've highlighted the key follow up points for clarity.\r\n\r\n\r\nUnit 3 o",
+      "received": "2026-04-17T13:58:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHMUi8EcCEhDujVbVjYyF8E=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "7 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Reid from Castle Forge is following up on a Tuesday discussion regarding a Remedial Action Plan for a property called Redhill, providing a summary of discussion points and highlighting key follow-up actions. This appears to be a property remediation or environmental matter requiring coordinated action between Galaxy and Castle Forge. The email is seeking confirmation of accuracy and identification of any missed items before proceeding with next steps.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review Castle Forge's summary and highlighted follow-up actions to confirm Galaxy's understanding and identify any discrepancies or omissions",
+        "Determine Galaxy's specific obligations and timeline commitments from the remedial action plan and assign ownership to France or relevant team member",
+        "Respond to Matthew Reid with confirmation of agreed points and Galaxy's commitment to assigned action items"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -3115,38 +3178,6 @@
       "final_label": "URGENT"
     },
     {
-      "sender_email": "matthew.reid@castleforge.com",
-      "sender_name": "Matthew Reid",
-      "subject": "Redhill - Remedial Action Plan",
-      "body_preview": " Paul/Ash/Dave,\r\n\r\n\r\n\r\nFollowing Mike's call with Paul last week, we need to sit down as a group to discuss changes to how the Redhill project is being run. There appears to be multiple issues coming up across several different workstreams. We have summar",
-      "received": "2026-04-10T16:55:49Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nyAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHMUi8EcCEhDujVbVjYyF8E=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Reid from Castle Forge is requesting an urgent group meeting to address multiple operational issues across different workstreams on the Redhill project, following a prior call between Mike and Paul. This suggests there are escalating execution or management challenges that require immediate cross-functional alignment between Galaxy and Castle Forge leadership to prevent further project deterioration.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should confirm receipt and schedule a meeting with Matthew Reid, Paul, Ash, and relevant Galaxy stakeholders within 48 hours",
-        "Request that Matthew provide the complete summary of issues and workstream concerns before the meeting so Dave can prepare with his team",
-        "Have France or operations lead prepare a status report on Redhill to compare against Castle Forge's identified issues"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
       "subject": "Re: Industry research interview on the Data Centers Space - Guidepoint",
@@ -3241,40 +3272,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: Update from Friday Call",
-      "body_preview": "No, JSA isn't attending this year unfortunately.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Fri, Apr 10, 2026 at 9:57\u202fAM Ashley Roberts <ashley@galaxydatacenters.com> wrote:\r\nI did take a look but I\u2019m on",
-      "received": "2026-04-10T14:02:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nkAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBifYioODhBokyZVOdKTCc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 4x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is confirming that JSA will not be attending an event this year that Galaxy had apparently discussed with them. This indicates a lost networking or partnership opportunity that was previously under consideration.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Ashley Roberts what event JSA was being recruited for and why they declined",
-        "Follow up with Candace to understand JSA's reasons for non-attendance and explore alternative engagement opportunities",
-        "Document the outcome and reassess Galaxy's event strategy for other potential partners"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
   "total_tracked": 99

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T13:10:00.820367+00:00",
+  "timestamp": "2026-04-17T14:52:07.881988+00:00",
   "events": [
     {
       "subject": "Badminton Game with Peter ",
@@ -112,20 +112,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pwURMGAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNiwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "RE: Salesforce Implementation | Discovery Meeting",
-      "start": "2026-04-17T16:30:00.0000000",
-      "end": "2026-04-17T17:30:00.0000000",
-      "attendees": [
-        "Rodrigo",
-        "Ash",
-        "Rodrigo"
-      ],
-      "organizer": "Rodrigo Matos",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaS2fSxAAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
