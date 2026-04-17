@@ -1,13 +1,114 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-17T09:13:41.505780+00:00",
-  "total": 8,
-  "new": 8,
+  "timestamp": "2026-04-17T10:51:50.090679+00:00",
+  "total": 7,
+  "new": 7,
   "noise": 4,
-  "ai": 7,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 49,
   "items": [
+    {
+      "sender_email": "rodrigo@galaxydatacenters.com",
+      "sender_name": "Rodrigo M",
+      "subject": "Re: P3 Incident - S120 ",
+      "body_preview": "Hi @Fredy Marie-Emilienne and @Dave Misra,\r\n\r\nPlease find an Incident report notification attached. Please note, this need to be customised and/or branded (even though I have added RH logo) before send to clients as PDF.\r\n\r\nThis template has not been appr",
+      "received": "2026-04-17T10:51:01Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0C5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZfRASom7tMuMC3addojEM=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "11 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rodrigo from Galaxy Data Centers is sharing an incident report template for the P3 Incident affecting S120 infrastructure and requesting that it be customized with proper branding before distribution to clients. The template currently lacks final approval and requires review to ensure it meets client communication standards and company branding guidelines.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached incident report template and approve the final version with proper Galaxy branding",
+        "Assign ownership for customizing the template for client distribution and establish a deadline for completion",
+        "Clarify with Rodrigo which clients need this report and the timeline for sending it out"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
+      "sender_name": "Fredy Marie-Emilienne",
+      "subject": "Re: P2 Event - S120 ",
+      "body_preview": "Hi all,\r\n\r\nNew executive summary attached showing the events from the very start (when the PLC got faulty). Lessons Learned at the end of the summary. This summary has also been attached to the Monday fault log for S120.\r\n\r\nKind regards,\r\n\r\nFredy Marie-Em",
+      "received": "2026-04-17T10:22:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0C4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACOc2UEwpllBrVtrTdC3RSg=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "10 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre is providing a comprehensive post-incident analysis of a critical P2 event affecting the S120 system, tracing root cause back to a faulty PLC component. The executive summary includes lessons learned and has been formally documented in the Monday fault log for tracking and future reference.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached executive summary and lessons learned to identify any systemic improvements needed for Galaxy Data Centers' infrastructure",
+        "Assess whether the root cause (faulty PLC) reflects potential vulnerabilities in Galaxy's S120 or comparable systems and determine if preventative maintenance is warranted",
+        "Follow up with Fredy/Redhill on remediation timeline and request notification once corrective actions are implemented to avoid recurrence"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "charlie.bruinvels@bcsconsultancy.com",
+      "sender_name": "Charlie Bruinvels",
+      "subject": "Vienna",
+      "body_preview": "Hi Dave\r\n\r\nI hope your week is going well.\r\n\r\nAs promised, we have spoken to the developer and it all seems very positive.\r\n\r\nKey points:\r\n\r\n\r\n  *\r\nThey don't own the land, but have said they have committed 'significant funds' into power, planning and des",
+      "received": "2026-04-17T09:19:46Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0C0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAALzuMAEbLNAi22s6zIOtCs=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: bcsconsultancy.com",
+        "KW: fund, power, vienna"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Charlie Bruinvels from BCS Consultancy is following up on a Vienna development opportunity, reporting positive discussions with a developer. The developer lacks land ownership but has committed substantial capital toward power infrastructure, planning, and design\u2014suggesting they're advancing a project of potential interest to Galaxy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request complete details from Charlie on the developer's financial commitments, timeline, and power capacity specifications for the Vienna project",
+        "Clarify land ownership structure and development risks given the developer doesn't own the property",
+        "Schedule a call with the developer directly to assess alignment with Galaxy's data center investment criteria and timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -106,40 +207,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
-      "sender_name": "Fredy Marie-Emilienne",
-      "subject": "Re: P3 Incident - S120 ",
-      "body_preview": "Hi Dave,\r\n\r\nThank you sounds great. I believe Paul Tester sent an idea a while back, using Monday to raise incidents, then it  would send the relevant customers a notification, in this case with the template Rodrigo would kindly provide.\r\n\r\nKind regards,",
-      "received": "2026-04-17T07:22:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJZfRASom7tMuMC3addojEM=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "11 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fredy Marie-Emilienne from Redhill Data Centre is following up on a P3 incident (S120) and referencing a previous proposal from Paul Tester to use Monday.com as an incident management system that would automatically notify affected customers using templated communications prepared by Rodrigo. This workflow would streamline incident communication and ensure consistent customer notifications across Galaxy's data center operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Dave or France locate and review Paul Tester's original Monday.com incident management proposal to assess feasibility and scope",
-        "Confirm with Rodrigo what notification templates already exist or need to be created for different incident severity levels",
-        "Schedule a call with Fredy to clarify current S120 incident status and align on whether to pilot the Monday.com workflow as a resolution"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "paul@galaxycapitalpartners.com",
@@ -402,41 +469,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ash@galaxydatacenters.com",
-      "sender_name": "Ash Gupta",
-      "subject": "Fw: P2 Event - S120 ",
-      "body_preview": "FYI - all status green once more.\r\n\r\nCheers,\r\n-Ash\r\n________________________________\r\nFrom: Ash Gupta <ash@galaxycapitalpartners.com>\r\nSent: Thursday, April 16, 2026 11:55 AM\r\nTo: Fredy Marie-Emilienne <fredy.marie-emilienne@redhilldatacentre.com>; Luke G",
-      "received": "2026-04-16T16:56:52Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACOc2UEwpllBrVtrTdC3RSg=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 13x (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta is confirming that the P2 Event S120 project has returned to all green status after what appears to have been a previous issue or concern. This is a positive operational update indicating the initiative is back on track and performing well across all metrics.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Ash what specific metrics or deliverables comprise 'all status green' to ensure alignment with Galaxy's performance expectations",
-        "Schedule a brief check-in with Fredy at Redhill Data Centre to understand any external dependencies or coordination needed going forward"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "candace@jsa.net",
@@ -3373,37 +3405,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "christopher.greaves@informa.com",
-      "sender_name": "Greaves, Christopher",
-      "subject": "RE: Data Center World panel rehearsal call",
-      "body_preview": "Thank you all,\r\n\r\nI will move the call to Tuesday 2:30 ET. Looking forward to speaking then.\r\n\r\nKind regards,\r\n\r\nChristopher Greaves\r\nSenior Producer\r\nData Center World\r\n\r\nMobile: +44 20 8052 2899\r\nchristopher.greaves@informa.com\r\nwww.informa.com\r\n\r\nInfor",
-      "received": "2026-04-10T10:09:21Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5nJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABbQPoAEMUTjj6jf95KsAeI=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 3x (+4)",
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Christopher Greaves from Informa (Data Center World conference organizer) is confirming a panel rehearsal call for Tuesday at 2:30 ET. Dave is apparently confirmed as a panelist or speaker at Data Center World, a major industry conference.",
-      "ai_action": "Confirm Dave's availability for Tuesday 2:30 ET panel rehearsal call. Add to calendar if not already done. Prepare any panelist materials or talking points.",
-      "ai_next_steps": [
-        "Verify Dave's calendar availability for Tuesday 2:30 ET",
-        "Confirm participation details (panel topic, other panelists, duration)",
-        "Prepare relevant talking points or deck for Data Center World panel"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 103
