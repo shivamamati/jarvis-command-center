@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-17T14:52:30.932585+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 7,
-  "ai": 8,
+  "timestamp": "2026-04-17T15:57:21.363958+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 12,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 50,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "CEO Looking for DC Capacity",
+      "body_preview": "Hey Dave & Ash,\r\n\r\nNot sure this company would be the right fit for you, but I wanted to pass it along just in case. Check out this LinkedIn post for a message from a CEO looking for urgent DC capacity.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Developme",
+      "received": "2026-04-17T15:51:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOKIMuLeA-RNjP_EqW2IG9w=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, capacity",
+        "Urgency: urgent (+1)",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is referring a potential prospect\u2014a CEO actively seeking data center capacity based on a recent LinkedIn post. This represents a warm lead for immediate capacity needs, which directly aligns with Galaxy Data Centers' core business and could represent a revenue opportunity if the company's requirements match your infrastructure capabilities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Locate and review the LinkedIn post Candace referenced to identify the prospect company and understand their specific capacity requirements",
+        "Have Dave or Ash reach out directly to the CEO through LinkedIn or via Candace with Galaxy's DC offerings and availability",
+        "Coordinate with the sales team to prepare a quick capacity/pricing proposal once the prospect's timeline and specifications are clarified"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "mitch@baxtel.com",
+      "sender_name": "Mitch Lenzi",
+      "subject": "Re: GCore FYI: Delivery Status Notification (Failure)",
+      "body_preview": "Hey Dave,\r\n\r\nDid you have any luck getting in touch with Marcus?\r\n\r\nAny updates here in general - I have multiple sites that can accommodate depending on the exact requirements.\r\n\r\n--\r\nSincerely,\r\nMitch Lenzi\r\nVP, Sales & Operations\r\nm: +1-630-903-3026\r\nM",
+      "received": "2026-04-17T15:34:48Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL3Shll2xDpEs-dobxvZDSg=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Mitch Lenzi]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "VIP: baxtel.com",
+        "Pipeline: mitch lenzi"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mitch Lenzi, VP of Sales & Operations at Baxtel, is following up on a previous discussion regarding Marcus and infrastructure delivery status. He's indicating Baxtel has multiple sites available that could accommodate Galaxy's requirements, suggesting this relates to a capacity or expansion opportunity that's pending clarification on specifications.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should confirm whether he successfully contacted Marcus and provide Mitch with a status update to keep the opportunity moving forward",
+        "France or Dave should clarify the exact requirements (location, capacity, timeline, specs) so Mitch can propose the most suitable Baxtel site option",
+        "Schedule a follow-up call with Mitch and Marcus to align on requirements and evaluate Baxtel's site options against Galaxy's needs"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "media@jsa.net",
       "sender_name": "JSA",
@@ -27,12 +94,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "JSA, a media/communications firm, is promoting attendance at ITW 2026 (InfoTech World) in National Harbor and positioning themselves as a connector between Galaxy and their client network at the event. This is a networking and brand visibility opportunity where Galaxy could establish presence, meet JSA's client base, and engage with industry peers in the technology sector.",
+      "ai_summary": "JSA, a media/industry organization, is promoting attendance at the InfoTech World (ITW) 2026 conference in National Harbor and positioning themselves as a connector between Galaxy and their client network at the event. This represents a potential networking and business development opportunity where Galaxy could showcase its data center and capital solutions to key industry stakeholders in the infrastructure space.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm whether ITW 2026 aligns with Galaxy's conference strategy and sponsorship/attendance priorities",
-        "Request specific details from JSA about their client attendee list, booth opportunities, and speaking/branding options",
-        "Evaluate whether France or Dave should attend, and if Galaxy should consider a booth or sponsorship presence at the event"
+        "Determine if Galaxy has attended ITW conferences previously and assess ROI from past participation",
+        "Clarify JSA's specific value proposition (booth opportunities, speaking slots, VIP access to their client network)",
+        "Evaluate budget and strategic fit for 2026 conference participation relative to other industry events on Galaxy's calendar"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -60,12 +127,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Matthew Reid from Castle Forge is following up on a Tuesday discussion regarding a Remedial Action Plan for a property called Redhill, providing a summary of discussion points and highlighting key follow-up actions. This appears to be a property remediation or environmental matter requiring coordinated action between Galaxy and Castle Forge. The email is seeking confirmation of accuracy and identification of any missed items before proceeding with next steps.",
+      "ai_summary": "Matthew Reid from Castle Forge is following up on a Tuesday discussion regarding the Redhill remedial action plan, providing a summary of conversation points and flagging key follow-up actions for review. Galaxy needs to validate Castle Forge's understanding of the discussion outcomes and confirm or clarify any discrepancies before proceeding with remedial work. This appears to be a critical operational matter requiring alignment between the parties on next steps.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review Castle Forge's summary and highlighted follow-up actions to confirm Galaxy's understanding and identify any discrepancies or omissions",
-        "Determine Galaxy's specific obligations and timeline commitments from the remedial action plan and assign ownership to France or relevant team member",
-        "Respond to Matthew Reid with confirmation of agreed points and Galaxy's commitment to assigned action items"
+        "Review Castle Forge's meeting summary and highlighted follow-up points to identify any factual errors or missing commitments",
+        "Clarify timeline and resource allocation for the remedial actions at Redhill property",
+        "Respond to Matthew Reid with Galaxy's confirmation or corrections on the action items within 2 business days"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -3209,69 +3276,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Friday Marketing Meeting",
-      "body_preview": "________________________________\r\nFrom: Sai Raman\r\nSent: Sunday, March 15, 2026 11:00:41 PM\r\nTo: Sai Raman <sai@galaxydatacenters.com>; Animesh Raha <animesh@galaxydatacenters.com>; SA <sa@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters.com>",
-      "received": "2026-04-10T15:25:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGFWgKkfSqpMq1eAdlw_014=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 9x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman (Galaxy Data Centers internal marketing team) is scheduling a marketing meeting for Friday and looping in key Galaxy leadership including Dave Misra. This appears to be an internal coordination email to align the marketing team on upcoming initiatives or strategy. Timely execution of marketing activities is critical for Galaxy's competitive positioning and revenue growth in the data center sector.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and request agenda/pre-read materials from Sai to prepare for the Friday meeting",
-        "Brief France (if applicable) on meeting topics beforehand to ensure alignment on key marketing priorities",
-        "Identify any urgent marketing decisions or approvals needed before Friday"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "rgandara@stirlingst.com",
-      "sender_name": "Roco Gandara",
-      "subject": "Unique Data Center Investment Opportunity",
-      "body_preview": "Hi Dave,\r\n\r\nMy name is Roco Gandara. I'm an SVP at Stirling Street, a real estate-focused investment bank. I wanted to connect on a unique investment opportunity in the data center space we've been working on, to see if you'd be interested in taking a dee",
-      "received": "2026-04-10T15:18:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5noAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, investment, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Roco Gandara, SVP at Stirling Street (real estate investment bank), is reaching out directly to Dave about a specific data center investment opportunity. Email appears cut off mid-sentence, but this is a personalized outreach from a legitimate banking contact in Galaxy's core sector.",
-      "ai_action": "Dave should reply to Roco requesting the full details of the opportunity. Have France follow up if no response within 24 hours to get complete information on the deal structure, geography, MW capacity, and investment thesis.",
-      "ai_next_steps": [
-        "Reply to Roco Gandara requesting complete email with full deal details",
-        "Verify Stirling Street's track record in data center deals",
-        "If credible, schedule call with Dave and Roco to discuss specifics"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 99
