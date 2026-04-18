@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-18T18:41:50.743500+00:00",
-  "total": 1,
-  "new": 1,
+  "timestamp": "2026-04-18T20:31:37.689377+00:00",
+  "total": 2,
+  "new": 2,
   "noise": 1,
-  "ai": 1,
+  "ai": 2,
   "skipped": 0,
-  "auto_learned": 46,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "faye.p@queensu.ca",
+      "sender_name": "Faye Pan",
+      "subject": "Follow-Up on Internship Onboarding",
+      "body_preview": "Hi Dave\r\n\r\nI hope you are doing well. I have finished my exams and wanted to reach out regarding the internship onboarding process.\r\n\r\nI am now available to move forward, so please let me know the next steps or a convenient time to connect.\r\n\r\nBest regard",
+      "received": "2026-04-18T19:57:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaeuWYPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN91dMyg1bRBtozIydPHD5s=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied 4x (+4)",
+        "KW: lease, board"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Faye Pan (Queen's University) is following up on a previously discussed internship opportunity at Galaxy Capital Partners. She's now available to proceed with onboarding after finishing her exams and is asking for next steps.",
+      "ai_action": "Dave or France (HR/Operations) should confirm internship details, role, start date, and onboarding logistics. This suggests a prior commitment was made.",
+      "ai_next_steps": [
+        "Confirm internship role, duration, and start date",
+        "Send formal offer letter or onboarding documentation",
+        "Arrange first-day logistics (access, equipment, orientation)"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "josh.scammell@simmons-simmons.com",
       "sender_name": "Josh Scammell",
@@ -3080,39 +3111,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: Query from The Guardian",
-      "body_preview": "________________________________\r\nFrom: Dave Misra <dave@galaxycapitalpartners.com>\r\nSent: Tuesday, September 16, 2025 5:02:53 PM\r\nTo: Ash Gupta <ash@galaxycapitalpartners.com>; Liz Edwards <liz@jsa.net>\r\nCc: Danielle Todd <pr@danielletodd.uk>; Paul L",
-      "received": "2026-04-11T19:08:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKderrkseyJNqXtrSHZVamo=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "The Guardian is seeking information or comment from Galaxy, likely for a news story or investigative piece. This represents a media inquiry that could impact Galaxy's public reputation and requires coordinated response given the forwarding to PR counsel and multiple stakeholders. A timely, strategic response is critical to shape messaging and protect Galaxy's interests.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Determine the specific topic/angle The Guardian is investigating before responding",
-        "Coordinate with Danielle Todd (PR) and legal counsel to develop unified messaging",
-        "Establish response timeline and designate single point of contact for media engagement"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 94
