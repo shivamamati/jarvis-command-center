@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-18T11:31:50.831629+00:00",
+  "timestamp": "2026-04-18T12:54:33.659720+00:00",
   "total": 4,
   "new": 4,
   "noise": 4,
   "ai": 3,
   "skipped": 0,
-  "auto_learned": 47,
+  "auto_learned": 46,
   "items": [
     {
       "sender_email": "josh.scammell@simmons-simmons.com",
@@ -3144,40 +3144,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Nikos and Dave Misra",
-      "body_preview": "Event Name\r\nGALAXY VIP\r\n\r\nNeed to make changes to this event? Cancel Reschedule\r\nPowered by Calendly\r\n________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/2765279",
-      "received": "2026-04-11T11:47:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAZBPTgJAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACqSFwZh8vlIlfvU7HSPih8=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: power",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a calendar invitation confirmation for a Galaxy VIP event with Nikos, delivered via Calendly. The email provides meeting details and options to modify or cancel the scheduled meeting.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the meeting time and attendees with Nikos to ensure alignment on discussion agenda",
-        "Review any pre-meeting materials or context about what Nikos needs to discuss",
-        "Ensure Teams meeting link is accessible and test connectivity prior to the scheduled time"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 96
+  "total_tracked": 95
 }
