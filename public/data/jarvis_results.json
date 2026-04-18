@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-18T20:31:37.689377+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 1,
-  "ai": 2,
+  "timestamp": "2026-04-18T21:30:54.922676+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Faye Pan (Queen's University) is following up on a previously discussed internship opportunity at Galaxy Capital Partners. She's now available to proceed with onboarding after finishing her exams and is asking for next steps.",
-      "ai_action": "Dave or France (HR/Operations) should confirm internship details, role, start date, and onboarding logistics. This suggests a prior commitment was made.",
+      "ai_summary": "Faye Pan from Queens University is following up on a previously agreed internship at Galaxy Capital Partners. She's completed her exams and is now ready to begin onboarding. This appears to be a committed candidate Dave has already engaged with.",
+      "ai_action": "Dave or France should confirm internship start date, onboarding logistics (location, first day, reporting structure), and send formal onboarding materials/NDA.",
       "ai_next_steps": [
-        "Confirm internship role, duration, and start date",
-        "Send formal offer letter or onboarding documentation",
-        "Arrange first-day logistics (access, equipment, orientation)"
+        "Confirm Faye's start date and onboarding schedule",
+        "Send internship agreement, NDA, and first-day logistics",
+        "Assign mentor/supervisor and provide access credentials"
       ],
       "ai_failed": false,
       "final_score": 7,
