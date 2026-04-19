@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-19T10:35:51.092409+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 3,
-  "ai": 2,
+  "timestamp": "2026-04-19T11:32:32.068470+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -29,12 +29,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave McNeish from Travelers Insurance is responding to Galaxy's follow-up outreach and proposing a dual-track engagement model: weekly contract discussions led by their team (Ben) with McNeish's participation plus legal and real estate resources, plus ad-hoc technical discussions (with Steve Howard leading). This signals serious buyer intent and willingness to structure a formal vendor evaluation process with Travelers.",
+      "ai_summary": "Dave McNeish from Travelers Insurance is proposing a dual-track engagement structure for ongoing discussions with Galaxy, with Ben leading contract negotiations (including legal and real estate) on a weekly cadence, while Steve Howard will handle technology discussions as needed. This represents Travelers moving from initial exploration to formalized deal progression, indicating serious intent to advance a business relationship with Galaxy.",
       "ai_action": null,
       "ai_next_steps": [
-        "Schedule and confirm the first weekly contract discussion meeting with Ben, McNeish, and Travelers legal/real estate teams to establish timeline and key terms",
-        "Identify Galaxy's lead for technical discussions and confirm availability/scope with Steve Howard to ensure technical alignment",
-        "Prepare contract discussion agenda covering pricing, SLAs, data center capabilities, and real estate requirements to move negotiations forward"
+        "Confirm Galaxy's contract lead and legal representation, then schedule first weekly meeting with Travelers' Ben and McNeish",
+        "Identify Galaxy's technical counterpart to coordinate with Steve Howard on technology requirements",
+        "Prepare contract discussion agenda covering scope, terms, and real estate implications for the first weekly session"
       ],
       "ai_failed": false,
       "final_score": 9,
