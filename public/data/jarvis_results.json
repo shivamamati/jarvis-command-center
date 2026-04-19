@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-19T07:14:04.132773+00:00",
+  "timestamp": "2026-04-19T08:50:00.197150+00:00",
   "total": 11,
   "new": 11,
   "noise": 10,
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Bob Cavoto is introducing Gary Louis, an MBA/CFA-credentialed senior finance and real estate executive with institutional and entrepreneurial experience, apparently as a potential candidate for a role at Galaxy. Gary's background spans fund strategy, financial planning & analysis, and investor relations\u2014skillsets relevant to Galaxy's capital partnerships and data center operations.",
+      "ai_summary": "Bob Cavoto is introducing Gary Louis, an MBA/CFA-credentialed senior finance and real estate executive with institutional and entrepreneurial background, for a potential role or consultation. The introduction suggests Gary's expertise in fund strategy, financial planning, investor relations, and real estate finance could align with Galaxy's capital management and data center expansion needs. This matters because Galaxy may be evaluating talent or advisors to strengthen financial operations or fund management capabilities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Request Gary's full resume (PDF preferred) and clarify the specific role or engagement Bob is proposing",
-        "Schedule a brief call with Bob to understand Gary's relevant experience in data center financing or fund management",
-        "Have France review Gary's background against current or anticipated staffing needs in FP&A or investor relations functions"
+        "Review Gary Louis's full resume and confirm with Bob whether this is for a specific open role at Galaxy or a business development opportunity",
+        "Schedule a brief call with Gary to assess fit for Galaxy's current priorities (fund strategy, investor relations, or real estate finance needs)",
+        "Clarify with Bob the scope of engagement Bob is proposing and any time-sensitive recruiting or advisory timeline"
       ],
       "ai_failed": false,
       "final_score": 6,
