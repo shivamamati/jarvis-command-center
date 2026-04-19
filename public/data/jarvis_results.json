@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-19T05:25:24.273328+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 2,
-  "ai": 1,
+  "timestamp": "2026-04-19T07:14:04.132773+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 10,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "bobcavoto@2020-4.com",
+      "sender_name": "Bob Cavoto",
+      "subject": "Gary Louis Resume - Real Estate Finance Executive - Fund Strategy | Financial Planning & Analysis | Investor Relations",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nI am pleased to introduce Gary Louis, MBA, CFA, whose r\u00e9sum\u00e9 is included below (please let me know if you would prefer a PDF). Gary is a senior finance and real estate professional with broad experience across institutional and entrepreneuria",
+      "received": "2026-04-19T07:05:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AASddSvLAAAuilH2jaEmTaBeWRekOs%2B0AAagocT8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL4TRVltgBROqDEfyCpkJ6k=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: lease, fund, introduce"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Bob Cavoto is introducing Gary Louis, an MBA/CFA-credentialed senior finance and real estate executive with institutional and entrepreneurial experience, apparently as a potential candidate for a role at Galaxy. Gary's background spans fund strategy, financial planning & analysis, and investor relations\u2014skillsets relevant to Galaxy's capital partnerships and data center operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Gary's full resume (PDF preferred) and clarify the specific role or engagement Bob is proposing",
+        "Schedule a brief call with Bob to understand Gary's relevant experience in data center financing or fund management",
+        "Have France review Gary's background against current or anticipated staffing needs in FP&A or investor relations functions"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "faye.p@queensu.ca",
       "sender_name": "Faye Pan",
@@ -3048,70 +3079,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Sai Raman shared \"galaxy-onepager-final (3)\" with you",
-      "body_preview": "Sai Raman invited you to edit a file\r\n\r\nHi Sarthak, can you please review the one pager  Ashley wanted\r\n\r\n        galaxy-onepager-final (3)\r\n        This invite will only work for you and people with existing access.\r\nOpen            Share\r\n\r\n\r\nPrivacy St",
-      "received": "2026-04-12T06:22:29Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5owAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIV_EG669rtAm4XntI6fyRw=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 10x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman, an internal team member at Galaxy Data Centers, is requesting that Sarthak review a one-pager document that Ashley requested. This appears to be an internal collaborative review process for a key marketing or business document that likely needs finalization before distribution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Access the shared document and complete the review promptly to maintain project momentum",
-        "Clarify with Sai or Ashley the timeline and specific feedback areas to prioritize",
-        "Consolidate review comments and send back to Sai with any recommendations for final edits"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dse_na4@docusign.net",
-      "sender_name": "Paul Leong via Docusign",
-      "subject": "Complete with Docusign: GCP LLC Operating Agreement Amendment v2.docx",
-      "body_preview": "Paul Leong sent you a document to review and sign.\r\nReview Document\r\nPaul Leong\r\npaul@galaxycapitalpartners.com\r\nDave Misra,\r\n\r\nComplete with Docusign: GCP LLC Operating Agreement Amendment v2.docx\r\n\r\nThank You, Paul Leong\r\nDo Not Share This Email\r\n\r\n\r\nTh",
-      "received": "2026-04-12T06:17:11Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAY9L5ovAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFK7_0dNYepAlhR8S6uFCG4=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: capital"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 9,
-      "ai_label": "CRITICAL",
-      "ai_summary": "Paul Leong (Galaxy Capital Partners internal) has sent a DocuSign document for Dave to review and sign: an amendment to the GCP LLC Operating Agreement. This is a formal legal document requiring Dave's immediate attention and signature.",
-      "ai_action": "Dave must review and sign this document immediately. Contact Paul Leong if any questions on the amendment terms.",
-      "ai_next_steps": [
-        "Open DocuSign link and review GCP LLC Operating Agreement Amendment v2",
-        "Confirm amendment terms with Paul Leong before signing",
-        "Sign and return via DocuSign"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 94
+  "total_tracked": 93
 }
