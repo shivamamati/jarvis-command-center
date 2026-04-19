@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-19T09:43:06.413864+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 1,
-  "ai": 0,
+  "timestamp": "2026-04-19T10:35:51.092409+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "dmcneish@travelers.com",
+      "sender_name": "McNeish, Dave",
+      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "Ash,\r\nWill get back to you \u2013 I think we need two tracks:\r\n\r\n  *   Contract Discussions \u2013 weekly (TRV: Ben leads and I will participate  we will also include legal and our real estate team as needed)\r\n  *   Tech Discussion \u2013 As needed (TRV: Steve Howard le",
+      "received": "2026-04-19T10:11:08Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnK5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: travelers.com",
+        "KW: rack, contract",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave McNeish from Travelers Insurance is responding to Galaxy's follow-up outreach and proposing a dual-track engagement model: weekly contract discussions led by their team (Ben) with McNeish's participation plus legal and real estate resources, plus ad-hoc technical discussions (with Steve Howard leading). This signals serious buyer intent and willingness to structure a formal vendor evaluation process with Travelers.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule and confirm the first weekly contract discussion meeting with Ben, McNeish, and Travelers legal/real estate teams to establish timeline and key terms",
+        "Identify Galaxy's lead for technical discussions and confirm availability/scope with Steve Howard to ensure technical alignment",
+        "Prepare contract discussion agenda covering pricing, SLAs, data center capabilities, and real estate requirements to move negotiations forward"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "bobcavoto@2020-4.com",
       "sender_name": "Bob Cavoto",
@@ -165,40 +197,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "Re: [External] Re: Travelers : Galaxy Follow up",
-      "body_preview": "Hi Dave/Ben,\r\n\r\nAre you free next week Tuesday or Wednesday at 3.30pm UK time for a technical discussion?\r\n\r\n\r\nAsh\r\nFrom: McNeish, Dave <DMCNEISH@travelers.com>\r\nDate: Wednesday, 8 April 2026 at 13:13\r\nTo: Ashley Roberts <ashley@galaxydatacenters.com>, Ga",
-      "received": "2026-04-17T16:14:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave McNeish from Travelers Insurance is requesting a technical discussion with Galaxy's team, proposing next week on either Tuesday or Wednesday at 3:30pm UK time. This appears to be a follow-up to ongoing business development with a major enterprise client regarding potential data center or infrastructure services. Confirming this meeting is critical to advancing the Travelers opportunity and demonstrating Galaxy's technical capabilities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm availability for Tuesday or Wednesday at 3:30pm UK time and respond to Ashley with specific date/meeting link",
-        "Prepare technical discussion agenda and materials relevant to Travelers' potential infrastructure needs",
-        "Brief team members who will attend on Travelers' business context and any prior technical requirements discussed"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "candace@jsa.net",
