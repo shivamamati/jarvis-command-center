@@ -1,20 +1,6 @@
 {
-  "timestamp": "2026-04-18T23:30:51.363002+00:00",
+  "timestamp": "2026-04-19T02:13:35.006829+00:00",
   "events": [
-    {
-      "subject": "End of week marketing meeting",
-      "start": "2026-04-18T16:30:00.0000000",
-      "end": "2026-04-18T17:30:00.0000000",
-      "attendees": [
-        "Sai",
-        "SA",
-        "Animesh"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3pzdbytAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGktn0tgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Ops Team Weekly",
       "start": "2026-04-20T13:30:00.0000000",
@@ -72,6 +58,50 @@
       "location": "https://meet.google.com/wwq-xmak-iic",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GvAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Solar Proposal - Galaxy Data Centres",
+      "start": "2026-04-21T15:00:00.0000000",
+      "end": "2026-04-21T15:30:00.0000000",
+      "attendees": [
+        "Adam"
+      ],
+      "organizer": "Adam Leponis",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpISAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Redhill Operations Call",
+      "start": "2026-04-21T15:00:00.0000000",
+      "end": "2026-04-21T15:45:00.0000000",
+      "attendees": [
+        "Elizabeth",
+        "4.02",
+        "Ash",
+        "Mike",
+        "Neil",
+        "Paul"
+      ],
+      "organizer": "Elizabeth Smith",
+      "location": "4.01",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3p847miAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEFTImBgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Dave <> New Interns Sync",
+      "start": "2026-04-21T17:00:00.0000000",
+      "end": "2026-04-21T18:00:00.0000000",
+      "attendees": [
+        "Krish",
+        "Dev",
+        "vbhardw7@uwo.ca",
+        "sherman7@wharton.upenn.edu"
+      ],
+      "organizer": "Krish Mehta",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G2AAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
