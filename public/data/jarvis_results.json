@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-19T18:42:10.029257+00:00",
+  "timestamp": "2026-04-19T21:31:59.201053+00:00",
   "total": 1,
   "new": 1,
   "noise": 1,
-  "ai": 1,
+  "ai": 0,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
@@ -2979,72 +2979,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Revised operating agreement ammendment",
-      "body_preview": "Hi Ritesh - please see attached executed GCP Operating Agreement Amendment addressing your comments.\r\n\r\nThanks\r\n\r\nPaul\r\n\r\n\r\nSent from my iPhone",
-      "received": "2026-04-12T18:55:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2BKnTPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG-2e3DgWGpDvA4MmjnYnfQ=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 12x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers has sent an executed amendment to the GCP Operating Agreement that incorporates feedback previously provided by Ritesh. This document represents finalized legal terms and is ready for implementation or distribution to relevant stakeholders.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the executed amendment to confirm all requested changes were incorporated correctly",
-        "Distribute the finalized amendment to relevant parties (legal, finance, and GCP counterparts) for records and implementation",
-        "Confirm effective date and any required follow-up actions or notifications with stakeholders"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dse_na4@docusign.net",
-      "sender_name": "Paul Leong via Docusign",
-      "subject": "Completed: Complete with Docusign: GCP LLC Operating Agreement Amendment v2.docx",
-      "body_preview": "Your document has been completed\r\nView Completed Document\r\nPaul Leong\r\npaul@galaxycapitalpartners.com\r\n\r\nAll parties have completed Complete with Docusign: GCP LLC Operating Agreement Amendment v2.docx.\r\n\r\nDo Not Share This Email\r\n\r\n\r\nThis email contains ",
-      "received": "2026-04-12T18:52:09Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2BKnTOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOjeqV8hojdDuWGPDVr0lnY=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "KW: capital"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 9,
-      "ai_label": "CRITICAL",
-      "ai_summary": "DocuSign completion notification for GCP LLC Operating Agreement Amendment v2. All parties have signed. This is a legally binding document execution for Galaxy Capital Partners that requires immediate review and filing.",
-      "ai_action": "Dave should immediately review the completed operating agreement amendment. Confirm with legal counsel (Simmons & Simmons) that all terms are correct and determine next steps for execution/filing. Archive securely.",
-      "ai_next_steps": [
-        "Download and review completed GCP LLC Operating Agreement Amendment v2 from DocuSign link",
-        "Forward to Simmons & Simmons for final legal review and confirmation",
-        "Determine filing/recording requirements and timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 92
+  "total_tracked": 90
 }
