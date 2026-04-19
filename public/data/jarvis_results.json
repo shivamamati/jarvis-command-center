@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-19T21:31:59.201053+00:00",
+  "timestamp": "2026-04-19T22:31:01.923539+00:00",
   "total": 1,
   "new": 1,
   "noise": 1,
@@ -2946,40 +2946,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "victoria.skrbensky@jll.com",
-      "sender_name": "Skrbensky, Victoria",
-      "subject": "Project Br\u00f8ndby | 50 MVA Powered Land in Copenhagen",
-      "body_preview": "Hi Dave,\r\n\r\nI hope you've had a lovely weekend. Following our discussions on Poland, I wanted to share with you a near-term powered land opportunity in Br\u00f8ndby, Copenhagen, that JLL is exclusively mandated on. Let me know if this geography would be of int",
-      "received": "2026-04-12T21:32:21Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5iAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGucUX-pEOJNlcCPp6fKtRA=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Victoria Skrbensky]",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "VIP: jll.com",
-        "Pipeline: victoria skrbensky",
-        "KW: nda, power"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Victoria Skrbensky from JLL is presenting an exclusive powered land opportunity in Br\u00f8ndby, Copenhagen with 50 MVA capacity. This is a near-term deal in Denmark following previous discussions about Galaxy's expansion into new markets, representing a potential data center real estate play in Northern Europe. The exclusivity and ready power availability make this time-sensitive for Galaxy to evaluate competitive positioning in the Copenhagen market.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Ask Victoria to provide full project specifications including timeline, asking price, power supply details, and customer pre-commitments",
-        "Have France or a team member conduct a quick market assessment of Copenhagen's data center demand and competitive landscape",
-        "Schedule a call with Victoria to determine Galaxy's level of interest and exclusivity terms before committing resources to detailed due diligence"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 90
+  "total_tracked": 89
 }
