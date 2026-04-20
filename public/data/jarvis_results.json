@@ -1,13 +1,112 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T10:44:12.174176+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 2,
-  "ai": 1,
+  "timestamp": "2026-04-20T12:01:19.047556+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 1,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 43,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "william.bellman@colliers.com",
+      "sender_name": "Bellman, William",
+      "subject": "Data Centre Opportunities -  Two Existing Manchester 'Value Add'  Data Centres for Sale [Subject to Contract & Without Prejudice}",
+      "body_preview": "Dave\r\n\r\nAfternoon.\r\n\r\nI am not sure if you are looking at the Manchester Data Centre Market , as we are confidentially appointed by the Coop Group (staff are unaware) to dispose of two operational data centres, which they will be vacating shortly;",
+      "received": "2026-04-20T11:56:45Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKk8QhEPWUxJp5E-EYJ64hI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "KW: contract, data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "William Bellman from Colliers is offering Galaxy exclusive access to two operational data centres in Manchester that Coop Group is selling (confidential mandate). These are existing, revenue-generating assets in a major UK market\u2014exactly aligned with Galaxy's acquisition strategy.",
+      "ai_action": "Dave should call Bellman immediately to understand: asset specs (MW, rack count, current tenancy/utilization), asking price, timeline, and exclusivity period. Request teaser/IM if available. Flag to Castleforge as potential co-investment.",
+      "ai_next_steps": [
+        "Dave calls Bellman to qualify specs, price, and exclusivity terms",
+        "Request one-pager or investment teaser (power, cooling, tenancy, capex needed)",
+        "Share with Castleforge and discuss co-acquisition appetite"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
+      "body_preview": "Hi Paul\r\n\r\nI attach the Travellers MSA in clean copy, together with a compare against the original lease.\r\n\r\nThere are a number of comments for the Redhill team to consider before finalising the draft and issuing it to Travellers.\r\n\r\nPlease let me know if",
+      "received": "2026-04-20T11:55:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "VIP: simmons-simmons.com",
+        "KW: lease",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) has provided a clean copy of the Travellers Master Service Agreement along with a comparison to the original lease terms. He's flagged several items requiring Redhill team review before the final version can be sent to Travellers, indicating potential discrepancies or risks that need resolution before execution.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have the Redhill team review Francis's comments and discrepancies identified in the MSA comparison within 2-3 business days",
+        "Schedule a call between Redhill, Francis, and Galaxy leadership to prioritize and resolve any material issues before reissuing to Travellers",
+        "Confirm timeline with Travellers for their review and approval to ensure deal momentum is maintained"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "mail@redhilldatacentre.com",
+      "sender_name": "Aliaksandr Minich",
+      "subject": "New Message From Redhill Data Centre",
+      "body_preview": "Aliaksandr Minich\r\n572431235\r\naliaksandr.minich@maxbert.pl\r\nMaxbert NIP: 521-341-00-32\r\n%%designation%%\r\nContact Sales: Request a quote\r\n\r\n\r\nHello,\r\n\r\nKindly review the offer below:\r\n\r\n\r\n1.\r\n\r\nAUTOMATIC TRANSFER SWITCH\r\ncatalogue number: MXL167A042\r\n\r\n4 x",
+      "received": "2026-04-20T11:12:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABIC9BO7pcVEgvyvNULFAWQ=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Aliaksandr Minich from Redhill Data Centre is soliciting Galaxy for a quote on automatic transfer switches (MXL167A042), likely for data center infrastructure upgrades or new facility equipment. This is a vendor outreach for electrical/power infrastructure components that could be relevant to Galaxy Data Centers' operations if we're considering equipment upgrades or new site builds.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Route to France or appropriate procurement team to determine if this product/specification aligns with any current Galaxy data center infrastructure projects",
+        "Request complete product specifications, pricing, and delivery timeline from Redhill before engaging further",
+        "Clarify whether this unsolicited quote relates to an RFP Galaxy issued or if this is cold outreach requiring further qualification"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "ash@galaxydatacenters.com",
       "sender_name": "Ash Gupta",
@@ -233,39 +332,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Travellers [SIMS-L_LIVE_EMEA1.143566.143566-00019.FID3663718]",
-      "body_preview": "Hi Paul\r\n\r\nWill have this with you by close of play on Monday.\r\n\r\nRegards\r\n\r\nFrancis Turley\r\nOf Counsel, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT : +44 20 7825 3421\r\nFrancis.Turley@simmons-simmons.com\r\n\r\n\r\nFrom: Paul Leong <paul@galaxycapitalpartners.com>",
-      "received": "2026-04-17T17:32:40Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHh1qFQUsXxOgH8PSR2xj3g=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "VIP: simmons-simmons.com",
-        "KW: nda, capital",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley, Of Counsel in Real Estate at Simmons & Simmons (Galaxy's legal counsel), is confirming he will deliver requested Travellers-related deliverables by end of business Monday. This appears to be a time-sensitive legal matter requiring prompt turnaround, likely related to a transaction, contract review, or compliance issue affecting Galaxy's operations or deal pipeline.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Francis what specific deliverables are expected and verify Monday deadline aligns with Galaxy's decision timeline",
-        "Brief relevant team members (likely Deal/Operations) on the incoming Travellers documentation and identify who needs to review/approve",
-        "Schedule follow-up with Paul Leong for Tuesday morning to discuss next actions based on Francis's deliverables"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "candace@jsa.net",
@@ -2184,38 +2250,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "mail@redhilldatacentre.com",
-      "sender_name": "Svetlana",
-      "subject": "New Message From Redhill Data Centre",
-      "body_preview": "Svetlana\r\n01933654828\r\nS.Tauteriene@electro-engineering.co.uk\r\nElectro Engineering ltd\r\n%%designation%%\r\nContact Sales: Schedule a meeting or tour\r\n\r\n\r\nGood morning,\r\n \r\nWe are Electro Thermal, an engineer led service and part of Electro Engineering Ltd  ",
-      "received": "2026-04-14T10:24:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7iAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALtzrPOW2PlOlwSlKGdpzxQ=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Svetlana from Electro Thermal (part of Electro Engineering Ltd) is reaching out as a potential service provider or partner, likely offering engineering or thermal management solutions relevant to data center operations. They're seeking to schedule a meeting or tour to discuss potential business opportunities with Galaxy. This represents a possible vendor relationship or operational partnership that could impact Galaxy's data center infrastructure capabilities or efficiency.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or business development team research Electro Thermal's service offerings and determine strategic fit with Galaxy's current infrastructure needs",
-        "Schedule an exploratory call with Svetlana to understand their specific capabilities and what they're proposing",
-        "If relevant, coordinate a facility tour with one of Galaxy's data centers to assess potential value-add"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "reece.cooksey@hansonwade.com",
       "sender_name": "Reece Cooksey",
       "subject": "Re: Speaker Opportunity - Advancing Data Center Construction Canada 2026",
@@ -2814,5 +2848,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 85
+  "total_tracked": 86
 }
