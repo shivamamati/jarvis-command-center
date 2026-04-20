@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T21:42:33.612019+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 5,
-  "ai": 7,
+  "timestamp": "2026-04-20T22:39:44.224782+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 2,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 38,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill Build Room and Storage Agreement",
+      "body_preview": "Hi Max - Hope you have been well.  As discussed on the previous call, we have checked into the availability of the 240kw that is adjacent to your space.  The good news is that we can have that space available for you around August 31. We would have to dis",
+      "received": "2026-04-20T22:35:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnMTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJx_5lLgl91Mlm8qUFz_88Y=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: kw",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is confirming availability of 240kW of adjacent capacity at the Redhill facility, with delivery targeted for August 31st. This appears to be a follow-up to a prior commitment regarding expansion space for a customer, indicating we can meet their growth timeline. The email was cut off, but this likely involves finalizing terms for additional power allocation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Paul provide the complete email including any terms, conditions, or 'dis-' details that were cut off",
+        "Confirm with Max (customer) that August 31st delivery aligns with their project timeline and inform them of the confirmation",
+        "Schedule follow-up call with Paul to finalize the Build Room and Storage Agreement terms and any prerequisites for the 240kW activation"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -2606,5 +2641,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 79
+  "total_tracked": 80
 }
