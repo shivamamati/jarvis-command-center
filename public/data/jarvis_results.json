@@ -1,43 +1,78 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T20:03:10.705545+00:00",
-  "total": 19,
-  "new": 19,
-  "noise": 15,
-  "ai": 15,
+  "timestamp": "2026-04-20T21:42:33.612019+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 5,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 38,
   "items": [
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Mitch/Dave Galaxy Sync",
-      "body_preview": "Mitch \u2014 I\u2019m still dealing with a few items from last week and am in London today. Unfortunately, the scheduled time doesn\u2019t work from the UK, so I\u2019ll need to cancel today\u2019s meeting. Apologies for the inconvenience.\r\n\r\nFrance will coordinate with you to fi",
-      "received": "2026-04-20T19:38:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAakGz23AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Apollo Sequences",
+      "body_preview": "Ok thanks Sameed.\r\n\r\n@Rodrigo M please check when you can today. We are aiming to go live with our campaigns tomorrow and require the tracking to be set up before that.\r\n\r\nPlease advise if any issues .\r\nThanks,\r\nSai\r\n________________________________\r\nFrom",
+      "received": "2026-04-20T20:08:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnMOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAClva4o1qBFClI1SkpzB-us=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB4GCTCaBBxBo5fyQn23BCA=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
+        "Dave replied 3x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: rack, lease"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This is an internal email from Dave to someone named Mitch regarding a previously scheduled sync meeting. Dave is currently in London and needs to cancel today's meeting due to timing conflicts with UK hours, and is delegating coordination of rescheduling to France. This appears to be a routine calendar management issue with no immediate business impact.",
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal staff) is coordinating with Rodrigo M to complete tracking setup for marketing campaigns launching tomorrow. This is time-sensitive infrastructure work needed before go-live, and any delays could impact the campaign launch timeline and associated business metrics.",
       "ai_action": null,
       "ai_next_steps": [
-        "France should reach out to Mitch to reschedule the meeting at a mutually convenient time",
-        "Confirm the rescheduled meeting details with both parties once agreed"
+        "Confirm with Rodrigo M today on tracking setup completion status and identify any blockers",
+        "Establish rollback plan if tracking setup cannot be completed before tomorrow's launch",
+        "Brief stakeholders on campaign launch status and any potential delays"
       ],
       "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "mitch@baxtel.com",
+      "sender_name": "Mitch Lenzi",
+      "subject": "Re: Mitch/Dave Galaxy Sync",
+      "body_preview": "Thanks Dave,\r\n\r\nI do have a booking link but I don't use it as my schedule is always booked solid ~1 week out. I could make something work tomorrow morning between 9-10AM CST but otherwise it would likely have to be Thursday or Friday for this week.\r\n\r\nLe",
+      "received": "2026-04-20T20:06:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnMNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAClva4o1qBFClI1SkpzB-us=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Mitch Lenzi]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+4)",
+        "VIP: baxtel.com",
+        "Pipeline: mitch lenzi"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mitch Lenzi from Baxtel is responding to a meeting request from Dave and indicating his availability is extremely constrained. He can accommodate a call tomorrow morning (9-10AM CST) or can defer to Thursday/Friday this week, suggesting this is a time-sensitive conversation that Galaxy needs to prioritize given his tight schedule.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm immediately with Mitch whether tomorrow 9-10AM CST works for Dave, or identify which day Thursday/Friday is preferable",
+        "Prepare a focused agenda for the sync given the limited time window and Mitch's schedule constraints",
+        "Have France coordinate calendar and ensure dial-in details are sent promptly once timing is confirmed"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
     },
     {
       "sender_email": "josh.scammell@simmons-simmons.com",
@@ -2571,5 +2606,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 79
 }
