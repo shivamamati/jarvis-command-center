@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T16:05:21.171111+00:00",
-  "total": 19,
-  "new": 19,
-  "noise": 13,
-  "ai": 19,
+  "timestamp": "2026-04-20T17:54:39.738141+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 8,
+  "ai": 10,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 41,
   "items": [
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2674,175 +2674,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ash.gupta@redhilldatacentre.com",
-      "sender_name": "Ash Gupta",
-      "subject": "Fw: Confirmation of Requested Information",
-      "body_preview": "Hi Guys,\r\n\r\nPlease see below for Ashley Roberts visits to site.\r\n\r\nCheers,\r\n-Ash\r\n\r\nAsh Gupta\r\nManaging Partner - Operations\r\n\r\nRedhill Data Centre Ltd (formally Digital Realty (Redhill) Ltd)\r\nData Centre Services Ltd\r\nLynton House, 7-12 Tavistock Square,",
-      "received": "2026-04-13T17:35:07Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6rAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANI-8TG858dOuKuh_OgKQcQ=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, data cent",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta from Redhill Data Centre is forwarding information regarding Ashley Roberts' site visits. This appears to be an operational update related to facility access or inspection scheduling at their data center facility. The message is incomplete, but indicates coordination between Galaxy and Redhill regarding personnel site activity that may impact facility operations or partnerships.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the complete forwarded email with Ashley Roberts' visit details and dates from Ash Gupta",
-        "Clarify the purpose of Ashley Roberts' site visits and any specific access requirements or coordination needed",
-        "Confirm this scheduling aligns with any existing Galaxy Capital Partners facility agreements or monitoring obligations"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Re: Assessments & Scheduling",
-      "body_preview": "Hi Jodie,\r\n\r\nSorry to hear about your mother. Please don\u2019t worry at all about the scheduling, Dave asked me to pass along his thoughts and well wishes, and he completely understands. 3:00 PM ET on April 29 works on his end, I\u2019ll send a calendar invite you",
-      "received": "2026-04-13T17:19:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6nAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJJ-FMNUUl9KvU0czAv9d4Q=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jodie has experienced a personal matter affecting their availability and has rescheduled an assessment meeting with Dave. France has confirmed Dave's flexibility and empathy while locking in a new meeting time of 3:00 PM ET on April 29, demonstrating Galaxy's commitment to maintaining the relationship despite the scheduling disruption.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Send calendar invite to Jodie for 3:00 PM ET on April 29",
-        "Prepare assessment materials and brief Dave on Jodie's situation and meeting objectives prior to April 29",
-        "Confirm any logistics or dial-in details with Jodie 24 hours before the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "marketing@galaxydatacenters.com",
-      "sender_name": "Galaxy Marketing",
-      "subject": "Re: Our DC Server Call is Starting Soon",
-      "body_preview": "Nice! I'm on a Call till 1.30 pm can join after.\r\nCan you please record\r\n\r\n\r\nGet Outlook for Android\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, April 13, 2026 12:55:06 PM\r\nTo: Galaxy Marketing <marketin",
-      "received": "2026-04-13T17:05:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6jAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAASA_OpQ-iJKqJGtleKknq8=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease",
-        "Thread: 6 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Galaxy Marketing is confirming availability for an upcoming data center server call but cannot join until after 1:30 PM and is requesting the call be recorded for later review. This appears to be an internal scheduling coordination for a technical or business discussion related to Galaxy's data center operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the call start time works with the current schedule or reschedule to accommodate Galaxy Marketing's 1:30 PM availability",
-        "Arrange recording setup and ensure all participants are notified that the call will be recorded",
-        "Send Galaxy Marketing the recording link or access information once the call concludes"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Ubersmith:Galaxy Data Centers Introduction",
-      "body_preview": "Hi Ryan,\r\n\r\nNext Thursday at 1:30 PM ET works well for me. Thank you for accommodating the reschedule request.\r\n\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting",
-      "received": "2026-04-13T16:58:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGzFVmyzqtNAtN2Hqo4gPng=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: data cent, introduction",
-        "Thread: 6 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave has confirmed a meeting scheduled for next Thursday at 1:30 PM ET with Ryan regarding an Ubersmith introduction. This appears to be a rescheduled meeting that Ryan accommodated, suggesting potential interest in Ubersmith's services or partnership for Galaxy Data Centers.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Add the meeting to Dave's calendar for next Thursday at 1:30 PM ET with Ryan from Ubersmith",
-        "Prepare background materials on Ubersmith's offerings and how they might align with Galaxy Data Centers' operations",
-        "Confirm the meeting details (dial-in information, agenda items, attendees) with Ryan prior to Thursday"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Please Confirm - DC Server Discussion on Monday 4/13",
-      "body_preview": "Confirmed, thank you.\r\n\r\n________________________________\r\nFrom: Laura Maltez <Laura.Maltez@bwgglobal.com>\r\nSent: Friday, April 10, 2026 10:12:31 AM\r\nTo: Dave Misra <dave.misra@galaxydatacenters.com>\r\nSubject: Please Confirm - DC Server Discussion on Mond",
-      "received": "2026-04-13T16:12:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAaF4ARLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAATvi9cjwZxAngla88FkH9s=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Laura Maltez from BWG Global is confirming a datacenter server discussion meeting scheduled for Monday, April 13th with Dave Misra. This appears to be a scheduled business meeting that Dave has now confirmed, likely related to potential infrastructure or server capacity needs for BWG Global.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Prepare datacenter capacity, pricing, and service options overview for the Monday 4/13 meeting with Laura Maltez",
-        "Clarify with Laura the specific server requirements, timeline, and decision-making process for this discussion",
-        "Ensure appropriate Galaxy technical and sales resources are aligned for the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 86
+  "total_tracked": 81
 }

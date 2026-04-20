@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T16:04:23.200469+00:00",
+  "timestamp": "2026-04-20T17:54:11.518061+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -31,6 +31,18 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3p5vw%2F7AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Dave Misra and joe sanchez",
+      "start": "2026-04-20T19:30:00.0000000",
+      "end": "2026-04-20T19:45:00.0000000",
+      "attendees": [
+        "Joe"
+      ],
+      "organizer": "Joe Sanchez",
+      "location": "https://meet.google.com/ygc-zfcr-vky",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAakOcQ7AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Mitch/Dave Galaxy Sync",
