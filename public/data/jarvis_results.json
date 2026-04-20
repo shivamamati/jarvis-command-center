@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T17:54:39.738141+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 8,
-  "ai": 10,
+  "timestamp": "2026-04-20T18:59:38.419685+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 6,
+  "ai": 6,
   "skipped": 0,
-  "auto_learned": 41,
+  "auto_learned": 38,
   "items": [
+    {
+      "sender_email": "rgandara@stirlingst.com",
+      "sender_name": "Roco Gandara",
+      "subject": "RE: Unique Data Center Investment Opportunity",
+      "body_preview": "Hi Dave,\r\n\r\n\r\nI wanted to follow up on the below opportunity. If you could provide a status update or any feedback, it would be greatly appreciated. If there is interest, I\u2019m happy to follow up with a teaser and NDA.\r\n\r\n\r\n\r\nThanks,\r\n\r\nRoco\r\nRoco Gandara",
+      "received": "2026-04-20T18:36:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnL%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, investment, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Roco Gandara (Stirling Street) is following up on a previously discussed data center investment opportunity and is ready to move forward with a teaser and NDA if Galaxy is interested. This is a direct follow-up on an active deal discussion that requires Dave's status/decision.",
+      "ai_action": "Dave should review prior correspondence with Roco to recall the specific opportunity details, then respond with either interest (triggering NDA/teaser request) or pass decision.",
+      "ai_next_steps": [
+        "Check email thread history for original opportunity details (MW, location, structure, timeline)",
+        "Determine if this aligns with current deal pipeline priorities",
+        "If interested: request teaser and confirm NDA; if not: provide clear pass feedback to Roco"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -2539,142 +2569,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
-      "body_preview": "Meeting Notes tracker : Galaxy_Leadership_Sync.docx\r\n\r\n\r\n\u2708\ufe0f This meeting has 0 talking points on Fellow: https://fellow.link/icIce3fx \u2708\ufe0f\r\n\r\n\r\nMeeting notes : https://view.monday.com/18401298423-9edf0febe9dd779f79d3abca395fa764?r=use1https://view.monday.",
-      "received": "2026-04-13T18:47:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMQzrhZtiA9Bt0UqPJDr_lw=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, rack",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is an internal recurring leadership sync meeting among Galaxy's core management team (Dave, Paul, Ash, and TJ). The meeting appears to lack documented talking points on Fellow and references meeting notes stored in Monday.com, suggesting potential gaps in meeting preparation or documentation workflow.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm whether talking points should be pre-populated in Fellow before the next sync and establish a meeting prep protocol",
-        "Verify the Monday.com link is working and ensure all attendees have access to centralized meeting notes",
-        "Clarify the purpose and expected outcomes of this recurring sync to ensure it's delivering value to the leadership team"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "FW: Laura Meltez <> Dave Misra ",
-      "body_preview": "From: dave@galaxydatacenters.com\r\nWhen: 2:00\u202fPM - 2:30\u202fPM April 13, 2026\r\nSubject: Laura Meltez <> Dave Misra\r\nLocation: Microsoft Teams Meeting\r\n\r\n\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams",
-      "received": "2026-04-13T17:57:57Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH-Zj40iE19NrHS3M81AHec=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a calendar invitation for a meeting between Dave Misra and Laura Meltez scheduled for April 13, 2026 at 2:00 PM via Microsoft Teams. Without the actual meeting details or context in the email body, the specific purpose and business impact cannot be determined from the forwarded message alone.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the meeting purpose and agenda with Laura Meltez or check internal calendar notes for context",
-        "Review any pre-meeting materials or background information related to Laura Meltez's role and company",
-        "Ensure Teams meeting link is functional and prepare any relevant Galaxy Capital/Data Centers documentation needed for the discussion"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Re: Thank you!",
-      "body_preview": "Please shar the link\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, April 13, 2026 11:22 PM\r\nTo: Animesh Raha <animesh@galaxydatacenters.com>; Galaxy Marketing <marketing@galaxydatacenters.com>\r\nSubject: FW",
-      "received": "2026-04-13T17:57:37Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6sAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFFkTjGZ325CpLCQudoiCtY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Animesh Raha, an internal Galaxy team member, is requesting a link that Dave previously mentioned in a thank-you context. This appears to be a follow-up to a forwarded message where Dave was sharing resource or marketing content with the team. The request is vague without additional context, but likely relates to a promotional asset, tool, or informational material Dave had indicated he would provide.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should clarify which specific link Animesh is referring to and resend it directly, or ask Animesh to specify the resource he needs",
-        "Galaxy Marketing should confirm whether this relates to an upcoming campaign or content piece that needs distribution to internal stakeholders",
-        "Follow up with Animesh to ensure he received the correct asset and confirm its intended use"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Galaxy Data Centers and MarketJoy\u200b",
-      "body_preview": "Hi Chris,\r\n\r\nFrom: Chris Bowles <chris@marketjoy.com>\r\nDate: Monday, April 13, 2026 at 1:10\u202fPM\r\nTo: Animesh Raha <animesh@galaxydatacenters.com>, Galaxy Marketing <marketing@galaxydatacenters.com>, Sai Raman <sai@galaxydatacenters.com>\r\nCc: Dave Misra <da",
-      "received": "2026-04-13T17:56:48Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAaF4ARZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABAQYFIqkztDpGNmHK5odKc=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris Bowles from MarketJoy is reaching out to Galaxy's leadership team regarding a business opportunity or partnership discussion between the two companies. The email appears to be an initial outreach to multiple stakeholders at Galaxy, suggesting MarketJoy has a proposal or collaboration opportunity that warrants executive attention. This matters because it represents a potential new business relationship or revenue opportunity that could impact Galaxy's growth strategy or service offerings.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should review the full email body to understand MarketJoy's specific proposal and determine strategic fit with Galaxy's business objectives",
-        "Assign Animesh or Sai to schedule a discovery call with Chris to assess the scope and value of the opportunity",
-        "Brief the Galaxy Marketing team on MarketJoy's business model and any relevant competitive intelligence before formal discussions begin"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 78
 }
