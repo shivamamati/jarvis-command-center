@@ -1,13 +1,112 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T12:01:19.047556+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 1,
-  "ai": 5,
+  "timestamp": "2026-04-20T14:46:18.870698+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 11,
+  "ai": 16,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "saulakh@graingp.com",
+      "sender_name": "Suraj Aulakh",
+      "subject": "Re: NWS Operating Role for Data Center Initiative",
+      "body_preview": "Hi Dave - no problem.\r\n\r\nHi Mahendra, nice to meet you over email. Are you available at 9am or 11am ET by chance on Friday, April 24th?\r\n\r\n\r\n\r\nSuraj Aulakh\r\nGrain Management, LLC\r\nDirect +1 (202) 843-9418  |  Mobile +1 (202) 993-4520\r\nCONFIDENTIALITY AND ",
+      "received": "2026-04-20T14:45:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "KW: data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Suraj Aulakh from Grain Management is following up on a previous conversation about an NWS (likely data center infrastructure) operating role for a data center initiative. He's proposing a meeting with Mahendra on Friday, April 24th at 9am or 11am ET\u2014this appears to be a continuation of active deal discussions.",
+      "ai_action": "Confirm Dave's availability for the Friday call with Suraj and Mahendra. If Dave is the intended recipient (not just CC'd), respond directly; if this is misdirected to Mahendra, route accordingly.",
+      "ai_next_steps": [
+        "Verify if Dave or Mahendra is the correct recipient and calendar status for April 24th",
+        "Confirm time slot (9am or 11am ET) and add to calendar",
+        "Prepare brief on Grain Management and the NWS operating role scope before call"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Docklands Deck Update",
+      "body_preview": "Faye \u2014 this looks good.\r\n\r\nPlease reach out to Marcus, Paul, Krish, Ash, and TJ on a single email and let them know this is the latest version of the deck and model. Ask Marcus to complete their remaining inputs (or whatever you need from them), and check",
+      "received": "2026-04-20T14:09:46Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAakGz20AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACCrtuzTqDRLljHXeTsH82Y=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave has approved the Docklands presentation deck and model, and is asking Faye to notify the core team (Marcus, Paul, Krish, Ash, and TJ) of the latest version. Dave needs Marcus to complete outstanding inputs and wants Faye to verify what additional information is required to move forward.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Send consolidated email to Marcus, Paul, Krish, Ash, and TJ with the approved deck and model, clearly marking it as the latest version",
+        "Follow up directly with Marcus to identify and collect any remaining inputs or deliverables needed from him",
+        "Confirm with Dave what specific items need to be checked or verified before the next phase"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "finance@redhilldatacentre.com",
+      "sender_name": "Finance",
+      "subject": "INV-0369",
+      "body_preview": "Hi,\r\n\r\nPlease see your latest power invoice & the supporting document attached.\r\n\r\nThanks\r\n\r\n\r\n\r\nRedhill Data Centre Ltd (formally Digital Realty (Redhill) Ltd)\r\n\r\nData Centre Services Ltd\r\n\r\nLynton House, 7-12 Tavistock Square, London, WC1H 9BQ",
+      "received": "2026-04-20T14:07:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALz1zHjFgGVAqy9WSJuDNyM=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "Redhill ops",
+        "KW: lease, power, data cent",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Redhill Data Centre has submitted power invoice INV-0369 with supporting documentation for Galaxy's data center operations at their London facility. This is a routine billing notification for ongoing utility costs at one of Galaxy's operational sites. Processing this promptly ensures accurate expense tracking and maintains vendor payment relationships.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Forward invoice to accounting for processing and three-way match verification against purchase orders and receiving records",
+        "Review supporting documentation to confirm charges align with contracted power rates and usage patterns",
+        "Schedule payment according to Galaxy's standard vendor payment terms to maintain good standing with Redhill"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "william.bellman@colliers.com",
       "sender_name": "Bellman, William",
@@ -895,39 +994,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: NWS Operating Role for Data Center Initiative",
-      "body_preview": "Hi Suraj,\r\n\r\nGood to hear from you. I spoke with Mahendra earlier today and he's looking forward to connecting with you and the Grain team.\r\n\r\nHe's suggested the following windows for early next week \u2014 please let me know what works, or feel free to propos",
-      "received": "2026-04-16T19:17:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaUOO08AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Suraj is coordinating scheduling between Mahendra and the Grain team for an early next week meeting related to the NWS operating role for Galaxy's data center initiative. Dave has already aligned with Mahendra on this connection and is now waiting for Suraj to confirm availability or propose alternative times. This meeting appears critical to moving forward on the operational staffing or partnership structure for the data center project.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Complete the email to Suraj with specific meeting time windows that work for Dave and Mahendra's calendars",
-        "Confirm with Mahendra the key topics and outcomes needed from the Grain team meeting",
-        "Ensure France is looped in on the meeting details and any pre-call materials needed"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2777,75 +2843,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "jamie.thirlwall@castleforge.com",
-      "sender_name": "Jamie Thirlwall",
-      "subject": "Re: April Board Report",
-      "body_preview": "Hi All,\r\n\r\nCan you please send over your April Board Report slides ASAP, as the meeting is fast approaching, and I need to get the report finalised and sent out.\r\n\r\nThanks\r\nJamie\r\n\r\n\r\n\r\n\r\n\r\n\r\n________________________________\r\nFrom: Jamie Thirlwall <jamie.",
-      "received": "2026-04-13T14:20:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR6GAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACChfPv6Rh1GmZnKhnCdUxw=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "KW: lease, board",
-        "Urgency: asap (+1)",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jamie Thirlwall from Castle Forge is requesting April Board Report slides urgently ahead of an upcoming board meeting. He needs these materials promptly to finalize and distribute the board report. This is a time-sensitive deliverable that impacts Galaxy's board-level communication and governance compliance.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt and establish a clear deadline for when slides must be delivered to Jamie",
-        "Assign responsibility for preparing Galaxy's April Board Report slides and verify what content/metrics should be included",
-        "Ensure slides are compiled and sent to Jamie well ahead of the board meeting date to avoid delays"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Re: Final Approved SOC controls post Auditor Additions, Approval and Alignment 10 April 2026",
-      "body_preview": "We need the entire \u201cpopulation\u201d / list for every event or occurrence for each of the items marked in PURPLE on this special V5 version of the SOC control listing. Please pull today / tomorrow so that we can see and begin auditing each occurrence such that",
-      "received": "2026-04-13T13:08:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR5%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIIOHX5CpC5FjuxWsGFj9hE=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, audit",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins from Galaxy Data Centers is requesting a complete dataset of all events and occurrences for the SOC controls that have been flagged in purple on the latest V5 control listing, with urgency to enable immediate audit review and validation of each instance.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Identify and locate the V5 SOC control listing document with purple-marked items and confirm which specific controls require full population data",
-        "Coordinate with the compliance/audit team to extract complete event logs and occurrences for the flagged controls by end of business tomorrow",
-        "Schedule a review meeting with TJ and the audit team to begin analysis of the compiled data and establish the audit timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
   "total_tracked": 86

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T12:00:57.684370+00:00",
+  "timestamp": "2026-04-20T14:45:28.511610+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -17,20 +17,6 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3p5vw%2F7AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAE7IPQ6gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Monday Marketing Meeting",
-      "start": "2026-04-20T16:00:00.0000000",
-      "end": "2026-04-20T16:30:00.0000000",
-      "attendees": [
-        "Sai",
-        "Animesh",
-        "SA"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3p5vw%2F7AAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
