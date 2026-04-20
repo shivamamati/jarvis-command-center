@@ -1,53 +1,23 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T18:59:38.419685+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 6,
-  "ai": 6,
+  "timestamp": "2026-04-20T20:03:10.705545+00:00",
+  "total": 19,
+  "new": 19,
+  "noise": 15,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 38,
   "items": [
     {
-      "sender_email": "rgandara@stirlingst.com",
-      "sender_name": "Roco Gandara",
-      "subject": "RE: Unique Data Center Investment Opportunity",
-      "body_preview": "Hi Dave,\r\n\r\n\r\nI wanted to follow up on the below opportunity. If you could provide a status update or any feedback, it would be greatly appreciated. If there is interest, I\u2019m happy to follow up with a teaser and NDA.\r\n\r\n\r\n\r\nThanks,\r\n\r\nRoco\r\nRoco Gandara",
-      "received": "2026-04-20T18:36:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnL%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, investment, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Roco Gandara (Stirling Street) is following up on a previously discussed data center investment opportunity and is ready to move forward with a teaser and NDA if Galaxy is interested. This is a direct follow-up on an active deal discussion that requires Dave's status/decision.",
-      "ai_action": "Dave should review prior correspondence with Roco to recall the specific opportunity details, then respond with either interest (triggering NDA/teaser request) or pass decision.",
-      "ai_next_steps": [
-        "Check email thread history for original opportunity details (MW, location, structure, timeline)",
-        "Determine if this aligns with current deal pipeline priorities",
-        "If interested: request teaser and confirm NDA; if not: provide clear pass feedback to Roco"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Mitch/Dave Galaxy Sync",
-      "body_preview": "Mitch, still dealing with some stuff from last week, I am in London today . France will coordinate a better time and reschedule. Cancelling today aswell. Apologies.\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-95",
-      "received": "2026-04-20T14:55:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAakC%2Ft5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "body_preview": "Mitch \u2014 I\u2019m still dealing with a few items from last week and am in London today. Unfortunately, the scheduled time doesn\u2019t work from the UK, so I\u2019ll need to cancel today\u2019s meeting. Apologies for the inconvenience.\r\n\r\nFrance will coordinate with you to fi",
+      "received": "2026-04-20T19:38:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAakGz23AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMuTXLruNeZAqSdc26DVxFY=",
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAClva4o1qBFClI1SkpzB-us=",
       "rules_score": 4,
       "rules_label": "NOTABLE",
       "rules_tier": "INTERNAL",
@@ -59,16 +29,115 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is canceling a scheduled sync meeting with Mitch due to lingering issues from the previous week and his current travel to London. He's delegating the rescheduling responsibility to France and apologizing for the short notice cancellation.",
+      "ai_summary": "This is an internal email from Dave to someone named Mitch regarding a previously scheduled sync meeting. Dave is currently in London and needs to cancel today's meeting due to timing conflicts with UK hours, and is delegating coordination of rescheduling to France. This appears to be a routine calendar management issue with no immediate business impact.",
       "ai_action": null,
       "ai_next_steps": [
-        "France should contact Mitch to reschedule the sync meeting at a mutually convenient time",
-        "Dave should provide France with context on the outstanding issues from last week so she can communicate timing needs to Mitch",
-        "Once rescheduled, ensure the meeting includes preparation time for Dave to address the unresolved matters"
+        "France should reach out to Mitch to reschedule the meeting at a mutually convenient time",
+        "Confirm the rescheduled meeting details with both parties once agreed"
       ],
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "josh.scammell@simmons-simmons.com",
+      "sender_name": "Josh Scammell",
+      "subject": "Redhill - data centre and office lease to CDW [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Dear Paul,\r\n\r\nPlease find attached the draft leases of datacentre and office space to CDW. As discussed, we have included our changes in tracked so it is easy to identify where we have deviated for the existing leases.\r\n\r\nThere are a number of comments fo",
+      "received": "2026-04-20T19:19:39Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnMFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAX72s4TYEIXgALjoQbYGm0=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "VIP: simmons-simmons.com",
+        "KW: rack, lease, data cent",
+        "Lease + customer",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Josh Scammell from Simmons & Simmons (external counsel) is submitting draft lease agreements for a data center and office space transaction with CDW. The leases incorporate Galaxy's requested modifications from prior templates, tracked for easy review. This matters because it moves forward a key tenant deal at one of Galaxy's properties and requires legal review to ensure terms protect Galaxy's interests.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the draft leases with legal/operations team and provide feedback to Josh on any additional changes needed within 3-5 business days",
+        "Coordinate internally with the asset manager responsible for the Redhill property to confirm the commercial terms align with approved deal structure",
+        "Schedule a call with Josh to discuss any open legal issues flagged in his comments before finalizing for CDW execution"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Fw: Redhill renewal",
+      "body_preview": "________________________________\r\nFrom: Smith, Nicholas L. <nicholas.l.smith@accenture.com>\r\nSent: Wednesday, March 11, 2026 4:38 PM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Tj Karklins <tj@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters",
+      "received": "2026-04-20T19:14:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnMDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: accenture",
+        "Internal \u2014 deal/customer related",
+        "KW: renewal",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Nicholas Smith from Accenture is following up on the renewal of Galaxy's Redhill data center contract. This appears to be a time-sensitive renewal matter that Paul is escalating to you and Tj for attention. Timely action on contract renewals directly impacts revenue continuity and customer retention for our data center operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Contact Nicholas Smith or Paul Leong to confirm renewal timeline and any outstanding terms or conditions",
+        "Review current Redhill contract terms and profitability metrics to determine renewal strategy",
+        "Schedule renewal negotiation meeting with Accenture stakeholders to address any pricing or service level adjustments"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "rgandara@stirlingst.com",
+      "sender_name": "Roco Gandara",
+      "subject": "RE: Unique Data Center Investment Opportunity",
+      "body_preview": "Hi Dave,\r\n\r\n\r\nI wanted to follow up on the below opportunity. If you could provide a status update or any feedback, it would be greatly appreciated. If there is interest, I\u2019m happy to follow up with a teaser and NDA.\r\n\r\n\r\n\r\nThanks,\r\n\r\nRoco\r\nRoco Gandara",
+      "received": "2026-04-20T18:36:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnL%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, investment, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Roco Gandara from Stirling Street is following up on a previously discussed data center investment opportunity. He's offering to send a teaser and NDA if Galaxy shows interest\u2014this is a direct deal engagement that needs a status update response.",
+      "ai_action": "Dave should respond to Roco with a status update on the opportunity. If still interested, request the teaser and NDA. If not interested, provide clear feedback to close the loop.",
+      "ai_next_steps": [
+        "Review prior correspondence with Roco about this 'Unique Data Center Investment Opportunity'",
+        "Determine Galaxy's current interest level and capacity",
+        "Respond to Roco with either interest (request teaser/NDA) or polite pass with reasoning"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "saulakh@graingp.com",
@@ -1422,42 +1491,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill renewal",
-      "body_preview": "Hi Nic - Seems I misspoke earlier.  Our counsel just had one change and I can still be the signatory.  Let us know if the attached works.\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Smith, Nicholas L. <nicholas.l.smith@accenture.com>\r\nSent:",
-      "received": "2026-04-16T03:37:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR%2BeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Attachments from known (+1)",
-        "Re customer: accenture",
-        "Internal \u2014 deal/customer related",
-        "KW: renewal",
-        "10 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is clarifying a previous miscommunication regarding the Redhill renewal agreement. He's confirming that despite earlier statements, he can still serve as the authorized signatory and has attached a revised document incorporating legal counsel's requested changes. This resolves a potential bottleneck in contract execution and moves the Redhill renewal forward.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached revised Redhill agreement to confirm legal counsel's changes are acceptable",
-        "Coordinate with Paul to finalize signature authority and timeline for execution",
-        "Confirm renewal terms and any business impacts with the Redhill account team"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "Re:  2025 Tax Preparation Services Agreement and Tax Checklist",
@@ -2536,39 +2569,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "paul@galaxycapitalpartners.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: DCM Information",
-      "body_preview": "Hi Jodi - UK version is preferred.  Thank you for going to 17.5% on the fee.  If you get me back the revised contract incorporating the comments (the background reference checks that you will do etc) we\u2019ve had to date I think we can get moving with this.",
-      "received": "2026-04-13T19:15:34Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR68AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANIg2YU3X7pIuQf7-kE_WDg=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: contract",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong (Galaxy Capital Partners internal) is confirming preference for the UK version of a contract and acknowledging a fee reduction to 17.5%. He's requesting that the counterparty send back a revised contract that incorporates previously discussed comments regarding background reference checks, indicating Galaxy is close to signing and ready to proceed once those revisions are received.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Obtain and review the revised contract incorporating the agreed-upon comments and 17.5% fee terms",
-        "Confirm the background reference check procedures are clearly documented in the revised contract",
-        "Prepare for execution once revisions are satisfactory"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 78

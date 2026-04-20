@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T18:59:17.783177+00:00",
+  "timestamp": "2026-04-20T20:02:26.986871+00:00",
   "events": [
     {
       "subject": "Ops Team Weekly",
@@ -43,19 +43,6 @@
       "location": "https://meet.google.com/ygc-zfcr-vky",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAakOcQ7AAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Mitch/Dave Galaxy Sync",
-      "start": "2026-04-20T23:30:00.0000000",
-      "end": "2026-04-21T00:30:00.0000000",
-      "attendees": [
-        "Mitch",
-        "Ken"
-      ],
-      "organizer": "Mitch Lenzi",
-      "location": "https://meet.google.com/wwq-xmak-iic",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GvAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Solar Proposal - Galaxy Data Centres",
