@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T14:46:18.870698+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 11,
-  "ai": 16,
+  "timestamp": "2026-04-20T16:05:21.171111+00:00",
+  "total": 19,
+  "new": 19,
+  "noise": 13,
+  "ai": 19,
   "skipped": 0,
-  "auto_learned": 44,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Mitch/Dave Galaxy Sync",
+      "body_preview": "Mitch, still dealing with some stuff from last week, I am in London today . France will coordinate a better time and reschedule. Cancelling today aswell. Apologies.\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-95",
+      "received": "2026-04-20T14:55:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAakC%2Ft5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMuTXLruNeZAqSdc26DVxFY=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is canceling a scheduled sync meeting with Mitch due to lingering issues from the previous week and his current travel to London. He's delegating the rescheduling responsibility to France and apologizing for the short notice cancellation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "France should contact Mitch to reschedule the sync meeting at a mutually convenient time",
+        "Dave should provide France with context on the outstanding issues from last week so she can communicate timing needs to Mitch",
+        "Once rescheduled, ensure the meeting includes preparation time for Dave to address the unresolved matters"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "saulakh@graingp.com",
       "sender_name": "Suraj Aulakh",
@@ -63,12 +95,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave has approved the Docklands presentation deck and model, and is asking Faye to notify the core team (Marcus, Paul, Krish, Ash, and TJ) of the latest version. Dave needs Marcus to complete outstanding inputs and wants Faye to verify what additional information is required to move forward.",
+      "ai_summary": "Dave has approved the Docklands presentation deck and financial model, and is asking Faye to notify the core project team (Marcus, Paul, Krish, Ash, and TJ) that this is the final version they should be working from. The message appears incomplete, but Dave wants to ensure Marcus provides any outstanding inputs needed to finalize the materials, which likely impacts the timeline for presenting this major data center initiative.",
       "ai_action": null,
       "ai_next_steps": [
-        "Send consolidated email to Marcus, Paul, Krish, Ash, and TJ with the approved deck and model, clearly marking it as the latest version",
-        "Follow up directly with Marcus to identify and collect any remaining inputs or deliverables needed from him",
-        "Confirm with Dave what specific items need to be checked or verified before the next phase"
+        "Faye should send a single consolidated email to all five team members confirming the approved deck/model version and clearly defining what deliverables are still outstanding from Marcus",
+        "Clarify with Dave what the incomplete instruction was about ('and check') to ensure all stakeholder coordination requirements are addressed",
+        "Set a deadline for Marcus's inputs so the team can move forward with any presentations or approvals needed for the Docklands project"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -96,12 +128,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Redhill Data Centre has submitted power invoice INV-0369 with supporting documentation for Galaxy's data center operations at their London facility. This is a routine billing notification for ongoing utility costs at one of Galaxy's operational sites. Processing this promptly ensures accurate expense tracking and maintains vendor payment relationships.",
+      "ai_summary": "Redhill Data Centre (formerly Digital Realty's Redhill facility) has sent Galaxy Capital Partners a power services invoice with supporting documentation. This appears to be a routine billing notification for ongoing data center power services that Galaxy utilizes at their facility. Prompt review and processing is necessary to maintain accurate cost tracking and vendor relationships for Galaxy Data Centers' operational expenses.",
       "ai_action": null,
       "ai_next_steps": [
-        "Forward invoice to accounting for processing and three-way match verification against purchase orders and receiving records",
-        "Review supporting documentation to confirm charges align with contracted power rates and usage patterns",
-        "Schedule payment according to Galaxy's standard vendor payment terms to maintain good standing with Redhill"
+        "Review invoice INV-0369 and attached documentation for accuracy against Galaxy's service agreements and expected usage patterns",
+        "Forward to accounting/finance team for payment processing and ledger allocation",
+        "Flag any discrepancies or unusual charges for discussion with Redhill Finance team"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2806,39 +2838,6 @@
         "Prepare datacenter capacity, pricing, and service options overview for the Monday 4/13 meeting with Laura Maltez",
         "Clarify with Laura the specific server requirements, timeline, and decision-making process for this discussion",
         "Ensure appropriate Galaxy technical and sales resources are aligned for the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Good catching up",
-      "body_preview": "Hey George \u2014 just a quick update. In good faith, I\u2019ve shared your profile with the fund for a potential advisory role. I\u2019ll be speaking with them on Friday and will keep you posted as things progress.\r\n\r\nBest,\r\nDave\r\n\r\nFrom: George Rogers <grogers@skyline",
-      "received": "2026-04-13T15:22:39Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJNrErmNYEjQgrQAO4D7YQ8=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: fund",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be Dave's outgoing email to George Rogers regarding a potential advisory position. Dave has proactively submitted George's profile to the Galaxy fund and is scheduling a discussion with fund leadership this Friday to advance the conversation. The business impact is contingent on securing fund approval for adding an advisor, which could strengthen Galaxy's strategic capabilities or network.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Prepare talking points for Friday fund discussion on George's qualifications and advisory value proposition",
-        "Clarify with the fund what advisory scope, commitment level, and compensation they envision",
-        "Follow up with George after Friday call with concrete next steps or timeline if fund is interested"
       ],
       "ai_failed": false,
       "final_score": 8,
