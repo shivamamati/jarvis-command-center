@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-21T16:56:22.353796+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 8,
-  "ai": 12,
+  "timestamp": "2026-04-21T17:58:45.842864+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 12,
+  "ai": 15,
   "skipped": 0,
-  "auto_learned": 44,
+  "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: DORA - fee quote",
+      "body_preview": "Hi Rohan - I just wanted to check-in on this.  Has the onboarding been completed?\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Houghton, Rohan <RohanHoughton@eversheds-sutherland.com>\r\nSent: Tuesday, April 14, 2026 8:07 AM\r\nTo: Paul Leong <p",
+      "received": "2026-04-21T17:25:54Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSpXR5-EV9HrccPcQ_ezQA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: board",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is following up with Rohan Houghton at Eversheds-Sutherland (external legal counsel) regarding the status of DORA-related onboarding that was quoted. Paul is checking whether the legal work has been initiated or completed, which likely relates to Digital Operational Resilience Act compliance\u2014a critical regulatory requirement for financial infrastructure providers.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Rohan the current status of DORA onboarding and whether any blockers exist",
+        "Clarify the timeline and deliverables expected from Eversheds-Sutherland for this engagement",
+        "Determine if this DORA work is blocking any Galaxy product launches or customer implementations"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "victoria.skrbensky@jll.com",
       "sender_name": "Skrbensky, Victoria",
@@ -15,7 +49,7 @@
       "body_preview": "Hi Dave,\r\n\r\nJust wanted to follow up on the Copenhagen opportunity we shared. Please see the IM reattached for reference. I would be pleased to walk you through on a call. The timing to power (potentially to accelerate phase 1 to 2027), coupled with the l",
       "received": "2026-04-21T16:32:49Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGucUX-pEOJNlcCPp6fKtRA=",
       "rules_score": 7,
@@ -30,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Victoria Skrbensky from JLL is following up on a significant data center opportunity in Copenhagen involving 50 MVA of powered land with potential to accelerate phase 1 completion to 2027. She is requesting a call to walk through the investment memorandum details, with timing to power being a critical factor for the project timeline. This matters to Galaxy as it represents a near-term powered capacity opportunity in a strategic European market with the potential to compress typical development schedules.",
+      "ai_summary": "Victoria Skrbensky from JLL is following up on a powered land development opportunity in Copenhagen (Project Br\u00f8ndby) with 50 MVA capacity. She's proposing an accelerated timeline that could move Phase 1 completion to 2027 and is requesting a call to discuss the investment memorandum in detail. This represents a potential data center or industrial power infrastructure play in a strategic Northern European location with favorable power availability.",
       "ai_action": null,
       "ai_next_steps": [
-        "Schedule a call with Victoria Skrbensky to review the full investment memorandum and understand power availability timeline, costs, and phase 1 acceleration feasibility",
-        "Have France or technical team assess the 50 MVA power specifications, interconnection requirements, and feasibility against Galaxy's operational standards",
-        "Determine internal investment appetite and timeline for decision, given Victoria's emphasis on accelerated 2027 phase 1 completion"
+        "Schedule a call with Victoria Skrbensky to review the full IM and understand the 50 MVA specifications, pricing, and Phase 1/2 development timeline",
+        "Have France or investment team analyze the Copenhagen market dynamics, power grid capacity, and competitive positioning relative to Galaxy's existing European footprint",
+        "Clarify the required capital commitment, expected IRR, and whether this aligns with Galaxy's expansion strategy before committing further resources"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -64,12 +98,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is requesting to reschedule an internal sync meeting with new interns due to a conflict with another call. He's asking Krish to coordinate moving the meeting either one hour or 90 minutes later, with flexibility to reschedule individually if needed. This appears to be an internal scheduling matter that requires immediate coordination to avoid impacting the interns' onboarding.",
+      "ai_summary": "Dave is requesting to reschedule an internal sync meeting with new interns due to a scheduling conflict on his end. He's asking Krish to coordinate a one-hour or 90-minute delay and is willing to accommodate individual conflicts if needed. This is a routine administrative scheduling matter with no immediate business impact.",
       "ai_action": null,
       "ai_next_steps": [
-        "Krish should immediately poll intern attendees for availability at the new proposed times (1 hour and 90 minute delays)",
-        "Confirm the rescheduled time and send updated calendar invites to all participants",
-        "If conflicts arise, schedule individual makeup sessions with interns rather than delaying further"
+        "Krish to send calendar update to all interns with the new meeting time (preferably 90 minutes later if feasible)",
+        "Krish to confirm receipt and flag any conflicts from attendees, with fallback individual scheduling as needed"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2577,74 +2610,7 @@
       "ai_failed": true,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: Galaxy Capital Partners at New York Energy Innovation ",
-      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Nikolas Barbakis <nikolas.barbakis@1businessworl",
-      "received": "2026-04-14T17:21:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACY9dHhORHVAhZ1ODkneO6g=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be an incomplete forwarded email with only header information visible. Without the actual message content from Nikolas Barbakis regarding Galaxy Capital Partners' participation at New York Energy Innovation, we cannot determine what is being requested or communicated. The business impact and appropriate response cannot be assessed until the full email body is received.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the complete email body from the original sender to understand the full context and ask",
-        "Confirm the New York Energy Innovation event details and Galaxy's involvement/sponsorship status",
-        "Once content is received, coordinate with France or relevant team member on required response timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "kirstin.dunn@castleforge.com",
-      "sender_name": "Kirstin Dunn",
-      "subject": "RE: Cloudhouse Cabinet Service Order and MSA",
-      "body_preview": "Thanks Paul.  Please keep @Jayan Patel copied too.  What is the likely timing for final docs to be ready to share with the directors?\r\n\r\nK\r\n\r\nKirstin Dunn\r\nO: +44 203 846 1673\r\nE: kirstin.dunn@castleforge.com\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.co",
-      "received": "2026-04-14T17:03:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR8WAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACwpY2YK8ltJm8zoCD7AC1Q=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 1: castleforge.com",
-        "KW: lease",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Kirstin Dunn from Castle Forge is requesting a timeline for when final documentation on the Cloudhouse Cabinet Service Order and MSA will be ready for director review, and has asked that Jayan Patel be included in ongoing communications. This appears to be a deal progression checkpoint where Castle Forge needs visibility into Galaxy's document completion timeline before escalating to their board.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Paul or France should provide Kirstin with a specific target date for final MSA and service order documentation, accounting for any remaining internal Galaxy review or legal revisions needed",
-        "Ensure Jayan Patel is added to the email thread and any subsequent communications regarding this transaction",
-        "Confirm internally whether Castle Forge's director meeting timeline has a fixed date, as this may create a hard deadline for Galaxy's delivery of final docs"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 79
 }
