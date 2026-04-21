@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-21T07:29:21.215763+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 4,
+  "timestamp": "2026-04-21T09:21:48.810844+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 6,
   "ai": 6,
   "skipped": 0,
   "auto_learned": 39,
   "items": [
+    {
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
+      "subject": "Re: Redhill - Call with ICG (Lender) March 18th",
+      "body_preview": "Hi Paul,\r\n\r\nQuestion for you on Navisite: do they legally have to give notice of intent to vacate? What does their lease say? If so, is there a notice period that they've already missed?\r\n\r\nPelle Jorgen\r\nO: 0203 927 7358\r\nE: pelle.jorgen@castleforge.com",
+      "received": "2026-04-21T09:10:50Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkmwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACrgGkdAYi5Ar76Bsvzb9Ck=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castle Forge is seeking clarification on Navisite's lease obligations regarding vacancy notice requirements ahead of an upcoming lender call on the Redhill property. This is critical because understanding whether Navisite has missed required notice deadlines could materially impact the deal's risk profile and the lender's confidence in cash flow stability.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Retrieve and review Navisite's lease agreement to identify specific notice of intent to vacate requirements and any applicable notice periods",
+        "Determine if Navisite has already passed any notice deadlines and assess the implications for the Redhill lender discussion scheduled for March 18th",
+        "Prepare a summary for Dave and France on lease termination risk before the ICG call"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "benjamin.tyson@redhilldatacentre.com",
       "sender_name": "Benjamin Tyson",
@@ -2546,100 +2579,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "reece.cooksey@hansonwade.com",
-      "sender_name": "Reece Cooksey",
-      "subject": "Re: Speaker Opportunity - Advancing Data Center Construction Canada 2026",
-      "body_preview": "Hi Dave,\r\n\r\nI hope you had a lovely weekend - I'd love to jump on the phone with you one morning this week to discuss Advancing Data Centre Construction Canada (Oct 6-8, Calgary, AB).\r\n\r\nHaving already had conversations with Microsoft, Compass, Yondr, Tur",
-      "received": "2026-04-14T08:30:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7XAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHdhL3j600nqqlAL0nQq8HY=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 5,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Reece Cooksey from Hanson Wade is following up on a speaker opportunity for Advancing Data Centre Construction Canada (Oct 6-8, Calgary). He's had conversations with major operators (Microsoft, Compass, Yondr, Tur[key?]) and wants to schedule a call this week to discuss Dave's involvement.",
-      "ai_action": "France should schedule a brief call with Reece this week to understand the speaking opportunity details, audience, and time commitment before Dave commits.",
-      "ai_next_steps": [
-        "France to call/email Reece to confirm speaking role details and event logistics",
-        "Assess if this aligns with Galaxy's PR/visibility strategy in North America",
-        "If relevant, calendar 30-min call between Dave and Reece to discuss"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "chris.turner@nomura.com",
-      "sender_name": "chris.turner@nomura.com",
-      "subject": "RE: Nomura Invoices",
-      "body_preview": "Thanks for the info TJ.\r\n\r\nRegards\r\nChris Turner AIWFM\r\nCritical Environment & Building Controls Manager\r\nReal Estate & Services EMEA\r\nNomura\r\n1Angel Lane, London\r\nEC4R 3AB\r\nPhone: +44 (0) 20 7102 4412\r\nMobile: +44 (0) 7850 948657\r\nEmail: chris.turner@nom",
-      "received": "2026-04-14T08:15:21Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7WAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPevWFIeSsFBipQdhVXcp8E=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: nomura.com",
-        "Urgency: critical (+1)",
-        "7 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris Turner is the Critical Environment & Building Controls Manager for Nomura's EMEA Real Estate & Services division, acknowledging receipt of invoice information from TJ. This appears to be a routine administrative confirmation regarding facility management invoicing at Nomura's London office. The interaction suggests an existing billing relationship that may involve Galaxy's data center or facility services.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with TJ what invoice details were sent and verify Nomura's payment timeline and any outstanding amounts",
-        "Flag Chris Turner's contact information for future EMEA facility communications and ensure proper account management",
-        "Review the underlying invoices to ensure accuracy and follow up if payment is due or overdue"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "muckle-1411@firmexpostmaster.com",
-      "sender_name": "Muckle (Firmex)",
-      "subject": "Sale of Town End Farm - There is new Document activity",
-      "body_preview": "2 new documents are available in the Sale of Town End Farm Project, powered by Firmex. Please do not reply to this message.\r\nPlease log in to view your documents.\r\n\r\nProject: Sale of Town End Farm\r\n\r\nPlanning - Industrial Development\r\nConsent and S.106\r\nL",
-      "received": "2026-04-14T08:00:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7VAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP5HybgeiKxBs_JM7v1wzJ4=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: lease, power"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Firmex document notification for 'Sale of Town End Farm' project with new planning/industrial development documents. This appears to be a real estate transaction with planning consent and Section 106 agreement documents that require Dave's review.",
-      "ai_action": "Dave should log into Firmex to review the 2 new documents immediately. Determine if this is a Galaxy Capital or personal asset transaction, and whether it relates to a current data center development or land acquisition.",
-      "ai_next_steps": [
-        "Log into Firmex and review the 2 new documents in the 'Sale of Town End Farm' project",
-        "Clarify if this is a Galaxy Capital deal (potential data center site) or unrelated transaction",
-        "If Galaxy-related, escalate to deal team and legal (Simmons & Simmons)"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 78
 }
