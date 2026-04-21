@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-21T19:19:27.857585+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 10,
-  "ai": 11,
+  "timestamp": "2026-04-21T20:46:48.876379+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 6,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 43,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Renewal catch up",
+      "body_preview": "From: Chris Lillie <c.lillie@uk.cdw.com>\r\nDate: Tuesday, April 21, 2026 at 7:07\u202fPM\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>\r\nSubject: Renewal catch up\r\n\r\nHi Dave,\r\n\r\nAre you free for a quick call this week?\r\n\r\nCheers\r\n\r\nChris\r\n\r\n\r\nChris Lillie",
+      "received": "2026-04-21T19:58:22Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAaq51LXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK9ndoVW1MBFlpwG3Kq1YHk=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "KW: capital, renewal",
+        "Lease + customer",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Chris Lillie from CDW UK is requesting a meeting with Dave this week to discuss a renewal matter. This appears to be a routine check-in from a key vendor or partner relationship that requires Dave's direct attention to address renewal terms or agreements.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should respond to Chris with available time slots for a call this week",
+        "France (or Dave's team) should pull the CDW contract details and renewal status before the call",
+        "Prepare talking points on current service performance and any pricing or terms adjustments needed"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -107,37 +142,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "c.lillie@uk.cdw.com",
-      "sender_name": "Chris Lillie",
-      "subject": "Renewal catch up",
-      "body_preview": "Hi Dave,\r\n\r\nAre you free for a quick call this week?\r\n\r\nCheers\r\n\r\nChris\r\n\r\n\r\nChris Lillie\r\n\r\nHead of Cloud and Service Integration\r\n\r\nCDW\r\n\r\nMobile: +44 7976 983 574\r\n\r\nEmail: c.lillie@uk.cdw.com\r\n\r\n\r\nPLEASE CONSIDER THE ENVIRONMENT BEFORE PRINTING THIS E",
-      "received": "2026-04-21T15:07:53Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK9ndoVW1MBFlpwG3Kq1YHk=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: uk.cdw.com",
-        "KW: lease, renewal"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris Lillie, Head of Cloud and Service Integration at CDW (a major IT solutions provider), is requesting a brief call this week, likely to discuss renewal terms or ongoing service arrangements. This matters to Galaxy because CDW is a significant partner/customer relationship that requires executive-level attention to maintain and potentially expand engagement.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should confirm availability and propose 2-3 specific time slots for a call this week",
-        "Before the call, France should pull CDW's current contract status, renewal dates, and any pending commercial discussions",
-        "Prepare talking points on Galaxy's current service offerings or any new solutions that could be relevant to CDW's cloud and integration initiatives"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "adam.leponis@kennedyrenewables.com",
