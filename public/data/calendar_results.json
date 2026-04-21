@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T17:58:03.744341+00:00",
+  "timestamp": "2026-04-21T19:18:56.498349+00:00",
   "events": [
     {
       "subject": "Solar Proposal - Galaxy Data Centres",
@@ -32,8 +32,8 @@
     },
     {
       "subject": "Impoortant AUDIT update & Decision Meeting",
-      "start": "2026-04-21T19:00:00.0000000",
-      "end": "2026-04-21T19:30:00.0000000",
+      "start": "2026-04-21T20:00:00.0000000",
+      "end": "2026-04-21T20:30:00.0000000",
       "attendees": [
         "Tj",
         "Paul",
