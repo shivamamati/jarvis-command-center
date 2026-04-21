@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T15:08:49.334702+00:00",
+  "timestamp": "2026-04-21T16:55:49.719150+00:00",
   "events": [
     {
       "subject": "Solar Proposal - Galaxy Data Centres",
@@ -15,8 +15,8 @@
     },
     {
       "subject": "Dave <> New Interns Sync",
-      "start": "2026-04-21T17:00:00.0000000",
-      "end": "2026-04-21T18:00:00.0000000",
+      "start": "2026-04-21T18:15:00.0000000",
+      "end": "2026-04-21T19:15:00.0000000",
       "attendees": [
         "Krish",
         "Dev",
@@ -29,6 +29,20 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G2AAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Impoortant AUDIT update & Decision Meeting",
+      "start": "2026-04-21T19:00:00.0000000",
+      "end": "2026-04-21T19:30:00.0000000",
+      "attendees": [
+        "Tj",
+        "Paul",
+        "Ash"
+      ],
+      "organizer": "Tj Karklins",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAasJ8L6AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Badminton with Suhas ",

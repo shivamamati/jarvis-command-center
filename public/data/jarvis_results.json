@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-21T15:09:26.511753+00:00",
-  "total": 14,
-  "new": 14,
-  "noise": 9,
+  "timestamp": "2026-04-21T16:56:22.353796+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 8,
   "ai": 12,
   "skipped": 0,
-  "auto_learned": 39,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "victoria.skrbensky@jll.com",
+      "sender_name": "Skrbensky, Victoria",
+      "subject": "Re: Project Br\u00f8ndby | 50 MVA Powered Land in Copenhagen",
+      "body_preview": "Hi Dave,\r\n\r\nJust wanted to follow up on the Copenhagen opportunity we shared. Please see the IM reattached for reference. I would be pleased to walk you through on a call. The timing to power (potentially to accelerate phase 1 to 2027), coupled with the l",
+      "received": "2026-04-21T16:32:49Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGucUX-pEOJNlcCPp6fKtRA=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Victoria Skrbensky]",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "VIP: jll.com",
+        "Pipeline: victoria skrbensky",
+        "KW: lease, power"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Victoria Skrbensky from JLL is following up on a significant data center opportunity in Copenhagen involving 50 MVA of powered land with potential to accelerate phase 1 completion to 2027. She is requesting a call to walk through the investment memorandum details, with timing to power being a critical factor for the project timeline. This matters to Galaxy as it represents a near-term powered capacity opportunity in a strategic European market with the potential to compress typical development schedules.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule a call with Victoria Skrbensky to review the full investment memorandum and understand power availability timeline, costs, and phase 1 acceleration feasibility",
+        "Have France or technical team assess the 50 MVA power specifications, interconnection requirements, and feasibility against Galaxy's operational standards",
+        "Determine internal investment appetite and timeline for decision, given Victoria's emphasis on accelerated 2027 phase 1 completion"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Dave <> New Interns Sync",
+      "body_preview": "Hi everyone \u2014 I need to push this call back by an hour as I\u2019m running late on another call. Krish, could you please coordinate and move it by one hour, or by 90 minutes if that works better for everyone? If anyone has a conflict we can reschedule individu",
+      "received": "2026-04-21T16:12:25Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABjCk9m17-1AnmBaGwaURuI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is requesting to reschedule an internal sync meeting with new interns due to a conflict with another call. He's asking Krish to coordinate moving the meeting either one hour or 90 minutes later, with flexibility to reschedule individually if needed. This appears to be an internal scheduling matter that requires immediate coordination to avoid impacting the interns' onboarding.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Krish should immediately poll intern attendees for availability at the new proposed times (1 hour and 90 minute delays)",
+        "Confirm the rescheduled time and send updated calendar invites to all participants",
+        "If conflicts arise, schedule individual makeup sessions with interns rather than delaying further"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "c.lillie@uk.cdw.com",
       "sender_name": "Chris Lillie",
@@ -28,12 +95,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Chris Lillie, Head of Cloud and Service Integration at CDW (a major IT services and solutions provider), is reaching out to schedule a brief call this week, likely regarding contract renewal or service integration matters. This suggests CDW may be reviewing or renewing existing services with Galaxy, potentially representing an opportunity to discuss terms, expand scope, or address any service gaps. The timing and informal tone indicate this is a routine business touchpoint that could impact Galaxy's revenue retention or expansion with a significant partner.",
+      "ai_summary": "Chris Lillie, Head of Cloud and Service Integration at CDW (a major IT solutions provider), is requesting a brief call this week, likely to discuss renewal terms or ongoing service arrangements. This matters to Galaxy because CDW is a significant partner/customer relationship that requires executive-level attention to maintain and potentially expand engagement.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should confirm availability for a call this week and propose 2-3 specific time slots to Chris",
-        "France should pull the current CDW contract details, renewal timeline, and service utilization metrics to brief Dave before the call",
-        "Prepare talking points on any new Galaxy services, pricing optimization, or expanded cloud/data center offerings that might be relevant to CDW's current needs"
+        "Dave should confirm availability and propose 2-3 specific time slots for a call this week",
+        "Before the call, France should pull CDW's current contract status, renewal dates, and any pending commercial discussions",
+        "Prepare talking points on Galaxy's current service offerings or any new solutions that could be relevant to CDW's cloud and integration initiatives"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -57,17 +124,17 @@
       ],
       "ai_reviewed": true,
       "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Adam Leponis from Kennedy Renewables is confirming a pre-scheduled 4pm BST call with Dave today. This appears to be a follow-up on an existing meeting\u2014Kennedy Renewables is a UK renewables firm that may be relevant to Galaxy's infrastructure focus.",
-      "ai_action": "Confirm Dave has the call link and knows the time. Ask Adam's team what Kennedy Renewables wants to discuss (partnership, investment, deal opportunity?) to prep Dave if needed.",
+      "ai_label": "URGENT",
+      "ai_summary": "Adam Leponis from Kennedy Renewables is confirming a pre-scheduled 4pm BST call with Dave today. This is a direct, personal follow-up to an existing meeting commitment\u2014requires immediate attention to confirm attendance.",
+      "ai_action": "Dave should confirm receipt and attendance at the 4pm BST call; ensure calendar is blocked and any prep materials are reviewed beforehand.",
       "ai_next_steps": [
-        "Verify the 4pm BST call is on Dave's calendar",
-        "Request agenda/context from Adam on what Kennedy Renewables wants to explore",
-        "Check if Kennedy Renewables has prior relationship with Galaxy or is a new prospect"
+        "Check Dave's calendar to confirm 4pm BST slot is available",
+        "Request call link if not already in calendar invite",
+        "Brief Dave on Kennedy Renewables context and call objectives before 4pm"
       ],
       "ai_failed": false,
       "final_score": 7,
-      "final_label": "IMPORTANT"
+      "final_label": "URGENT"
     },
     {
       "sender_email": "paul@galaxydatacenters.com",
@@ -2577,108 +2644,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "jayan.patel@castleforge.com",
-      "sender_name": "Jayan Patel",
-      "subject": "RE: Redhill - April '26 IPD Reporting Pack",
-      "body_preview": "@Pelle Jorgen FYI the compliance certificate came through yesterday. Attached for good order.\r\n\r\nJayan Patel\r\nO: +44 203 846 1671\r\nE: jayan.patel@castleforge.com\r\n\r\nFrom: Paul Leong <paul@galaxycapitalpartners.com>\r\nSent: 14 April 2026 17:00\r\nTo: Pelle Jo",
-      "received": "2026-04-14T16:03:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR8NAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHoO6lbLZztAukZmUvRSMEA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Tier 1: castleforge.com",
-        "KW: capital",
-        "8 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Jayan Patel from Castle Forge is notifying Pelle Jorgen that a compliance certificate for the Redhill April 2026 IPD reporting package has been received and is being provided for documentation purposes. This is a routine compliance milestone for what appears to be an infrastructure or property deal that Galaxy Capital is involved with.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of the compliance certificate with Jayan and verify it meets all requirements for the April 2026 IPD reporting deadline",
-        "File the certificate in the deal documentation system and ensure it's included in the final IPD reporting pack",
-        "Review the certificate for any outstanding items or conditions that may impact deal closure or reporting timelines"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "sai@solarisstrategiesinc.com",
-      "sender_name": "Sai Raman",
-      "subject": "Price list: Individual Tax Return 2025 || Sairam",
-      "body_preview": "Sharing if helpful\r\n\r\n---------- Forwarded message ---------\r\nFrom: Udit Gupta <udit@taxccount.com>\r\nDate: Tue, Apr 14, 2026, 11:09\u202fa.m.\r\nSubject: Individual Tax Return 2025 || Sairam\r\nTo: <sai@solarisstrategiesinc.com>\r\nCc: Abhinav Gupta <abhinav@taxccou",
-      "received": "2026-04-14T16:01:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR8MAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFx5Rrm4o-lCra5AFsug8Cg=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Attachments from known (+1)",
-        "Tier 2: solarisstrategiesinc.com"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman from Solaris Strategies is forwarding a tax service price list from TaxCCount (a third-party tax preparation vendor) regarding 2025 individual tax returns. This appears to be informational sharing rather than a direct request, but may indicate Solaris or an associated entity is evaluating tax filing services for individuals. Without clear business context, the relevance to Galaxy's data center and capital operations is unclear and requires clarification.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should ask France or Sai directly why this tax service pricing was shared and whether Galaxy has any relationship or engagement with Solaris Strategies or TaxCCount",
-        "Confirm if this relates to Galaxy employee benefits, portfolio company services, or a business development opportunity that requires follow-up",
-        "If not relevant to Galaxy's operations, file or discard to maintain inbox hygiene"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "ash@galaxydatacenters.com",
-      "sender_name": "Ash Gupta",
-      "subject": "Re: Leasing update for Board Call on 15 April attached",
-      "body_preview": "Attached please find the April Key Actions slides.\r\n\r\nCheers,\r\n-Ash\r\n________________________________\r\nFrom: Jamie Thirlwall <jamie.thirlwall@castleforge.com>\r\nSent: Tuesday, April 14, 2026 9:56 AM\r\nTo: Ash Gupta <ash@galaxydatacenters.com>; Tj Karklins <",
-      "received": "2026-04-14T15:13:41Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR8BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABHl_kSlGZxBoseAE9aUA5w=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 17x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, board",
-        "4 VIPs on thread (+2)",
-        "Thread: 4 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta is forwarding the April Key Actions presentation slides that were requested for Dave's board call on April 15th. The slides appear to be a leasing update summary prepared for board discussion. This is a time-sensitive delivery needed for tomorrow's board meeting.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the April Key Actions slides before the April 15th board call to familiarize yourself with key leasing metrics and talking points",
-        "Confirm receipt of the slides and identify any gaps or additional data points needed before presenting to the board",
-        "Brief France on the leasing update content if she will be participating in or supporting the board call"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 80
 }
