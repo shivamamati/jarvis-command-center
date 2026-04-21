@@ -1,13 +1,81 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-21T21:41:52.427310+00:00",
+  "timestamp": "2026-04-21T22:34:55.160170+00:00",
   "total": 9,
   "new": 9,
-  "noise": 5,
+  "noise": 4,
   "ai": 7,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Fw: [External] Redhill Data Centre 2025 SOC",
+      "body_preview": "Richard is ooo. JP was copied.\r\n\r\n________________________________\r\nFrom: Richard Oosterom <richardo@digitalrealty.com>\r\nSent: Tuesday, April 21, 2026 14:51\r\nTo: Tj Karklins <tj@galaxydatacenters.com>\r\nSubject: Automatic reply: [External] Redhill Data Cen",
+      "received": "2026-04-21T22:05:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkn5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPKW0Y0d_OpDhOPGaBp4Li0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: data cent",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Richard Oosterom from Digital Realty is out of office and cannot respond to a message regarding Redhill Data Centre's 2025 SOC (Statement of Compliance or Service Level Agreement). Tj Karklins has forwarded this to you noting Richard's absence and that JP is copied on the communication, indicating the matter may need attention from available team members.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Determine Richard's return date and whether the Redhill Data Centre 2025 SOC matter is time-sensitive",
+        "Follow up with JP directly to clarify what action or response is needed for the SOC discussion",
+        "Confirm with Tj whether Galaxy needs to take the lead on next steps or wait for Richard's availability"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: DORA - fee quote",
+      "body_preview": "Thanks Rob - How long have you been waiting on a response from Langham Hall? Kirstin is there any thing you can do to nudge LH?\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Donell, Rob <RobDonell@eversheds-sutherland.com>\r\nSent: Tuesday, Apr",
+      "received": "2026-04-21T21:55:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkn4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSpXR5-EV9HrccPcQ_ezQA=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is following up internally with Rob Donell (Eversheds Sutherland legal counsel) and Kirstin regarding a stalled DORA fee quote that requires a response from Langham Hall. The delay in receiving this quote is blocking progress on what appears to be a regulatory compliance or contractual matter, and Paul is asking Kirstin to help expedite Langham Hall's response.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Determine the timeline for when Langham Hall's DORA fee quote was initially requested and establish a target deadline for their response",
+        "Have Kirstin reach out directly to Langham Hall contact to understand any blockers and request expedited turnaround",
+        "Clarify internally what deliverables or decisions are dependent on this quote to assess business impact and potential escalation need"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "media@jsa.net",
       "sender_name": "JSA",
@@ -28,11 +96,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "JSA is sending a routine weekly news digest covering data center, telecom, and technology industry headlines. This is a subscription-based newsletter service designed to keep executives informed on sector trends and developments. Understanding key industry movements can help Galaxy identify competitive opportunities, regulatory shifts, and emerging market dynamics relevant to our data center and capital operations.",
+      "ai_summary": "JSA is sending a weekly industry newsletter summarizing key data center, telecom, and technology news. This is a standard media briefing service designed to keep executives informed of relevant sector developments. No specific action or response is required\u2014this is informational content relevant to Galaxy's core business areas.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the full headline summary to identify any developments affecting Galaxy's portfolio companies or competitive landscape",
-        "Flag any regulatory, M&A, or technology announcements that could impact Galaxy's data center investment thesis or existing positions"
+        "Review the full headline summary when time permits to identify any competitive threats or market opportunities",
+        "Flag any articles related to Galaxy's current investments or target markets for deeper analysis by the investment team"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -60,12 +128,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Laura has invited Dave to a May 11th call regarding data center servers, and Dave is tentatively accepting but needs visibility into her broader event calendar before fully committing. This appears to be an opportunity to engage with a potential partner or client, but Dave wants to understand the full scope of engagement before dedicating his time.",
+      "ai_summary": "Laura has invited Dave to a May 11th call regarding data center servers and Dave is tentatively accepting. Before fully committing, he's requesting visibility into her broader event and discussion calendar to evaluate his participation priorities and ensure optimal allocation of his time.",
       "ai_action": null,
       "ai_next_steps": [
-        "Ask Laura to provide a complete calendar of upcoming events and discussions she has planned",
-        "Clarify the specific purpose and attendees for the May 11th call to assess strategic value",
-        "Once you have the full lineup, prioritize based on Galaxy's business priorities and your availability"
+        "Ask Laura to provide a complete list of upcoming events, discussions, and meetings she has planned for the next quarter",
+        "Review the full lineup against Galaxy's strategic priorities and Dave's existing calendar commitments to determine which engagements offer the highest business value",
+        "Confirm final attendance commitments to Laura once priorities are established"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -104,40 +172,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: DORA - fee quote",
-      "body_preview": "Hi Rohan - I just wanted to check-in on this.  Has the onboarding been completed?\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Houghton, Rohan <RohanHoughton@eversheds-sutherland.com>\r\nSent: Tuesday, April 14, 2026 8:07 AM\r\nTo: Paul Leong <p",
-      "received": "2026-04-21T17:25:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSpXR5-EV9HrccPcQ_ezQA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: board",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is following up with Rohan Houghton at Eversheds Sutherland regarding the status of a DORA (Digital Operational Resilience Act) compliance fee quote and whether the associated onboarding process has been completed. This appears to be a regulatory compliance matter that likely impacts Galaxy's operational readiness and legal standing.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should reach out to Rohan Houghton directly to confirm the onboarding completion status and obtain the final fee quote",
-        "Schedule a meeting with Galaxy's compliance and finance teams to review DORA requirements and timeline for full implementation",
-        "Document the scope and costs associated with DORA compliance to assess impact on Galaxy's budget and operational roadmap"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -2587,39 +2621,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Your Response from BA Customer Relations",
-      "body_preview": "Dear Abulhasan,\r\n\r\nThank you for your email. Please find the requested bank account details below to settle case reference 11350642:\r\n\r\n\r\n  *\r\nAccount holder name: Mr. Satyam Devesh Misra\r\n  *\r\nBank name: TD Canada Trust\r\n  *\r\nBranch name: Mississauga (20",
-      "received": "2026-04-14T22:33:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70afAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFk2Tffcd1hLk65b9aoV2Xo=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a suspicious email where someone is impersonating Dave Misra and providing banking details (account holder: Satyam Devesh Misra, TD Canada Trust Mississauga) to settle a case reference. This is a critical security incident\u2014either Dave's email has been compromised or this is a phishing/fraud attempt targeting Galaxy or its business partners.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Immediately verify if Dave actually sent this email and confirm he authorized sharing these banking details",
-        "Contact TD Canada Trust to verify the account details and place a fraud alert if the account appears legitimate but unauthorized",
-        "Review email logs and security for potential compromise of Dave's email account; reset credentials and enable enhanced monitoring if breached"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
   "total_tracked": 79
