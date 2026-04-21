@@ -1,13 +1,76 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-21T20:46:48.876379+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 6,
-  "ai": 5,
+  "timestamp": "2026-04-21T21:41:52.427310+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 5,
+  "ai": 7,
   "skipped": 0,
-  "auto_learned": 44,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "media@jsa.net",
+      "sender_name": "JSA",
+      "subject": "This Week\u2019s Data Center, Telecom & Tech Headlines in 60 Seconds \u23f2\ufe0f",
+      "body_preview": "Time for your weekly dose of data center, telecom & tech news. Here are the top headlines you may have missed.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
+      "received": "2026-04-21T21:08:50Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkn2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEE9aqjJnzdCmXq4McuoMZ4=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: jsa.net",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "JSA is sending a routine weekly news digest covering data center, telecom, and technology industry headlines. This is a subscription-based newsletter service designed to keep executives informed on sector trends and developments. Understanding key industry movements can help Galaxy identify competitive opportunities, regulatory shifts, and emerging market dynamics relevant to our data center and capital operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the full headline summary to identify any developments affecting Galaxy's portfolio companies or competitive landscape",
+        "Flag any regulatory, M&A, or technology announcements that could impact Galaxy's data center investment thesis or existing positions"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Data Center Server Discussion - Can you join?",
+      "body_preview": "Hi Laura,\r\n\r\nThanks for the invitation. I think I can make the May 11th call work.\r\n\r\nBefore I commit, could you share what other events or discussions you have coming up? I'd like to get a sense of the full lineup so I can prioritize which ones I'm the b",
+      "received": "2026-04-21T21:08:40Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkn1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGNxeQtvKolLtfAzGeSgtu4=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Laura has invited Dave to a May 11th call regarding data center servers, and Dave is tentatively accepting but needs visibility into her broader event calendar before fully committing. This appears to be an opportunity to engage with a potential partner or client, but Dave wants to understand the full scope of engagement before dedicating his time.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Ask Laura to provide a complete calendar of upcoming events and discussions she has planned",
+        "Clarify the specific purpose and attendees for the May 11th call to assess strategic value",
+        "Once you have the full lineup, prioritize based on Galaxy's business priorities and your availability"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -32,12 +95,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Chris Lillie from CDW UK is requesting a meeting with Dave this week to discuss a renewal matter. This appears to be a routine check-in from a key vendor or partner relationship that requires Dave's direct attention to address renewal terms or agreements.",
+      "ai_summary": "Chris Lillie from CDW UK is requesting a call this week to discuss a renewal matter. This appears to be a routine business development outreach from a major technology distributor regarding an existing or prospective contract. The timing and casual nature suggest this is likely a renewal discussion that could impact Galaxy's IT procurement or service agreements.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should respond to Chris with available time slots for a call this week",
-        "France (or Dave's team) should pull the CDW contract details and renewal status before the call",
-        "Prepare talking points on current service performance and any pricing or terms adjustments needed"
+        "Check Galaxy's existing CDW relationships and renewal schedule to understand which contract or service this pertains to",
+        "Coordinate availability with France (or relevant team member) and respond to Chris with 2-3 specific time slots for the call",
+        "Prepare brief summary of current CDW spend, contract terms, and any renewal objectives before the call"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2264,37 +2327,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "media@jsa.net",
-      "sender_name": "JSA",
-      "subject": "This Week\u2019s Data Center, Telecom & Tech Headlines in 60 Seconds \u23f2\ufe0f",
-      "body_preview": "Time for your weekly dose of data center, telecom & tech news. Here are the top headlines you may have missed.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
-      "received": "2026-04-15T13:06:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR9pAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMNb9pc8G8VBmUheuI9DoJk=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: jsa.net",
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "JSA is a media/newsletter publisher sending Galaxy Capital Partners their weekly curated digest of data center, telecom, and technology industry headlines. This is a routine industry news briefing designed to keep leadership informed on sector trends and developments. The value lies in staying current on competitive dynamics, regulatory changes, and market opportunities relevant to Galaxy's data center and technology investments.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the full headline summary to identify any material developments affecting Galaxy's portfolio companies or investment pipeline",
-        "Flag any competitive threats, acquisition targets, or regulatory changes that warrant discussion at the next investment committee meeting",
-        "Consider whether JSA's distribution list and content quality align with Galaxy's information needs, or if adjustments are needed"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "info@datacenternation.com",
       "sender_name": "Vraj Savaj",
       "subject": "What to Expect at DCN Toronto 2026 - Enquire Now",
@@ -2590,5 +2622,5 @@
       "final_label": "URGENT"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 79
 }
