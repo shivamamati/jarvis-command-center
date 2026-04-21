@@ -1,13 +1,172 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-21T13:17:30.739661+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 13,
-  "ai": 15,
+  "timestamp": "2026-04-21T15:09:26.511753+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 9,
+  "ai": 12,
   "skipped": 0,
   "auto_learned": 39,
   "items": [
+    {
+      "sender_email": "c.lillie@uk.cdw.com",
+      "sender_name": "Chris Lillie",
+      "subject": "Renewal catch up",
+      "body_preview": "Hi Dave,\r\n\r\nAre you free for a quick call this week?\r\n\r\nCheers\r\n\r\nChris\r\n\r\n\r\nChris Lillie\r\n\r\nHead of Cloud and Service Integration\r\n\r\nCDW\r\n\r\nMobile: +44 7976 983 574\r\n\r\nEmail: c.lillie@uk.cdw.com\r\n\r\n\r\nPLEASE CONSIDER THE ENVIRONMENT BEFORE PRINTING THIS E",
+      "received": "2026-04-21T15:07:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK9ndoVW1MBFlpwG3Kq1YHk=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: uk.cdw.com",
+        "KW: lease, renewal"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Chris Lillie, Head of Cloud and Service Integration at CDW (a major IT services and solutions provider), is reaching out to schedule a brief call this week, likely regarding contract renewal or service integration matters. This suggests CDW may be reviewing or renewing existing services with Galaxy, potentially representing an opportunity to discuss terms, expand scope, or address any service gaps. The timing and informal tone indicate this is a routine business touchpoint that could impact Galaxy's revenue retention or expansion with a significant partner.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should confirm availability for a call this week and propose 2-3 specific time slots to Chris",
+        "France should pull the current CDW contract details, renewal timeline, and service utilization metrics to brief Dave before the call",
+        "Prepare talking points on any new Galaxy services, pricing optimization, or expanded cloud/data center offerings that might be relevant to CDW's current needs"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "adam.leponis@kennedyrenewables.com",
+      "sender_name": "Adam Leponis",
+      "subject": "Catch up Call - Kennedy Renewables ",
+      "body_preview": "Hi Dave,\r\n\r\nLet me know if you need me to resend the link for our call at 4pm BST\r\n\r\nKind Regards,\r\nAdam Leponis\r\nWebsite:\r\nwww.kennedyrenewables.com\r\nEmail:\r\nadam.leponis@kennedyrenewables.com\r\nAddress:        Hamilton House, Church Street,  Altrincham, ",
+      "received": "2026-04-21T15:03:29Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjqIVpWUEb-jY8T6W1eSlU=",
+      "rules_score": 5,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Calendar match (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Adam Leponis from Kennedy Renewables is confirming a pre-scheduled 4pm BST call with Dave today. This appears to be a follow-up on an existing meeting\u2014Kennedy Renewables is a UK renewables firm that may be relevant to Galaxy's infrastructure focus.",
+      "ai_action": "Confirm Dave has the call link and knows the time. Ask Adam's team what Kennedy Renewables wants to discuss (partnership, investment, deal opportunity?) to prep Dave if needed.",
+      "ai_next_steps": [
+        "Verify the 4pm BST call is on Dave's calendar",
+        "Request agenda/context from Adam on what Kennedy Renewables wants to explore",
+        "Check if Kennedy Renewables has prior relationship with Galaxy or is a new prospect"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill - Call with ICG (Lender) March 18th",
+      "body_preview": "Hi Pelle - I will double check, but since the lease is expiring it\u2019s not a notice type of situation. They have the requirement to vacate the space and return it to the condition it was when they moved in.\r\n\r\nPaul\r\n\r\nSent from my iPhone\r\n\r\nOn Apr 21, 2026,",
+      "received": "2026-04-21T14:19:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACrgGkdAYi5Ar76Bsvzb9Ck=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "Urgency: expiring (+1)",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong (Galaxy Data Centers internal) is clarifying lease termination details for the Redhill property with an upcoming lender call scheduled for March 18th. The tenant has a mandatory vacate requirement and must restore the space to its original condition upon lease expiration, which is a material obligation that affects Galaxy's asset recovery and lender negotiations on this deal.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Paul the exact lease expiration date and document the tenant's restoration obligations before the lender call",
+        "Prepare a summary of vacate timeline, estimated restoration costs, and any holdover liability scenarios for the March 18th ICG lender discussion",
+        "Verify current property condition and obtain a professional assessment of restoration requirements to set realistic financial reserves"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "microsoftexchange329e71ec88ae4615bbc36ab6ce41109e@galaxydatacenters.com",
+      "sender_name": "Microsoft Outlook",
+      "subject": "Undeliverable: Time-Sensitive Alert: Pending File Ready to Open - 4/21/2026 ",
+      "body_preview": "Your email couldn't be forwarded from galaxycapitalpartners@galaxycapitalpartners.com to another email address.\r\nA custom mail flow rule created by an admin at galaxydatacenters.com has blocked your message.\r\nYou are not a legitimate email sender to send ",
+      "received": "2026-04-21T14:02:44Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAar6rnTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANTuxBulmv9MpEsmsASjOrU=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Urgency: time-sensitive (+1)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a system-generated bounce-back notification indicating that an email sent from the Galaxy Capital Partners domain was blocked by a mail flow rule at Galaxy Data Centers due to sender verification issues. The original message appears to have been flagged as potentially suspicious (referencing a time-sensitive alert with a file), suggesting possible phishing or security protocol concerns that triggered the blocking mechanism.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Contact Galaxy Data Centers IT/Security to review the mail flow rule and verify why galaxycapitalpartners@galaxycapitalpartners.com is being blocked between the two organizations",
+        "Check if there are legitimate inter-company email authentication issues (SPF/DKIM/DMARC) that need to be resolved between Galaxy Capital Partners and Galaxy Data Centers domains",
+        "Review the original blocked message content to determine if it triggered legitimate security filters or if there's a configuration error preventing normal business communications"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "michael@woodscap.com",
+      "sender_name": "Michael Woods",
+      "subject": "The AI Power Bottleneck \u2014 A Grid-Independent Solution",
+      "body_preview": "Hello Dave\r\n\r\n\r\nI\u2019m writing to introduce our firm, Woods Capital, as the financing advisory partner representing ISS Mining 1, LLC (\"ISS\"), a next-generation data center and power infrastructure platform purpose-built for the AI compute era.\r\n\r\n\r\nISS is a",
+      "received": "2026-04-21T13:58:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN93lswPDk1NjMtJ096Al88=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: capital, power, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Michael Woods from Woods Capital is introducing ISS Mining 1, LLC\u2014a data center and power infrastructure platform focused on AI compute. This is a direct personal outreach about a potential platform/partnership that aligns with Galaxy's core business in data center infrastructure for AI workloads.",
+      "ai_action": "Dave should review the full proposal. France should schedule a brief call with Michael Woods to understand ISS's geography (Europe?), MW capacity, stage, and whether there's a partnership or investment opportunity fit.",
+      "ai_next_steps": [
+        "Request full ISS deck and financial overview from Michael Woods",
+        "Clarify: Is ISS European, US-based, or both? What MW/power capacity?",
+        "Determine if this is a potential co-investment, partnership, or customer opportunity"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -179,39 +338,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "pelle.jorgen@castleforge.com",
-      "sender_name": "Pelle Jorgen",
-      "subject": "Re: Redhill - Call with ICG (Lender) March 18th",
-      "body_preview": "Hi Paul,\r\n\r\nQuestion for you on Navisite: do they legally have to give notice of intent to vacate? What does their lease say? If so, is there a notice period that they've already missed?\r\n\r\nPelle Jorgen\r\nO: 0203 927 7358\r\nE: pelle.jorgen@castleforge.com",
-      "received": "2026-04-21T09:10:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkmwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACrgGkdAYi5Ar76Bsvzb9Ck=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "KW: lease",
-        "7 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is raising a critical lease compliance question about Navisite's occupancy at the Redhill property, specifically whether they are contractually obligated to provide advance notice before vacating and whether any notice deadlines may have already passed. This directly impacts Galaxy's financial position on the Redhill asset, tenant stability, and our standing with the lender (ICG) ahead of the March 18th call.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should immediately review the Navisite lease agreement to confirm notice of intent to vacate requirements and any applicable notice periods",
-        "Determine whether Navisite has provided (or failed to provide) required notice and assess the implications for cash flow and refinancing",
-        "Clarify with Pelle what triggered this question and whether there are indications that Navisite is planning to vacate"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -2552,105 +2678,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "events@jsa.net",
-      "sender_name": "JSA Events",
-      "subject": "Be a part of the Greener Data Exchange Volume 3 Launch at ITW",
-      "body_preview": "Secure an exclusive sponsorship before it's too late\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f",
-      "received": "2026-04-14T15:02:01Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAY%2BI76PAAAuilH2jaEmTaBeWRekOs%2B0AAaFwXvYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHPQmeQDwn5KvU6mRuvHmF8=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: jsa.net"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "JSA Events is promoting a sponsorship opportunity for the Greener Data Exchange Volume 3 Launch at an industry conference (ITW). They're seeking Galaxy Capital/Galaxy Data Centers to secure an exclusive sponsorship spot before availability closes. This aligns with the data center and sustainability focus of Galaxy's business, offering brand visibility and networking within the green infrastructure market.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Forward to France with sponsorship cost/details and ask if this fits Galaxy's marketing budget and strategic conference calendar for the year",
-        "Request more specifics from JSA Events on sponsorship tiers, benefits, and audience demographics to assess ROI",
-        "Determine if Galaxy wants speaking or exhibit presence at this event given its sustainability positioning"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Re: Internship Opportunities",
-      "body_preview": "Hi Mahati,\r\nConfirming Friday at 4:00 PM ET so I can send the calendar invite.\r\nThank you,\r\nFrance\r\n________________________________\r\nFrom: Dharanipathi, Mahati <mahatid@wharton.upenn.edu>\r\nSent: Monday, April 13, 2026 2:55 PM\r\nTo: France <france@galaxyda",
-      "received": "2026-04-14T14:14:29Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR74AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6A39K_bYlFod6IeDu-q_Q=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 4x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Mahati Dharanipathi from Wharton is following up on internship opportunities with Galaxy and has proposed a meeting time. France has confirmed Friday at 4:00 PM ET to discuss further, indicating Galaxy has interest in engaging with this candidate or broader Wharton recruitment efforts.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "France should send the calendar invite to Mahati for Friday 4:00 PM ET and include any relevant internship program details or interview logistics",
-        "Dave should review Galaxy's current internship needs and position requirements to prepare talking points before the meeting",
-        "Confirm whether this is part of a broader Wharton recruiting relationship or a one-off candidate inquiry to determine appropriate scope and follow-up"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "UPS Commercial Power Bypass Panel",
-      "body_preview": "Dear Chris and Mark,\r\n\r\nAs discussed on our call earlier today, an upgrade of the UPS systems in STE110 would include the additional implementation of commercial power UPS bypass panels for each UPS. This would allow Nomura have access to commercial power",
-      "received": "2026-04-14T13:24:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7zAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMBywcKuL0hMmlqcY0UMWDk=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 9x (+2)",
-        "Re customer: nomura",
-        "Internal \u2014 deal/customer related",
-        "KW: power",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins from Galaxy Data Centers is proposing an infrastructure upgrade to STE110's UPS systems that includes adding commercial power bypass panels for each UPS unit. This would enable Nomura (a key tenant) to access commercial power directly, improving their operational flexibility and likely their satisfaction with our facility. This upgrade represents both a service differentiation opportunity and a retention strategy for a major customer.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify technical specifications, costs, and timeline for the UPS bypass panel implementation with TJ and the engineering team",
-        "Evaluate impact on Nomura's contract terms, SLA commitments, and potential for premium pricing on this enhanced capability",
-        "Determine if this upgrade should be offered to other STE110 tenants or positioned as a Nomura-exclusive premium feature"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 81
 }
