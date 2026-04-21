@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-20T23:39:17.545092+00:00",
+  "timestamp": "2026-04-21T02:10:00.096004+00:00",
   "total": 4,
   "new": 4,
-  "noise": 1,
-  "ai": 4,
+  "noise": 4,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 39,
   "items": [
@@ -2639,40 +2639,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "marketing write up ",
-      "body_preview": "Can you check here:\r\n\r\nMarketing & Demand Generation\r\nGalaxy Data Centers has undertaken a comprehensive overhaul of its marketing and demand generation strategy. The previous agency arrangement (JSA) was terminated due to underperformance, and the compan",
-      "received": "2026-04-14T00:31:14Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR7MAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFjiX_lw7LVBjEpkE4KrPwM=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman (Galaxy Data Centers team member) is requesting review of a marketing and demand generation strategy document that outlines Galaxy's pivot away from a underperforming agency partner (JSA) toward a new approach. This matters because effective demand generation directly impacts revenue pipeline and competitive positioning in the data center market.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the complete marketing strategy document and provide feedback on the new direction and projected impact",
-        "Clarify the timeline and budget allocation for the new demand generation strategy",
-        "Discuss key performance metrics and accountability measures with Sai to ensure measurable outcomes"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 80
 }
