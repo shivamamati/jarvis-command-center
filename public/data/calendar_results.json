@@ -1,49 +1,6 @@
 {
-  "timestamp": "2026-04-21T23:31:49.048370+00:00",
+  "timestamp": "2026-04-22T02:08:09.242252+00:00",
   "events": [
-    {
-      "subject": "Solar Proposal - Galaxy Data Centres",
-      "start": "2026-04-21T15:00:00.0000000",
-      "end": "2026-04-21T15:30:00.0000000",
-      "attendees": [
-        "Adam"
-      ],
-      "organizer": "Adam Leponis",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAY%2BjpISAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Dave <> New Interns Sync",
-      "start": "2026-04-21T18:15:00.0000000",
-      "end": "2026-04-21T19:15:00.0000000",
-      "attendees": [
-        "Krish",
-        "Dev",
-        "vbhardw7@uwo.ca",
-        "sherman7@wharton.upenn.edu",
-        "Faye",
-        "Shivam"
-      ],
-      "organizer": "Krish Mehta",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6G2AAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Impoortant AUDIT update & Decision Meeting",
-      "start": "2026-04-21T20:00:00.0000000",
-      "end": "2026-04-21T20:30:00.0000000",
-      "attendees": [
-        "Tj",
-        "Paul",
-        "Ash"
-      ],
-      "organizer": "Tj Karklins",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAasJ8L6AAA%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Badminton with Suhas ",
       "start": "2026-04-22T00:00:00.0000000",
@@ -182,6 +139,47 @@
       "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qDLQzwAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Sales Funnel Review with Ashley and Paul ",
+      "start": "2026-04-24T14:30:00.0000000",
+      "end": "2026-04-24T15:00:00.0000000",
+      "attendees": [
+        "Paul",
+        "Ashley",
+        "Tj"
+      ],
+      "organizer": "Dave Misra",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qGUbaXAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAErJLNiwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Dave Misra - 1:1 Meeting with Matt Welch, DCN",
+      "start": "2026-04-24T15:00:00.0000000",
+      "end": "2026-04-24T15:30:00.0000000",
+      "attendees": [
+        "Matthew"
+      ],
+      "organizer": "Matthew Welch",
+      "location": "",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAadn1ZnAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Grain / Mahendra - NWS Operating Role for Data Center Initiative",
+      "start": "2026-04-24T15:00:00.0000000",
+      "end": "2026-04-24T15:45:00.0000000",
+      "attendees": [
+        "Suraj",
+        "Ricardo",
+        "Mahendra",
+        "Jeff"
+      ],
+      "organizer": "Suraj Aulakh",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAakOcQ9AAA%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
