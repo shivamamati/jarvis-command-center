@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-22T16:55:37.307881+00:00",
-  "total": 21,
-  "new": 21,
-  "noise": 19,
-  "ai": 20,
+  "timestamp": "2026-04-22T17:58:10.716783+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 8,
+  "ai": 11,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
+      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
+      "body_preview": "Great - thanks, Ash.\r\n\r\nPelle Jorgen\r\nO: 0203 927 7358\r\nE: pelle.jorgen@castleforge.com\r\n\r\n\r\n\r\n________________________________\r\nFrom: Ash Gupta <ash@galaxycapitalpartners.com>\r\nSent: Wednesday, April 22, 2026 6:21 PM\r\nTo: Paul Leong <paul@galaxydatacente",
+      "received": "2026-04-22T17:34:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkpUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: capital",
+        "6 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castle Forge is confirming attendance or agreement regarding a site tour at Redhill scheduled for April 23rd involving CFP and ICG stakeholders. This appears to be a brief acknowledgment of logistics previously coordinated by Ash Gupta, suggesting the tour is confirmed and proceeding as planned. The site visit likely relates to evaluating Galaxy's data center infrastructure or a potential partnership opportunity.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm final headcount and attendee list for the April 23rd Redhill site tour with Pelle and other participants",
+        "Prepare site tour materials, safety briefing, and talking points on CFP/ICG capabilities for Castle Forge evaluation",
+        "Follow up post-tour with Pelle to discuss next steps, requirements, or any proposals needed to advance the relationship"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Drew Barrett and Dave Misra",
+      "body_preview": "Event Name\r\nGalaxy External Meeting Channel\r\n\r\nPlease share anything that will help prepare for our meeting.: To discuss Xela proposal\r\n\r\nNeed to make changes to this event? Cancel Reschedule\r\nPowered by Calendly\r\n_________________________________________",
+      "received": "2026-04-22T17:04:01Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJU4Pj-hEHFMqqJyIPhI1ao=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: proposal, lease, power",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a calendar notification for an upcoming meeting with Drew Barrett to discuss the Xela proposal. The meeting is scheduled through Galaxy's external meeting channel and Dave is requesting background materials or preparation documents to inform the discussion.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Identify and compile all existing Xela proposal documents, technical specifications, and commercial terms for review before the meeting",
+        "Confirm Drew Barrett's role and company affiliation to understand their stake in or relationship to the Xela proposal",
+        "Prepare a brief internal summary of Galaxy's current position, objectives, and any open questions regarding Xela to align with the meeting purpose"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "francis.turley@simmons-simmons.com",
       "sender_name": "Francis Turley",
@@ -39,39 +106,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "pelle.jorgen@castleforge.com",
-      "sender_name": "Pelle Jorgen",
-      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
-      "body_preview": "Sorry looping in TJ and Dave here.\r\n\r\nIt would be really helpful to get these updates ahead of the tour tomorrow. Bullet point short form is fine. Doesn't need to be exhaustive.\r\n\r\nCan you also confirm which, if any, of these renewals are sensitive conver",
-      "received": "2026-04-22T15:47:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkpMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "KW: renewal",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is requesting pre-tour briefing materials ahead of a Redhill site visit tomorrow with CFP and ICG stakeholders. He's asking for bullet-point updates on renewals and needs clarity on which conversations may be commercially sensitive before the tour proceeds.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Prepare concise bullet-point briefing document on Redhill renewal status to send to Pelle, TJ, and Dave by end of business today",
-        "Identify and flag any sensitive renewal discussions to Dave before tomorrow's tour to ensure appropriate messaging with external parties",
-        "Confirm final attendee list and tour logistics for April 23rd Redhill visit with all parties"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "rj@galaxydatacenters.com",
@@ -1831,39 +1865,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Drew Barrett and Dave Misra",
-      "body_preview": "Event Name\r\nGalaxy External Meeting Channel\r\n\r\nPlease share anything that will help prepare for our meeting.: To discuss Xela proposal\r\n\r\nNeed to make changes to this event? Cancel Reschedule\r\nPowered by Calendly\r\n_________________________________________",
-      "received": "2026-04-17T08:32:25Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaUOO1DAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJU4Pj-hEHFMqqJyIPhI1ao=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: proposal, lease, power",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a calendar confirmation for an upcoming meeting between Dave Misra and Drew Barrett to discuss a Xela proposal. The meeting is scheduled through Galaxy's external meeting channel. Dave is requesting any preparatory materials or context that might be helpful before the meeting takes place.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Gather and review all existing Xela proposal documentation, including current terms, pricing, and any previous communications",
-        "Identify key decision points or open issues with the Xela proposal that should be addressed in the meeting",
-        "Brief France (or relevant team member) on the Xela proposal status and desired outcomes before the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
       "sender_email": "drew@zendoenergy.com",
       "sender_name": "Drew Barrett",
       "subject": "Re: Xela Energy update",
@@ -2591,41 +2592,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "FW: Salesforce",
-      "body_preview": "From: Luke Gray <luke.gray@redhilldatacentre.com>\r\nDate: Wednesday, April 8, 2026 at 5:44\u202fAM\r\nTo: Colin Bell <colin.bell@redhilldatacentre.com>, Ash Gupta <ash@galaxycapitalpartners.com>, Dave Misra <dave@galaxydatacenters.com>, Fredy Marie-Emilienne ",
-      "received": "2026-04-15T17:50:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70akAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMLx_xS9yUROoJ4FEUty5jw=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Luke Gray from Redhill Data Centre is reaching out regarding Salesforce capabilities or integration, likely in context of a business evaluation or operational need. This appears to be a forwarded message involving multiple stakeholders from both Redhill and Galaxy entities, suggesting a potential partnership or technical alignment opportunity. The communication warrants clarification on whether this relates to a new deal, system integration requirement, or operational assessment that could impact Galaxy's service offerings or competitive positioning.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or Ash should clarify with Luke Gray the specific Salesforce requirement or opportunity being discussed and whether it relates to a Galaxy client need, partnership, or internal capability gap",
-        "Determine if this is part of a larger Redhill evaluation and assess whether Galaxy has relevant Salesforce integration or hosting services to propose",
-        "Coordinate with France (partially visible recipient) to ensure alignment on response and identify any overlapping client or operational implications"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 79
+  "total_tracked": 78
 }

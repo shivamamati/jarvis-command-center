@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T16:54:33.123515+00:00",
+  "timestamp": "2026-04-22T17:57:38.864003+00:00",
   "events": [
     {
       "subject": "Badminton with Suhas ",
@@ -71,8 +71,8 @@
     },
     {
       "subject": "Drew Barrett and Dave Misra",
-      "start": "2026-04-23T14:00:00.0000000",
-      "end": "2026-04-23T14:30:00.0000000",
+      "start": "2026-04-23T14:30:00.0000000",
+      "end": "2026-04-23T15:00:00.0000000",
       "attendees": [
         "Drew",
         "jade@zendoenergy.com",
