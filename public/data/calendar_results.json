@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T15:08:45.484975+00:00",
+  "timestamp": "2026-04-22T16:54:33.123515+00:00",
   "events": [
     {
       "subject": "Badminton with Suhas ",
@@ -76,7 +76,8 @@
       "attendees": [
         "Drew",
         "jade@zendoenergy.com",
-        "ethan@zendoenergy.com"
+        "ethan@zendoenergy.com",
+        "Ash"
       ],
       "organizer": "Dave Misra",
       "location": "https://calendly.com/events/0e3e7466-e975-4f30-99dc-0bfea8c26c11/microsoft_teams",

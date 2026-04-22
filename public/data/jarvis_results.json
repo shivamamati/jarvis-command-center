@@ -1,13 +1,78 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-22T15:10:07.420438+00:00",
-  "total": 26,
-  "new": 26,
-  "noise": 20,
-  "ai": 24,
+  "timestamp": "2026-04-22T16:55:37.307881+00:00",
+  "total": 21,
+  "new": 21,
+  "noise": 19,
+  "ai": 20,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "francis.turley@simmons-simmons.com",
+      "sender_name": "Francis Turley",
+      "subject": "RE: Cloudhouse Cabinet Service Order and MSA [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
+      "body_preview": "Hi Paul\r\n\r\nI have reviewed this and in broad terms the agreement is fine, being generally in line with market norms.  I have a few observations however:\r\n\r\n\r\n  *   The term is for 3 years commencing on 18 January 2026. This needs to be checked as the fees",
+      "received": "2026-04-22T15:57:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkpNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADbgigjncnhIlpttBDvjtNM=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "VIP: simmons-simmons.com",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) has reviewed the Cloudhouse Cabinet Service Order and Master Service Agreement and confirms it aligns with market standards, but has flagged that the 3-year term commencing January 18, 2026 requires verification against the fee structure, as the email was cut off before his specific concern was fully stated. This is a critical contract for Galaxy's service delivery and needs clarification before execution to avoid misalignment between term length and pricing commitments.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Francis complete his observations on the term/fee concern and provide his full legal review with any redlines or conditions",
+        "Dave should review the fee structure against the 3-year term to ensure pricing is locked appropriately and escalation clauses (if any) are acceptable",
+        "Confirm the January 18, 2026 commencement date is feasible and coordinate with the Cloudhouse counterparty if any adjustments are needed"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
+      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
+      "body_preview": "Sorry looping in TJ and Dave here.\r\n\r\nIt would be really helpful to get these updates ahead of the tour tomorrow. Bullet point short form is fine. Doesn't need to be exhaustive.\r\n\r\nCan you also confirm which, if any, of these renewals are sensitive conver",
+      "received": "2026-04-22T15:47:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkpMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: renewal",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castle Forge is requesting pre-tour briefing materials ahead of a Redhill site visit tomorrow with CFP and ICG stakeholders. He's asking for bullet-point updates on renewals and needs clarity on which conversations may be commercially sensitive before the tour proceeds.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Prepare concise bullet-point briefing document on Redhill renewal status to send to Pelle, TJ, and Dave by end of business today",
+        "Identify and flag any sensitive renewal discussions to Dave before tomorrow's tour to ensure appropriate messaging with external parties",
+        "Confirm final attendee list and tour logistics for April 23rd Redhill visit with all parties"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "rj@galaxydatacenters.com",
       "sender_name": "Rhys  Jones",
@@ -2556,69 +2621,6 @@
         "Dave or Ash should clarify with Luke Gray the specific Salesforce requirement or opportunity being discussed and whether it relates to a Galaxy client need, partnership, or internal capability gap",
         "Determine if this is part of a larger Redhill evaluation and assess whether Galaxy has relevant Salesforce integration or hosting services to propose",
         "Coordinate with France (partially visible recipient) to ensure alignment on response and identify any overlapping client or operational implications"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "francis.turley@simmons-simmons.com",
-      "sender_name": "Francis Turley",
-      "subject": "RE: Cloudhouse Cabinet Service Order and MSA [SIMS-L_LIVE_EMEA1.143566.143566-00004.FID3404878]",
-      "body_preview": "Hi Paul\r\n\r\nThanks for your email. Are you looking for us to summarise the key terms and suggest any amendments that we recommend, with a view to the Galaxy team negotiating these directly, or do you want us to engage with DR directly and provide detailed ",
-      "received": "2026-04-15T16:54:10Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR92AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHd0xuG4qA5NqBfb8esvcDs=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: simmons-simmons.com",
-        "7 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons & Simmons is seeking clarification on the scope of legal support Galaxy needs for the Cloudhouse Cabinet Service Order and MSA negotiations. He's asking whether Galaxy prefers to handle direct negotiations after receiving a legal summary with recommendations, or if the law firm should engage directly with the counterparty (DR) on Galaxy's behalf. This clarification is critical to ensure efficient deal progression and appropriate allocation of resources between legal counsel and internal management.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should confirm with France the preferred engagement model: advisory-only (legal summary + recommendations for Galaxy to negotiate) versus direct negotiation support",
-        "Once the model is confirmed, provide Francis with context on Galaxy's commercial priorities and red lines for these terms so legal counsel can tailor their analysis accordingly",
-        "Establish a clear timeline for when Galaxy needs the legal review completed to avoid delays in finalizing the Cloudhouse Cabinet arrangement"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "loansupport@saltlending.com",
-      "sender_name": "SALT Loan Support",
-      "subject": "Re: Maturing Loan - Action Needed",
-      "body_preview": "Hi Dave,\r\n\r\nThank you for submitting the term extension. Reviewing the application, we found a couple of items that need addressing before we can process your extension.\r\n\r\n  1.  Business Status - Galaxy Canada is listed as dissolved with the Canadian Bus",
-      "received": "2026-04-15T16:45:19Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAZ%2FBR91AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADN1HzdBZGlPi4CUA8E6_Ao=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied (+3)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "SALT Lending is flagging a critical issue with Galaxy Canada's business status (listed as dissolved) that's blocking approval of a loan term extension. This requires immediate attention to avoid default or loss of financing.",
-      "ai_action": "Dave needs to contact SALT Lending immediately to clarify Galaxy Canada's status and provide documentation. Flag for legal/compliance review with Simmons & Simmons.",
-      "ai_next_steps": [
-        "Call SALT Lending (loansupport@saltlending.com) today to understand full list of items needed and timeline",
-        "Engage Simmons & Simmons to address Galaxy Canada corporate status issue and prepare required documentation",
-        "Determine if Galaxy Canada is a subsidiary/holding company or operational entity and how it relates to current Redhill/active deals"
       ],
       "ai_failed": false,
       "final_score": 8,
