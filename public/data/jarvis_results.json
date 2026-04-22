@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-22T20:51:54.870028+00:00",
-  "total": 20,
-  "new": 20,
-  "noise": 12,
-  "ai": 17,
+  "timestamp": "2026-04-22T21:47:29.665667+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 9,
+  "ai": 10,
   "skipped": 0,
-  "auto_learned": 46,
+  "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fw: Datacentre JV - Frankfurt",
+      "body_preview": "FYI\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Richard Ludwig <richard.ludwig@alantra.co",
+      "received": "2026-04-22T21:36:50Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADzCTTG-u05dnBDUZo7EuV8=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a forwarded message from Richard Ludwig at Alantra regarding a Frankfurt data center joint venture opportunity. Without the full email body content, the specific details of what is being proposed or requested are unclear, but this likely relates to a potential partnership or investment opportunity in European data center infrastructure.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Retrieve and review the complete original email from Richard Ludwig to understand the specific proposal, terms, and timeline for the Frankfurt JV",
+        "Clarify with Dave or France whether Alantra is acting as an advisor, potential partner, or investor in this opportunity",
+        "Assess strategic fit against Galaxy's current European expansion plans and determine appropriate response timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "rj@galaxydatacenters.com",
       "sender_name": "Rhys  Jones",
@@ -27,18 +60,17 @@
         "Attachments + deal KW (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda, lease",
-        "Thread: 3 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rhys Jones from Galaxy Data Centers is escalating a frustration regarding the Building Management System (BMS) configuration for UPS representation. He requested input from the site team back in February but has received no feedback, and his authority to proceed unilaterally appears unclear. This delays critical infrastructure documentation and operational clarity that impacts system management and troubleshooting.",
+      "ai_summary": "Rhys Jones from Galaxy Data Centers is escalating a delay on a Building Management System (BMS) configuration issue where he requested site team input on UPS representation back in February and has not received feedback, leaving him unable to finalize the system implementation.",
       "ai_action": null,
       "ai_next_steps": [
-        "Follow up with the site team lead to gather the requested BMS/UPS representation specifications immediately",
-        "Clarify decision-making authority with Rhys and establish a deadline for input or default configuration approval",
-        "Review any other February action items that may have stalled to prevent similar bottlenecks"
+        "Identify and contact the responsible site team lead to collect the outstanding BMS/UPS input from February",
+        "Establish a deadline for site team feedback and assign clear ownership to prevent further delays",
+        "Follow up with Rhys to confirm receipt of feedback and provide timeline for BMS completion"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2550,40 +2582,6 @@
         "Clarify with Luke and Redhill management the scope and timeline of TCS's SOC1 requirement and whether this is a blocker for a material contract",
         "Assess the cost and effort to achieve SOC1 Type II certification at Redhill and determine ROI based on customer demand",
         "Decide on Galaxy's certification strategy: pursue SOC1, SOC2, or both across the portfolio, and communicate timeline to Luke for customer response"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re:  2025 Tax Preparation Services Agreement and Tax Checklist",
-      "body_preview": "Ritesh, please find the executed Form 8878 attached. Understood on the final balance.\r\n\r\nDave\r\n\r\n\r\nOn Wed, Apr 15, 2026 at 4:34 PM, Ritesh Daswani <ritesh.daswani@avtarcorp.com> wrote:\r\nHi Dave\r\n\r\nI have attached the Form 8878 for review and authorization",
-      "received": "2026-04-15T20:58:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaF70aqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE6p7lCnd0sktKsyaAdn0mI=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ritesh Daswani from Avtar Corp has sent Dave a Form 8878 (related to tax preparation services) requiring review and authorization. Dave has now executed and returned the form, and acknowledges understanding a final balance payment obligation. This appears to be routine tax compliance documentation for Galaxy's 2025 tax year preparation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "File the executed Form 8878 in Galaxy's tax records and confirm receipt with Ritesh",
-        "Clarify the final balance amount and payment terms with Ritesh or France to ensure timely payment processing",
-        "Coordinate with Finance to schedule payment and close out the 2025 tax preparation engagement"
       ],
       "ai_failed": false,
       "final_score": 9,
