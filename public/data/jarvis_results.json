@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-22T22:43:19.268061+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 4,
-  "ai": 8,
+  "timestamp": "2026-04-22T23:42:06.414468+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 3,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Krish Mehta from Galaxy Data Centers is circulating revised acquisition materials for the Docklands project, including an updated financial model and two presentation deck versions prepared by the intern team. The team is seeking feedback on these materials and guidance on next steps for moving the Docklands opportunity forward.",
+      "ai_summary": "Krish Mehta is sharing updated acquisition materials for the Docklands deal, including a financial model and two presentation deck versions prepared by the team. The interns are seeking feedback to refine these materials before moving forward with the transaction, which appears to be a significant M&A initiative for Galaxy.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the updated financial model and both deck versions to assess analytical rigor and presentation quality",
-        "Provide specific feedback to Krish and the intern team on model assumptions, valuation methodology, and deck messaging",
-        "Schedule a sync with Krish and Paul to determine timeline and next phase for Docklands acquisition pursuit"
+        "Review the financial model and presentation decks to identify gaps, assumptions, or areas requiring refinement",
+        "Schedule a brief sync with Krish and the intern team to provide targeted feedback and next phase priorities",
+        "Clarify the intended audience and timeline for these materials (investor pitch, internal approval, counterparty discussion, etc.)"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -64,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Nikos from Guidepoint is conducting industry research on the data centers space and has requested clarification on Galaxy's confidentiality preferences and operational footprint. Dave is confirming Galaxy should be marked as willing to participate on a confidential basis and is providing details about Galaxy Redhill in London as the company's primary operational asset. This research engagement presents an opportunity to shape industry perception and potentially connect with relevant stakeholders in the data center sector.",
+      "ai_summary": "Nikos (likely from Guidepoint, a research/advisory firm) is conducting industry research on the data center sector and needs clarification on Galaxy's confidentiality preferences and operational footprint. Dave is responding affirmatively to confidentiality requirements and providing key details about Galaxy's primary asset\u2014the three-data center campus at Redhill in London. This appears to be part of a market intelligence engagement that could impact Galaxy's positioning in industry research and investor perception.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Nikos that confidentiality setting has been updated to 'Yes' and verify what additional information Guidepoint needs about Galaxy's operations",
-        "Have France or relevant team member prepare a brief overview of Galaxy's full geographic footprint and key assets beyond Redhill to ensure accurate industry representation",
-        "Establish clear guidelines on what information can/cannot be shared during the interview and identify any competitive sensitivities to protect"
+        "Confirm with Nikos that confidentiality has been updated to 'Yes' and clarify what specific data points they need beyond the Redhill campus location",
+        "Prepare a brief fact sheet on Galaxy's complete data center portfolio (locations, capacity, customers) to ensure consistent and complete information sharing with Guidepoint",
+        "Follow up internally on whether this research engagement aligns with any investor relations or market positioning objectives"
       ],
       "ai_failed": false,
       "final_score": 8,
