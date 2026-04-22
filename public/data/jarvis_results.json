@@ -1,13 +1,115 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-22T07:27:03.375648+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 2,
-  "ai": 4,
+  "timestamp": "2026-04-22T09:16:15.217618+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 4,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
+      "sender_name": "Fredy Marie-Emilienne",
+      "subject": "S140 UPS A02 P3 event",
+      "body_preview": "Hi all,\r\n\r\nSee attached. Customer notification to follow.\r\n\r\nKind regards,\r\n\r\nFredy Marie-Emilienne\r\n\r\nSenior Site Engineering Manager\r\n\r\nE:fredy.marie-emilienne@redhilldatacentre.com\r\nP:+44 07484 456514\r\nW: galaxydatacenters.com\r\n\r\nRedhill Data Centre, U",
+      "received": "2026-04-22T09:14:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkoSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPWfMT1zTINOqlj2jhKjxmk=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: data cent",
+        "11 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fredy Marie-Emilienne, Senior Site Engineering Manager at Redhill Data Centre (a Galaxy Data Centers facility), is notifying leadership of a UPS system event (S140 UPS A02 P3) and indicating that customer notification will follow. This suggests an infrastructure incident at one of our operating facilities that requires immediate escalation and customer communication management.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached incident details immediately to assess severity, customer impact, and required remediation timeline",
+        "Coordinate with Fredy and the operations team to finalize the customer notification message and distribution plan before sending",
+        "Brief key stakeholders (France, operations leadership, and affected customer account teams) on the incident status and any potential SLA implications"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "colin.bell@redhilldatacentre.com",
+      "sender_name": "Colin Bell",
+      "subject": "Re: Navisite/Accenture Site Tour - Redhill DC - 23rd April",
+      "body_preview": "Hi Usman,\r\n\r\nUnfortunately I have another tour/meeting scheduled for that exact time window tomorrow, we also have multiple contractors onsite and audits taking place.\r\n\r\nI will see if anyone else from the site team is able to accommodate and get back to ",
+      "received": "2026-04-22T09:05:58Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkoRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKWEIYZHPUlNoBm2KzMpL5k=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Redhill ops",
+        "KW: contract, audit",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Bell from Redhill Data Centre is unable to host the scheduled Navisite/Accenture site tour on April 23rd due to conflicting commitments, contractor activity, and ongoing audits. He's exploring whether another team member can step in to accommodate the visit. This matters to Galaxy as it affects a potential partnership or business development opportunity with Navisite/Accenture that may depend on facility inspection.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Follow up with Colin by end of day to confirm whether Redhill can reschedule or assign an alternative host for the tour",
+        "Prepare backup date options in case April 23rd cannot work, and identify what specific information Navisite/Accenture needs from the facility visit",
+        "Clarify internally whether this tour is critical to a deal timeline and escalate if needed to maintain momentum with the prospective partners"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "mark.hodge@nomura.com",
+      "sender_name": "mark.hodge@nomura.com",
+      "subject": "RE: VRM \u2013  Data Centre Services Ltd  - EMEA Data Centres (Redhill) \u2013  Financial Health Check task",
+      "body_preview": "Hi Paul,\r\n\r\nApologies for taking so long to come back to you on this. I now have agreement from our Finance team to join a MS Teams call with yourselves to try and get this resolved.\r\n\r\nCan you please share your availability to join a MS Teams call on Wed",
+      "received": "2026-04-22T08:31:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkoOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA19ajWIL0TOsIqONQ-Bplc=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: nomura.com",
+        "KW: lease, data cent",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mark Hodge from Nomura is confirming that his Finance team has approved participation in a Teams call to discuss the financial health assessment of Galaxy's Redhill data center facility. He's requesting Paul's availability for Wednesday to move forward with resolving this matter, indicating there may be previous outstanding issues or clarifications needed on Galaxy's financial position or facility metrics.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Paul confirm Galaxy's availability for the Wednesday Teams call and provide specific time slots to Mark",
+        "Prepare a concise financial summary and key metrics for the Redhill facility to present during the call",
+        "Clarify with Mark what specific financial health items Nomura's Finance team needs addressed before the call"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "c.lillie@uk.cdw.com",
       "sender_name": "Chris Lillie",
@@ -2685,5 +2787,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 84
 }
