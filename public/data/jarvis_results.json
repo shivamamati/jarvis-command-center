@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-22T21:47:29.665667+00:00",
-  "total": 13,
-  "new": 13,
-  "noise": 9,
-  "ai": 10,
+  "timestamp": "2026-04-22T22:43:19.268061+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 4,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "krish@galaxydatacenters.com",
+      "sender_name": "Krish Mehta",
+      "subject": "Updated Docklands Acquisition Materials",
+      "body_preview": "Hi all,\r\n\r\nAttached here we have the updated docklands acquisition materials including an updated model and two versions of a deck presentation.\r\n\r\nThe interns would love to get some feedback and see where we can take it from here. Paul - for the model th",
+      "received": "2026-04-22T22:35:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaylPpKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMnNxPCTwTlDpUsOcwbRtSc=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Krish Mehta from Galaxy Data Centers is circulating revised acquisition materials for the Docklands project, including an updated financial model and two presentation deck versions prepared by the intern team. The team is seeking feedback on these materials and guidance on next steps for moving the Docklands opportunity forward.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the updated financial model and both deck versions to assess analytical rigor and presentation quality",
+        "Provide specific feedback to Krish and the intern team on model assumptions, valuation methodology, and deck messaging",
+        "Schedule a sync with Krish and Paul to determine timeline and next phase for Docklands acquisition pursuit"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Industry research interview on the Data Centers Space - Guidepoint ",
+      "body_preview": "Hi Nikos,\r\n\r\nHappy to clarify both points.\r\n\r\nOn the confidentiality question \u2014 yes, please update that to \u201cYes.\u201d\r\n\r\nOn data centre locations \u2014 to clarify: our flagship operational campus is Galaxy Redhill in London, which comprises three data centres. Th",
+      "received": "2026-04-22T22:19:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANH6B23kkZZDjdHr1RXjmCw=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Nikos from Guidepoint is conducting industry research on the data centers space and has requested clarification on Galaxy's confidentiality preferences and operational footprint. Dave is confirming Galaxy should be marked as willing to participate on a confidential basis and is providing details about Galaxy Redhill in London as the company's primary operational asset. This research engagement presents an opportunity to shape industry perception and potentially connect with relevant stakeholders in the data center sector.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Nikos that confidentiality setting has been updated to 'Yes' and verify what additional information Guidepoint needs about Galaxy's operations",
+        "Have France or relevant team member prepare a brief overview of Galaxy's full geographic footprint and key assets beyond Redhill to ensure accurate industry representation",
+        "Establish clear guidelines on what information can/cannot be shared during the interview and identify any competitive sensitivities to protect"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -30,12 +97,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be a forwarded message from Richard Ludwig at Alantra regarding a Frankfurt data center joint venture opportunity. Without the full email body content, the specific details of what is being proposed or requested are unclear, but this likely relates to a potential partnership or investment opportunity in European data center infrastructure.",
+      "ai_summary": "Unable to provide briefing - the forwarded email content from Richard Ludwig at Alantra regarding a Frankfurt data center joint venture was not included in the message body. Dave has flagged this for attention but the underlying communication and specific request are missing.",
       "ai_action": null,
       "ai_next_steps": [
-        "Retrieve and review the complete original email from Richard Ludwig to understand the specific proposal, terms, and timeline for the Frankfurt JV",
-        "Clarify with Dave or France whether Alantra is acting as an advisor, potential partner, or investor in this opportunity",
-        "Assess strategic fit against Galaxy's current European expansion plans and determine appropriate response timeline"
+        "Request Dave or his team to resend the complete forwarded email from Richard Ludwig with full message body intact",
+        "Once received, review the Frankfurt JV proposal details and timeline to assess strategic fit and resource requirements",
+        "Prepare a response framework outlining Galaxy's interest level, key terms, and decision timeline for the opportunity"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -1034,39 +1101,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Industry research interview on the Data Centers Space - Guidepoint\n",
-      "body_preview": "Hi Nikos,\r\n\r\nI\u2019ve finally completed the registration \u2014 it was quite a comprehensive form. I\u2019m currently travelling in Asia, but please let me know if you need anything further from my side.\r\n\r\nBest,\r\nDave\r\n\r\n\r\n\r\nFrom: Nikos Geronimakis <nikos.geronimakis@",
-      "received": "2026-04-20T23:11:04Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAakGz25AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANH6B23kkZZDjdHr1RXjmCw=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Nikos Geronimakis from Guidepoint has requested Dave's participation in an industry research interview about the data centers space. Dave has completed the registration despite being abroad in Asia, signaling his commitment to this third-party research engagement that likely positions Galaxy as a thought leader in the market.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm interview date/time with Nikos and block Dave's calendar, accounting for Asia timezone",
-        "Prepare Dave with key talking points about Galaxy's data center strategy, competitive positioning, and market insights",
-        "Follow up post-interview to ensure Guidepoint captures Galaxy's positioning accurately for their research clients"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "paul@galaxydatacenters.com",
@@ -2588,5 +2622,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 79
 }
