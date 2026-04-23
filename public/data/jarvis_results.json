@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-23T15:51:23.164920+00:00",
-  "total": 27,
-  "new": 27,
-  "noise": 22,
-  "ai": 25,
+  "timestamp": "2026-04-23T17:17:24.244100+00:00",
+  "total": 28,
+  "new": 28,
+  "noise": 20,
+  "ai": 27,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 42,
   "items": [
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "PAUSE Cloud House Purchase - Commercial and Operational Blocker inserted into MSA",
+      "body_preview": "They have inserted a new term which effectively blocks our access to cross connects across which we would support a Redhill Customer with telecom connectivity to a vendor in their facility. This was not in the previous version (99.9% sure) but must have b",
+      "received": "2026-04-23T16:15:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEOmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALLDDgrSMktCpQUan8z809Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins from Galaxy Data Centers is flagging a critical MSA issue with Cloud House where new contract language has been inserted that prevents Galaxy from facilitating cross-connect arrangements for customer telecom connectivity\u2014a core service offering. This contractual blocker directly impacts Galaxy's ability to deliver connectivity solutions to Redhill and other customers at the Cloud House facility, making the deal commercially unviable in its current form.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France immediately pull the current MSA version and compare against the previous iteration to identify exactly what language was added and by whom",
+        "Escalate to Cloud House's counterparty to understand if this was an intentional change or drafting error, and demand removal or modification of the cross-connect restriction",
+        "Assess alternative facility options or negotiate carve-outs in the MSA before proceeding further with the Cloud House purchase"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "luke.gray@redhilldatacentre.com",
       "sender_name": "Luke Gray",
@@ -15,7 +49,7 @@
       "body_preview": "Hi Rhys\r\n\r\nWe have measured and we should be able to if some in S130 if needed, I am hoping we will have removed at least one more out of S160 by the time they are delivered.\r\n\r\n\r\nLuke Gray\r\n\r\nData Centre Manager\r\n\r\nRedhill Data Centre\r\nData Centre Servic",
       "received": "2026-04-23T15:36:18Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEOeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE-qaImqFfVHvNjt-UgGHZk=",
       "rules_score": 7,
@@ -30,12 +64,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Luke Gray, Data Centre Manager at Redhill Data Centre, is confirming that additional UPS units can be accommodated in storage area S130 with potential to free up more space in S160 before delivery. This impacts Galaxy's infrastructure expansion plans and facility capacity management at Redhill.",
+      "ai_summary": "Luke Gray, Data Centre Manager at Redhill Data Centre, is confirming that additional UPS units can be accommodated in storage area S130, with expectations that space will be freed up in S160 as existing equipment is removed before delivery arrives. This is relevant to Galaxy as it indicates Redhill can support our expansion plans within existing infrastructure constraints.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm delivery timeline for the 6 UPS units with Luke to align with his S160 removal schedule",
-        "Have France coordinate with Luke on the final placement decision between S130 and S160 to optimize storage efficiency",
-        "Track completion of UPS removals from S160 to ensure space availability upon delivery"
+        "Confirm final delivery date for the 6 UPS units with Luke to validate his timeline assumption about S160 removals",
+        "Have France coordinate with Redhill on the specific placement strategy for S130 to ensure optimal power distribution and cooling",
+        "Document the storage arrangement and get written confirmation to finalize the equipment delivery logistics"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -48,7 +82,7 @@
       "body_preview": "Hi Rodrigo,\r\n\r\nBy way of introduction, I'm the CEO of Zendo, Galaxy's energy broker and technology partner. It's a pleasure to e-meet you!\r\n\r\nFollowing a call with Ash and Dave this afternoon, they've suggested I reach out regarding vendor access passes t",
       "received": "2026-04-23T15:31:57Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEOdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKB6B2iZy05Lh5vo1kQ-nlw=",
       "rules_score": 9,
@@ -64,12 +98,12 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Jade Batstone, CEO of Zendo Energy (Galaxy's energy broker and technology partner), is following up on a call with Ash and Dave about vendor access passes for Redhill Data Centre. This is an operational matter requiring Dave's attention to authorize access.",
-      "ai_action": "Dave should confirm the vendor access pass requirements with Jade and delegate to facilities/operations lead for Redhill. Email appears cut off\u2014France should request complete message from sender.",
+      "ai_summary": "Jade Batstone, CEO of Zendo (Galaxy's energy broker and technology partner), is following up on a call with Ash and Dave about vendor access passes for Redhill Data Centre. This is a direct operational matter for an existing strategic partner.",
+      "ai_action": "Route to Ash or operations team for vendor pass coordination. Dave may need to confirm scope/timeline if not already discussed.",
       "ai_next_steps": [
-        "Request full email from Jade (message appears truncated at 'vendor access passes t')",
-        "Confirm with Dave what was discussed with Jade in the afternoon call",
-        "Coordinate with Redhill facilities/operations team on vendor access process"
+        "Confirm with Ash what was agreed regarding vendor access passes in today's call",
+        "Clarify which Zendo personnel need passes and for what duration",
+        "Coordinate with Redhill site security/operations to issue passes"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -96,12 +130,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This email contains a Microsoft Teams meeting link for a sync between Baxtel and Galaxy, but lacks context about the meeting purpose, attendees, or agenda. Without additional details about what Baxtel does or the nature of this partnership, it's unclear what business opportunity or obligation this represents for Galaxy.",
+      "ai_summary": "This is a Microsoft Teams meeting link for a Baxtel and Galaxy synchronization discussion. The meeting details are provided with join instructions and credentials. This appears to be an internal calendar item or meeting confirmation that requires Dave's attendance to align on Baxtel partnership or integration matters.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with France or the meeting organizer what the agenda is for the Baxtel sync and what outcomes are expected",
-        "Confirm who from Baxtel will be attending and their roles to understand decision-making authority",
-        "Define what Galaxy needs to prepare or decide ahead of this meeting to make it productive"
+        "Confirm attendance and add to calendar with the provided meeting ID and passcode",
+        "Prepare agenda items or discussion points regarding Baxtel alignment before the meeting",
+        "Notify France if their participation is needed for this Baxtel sync discussion"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -2756,104 +2790,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: 8 GREENWICH VIEW PLACE LONDON E14",
-      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: W",
-      "received": "2026-04-16T16:40:23Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaUOO04AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFKpdNsqbyFHs1u7nn5gfgo=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a forwarded email containing Dave's own contact information and signature block rather than an external communication requiring action. The email references a London property address (8 Greenwich View Place, E14) but provides no context about what is being requested or what Galaxy's involvement should be.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Dave what specific action or information is needed regarding the Greenwich View Place property",
-        "Determine if this is related to a potential data center acquisition, partnership, or due diligence effort in London"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: Revised Docklands Model",
-      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Krish Mehta <krish@galaxydatacenters.com>\r\nSent:",
-      "received": "2026-04-16T16:34:39Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaUOO03AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM5VLmI7HgpKr6Rt26O-7sY=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Krish Mehta from Galaxy Data Centers is forwarding you a revised financial model for the Docklands project. This appears to be an internal communication regarding updated projections or assumptions for a key real estate or data center development initiative. The revised model likely contains material changes to revenue forecasts, capital requirements, or returns that require your review and decision-making as Managing Partner.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the Docklands model for material changes in assumptions, IRR, and capital deployment compared to the previous version",
-        "Schedule a call with Krish to discuss key variances and determine if any adjustments to strategy or stakeholder communications are needed",
-        "If changes are significant, prepare talking points for investor or board updates regarding the revised Docklands economics"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Faye and Dave Misra",
-      "body_preview": "Event Name\r\nGalaxy External Meeting Channel\r\n\r\nNeed to make changes to this event? Cancel Reschedule\r\nPowered by Calendly\r\n________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.micro",
-      "received": "2026-04-16T15:51:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaUOO01AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMtWKVs13LhNiZ45bSCV3BA=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: power",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a calendar notification for a Galaxy External Meeting Channel event involving Dave Misra. The email provides meeting details and options to cancel or reschedule, indicating an upcoming external meeting that may require coordination.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the meeting date/time and attendee list to ensure all participants are properly scheduled",
-        "Review the meeting agenda and any pre-work materials needed before the Teams call",
-        "If rescheduling is needed, coordinate with all external parties and send updated meeting details"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 86
+  "total_tracked": 84
 }
