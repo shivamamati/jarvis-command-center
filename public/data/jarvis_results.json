@@ -1,13 +1,145 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-23T13:20:24.474556+00:00",
-  "total": 25,
-  "new": 25,
-  "noise": 13,
+  "timestamp": "2026-04-23T15:51:23.164920+00:00",
+  "total": 27,
+  "new": 27,
+  "noise": 22,
   "ai": 25,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "luke.gray@redhilldatacentre.com",
+      "sender_name": "Luke Gray",
+      "subject": "Re: Additional 6 UPS - Storage ",
+      "body_preview": "Hi Rhys\r\n\r\nWe have measured and we should be able to if some in S130 if needed, I am hoping we will have removed at least one more out of S160 by the time they are delivered.\r\n\r\n\r\nLuke Gray\r\n\r\nData Centre Manager\r\n\r\nRedhill Data Centre\r\nData Centre Servic",
+      "received": "2026-04-23T15:36:18Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEOeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE-qaImqFfVHvNjt-UgGHZk=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Redhill ops",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Luke Gray, Data Centre Manager at Redhill Data Centre, is confirming that additional UPS units can be accommodated in storage area S130 with potential to free up more space in S160 before delivery. This impacts Galaxy's infrastructure expansion plans and facility capacity management at Redhill.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm delivery timeline for the 6 UPS units with Luke to align with his S160 removal schedule",
+        "Have France coordinate with Luke on the final placement decision between S130 and S160 to optimize storage efficiency",
+        "Track completion of UPS removals from S160 to ensure space availability upon delivery"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "jade@zendoenergy.com",
+      "sender_name": "Jade Batstone",
+      "subject": "Vendor access passes for Redhill - Zendo",
+      "body_preview": "Hi Rodrigo,\r\n\r\nBy way of introduction, I'm the CEO of Zendo, Galaxy's energy broker and technology partner. It's a pleasure to e-meet you!\r\n\r\nFollowing a call with Ash and Dave this afternoon, they've suggested I reach out regarding vendor access passes t",
+      "received": "2026-04-23T15:31:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEOdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKB6B2iZy05Lh5vo1kQ-nlw=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Jade Batstone]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+4)",
+        "Pipeline: jade batstone",
+        "KW: introduction",
+        "Broker signal"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Jade Batstone, CEO of Zendo Energy (Galaxy's energy broker and technology partner), is following up on a call with Ash and Dave about vendor access passes for Redhill Data Centre. This is an operational matter requiring Dave's attention to authorize access.",
+      "ai_action": "Dave should confirm the vendor access pass requirements with Jade and delegate to facilities/operations lead for Redhill. Email appears cut off\u2014France should request complete message from sender.",
+      "ai_next_steps": [
+        "Request full email from Jade (message appears truncated at 'vendor access passes t')",
+        "Confirm with Dave what was discussed with Jade in the afternoon call",
+        "Coordinate with Redhill facilities/operations team on vendor access process"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Baxtel <> Galaxy Sync ",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/28684725122203?p=Mj3TPhu6jZhDm7PCWY\r\nMeeting ID: 286 847 251 222 03\r\nPasscode: 4D79bc24\r\n__________________",
+      "received": "2026-04-23T15:20:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAa5tBwrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALk-kqMES19Mp8AmUPAOjMI=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This email contains a Microsoft Teams meeting link for a sync between Baxtel and Galaxy, but lacks context about the meeting purpose, attendees, or agenda. Without additional details about what Baxtel does or the nature of this partnership, it's unclear what business opportunity or obligation this represents for Galaxy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with France or the meeting organizer what the agenda is for the Baxtel sync and what outcomes are expected",
+        "Confirm who from Baxtel will be attending and their roles to understand decision-making authority",
+        "Define what Galaxy needs to prepare or decide ahead of this meeting to make it productive"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
+      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
+      "body_preview": "Great. Thanks, Paul! Site meeting went well. ICG is very supportive.\r\n\r\nFYI - Colin did an absolutely excellent job on the site tour today. He demonstrated strong commercial awareness and great communication skills throughout. Very impressed with him.",
+      "received": "2026-04-23T13:55:48Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEOSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castle Forge is confirming that the Redhill site tour on April 23rd went well and that ICG is supportive of the project. He's also giving positive feedback on Colin's performance during the tour, noting his commercial acumen and communication skills made a strong impression.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Acknowledge Pelle's positive feedback and confirm next steps in the Redhill project timeline",
+        "Share Colin's commendation internally and consider leveraging his demonstrated skills on future client-facing opportunities",
+        "Follow up with ICG to understand their specific areas of support and any requirements to move the deal forward"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "ash@galaxydatacenters.com",
       "sender_name": "Ash Gupta",
@@ -213,39 +345,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "Re: Additional 6 UPS - Storage ",
-      "body_preview": "Apologies\r\n\r\nI should have double checked weights - as those quoted below are net weights.\r\n\r\nShipping weights are:\r\n\r\n1,468 kg for UPM package - 1,180 x 1,000 mm\r\n\r\n972 kg for SBM / I/O package - 1,1540 x 1000 mm\r\n\r\nArguably the UPM pack exceeds the 12 k",
-      "received": "2026-04-23T09:52:51Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa4Uf1qAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAE-qaImqFfVHvNjt-UgGHZk=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Galaxy Data Centers is correcting previously provided weight specifications for UPS equipment, noting that initial quotes were net weights while actual shipping weights are significantly heavier\u20141,468 kg and 972 kg respectively. The UPM package may exceed a 12k weight threshold, which could impact logistics planning, shipping costs, and infrastructure readiness for the additional six UPS units being procured for Storage.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the 12k weight limit constraint and determine if it applies to shipping, handling equipment, or facility infrastructure, then assess impact on delivery logistics",
-        "Request detailed specifications from Rhys including exact shipping dimensions and any special handling requirements for the heavier UPM package",
-        "Review current procurement timeline and shipping arrangements to ensure they accommodate the corrected weights before commitment"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
       "sender_email": "matthew.welch@datacenternation.com",
       "sender_name": "Matthew Welch",
       "subject": "VIP Registration for DCN Toronto",
@@ -276,39 +375,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "pelle.jorgen@castleforge.com",
-      "sender_name": "Pelle Jorgen",
-      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
-      "body_preview": "Thanks TJ. All very helpful notes.\r\n\r\nCan you just elaborate on the Accenture / Navisite one. Seems like this changed since they previously weren\u2019t engaging or communicating. So they\u2019ve now formally engaged and asked for less space? So we're going to enab",
-      "received": "2026-04-23T08:33:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa3YUClAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 1: castleforge.com",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is seeking clarification on a significant shift in Accenture/Navisite's engagement status for the Redhill project\u2014they've moved from being unresponsive to formally engaging and reducing their space requirements. This change in customer commitment directly impacts Galaxy's capacity planning, revenue projections, and buildout strategy for the Redhill data center.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Provide Pelle with complete details on the Accenture/Navisite engagement timeline, formal commitment documentation, and revised space allocation to ensure alignment between Castle Forge and Galaxy's planning",
-        "Clarify the business terms of this reduced footprint\u2014pricing adjustments, contract modifications, and impact on overall project economics",
-        "Confirm next steps with Accenture/Navisite directly to lock in their requirements and timeline before finalizing Redhill's infrastructure design"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "josh.scammell@simmons-simmons.com",
@@ -2787,41 +2853,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Re: Invoices",
-      "body_preview": "My .02.... of you do not see usefulness, progress, or a clear (hard, justifiable)  ROI for the cost of the time,\r\nPlease spending time and billing....\r\n\r\n________________________________\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: Thursday, Apri",
-      "received": "2026-04-16T13:40:03Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0BaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEYLbEODeOBAiRaQhyK7FCA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 9x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, billing",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins is expressing concern about resource allocation and return on investment, suggesting that the team should halt spending time and billing efforts on initiatives that lack clear, measurable ROI or demonstrated progress. This appears to be a cost-control directive aimed at improving operational efficiency and preventing wasteful expenditures across Galaxy operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review current projects and initiatives with TJ and Paul to identify which efforts lack clear ROI justification and should be deprioritized or eliminated",
-        "Request detailed metrics and business case documentation from project leads to establish concrete ROI thresholds for continued resource allocation",
-        "Schedule a meeting with finance and operations to establish a formal ROI review process and spending approval framework going forward"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 85
+  "total_tracked": 86
 }
