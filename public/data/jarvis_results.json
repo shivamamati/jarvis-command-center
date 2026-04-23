@@ -1,13 +1,111 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-23T02:12:08.754099+00:00",
+  "timestamp": "2026-04-23T05:26:43.336172+00:00",
   "total": 7,
   "new": 7,
-  "noise": 5,
-  "ai": 4,
+  "noise": 2,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "luke.gray@redhilldatacentre.com",
+      "sender_name": "Luke Gray",
+      "subject": "Say",
+      "body_preview": "FYI attached\r\n\r\nSent from Outlook for iOS",
+      "received": "2026-04-23T04:23:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAay%2BPhMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMt0Y_N0SwtImj100Xo_E4M=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Attachments from known (+1)",
+        "Redhill ops",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Luke Gray from Redhill Data Centre has sent a message with an attachment but no context provided. Without seeing the attachment content, we cannot determine the specific request or communication intent, but given the sender's affiliation with a data center operator, this likely relates to partnership, service, or infrastructure matters relevant to Galaxy's operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Contact Luke Gray to clarify the purpose of his message and review the attached document",
+        "Flag this for France if it requires operational or partnership response from Galaxy"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "s.adamczyk@2020-4.com",
+      "sender_name": "Steven Adamczyk",
+      "subject": "Assistant Vice President, Portfolio Analytics \u2013 Real Estate Investment & Management Firm",
+      "body_preview": "We have been exclusively retained to recruit an Assistant Vice President, Portfolio Analytics for a well-established private equity real estate investment and management firm with a longstanding track record of successful investments and operations in maj",
+      "received": "2026-04-23T03:52:48Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAazgkyQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANa_6CLOQ6hKg9QAEq1uMU0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: rack, investment"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Steven Adamczyk from a recruitment firm is reaching out about an open Assistant Vice President role in Portfolio Analytics at a established private equity real estate investment firm. This is a direct recruitment outreach for a senior analytics position that could represent either a business development opportunity or a talent acquisition situation relevant to Galaxy's data center and real estate portfolio operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify whether this is a passive talent inquiry about Dave or a business development opportunity for Galaxy's portfolio management needs",
+        "If relevant to Galaxy's operations, request full job description and firm details to assess cultural and strategic fit",
+        "Route to France or HR if Galaxy has interest in recruiting or establishing relationship with this PE real estate firm"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "conflict on tomorrows call",
+      "body_preview": "Hi Simmons Team- I have a conflict for tomorrow's call.  Seems like a few things are with us to review/answer questions.  If TJ is free/ready to discuss the CDW Variance and DRT MSA then maybe keep the call.  If not, I could do Friday at 3/3:30pm?\r\n\r\nThan",
+      "received": "2026-04-23T03:50:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAay%2BPhLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPwboQ0IUl1LoYcVCQZXwuQ=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong has a scheduling conflict for tomorrow's call with the Simmons team and is proposing alternatives. The call involves reviewing CDW Variance and DRT MSA topics that require either TJ's availability tomorrow or Paul's availability Friday afternoon. This impacts deal momentum and stakeholder alignment on critical contract matters.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm TJ's availability and readiness to discuss CDW Variance and DRT MSA for tomorrow's call",
+        "If TJ cannot participate tomorrow, secure Paul's commitment for Friday at 3:00 or 3:30 PM and notify Simmons team of the reschedule",
+        "Clarify what specific questions/items Simmons needs reviewed to ensure all parties are prepared for whichever session occurs"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "tj@galaxydatacenters.com",
       "sender_name": "Tj Karklins",
@@ -2656,5 +2754,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 83
 }
