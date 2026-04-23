@@ -1,13 +1,81 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-22T23:42:06.414468+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 3,
-  "ai": 5,
+  "timestamp": "2026-04-23T02:12:08.754099+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 5,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Cloud house ",
+      "body_preview": "This language is new and it sets us up for a cross connect charge that may not be economically viable - headed back to the previous version to see if this was there; I specifically looked for it...\r\n\r\nHere is the only major problem-\r\na Layer 1 Connectivit",
+      "received": "2026-04-23T01:57:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAay%2BPhDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHW_zfhO7u1CsH2j4hEJ57w=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins from Galaxy Data Centers has identified a contractual language issue in a cloud connectivity agreement that introduces unexpected cross-connect charges, potentially impacting project economics. He's reverting to previous contract versions to determine when this language was introduced and flagging a Layer 1 connectivity problem that needs resolution.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request TJ provide the specific cross-connect charge language and cost impact analysis for review",
+        "Have legal/contracts team compare current vs. previous versions to identify when unfavorable terms were added",
+        "Schedule call with TJ to understand the Layer 1 connectivity issue and determine mitigation options before proceeding"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
+      "body_preview": "I would recommend avoiding discussions on lease renewals in front of the ops team.\r\n\r\nCDW- meeting on Friday. Lease variance just back from Simmons. Working renewal for whole of STE 150 at 171.10/kw for 3+2; potential for rate pressure thru purchasing and",
+      "received": "2026-04-23T00:50:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAay%2BPhBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 8x (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "KW: kw, lease, renewal",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins is advising on the upcoming Redhill site tour with CFP and ICG scheduled for April 23rd, recommending lease renewal discussions be kept confidential from operations staff. He's simultaneously managing a CDW meeting Friday and has received lease renewal terms from Simmons for Suite 150 at $171.10/kW (3+2 structure) with potential rate pressure opportunities through strategic purchasing.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Coordinate with TJ on messaging strategy for the April 23rd site tour to ensure ops team alignment while protecting lease negotiation details",
+        "Review Simmons lease variance terms for Suite 150 and assess $171.10/kW pricing against market comparables before CDW Friday meeting",
+        "Identify purchasing leverage opportunities to drive down rate pressure and optimize renewal terms for the full Suite 150 commitment"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "krish@galaxydatacenters.com",
       "sender_name": "Krish Mehta",
@@ -175,40 +243,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
-      "body_preview": "Pelle the only other color on leasing beyond Paul\u2019s notes are that CDW has requested a meeting with us on Friday.\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meetin",
-      "received": "2026-04-22T19:06:07Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAaq51LjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "6 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is informing his team that CDW has requested a meeting this Friday in addition to the scheduled Redhill site tour and leasing discussions. This represents a potential business development opportunity with a major IT infrastructure company that could impact Galaxy's leasing pipeline and revenue.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the Friday meeting time and location with CDW, and prepare leasing/capacity overview materials",
-        "Coordinate with Paul to align CDW meeting talking points with current leasing strategy for Redhill",
-        "Assign attendee(s) and ensure stakeholders are briefed on CDW's specific needs or pain points prior to the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "r.peck@2020-4.com",
@@ -2622,5 +2656,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 79
+  "total_tracked": 80
 }
