@@ -1,13 +1,78 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-23T17:17:24.244100+00:00",
-  "total": 28,
-  "new": 28,
-  "noise": 20,
-  "ai": 27,
+  "timestamp": "2026-04-23T19:03:35.652575+00:00",
+  "total": 21,
+  "new": 21,
+  "noise": 15,
+  "ai": 19,
   "skipped": 0,
-  "auto_learned": 42,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "infra/STRUCTURE Speaking Opportunity",
+      "body_preview": "Hi Galaxy Team,\r\n\r\nJSA has an exclusive opportunity to pitch our clients for speaking slots through our relationship with Structure Research \u2014 related to their infra/STRUCTURE event in Las Vegas, Oct. 6-8.\r\n\r\nWe have an early window to submit speaker pitc",
+      "received": "2026-04-23T17:41:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEO0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPwYMP2u_TVOh7hOz73JCP0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is offering Galaxy an exclusive opportunity to pitch for a speaking slot at Structure Research's infra/STRUCTURE conference in Las Vegas (October 6-8) through their established relationship. This is a premium industry visibility opportunity targeting infrastructure decision-makers during an early submission window with limited competition.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm interest and identify which Galaxy executive(s) would be positioned as speaker(s) with relevant topic expertise",
+        "Request complete submission requirements, deadline, and format from Candace to prepare a compelling pitch",
+        "Coordinate with marketing/communications to develop speaker bio, topic abstract, and speaking points aligned with Galaxy's current messaging"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Galaxy Data Centers: Ubersmith Demo",
+      "body_preview": "Ryan apologies, I have my time zones mixed, could you guys do Monday?\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n_______________",
+      "received": "2026-04-23T17:34:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAa5pNnxAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8Zkyv5IdNDkoJMAeMiz6E=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, data cent",
+        "Thread: 6 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is requesting to reschedule a demo meeting with Ubersmith from an earlier proposed time to Monday instead, citing timezone confusion as the reason for the change.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Monday availability with Ubersmith and provide specific time options that work for Dave's timezone",
+        "Send Dave the updated meeting confirmation once Ubersmith agrees to the Monday slot"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "tj@galaxydatacenters.com",
       "sender_name": "Tj Karklins",
@@ -2792,5 +2857,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 84
+  "total_tracked": 86
 }
