@@ -1,13 +1,73 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-23T20:47:49.506326+00:00",
-  "total": 9,
-  "new": 9,
+  "timestamp": "2026-04-23T21:41:48.743347+00:00",
+  "total": 11,
+  "new": 11,
   "noise": 5,
-  "ai": 8,
+  "ai": 9,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "jsa_events@jsa.net",
+      "sender_name": "JSA Events",
+      "subject": "Kick Off ITW 2026 with JSA's Exclusive Margarita Mixer Networking Event",
+      "body_preview": "You don't often get email from jsa_events@jsa.net. Learn why this is important\r\nJoin us May 18th at Rosa Mexicano for a JSA client exclusive event.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f ",
+      "received": "2026-04-23T21:00:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP5UR9AhzYREttaNHMpL2RI=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: jsa.net"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "JSA Events is inviting Galaxy Capital Partners to an exclusive networking mixer on May 18th at Rosa Mexicano, positioned as a kickoff event for ITW 2026. This appears to be a curated client event designed to build relationships with select industry partners ahead of a major conference.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Determine if this aligns with Galaxy's 2026 conference strategy and whether Dave or France should attend",
+        "Confirm Galaxy's status as a JSA client and clarify the selection criteria for this exclusive event",
+        "Check internal calendar availability for May 18th and identify the appropriate attendee(s) to represent Galaxy"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "karan.prasad@prosidon.com",
+      "sender_name": "Karan Prasad",
+      "subject": "Corporate Development and Financing candidate for Hyperscale projects",
+      "body_preview": "You don't often get email from karan.prasad@prosidon.com. Learn why this is important\r\n\r\nHi Dave,\r\n\r\n\r\nI\u2019m Karan from Prosidon. We focus on recruiting Data Center talent across HPC, hyperscale, and AI deployments. Our network includes professionals across",
+      "received": "2026-04-23T20:36:54Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP0v2vJh3nRLgWSGrZ_RKvQ=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 6,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Karan Prasad from Prosidon (data center recruitment firm) is reaching out to Dave about sourcing Corporate Development and Financing talent for hyperscale/AI projects. This is a personalized outreach from a recruiter in Galaxy's sector who likely has relevant candidates.",
+      "ai_action": "Have France review and respond. If Galaxy is actively hiring for Corp Dev or Finance roles, this warrants a brief call to understand Prosidon's candidate pool and placement process.",
+      "ai_next_steps": [
+        "France: Confirm if Galaxy has open Corporate Development or Finance headcount for hyperscale/AI projects",
+        "If yes, request candidate profiles and Prosidon's process/fees",
+        "If no immediate needs, ask Karan to follow up in 3-6 months or request candidate pipeline for future reference"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "mike.adcock@castleforge.com",
       "sender_name": "Mike Adcock",
@@ -30,12 +90,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Mike Adcock from Castle Forge is sending a brief forward referencing positive interactions with Colin Bell from Redhill Data Centre and noting that Pelle may have also reached out. This appears to be an informal check-in following a meeting or discussion, suggesting satisfied engagement with a data center partner.",
+      "ai_summary": "Mike Adcock from Castle Forge is providing brief positive feedback on recent interactions, noting that Colin Bell performed well and suggesting that Pelle may have also sent a separate communication. The message is informal and lacks specific details about what was discussed or what action is required.",
       "ai_action": null,
       "ai_next_steps": [
-        "Follow up with Colin Bell to understand what was discussed and assess any partnership or commercial opportunities with Redhill Data Centre",
-        "Identify who 'Pelle' is and check for incoming communications regarding potential collaboration or proposals",
-        "Determine what specific business matter or proposal Mike's email chain concerns and whether Galaxy Capital or Galaxy Data Centers needs to take action"
+        "Dave should reach out to Pelle to confirm whether a follow-up email was sent and determine its content and any associated requests",
+        "Follow up with Colin Bell or Mike Adcock to clarify what was discussed and whether any commercial opportunities or action items emerged from the interaction",
+        "Review the full thread and any related communications to establish whether this relates to a data center partnership, service proposal, or capital opportunity that requires Galaxy's response"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -64,12 +124,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is proposing a speaking opportunity at an event called infra/STRUCTURE. Sai has acknowledged receipt and committed to reviewing the details and responding within the week. This represents a potential platform to elevate Galaxy's visibility and thought leadership in the infrastructure space.",
+      "ai_summary": "Candace Sipos from JSA is proposing a speaking opportunity at an infra/STRUCTURE event and has sent details for Galaxy's review. Sai Raman has acknowledged receipt and committed to providing feedback this week. This appears to be a potential industry visibility and thought leadership opportunity that requires timely evaluation.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the infra/STRUCTURE event details and confirm speaker requirements, audience profile, and event timing with Candace",
-        "Determine which Galaxy executive (Dave or another leader) should speak and what key messages align with current business priorities",
-        "Follow up with Sai by end of week to confirm Galaxy's participation and provide Candace with speaker bio and presentation topic"
+        "Review the speaking opportunity details from Candace (timeline, format, audience, and commitment level required)",
+        "Determine if Dave or another Galaxy executive should present and confirm availability",
+        "Provide Candace with Galaxy's decision and any questions by end of week per Sai's commitment"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -97,12 +157,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Pelle Jorgen from CastleForge is requesting the Redhill brand color codes and logo artwork files from the rebrand project completed last year. He's assuming Galaxy has these assets on file from the marketing agency and needs them for what appears to be a design or implementation project. This is likely needed to ensure brand consistency across a joint initiative or deliverable involving Redhill.",
+      "ai_summary": "Pelle Jorgen from Castle Forge is requesting the Redhill brand color codes and logo files from Galaxy's rebrand project completed last year. He's looking for the complete artwork package and color specifications, likely needed for alignment on a project or partnership involving the Redhill brand.",
       "ai_action": null,
       "ai_next_steps": [
-        "Locate the final artwork package and brand guidelines delivered by the marketing agency from last year's Redhill rebrand project",
-        "Verify with France or the marketing team whether these files can be shared with CastleForge and if any NDAs or usage restrictions apply",
-        "Respond to Pelle with the files or clarify the timeline for delivery if they need to be compiled"
+        "Confirm with France or marketing whether the rebrand deliverables and final artwork zip file are stored and accessible",
+        "Clarify Castle Forge's intended use of the Redhill brand materials before sharing proprietary assets",
+        "Prepare and share the color codes and logo files once approval is confirmed"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2759,38 +2819,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "microsoftexchange329e71ec88ae4615bbc36ab6ce41109e@galaxydatacenters.com",
-      "sender_name": "Microsoft Outlook",
-      "subject": "Undeliverable: (ATTN): 4/16/2026 ** Access Exipry ** MSG ID:5887053740 ** ///  Please Read ///",
-      "body_preview": "Your email couldn't be forwarded from galaxycapitalpartners@galaxycapitalpartners.com to another email address.\r\nA custom mail flow rule created by an admin at galaxydatacenters.com has blocked your message.\r\nYou are not a legitimate email sender to send ",
-      "received": "2026-04-16T21:25:56Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAaUGmi1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK1zxUgEkl1PsXN6EIfnvkk=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Internal \u2014 deal/customer related",
-        "KW: capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a system notification from Microsoft Exchange indicating that an email sent from the Galaxy Capital Partners domain was blocked by a mail flow rule at Galaxy Data Centers. The blocking rule suggests potential security concerns about the sender's legitimacy or domain configuration, which could impact internal communications between the two Galaxy entities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Contact your IT/Exchange administrator to review the mail flow rule blocking emails from galaxycapitalpartners@galaxycapitalpartners.com and determine if this is a misconfiguration or intentional security policy",
-        "Verify that the sending email address and domain authentication (SPF, DKIM, DMARC) for Galaxy Capital Partners are properly configured to prevent legitimate emails from being flagged as suspicious",
-        "Establish a direct communication channel with the Galaxy Data Centers IT team to ensure critical business emails between the two entities are not blocked going forward"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 84
+  "total_tracked": 85
 }
