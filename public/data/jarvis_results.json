@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-23T21:41:48.743347+00:00",
-  "total": 11,
-  "new": 11,
+  "timestamp": "2026-04-23T22:40:22.199538+00:00",
+  "total": 6,
+  "new": 6,
   "noise": 5,
-  "ai": 9,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -27,12 +27,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "JSA Events is inviting Galaxy Capital Partners to an exclusive networking mixer on May 18th at Rosa Mexicano, positioned as a kickoff event for ITW 2026. This appears to be a curated client event designed to build relationships with select industry partners ahead of a major conference.",
+      "ai_summary": "JSA Events is inviting Galaxy Capital Partners to an exclusive client networking mixer on May 18th at Rosa Mexicana, positioned as a kick-off event for ITW 2026. This is a curated relationship-building opportunity with other JSA clients in the infrastructure/technology sector, likely designed to strengthen business development connections and position Galaxy alongside peer companies.",
       "ai_action": null,
       "ai_next_steps": [
-        "Determine if this aligns with Galaxy's 2026 conference strategy and whether Dave or France should attend",
-        "Confirm Galaxy's status as a JSA client and clarify the selection criteria for this exclusive event",
-        "Check internal calendar availability for May 18th and identify the appropriate attendee(s) to represent Galaxy"
+        "Confirm attendance and identify 1-2 Galaxy representatives who should participate",
+        "Research other anticipated JSA clients/attendees to prepare for strategic conversations",
+        "Follow up post-event with warm introductions or partnership discussions from promising connections"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -2788,38 +2788,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "a.cox@2020-4.com",
-      "sender_name": "Alex Cox",
-      "subject": "SVP Commercial Development - Fully Integrated, 35+ yrs Developer of Master-Planned (Houston)",
-      "body_preview": "We have been exclusively retained by an award-winning, fully integrated real estate development and investment firm to find a SVP \u2013 Commercial Development. The company specializes in large-scale master-planned communities and mixed-use developments, creat",
-      "received": "2026-04-16T22:31:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOLS84fakcNOuxiVCReFURU=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: investment"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Alex Cox from 2020-4 is a recruiter placing a Senior Vice President of Commercial Development role at a major Houston-based master-planned community developer with 35+ years of track record. They're seeking an executive to lead commercial development strategy for large-scale, integrated projects. This could represent a talent/partnership opportunity if Galaxy is looking to expand its real estate development capabilities or enter the master-planned community space.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France clarify if this role aligns with any current Galaxy expansion plans or if it's a talent source for future operations",
-        "Request the full job description and company profile to assess strategic fit and potential collaboration opportunities",
-        "Determine if Galaxy should engage or simply file for future reference when building out development teams"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 85
+  "total_tracked": 84
 }
