@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-23T07:45:35.425993+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 7,
-  "ai": 7,
+  "timestamp": "2026-04-23T09:23:30.389367+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
+      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
+      "body_preview": "Thanks TJ. All very helpful notes.\r\n\r\nCan you just elaborate on the Accenture / Navisite one. Seems like this changed since they previously weren\u2019t engaging or communicating. So they\u2019ve now formally engaged and asked for less space? So we're going to enab",
+      "received": "2026-04-23T08:33:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa3YUClAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Tier 1: castleforge.com",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castle Forge is seeking clarification on a significant shift in Accenture/Navisite's engagement status for the Redhill project\u2014they've moved from being unresponsive to formally engaging and reducing their space requirements. This change in customer commitment directly impacts Galaxy's capacity planning, revenue projections, and buildout strategy for the Redhill data center.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Provide Pelle with complete details on the Accenture/Navisite engagement timeline, formal commitment documentation, and revised space allocation to ensure alignment between Castle Forge and Galaxy's planning",
+        "Clarify the business terms of this reduced footprint\u2014pricing adjustments, contract modifications, and impact on overall project economics",
+        "Confirm next steps with Accenture/Navisite directly to lock in their requirements and timeline before finalizing Redhill's infrastructure design"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "josh.scammell@simmons-simmons.com",
       "sender_name": "Josh Scammell",
@@ -173,41 +206,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Re: Redhill - CFP & ICG Site Tour - April 23rd ",
-      "body_preview": "I would recommend avoiding discussions on lease renewals in front of the ops team.\r\n\r\nCDW- meeting on Friday. Lease variance just back from Simmons. Working renewal for whole of STE 150 at 171.10/kw for 3+2; potential for rate pressure thru purchasing and",
-      "received": "2026-04-23T00:50:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAay%2BPhBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACSxCo_VtvpGoqgPjF30IeA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "KW: kw, lease, renewal",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins is advising on the upcoming Redhill site tour with CFP and ICG scheduled for April 23rd, recommending lease renewal discussions be kept confidential from operations staff. He's simultaneously managing a CDW meeting Friday and has received lease renewal terms from Simmons for Suite 150 at $171.10/kW (3+2 structure) with potential rate pressure opportunities through strategic purchasing.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Coordinate with TJ on messaging strategy for the April 23rd site tour to ensure ops team alignment while protecting lease negotiation details",
-        "Review Simmons lease variance terms for Suite 150 and assess $171.10/kW pricing against market comparables before CDW Friday meeting",
-        "Identify purchasing leverage opportunities to drive down rate pressure and optimize renewal terms for the full Suite 150 commitment"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "krish@galaxydatacenters.com",
@@ -2754,40 +2752,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "luke.gray@redhilldatacentre.com",
-      "sender_name": "Luke Gray",
-      "subject": "Fw: RedHill DC SOC1/SOC2/ISO certification reports",
-      "body_preview": "Hi Ash\r\n\r\nAs per TCS's question below, is SOC1 something we will be getting?\r\n\r\n\r\nLuke Gray\r\n\r\nData Centre Manager\r\n\r\nRedhill Data Centre\r\nData Centre Services Ltd\r\nUnit 3, St Anne's Boulevard, Redhill,Surrey,RH1 1AX\r\n\r\nM: +447435739311\r\nE: luke.gray@redh",
-      "received": "2026-04-16T08:57:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRJ9quAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAO7f3zx3eSFAoILXjSlvs7w=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Redhill ops",
-        "KW: data cent",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Luke Gray, Data Centre Manager at Redhill Data Centre (a Galaxy asset), is asking whether Redhill will pursue SOC1 certification in response to a third-party inquiry from TCS. This question indicates a customer or partner needs SOC1 compliance documentation, which is a critical audit standard for service organizations handling financial data and controls\u2014obtaining it could unlock new revenue opportunities and strengthen Redhill's competitive positioning in enterprise markets.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with Luke and Redhill management the scope and timeline of TCS's SOC1 requirement and whether this is a blocker for a material contract",
-        "Assess the cost and effort to achieve SOC1 Type II certification at Redhill and determine ROI based on customer demand",
-        "Decide on Galaxy's certification strategy: pursue SOC1, SOC2, or both across the portfolio, and communicate timeline to Luke for customer response"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 84
+  "total_tracked": 83
 }
