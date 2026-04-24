@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-24T20:42:20.380628+00:00",
-  "total": 11,
-  "new": 11,
-  "noise": 10,
-  "ai": 10,
+  "timestamp": "2026-04-24T21:43:15.886447+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 3,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -29,14 +29,14 @@
         "3 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Ryan Ward from Ubersmith is following up on a demo request Galaxy initiated. He's sending an NDA for review and proposing a May 7th sandbox environment setup call. This suggests Galaxy is actively evaluating Ubersmith's platform (likely for infrastructure management/monitoring).",
-      "ai_action": "Forward to France with note: Review NDA, confirm if May 7th 1:30 EST works for demo call, clarify which Galaxy team members should attend sandbox training.",
+      "ai_score": 6,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Ryan Ward from Ubersmith is following up on a demo that Galaxy's team requested. He's sending an NDA for review and proposing a sandbox environment setup with a May 7th call placeholder. This appears to be a genuine business engagement around a software/platform evaluation.",
+      "ai_action": "Dave should review the NDA and confirm whether his team wants to proceed with the Ubersmith demo. If yes, designate a team member to handle the technical evaluation and call scheduling.",
       "ai_next_steps": [
-        "Review attached NDA for standard terms",
-        "Confirm May 7th 1:30 EST meeting time or propose alternative",
-        "Identify which Galaxy team members (likely ops/engineering) need sandbox access and training"
+        "Have legal (Simmons & Simmons) review the Ubersmith NDA for any concerns",
+        "Confirm with team lead whether Ubersmith is still a priority evaluation and who should own the sandbox testing",
+        "If proceeding, send back signed NDA and confirm May 7th call time or propose alternative"
       ],
       "ai_failed": false,
       "final_score": 10,
