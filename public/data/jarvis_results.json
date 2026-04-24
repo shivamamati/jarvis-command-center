@@ -1,13 +1,112 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-24T13:15:52.471493+00:00",
-  "total": 22,
-  "new": 22,
-  "noise": 17,
-  "ai": 14,
+  "timestamp": "2026-04-24T15:05:49.911465+00:00",
+  "total": 21,
+  "new": 21,
+  "noise": 14,
+  "ai": 17,
   "skipped": 0,
-  "auto_learned": 46,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "chris.turner@nomura.com",
+      "sender_name": "chris.turner@nomura.com",
+      "subject": "CBRE Site Visit for Nomura - Redhill 5th May",
+      "body_preview": "Hi Redhill Team,\r\n\r\nI have been in discussions with CBRE about your site visit for Technical MEPH.\r\nPlease can we book in the 5th May for the below CBRE Team plus I will be there too.\r\n\r\nThe duration should be about 5 hours so can we have someone to escor",
+      "received": "2026-04-24T14:00:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEP4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEoITvv0z79NghBzWTBnw-8=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "Tier 1: nomura.com",
+        "KW: site visit, lease",
+        "13 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Chris Turner from Nomura is coordinating a technical site visit to the Redhill facility on May 5th with CBRE representatives to assess MEP/H (Mechanical, Electrical, Plumbing, and Heating) infrastructure. This is a critical facility evaluation that requires a 5-hour visit window and internal escort support, indicating potential client interest in Galaxy's data center capabilities or a transaction evaluation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm May 5th availability and assign Galaxy operations staff as site escort for the full 5-hour duration",
+        "Prepare Redhill technical documentation and MEP system specifications for CBRE review",
+        "Clarify with Chris Turner the scope of evaluation and whether this relates to a potential deal, partnership, or client assessment"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "CDW- need to finalize quickly",
+      "body_preview": "Gentlemen,\r\n\r\nNo further changes from CDW, but we are pressed for time as our main contact is changing and he wants to complete this before leaving CDW. Can we get the final changes turned so that we can send the doc to them by Monday afternoon UK?\r\n\r\nKey",
+      "received": "2026-04-24T13:24:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEP0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJkHmlmgappCk7nqgHotS8Q=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins is requesting urgent completion of a CDW contract finalization due to personnel transition at CDW. Their primary contact is departing and wants to close this deal before leaving, creating a hard Monday afternoon UK deadline. This delay risks losing momentum on what appears to be a significant CDW business opportunity.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm final contract revisions are complete and identify any outstanding changes needed from Galaxy's side by EOD Friday",
+        "Coordinate with legal/contracts team to execute final version and prepare for Monday afternoon UK delivery to CDW",
+        "Have TJ confirm CDW's contact details and preferred submission method to ensure seamless handoff before their contact's departure"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "matthew.welch@datacenternation.com",
+      "sender_name": "Matthew Welch",
+      "subject": "Dave Misra - 1:1 Meeting with Matt Welch, DCN",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/322940766961411?p=3Fxzz7KpwpPjaoSSCE\r\nMeeting ID: 322 940 766 961 411\r\nPasscode: Qh6h5cZ9\r\n________________",
+      "received": "2026-04-24T13:23:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAa76LS5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA-dMv1E8ERZsKqduSNnAhE=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: datacenternation.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Welch from Data Center Nation is requesting a 1:1 meeting with Dave Misra, likely to discuss potential business opportunities, partnerships, or industry matters relevant to Galaxy's data center operations. This appears to be an initial or follow-up meeting with a contact in the data center sector, which could impact Galaxy's strategic positioning or operational initiatives.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm meeting acceptance and check Dave's calendar availability for the Teams meeting",
+        "Have France or relevant team member prepare background briefing on Data Center Nation and Matthew Welch's role/company",
+        "Identify agenda items or business development priorities to discuss given DCN's business focus"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "drew@zendoenergy.com",
       "sender_name": "Drew Barrett",
@@ -15,7 +114,7 @@
       "body_preview": "Hi Dave / Ash,\r\n\r\nThanks for your time yesterday. I think we agreed on setting up a call for the same time next week - I'll drop that time in now.\r\n\r\nIn the meantime, please find attached a handful of slides we pulled together to provide an initial apprai",
       "received": "2026-04-24T13:12:34Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": true,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABr8eqqDbyJHg9dUBsWbLrk=",
       "rules_score": 8,
@@ -30,12 +129,12 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Drew Barrett from Xela Energy is following up on a meeting Dave had yesterday. He's sending preliminary slides and confirming a call for next week. This appears to be an active business discussion, likely related to energy or power infrastructure given Galaxy's data center focus.",
-      "ai_action": "Review attached slides when received complete version; confirm call timing for next week with Drew.",
+      "ai_summary": "Drew Barrett from Xela Energy following up on a meeting Dave and Ash had yesterday. He's scheduling a call for next week and sending preliminary slides for an energy-related appraisal\u2014likely relevant to Galaxy's data center power/infrastructure needs.",
+      "ai_action": "Confirm call timing for next week. Review attached slides before the call to understand Xela Energy's proposition (appears to be cut off in email body).",
       "ai_next_steps": [
-        "Request full email/slides if truncated in transmission",
-        "Confirm call time and add to calendar",
-        "Brief France on Xela Energy context before call"
+        "Retrieve and review the attached slides",
+        "Confirm call time with Drew Barrett",
+        "Brief Ash on Xela Energy context before next week's call"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -51,29 +150,27 @@
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAKyRQ2plglGkksFi9j-Soc=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
+      "rules_score": 8,
+      "rules_label": "URGENT",
       "rules_tier": "VIP FIRM",
       "rules_reasons": [
         "Calendar match (+2)",
         "Dave replied (+3)",
         "VIP: datacenternation.com",
-        "KW: nda, data cent",
-        "Dave in thread (+2)"
+        "KW: nda, data cent"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Matthew Welch, Head of Conference Production at Data Center Nation, has confirmed his availability for a 1:1 meeting with Dave on Monday at the previously discussed time. This appears to be a scheduled follow-up meeting, likely related to conference planning or partnership discussions relevant to Galaxy's data center operations.",
+      "ai_summary": "Matthew Welch, Head of Conference Production at Data Center Nation, has confirmed his availability for a 1:1 meeting with Dave on Monday at the previously discussed time. This appears to be a routine confirmation of an existing calendar meeting with no additional asks or issues raised.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm the updated meeting invite has been sent to Matthew and monitor for acceptance",
-        "Prepare talking points or agenda items for the Monday 1:1 meeting with Dave",
-        "Review any prior context or outcomes from previous Data Center Nation interactions to brief Dave before the meeting"
+        "Ensure the amended calendar invite is sent to Matthew to formalize the Monday meeting",
+        "Prepare any talking points or agenda items Dave wants to discuss with the DCN conference production leader ahead of the 1:1"
       ],
       "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
+      "final_score": 8,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "thomas.cooper@castleforge.com",
@@ -2679,70 +2776,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "media@jsa.net",
-      "sender_name": "JSA",
-      "subject": "JSA & Our Clients are Gearing Up for ITW 2026!",
-      "body_preview": "Join us in National Harbor as the industry comes together \u2014 and connect with our clients.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
-      "received": "2026-04-17T14:33:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJXoPB7pG69JonxtPoi0EQc=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: jsa.net"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "JSA, a media/industry organization, is promoting attendance at the InfoTech World (ITW) 2026 conference in National Harbor and positioning themselves as a connector between Galaxy and their client network at the event. This represents a potential networking and business development opportunity where Galaxy could showcase its data center and capital solutions to key industry stakeholders in the infrastructure space.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Determine if Galaxy has attended ITW conferences previously and assess ROI from past participation",
-        "Clarify JSA's specific value proposition (booth opportunities, speaking slots, VIP access to their client network)",
-        "Evaluate budget and strategic fit for 2026 conference participation relative to other industry events on Galaxy's calendar"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "matthew.reid@castleforge.com",
-      "sender_name": "Matthew Reid",
-      "subject": "Re: Redhill - Remedial Action Plan",
-      "body_preview": "Hi guys,\r\n\r\nFollowing our talk Tuesday please our summary of the discussion and some key follow up actions. Let us know if you think anything is incorrect or if we missed any key points. I've highlighted the key follow up points for clarity.\r\n\r\n\r\nUnit 3 o",
-      "received": "2026-04-17T13:58:16Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHMUi8EcCEhDujVbVjYyF8E=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: castleforge.com",
-        "KW: lease",
-        "7 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Reid from Castle Forge is following up on a Tuesday discussion regarding the Redhill remedial action plan, providing a summary of conversation points and flagging key follow-up actions for review. Galaxy needs to validate Castle Forge's understanding of the discussion outcomes and confirm or clarify any discrepancies before proceeding with remedial work. This appears to be a critical operational matter requiring alignment between the parties on next steps.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review Castle Forge's meeting summary and highlighted follow-up points to identify any factual errors or missing commitments",
-        "Clarify timeline and resource allocation for the remedial actions at Redhill property",
-        "Respond to Matthew Reid with Galaxy's confirmation or corrections on the action items within 2 business days"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 83
+  "total_tracked": 84
 }
