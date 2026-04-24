@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-24T02:12:39.849296+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 3,
-  "ai": 3,
+  "timestamp": "2026-04-24T05:31:34.286278+00:00",
+  "total": 2,
+  "new": 2,
+  "noise": 2,
+  "ai": 2,
   "skipped": 0,
-  "auto_learned": 47,
+  "auto_learned": 46,
   "items": [
     {
       "sender_email": "dse@eumail.docusign.net",
@@ -2783,41 +2783,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxycapitalpartners.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: TCS call",
-      "body_preview": "Tomorrow 9am eastern\r\n\r\n\r\nOn Apr 16, 2026, at 11:41\u202fPM, Dave Misra <dave@galaxydatacenters.com> wrote:\r\n\r\nWhen is it ?\r\n\r\n<Image.jpeg>\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n<Ima",
-      "received": "2026-04-17T03:42:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAD4JAKb9PNNEpM2qvTzETmA=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: tcs",
-        "Internal \u2014 deal/customer related",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is confirming that a previously discussed call with TCS (Tata Consultancy Services) is scheduled for tomorrow at 9am Eastern. This appears to be a follow-up to Dave's inquiry about the meeting time, likely related to potential business discussions or partnership matters given TCS's scale as a major IT services provider.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm calendar acceptance for the 9am Eastern TCS call tomorrow",
-        "Prepare any relevant materials, talking points, or data center/capital partnership topics that may be discussed with TCS",
-        "Verify whether Paul or another team member will be leading the call and clarify the call objectives beforehand"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 85
+  "total_tracked": 84
 }
