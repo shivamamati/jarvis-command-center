@@ -1,13 +1,146 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-24T11:03:41.736146+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 9,
-  "ai": 5,
+  "timestamp": "2026-04-24T13:15:52.471493+00:00",
+  "total": 22,
+  "new": 22,
+  "noise": 17,
+  "ai": 14,
   "skipped": 0,
-  "auto_learned": 45,
+  "auto_learned": 46,
   "items": [
+    {
+      "sender_email": "drew@zendoenergy.com",
+      "sender_name": "Drew Barrett",
+      "subject": "Re: Xela Energy update",
+      "body_preview": "Hi Dave / Ash,\r\n\r\nThanks for your time yesterday. I think we agreed on setting up a call for the same time next week - I'll drop that time in now.\r\n\r\nIn the meantime, please find attached a handful of slides we pulled together to provide an initial apprai",
+      "received": "2026-04-24T13:12:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABr8eqqDbyJHg9dUBsWbLrk=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Drew Barrett]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "Pipeline: drew barrett",
+        "KW: lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Drew Barrett from Xela Energy is following up on a meeting Dave had yesterday. He's sending preliminary slides and confirming a call for next week. This appears to be an active business discussion, likely related to energy or power infrastructure given Galaxy's data center focus.",
+      "ai_action": "Review attached slides when received complete version; confirm call timing for next week with Drew.",
+      "ai_next_steps": [
+        "Request full email/slides if truncated in transmission",
+        "Confirm call time and add to calendar",
+        "Brief France on Xela Energy context before call"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "matthew.welch@datacenternation.com",
+      "sender_name": "Matthew Welch",
+      "subject": "RE: Dave Misra - 1:1 Meeting with Matt Welch, DCN",
+      "body_preview": "Hi Dave,\r\n\r\nYes of course, same time on Monday works perfectly!\r\n\r\nI look forward to accepting the amended invite. Until then, have a great weekend,\r\n\r\nCheers,\r\n\r\nMatthew Welch\r\nHead of Conference Production\r\nData Center Nation\r\n32-38 Saffron Hill, EC1N 8",
+      "received": "2026-04-24T13:06:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAKyRQ2plglGkksFi9j-Soc=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "VIP: datacenternation.com",
+        "KW: nda, data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Welch, Head of Conference Production at Data Center Nation, has confirmed his availability for a 1:1 meeting with Dave on Monday at the previously discussed time. This appears to be a scheduled follow-up meeting, likely related to conference planning or partnership discussions relevant to Galaxy's data center operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the updated meeting invite has been sent to Matthew and monitor for acceptance",
+        "Prepare talking points or agenda items for the Monday 1:1 meeting with Dave",
+        "Review any prior context or outcomes from previous Data Center Nation interactions to brief Dave before the meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "thomas.cooper@castleforge.com",
+      "sender_name": "Thomas Cooper",
+      "subject": "Re: Redhill Power Discussion",
+      "body_preview": "Gents,\r\n\r\nThanks for your time earlier.\r\n\r\nKey Actions:\r\n\r\n  *\r\nNo response to Npower until the following is received:\r\n\r\n  1.\r\nWritten confirmation from UKPN that our existing power is reserved (@Steven McGlinchey to action)\r\n  2.\r\nWritten confirmation f",
+      "received": "2026-04-24T13:04:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJeu3ZXJOIRMjV8JJU8rii0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "KW: power",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Thomas Cooper from Castle Forge is following up on a Redhill Power discussion and establishing conditions before Galaxy responds to Npower. He's requiring written confirmations from UKPN regarding power reservation before proceeding, with Steven McGlinchey tasked on that item\u2014this is critical gating item for a power infrastructure commitment that likely impacts data center operations or expansion plans.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Steven McGlinchey obtain and deliver written confirmation from UKPN on power reservation status immediately",
+        "Clarify with Thomas Cooper what the second written confirmation requirement is (email appears truncated at 'Written confirmation f...')",
+        "Do not communicate with Npower until both confirmations are in hand to avoid negotiating from a weakened position"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "rod@ramsgrove.com",
+      "sender_name": "Rodrigo Matos",
+      "subject": "Re: Claude Deployment - Redhill M365 Tenant",
+      "body_preview": "Hi @Ash Gupta and @Dave Misra,\r\n\r\n\r\nPlease find attached the brief I am proposing to send to Microsoft partner channel to engage their support on the Claude deployment project.\r\n\r\nBefore I send this externally, I would appreciate it if you could sense che",
+      "received": "2026-04-24T11:38:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKbQrUbp4rJHm02_wVZWmDQ=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied (+3)",
+        "Attachments + deal KW (+2)",
+        "KW: lease, tenant"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Rodrigo Matos (Ramsgrove) is seeking approval before sending a brief to Microsoft's partner channel regarding Claude deployment on Redhill's M365 tenant. This is an operational matter tied to Galaxy's Redhill Data Centre asset and requires Dave's sign-off on external communications.",
+      "ai_action": "Dave should review the attached brief and provide feedback to Rodrigo before external distribution to Microsoft partners.",
+      "ai_next_steps": [
+        "Review the attached brief for accuracy and alignment with Redhill strategy",
+        "Provide any required edits or approvals to Rodrigo",
+        "Confirm timeline for Microsoft partner outreach"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dmcneish@travelers.com",
       "sender_name": "McNeish, Dave",
@@ -2609,74 +2742,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "FW: Vienna",
-      "body_preview": "From: Charlie Bruinvels <Charlie.Bruinvels@bcsconsultancy.com>\r\nDate: Friday, April 17, 2026 at 5:19\u202fAM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Vienna\r\n\r\nHi Dave\r\n\r\nI hope your week is going well.\r\n\r\nAs promised, we have spoken to the d",
-      "received": "2026-04-17T12:33:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaUOO1EAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAALzuMAEbLNAi22s6zIOtCs=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: vienna",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Charlie Bruinvels from BCS Consultancy is following up on a previous commitment regarding Vienna, likely related to a data center opportunity or partnership prospect. The email appears incomplete, but indicates progress on a discussion that Dave initiated. This matters to Galaxy as it suggests active development on a European expansion opportunity that could be material to the company's growth strategy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Charlie send the complete email or clarify what was promised regarding Vienna and current status",
-        "Review internal notes on the Vienna initiative to understand Galaxy's strategic objectives and what Charlie's firm was engaged to accomplish",
-        "Schedule a call with Charlie to discuss findings and next actions before week-end to maintain momentum on the opportunity"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: [time sensitive] Data Center World Panel",
-      "body_preview": "Good morning Jeff,\r\n\r\nSorry to bug you \u2014 quick check-in to see if you'd like to join the panel on Monday afternoon?\r\n\r\nThank you!\r\nCandace\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Thu, Apr 16, 2026 at ",
-      "received": "2026-04-17T11:56:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0C8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPECejmuWthKu3hNQbYXV4w=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda, data cent",
-        "Urgency: time sensitive (+1)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is requesting participation in a Data Center World panel scheduled for Monday afternoon. This is a time-sensitive speaking opportunity that could provide Galaxy with industry visibility and thought leadership positioning among data center peers and customers.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Candace by end of business today whether Dave or another Galaxy executive can participate, including panel topic and time details",
-        "If accepting, request the panel description, audience, and any preparation materials needed to ensure on-brand messaging",
-        "Block Dave's calendar and brief him on key talking points to align with Galaxy's strategic positioning"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 83
 }
