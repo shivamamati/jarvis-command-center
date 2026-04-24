@@ -1,53 +1,6 @@
 {
-  "timestamp": "2026-04-23T23:40:51.817873+00:00",
+  "timestamp": "2026-04-24T02:12:29.141767+00:00",
   "events": [
-    {
-      "subject": "Navisite/Accenture Customer Site Tour",
-      "start": "2026-04-23T11:00:00.0000000",
-      "end": "2026-04-23T12:00:00.0000000",
-      "attendees": [
-        "Colin",
-        "Fredy",
-        "Benjamin",
-        "Luke"
-      ],
-      "organizer": "Colin Bell",
-      "location": "Redhill Data Centre",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAXhVd2NAAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Drew Barrett and Dave Misra",
-      "start": "2026-04-23T14:30:00.0000000",
-      "end": "2026-04-23T15:00:00.0000000",
-      "attendees": [
-        "Drew",
-        "jade@zendoenergy.com",
-        "ethan@zendoenergy.com",
-        "Ash"
-      ],
-      "organizer": "Dave Misra",
-      "location": "https://calendly.com/events/0e3e7466-e975-4f30-99dc-0bfea8c26c11/microsoft_teams",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaS2fS1AAA%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
-      "subject": "Redhill check in call ",
-      "start": "2026-04-23T15:00:00.0000000",
-      "end": "2026-04-23T15:25:00.0000000",
-      "attendees": [
-        "Barry",
-        "Ash",
-        "Paul",
-        "Francis",
-        "Suhaib",
-        "Pelle"
-      ],
-      "organizer": "Barry Gross",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qDLQzwAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAD%2F9VNRAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Badminton Game with Peter ",
       "start": "2026-04-23T23:00:00.0000000",
