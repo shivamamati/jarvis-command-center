@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T07:56:52.916400+00:00",
+  "timestamp": "2026-04-24T09:45:12.601352+00:00",
   "events": [
     {
       "subject": "Badminton Game with Peter ",
@@ -10,6 +10,23 @@
       "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qDLQzwAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9gAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Redhill Power Discussion",
+      "start": "2026-04-24T12:30:00.0000000",
+      "end": "2026-04-24T13:00:00.0000000",
+      "attendees": [
+        "Matthew",
+        "Wayne",
+        "Ash",
+        "Thomas",
+        "Holly",
+        "Rhys"
+      ],
+      "organizer": "Matthew Reid",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAa5w157AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Renewal catch up",

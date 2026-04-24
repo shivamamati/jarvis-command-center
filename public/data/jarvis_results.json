@@ -1,13 +1,76 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-24T07:57:10.233632+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 2,
-  "ai": 5,
+  "timestamp": "2026-04-24T09:45:31.384140+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 3,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "dmcneish@travelers.com",
+      "sender_name": "McNeish, Dave",
+      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "Thank you!\r\n\r\nDavid P McNeish | Vice President\r\nCorporate Procurement\r\nTravelers\r\n1 Tower Sq. | 1MS\r\nHartford, CT  06106\r\nW: 860.954.8584   dmcneish@travelers.com\r\nVisit us on  Inside\r\n\r\nFrom: Ashley Roberts <ashley@galaxydatacenters.com>\r\nSent: Friday, A",
+      "received": "2026-04-24T09:15:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: travelers.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave McNeish, Vice President of Corporate Procurement at Travelers Insurance, is acknowledging receipt of follow-up communication from Galaxy regarding a potential business opportunity. This is a brief confirmation message that indicates engagement from a Fortune 500 procurement leader, suggesting Travelers remains interested in discussing Galaxy's data center or infrastructure services.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Ashley Roberts or France schedule a formal discovery call with McNeish to understand Travelers' specific infrastructure needs and timelines",
+        "Prepare a tailored proposal highlighting Galaxy's capabilities that align with Travelers' enterprise requirements (security, redundancy, compliance)",
+        "Follow up within 48 hours with a meeting request and relevant collateral to maintain momentum with this decision-maker"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "mail@redhilldatacentre.com",
+      "sender_name": "Freya Mason",
+      "subject": "New Message From Redhill Data Centre",
+      "body_preview": "Freya Mason\r\n07484986473\r\nfreya.mason@mwhtreatment.com\r\nWIF Team Challenge\r\n%%designation%%\r\nContact Sales: Schedule a meeting or tour\r\n\r\n\r\nHi,\r\n \r\nMy name is Freya, and I work in project management for a water consultancy/contracting firm. I'm part of a ",
+      "received": "2026-04-24T08:12:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADilMlnNZBNDkr5751cWRlA=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: contract, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Freya Mason is a project manager at a water consultancy/contracting firm who has reached out through a Redhill Data Centre contact form. Her message appears incomplete, but she's indicating interest in scheduling a meeting or tour, possibly related to a WIF Team Challenge initiative. This could represent a potential business development opportunity if there's a data center service need or partnership angle related to water industry operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "France or Dave should reach out to Freya directly to clarify what specific data center services or solutions her water consultancy firm requires",
+        "Determine if this relates to an actual infrastructure need, partnership opportunity, or if this is a misdirected inquiry that should be redirected",
+        "If legitimate, schedule an initial call to understand their project scope and timeline before committing to a facility tour"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "matthew.reid@castleforge.com",
       "sender_name": "Matthew Reid",
@@ -18,58 +81,23 @@
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMXiDrxkZfRJl_k4V6WB6Hs=",
-      "rules_score": 10,
+      "rules_score": 9,
       "rules_label": "CRITICAL",
       "rules_tier": "TIER 1",
       "rules_reasons": [
         "Calendar match (+2)",
         "Tier 1: castleforge.com",
-        "4 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
+        "4 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Matthew Reid from Castle Forge is confirming a meeting time (1:30 PM) regarding a service disconnection issue affecting two MPANs (meter point reference numbers). This appears to be a follow-up to an ongoing operational or utility service matter that requires urgent coordination between Galaxy and Castle Forge.",
+      "ai_summary": "Matthew Reid from Castle Forge is confirming availability for a meeting at 1:30 PM regarding a disconnection issue affecting two energy MPANs (meter point administration numbers). This appears to be a follow-up to a previous discussion about service interruption that requires urgent coordination between multiple parties.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm whether 13:30 works for Dave's schedule and have Rhys Jones or appropriate team member attend the call",
-        "Prepare briefing materials on the disconnection issue for MPANs 2000055008195 and 2000055008186, including current status and any Galaxy obligations",
-        "Send calendar invitation to Matthew Reid at the confirmed time with relevant stakeholders from Galaxy on the call"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "Re: [External] Re: Travelers : Galaxy Follow up",
-      "body_preview": "Hi Dave,\r\n\r\nThe lawyers provided first draft of the MSA which Paul and I are reviewing. We should be in a position to share this with you in the next day or two.\r\n\r\nAsh\r\n\r\nFrom: McNeish, Dave <DMCNEISH@travelers.com>\r\nDate: Friday, 24 April 2026 at 00:30",
-      "received": "2026-04-24T07:31:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ashley Roberts is updating you that Galaxy's legal team has completed an initial draft of the Master Service Agreement for the Travelers contract, which she and Paul are currently reviewing. The agreement should be ready for your review within one to two days, representing progress toward closing this significant enterprise client relationship.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Block calendar time early next week to review the MSA draft immediately upon receipt from Ashley",
-        "Prepare negotiation priorities and authorization limits for Travelers terms in advance of the legal review",
-        "Confirm with Paul and Ashley the timeline for sending the draft to ensure no delays in your review cycle"
+        "Confirm 13:30 meeting time with Matthew Reid and identify all participants (including Thomas Lehd and internal Galaxy stakeholders)",
+        "Prepare documentation on the two affected MPANs (2000055008195 and 2000055008186) and the disconnection case reference 260318-000661 to understand the business impact",
+        "Determine if this is a billing dispute, service interruption, or contractual issue and brief Dave on resolution authority needed before the meeting"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2259,38 +2287,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "mail@redhilldatacentre.com",
-      "sender_name": "Aliaksandr Minich",
-      "subject": "New Message From Redhill Data Centre",
-      "body_preview": "Aliaksandr Minich\r\n572431235\r\naliaksandr.minich@maxbert.pl\r\nMaxbert NIP: 521-341-00-32\r\n%%designation%%\r\nContact Sales: Request a quote\r\n\r\n\r\nHello,\r\n\r\nKindly review the offer below:\r\n\r\n\r\n1.\r\n\r\nAUTOMATIC TRANSFER SWITCH\r\ncatalogue number: MXL167A042\r\n\r\n4 x",
-      "received": "2026-04-20T11:12:10Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABIC9BO7pcVEgvyvNULFAWQ=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Aliaksandr Minich from Redhill Data Centre is soliciting Galaxy for a quote on automatic transfer switches (MXL167A042), likely for data center infrastructure upgrades or new facility equipment. This is a vendor outreach for electrical/power infrastructure components that could be relevant to Galaxy Data Centers' operations if we're considering equipment upgrades or new site builds.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Route to France or appropriate procurement team to determine if this product/specification aligns with any current Galaxy data center infrastructure projects",
-        "Request complete product specifications, pricing, and delivery timeline from Redhill before engaging further",
-        "Clarify whether this unsolicited quote relates to an RFP Galaxy issued or if this is cold outreach requiring further qualification"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "ash@galaxydatacenters.com",
       "sender_name": "Ash Gupta",
       "subject": "SOC Audit Week - Task listings and evidence uploads",
@@ -2750,41 +2746,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "drew@zendoenergy.com",
-      "sender_name": "Drew Barrett",
-      "subject": "Re: Xela Energy update",
-      "body_preview": "Hi Dave,\r\n\r\nXela proposal landed yesterday - we haven't fully digested yet but please find attached what they've pulled together. Key considerations around sizing, term, structure and pricing - we'll arrange a follow-up call with them to address our quest",
-      "received": "2026-04-17T08:30:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0CwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABr8eqqDbyJHg9dUBsWbLrk=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Drew Barrett]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Attachments + deal KW (+2)",
-        "Pipeline: drew barrett",
-        "KW: proposal, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Drew Barrett from Zendo Energy is sending a proposal from Xela Energy regarding what appears to be a power/energy deal for Galaxy. This is a direct business communication about deal terms (sizing, term, structure, pricing) that requires Dave's review and follow-up.",
-      "ai_action": "Dave should review the attached Xela proposal immediately and be prepared for the follow-up call with Zendo Energy to discuss concerns around sizing, term, structure, and pricing.",
-      "ai_next_steps": [
-        "Review attached Xela Energy proposal for key deal terms",
-        "Prepare questions on sizing, term, structure, and pricing for follow-up call",
-        "Confirm timing of follow-up call with Drew Barrett and coordinate calendar"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 84
+  "total_tracked": 83
 }
