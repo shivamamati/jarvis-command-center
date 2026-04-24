@@ -1,13 +1,86 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-24T15:05:49.911465+00:00",
-  "total": 21,
-  "new": 21,
-  "noise": 14,
-  "ai": 17,
+  "timestamp": "2026-04-24T16:52:14.397748+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 15,
+  "ai": 16,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Fw: Redhill renewal",
+      "body_preview": "Accenture request\r\n________________________________\r\nFrom: Smith, Nicholas L. <nicholas.l.smith@accenture.com>\r\nSent: Wednesday, March 11, 2026 4:38 PM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Tj Karklins <tj@galaxydatacenters.com>; Dave Misra <dave@",
+      "received": "2026-04-24T15:55:07Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEQEAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: accenture",
+        "Internal \u2014 deal/customer related",
+        "KW: renewal",
+        "Lease + customer",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Nicholas Smith from Accenture is requesting renewal terms for Redhill, likely a data center service or infrastructure contract. This appears to be a routine contract renewal inquiry that requires Galaxy's response to maintain an important client relationship and ensure continued revenue from this account.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm current Redhill contract terms and expiration date with Paul Leong and TJ Karklins to assess renewal timeline and scope",
+        "Review Accenture's usage patterns and performance metrics to determine competitive renewal pricing and terms",
+        "Schedule a call with Nicholas Smith to discuss renewal options and address any service improvements Accenture may require"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "CDW Charges",
+      "body_preview": "Hi Jamie - We are working on the extension for CDW.  I went back to the lease to confirm the breakout of charges.  For the office and the Equipment and Service it ties out to what's in the business plan.  The Base Rent is slightly off.  I'm attaching the ",
+      "received": "2026-04-24T15:19:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEP%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACBrSWxw9dpKvmR56C7WupQ=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 4x (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: cdw",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is updating on the CDW lease extension negotiations, confirming that office and equipment/service charges align with the business plan, but noting a discrepancy in the Base Rent calculation that requires clarification before proceeding.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review Paul's attachment and the lease Base Rent figures to identify the specific variance amount and cause",
+        "Determine if the Base Rent difference is material to the extension economics and whether renegotiation is needed",
+        "Coordinate with Paul to align on final lease terms before presenting to CDW"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "chris.turner@nomura.com",
       "sender_name": "chris.turner@nomura.com",
@@ -2285,42 +2358,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Fw: Redhill renewal",
-      "body_preview": "________________________________\r\nFrom: Smith, Nicholas L. <nicholas.l.smith@accenture.com>\r\nSent: Wednesday, March 11, 2026 4:38 PM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Tj Karklins <tj@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters",
-      "received": "2026-04-20T19:14:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnMDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Attachments from known (+1)",
-        "Re customer: accenture",
-        "Internal \u2014 deal/customer related",
-        "KW: renewal",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Nicholas Smith from Accenture is following up on the renewal of Galaxy's Redhill data center contract. This appears to be a time-sensitive renewal matter that Paul is escalating to you and Tj for attention. Timely action on contract renewals directly impacts revenue continuity and customer retention for our data center operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Contact Nicholas Smith or Paul Leong to confirm renewal timeline and any outstanding terms or conditions",
-        "Review current Redhill contract terms and profitability metrics to determine renewal strategy",
-        "Schedule renewal negotiation meeting with Accenture stakeholders to address any pricing or service level adjustments"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "rgandara@stirlingst.com",
       "sender_name": "Roco Gandara",
       "subject": "RE: Unique Data Center Investment Opportunity",
@@ -2709,74 +2746,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "CEO Looking for DC Capacity",
-      "body_preview": "Hey Dave & Ash,\r\n\r\nNot sure this company would be the right fit for you, but I wanted to pass it along just in case. Check out this LinkedIn post for a message from a CEO looking for urgent DC capacity.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Developme",
-      "received": "2026-04-17T15:51:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOKIMuLeA-RNjP_EqW2IG9w=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda, capacity",
-        "Urgency: urgent (+1)",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is flagging a potential business development opportunity\u2014a CEO has publicly posted on LinkedIn seeking urgent data center capacity. This could represent a qualified lead for Galaxy Data Centers if the prospect's requirements align with your infrastructure offerings and service model.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Locate and review the LinkedIn post Candace referenced to assess the prospect's capacity needs, timeline, and technical requirements",
-        "Conduct due diligence on the company to determine fit with Galaxy's service offerings and current availability",
-        "If viable, have Dave or France reach out to the CEO directly to introduce Galaxy's solutions and explore partnership potential"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "mitch@baxtel.com",
-      "sender_name": "Mitch Lenzi",
-      "subject": "Re: GCore FYI: Delivery Status Notification (Failure)",
-      "body_preview": "Hey Dave,\r\n\r\nDid you have any luck getting in touch with Marcus?\r\n\r\nAny updates here in general - I have multiple sites that can accommodate depending on the exact requirements.\r\n\r\n--\r\nSincerely,\r\nMitch Lenzi\r\nVP, Sales & Operations\r\nm: +1-630-903-3026\r\nM",
-      "received": "2026-04-17T15:34:48Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaRx0DSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL3Shll2xDpEs-dobxvZDSg=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Mitch Lenzi]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "VIP: baxtel.com",
-        "Pipeline: mitch lenzi"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Mitch Lenzi, VP of Sales & Operations at Baxtel, is following up on a previous outreach regarding Marcus and GCore delivery issues. He's signaling that Baxtel has multiple sites available to support Galaxy's requirements, suggesting this relates to a data center capacity or fulfillment problem that needs resolution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should clarify the current status of the Marcus contact attempt and GCore delivery failure with France before responding to Mitch",
-        "Determine the specific site requirements and facility specifications Galaxy needs to evaluate Baxtel's offerings competitively",
-        "Schedule a call with Mitch to review Baxtel's available sites and capacity details alongside any alternative solutions being pursued"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 84
+  "total_tracked": 83
 }
