@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-24T05:31:34.286278+00:00",
-  "total": 2,
-  "new": 2,
+  "timestamp": "2026-04-24T07:57:10.233632+00:00",
+  "total": 5,
+  "new": 5,
   "noise": 2,
-  "ai": 2,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 46,
+  "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "matthew.reid@castleforge.com",
+      "sender_name": "Matthew Reid",
+      "subject": "Re: Disconnection - MPAN 2000055008195 / 2000055008186 - 260318-000661",
+      "body_preview": "13:30 work for everyone?\r\n\r\nMatthew Reid\r\nO: +44 203 846 1677\r\nM: +44 7825 008 486\r\nE: matthew.reid@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Thomas Lehd <thomas@lehding.co.uk>\r\nSent: Friday, April 24, 2026 08:55\r\nTo: Rhys Jones <rj@gal",
+      "received": "2026-04-24T07:56:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMXiDrxkZfRJl_k4V6WB6Hs=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "4 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Reid from Castle Forge is confirming a meeting time (1:30 PM) regarding a service disconnection issue affecting two MPANs (meter point reference numbers). This appears to be a follow-up to an ongoing operational or utility service matter that requires urgent coordination between Galaxy and Castle Forge.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm whether 13:30 works for Dave's schedule and have Rhys Jones or appropriate team member attend the call",
+        "Prepare briefing materials on the disconnection issue for MPANs 2000055008195 and 2000055008186, including current status and any Galaxy obligations",
+        "Send calendar invitation to Matthew Reid at the confirmed time with relevant stakeholders from Galaxy on the call"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "ashley@galaxydatacenters.com",
+      "sender_name": "Ashley  Roberts",
+      "subject": "Re: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "Hi Dave,\r\n\r\nThe lawyers provided first draft of the MSA which Paul and I are reviewing. We should be in a position to share this with you in the next day or two.\r\n\r\nAsh\r\n\r\nFrom: McNeish, Dave <DMCNEISH@travelers.com>\r\nDate: Friday, 24 April 2026 at 00:30",
+      "received": "2026-04-24T07:31:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Re customer: travelers",
+        "Internal \u2014 deal/customer related",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Ashley Roberts is updating you that Galaxy's legal team has completed an initial draft of the Master Service Agreement for the Travelers contract, which she and Paul are currently reviewing. The agreement should be ready for your review within one to two days, representing progress toward closing this significant enterprise client relationship.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Block calendar time early next week to review the MSA draft immediately upon receipt from Ashley",
+        "Prepare negotiation priorities and authorization limits for Travelers terms in advance of the legal review",
+        "Confirm with Paul and Ashley the timeline for sending the draft to ensure no delays in your review cycle"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Daniel Scarbrough via Docusign",
@@ -37,37 +104,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dmcneish@travelers.com",
-      "sender_name": "McNeish, Dave",
-      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
-      "body_preview": "Ash,\r\nChecking to see where we stand with the agreement draft.\r\nThanks\r\nDave\r\n\r\n\r\nDavid P McNeish | Vice President\r\nCorporate Procurement\r\nTravelers\r\n1 Tower Sq. | 1MS\r\nHartford, CT  06106\r\nW: 860.954.8584   dmcneish@travelers.com\r\nVisit us on  Inside",
-      "received": "2026-04-23T23:30:33Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: travelers.com",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave McNeish, Vice President of Corporate Procurement at Travelers, is following up on the status of a contract agreement draft between Travelers and Galaxy. This appears to be a routine check-in on a deal in progress, likely involving data center services or infrastructure solutions given Galaxy's business focus. Timely completion of this agreement is important for moving the commercial relationship forward and establishing service delivery terms.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have France or the legal/commercial team provide Dave with a status update on the agreement draft immediately, including current version and expected completion timeline",
-        "If any blockers exist on Galaxy's side, escalate internally to resolve them so the draft can be shared with Travelers within 24-48 hours",
-        "Schedule a brief call between Dave and the Galaxy team if substantive revisions are pending, rather than continuing email exchanges"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "jsa_events@jsa.net",
@@ -596,41 +632,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "thomas.cooper@castleforge.com",
-      "sender_name": "Thomas Cooper",
-      "subject": "Re: Disconnection - MPAN 2000055008195 / 2000055008186 - 260318-000661",
-      "body_preview": "Thanks for looping us in here Rhys.\r\n\r\n@Thomas Lehd, would appreciate your opinion here.\r\n\r\nFrom reading below, are we concerned with having to reapply for the power at a later date. Does this in anyway risk us losing it?\r\n\r\nThomas Cooper\r\nO: +44 2039 277",
-      "received": "2026-04-23T10:12:31Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DENpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMXiDrxkZfRJl_k4V6WB6Hs=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Tier 1: castleforge.com",
-        "KW: power",
-        "4 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Thomas Cooper from Castle Forge is seeking clarification on the implications of a power disconnection for two MPAN accounts, specifically whether the disconnection creates risk of losing the power supply permanently or requires reapplication to restore service. This appears to be an operational concern about utility service continuity for their facility.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Obtain clarity from internal energy/utilities expert (Thomas Lehd reference suggests internal escalation) on disconnection vs. permanent loss of supply distinction and reapplication requirements",
-        "Review the original disconnection notice and applicable terms to determine if reconnection is automatic or requires formal reapplication",
-        "Provide Castle Forge with written confirmation of reconnection timeline and process to mitigate their business continuity concerns"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "matthew.welch@datacenternation.com",
