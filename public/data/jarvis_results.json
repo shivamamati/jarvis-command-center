@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-25T19:41:23.022508+00:00",
-  "total": 3,
-  "new": 3,
+  "timestamp": "2026-04-25T20:34:07.247678+00:00",
+  "total": 1,
+  "new": 1,
   "noise": 1,
-  "ai": 2,
+  "ai": 0,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -2716,38 +2716,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "faye.p@queensu.ca",
-      "sender_name": "Faye Pan",
-      "subject": "Follow-Up on Internship Onboarding",
-      "body_preview": "Hi Dave\r\n\r\nI hope you are doing well. I have finished my exams and wanted to reach out regarding the internship onboarding process.\r\n\r\nI am now available to move forward, so please let me know the next steps or a convenient time to connect.\r\n\r\nBest regard",
-      "received": "2026-04-18T19:57:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaeuWYPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN91dMyg1bRBtozIydPHD5s=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 4x (+4)",
-        "KW: lease, board"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Faye Pan from Queens University is following up on a previously agreed internship at Galaxy Capital Partners. She's completed her exams and is now ready to begin onboarding. This appears to be a committed candidate Dave has already engaged with.",
-      "ai_action": "Dave or France should confirm internship start date, onboarding logistics (location, first day, reporting structure), and send formal onboarding materials/NDA.",
-      "ai_next_steps": [
-        "Confirm Faye's start date and onboarding schedule",
-        "Send internship agreement, NDA, and first-day logistics",
-        "Assign mentor/supervisor and provide access credentials"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 83
+  "total_tracked": 82
 }
