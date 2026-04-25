@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-25T18:43:42.346255+00:00",
+  "timestamp": "2026-04-25T19:41:23.022508+00:00",
   "total": 3,
   "new": 3,
   "noise": 1,
-  "ai": 3,
+  "ai": 2,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Data Center Nation Toronto 2026 has confirmed Galaxy Capital Partners' participation in what they position as Canada's premier data center industry conference. This is a valuable networking and visibility opportunity within the Canadian data center ecosystem that aligns with Galaxy Data Centers' market presence and business development priorities.",
+      "ai_summary": "Data Center Nation Toronto 2026 has confirmed Galaxy Capital Partners' participation in this premier Canadian data center industry event. This is a significant networking and visibility opportunity for Galaxy to engage with industry peers, potential partners, and clients in the data center ecosystem. Participation positions Galaxy competitively in the Canadian market and reinforces thought leadership in the sector.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm attendance details and identify which Galaxy executives will attend beyond Dave",
-        "Review event agenda and speaker lineup to identify strategic partnership or investment prospects",
-        "Coordinate with marketing/BD team to plan booth presence or speaking opportunities if available"
+        "Confirm speaking slot, booth details, and sponsorship tier with DCN Toronto organizers",
+        "Align with Galaxy Data Centers marketing team to develop messaging strategy and promotional materials for the event",
+        "Identify key executives and partners to attend and schedule pre-event meetings with target prospects or strategic contacts"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -60,12 +60,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sam Burton from Castle Forge is notifying us that the Redhill Conference Room has been upgraded with new video conferencing equipment and is now operational as a Microsoft Teams Meeting Room. This infrastructure improvement enables better meeting experiences for both internal and external participants. The completion of this upgrade suggests Galaxy may have a facility partnership or shared workspace arrangement with Castle Forge that impacts operational capabilities.",
+      "ai_summary": "Sam Burton from Castle Forge is notifying us that the Redhill Conference Room has been upgraded with new video conferencing equipment and is now operational as a Microsoft Teams Meeting Room. This infrastructure upgrade enables more reliable and professional meeting capabilities for both internal and external stakeholders. This matters to Galaxy as it impacts our facility operations and client-facing meeting infrastructure at the Redhill location.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Sam Burton the technical specifications and any user training requirements for staff who will utilize the upgraded Redhill Conference Room",
-        "Update Galaxy's internal facilities documentation and meeting room booking systems to reflect the new Teams-enabled capability and capacity",
-        "Assess whether similar upgrades are needed across other Galaxy facilities to maintain consistent meeting technology standards"
+        "Confirm the technical specifications and integration with Galaxy's existing Teams environment and IT systems",
+        "Distribute details to relevant Galaxy teams about availability and booking procedures for the upgraded conference room",
+        "Schedule a brief walkthrough or demo to validate the setup meets Galaxy's meeting and client experience standards"
       ],
       "ai_failed": false,
       "final_score": 9,
