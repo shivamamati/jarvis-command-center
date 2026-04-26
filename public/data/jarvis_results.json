@@ -1,6 +1,6 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-26T21:34:22.608594+00:00",
+  "timestamp": "2026-04-26T22:34:01.476868+00:00",
   "total": 4,
   "new": 4,
   "noise": 2,
@@ -31,12 +31,12 @@
       "ai_reviewed": true,
       "ai_score": 7,
       "ai_label": "IMPORTANT",
-      "ai_summary": "Jade Batstone, CEO of Zendo (Galaxy's energy broker and technology partner), is reaching out about vendor access passes for the Redhill Data Centre. Ash and Dave have directed her to contact Rodrigo about this operational matter.",
-      "ai_action": "Route to Rodrigo (or relevant Redhill operations lead) for vendor access pass coordination. Dave may need to confirm scope/team with Ash.",
+      "ai_summary": "Jade Batstone, CEO of Zendo (Galaxy's energy broker and technology partner), is reaching out about vendor access passes for the Redhill Data Centre. This is a direct operational request tied to Galaxy's key asset and flagged by both Ash and Dave.",
+      "ai_action": "Forward to Rodrigo (or relevant Redhill site ops contact) to process vendor access passes. Confirm with Dave if needed that this aligns with current Zendo engagement scope.",
       "ai_next_steps": [
-        "Confirm Rodrigo is the correct contact for Redhill vendor access procedures",
-        "Have Rodrigo follow up with Jade on specific access requirements and timeline",
-        "Ensure access request is properly documented in Redhill site security protocols"
+        "Verify Jade's role as Zendo CEO and confirm prior authorization from Ash/Dave",
+        "Route to site operations/security lead for Redhill access pass processing",
+        "Confirm list of Zendo team members requiring access"
       ],
       "ai_failed": false,
       "final_score": 9,
