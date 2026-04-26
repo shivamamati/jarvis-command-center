@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-26T05:35:32.986604+00:00",
+  "timestamp": "2026-04-26T10:41:34.986899+00:00",
   "total": 1,
   "new": 1,
-  "noise": 0,
-  "ai": 1,
+  "noise": 1,
+  "ai": 0,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -2718,38 +2718,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "bobcavoto@2020-4.com",
-      "sender_name": "Bob Cavoto",
-      "subject": "Gary Louis Resume - Real Estate Finance Executive - Fund Strategy | Financial Planning & Analysis | Investor Relations",
-      "body_preview": "Dave,\r\n\r\n\r\n\r\nI am pleased to introduce Gary Louis, MBA, CFA, whose r\u00e9sum\u00e9 is included below (please let me know if you would prefer a PDF). Gary is a senior finance and real estate professional with broad experience across institutional and entrepreneuria",
-      "received": "2026-04-19T07:05:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AASddSvLAAAuilH2jaEmTaBeWRekOs%2B0AAagocT8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL4TRVltgBROqDEfyCpkJ6k=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: lease, fund, introduce"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Bob Cavoto is introducing Gary Louis, an MBA/CFA-credentialed senior finance and real estate executive with institutional and entrepreneurial background, for a potential role or consultation. The introduction suggests Gary's expertise in fund strategy, financial planning, investor relations, and real estate finance could align with Galaxy's capital management and data center expansion needs. This matters because Galaxy may be evaluating talent or advisors to strengthen financial operations or fund management capabilities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review Gary Louis's full resume and confirm with Bob whether this is for a specific open role at Galaxy or a business development opportunity",
-        "Schedule a brief call with Gary to assess fit for Galaxy's current priorities (fund strategy, investor relations, or real estate finance needs)",
-        "Clarify with Bob the scope of engagement Bob is proposing and any time-sensitive recruiting or advisory timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 83
+  "total_tracked": 82
 }
