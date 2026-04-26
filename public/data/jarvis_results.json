@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-26T20:34:30.345275+00:00",
-  "total": 3,
-  "new": 3,
+  "timestamp": "2026-04-26T21:34:22.608594+00:00",
+  "total": 4,
+  "new": 4,
   "noise": 2,
-  "ai": 2,
+  "ai": 1,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
+    {
+      "sender_email": "jade@zendoenergy.com",
+      "sender_name": "Jade Batstone",
+      "subject": "Vendor access passes for Redhill - Zendo",
+      "body_preview": "Hi Rodrigo,\r\n\r\nBy way of introduction, I'm the CEO of Zendo, Galaxy's energy broker and technology partner. It's a pleasure to e-meet you!\r\n\r\nAsh and Dave asked that I reach out regarding vendor access passes to the Redhill site for the following Zendo te",
+      "received": "2026-04-26T20:38:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ7yAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Jade Batstone]",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "Pipeline: jade batstone",
+        "KW: introduction",
+        "Broker signal",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Jade Batstone, CEO of Zendo (Galaxy's energy broker and technology partner), is reaching out about vendor access passes for the Redhill Data Centre. Ash and Dave have directed her to contact Rodrigo about this operational matter.",
+      "ai_action": "Route to Rodrigo (or relevant Redhill operations lead) for vendor access pass coordination. Dave may need to confirm scope/team with Ash.",
+      "ai_next_steps": [
+        "Confirm Rodrigo is the correct contact for Redhill vendor access procedures",
+        "Have Rodrigo follow up with Jade on specific access requirements and timeline",
+        "Ensure access request is properly documented in Redhill site security protocols"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "bobcavoto@2020-4.com",
       "sender_name": "Bob Cavoto",
@@ -819,40 +853,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "jade@zendoenergy.com",
-      "sender_name": "Jade Batstone",
-      "subject": "Vendor access passes for Redhill - Zendo",
-      "body_preview": "Hi Rodrigo,\r\n\r\nBy way of introduction, I'm the CEO of Zendo, Galaxy's energy broker and technology partner. It's a pleasure to e-meet you!\r\n\r\nFollowing a call with Ash and Dave this afternoon, they've suggested I reach out regarding vendor access passes t",
-      "received": "2026-04-23T15:31:57Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEOdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKB6B2iZy05Lh5vo1kQ-nlw=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Jade Batstone]",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+4)",
-        "Pipeline: jade batstone",
-        "KW: introduction",
-        "Broker signal"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Jade Batstone, CEO of Zendo (Galaxy's energy broker and technology partner), is following up on a call with Ash and Dave about vendor access passes for Redhill Data Centre. This is a direct operational matter for an existing strategic partner.",
-      "ai_action": "Route to Ash or operations team for vendor pass coordination. Dave may need to confirm scope/timeline if not already discussed.",
-      "ai_next_steps": [
-        "Confirm with Ash what was agreed regarding vendor access passes in today's call",
-        "Clarify which Zendo personnel need passes and for what duration",
-        "Coordinate with Redhill site security/operations to issue passes"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
