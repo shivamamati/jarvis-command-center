@@ -1,13 +1,110 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-27T12:22:39.061699+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 5,
-  "ai": 7,
+  "timestamp": "2026-04-27T15:05:45.044323+00:00",
+  "total": 26,
+  "new": 26,
+  "noise": 19,
+  "ai": 24,
   "skipped": 0,
-  "auto_learned": 46,
+  "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "steven@lehding.co.uk",
+      "sender_name": "Steven McGlinchey",
+      "subject": "Redhill UKPN text replies",
+      "body_preview": "Good afternoon Team\r\n\r\nBelow a trail of text messages with UKPN relating to our discussions in the meeting at 1:30pm on Friday.\r\n\r\n\r\n\r\nLSD: Are you free Harvey? The client received a letter from IDNO SSE saying that now the power is isolated off they disc",
+      "received": "2026-04-27T14:45:46Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8gAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMR18mdIvOZEk8HsvY2K0oE=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: power",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "URGENT",
+      "ai_summary": "Steven McGlinchey from Lehding is following up on Redhill Data Centre discussions with UKPN (UK Power Networks). He's sharing text message correspondence about power isolation issues that arose post-meeting on Friday. This appears to be an operational/technical issue requiring immediate attention on a key Galaxy asset.",
+      "ai_action": "Dave should review the full text trail immediately. Forward to engineering lead (Adaptive MDC) and Castleforge partner to assess impact on Redhill development timeline and power connection strategy. Clarify next steps with UKPN.",
+      "ai_next_steps": [
+        "Read full text message thread from Steven McGlinchey",
+        "Contact Adaptive MDC engineering to assess power isolation impact",
+        "Brief Castleforge on UKPN/IDNO SSE developments and any timeline implications",
+        "Confirm Friday meeting outcomes and agreed action items with Steven/Lehding"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "josh.scammell@simmons-simmons.com",
+      "sender_name": "Josh Scammell",
+      "subject": "RE: CDW- need to finalize quickly [SIMS-L_LIVE_EMEA1.143566.143566-00020.FID3684538]",
+      "body_preview": "Hi TJ,\r\n\r\nWorking on it as we speak.\r\n\r\n@Paul Leong are you able to provide the figures so we can insert? I.e. will it be a 90/10 split, 80/10, etc.?\r\n\r\nMany thanks\r\nJosh\r\n\r\nJosh Scammell\r\nAssociate, Real Estate\r\nSimmons & Simmons LLP\r\n\r\nT +44 20 7825 486",
+      "received": "2026-04-27T13:16:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8TAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHwQTBGNamVIkRsIgu9HenY=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: simmons-simmons.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Josh Scammell from Simmons & Simmons (legal counsel) is actively working on CDW deal documentation that requires immediate finalization. He's requesting ownership/revenue split percentages from Paul Leong to complete the agreement terms, indicating the deal structure needs to be confirmed urgently to move forward.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Paul Leong should immediately provide the proposed ownership split percentages (90/10, 80/20, etc.) to Josh Scammell",
+        "Dave or France should confirm Galaxy's position on the split structure with Paul Leong before Josh receives it",
+        "Once figures are provided, set a deadline with Simmons & Simmons for final document delivery to maintain deal momentum"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "rodrigo@galaxydatacenters.com",
+      "sender_name": "Rodrigo M",
+      "subject": "Re: Vendor access passes for Redhill - Zendo",
+      "body_preview": "Adding @Rhys Jones\u2019s correct email.\r\n\r\nShould you have any questions, do not hesitate in contact me.\r\n\r\nBest Regards,\r\n\r\n\r\n\r\n\r\n\r\nRodrigo M\r\n\r\nIT Consultant\r\n\r\nE: rodrigo@galaxydatacenters.com\r\nP: +44 7743080383\r\nW: galaxydatacenters.com\r\n\r\nFrom: Rodrigo M",
+      "received": "2026-04-27T13:12:07Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8SAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rodrigo, an IT Consultant at Galaxy Data Centers, is correcting an email thread by adding Rhys Jones's accurate contact information for a vendor access pass issue at the Redhill-Zendo facility. This appears to be a routine internal coordination to ensure the right stakeholder is looped into facility access management. The correction ensures smooth vendor onboarding and prevents delays in granting necessary site access credentials.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify that Rhys Jones has received the vendor access pass request and confirm his availability to process it",
+        "Check the status of the vendor access passes for Redhill-Zendo to identify any bottlenecks or delays",
+        "Follow up with Rodrigo to confirm the email was successfully delivered to the correct recipient"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "jcorcoran@macdonaldandcompany.com",
       "sender_name": "Joseph Corcoran",
@@ -138,40 +235,6 @@
         "Request Rhys provide or re-send the UPS graphic file with clear context on its intended use (marketing, technical documentation, proposal, etc.)",
         "Clarify the deadline for feedback and who else needs to review before approval",
         "Determine the business purpose - whether this is for a customer proposal, internal documentation, or public-facing materials that may affect Galaxy's market positioning"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "jade@zendoenergy.com",
-      "sender_name": "Jade Batstone",
-      "subject": "Vendor access passes for Redhill - Zendo",
-      "body_preview": "Hi Rodrigo,\r\n\r\nBy way of introduction, I'm the CEO of Zendo, Galaxy's energy broker and technology partner. It's a pleasure to e-meet you!\r\n\r\nAsh and Dave asked that I reach out regarding vendor access passes to the Redhill site for the following Zendo te",
-      "received": "2026-04-26T20:38:03Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ7yAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Jade Batstone]",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "Pipeline: jade batstone",
-        "KW: introduction",
-        "Broker signal",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Jade Batstone, CEO of Zendo (Galaxy's energy broker and technology partner), is reaching out about vendor access passes for the Redhill Data Centre. This is a direct operational request tied to Galaxy's key asset and flagged by both Ash and Dave.",
-      "ai_action": "Forward to Rodrigo (or relevant Redhill site ops contact) to process vendor access passes. Confirm with Dave if needed that this aligns with current Zendo engagement scope.",
-      "ai_next_steps": [
-        "Verify Jade's role as Zendo CEO and confirm prior authorization from Ash/Dave",
-        "Route to site operations/security lead for Redhill access pass processing",
-        "Confirm list of Zendo team members requiring access"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2611,106 +2674,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "saulakh@graingp.com",
-      "sender_name": "Suraj Aulakh",
-      "subject": "Re: NWS Operating Role for Data Center Initiative",
-      "body_preview": "Hi Dave - no problem.\r\n\r\nHi Mahendra, nice to meet you over email. Are you available at 9am or 11am ET by chance on Friday, April 24th?\r\n\r\n\r\n\r\nSuraj Aulakh\r\nGrain Management, LLC\r\nDirect +1 (202) 843-9418  |  Mobile +1 (202) 993-4520\r\nCONFIDENTIALITY AND ",
-      "received": "2026-04-20T14:45:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLpAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANaJ3EJ_KE2ll_tDtRL2USY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "KW: data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Suraj Aulakh from Grain Management is following up on a previous conversation about an NWS (likely data center infrastructure) operating role for a data center initiative. He's proposing a meeting with Mahendra on Friday, April 24th at 9am or 11am ET\u2014this appears to be a continuation of active deal discussions.",
-      "ai_action": "Confirm Dave's availability for the Friday call with Suraj and Mahendra. If Dave is the intended recipient (not just CC'd), respond directly; if this is misdirected to Mahendra, route accordingly.",
-      "ai_next_steps": [
-        "Verify if Dave or Mahendra is the correct recipient and calendar status for April 24th",
-        "Confirm time slot (9am or 11am ET) and add to calendar",
-        "Prepare brief on Grain Management and the NWS operating role scope before call"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Docklands Deck Update",
-      "body_preview": "Faye \u2014 this looks good.\r\n\r\nPlease reach out to Marcus, Paul, Krish, Ash, and TJ on a single email and let them know this is the latest version of the deck and model. Ask Marcus to complete their remaining inputs (or whatever you need from them), and check",
-      "received": "2026-04-20T14:09:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAakGz20AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACCrtuzTqDRLljHXeTsH82Y=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave has approved the Docklands presentation deck and financial model, and is asking Faye to notify the core project team (Marcus, Paul, Krish, Ash, and TJ) that this is the final version they should be working from. The message appears incomplete, but Dave wants to ensure Marcus provides any outstanding inputs needed to finalize the materials, which likely impacts the timeline for presenting this major data center initiative.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Faye should send a single consolidated email to all five team members confirming the approved deck/model version and clearly defining what deliverables are still outstanding from Marcus",
-        "Clarify with Dave what the incomplete instruction was about ('and check') to ensure all stakeholder coordination requirements are addressed",
-        "Set a deadline for Marcus's inputs so the team can move forward with any presentations or approvals needed for the Docklands project"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "finance@redhilldatacentre.com",
-      "sender_name": "Finance",
-      "subject": "INV-0369",
-      "body_preview": "Hi,\r\n\r\nPlease see your latest power invoice & the supporting document attached.\r\n\r\nThanks\r\n\r\n\r\n\r\nRedhill Data Centre Ltd (formally Digital Realty (Redhill) Ltd)\r\n\r\nData Centre Services Ltd\r\n\r\nLynton House, 7-12 Tavistock Square, London, WC1H 9BQ",
-      "received": "2026-04-20T14:07:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALz1zHjFgGVAqy9WSJuDNyM=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "Redhill ops",
-        "KW: lease, power, data cent",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Redhill Data Centre (formerly Digital Realty's Redhill facility) has sent Galaxy Capital Partners a power services invoice with supporting documentation. This appears to be a routine billing notification for ongoing data center power services that Galaxy utilizes at their facility. Prompt review and processing is necessary to maintain accurate cost tracking and vendor relationships for Galaxy Data Centers' operational expenses.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review invoice INV-0369 and attached documentation for accuracy against Galaxy's service agreements and expected usage patterns",
-        "Forward to accounting/finance team for payment processing and ledger allocation",
-        "Flag any discrepancies or unusual charges for discussion with Redhill Finance team"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 82
+  "total_tracked": 81
 }
