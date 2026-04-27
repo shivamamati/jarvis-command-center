@@ -1,9 +1,9 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-26T22:34:01.476868+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 2,
+  "timestamp": "2026-04-27T02:27:12.309939+00:00",
+  "total": 1,
+  "new": 1,
+  "noise": 0,
   "ai": 1,
   "skipped": 0,
   "auto_learned": 45,
@@ -2710,42 +2710,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ash@galaxydatacenters.com",
-      "sender_name": "Ash Gupta",
-      "subject": "Security Awareness Training",
-      "body_preview": "Hey guys,\r\n\r\nI've sent an email to your redhilldatacentre.com email accounts for security training.  Please log into that email and complete your security awareness training.  We need to have these complete THIS WEEK.\r\n\r\nIdeally if you could complete it M",
-      "received": "2026-04-20T02:09:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHBEQX6_aAxCmMNGTAJtNzs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta (Galaxy Data Centers) is notifying you that security awareness training has been deployed to your redhilldatacentre.com email accounts and requires completion by end of this week. This is a compliance requirement to ensure all staff meet security training obligations, likely driven by regulatory or operational security standards for the data center business.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Access redhilldatacentre.com email account and locate the security awareness training assignment",
-        "Complete the training module by end of business Wednesday to meet the weekly deadline",
-        "Confirm completion status with Ash Gupta to ensure compliance documentation is recorded"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 83
+  "total_tracked": 82
 }
