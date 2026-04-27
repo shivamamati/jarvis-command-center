@@ -1,13 +1,77 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-27T17:19:40.914689+00:00",
-  "total": 23,
-  "new": 23,
+  "timestamp": "2026-04-27T19:13:46.306102+00:00",
+  "total": 17,
+  "new": 17,
   "noise": 14,
-  "ai": 21,
+  "ai": 12,
   "skipped": 0,
   "auto_learned": 40,
   "items": [
+    {
+      "sender_email": "animesh@galaxydatacenters.com",
+      "sender_name": "Animesh Raha",
+      "subject": "Re: Award entries update",
+      "body_preview": "Ok. Sai . I will have a discussion with BW tomorrow . She we pick existing design from earlier post with fresh messaging or create a new design.\r\n________________________________\r\nFrom: Sai Raman <sai@galaxydatacenters.com>\r\nSent: Monday, April 27, 2026 2",
+      "received": "2026-04-27T18:54:52Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9DAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIl-5GMTU1dBhm5ulmQcVKQ=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Animesh Raha (internal Galaxy team member) is confirming he'll meet with someone referred to as 'BW' to decide whether to repurpose an existing award entry design with updated messaging or develop a completely new design for an upcoming award submission. This decision impacts the timeline and resource allocation for Galaxy's award strategy and brand positioning.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the meeting with BW is scheduled and clarify the decision deadline to avoid delays in award submission timelines",
+        "Request Animesh to document the pros/cons of each approach (refresh vs. new design) so leadership can weigh brand impact and resource efficiency",
+        "Follow up post-meeting to ensure the chosen direction aligns with Galaxy's overall marketing and competitive positioning strategy"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "faye.p@queensu.ca",
+      "sender_name": "Faye Pan",
+      "subject": "Re: Updated Docklands Deck",
+      "body_preview": "From: Faye Pan <faye.p@queensu.ca>\r\nDate: Monday, April 27, 2026 at 1:36\u202fPM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Updated Docklands Deck\r\n\r\nHi Dave,\r\n\r\nI have updated the deck with revisions to the overall  feel and layout.\r\n\r\nOn the ",
+      "received": "2026-04-27T17:39:31Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ87AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM7B2j2YEgNPhqgmcC5dYws=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied 3x (+4)",
+        "Attachments + deal KW (+2)",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Faye Pan (queensu.ca email) is sending Dave a revised deck for the Docklands project\u2014likely a data center development or investment opportunity. This appears to be an ongoing project discussion with active iterations on materials.",
+      "ai_action": "Dave should review the attachment and provide feedback if needed. Confirm the Docklands project status and Faye's role in the deal workflow.",
+      "ai_next_steps": [
+        "Review the updated Docklands Deck attachment",
+        "Assess revisions against previous version for deal readiness",
+        "Confirm next milestone (investor presentation, partner review, LOI prep, etc.)"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxycapitalpartners.com",
       "sender_name": "Paul Leong",
@@ -2645,37 +2709,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rgandara@stirlingst.com",
-      "sender_name": "Roco Gandara",
-      "subject": "RE: Unique Data Center Investment Opportunity",
-      "body_preview": "Hi Dave,\r\n\r\n\r\nI wanted to follow up on the below opportunity. If you could provide a status update or any feedback, it would be greatly appreciated. If there is interest, I\u2019m happy to follow up with a teaser and NDA.\r\n\r\n\r\n\r\nThanks,\r\n\r\nRoco\r\nRoco Gandara",
-      "received": "2026-04-20T18:36:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnL%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, investment, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Roco Gandara from Stirling Street is following up on a previously discussed data center investment opportunity. He's offering to send a teaser and NDA if Galaxy shows interest\u2014this is a direct deal engagement that needs a status update response.",
-      "ai_action": "Dave should respond to Roco with a status update on the opportunity. If still interested, request the teaser and NDA. If not interested, provide clear feedback to close the loop.",
-      "ai_next_steps": [
-        "Review prior correspondence with Roco about this 'Unique Data Center Investment Opportunity'",
-        "Determine Galaxy's current interest level and capacity",
-        "Respond to Roco with either interest (request teaser/NDA) or polite pass with reasoning"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 82
 }
