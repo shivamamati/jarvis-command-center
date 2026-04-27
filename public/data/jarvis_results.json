@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-27T20:58:24.962190+00:00",
-  "total": 15,
-  "new": 15,
-  "noise": 8,
-  "ai": 14,
+  "timestamp": "2026-04-27T21:55:41.867910+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 6,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 43,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Michael Woods from Woods Capital is pitching a grid-independent AI data center and power infrastructure platform concept to Galaxy. He's responding to Dave's request by sending over detailed materials for review. This represents a potential infrastructure investment or partnership opportunity that aligns with Galaxy's data center and capital deployment strategy.",
+      "ai_summary": "Michael Woods from Woods Capital is pitching Galaxy on a grid-independent AI data center and power infrastructure platform. Dave has requested the pitch deck, indicating preliminary interest in evaluating this potential investment or partnership opportunity. This aligns with Galaxy's core infrastructure and data center strategy, and could represent a significant opportunity in the growing AI compute and energy infrastructure space.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the pitch deck and identify technical feasibility, capital requirements, and market differentiation versus existing grid-tied data center solutions",
-        "Schedule a call with Michael Woods to understand the business model, timeline, and partnership structure being proposed",
-        "Assess competitive positioning and potential synergies with Galaxy's existing data center operations and capital allocation"
+        "Request and review the pitch deck from Michael Woods/Woods Capital to assess the technology, market opportunity, and financial projections",
+        "Schedule a call with Michael to understand the specific ask (investment, partnership, customer relationship) and how it fits Galaxy's portfolio and strategy",
+        "If promising, bring France into the discussion to evaluate technical feasibility and integration potential with Galaxy Data Centers' existing infrastructure"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -63,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Crusoe Energy is reaching out with a marketing message about infrastructure modernization, likely positioning their services as a solution to computational bottlenecks. Dave is flagging this as a potential template for Galaxy's own Account-Based Marketing strategy, suggesting he sees value in their messaging approach for targeting similar prospects.",
+      "ai_summary": "Crusoe Energy is pitching Dave on infrastructure solutions with a marketing message about removing infrastructure constraints as barriers to innovation. Dave is evaluating this outreach as a potential template for Galaxy's own account-based marketing strategy to see if their messaging approach or positioning could be repurposed for internal ABM campaigns.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the complete Crusoe email to extract specific messaging frameworks and value propositions that resonate with Galaxy's target customer profiles",
-        "Have France analyze the email structure and offer positioning to adapt for Galaxy's ABM campaigns targeting CIOs/infrastructure decision-makers",
-        "Consider whether Crusoe's infrastructure/innovation angle aligns with Galaxy's own positioning and if there are competitive or partnership opportunities to explore"
+        "Review the complete Crusoe email to extract specific messaging frameworks and value propositions that resonate with enterprise buyers",
+        "Analyze whether Crusoe's positioning (infrastructure enablement) aligns with Galaxy's competitive narrative and could be adapted for Galaxy's target accounts",
+        "Assess if this represents an opportunity to benchmark Galaxy's own ABM messaging against Crusoe's approach or if it suggests a market positioning gap Galaxy should address"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -130,12 +130,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Michael Kelley from Accenture is following up on the Redhill renewal and requesting Galaxy's pricing proposal as soon as possible. This appears to be a time-sensitive contract renewal where Accenture needs to see Galaxy's pricing to move forward with decision-making. The urgency suggests Accenture may be evaluating multiple vendors or has an internal deadline for the renewal.",
+      "ai_summary": "Michael Kelley from Accenture is following up on the Redhill renewal opportunity and requesting Galaxy's pricing proposal as soon as possible. This appears to be an active renewal negotiation where Accenture is evaluating options, and timely submission of competitive pricing is critical to advancing the deal and staying in contention.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France or the relevant account team compile and send Accenture's pricing proposal immediately to avoid losing momentum",
-        "Clarify the renewal timeline and any decision deadline Accenture is working against",
-        "Confirm what scope and terms the Redhill renewal covers to ensure the pricing aligns with expectations"
+        "Have France prepare and send Galaxy's pricing proposal for the Redhill renewal to Michael Kelley immediately to capitalize on his request momentum",
+        "Confirm the scope, terms, and competitive positioning in the proposal to ensure Galaxy's offer is compelling against likely Accenture alternatives",
+        "Schedule a follow-up call with Kelley within 2-3 business days after proposal submission to address questions and move toward contract negotiation"
       ],
       "ai_failed": false,
       "final_score": 10,
