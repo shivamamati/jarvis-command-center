@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-27T02:27:12.309939+00:00",
-  "total": 1,
-  "new": 1,
-  "noise": 0,
-  "ai": 1,
+  "timestamp": "2026-04-27T08:15:38.570458+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 45,
   "items": [
@@ -2676,41 +2676,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ash@galaxydatacenters.com",
-      "sender_name": "Ash Gupta",
-      "subject": "SOC Audit Week - Task listings and evidence uploads",
-      "body_preview": " @Dave Misra and @Paul Leong - even the two of you have tasks, with due dates.",
-      "received": "2026-04-20T04:26:19Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnLLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFs2QKQxi-NAoG30GUmDbRU=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: audit",
-        "14 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ash Gupta is notifying Dave and Paul that they have been assigned specific tasks with deadlines as part of an upcoming SOC audit week. This is a compliance requirement that needs immediate attention from leadership to ensure Galaxy Data Centers passes its security and operational controls audit.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the specific tasks and due dates assigned to Dave and Paul, and clarify any requirements or dependencies with Ash Gupta",
-        "Coordinate with Paul Leong to divide responsibilities and establish an internal timeline to complete evidence uploads ahead of the audit deadlines",
-        "Confirm task completion status with Ash and the audit team within 48 hours of the deadline to ensure no delays to the SOC audit process"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 82
+  "total_tracked": 81
 }
