@@ -1,13 +1,112 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-27T21:55:41.867910+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 6,
-  "ai": 11,
+  "timestamp": "2026-04-27T22:47:46.422274+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 7,
+  "ai": 14,
   "skipped": 0,
-  "auto_learned": 43,
+  "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Redhill Colour Codes / Brand Artwork",
+      "body_preview": "Apologies, Pelle \u2014 this email ended up in another folder and I missed it. I\u2019ve attached the brand guidelines. Please let me know if you need anything else.\r\n\r\nFrom: Pelle Jorgen <pelle.jorgen@castleforge.com>\r\nDate: Tuesday, April 28, 2026 at 3:58\u202fAM\r\nTo:",
+      "received": "2026-04-27T22:37:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbOBtgWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMaFBAh-4J1IpiUGZZN0uVY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "3 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castle Forge is requesting Redhill brand guidelines, specifically color codes and artwork assets. Dave has now provided the requested brand guidelines after initially missing the email. This matters because Castle Forge appears to be a vendor or partner who needs brand standards to execute work that represents Galaxy/Redhill properly.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Pelle that the brand guidelines package is complete and sufficient for their needs",
+        "Clarify the scope of work Castle Forge is undertaking with the Redhill branding",
+        "Follow up with Dave to understand why this request came through and what deliverables Castle Forge is responsible for"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "a.cox@2020-4.com",
+      "sender_name": "Alex Cox",
+      "subject": "20/20 Foresight: Current Executive Searches",
+      "body_preview": "20/20 Foresight has been exclusively retained to identify and evaluate candidates with respect to the following executive searches. Might you know of someone with skills and background befitting these descriptions? All replies are held in the strictest of",
+      "received": "2026-04-27T22:26:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9UAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACraZKZB97xJpRFUfFpcWP0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Alex Cox from 20/20 Foresight, an executive search firm, is reaching out to explore whether Dave or Galaxy Capital Partners can recommend candidates for several open executive positions they're actively recruiting for. This is a business development/talent sourcing inquiry that could help Galaxy build relationships with a recruiting partner or identify potential talent gaps in the market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France review the complete job descriptions and candidate profiles that 20/20 Foresight is seeking to determine if Galaxy has relevant network introductions to offer",
+        "Clarify with Alex Cox whether these searches relate to Galaxy's portfolio companies or external client needs, as this affects Galaxy's strategic interest",
+        "If relevant, respond with 1-2 qualified referrals while asking 20/20 Foresight about their retained clients to build the relationship"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Baxtel <> Galaxy Sync ",
+      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/28684725122203?p=Mj3TPhu6jZhDm7PCWY\r\nMeeting ID: 286 847 251 222 03\r\nPasscode: 4D79bc24\r\n__________________",
+      "received": "2026-04-27T22:16:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbOBtgVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALk-kqMES19Mp8AmUPAOjMI=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be a calendar invite or meeting link for a Microsoft Teams sync between Baxtel and Galaxy, but lacks context about the participants, agenda, or business purpose. Without knowing who from Baxtel is involved or what topics will be discussed, it's unclear what this meeting's strategic importance is to Galaxy's operations or partnerships.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with the sender whether this is a new meeting request and confirm the agenda, attendees from Baxtel, and desired outcomes",
+        "Determine if this relates to existing Galaxy-Baxtel business initiatives (data center services, technology integration, etc.) and what preparation is needed",
+        "Confirm Dave's availability and whether France Misra or other Galaxy leadership should attend based on the meeting's scope and importance"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -30,12 +129,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Michael Woods from Woods Capital is pitching Galaxy on a grid-independent AI data center and power infrastructure platform. Dave has requested the pitch deck, indicating preliminary interest in evaluating this potential investment or partnership opportunity. This aligns with Galaxy's core infrastructure and data center strategy, and could represent a significant opportunity in the growing AI compute and energy infrastructure space.",
+      "ai_summary": "Michael Woods from Woods Capital is pitching Galaxy on a grid-independent AI data center and power infrastructure platform concept. Dave has requested Woods send over a pitch deck, indicating preliminary interest in exploring this opportunity. This could represent a significant infrastructure investment thesis combining Galaxy's data center expertise with proprietary power generation capabilities to capture high-margin AI compute demand.",
       "ai_action": null,
       "ai_next_steps": [
-        "Request and review the pitch deck from Michael Woods/Woods Capital to assess the technology, market opportunity, and financial projections",
-        "Schedule a call with Michael to understand the specific ask (investment, partnership, customer relationship) and how it fits Galaxy's portfolio and strategy",
-        "If promising, bring France into the discussion to evaluate technical feasibility and integration potential with Galaxy Data Centers' existing infrastructure"
+        "Review pitch deck upon receipt and identify technical/commercial feasibility gaps relative to Galaxy's current data center operations",
+        "Schedule call with Michael Woods to understand capital requirements, timeline, and partnership structure before committing resources",
+        "Flag this opportunity to France and relevant operations team to assess whether it aligns with Galaxy's strategic roadmap and hurdle rates"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -63,12 +162,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Crusoe Energy is pitching Dave on infrastructure solutions with a marketing message about removing infrastructure constraints as barriers to innovation. Dave is evaluating this outreach as a potential template for Galaxy's own account-based marketing strategy to see if their messaging approach or positioning could be repurposed for internal ABM campaigns.",
+      "ai_summary": "Crusoe Energy is reaching out with a marketing message about infrastructure constraints limiting innovation, and Dave is evaluating whether their messaging approach serves as a useful template for Galaxy's own account-based marketing strategy. This represents competitive positioning in the infrastructure/data center space and suggests an opportunity to refine Galaxy's internal ABM playbook based on external messaging that resonates.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the complete Crusoe email to extract specific messaging frameworks and value propositions that resonate with enterprise buyers",
-        "Analyze whether Crusoe's positioning (infrastructure enablement) aligns with Galaxy's competitive narrative and could be adapted for Galaxy's target accounts",
-        "Assess if this represents an opportunity to benchmark Galaxy's own ABM messaging against Crusoe's approach or if it suggests a market positioning gap Galaxy should address"
+        "Review the full Crusoe email to identify specific messaging hooks and positioning language that could be adapted for Galaxy's ABM campaigns",
+        "Assess whether Crusoe's value proposition (removing infrastructure barriers to innovation) conflicts with or complements Galaxy's positioning to determine competitive differentiation needed",
+        "Share the template analysis with the marketing team to incorporate validated messaging patterns into Galaxy's Q2-Q3 ABM outreach to target accounts"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -1182,39 +1281,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "pelle.jorgen@castleforge.com",
-      "sender_name": "Pelle Jorgen",
-      "subject": "Redhill Colour Codes / Brand Artwork",
-      "body_preview": "Hi Dave,\r\n\r\nCan you share the Redhill brand colour codes and  logo artwork files? I know you guys did the rebrand last year and I assume the marketing agency would have shared a final artwork zip of all materials and underlying colour codes.\r\n\r\nLet us kno",
-      "received": "2026-04-23T20:09:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEO9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMaFBAh-4J1IpiUGZZN0uVY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 1: castleforge.com",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is requesting the Redhill brand color codes and logo files from Galaxy's rebrand project completed last year. He's looking for the complete artwork package and color specifications, likely needed for alignment on a project or partnership involving the Redhill brand.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with France or marketing whether the rebrand deliverables and final artwork zip file are stored and accessible",
-        "Clarify Castle Forge's intended use of the Redhill brand materials before sharing proprietary assets",
-        "Prepare and share the color codes and logo files once approval is confirmed"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "tj@galaxydatacenters.com",
       "sender_name": "Tj Karklins",
       "subject": "PAUSE Cloud House Purchase - Commercial and Operational Blocker inserted into MSA",
@@ -1280,38 +1346,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Baxtel <> Galaxy Sync ",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/28684725122203?p=Mj3TPhu6jZhDm7PCWY\r\nMeeting ID: 286 847 251 222 03\r\nPasscode: 4D79bc24\r\n__________________",
-      "received": "2026-04-23T15:20:34Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAa5tBwrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALk-kqMES19Mp8AmUPAOjMI=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This is a Microsoft Teams meeting link for a Baxtel and Galaxy synchronization discussion. The meeting details are provided with join instructions and credentials. This appears to be an internal calendar item or meeting confirmation that requires Dave's attendance to align on Baxtel partnership or integration matters.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and add to calendar with the provided meeting ID and passcode",
-        "Prepare agenda items or discussion points regarding Baxtel alignment before the meeting",
-        "Notify France if their participation is needed for this Baxtel sync discussion"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     },
     {
       "sender_email": "pelle.jorgen@castleforge.com",
@@ -2668,41 +2702,6 @@
         "Acknowledge the cancellation and confirm flexibility for rescheduling later this week",
         "Block calendar time for the rescheduled ops meeting once Pelle proposes alternatives",
         "Ensure any prepared materials or agenda items are retained for the new meeting date"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill Build Room and Storage Agreement",
-      "body_preview": "Hi Max - Hope you have been well.  As discussed on the previous call, we have checked into the availability of the 240kw that is adjacent to your space.  The good news is that we can have that space available for you around August 31. We would have to dis",
-      "received": "2026-04-20T22:35:51Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaijnMTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJx_5lLgl91Mlm8qUFz_88Y=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: kw",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is confirming that 240kW of adjacent power capacity can be made available to a customer (Max) by August 31st, contingent on some unspecified disconnection or transition work. This addresses a previous discussion about expanding the customer's space allocation and represents a critical infrastructure commitment that will impact revenue recognition and customer satisfaction for a key account.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Obtain the complete email from Paul to understand the full scope of work required ('we would have to dis...' is cut off) and any associated costs or timeline risks",
-        "Confirm with the customer (Max) that August 31st aligns with their deployment schedule and get written acceptance of terms",
-        "Coordinate with operations to validate the disconnection/transition work can be completed on schedule and identify any resource or permitting dependencies"
       ],
       "ai_failed": false,
       "final_score": 9,
