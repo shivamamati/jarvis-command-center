@@ -1,45 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-27T22:47:46.422274+00:00",
-  "total": 16,
-  "new": 16,
-  "noise": 7,
-  "ai": 14,
+  "timestamp": "2026-04-27T23:50:50.296709+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 5,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 44,
   "items": [
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
       "subject": "Re: Redhill Colour Codes / Brand Artwork",
-      "body_preview": "Apologies, Pelle \u2014 this email ended up in another folder and I missed it. I\u2019ve attached the brand guidelines. Please let me know if you need anything else.\r\n\r\nFrom: Pelle Jorgen <pelle.jorgen@castleforge.com>\r\nDate: Tuesday, April 28, 2026 at 3:58\u202fAM\r\nTo:",
-      "received": "2026-04-27T22:37:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbOBtgWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
+      "body_preview": "No worries! This is great. Thanks Dave!\r\n\r\nPelle Jorgen\r\nO: 0203 927 7358\r\nE: pelle.jorgen@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, April 27, 2026 11:36:59 PM\r\nTo: Pelle Jorgen <pe",
+      "received": "2026-04-27T22:55:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9XAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMaFBAh-4J1IpiUGZZN0uVY=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
+      "rules_tier": "TIER 1",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
+        "Dave replied 3x (+4)",
+        "Tier 1: castleforge.com",
+        "KW: nda",
         "3 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)",
+        "Thread: 4 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is requesting Redhill brand guidelines, specifically color codes and artwork assets. Dave has now provided the requested brand guidelines after initially missing the email. This matters because Castle Forge appears to be a vendor or partner who needs brand standards to execute work that represents Galaxy/Redhill properly.",
+      "ai_summary": "Pelle Jorgen from Castle Forge is confirming receipt of brand materials (Redhill colour codes and artwork) that Dave provided, and is expressing satisfaction with the deliverables. This appears to be closure on a branding or design specification task related to a project called Redhill.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with Pelle that the brand guidelines package is complete and sufficient for their needs",
-        "Clarify the scope of work Castle Forge is undertaking with the Redhill branding",
-        "Follow up with Dave to understand why this request came through and what deliverables Castle Forge is responsible for"
+        "File the completed Redhill branding materials in the project repository for future reference and consistency",
+        "Confirm with France (or relevant team lead) that the Redhill brand deliverables are finalized and ready for implementation",
+        "If this was part of a larger project timeline, update the project status to reflect completion of this milestone"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -64,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Alex Cox from 20/20 Foresight, an executive search firm, is reaching out to explore whether Dave or Galaxy Capital Partners can recommend candidates for several open executive positions they're actively recruiting for. This is a business development/talent sourcing inquiry that could help Galaxy build relationships with a recruiting partner or identify potential talent gaps in the market.",
+      "ai_summary": "Alex Cox from 20/20 Foresight, an executive search firm, is reaching out to explore whether Galaxy Capital Partners has referral candidates for several active executive searches they're conducting. This is a business development inquiry seeking to tap into Dave's network for talent acquisition opportunities that could benefit Galaxy's portfolio companies or present partnership opportunities.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France review the complete job descriptions and candidate profiles that 20/20 Foresight is seeking to determine if Galaxy has relevant network introductions to offer",
-        "Clarify with Alex Cox whether these searches relate to Galaxy's portfolio companies or external client needs, as this affects Galaxy's strategic interest",
-        "If relevant, respond with 1-2 qualified referrals while asking 20/20 Foresight about their retained clients to build the relationship"
+        "Review the complete job descriptions and candidate profiles from 20/20 Foresight to assess fit with Galaxy's portfolio or strategic initiatives",
+        "Determine if this warrants a direct call with Alex Cox to understand the specific roles and compensation levels before making any referrals",
+        "If relevant, forward to France or other team members who manage specific portfolio companies that might benefit from these placements"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -96,16 +95,47 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "This appears to be a calendar invite or meeting link for a Microsoft Teams sync between Baxtel and Galaxy, but lacks context about the participants, agenda, or business purpose. Without knowing who from Baxtel is involved or what topics will be discussed, it's unclear what this meeting's strategic importance is to Galaxy's operations or partnerships.",
+      "ai_summary": "This appears to be a Microsoft Teams meeting link for a sync between Baxtel and Galaxy, but the email contains no context about the purpose, attendees, or agenda. Dave needs clarity on what this meeting is addressing and whether it relates to a business development opportunity, technical integration, or operational matter.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with the sender whether this is a new meeting request and confirm the agenda, attendees from Baxtel, and desired outcomes",
-        "Determine if this relates to existing Galaxy-Baxtel business initiatives (data center services, technology integration, etc.) and what preparation is needed",
-        "Confirm Dave's availability and whether France Misra or other Galaxy leadership should attend based on the meeting's scope and importance"
+        "Clarify with the sender (or check calendar invite details) what the meeting purpose is and who from Galaxy/Baxtel will be attending",
+        "Confirm whether this is a new business opportunity, renewal, or technical/operational discussion that impacts Galaxy's strategy",
+        "Prepare any relevant materials (pricing, capacity, SLA terms) depending on the meeting objective before joining"
       ],
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "dse_na4@docusign.net",
+      "sender_name": "Docusign via Docusign",
+      "subject": "Completed: Complete with Docusign: Satyam_Misra_PHF_FlyHQ.pdf",
+      "body_preview": "Your document has been completed.\r\nView Completed Document\r\n\r\nAll signers completed Complete with Docusign: Satyam_Misra_PHF_FlyHQ.pdf\r\n\r\nDo Not Share This Email\r\n\r\n\r\nThis email contains a secure link to Docusign. Please do not share this email, link, or ",
+      "received": "2026-04-27T21:59:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9SAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEfn4kuYdAdLjyxIA8PqD1E=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "KW: lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "A DocuSign document titled 'Satyam_Misra_PHF_FlyHQ.pdf' has been fully executed by all signers. This appears to be a completed legal/commercial agreement that requires Dave's immediate review to confirm terms and next steps.",
+      "ai_action": "Dave should review the completed document immediately via the secure DocuSign link to confirm execution and understand the implications for Galaxy's operations or deals.",
+      "ai_next_steps": [
+        "Click secure DocuSign link to view and download the completed agreement",
+        "Confirm all signatories and terms match expectations",
+        "Brief Simmons & Simmons (legal counsel) if needed on any follow-up obligations"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2708,5 +2738,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 82
+  "total_tracked": 83
 }
