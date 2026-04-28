@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T11:01:01.298236+00:00",
+  "timestamp": "2026-04-28T13:54:42.104470+00:00",
   "events": [
     {
       "subject": "Redhill Business Plan Call",
@@ -82,6 +82,20 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qWCQbaAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Galaxy/Travelers",
+      "start": "2026-04-30T12:00:00.0000000",
+      "end": "2026-04-30T12:30:00.0000000",
+      "attendees": [
+        "McNeish,",
+        "Gagne,",
+        "Ashley"
+      ],
+      "organizer": "McNeish, Dave",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qZLbCBAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGz%2F5ocwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Redhill check in call ",

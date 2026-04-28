@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-28T11:01:09.261958+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 4,
-  "ai": 3,
+  "timestamp": "2026-04-28T13:55:21.362963+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 11,
+  "ai": 12,
   "skipped": 0,
   "auto_learned": 42,
   "items": [
@@ -2701,108 +2701,7 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: DORA secondary site: Redhill",
-      "body_preview": "________________________________\r\nFrom: Dave Misra <dave@getgalaxydatacenters.com>\r\nSent: Tuesday, April 21, 2026 4:50:16 PM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: DORA secondary site: Redhill\r\n\r\nLee,\r\n\r\nPwC's DORA implementation analy",
-      "received": "2026-04-21T12:51:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACehggZJRttAjnTnvN5705I=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is forwarding an incomplete email to himself regarding PwC's DORA (Digital Operational Resilience Act) implementation analysis for a secondary data center site in Redhill. The email appears to be a draft or was cut off mid-sentence, making it unclear what specific action, decision, or information is being communicated about this regulatory compliance initiative.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Retrieve the complete email thread to understand what PwC's DORA analysis recommends for the Redhill secondary site",
-        "Clarify with Dave or the PwC team whether this is a regulatory requirement issue, capacity planning decision, or risk assessment that needs Galaxy Capital Partners' approval",
-        "Schedule a meeting with France and relevant stakeholders to review DORA compliance requirements and determine if Redhill expansion is necessary or what remediation steps are needed"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Re: Redhill DC power & equipment upgrades and Nomura STS parts replacement update",
-      "body_preview": "Adam,\r\n\r\nThank you for the update. We look forward to meeting with CBRE. In parallel, we will send over an update of our latest work and thinking in support your operations at Redhill DC.\r\n\r\nBest,\r\n\r\nTJ\r\n\r\n________________________________\r\nFrom: adam.youn",
-      "received": "2026-04-21T12:40:51Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMD7bvUJoHVOkA75MKqpNfE=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Re customer: nomura",
-        "Internal \u2014 deal/customer related",
-        "KW: power",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins (Galaxy Data Centers internal team) is confirming receipt of an operational update regarding Redhill DC power/equipment upgrades and Nomura STS parts replacement. Galaxy is preparing to coordinate with CBRE while simultaneously providing Adam Youn with updated documentation on Galaxy's latest work and strategic recommendations to support Redhill DC operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm meeting details and agenda with CBRE to ensure alignment on power and equipment upgrade priorities",
-        "Prepare and send Galaxy's updated work summary and operational recommendations to Adam Youn before the scheduled CBRE meeting",
-        "Schedule internal sync with TJ and relevant Galaxy teams to review Nomura STS parts replacement timeline and any dependencies"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "pelle.jorgen@castleforge.com",
-      "sender_name": "Pelle Jorgen",
-      "subject": "Redhill Operations Call",
-      "body_preview": "All,\r\n\r\nCastleforge has a conflicting AGM meeting so we will need to cancel today\u2019s OPs meeting. I\u2019ll find a revised time later this week for us to catch up.\r\n\r\nPelle Jorgen\r\nO: 0203 927 7358\r\nE: pelle.jorgen@castleforge.com\r\n\r\n\r\n_________________________",
-      "received": "2026-04-21T12:05:27Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqknAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADshHenayyxIlGPTntXvZsM=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "10 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castleforge is canceling today's operations meeting due to a conflicting annual general meeting and will propose an alternative time later in the week. This is a routine scheduling adjustment for an upcoming sync with a key partner or vendor.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Acknowledge the cancellation and confirm flexibility for rescheduling later this week",
-        "Block calendar time for the rescheduled ops meeting once Pelle proposes alternatives",
-        "Ensure any prepared materials or agenda items are retained for the new meeting date"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 85
+  "total_tracked": 82
 }
