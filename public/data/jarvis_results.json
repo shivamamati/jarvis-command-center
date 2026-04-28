@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-28T02:34:28.586181+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 1,
-  "ai": 2,
+  "timestamp": "2026-04-28T08:20:30.409407+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 7,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 44,
   "items": [
+    {
+      "sender_email": "paul.tester@redhilldatacentre.com",
+      "sender_name": "Paul Tester",
+      "subject": "Drata task Name: Network Changes integrated into change log",
+      "body_preview": "As discussed in meeting on Monday, I have created retrospective Incidents in Monday. I have attached the details for each of them from the info Sam provided.\r\n\r\nMalicious Links clicked in email\r\n\r\nI have also raised retrospective Changes on the Change log",
+      "received": "2026-04-28T08:15:01Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9mAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMFrxI8EsLhOktBdfMh-nqY=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments + deal KW (+2)",
+        "Redhill ops",
+        "KW: nda",
+        "9 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Tester from Redhill Data Centre is confirming completion of follow-up items from Monday's meeting, specifically the creation of retrospective incident records in Monday based on information provided by Sam, including a malicious link email incident. He has also documented corresponding changes in the change log as agreed. This matters to Galaxy because it demonstrates Redhill's commitment to maintaining accurate compliance and operational documentation, which impacts both companies' security posture and audit readiness.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached retrospective incident details in Monday to verify completeness and accuracy of the malicious link incident documentation",
+        "Coordinate with Sam to confirm all relevant network changes have been properly logged and that documentation aligns with Galaxy's compliance requirements",
+        "Schedule a brief follow-up call with Paul to discuss any remediation steps needed and ensure these incidents don't recur"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Daniel Scarbrough via Docusign",
@@ -2739,5 +2773,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 83
+  "total_tracked": 84
 }
