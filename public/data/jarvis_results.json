@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-28T21:53:55.984621+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 5,
-  "ai": 8,
+  "timestamp": "2026-04-28T22:53:39.061823+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 4,
+  "ai": 4,
   "skipped": 0,
-  "auto_learned": 40,
+  "auto_learned": 39,
   "items": [
     {
       "sender_email": "candace@jsa.net",
@@ -2644,106 +2644,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Your Response from BA Customer Relations",
-      "body_preview": "Dear Abulhasan,\r\n\r\nThank you. The postal address of my residence  linked to my TD Canada Trust account is:\r\n\r\n3005 Pine Glen Road, Unit 607 Oakville, Ontario L6M 5P5 Canada\r\n\r\nCase reference: 11350642.\r\n\r\nBest regards, Dave Misra\r\n\r\n\r\nFrom: Global Custome",
-      "received": "2026-04-21T22:51:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAD2dpS_iNltAjdxIXV9LfBo=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be Dave's personal response to a financial institution (TD Canada Trust) regarding account verification, where he is providing his residential address and a case reference number. This is a personal banking matter unrelated to Galaxy Capital Partners or Galaxy Data Centers operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify this email was intended for personal correspondence and not business channels",
-        "Ensure Dave's personal information handling complies with data security protocols at Galaxy"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Fw: [External] Redhill Data Centre 2025 SOC",
-      "body_preview": "Richard is ooo. JP was copied.\r\n\r\n________________________________\r\nFrom: Richard Oosterom <richardo@digitalrealty.com>\r\nSent: Tuesday, April 21, 2026 14:51\r\nTo: Tj Karklins <tj@galaxydatacenters.com>\r\nSubject: Automatic reply: [External] Redhill Data Cen",
-      "received": "2026-04-21T22:05:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkn5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPKW0Y0d_OpDhOPGaBp4Li0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 6x (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: data cent",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Richard Oosterom from Digital Realty sent an email regarding the Redhill Data Centre 2025 SOC (Statement of Compliance) but is currently out of office. Tj Karklins is flagging this to Dave, noting that Richard is unavailable and that JP has been looped in as an alternative contact. This appears to be a time-sensitive compliance or operational matter related to the Redhill facility that requires immediate attention from someone available.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with JP whether he is the appropriate point of contact for the Redhill Data Centre 2025 SOC and obtain the specific requirements or deadline",
-        "Contact Richard Oosterom directly upon his return to clarify the scope and timeline for the SOC deliverable",
-        "Determine if this SOC is required by Q2 2026 or later and assess any resource implications for Galaxy Data Centers"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: DORA - fee quote",
-      "body_preview": "Thanks Rob - How long have you been waiting on a response from Langham Hall? Kirstin is there any thing you can do to nudge LH?\r\n\r\nThanks\r\n\r\nPaul\r\n________________________________\r\nFrom: Donell, Rob <RobDonell@eversheds-sutherland.com>\r\nSent: Tuesday, Apr",
-      "received": "2026-04-21T21:55:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkn4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSpXR5-EV9HrccPcQ_ezQA=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong (Galaxy Data Centers) is following up with Rob Donell from Eversheds-Sutherland regarding a DORA fee quote that requires approval from Langham Hall. Paul is asking about the timeline of the delay and requesting that Kirstin (likely someone with influence at Langham Hall) help expedite the response, suggesting this quote is time-sensitive for Galaxy's business operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Determine current status and timeline for Langham Hall's response on the DORA fee quote",
-        "Identify who Kirstin is and assess her ability to influence Langham Hall's decision timeline",
-        "Consider escalating directly to Langham Hall's contact if internal nudging doesn't produce results within a defined timeframe"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 83
+  "total_tracked": 80
 }

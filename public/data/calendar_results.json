@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-28T21:53:30.954440+00:00",
+  "timestamp": "2026-04-28T22:53:24.209124+00:00",
   "events": [
     {
       "subject": "Redhill Business Plan Call",
@@ -73,6 +73,23 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qWCQbaAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Call: Galaxy / Castleforge / Alantra",
+      "start": "2026-04-29T17:00:00.0000000",
+      "end": "2026-04-29T17:45:00.0000000",
+      "attendees": [
+        "Ella",
+        "Ash",
+        "Tj",
+        "Richard",
+        "Bagdat",
+        "John"
+      ],
+      "organizer": "Ella Brown",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAbP%2Fmh1AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Dave Assessment Review @ Wed Apr 29, 2026 3pm (ET) ",
