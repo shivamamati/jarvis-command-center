@@ -1,13 +1,114 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-28T18:14:57.797289+00:00",
-  "total": 22,
-  "new": 22,
-  "noise": 19,
-  "ai": 19,
+  "timestamp": "2026-04-28T20:12:41.590423+00:00",
+  "total": 13,
+  "new": 13,
+  "noise": 8,
+  "ai": 12,
   "skipped": 0,
-  "auto_learned": 38,
+  "auto_learned": 40,
   "items": [
+    {
+      "sender_email": "abui@hl.com",
+      "sender_name": "Bui, Abe",
+      "subject": "Re: Quick call time sensitive",
+      "body_preview": "Hey Dave,\r\n\r\nThanks for sending all that info. Will review.\r\n\r\nFresh NDA attached.\r\n\r\nBest,\r\nAbe\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Tuesday, April 28, 2026 12:27 PM\r\nTo: Bui, Abe <ABui@HL.com>\r\nSubject:",
+      "received": "2026-04-28T20:02:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJH-ebLqaE5KgZFIJhIRDZs=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied 3x (+4)",
+        "Attachments + deal KW (+2)",
+        "KW: nda",
+        "Urgency: time sensitive (+1)",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Abe Bui from HL (likely Heidrick & Struggles or similar advisory firm) is responding to Dave's outreach on a time-sensitive matter. He's received information from Dave and is returning a fresh NDA\u2014indicating active deal discussion or partnership exploration that requires legal review and execution.",
+      "ai_action": "Dave should review the attached NDA immediately and coordinate with Simmons & Simmons legal team for review/execution. Confirm next call time with Abe.",
+      "ai_next_steps": [
+        "Send NDA to Simmons & Simmons for review",
+        "Confirm follow-up call with Abe Bui",
+        "Prepare to discuss details once NDA is executed"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "HOLD : Redhill Unit 3 Discussion Solutioning ",
+      "body_preview": "Compute & Power\r\nInitial Deployment: 20 CS-3 compute racks.\r\n\r\nAdditional Equipment: Network and storage racks (quantities TBD).\r\n\r\nPower Density: 60 kW per compute rack.\r\n\r\nCooling Split: 8\u201310% of the load in the compute racks will be air-cooled.\r\n\r\nCool",
+      "received": "2026-04-28T19:12:14Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbOBtgXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC_BERH9jstDv5FLH6QINEs=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: kw, rack, power",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is Dave Misra's own email outlining technical specifications for a Redhill Unit 3 deployment, detailing a planned 20 CS-3 compute rack installation with 60 kW per-rack power density and a mixed cooling strategy (90-92% liquid-cooled, 8-10% air-cooled). The specifications define the infrastructure baseline and cooling architecture that will drive capital expenditure, operational efficiency, and facility readiness for this deployment phase. Clarity on network/storage quantities and finalized cooling strategy is critical to procurement timelines and cost modeling.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm final quantities for network and storage racks to complete CapEx forecast and equipment procurement orders",
+        "Validate the 8-10% air-cooled split with the engineering team to ensure cooling infrastructure design (CDU capacity, hot/cold aisle layout) aligns with power density requirements",
+        "Schedule internal alignment with France and ops leadership on deployment timeline and any dependencies on facility modifications or power delivery upgrades"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "rod@ramsgrove.com",
+      "sender_name": "Rodrigo Matos",
+      "subject": "Re: Claude Deployment - Galaxy's M365 Tenant",
+      "body_preview": "Hi @Ash Gupta<mailto:ash@galaxydatacenters.com> @Dave Misra and @paul@galaxydatacenters.com",
+      "received": "2026-04-28T19:07:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABKNZ7es8SlCgts4DGDveDg=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "KW: tenant",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Rodrigo Matos (Ramsgrove) is responding to an internal Galaxy initiative regarding Claude AI deployment on Galaxy's Microsoft 365 tenant. This is an IT/infrastructure matter that affects Galaxy's internal operations and involves coordination between Dave, Ash Gupta, and Paul.",
+      "ai_action": "Dave should review the substance of Rodrigo's response to understand what's being proposed for Galaxy's M365/Claude integration and any blockers or next steps. Forward to Ash Gupta if Dave hasn't already looped her in.",
+      "ai_next_steps": [
+        "Read full email body to understand Rodrigo's proposal or blockers",
+        "Confirm with Ash Gupta if this aligns with Galaxy's IT/AI deployment strategy",
+        "Determine if this requires executive sign-off or can be handled by ops team"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "pelle.jorgen@castleforge.com",
       "sender_name": "Pelle Jorgen",
@@ -137,38 +238,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "abui@hl.com",
-      "sender_name": "Bui, Abe",
-      "subject": "Re: Quick call time sensitive",
-      "body_preview": "Dave - are there any off the shelf materials you can share?\r\n\r\nLet me know if you'd like me to refresh our NDA.\r\n\r\nBest,\r\nAbe\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, April 27, 2026 12:43 PM\r\nTo: Bui,",
-      "received": "2026-04-28T15:41:11Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJH-ebLqaE5KgZFIJhIRDZs=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "KW: nda",
-        "Urgency: time sensitive (+1)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Abe Bui (HL - likely Henry Land or similar investment firm) is following up on a time-sensitive call with Dave. He's requesting materials and offering to refresh an NDA, suggesting an active deal or partnership discussion that requires confidential information sharing.",
-      "ai_action": "Dave should respond promptly to clarify what materials Abe needs and confirm NDA status. This appears to be an ongoing conversation about a specific opportunity.",
-      "ai_next_steps": [
-        "Identify what materials Abe is requesting (likely related to a deal, site data, or investment opportunity)",
-        "Confirm current NDA status and whether refresh is needed",
-        "Schedule the time-sensitive call referenced in subject line"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "drew@zendoenergy.com",
@@ -2704,42 +2773,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Renewal catch up",
-      "body_preview": "From: Chris Lillie <c.lillie@uk.cdw.com>\r\nDate: Tuesday, April 21, 2026 at 7:07\u202fPM\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>\r\nSubject: Renewal catch up\r\n\r\nHi Dave,\r\n\r\nAre you free for a quick call this week?\r\n\r\nCheers\r\n\r\nChris\r\n\r\n\r\nChris Lillie",
-      "received": "2026-04-21T19:58:22Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAaq51LXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAK9ndoVW1MBFlpwG3Kq1YHk=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "KW: capital, renewal",
-        "Lease + customer",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris Lillie from CDW UK is requesting a call this week to discuss a renewal matter. This appears to be a routine business development outreach from a major technology distributor regarding an existing or prospective contract. The timing and casual nature suggest this is likely a renewal discussion that could impact Galaxy's IT procurement or service agreements.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Check Galaxy's existing CDW relationships and renewal schedule to understand which contract or service this pertains to",
-        "Coordinate availability with France (or relevant team member) and respond to Chris with 2-3 specific time slots for the call",
-        "Prepare brief summary of current CDW spend, contract terms, and any renewal objectives before the call"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 83
+  "total_tracked": 84
 }
