@@ -1,13 +1,142 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-29T17:24:55.402966+00:00",
-  "total": 23,
-  "new": 23,
-  "noise": 18,
-  "ai": 20,
+  "timestamp": "2026-04-29T19:19:27.510443+00:00",
+  "total": 12,
+  "new": 12,
+  "noise": 8,
+  "ai": 12,
   "skipped": 0,
-  "auto_learned": 40,
+  "auto_learned": 39,
   "items": [
+    {
+      "sender_email": "mail@redhilldatacentre.com",
+      "sender_name": "Colin Fowler",
+      "subject": "New Message From Redhill Data Centre",
+      "body_preview": "Colin Fowler\r\n07725647955\r\nColin.fowler@yoti.com\r\nYoti\r\n%%designation%%\r\nContact Sales: Request a quote\r\n\r\n\r\nHello,\r\n\r\nPlease can I request a quote?",
+      "received": "2026-04-29T19:11:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQ6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANNL-CTHyldLqlDMU2V5fug=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Fowler from Yoti is requesting a sales quote, though his email lacks specifics about which Galaxy products or services he's interested in. This is a qualified sales lead from a potentially significant technology partner that requires clarification on scope and requirements to move forward.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or sales team reach out to Colin at 07725647955 or Colin.fowler@yoti.com to qualify the opportunity and understand what services/capacity Yoti is evaluating",
+        "Determine if this relates to data center capacity, cloud infrastructure, or other Galaxy offerings to prepare an appropriate proposal",
+        "Once scope is confirmed, prepare customized quote and schedule follow-up meeting to discuss pricing and terms"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "r.wilson@2020-4.com",
+      "sender_name": "Rebecca Wilson",
+      "subject": "Jack Melkonian - Real Estate Investment and Capital Markets Executive",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nI am writing to introduce you to Jack Melkonian, a San Francisco based real estate acquisitions, investment and capital markets executive. Jack has experience in all major product types with a focus on multifamily and mixed use assets across ",
+      "received": "2026-04-29T18:43:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAbVBcPNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADbK-iKjX1xEo94aj7Wr-D8=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment, capital, introduce"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rebecca Wilson is introducing Jack Melkonian, a San Francisco-based real estate executive with expertise in acquisitions, investment, and capital markets across multiple property types, particularly multifamily and mixed-use assets. This appears to be a networking introduction that could position Jack as a potential partner, investor, or strategic contact for Galaxy's real estate and data center expansion efforts. Given Galaxy's growth in data center facilities and potential real estate needs, this introduction may open collaboration opportunities in property acquisition or capital formation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Jack's full background, current projects, and specific experience relevant to Galaxy's real estate or data center expansion plans",
+        "Schedule a brief call with Jack to explore potential synergies or partnership opportunities in real estate investment or acquisitions",
+        "Determine if Jack's capital markets expertise could support Galaxy's fundraising or infrastructure financing initiatives"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "fional@digitalrealty.com",
+      "sender_name": "Fiona Leon",
+      "subject": "RE: Galaxy / DRT Partnership & Cloud House Deployment",
+      "body_preview": "Hi  @Tj Karklins, we didn\u2019t hear back from you.\r\n\r\nCould we do Friday afternoon perhaps?\r\n\r\nThanks\r\n\r\nFiona\r\n\r\n\r\n\r\nFiona Leon\r\nUK&I Commercial Sales\r\nMob: 07557 268924\r\n60 London Wall, London, EC2M 5TQ\r\n\r\n\r\n\r\n\r\n\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters",
+      "received": "2026-04-29T18:01:28Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQ2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Fiona Leon]",
+      "rules_reasons": [
+        "Tier 1: digitalrealty.com",
+        "Pipeline: fiona leon",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Fiona Leon from Digital Realty's UK&I Commercial Sales is following up on a prior discussion about a Galaxy and Digital Realty partnership involving Cloud House deployment. She's requesting a meeting on Friday afternoon to move the conversation forward, suggesting the initial outreach may not have received a timely response.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm availability with Tj Karklins for a Friday afternoon meeting with Fiona Leon and determine if Paul Leong should also attend",
+        "Prepare partnership discussion points and Cloud House deployment requirements/timeline before the Friday call",
+        "If Friday doesn't work, propose alternative times immediately to keep momentum with Digital Realty on this partnership opportunity"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "michael.kelley@accenture.com",
+      "sender_name": "Kelley, Michael",
+      "subject": "RE: Redhill renewal",
+      "body_preview": "Some people who received this message don't often get email from michael.kelley@accenture.com. Learn why this is important\r\nGood afternoon Paul,\r\n\r\nI have spoken to our operations folks, here are some of their data points:\r\n\r\n\r\n  1.  Our most critical cus",
+      "received": "2026-04-29T17:51:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQ0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: accenture.com",
+        "KW: renewal",
+        "Urgency: critical (+1)",
+        "Lease + customer",
+        "12 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Michael Kelley from Accenture is responding to a discussion about Redhill renewal and has consulted with his operations team to provide data points relevant to the renewal decision. The email appears incomplete, but indicates Accenture is preparing to share operational metrics that likely impact contract terms or service levels for a Galaxy customer or partner relationship.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request the complete email from Michael Kelley to review the full operational data points being presented",
+        "Clarify with Paul (internal recipient) what the Redhill renewal terms are and which Galaxy entity or customer relationship is affected",
+        "Prepare a response strategy for Accenture's data points once fully received to determine if renewal terms are favorable or require negotiation"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
@@ -239,42 +368,6 @@
         "Review attached credentials from Abe Bui/HL",
         "Clarify what 'the present' refers to\u2014appears to be context from prior call",
         "Determine if this is for deal support, hiring, or advisory services and route accordingly"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill renewal",
-      "body_preview": "Hi Mike - Do you know which specific cabinets are the ones that are most critical to not move?  There is likely some shifting around required in you in your current suite, but if we know which specific cabinets we can solution more accurately.\r\n\r\nThanks",
-      "received": "2026-04-28T23:35:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2B1AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALKkxdORk_JPmNsRNxzI1PI=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: renewal",
-        "Urgency: critical (+1)",
-        "12 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is asking an internal colleague (Mike) to identify which specific cabinets in their current suite are mission-critical and cannot be relocated, as this information is needed to accurately plan a reconfiguration solution for the Redhill renewal project.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Mike provide a detailed list of critical cabinets with business justification for why they cannot be moved",
-        "Once cabinet criticality is mapped, Paul should develop a detailed floor plan showing which cabinets can be shifted to accommodate the renewal",
-        "Present the solution plan to the Redhill client with timeline and any service continuity guarantees"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -1069,40 +1162,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Galaxy / DRT Partnership & Cloud House Deployment",
-      "body_preview": "That works for me.  @Tj Karklins are you free?\r\n________________________________\r\nFrom: Fiona Leon <fional@digitalrealty.com>\r\nSent: Monday, April 27, 2026 11:27 AM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Paul Leong <paul@galaxycapitalpartners.com>",
-      "received": "2026-04-27T15:40:52Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8rAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1BH3id3EBHjpybNtlBsNs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, capital",
-        "7 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Fiona Leon from Digital Realty is confirming availability for a meeting regarding the Galaxy and DRT partnership and Cloud House deployment initiative. Paul Leong has agreed to the proposed time and is checking TJ Karklins' availability to proceed.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm TJ Karklins' availability and lock in the meeting time with Fiona Leon",
-        "Prepare a partnership discussion agenda covering Cloud House deployment scope, timeline, and resource requirements",
-        "Brief Dave Misra on the partnership objectives and any key decision points needed before the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "vraj.savaj@datacenternation.com",
       "sender_name": "Vraj Savaj",
       "subject": "Re: VIP Registration for DCN Toronto",
@@ -1659,38 +1718,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "mail@redhilldatacentre.com",
-      "sender_name": "Freya Mason",
-      "subject": "New Message From Redhill Data Centre",
-      "body_preview": "Freya Mason\r\n07484986473\r\nfreya.mason@mwhtreatment.com\r\nWIF Team Challenge\r\n%%designation%%\r\nContact Sales: Schedule a meeting or tour\r\n\r\n\r\nHi,\r\n \r\nMy name is Freya, and I work in project management for a water consultancy/contracting firm. I'm part of a ",
-      "received": "2026-04-24T08:12:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADilMlnNZBNDkr5751cWRlA=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: contract, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Freya Mason is a project manager at a water consultancy/contracting firm who has reached out through a Redhill Data Centre contact form. Her message appears incomplete, but she's indicating interest in scheduling a meeting or tour, possibly related to a WIF Team Challenge initiative. This could represent a potential business development opportunity if there's a data center service need or partnership angle related to water industry operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "France or Dave should reach out to Freya directly to clarify what specific data center services or solutions her water consultancy firm requires",
-        "Determine if this relates to an actual infrastructure need, partnership opportunity, or if this is a misdirected inquiry that should be redirected",
-        "If legitimate, schedule an initial call to understand their project scope and timeline before committing to a facility tour"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "matthew.reid@castleforge.com",
@@ -2385,70 +2412,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "r.peck@2020-4.com",
-      "sender_name": "Robert Peck",
-      "subject": "Danny Hebroni Resume: Real Estate Executive",
-      "body_preview": "Dave,\r\n\r\n\r\n\r\nI hope you\u2019re well. I wanted to briefly introduce Danny Hebroni, an investment and development executive with whom we\u2019ve been working, as he explores select senior leadership opportunities within the real estate sector.\r\n\r\nDanny brings a back",
-      "received": "2026-04-22T18:56:35Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkpeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGJIfNVVDJJLr0cBVfNhSkg=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: investment, introduce"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Robert Peck from 2020-4 is introducing Danny Hebroni, a real estate investment and development executive who is exploring senior leadership roles in the sector. This appears to be a talent referral that could address potential staffing needs at Galaxy's real estate or data center operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Danny's full resume and professional background to assess fit for current or anticipated leadership vacancies",
-        "Determine if Galaxy has open senior positions in real estate, development, or operations where Danny's experience could be relevant",
-        "Schedule a preliminary call with Robert Peck to understand Danny's specific skill set and leadership experience before considering a formal interview"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "it@galaxydatacenters.com",
-      "sender_name": "Galaxy IT",
-      "subject": "Welcome to Galaxy Data Centre - Your Account details",
-      "body_preview": "Hi Faye Pan,\r\n\r\nWelcome aboard to Galaxy Data Centre. Great to have you with us.\r\n\r\nYour account has been set up and is ready to go. Here are your details:\r\n\r\nEmail address: faye@galaxydatacenters.com\r\nTemporary password: D*289660049653ut\r\n\r\nBefore you si",
-      "received": "2026-04-22T18:56:22Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkpdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKBEidudajhCupQA6ai5cN0=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Internal \u2014 deal/customer related",
-        "KW: board, data cent",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Galaxy IT has successfully provisioned a new employee account for Faye Pan with corporate email credentials and a temporary password. This is a standard onboarding notification confirming that Faye's account infrastructure is ready for her to begin work at Galaxy Data Centers. The email appears incomplete (cuts off mid-sentence), but the core message is account activation confirmation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Verify that Faye Pan has received the complete onboarding email and confirm she successfully logged in with the temporary credentials",
-        "Ensure Faye completes mandatory password reset and security setup on first login",
-        "Confirm her role and department assignments are properly configured in the directory and that she has appropriate access permissions for her position"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 74
+  "total_tracked": 73
 }
