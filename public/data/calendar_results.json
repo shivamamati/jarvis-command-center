@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T15:09:02.219760+00:00",
+  "timestamp": "2026-04-29T17:23:57.836214+00:00",
   "events": [
     {
       "subject": "Badminton with Suhas ",
@@ -43,21 +43,6 @@
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAa5w158AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
-      "subject": "Wednesday Marketing Meeting",
-      "start": "2026-04-29T16:30:00.0000000",
-      "end": "2026-04-29T17:00:00.0000000",
-      "attendees": [
-        "Sai",
-        "Animesh",
-        "SA",
-        "Intern"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qWCQbaAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
-    {
       "subject": "Call: Galaxy / Castleforge / Alantra",
       "start": "2026-04-29T17:00:00.0000000",
       "end": "2026-04-29T17:45:00.0000000",
@@ -75,16 +60,34 @@
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAbP%2Fmh1AAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
-      "subject": "Dave Assessment Review @ Wed Apr 29, 2026 3pm (ET) ",
-      "start": "2026-04-29T19:00:00.0000000",
-      "end": "2026-04-29T19:50:00.0000000",
+      "subject": "Wednesday Marketing Meeting",
+      "start": "2026-04-29T17:00:00.0000000",
+      "end": "2026-04-29T17:30:00.0000000",
       "attendees": [
-        "Jodie"
+        "Sai",
+        "Animesh",
+        "SA",
+        "Intern"
       ],
-      "organizer": "Dave Misra",
-      "location": "",
+      "organizer": "Sai Raman",
+      "location": "Microsoft Teams Meeting",
       "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAaAv6GxAAA%3D&exvsurl=1&path=/calendar/item"
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qWCQbaAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAF3CvBEwAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "HL / Galaxy - Re: Redhill",
+      "start": "2026-04-29T18:00:00.0000000",
+      "end": "2026-04-29T18:30:00.0000000",
+      "attendees": [
+        "Bui,",
+        "Paul",
+        "Plaza",
+        "Pryor,"
+      ],
+      "organizer": "Bui, Abe",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAbWkn6DAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Recurring Internal Galaxy Sync Paul/Dave/Ash/Tj",
