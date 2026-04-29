@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-29T08:09:51.031675+00:00",
-  "total": 3,
-  "new": 3,
-  "noise": 3,
-  "ai": 1,
+  "timestamp": "2026-04-29T10:51:48.603628+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 5,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 38,
   "items": [
+    {
+      "sender_email": "media@jsa.net",
+      "sender_name": "JSA",
+      "subject": "This Week\u2019s Data Center, Telecom & Tech Headlines in 60 Seconds \u23f2\ufe0f",
+      "body_preview": "Time for your weekly dose of data center, telecom & tech news. Here are the top headlines you may have missed.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
+      "received": "2026-04-29T10:02:54Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJpSeijNNZJIpnAJJQ_MFnM=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: jsa.net",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "JSA is sending a weekly curated newsletter of data center, telecom, and technology industry headlines. This is a routine industry news digest service designed to keep subscribers informed on sector trends and developments.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the headline summaries to identify any competitive threats, regulatory changes, or market opportunities relevant to Galaxy's data center portfolio",
+        "Flag any news items requiring strategic response or that impact current customer discussions",
+        "Consider whether JSA's newsletter distribution could be a channel for Galaxy thought leadership or company announcements"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "rj@galaxydatacenters.com",
+      "sender_name": "Rhys  Jones",
+      "subject": "Fw: Possible Unit 3 sales capacity",
+      "body_preview": "Dave\r\n\r\nNot saying that there is no capacity at Unit 3.\r\nHowever, the capacity is subjective - and as can be seen by what Nomura is asking for in their TDD, a position needs to be established as questions such as those in cells E21, E34 & E47 - influenced",
+      "received": "2026-04-29T08:52:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJBE9Ql5Lp9Pna-xUwUw81w=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Attachments from known (+1)",
+        "Re customer: nomura",
+        "Internal \u2014 deal/customer related",
+        "KW: capacity",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rhys Jones is flagging that while Unit 3 may have available capacity, the definition and measurement of that capacity is unclear and needs to be formalized. Nomura's technical due diligence request has exposed gaps in how Galaxy currently quantifies and documents capacity metrics, which could impact their ability to close deals and provide credible capacity statements to prospects.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule a meeting with Rhys and the operations team to standardize capacity measurement definitions and establish clear documentation protocols for Unit 3",
+        "Review Nomura's TDD questions (specifically cells E21, E34, E47) to understand what capacity data they require and map current Galaxy systems to those requirements",
+        "Develop a capacity position paper or technical specification that addresses standardized metrics before responding to future customer due diligence requests"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "abui@hl.com",
       "sender_name": "Bui, Abe",
@@ -2476,109 +2543,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "colin.bell@redhilldatacentre.com",
-      "sender_name": "Colin Bell",
-      "subject": "Re: Navisite/Accenture Site Tour - Redhill DC - 23rd April",
-      "body_preview": "Thanks Usman,\r\n\r\nSee you tomorrow.\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager\r\n\r\nE:colin.bell@redhilldatacentre.com\r\nP:+44 07484 456529\r\nW:galaxydatacenters.com\r\n\r\nOffice Hours: Mon-Fri 07:00-16:00\r\n\r\n\r\n\r\n________________________________\r\nFrom: Ahmed, Us",
-      "received": "2026-04-22T10:37:19Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkokAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKWEIYZHPUlNoBm2KzMpL5k=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Redhill ops",
-        "8 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Colin Bell, Service Delivery Manager at Redhill Data Centre, is confirming attendance at tomorrow's scheduled site tour for Navisite/Accenture stakeholders on April 23rd. This is a routine confirmation for a planned facility visit that likely involves showcasing Galaxy's data center capabilities to potential partners or customers.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm final headcount and logistics for tomorrow's site tour with Usman Ahmed and Colin Bell",
-        "Ensure all necessary site access, safety briefings, and presentation materials are prepared for the Navisite/Accenture visitors",
-        "Follow up post-tour with a summary of discussion points and any commercial opportunities identified"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "Re: S140 UPS A02 P3 event",
-      "body_preview": "Thanks Fredy\r\n\r\nWho is the expert please.\r\n\r\nKind regards\r\n\r\n\r\n________________________________\r\nFrom: Fredy Marie-Emilienne <fredy.marie-emilienne@redhilldatacentre.com>\r\nSent: 22 April 2026 10:33 AM\r\nTo: Rhys Jones <rj@galaxydatacenters.com>; Ash Gupta ",
-      "received": "2026-04-22T09:34:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkoZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPWfMT1zTINOqlj2jhKjxmk=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "12 VIPs on thread (+2)",
-        "Thread: 7 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones (Galaxy Data Centers internal contact) is requesting clarification on who the technical expert is regarding an S140 UPS A02 P3 event that Fredy from Redhill Data Centre previously mentioned. This appears to be a follow-up to an incident or issue requiring expert intervention, and the lack of clarity on point-of-contact could delay resolution of what may be a critical infrastructure problem.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Fredy should immediately clarify which expert/team is responsible for the S140 UPS A02 P3 issue and confirm their availability",
-        "Confirm whether this is an active incident requiring immediate escalation and what the current status/impact is on Galaxy facilities",
-        "Establish a clear contact and escalation path for this issue to prevent further delays in resolution"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "mark.hodge@nomura.com",
-      "sender_name": "mark.hodge@nomura.com",
-      "subject": "RE: VRM \u2013  Data Centre Services Ltd  - EMEA Data Centres (Redhill) \u2013  Financial Health Check task",
-      "body_preview": "Hi Paul,\r\n\r\nApologies for taking so long to come back to you on this. I now have agreement from our Finance team to join a MS Teams call with yourselves to try and get this resolved.\r\n\r\nCan you please share your availability to join a MS Teams call on Wed",
-      "received": "2026-04-22T08:31:16Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkoOAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA19ajWIL0TOsIqONQ-Bplc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: nomura.com",
-        "KW: lease, data cent",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Mark Hodge from Nomura is confirming that his Finance team has approved participation in a Teams call to discuss the financial health assessment of Galaxy's Redhill data center facility. He's requesting Paul's availability for Wednesday to move forward with resolving this matter, indicating there may be previous outstanding issues or clarifications needed on Galaxy's financial position or facility metrics.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Paul confirm Galaxy's availability for the Wednesday Teams call and provide specific time slots to Mark",
-        "Prepare a concise financial summary and key metrics for the Redhill facility to present during the call",
-        "Clarify with Mark what specific financial health items Nomura's Finance team needs addressed before the call"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 77
 }
