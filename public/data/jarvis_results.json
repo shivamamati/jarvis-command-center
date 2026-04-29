@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-29T02:34:31.592789+00:00",
-  "total": 2,
-  "new": 2,
+  "timestamp": "2026-04-29T05:51:15.033545+00:00",
+  "total": 4,
+  "new": 4,
   "noise": 2,
-  "ai": 0,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 39,
   "items": [
+    {
+      "sender_email": "abui@hl.com",
+      "sender_name": "Bui, Abe",
+      "subject": "Re: Quick call time sensitive",
+      "body_preview": "Dave,\r\n\r\nIn the interest of time, please see attached our data center creds. We have great depth of coverage in digital infrastructure across Europe and can augment with more info if you think that'd be helpful.\r\n\r\nAnd thanks again for sharing the present",
+      "received": "2026-04-29T05:37:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2B8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJH-ebLqaE5KgZFIJhIRDZs=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied 3x (+4)",
+        "Attachments + deal KW (+2)",
+        "KW: lease, data cent",
+        "Urgency: time sensitive (+1)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Abe Bui from HL (likely Heidrick & Struggles or similar exec search/advisory firm) is following up on a previous conversation with Dave. He's sending data center credentials and offering to provide additional information\u2014this appears to be a direct response to Dave's request, suggesting an active engagement around a deal or hiring need.",
+      "ai_action": "Dave should review the attached credentials and decide if follow-up conversation is needed. If this is related to an active deal (18MW prospect, Poland 260MW, or other portfolio company), prioritize the response.",
+      "ai_next_steps": [
+        "Review attached credentials from Abe Bui/HL",
+        "Clarify what 'the present' refers to\u2014appears to be context from prior call",
+        "Determine if this is for deal support, hiring, or advisory services and route accordingly"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -111,42 +145,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "abui@hl.com",
-      "sender_name": "Bui, Abe",
-      "subject": "Re: Quick call time sensitive",
-      "body_preview": "Hey Dave,\r\n\r\nThanks for sending all that info. Will review.\r\n\r\nFresh NDA attached.\r\n\r\nBest,\r\nAbe\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Tuesday, April 28, 2026 12:27 PM\r\nTo: Bui, Abe <ABui@HL.com>\r\nSubject:",
-      "received": "2026-04-28T20:02:04Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJH-ebLqaE5KgZFIJhIRDZs=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 3x (+4)",
-        "Attachments + deal KW (+2)",
-        "KW: nda",
-        "Urgency: time sensitive (+1)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Abe Bui from HL (likely Heidrick & Struggles or similar) is responding to Dave's outreach with an NDA attached. This appears to be a time-sensitive follow-up on a deal or partnership discussion Dave initiated. The fresh NDA suggests negotiation or due diligence is moving forward.",
-      "ai_action": "Dave should review the attached NDA immediately and determine if revisions are needed before signing. Confirm next steps with Abe on the timeline.",
-      "ai_next_steps": [
-        "Review attached NDA for any Galaxy-specific concerns or required modifications",
-        "Determine if this is for a potential investment, partnership, or data center transaction",
-        "Respond to Abe with approval or requested changes within 24 hours given 'time sensitive' flag",
-        "Prepare for next call with Abe once NDA alignment is confirmed"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
