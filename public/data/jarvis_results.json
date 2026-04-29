@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-29T19:19:27.510443+00:00",
-  "total": 12,
-  "new": 12,
-  "noise": 8,
-  "ai": 12,
+  "timestamp": "2026-04-29T21:00:07.646193+00:00",
+  "total": 10,
+  "new": 10,
+  "noise": 7,
+  "ai": 10,
   "skipped": 0,
-  "auto_learned": 39,
+  "auto_learned": 38,
   "items": [
+    {
+      "sender_email": "dmcneish@travelers.com",
+      "sender_name": "McNeish, Dave",
+      "subject": "RE: [External] Re: Travelers : Galaxy Follow up",
+      "body_preview": "Ash,\r\nWe can discuss tomorrow \u2013 we just need to move this forward.\r\nThanks\r\nDave\r\n\r\nDavid P McNeish | Vice President\r\nCorporate Procurement\r\nTravelers\r\n1 Tower Sq. | 1MS\r\nHartford, CT  06106\r\nW: 860.954.8584   dmcneish@travelers.com\r\nVisit us on  Inside",
+      "received": "2026-04-29T19:58:09Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQ%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: travelers.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "David McNeish is Vice President of Corporate Procurement at Travelers Insurance and is signaling readiness to advance discussions with Galaxy, indicating time-sensitive momentum on what appears to be a procurement or partnership initiative. His brief message suggests he wants to move past preliminary conversations and take concrete next steps, implying Travelers may be evaluating Galaxy's services or solutions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm meeting details and agenda with McNeish for tomorrow's discussion to understand Travelers' specific requirements and decision timeline",
+        "Prepare Galaxy's value proposition and relevant case studies focused on Travelers' potential use cases (likely data center, cloud services, or infrastructure solutions)",
+        "Identify internal stakeholder (likely France) to lead the account and ensure follow-up documentation and proposal timeline are ready post-meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "mail@redhilldatacentre.com",
       "sender_name": "Colin Fowler",
@@ -29,12 +61,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Colin Fowler from Yoti is requesting a sales quote, though his email lacks specifics about which Galaxy products or services he's interested in. This is a qualified sales lead from a potentially significant technology partner that requires clarification on scope and requirements to move forward.",
+      "ai_summary": "Colin Fowler from Yoti (contact details provided) is requesting a sales quote, likely for data center services or infrastructure solutions. This appears to be a qualified lead from Redhill Data Centre seeking Galaxy's services or partnership. The vague nature of the request requires clarification on scope and requirements to properly assess fit and opportunity size.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have France or sales team reach out to Colin at 07725647955 or Colin.fowler@yoti.com to qualify the opportunity and understand what services/capacity Yoti is evaluating",
-        "Determine if this relates to data center capacity, cloud infrastructure, or other Galaxy offerings to prepare an appropriate proposal",
-        "Once scope is confirmed, prepare customized quote and schedule follow-up meeting to discuss pricing and terms"
+        "France or sales team should contact Colin at 07725647955 or Colin.fowler@yoti.com to clarify what specific services/capacity Yoti requires and their timeline",
+        "Research Yoti's operations and data infrastructure needs to understand the potential deal scope before providing a quote",
+        "Prepare a discovery call agenda to gather requirements around capacity, geography, compliance needs, and commercial terms"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -204,40 +236,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "Re: [External] Re: Travelers : Galaxy Follow up",
-      "body_preview": "Hi Ben,\r\n\r\nThanks for checking in. Paul and I reviewed the first draft and have sent some comments back to legal.\r\n\r\nWe don\u2019t have the revised version back yet but I\u2019m happy to provide the initial template for your review if you wish?\r\n\r\nAsh\r\n\r\n\r\n\r\nAsh Ro",
-      "received": "2026-04-29T14:50:07Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAN8LZX4sb2lNs_5_UQRpJ4Q=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Re customer: travelers",
-        "Internal \u2014 deal/customer related",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ashley Roberts (Galaxy Data Centers) is providing an update on a legal contract review process with Travelers. She and Paul have completed their initial review and submitted feedback to legal, and she's offering to share the original template with Ben if needed while they await the revised version.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Ashley whether Ben needs the initial template shared now or should wait for the revised version from legal",
-        "Set a timeline with legal for when the revised contract will be ready for next review cycle",
-        "Determine if Dave needs to be looped in on key contract terms or terms sheet before final execution"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -2344,75 +2342,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "Re: operational concerns ",
-      "body_preview": "Guys\r\n\r\nA few things here that are frustrating.\r\n\r\nOn the BMS, I asked for input from the site team for how they wanted the UPS to be represented.\r\nThis was asked back in February - please see attached.\r\n\r\nI've had no feedback and am not ultimately mandat",
-      "received": "2026-04-22T20:29:16Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaqqkpoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMbfG-YqpxZNsTdNA0CaOtE=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Attachments + deal KW (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Galaxy Data Centers is escalating a delay on a Building Management System (BMS) configuration issue where he requested site team input on UPS representation back in February and has not received feedback, leaving him unable to finalize the system implementation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Identify and contact the responsible site team lead to collect the outstanding BMS/UPS input from February",
-        "Establish a deadline for site team feedback and assign clear ownership to prevent further delays",
-        "Follow up with Rhys to confirm receipt of feedback and provide timeline for BMS completion"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Data Center Server Discussion - Can you join?",
-      "body_preview": "These are the 3 ones that i am interested in Data Center Server Outlook Discussion - 5/11 at 12pm ET\r\nData Center Infrastructure Discussion - 5/12 at 3pm ET\r\nNeocloud Discussion - 5/13 at 12pm ET\r\n\r\n\r\nFrom: Laura Maltez <Laura.Maltez@bwgglobal.com>\r\nDate:",
-      "received": "2026-04-22T19:42:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGNxeQtvKolLtfAzGeSgtu4=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Laura Maltez from BWG Global is confirming three upcoming meetings that Dave wants to attend: a Data Center Server Outlook discussion on 5/11, a Data Center Infrastructure discussion on 5/12, and a Neocloud discussion on 5/13. These sessions appear to be industry forums relevant to Galaxy's data center and infrastructure strategy. Dave's interest in all three suggests active engagement with market developments and potential business opportunities in the data center space.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Dave's attendance and calendar holds for all three meetings with Laura Maltez",
-        "Prepare briefing materials on each topic (server trends, infrastructure updates, Neocloud competitive positioning) for Dave before 5/11",
-        "Assign France or relevant team member to monitor action items and follow-ups from these discussions for Galaxy's strategic planning"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 73
+  "total_tracked": 71
 }
