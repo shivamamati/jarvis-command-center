@@ -1,12 +1,12 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-29T22:06:51.355511+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 6,
-  "ai": 7,
+  "timestamp": "2026-04-29T23:51:55.108832+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
-  "auto_learned": 38,
+  "auto_learned": 37,
   "items": [
     {
       "sender_email": "dmcneish@travelers.com",
@@ -2242,74 +2242,7 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "krish@galaxydatacenters.com",
-      "sender_name": "Krish Mehta",
-      "subject": "Updated Docklands Acquisition Materials",
-      "body_preview": "Hi all,\r\n\r\nAttached here we have the updated docklands acquisition materials including an updated model and two versions of a deck presentation.\r\n\r\nThe interns would love to get some feedback and see where we can take it from here. Paul - for the model th",
-      "received": "2026-04-22T22:35:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAaylPpKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMnNxPCTwTlDpUsOcwbRtSc=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied 2x (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Krish Mehta is sharing updated acquisition materials for the Docklands deal, including a financial model and two presentation deck versions prepared by the team. The interns are seeking feedback to refine these materials before moving forward with the transaction, which appears to be a significant M&A initiative for Galaxy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the financial model and presentation decks to identify gaps, assumptions, or areas requiring refinement",
-        "Schedule a brief sync with Krish and the intern team to provide targeted feedback and next phase priorities",
-        "Clarify the intended audience and timeline for these materials (investor pitch, internal approval, counterparty discussion, etc.)"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Industry research interview on the Data Centers Space - Guidepoint ",
-      "body_preview": "Hi Nikos,\r\n\r\nHappy to clarify both points.\r\n\r\nOn the confidentiality question \u2014 yes, please update that to \u201cYes.\u201d\r\n\r\nOn data centre locations \u2014 to clarify: our flagship operational campus is Galaxy Redhill in London, which comprises three data centres. Th",
-      "received": "2026-04-22T22:19:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANH6B23kkZZDjdHr1RXjmCw=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, data cent",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Nikos (likely from Guidepoint, a research/advisory firm) is conducting industry research on the data center sector and needs clarification on Galaxy's confidentiality preferences and operational footprint. Dave is responding affirmatively to confidentiality requirements and providing key details about Galaxy's primary asset\u2014the three-data center campus at Redhill in London. This appears to be part of a market intelligence engagement that could impact Galaxy's positioning in industry research and investor perception.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Nikos that confidentiality has been updated to 'Yes' and clarify what specific data points they need beyond the Redhill campus location",
-        "Prepare a brief fact sheet on Galaxy's complete data center portfolio (locations, capacity, customers) to ensure consistent and complete information sharing with Guidepoint",
-        "Follow up internally on whether this research engagement aligns with any investor relations or market positioning objectives"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 70
+  "total_tracked": 68
 }
