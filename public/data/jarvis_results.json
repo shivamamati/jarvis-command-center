@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-29T21:00:07.646193+00:00",
-  "total": 10,
-  "new": 10,
-  "noise": 7,
-  "ai": 10,
+  "timestamp": "2026-04-29T22:06:51.355511+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 6,
+  "ai": 7,
   "skipped": 0,
   "auto_learned": 38,
   "items": [
@@ -2309,40 +2309,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: Datacentre JV - Frankfurt",
-      "body_preview": "FYI\r\n\r\n\r\n\r\nDave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Richard Ludwig <richard.ludwig@alantra.co",
-      "received": "2026-04-22T21:36:50Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAaq9pUlAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADzCTTG-u05dnBDUZo7EuV8=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "3 VIPs on thread (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Unable to provide briefing - the forwarded email content from Richard Ludwig at Alantra regarding a Frankfurt data center joint venture was not included in the message body. Dave has flagged this for attention but the underlying communication and specific request are missing.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Dave or his team to resend the complete forwarded email from Richard Ludwig with full message body intact",
-        "Once received, review the Frankfurt JV proposal details and timeline to assess strategic fit and resource requirements",
-        "Prepare a response framework outlining Galaxy's interest level, key terms, and decision timeline for the opportunity"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 71
+  "total_tracked": 70
 }
