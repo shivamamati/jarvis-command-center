@@ -1,13 +1,358 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-30T19:14:43.360376+00:00",
-  "total": 11,
-  "new": 11,
+  "timestamp": "2026-04-30T20:56:57.901465+00:00",
+  "total": 23,
+  "new": 23,
   "noise": 8,
-  "ai": 10,
+  "ai": 17,
   "skipped": 0,
   "auto_learned": 32,
   "items": [
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: Lead Gen Plan from JSA",
+      "body_preview": "Hi Giovanni,\r\nApologies for the delay here, Dave has been traveling.\r\nHe\u2019s keen to reconnect and would like to set up a call with you and Sai to continue the discussion.\r\nWould you be available for a quick call at 10:00 PM IST (4:30 PM UK time) on Monday ",
+      "received": "2026-04-30T20:10:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHKNgew6Bk9ClDEVV_fev-0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is responding to Giovanni from JSA regarding a lead generation plan discussion. Dave (you) wants to reconnect and continue the conversation with Giovanni and Sai, proposing a call Monday at 10:00 PM IST / 4:30 PM UK time. This appears to be a business development opportunity with JSA that requires your direct engagement to move forward.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm availability for the Monday 10:00 PM IST call with France and communicate your response to her",
+        "Review the original JSA lead gen plan proposal before the call to be prepared for discussion points",
+        "Have France coordinate final meeting details and send calendar invites to Giovanni and Sai"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: VIP Registration for DCN Toronto",
+      "body_preview": "Hi Vraj,\r\nThis is Dave's assistant. There will be no additional passes needed for now\u2014if we do, I\u2019ll let you know.\r\nBest regards,\r\nFrance\r\n________________________________\r\nFrom: Vraj Savaj <Vraj.Savaj@datacenternation.com>\r\nSent: Monday, April 27, 2026 1",
+      "received": "2026-04-30T20:09:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFP497pvyE07ovlzEsE7p1g=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Vraj Savaj from Data Center Nation (DCN) had inquired about additional VIP registration passes for an upcoming Toronto event. France has confirmed on Dave's behalf that Galaxy does not need additional passes at this time, but will reach out if the situation changes.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "File or track this response in case DCN follows up with event details or logistics closer to the event date",
+        "Confirm with Dave whether the current pass allocation is sufficient for any key stakeholders who should attend DCN Toronto"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "victoria.skrbensky@jll.com",
+      "sender_name": "Skrbensky, Victoria",
+      "subject": "Re: Project Br\u00f8ndby | 50 MVA Powered Land in Copenhagen",
+      "body_preview": "Hi France,\r\n\r\nThank you for reaching out. Monday is unfortunately a bank holiday. Can we speak Tue afternoon? I've sent an invite already but happy to adjust.\r\n\r\nBest\r\nVictoria\r\n\r\n\r\nVictoria v. Skrbensky\r\n\r\nAssociate Director, Data Centres\r\nInternational ",
+      "received": "2026-04-30T20:07:57Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGucUX-pEOJNlcCPp6fKtRA=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "PIPELINE [Victoria Skrbensky]",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "VIP: jll.com",
+        "Pipeline: victoria skrbensky",
+        "KW: nda, power, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Victoria Skrbensky from JLL's International Data Centres team is responding to France's outreach regarding the Project Br\u00f8ndby powered land opportunity in Copenhagen. She's proposing a Tuesday afternoon call instead of Monday due to a local bank holiday, and has already sent a calendar invitation. This suggests JLL may be involved in brokerage, advisory, or transaction support for this 50 MVA development opportunity, and securing Victoria's engagement is critical for moving the deal forward.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Tuesday afternoon meeting time with Victoria and ensure France has the calendar details",
+        "Prepare deal materials and requirements for the Copenhagen project to discuss with Victoria ahead of the call",
+        "Brief Dave on JLL's role in this transaction and what Galaxy's ask of them will be (capital deployment, site control, permitting support, etc.)"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: Woods Capital (Just called)",
+      "body_preview": "Hi Jamie,\r\nApologies for the delay\u2014Dave has been travelling.\r\nHe\u2019s open to this and would be happy to connect. Could you please suggest a few time slots after May 10th?\r\nIn the meantime, if you\u2019re able to share a teaser ahead of time, that would be very h",
+      "received": "2026-04-30T20:07:51Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqScAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAB2v1JiLYitBmdDM9BcAJyE=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital, lease, teaser"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Jamie from Woods Capital has reached out requesting a meeting with Dave, and France has indicated Dave is willing to connect. France is asking for available meeting times after May 10th and would like preliminary information about Woods Capital's proposal beforehand.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should confirm his availability and provide France with 3-4 specific time slots after May 10th for the Woods Capital meeting",
+        "Follow up with Jamie requesting a teaser document or one-pager outlining Woods Capital's investment thesis or specific opportunity before the meeting",
+        "France should schedule the meeting once Jamie confirms preferred timing and prepare briefing materials on Woods Capital's background and recent deals"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: Unique Data Center Investment Opportunity",
+      "body_preview": "Hi Roco,\r\nDave is currently traveling and unavailable at the moment.\r\nPlease feel free to send over the teaser and NDA for review.\r\nThank you!\r\nBest regards,\r\nFrance\r\n________________________________\r\nFrom: Roco Gandara <rgandara@stirlingst.com>\r\nSent: Mo",
+      "received": "2026-04-30T20:06:47Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, investment, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Roco Gandara from Stirling Street is presenting a data center investment opportunity and has been asked by France to submit a teaser document and NDA for Galaxy's review. This represents a potential new investment deal that requires immediate document review while Dave is traveling.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Coordinate with France to establish a review timeline and assign responsibility for NDA and teaser evaluation",
+        "Once documents are received, schedule a preliminary call with Roco to understand the investment structure, returns, and strategic fit with Galaxy's portfolio",
+        "Brief Dave upon his return with a summary of the opportunity and initial assessment before pursuing further discussions"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "conferencenews@connectcre.com",
+      "sender_name": "Connect Los Angeles",
+      "subject": "30 Days Out: Commercial Real Estate Power Players Are In, Will You Be There?",
+      "body_preview": "Clock\u2019s Ticking: Connect LA Is 1 Month Away\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f",
+      "received": "2026-04-30T20:05:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AASdG65EAAAuilH2jaEmTaBeWRekOs%2B0AAbar2WjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAChtyhUqIyNMhR0Yln4I_jI=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: power"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 4,
+      "ai_label": "NOTABLE",
+      "ai_summary": "AI unavailable \u2014 Expecting ',' delimiter: line 4 column 118 (char 1",
+      "ai_action": "Manual review needed",
+      "ai_next_steps": [],
+      "ai_failed": true,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: Hi!",
+      "body_preview": "Hi Charlie,\r\nGreat to hear from you!\r\nI\u2019m France, Dave\u2019s EA. He asked me to pass along his apologies as he\u2019s been traveling throughout the past week.\r\nHe\u2019ll be back next week and would be happy to reconnect. Can you book a time from May 10 onwards that wo",
+      "received": "2026-04-30T19:59:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANAD-SzDs9lOkJqO0XzynY8=",
+      "rules_score": 3,
+      "rules_label": "NOISE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Internal + customer (+1)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France (Dave's Executive Assistant) is responding to an outreach from Charlie on Dave's behalf, apologizing for delayed response due to travel. She's offering to schedule a reconnection call starting May 10th, suggesting Dave has interest in meeting with this contact.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify Charlie's identity, company, and the original purpose of their outreach to determine strategic fit with Galaxy",
+        "Confirm Dave's availability for a meeting slot between May 10th onwards and have France send calendar invite",
+        "Prepare briefing materials on Charlie's company/proposition before the scheduled call"
+      ],
+      "ai_failed": false,
+      "final_score": 3,
+      "final_label": "NOISE"
+    },
+    {
+      "sender_email": "rohanhoughton@eversheds-sutherland.com",
+      "sender_name": "Houghton, Rohan",
+      "subject": "RE: DORA - fee quote",
+      "body_preview": "You don't often get email from rohanhoughton@eversheds-sutherland.com. Learn why this is important\r\nHi Paul\r\nConfirming that we are actively reviewing the SMBC agreement and we\u2019ll come back to you if there\u2019s any questions or additional documents we need.",
+      "received": "2026-04-30T19:51:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMSpXR5-EV9HrccPcQ_ezQA=",
+      "rules_score": 5,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Rohan Houghton at Eversheds Sutherland (major UK law firm) is confirming active review of the SMBC agreement\u2014likely related to the Redhill Data Centre JV financing with SMBC/ICG. This is a substantive legal matter requiring Dave's awareness.",
+      "ai_action": "Flag to Dave: Eversheds is actively reviewing SMBC docs. Check with internal counsel (likely Simmons & Simmons) on status and any anticipated questions.",
+      "ai_next_steps": [
+        "Confirm with internal legal counsel on status of SMBC agreement review",
+        "Monitor for follow-up from Eversheds on additional document requests",
+        "Ensure Dave is briefed if Eversheds raises material questions"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: Invited to Speak - Advancing Data Centre Construction Canada 2026",
+      "body_preview": "Hi Reece,\r\nThanks for sharing this, the agenda looks great.\r\nI am France, Dave's assistant. Apologies for delays. Dave has been traveling and won\u2019t be back in Canada until later next week. He\u2019s definitely interested but won\u2019t be able to connect this week.",
+      "received": "2026-04-30T19:48:14Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMZ4WSxtydxDjPsyY5doDd4=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Reece has invited Dave to speak at the Advancing Data Centre Construction Canada 2026 conference. France confirms Dave's interest in the speaking opportunity but indicates he's traveling and unavailable for meetings this week, with his return to Canada scheduled for late next week. This is a brand visibility and thought leadership opportunity for Galaxy at a key industry event.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule a call between Dave and Reece for late next week when Dave returns to Canada to discuss speaking topic and logistics",
+        "Have France review the full conference agenda and speaker details to prepare Dave with background information before the call",
+        "Confirm speaking slot timing, topic requirements, and any preparation materials needed from Galaxy by a specific deadline"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Re: Prep Call, DCN Toronto | Canada: The new frontier for global investment & data center growth",
+      "body_preview": "Hi Matthew, all,\r\nFrance here, Dave\u2019s assistant.\r\nLooking at Dave\u2019s calendar, he should be available on Monday, May 11, and will be in Toronto by then.\r\nHappy to coordinate and align on a time within the proposed window.\r\nBest regards,\r\nFrance\r\n__________",
+      "received": "2026-04-30T19:46:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJi-Gp8Pc0vHjD8Wqqpn8Jg=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, investment, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "France is confirming Dave's availability for a prep call related to a Toronto data center networking event focused on Canadian investment and data center growth opportunities. Dave will be in Toronto on Monday, May 11 and is available to meet within the proposed timeframe, positioning Galaxy to engage with this strategic Canadian market initiative.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm specific meeting time with Matthew and other participants for the Monday, May 11 prep call",
+        "Prepare briefing materials on Galaxy's Toronto data center strategy and Canadian expansion plans for Dave to review before the call",
+        "Identify key stakeholders or investment partners Galaxy should target at this Canada-focused event"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Fwd: Call: Galaxy / Castleforge / Alantra",
+      "body_preview": "Sent from my iPhone\r\n\r\nBegin forwarded message:\r\n\r\nFrom: Alex MacPherson <alex.macpherson@alantra.com>\r\nDate: April 30, 2026 at 2:27:57\u202fPM EDT\r\nTo: Paul Leong <paul@galaxydatacenters.com>, Pelle Jorgen <pelle.jorgen@castleforge.com>, Louis Mueller <loui",
+      "received": "2026-04-30T19:35:22Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABK5tKfSsUWBvaYkV2Z-sGY=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Alex MacPherson from Alantra (likely a financial advisory/investment firm) is initiating a call to discuss a transaction or strategic matter involving Galaxy Data Centers and Castleforge. This appears to be a three-party engagement that Paul Leong is flagging to leadership, suggesting a time-sensitive business development or deal-related communication requiring Dave's attention.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm meeting details with Paul Leong regarding the Alantra call and clarify Castleforge's role and objectives for this engagement",
+        "Prepare deal context or background materials on any existing relationships with Castleforge and Alantra before the scheduled call",
+        "Determine if France or other senior team members need to participate in this call based on the strategic nature of the discussion"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
     {
       "sender_email": "france@galaxydatacenters.com",
       "sender_name": "France",
@@ -15,7 +360,7 @@
       "body_preview": "________________________________\r\nFrom: Paulina Sinclair-Fortin <Paulina.Sinclair-Fortin@dal.ca>\r\nSent: Wednesday, April 29, 2026 1:56 PM\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>\r\nSubject: Fall & Summer 2026 Hiring/Funding Reminders Dalhousie ",
       "received": "2026-04-30T19:01:20Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADhjHiezt0_er9GPukTlwZM=",
       "rules_score": 6,
@@ -29,12 +374,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paulina Sinclair-Fortin from Dalhousie University is reaching out regarding work-integrated learning (WIL) co-op placements for Fall and Summer 2026, likely seeking Galaxy's participation as an employer partner or funding contributor. This represents an opportunity to build talent pipeline relationships with a major Canadian university and strengthen corporate social responsibility positioning in the Atlantic region.",
+      "ai_summary": "Paulina Sinclair-Fortin from Dalhousie University's Work-Integrated Learning (WIL) Co-op program is reaching out with recruitment and funding deadlines for Fall and Summer 2026 placements. This is an opportunity for Galaxy to access talented Canadian students for internship/co-op positions while potentially supporting university partnerships. Acting on this promptly will help Galaxy secure the best student talent and build relationships with a major Canadian institution.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should clarify with France whether Galaxy has existing co-op partnerships with Dalhousie and what Galaxy's historical involvement has been",
-        "Determine if Galaxy wishes to participate as a hiring partner, funding sponsor, or both, and identify which business units (Galaxy Data Centers vs. Galaxy Capital Partners) should be involved",
-        "Respond to Paulina with Galaxy's interest level and any specific hiring needs or timeline requirements for Fall/Summer 2026 placements"
+        "Dave or France should review the specific hiring timelines and funding options mentioned in Paulina's email and determine Galaxy's staffing needs for Fall/Summer 2026",
+        "Confirm Galaxy's participation status and any funding commitments to Paulina by the stated deadline to secure priority access to candidates",
+        "Designate a point person to manage the recruitment process and coordinate interview schedules with qualified Dalhousie co-op students"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -304,38 +649,6 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "matthew.welch@datacenternation.com",
-      "sender_name": "Matthew Welch",
-      "subject": "Prep Call, DCN Toronto | Canada: The new frontier for global investment & data center growth",
-      "body_preview": "Hello everyone,\r\n\r\nI hope you all have been well since we last spoke.\r\n\r\nI\u2019m reaching out to schedule a Prep Call for DCN Toronto on 9th June 2026 at The International Centre.\r\n\r\nThe Moderator for this session will be Randy Borron, Vice Chairman at Cushma",
-      "received": "2026-04-30T11:16:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqRhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJi-Gp8Pc0vHjD8Wqqpn8Jg=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "VIP: datacenternation.com",
-        "KW: investment, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Welch from Data Center Nation is organizing a prep call for the DCN Toronto event scheduled for June 9, 2026, with Randy Borron (Vice Chairman at Cushman & Wakefield) moderating a session on Canada as a data center investment opportunity. This is a strategic industry conference focused on Canadian data center growth and global investment trends, representing a key networking and thought leadership opportunity for Galaxy Capital Partners.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Dave's availability for the prep call and determine which Galaxy executives should participate",
-        "Review the DCN Toronto agenda and session details to assess alignment with Galaxy's Canadian expansion strategy",
-        "Prepare talking points on Galaxy's data center investments and perspective on Canadian market opportunities"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "sa@galaxydatacenters.com",
@@ -1419,37 +1732,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "vraj.savaj@datacenternation.com",
-      "sender_name": "Vraj Savaj",
-      "subject": "Re: VIP Registration for DCN Toronto",
-      "body_preview": "Some people who received this message don't often get email from vraj.savaj@datacenternation.com. Learn why this is important\r\nHi Dave,\r\n\r\nThank you so much for taking the time to complete your registrations. I am pleased to confirm that your VIP spot for",
-      "received": "2026-04-27T15:31:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8oAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFP497pvyE07ovlzEsE7p1g=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: datacenternation.com",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Vraj Savaj from DataCenter Nation is confirming VIP registration for an event (appears to be DCN Toronto based on subject line). This is a courtesy confirmation of Dave's attendance at what is likely an industry event, indicating Galaxy Capital Partners has secured premium access.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance details and any logistics (date, time, location, agenda) with Vraj",
-        "Identify which Galaxy team members will attend and brief them on key contacts or objectives for the event",
-        "Review event agenda to prepare talking points or business development opportunities relevant to Galaxy's data center strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "steven@lehding.co.uk",
       "sender_name": "Steven McGlinchey",
       "subject": "Redhill UKPN text replies",
@@ -2037,70 +2319,7 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "karan.prasad@prosidon.com",
-      "sender_name": "Karan Prasad",
-      "subject": "Corporate Development and Financing candidate for Hyperscale projects",
-      "body_preview": "You don't often get email from karan.prasad@prosidon.com. Learn why this is important\r\n\r\nHi Dave,\r\n\r\n\r\nI\u2019m Karan from Prosidon. We focus on recruiting Data Center talent across HPC, hyperscale, and AI deployments. Our network includes professionals across",
-      "received": "2026-04-23T20:36:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP0v2vJh3nRLgWSGrZ_RKvQ=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 6,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Karan Prasad from Prosidon (data center recruitment firm) is reaching out to Dave about sourcing Corporate Development and Financing talent for hyperscale/AI projects. This is a personalized outreach from a recruiter in Galaxy's sector who likely has relevant candidates.",
-      "ai_action": "Have France review and respond. If Galaxy is actively hiring for Corp Dev or Finance roles, this warrants a brief call to understand Prosidon's candidate pool and placement process.",
-      "ai_next_steps": [
-        "France: Confirm if Galaxy has open Corporate Development or Finance headcount for hyperscale/AI projects",
-        "If yes, request candidate profiles and Prosidon's process/fees",
-        "If no immediate needs, ask Karan to follow up in 3-6 months or request candidate pipeline for future reference"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "mike.adcock@castleforge.com",
-      "sender_name": "Mike Adcock",
-      "subject": "FW: Today",
-      "body_preview": "Think Pelle may have emailed also. Colin was superb.\r\n\r\nMike Adcock\r\nO: +44 203 846 1659\r\nM: +44 7799 038 938\r\nE: mike.adcock@castleforge.com\r\n\r\nFrom: Mike Adcock\r\nSent: 23 April 2026 21:34\r\nTo: Colin Bell <colin.bell@redhilldatacentre.com>; Luke Gray <lu",
-      "received": "2026-04-23T20:35:23Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL9ZMh6HM0N2mxU6qlEcbRU=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "Tier 1: castleforge.com",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Mike Adcock from Castle Forge is providing brief positive feedback on recent interactions, noting that Colin Bell performed well and suggesting that Pelle may have also sent a separate communication. The message is informal and lacks specific details about what was discussed or what action is required.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should reach out to Pelle to confirm whether a follow-up email was sent and determine its content and any associated requests",
-        "Follow up with Colin Bell or Mike Adcock to clarify what was discussed and whether any commercial opportunities or action items emerged from the interaction",
-        "Review the full thread and any related communications to establish whether this relates to a data center partnership, service proposal, or capital opportunity that requires Galaxy's response"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 64
+  "total_tracked": 71
 }
