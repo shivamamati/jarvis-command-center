@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-30T21:56:04.714649+00:00",
-  "total": 20,
-  "new": 20,
-  "noise": 10,
-  "ai": 16,
+  "timestamp": "2026-04-30T22:51:29.535860+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 8,
+  "ai": 9,
   "skipped": 0,
   "auto_learned": 32,
   "items": [
+    {
+      "sender_email": "pelle.jorgen@castleforge.com",
+      "sender_name": "Pelle Jorgen",
+      "subject": "Re: Redhill Recap",
+      "body_preview": "Thanks, Paul. Pleasure to meet you, Abe.\r\n\r\nGiven the time difference, I suspect an afternoon slot will be preferable for the team.\r\n\r\nThe Castleforge team has availability from 2:30 - 5:30pm UKT on Friday, May 8th. Please confirm what works best on your ",
+      "received": "2026-04-30T21:55:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPR4AlHUnSNDuxMekofRn3I=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+4)",
+        "Tier 1: castleforge.com",
+        "KW: lease",
+        "3 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Pelle Jorgen from Castleforge is responding to a previous meeting recap and proposing a specific time window for a follow-up discussion. He's indicating that Castleforge's team can meet on Friday, May 8th between 2:30-5:30pm UK time and is requesting confirmation of Galaxy's preferred slot within that window. This appears to be a scheduling coordination for what could be a business development or partnership discussion related to the Redhill initiative.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should confirm Galaxy's availability within the 2:30-5:30pm UKT window on Friday, May 8th and propose a specific meeting time",
+        "Prepare briefing materials or agenda items for the Castleforge discussion to ensure productive use of the meeting time",
+        "Clarify what outcomes or decisions are expected from this follow-up meeting with Castleforge"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "media@jsa.net",
       "sender_name": "JSA",
@@ -28,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "JSA, a media/networking firm, is prompting Galaxy to schedule meetings with their clients ahead of the ITW (InfoComm Technology World) conference, emphasizing that early booking will secure preferred time slots before availability becomes constrained. This is a time-sensitive outreach encouraging Dave or the team to lock in meetings with JSA-connected prospects or partners who may be relevant to Galaxy's data center and capital business interests.",
+      "ai_summary": "JSA, a media/events organization, is promoting early networking opportunities at an upcoming ITW (likely InfoComm Technology World or similar industry conference). They're encouraging Dave to schedule meetings with their client base before peak scheduling periods. This is a time-sensitive outreach to secure premium meeting slots with potential prospects or partners relevant to Galaxy's data center and capital operations.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with JSA which specific clients or companies they're recommending Galaxy meet with at ITW and request a detailed attendee list",
-        "Evaluate ITW attendance strategy and determine if this aligns with Galaxy's conference priorities and target customer segments",
-        "If pursuing meetings, coordinate with France to block calendar time and prepare talking points for prospect conversations"
+        "Clarify which specific ITW event this references and confirm Galaxy's attendance plans",
+        "Request JSA's client roster or attendee list to identify strategic targets for Galaxy's business development",
+        "Determine if Galaxy has budget/bandwidth for additional business development meetings and empower France to coordinate scheduling if opportunity warrants"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -65,41 +100,6 @@
         "Check Dave's calendar for availability week of May 4th (excluding Monday)",
         "Reply to Gianni with 2-3 alternative dates/times",
         "Brief Dave on Gianni's background and prior relationship before the call"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Redhill Recap",
-      "body_preview": "Hi Pelle - I want to introduce you over email to Abe and Leti from Houlihan Lokey. Houlihan is excited to share their thoughts on a potential recap of Redhill with Castleforge and Galaxy next week.  I have already passed along their creds to you.  As we a",
-      "received": "2026-04-30T21:29:06Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPR4AlHUnSNDuxMekofRn3I=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: introduce",
-        "Internal + customer (+1)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong is introducing Abe and Leti from investment bank Houlihan Lokey, who want to discuss a potential recapitalization of Redhill involving Castleforge and Galaxy. This represents an opportunity to explore refinancing or restructuring options for the Redhill asset with professional banking guidance.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review Houlihan Lokey's credentials and banking proposal that Paul has already shared",
-        "Schedule the meeting with Abe and Leti for next week to hear their recap and recapitalization recommendations",
-        "Prepare internal analysis of Galaxy's current position and strategic objectives for Redhill before the meeting"
       ],
       "ai_failed": false,
       "final_score": 8,
