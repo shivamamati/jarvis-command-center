@@ -1,13 +1,113 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-30T17:16:47.932184+00:00",
-  "total": 15,
-  "new": 15,
-  "noise": 12,
-  "ai": 15,
+  "timestamp": "2026-04-30T19:14:43.360376+00:00",
+  "total": 11,
+  "new": 11,
+  "noise": 8,
+  "ai": 10,
   "skipped": 0,
-  "auto_learned": 35,
+  "auto_learned": 32,
   "items": [
+    {
+      "sender_email": "france@galaxydatacenters.com",
+      "sender_name": "France",
+      "subject": "Fw: Fall & Summer 2026 Hiring/Funding Reminders Dalhousie University WIL Co-op",
+      "body_preview": "________________________________\r\nFrom: Paulina Sinclair-Fortin <Paulina.Sinclair-Fortin@dal.ca>\r\nSent: Wednesday, April 29, 2026 1:56 PM\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>\r\nSubject: Fall & Summer 2026 Hiring/Funding Reminders Dalhousie ",
+      "received": "2026-04-30T19:01:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADhjHiezt0_er9GPukTlwZM=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital, fund"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paulina Sinclair-Fortin from Dalhousie University is reaching out regarding work-integrated learning (WIL) co-op placements for Fall and Summer 2026, likely seeking Galaxy's participation as an employer partner or funding contributor. This represents an opportunity to build talent pipeline relationships with a major Canadian university and strengthen corporate social responsibility positioning in the Atlantic region.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should clarify with France whether Galaxy has existing co-op partnerships with Dalhousie and what Galaxy's historical involvement has been",
+        "Determine if Galaxy wishes to participate as a hiring partner, funding sponsor, or both, and identify which business units (Galaxy Data Centers vs. Galaxy Capital Partners) should be involved",
+        "Respond to Paulina with Galaxy's interest level and any specific hiring needs or timeline requirements for Fall/Summer 2026 placements"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: New Message From Redhill Data Centre",
+      "body_preview": "Hi Colin,\r\n\r\nThank you for reaching out via our website. I\u2019m happy to put together a quote for Yoti.\r\n\r\nTo provide something accurate, the quickest next step is a short 15\u2011minute call so I can understand what you\u2019re looking to solve. I have the following ",
+      "received": "2026-04-30T17:43:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbXDJCXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANNL-CTHyldLqlDMU2V5fug=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: data cent",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin from Redhill Data Centre is inquiring about data center services for Yoti, a client of theirs. Dave has responded positively and proposed a discovery call to understand their specific requirements before providing a formal quote. This represents a qualified sales opportunity that requires clarification of Yoti's infrastructure needs to scope an accurate proposal.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule the 15-minute discovery call with Colin to identify Yoti's specific workload requirements, capacity needs, and timeline",
+        "Prepare Galaxy's standard service offerings summary and pricing framework to reference during the call",
+        "Follow up with a detailed quote within 24-48 hours of the call based on documented requirements"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "FW: New Deck Template Draft for Review",
+      "body_preview": "From: Faye Pan <faye@galaxydatacenters.com>\r\nDate: Wednesday, April 29, 2026 at 6:00\u202fPM\r\nTo: Dave Misra <DaveMisra@galaxycapitalpartners.com>\r\nSubject: New Deck Template Draft for Review\r\n\r\nHi Dave,\r\n\r\nSince you mentioned you would like to try differe",
+      "received": "2026-04-30T17:26:09Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbXDJCWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANLrzIybFzpEtAe1cK8afjA=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Faye Pan from Galaxy Data Centers is sending Dave a draft of a new presentation template for his review, following up on his request to explore alternative deck formats. This appears to be an internal resource for standardizing how Galaxy presents to investors and stakeholders. The timely completion and template standardization will improve efficiency in pitching and ensure consistent branding across capital and data center divisions.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the template draft and provide feedback to Faye on design, structure, and alignment with Galaxy's brand/positioning",
+        "Clarify the intended use cases and audience for this new template (investor pitches, board presentations, client proposals, etc.)",
+        "Once approved, coordinate with marketing/communications on rollout and training for the broader team"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "stephen.morita@jll.com",
       "sender_name": "Morita, Stephen",
@@ -362,38 +462,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "mail@redhilldatacentre.com",
-      "sender_name": "Colin Fowler",
-      "subject": "New Message From Redhill Data Centre",
-      "body_preview": "Colin Fowler\r\n07725647955\r\nColin.fowler@yoti.com\r\nYoti\r\n%%designation%%\r\nContact Sales: Request a quote\r\n\r\n\r\nHello,\r\n\r\nPlease can I request a quote?",
-      "received": "2026-04-29T19:11:04Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQ6AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANNL-CTHyldLqlDMU2V5fug=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Colin Fowler from Yoti (contact details provided) is requesting a sales quote, likely for data center services or infrastructure solutions. This appears to be a qualified lead from Redhill Data Centre seeking Galaxy's services or partnership. The vague nature of the request requires clarification on scope and requirements to properly assess fit and opportunity size.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "France or sales team should contact Colin at 07725647955 or Colin.fowler@yoti.com to clarify what specific services/capacity Yoti requires and their timeline",
-        "Research Yoti's operations and data infrastructure needs to understand the potential deal scope before providing a quote",
-        "Prepare a discovery call agenda to gather requirements around capacity, geography, compliance needs, and commercial terms"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "r.wilson@2020-4.com",
@@ -2034,5 +2102,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 62
+  "total_tracked": 64
 }
