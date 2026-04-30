@@ -1,13 +1,113 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-30T10:51:29.934890+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 5,
-  "ai": 4,
+  "timestamp": "2026-04-30T12:13:08.809515+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 11,
+  "ai": 13,
   "skipped": 0,
   "auto_learned": 35,
   "items": [
+    {
+      "sender_email": "kernick24@proton.me",
+      "sender_name": "Kernick",
+      "subject": "Security Vulnerability Report \u2014 Exposure of Executive Email Inbox and Employee PII via Public GitHub Repository",
+      "body_preview": "You don't often get email from kernick24@proton.me. Learn why this is important\r\nHi Galaxy Data Centers Team,\r\n\r\nI identified a critical data exposure affecting Galaxy Data Centers, Galaxy Capital Partners, and Redhill Data Centre that I'd like to report ",
+      "received": "2026-04-30T12:10:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAbVBcPTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFCsfX6lQV5KhbRgcTky3ho=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: capital, data cent",
+        "Urgency: critical (+1)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 9,
+      "ai_label": "CRITICAL",
+      "ai_summary": "A security researcher (kernick24@proton.me) has discovered a critical data exposure involving Galaxy's executive emails, employee PII, and potentially sensitive information about Redhill Data Centre exposed on a public GitHub repository. This is a legitimate security vulnerability disclosure that requires immediate investigation and remediation.",
+      "ai_action": "Dave must see this immediately. Forward to: (1) Galaxy's CTO/security lead, (2) Legal/compliance, (3) Castleforge Partners (co-investor in Redhill), (4) SMBC/ICG (lenders). Kernick appears to be conducting responsible disclosure. Respond promptly to prevent escalation.",
+      "ai_next_steps": [
+        "Dave reviews the full email and any attached details from Kernick immediately",
+        "Designate security/legal lead to contact Kernick within 24 hours to understand scope and verify their claims",
+        "Conduct internal audit of GitHub repos, S3 buckets, and public code repositories for exposed credentials/data",
+        "Notify insurance broker and consider breach counsel if data exposure is confirmed",
+        "Brief Castleforge Partners and lenders as required by partnership/lending agreements"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "colin.bell@redhilldatacentre.com",
+      "sender_name": "Colin Bell",
+      "subject": "Re: Large delivery",
+      "body_preview": "I can see the ticket and it's with our security team.\r\n\r\nWhen you have a confirmed date please let me know and I'll get it amended.\r\n\r\nKind regards,\r\n\r\n\r\nColin Bell\r\n\r\nService Delivery Manager\r\n\r\nE:colin.bell@redhilldatacentre.com\r\nP:+44 07484 456529\r\nW:g",
+      "received": "2026-04-30T12:04:42Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqRoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC0NkHRU28BIlYk4SJHUnAA=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "REDHILL OPS",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Redhill ops",
+        "KW: lease",
+        "4 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Colin Bell, Service Delivery Manager at Redhill Data Centre, is confirming that a delivery ticket has been escalated to their security team for processing. He's indicating he's ready to update the delivery date once Galaxy provides confirmed timing, suggesting this is a large shipment requiring security clearance coordination.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the exact delivery date for the large shipment and communicate it to Colin immediately",
+        "Follow up with Redhill's security team directly if there are any blockers or timeline concerns affecting the clearance",
+        "Assign someone to track the security team's approval status and ensure no delays on Galaxy's end"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "matthew.welch@datacenternation.com",
+      "sender_name": "Matthew Welch",
+      "subject": "Prep Call, DCN Toronto | Canada: The new frontier for global investment & data center growth",
+      "body_preview": "Hello everyone,\r\n\r\nI hope you all have been well since we last spoke.\r\n\r\nI\u2019m reaching out to schedule a Prep Call for DCN Toronto on 9th June 2026 at The International Centre.\r\n\r\nThe Moderator for this session will be Randy Borron, Vice Chairman at Cushma",
+      "received": "2026-04-30T11:16:58Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqRhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJi-Gp8Pc0vHjD8Wqqpn8Jg=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "VIP: datacenternation.com",
+        "KW: investment, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Welch from Data Center Nation is organizing a prep call for the DCN Toronto event scheduled for June 9, 2026, with Randy Borron (Vice Chairman at Cushman & Wakefield) moderating a session on Canada as a data center investment opportunity. This is a strategic industry conference focused on Canadian data center growth and global investment trends, representing a key networking and thought leadership opportunity for Galaxy Capital Partners.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Dave's availability for the prep call and determine which Galaxy executives should participate",
+        "Review the DCN Toronto agenda and session details to assess alignment with Galaxy's Canadian expansion strategy",
+        "Prepare talking points on Galaxy's data center investments and perspective on Canadian market opportunities"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "sa@galaxydatacenters.com",
       "sender_name": "SA",
@@ -258,41 +358,6 @@
         "Request the complete email from Michael Kelley to review the full operational data points being presented",
         "Clarify with Paul (internal recipient) what the Redhill renewal terms are and which Galaxy entity or customer relationship is affected",
         "Prepare a response strategy for Accenture's data points once fully received to determine if renewal terms are favorable or require negotiation"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Large delivery",
-      "body_preview": "Hi Matthew adding site DCM Luke Gray, and head of customer success Colin, to answer this question and help you out as needed. Luke please see Matthew\u2019s email below and please coordinate.\r\n\r\n\r\n\r\n\r\nOn Wed, Apr 29, 2026 at 9:48\u202fPM, Matthew Hamilton <mhamilto",
-      "received": "2026-04-29T16:40:13Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqQwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAC0NkHRU28BIlYk4SJHUnAA=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease, lp",
-        "5 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Hamilton (sender details incomplete in provided text) has submitted a question or request related to a large delivery that requires coordination across multiple Galaxy teams. Dave is delegating responsibility to Luke Gray (DCM Site Manager) and Colin (Head of Customer Success) to address Matthew's needs, indicating this involves site logistics and customer-facing support.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Luke Gray should retrieve and review Matthew Hamilton's complete email to understand the specific delivery requirements and timeline",
-        "Luke and Colin should coordinate to develop a joint response addressing both the operational/site logistics and customer success aspects of the large delivery",
-        "Confirm delivery feasibility, timeline, and any resource or coordination needs with Matthew within 24 hours"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2071,41 +2136,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "BMS - Rep and warranty claim",
-      "body_preview": "Ash\r\n\r\nCan you please share the wording of DLRs representation viz the BMS please?\r\n\r\nLooking at EBO version history etc and need a framework of context for the report.\r\n\r\nKind regards",
-      "received": "2026-04-23T11:49:08Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DENzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJj8Td5G2XBPiPfe_GI6Olk=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "Thread: 4 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Galaxy Data Centers is requesting the specific contractual language regarding DLR's representations related to the Building Management System (BMS) as part of investigating a potential representation and warranty claim. He's reviewing the EBO version history and needs this documentation to establish the factual and contractual context for a formal report or claim assessment.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Locate and provide Rhys with the exact BMS representation language from the DLR contract or purchase agreement",
-        "Compile the relevant EBO version history documentation that shows timeline and changes related to BMS specifications",
-        "Clarify the specific nature of the alleged BMS deficiency or breach to determine if this is a material rep & warranty issue requiring legal or claims involvement"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 64
+  "total_tracked": 65
 }
