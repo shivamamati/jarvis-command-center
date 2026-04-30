@@ -1,13 +1,74 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-29T23:51:55.108832+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 5,
-  "ai": 5,
+  "timestamp": "2026-04-30T02:35:30.943255+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 2,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "dse@eumail.docusign.net",
+      "sender_name": "Daniel Scarbrough via Docusign",
+      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
+      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
+      "received": "2026-04-30T02:23:10Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqRNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANxK3ZqcBUJBtwzgh5vG4Lc=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for review and signature. This is a formal legal document requiring Dave's attention\u2014likely tied to a deal discussion or investment opportunity with Evermere.",
+      "ai_action": "Dave should review the MNDA immediately and coordinate with Simmons & Simmons (Galaxy's legal counsel) for any required amendments or sign-off. Clarify with Daniel what opportunity or discussion this MNDA covers.",
+      "ai_next_steps": [
+        "Review the full MNDA document from DocuSign",
+        "Forward to Simmons & Simmons for legal review if not already done",
+        "Confirm with Daniel Scarbrough what deal/partnership this MNDA is protecting"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "a.cox@2020-4.com",
+      "sender_name": "Alex Cox",
+      "subject": "President of Construction \u2013 Private Multifamily Investment, Development & Management Firm with 80+ year history (Dallas)",
+      "body_preview": "We\u2019ve been retained to recruit a President of Construction in Dallas for a privately held investment, development and management firm with operations dating 80+ years.  Reporting directly to the CEO, this executive will own the full lifecycle of in-house ",
+      "received": "2026-04-30T01:15:34Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAbVBcPQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKbFXhPwYcJLs7cQNpXmNZ0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Alex Cox from a retained search firm is recruiting a President of Construction for an established Dallas-based private multifamily real estate firm with 80+ years of history. The role reports directly to the CEO and encompasses full lifecycle construction management oversight. This represents a potential executive placement opportunity or talent market intelligence relevant to Galaxy's real estate and infrastructure operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France determine if this is a candidate referral opportunity or a market intelligence gathering call, and clarify Galaxy's interest in the role or the firm",
+        "Request complete job description and candidate profile to assess fit with any Galaxy portfolio needs or strategic partnerships",
+        "Follow up within 2-3 days with either a pass or preliminary interest to maintain relationship with the recruiter"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "dmcneish@travelers.com",
       "sender_name": "McNeish, Dave",
@@ -835,37 +896,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dse@eumail.docusign.net",
-      "sender_name": "Daniel Scarbrough via Docusign",
-      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
-      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
-      "received": "2026-04-28T02:06:38Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9cAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOzpadhnpaRGvMT_OTPgxrg=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for Dave's review and signature. Evermere appears to be a potential investor or partner exploring a confidential business arrangement with Galaxy. This requires immediate attention and legal review.",
-      "ai_action": "Dave should review the MNDA immediately and forward to Simmons & Simmons (legal counsel) for review before signing. Confirm who Evermere Capital Management is and what deal/investment this relates to.",
-      "ai_next_steps": [
-        "Review the DocuSign MNDA from Daniel Scarbrough",
-        "Forward to Simmons & Simmons for legal review and advice",
-        "Determine what Evermere Capital deal/investment this MNDA covers",
-        "Respond to Scarbrough with timeline for signature once legal clears it"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "pelle.jorgen@castleforge.com",
@@ -2209,39 +2239,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "Cloud house ",
-      "body_preview": "This language is new and it sets us up for a cross connect charge that may not be economically viable - headed back to the previous version to see if this was there; I specifically looked for it...\r\n\r\nHere is the only major problem-\r\na Layer 1 Connectivit",
-      "received": "2026-04-23T01:57:15Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAay%2BPhDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHW_zfhO7u1CsH2j4hEJ57w=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 8x (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins from Galaxy Data Centers has identified a contractual language issue in a cloud connectivity agreement that introduces unexpected cross-connect charges, potentially impacting project economics. He's reverting to previous contract versions to determine when this language was introduced and flagging a Layer 1 connectivity problem that needs resolution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request TJ provide the specific cross-connect charge language and cost impact analysis for review",
-        "Have legal/contracts team compare current vs. previous versions to identify when unfavorable terms were added",
-        "Schedule call with TJ to understand the Layer 1 connectivity issue and determine mitigation options before proceeding"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     }
   ],
   "total_tracked": 68
