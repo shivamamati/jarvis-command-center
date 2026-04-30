@@ -1,44 +1,109 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-30T20:56:57.901465+00:00",
-  "total": 23,
-  "new": 23,
-  "noise": 8,
-  "ai": 17,
+  "timestamp": "2026-04-30T21:56:04.714649+00:00",
+  "total": 20,
+  "new": 20,
+  "noise": 10,
+  "ai": 16,
   "skipped": 0,
   "auto_learned": 32,
   "items": [
     {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Re: Lead Gen Plan from JSA",
-      "body_preview": "Hi Giovanni,\r\nApologies for the delay here, Dave has been traveling.\r\nHe\u2019s keen to reconnect and would like to set up a call with you and Sai to continue the discussion.\r\nWould you be available for a quick call at 10:00 PM IST (4:30 PM UK time) on Monday ",
-      "received": "2026-04-30T20:10:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
+      "sender_email": "media@jsa.net",
+      "sender_name": "JSA",
+      "subject": "Headed to ITW? Here\u2019s Who to Meet",
+      "body_preview": "Conversations are starting early. Lock in time with our clients before calendars fill up!\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007",
+      "received": "2026-04-30T21:49:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSqAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
       "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHKNgew6Bk9ClDEVV_fev-0=",
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAgZuJ8PgcBDhwruY4F3UOk=",
       "rules_score": 6,
       "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
+      "rules_tier": "VIP FIRM",
       "rules_reasons": [
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
+        "VIP: jsa.net",
         "KW: nda"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France is responding to Giovanni from JSA regarding a lead generation plan discussion. Dave (you) wants to reconnect and continue the conversation with Giovanni and Sai, proposing a call Monday at 10:00 PM IST / 4:30 PM UK time. This appears to be a business development opportunity with JSA that requires your direct engagement to move forward.",
+      "ai_summary": "JSA, a media/networking firm, is prompting Galaxy to schedule meetings with their clients ahead of the ITW (InfoComm Technology World) conference, emphasizing that early booking will secure preferred time slots before availability becomes constrained. This is a time-sensitive outreach encouraging Dave or the team to lock in meetings with JSA-connected prospects or partners who may be relevant to Galaxy's data center and capital business interests.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm availability for the Monday 10:00 PM IST call with France and communicate your response to her",
-        "Review the original JSA lead gen plan proposal before the call to be prepared for discussion points",
-        "Have France coordinate final meeting details and send calendar invites to Giovanni and Sai"
+        "Clarify with JSA which specific clients or companies they're recommending Galaxy meet with at ITW and request a detailed attendee list",
+        "Evaluate ITW attendance strategy and determine if this aligns with Galaxy's conference priorities and target customer segments",
+        "If pursuing meetings, coordinate with France to block calendar time and prepare talking points for prospect conversations"
       ],
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "gianni.anchois@gmail.com",
+      "sender_name": "Gianni Anchois",
+      "subject": "Re: Lead Gen Plan from JSA",
+      "body_preview": "Hi France,\r\n\r\nThanks for reaching out \u2014 great to hear Dave is keen to reconnect!\r\n\r\nJust a heads-up that Monday 4th May is a bank holiday here in the UK, so that day won't work for me. Would it be possible to move the call to a different day that week \u2014 p",
+      "received": "2026-04-30T21:34:17Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSoAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHKNgew6Bk9ClDEVV_fev-0=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Gianni Anchois (likely a contact/prospect introduced by JSA, Galaxy's PR partner) is responding to France's outreach about reconnecting with Dave. He's confirming interest but flagging unavailability on May 4th and proposing an alternative date that week for a call.",
+      "ai_action": "France should coordinate with Gianni to reschedule the call to another day in the week of May 4th. Confirm Dave's availability and send updated calendar invite.",
+      "ai_next_steps": [
+        "Check Dave's calendar for availability week of May 4th (excluding Monday)",
+        "Reply to Gianni with 2-3 alternative dates/times",
+        "Brief Dave on Gianni's background and prior relationship before the call"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Redhill Recap",
+      "body_preview": "Hi Pelle - I want to introduce you over email to Abe and Leti from Houlihan Lokey. Houlihan is excited to share their thoughts on a potential recap of Redhill with Castleforge and Galaxy next week.  I have already passed along their creds to you.  As we a",
+      "received": "2026-04-30T21:29:06Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSmAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPR4AlHUnSNDuxMekofRn3I=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: introduce",
+        "Internal + customer (+1)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is introducing Abe and Leti from investment bank Houlihan Lokey, who want to discuss a potential recapitalization of Redhill involving Castleforge and Galaxy. This represents an opportunity to explore refinancing or restructuring options for the Redhill asset with professional banking guidance.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review Houlihan Lokey's credentials and banking proposal that Paul has already shared",
+        "Schedule the meeting with Abe and Leti for next week to hear their recap and recapitalization recommendations",
+        "Prepare internal analysis of Galaxy's current position and strategic objectives for Redhill before the meeting"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
     },
     {
       "sender_email": "france@galaxydatacenters.com",
@@ -61,11 +126,11 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Vraj Savaj from Data Center Nation (DCN) had inquired about additional VIP registration passes for an upcoming Toronto event. France has confirmed on Dave's behalf that Galaxy does not need additional passes at this time, but will reach out if the situation changes.",
+      "ai_summary": "Vraj Savaj from Data Center Nation was offering additional VIP registration passes for the DCN Toronto event. France has declined additional passes for now on behalf of Dave, but left the door open for future requests if needs change.",
       "ai_action": null,
       "ai_next_steps": [
-        "File or track this response in case DCN follows up with event details or logistics closer to the event date",
-        "Confirm with Dave whether the current pass allocation is sufficient for any key stakeholders who should attend DCN Toronto"
+        "Monitor event planning timeline and confirm final attendance headcount with Dave before any registration deadlines",
+        "If additional passes become necessary, follow up directly with Vraj to request them in a timely manner"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -93,12 +158,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Victoria Skrbensky from JLL's International Data Centres team is responding to France's outreach regarding the Project Br\u00f8ndby powered land opportunity in Copenhagen. She's proposing a Tuesday afternoon call instead of Monday due to a local bank holiday, and has already sent a calendar invitation. This suggests JLL may be involved in brokerage, advisory, or transaction support for this 50 MVA development opportunity, and securing Victoria's engagement is critical for moving the deal forward.",
+      "ai_summary": "Victoria Skrbensky from JLL's International Data Centers team is responding to France's meeting request regarding Project Br\u00f8ndby (a 50 MVA powered land opportunity in Copenhagen). She's proposing Tuesday afternoon instead of Monday due to a bank holiday, and has already sent a calendar invite but remains flexible on timing. This matters because it indicates JLL may be representing a significant data center real estate opportunity in Copenhagen that Galaxy should prioritize discussing.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Tuesday afternoon meeting time with Victoria and ensure France has the calendar details",
-        "Prepare deal materials and requirements for the Copenhagen project to discuss with Victoria ahead of the call",
-        "Brief Dave on JLL's role in this transaction and what Galaxy's ask of them will be (capital deployment, site control, permitting support, etc.)"
+        "Confirm France's availability for Tuesday afternoon and respond to Victoria's calendar invite with specific time confirmation",
+        "Prepare brief overview of Galaxy's interest in the Br\u00f8ndby project and any specific questions about site specifications, power infrastructure, and development timeline before the call",
+        "Ensure Dave is briefed on the deal fundamentals and can join if this conversation progresses to partnership or investment discussions"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -125,12 +190,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Jamie from Woods Capital has reached out requesting a meeting with Dave, and France has indicated Dave is willing to connect. France is asking for available meeting times after May 10th and would like preliminary information about Woods Capital's proposal beforehand.",
+      "ai_summary": "France has responded to an outreach from Woods Capital indicating Dave is interested in meeting. France is requesting specific meeting time slots after May 10th and has asked for preliminary materials to review before the call to maximize preparation time.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should confirm his availability and provide France with 3-4 specific time slots after May 10th for the Woods Capital meeting",
-        "Follow up with Jamie requesting a teaser document or one-pager outlining Woods Capital's investment thesis or specific opportunity before the meeting",
-        "France should schedule the meeting once Jamie confirms preferred timing and prepare briefing materials on Woods Capital's background and recent deals"
+        "Provide France with 3-4 specific time slot options after May 10th for Dave's calendar review",
+        "Request Woods Capital send a teaser document or one-pager outlining their proposal/investment thesis before the meeting",
+        "Confirm the meeting logistics and ensure Dave is briefed on Woods Capital's background and relevance to Galaxy's strategy"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -157,12 +222,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Roco Gandara from Stirling Street is presenting a data center investment opportunity and has been asked by France to submit a teaser document and NDA for Galaxy's review. This represents a potential new investment deal that requires immediate document review while Dave is traveling.",
+      "ai_summary": "Roco Gandara from Stirling Street is presenting a data center investment opportunity and has been directed by France to submit a teaser document and NDA for review while Dave is traveling. This appears to be a potential capital deployment or partnership opportunity in Galaxy's core business sector that requires formal documentation review before Dave can evaluate.",
       "ai_action": null,
       "ai_next_steps": [
-        "Coordinate with France to establish a review timeline and assign responsibility for NDA and teaser evaluation",
-        "Once documents are received, schedule a preliminary call with Roco to understand the investment structure, returns, and strategic fit with Galaxy's portfolio",
-        "Brief Dave upon his return with a summary of the opportunity and initial assessment before pursuing further discussions"
+        "Establish a timeline with Roco for teaser and NDA submission and schedule a review meeting with Dave upon his return",
+        "Prepare an initial assessment framework to evaluate the investment opportunity once documents are received",
+        "Confirm with France what vetting criteria and internal approvals will be needed before Dave meets with Roco"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -215,12 +280,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "France (Dave's Executive Assistant) is responding to an outreach from Charlie on Dave's behalf, apologizing for delayed response due to travel. She's offering to schedule a reconnection call starting May 10th, suggesting Dave has interest in meeting with this contact.",
+      "ai_summary": "France (Dave's Executive Assistant) is responding to an outreach from Charlie, apologizing for Dave's delayed response due to travel and expressing his willingness to meet upon his return. France is attempting to schedule a reconnection meeting starting May 10th, though the email appears to be cut off mid-sentence.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify Charlie's identity, company, and the original purpose of their outreach to determine strategic fit with Galaxy",
-        "Confirm Dave's availability for a meeting slot between May 10th onwards and have France send calendar invite",
-        "Prepare briefing materials on Charlie's company/proposition before the scheduled call"
+        "Clarify who Charlie is and the nature of their business relationship or inquiry with Galaxy",
+        "Complete the scheduling request by determining Charlie's availability between May 10th onward and Dave's calendar preferences",
+        "Brief Dave on Charlie's background and the purpose of the reconnection meeting before May 10th"
       ],
       "ai_failed": false,
       "final_score": 3,
@@ -2289,37 +2354,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "jsa_events@jsa.net",
-      "sender_name": "JSA Events",
-      "subject": "Kick Off ITW 2026 with JSA's Exclusive Margarita Mixer Networking Event",
-      "body_preview": "You don't often get email from jsa_events@jsa.net. Learn why this is important\r\nJoin us May 18th at Rosa Mexicano for a JSA client exclusive event.\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f ",
-      "received": "2026-04-23T21:00:24Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPCAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAP5UR9AhzYREttaNHMpL2RI=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "VIP: jsa.net"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "JSA Events is inviting Galaxy Capital Partners to an exclusive client networking mixer on May 18th at Rosa Mexicana, positioned as a kick-off event for ITW 2026. This is a curated relationship-building opportunity with other JSA clients in the infrastructure/technology sector, likely designed to strengthen business development connections and position Galaxy alongside peer companies.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm attendance and identify 1-2 Galaxy representatives who should participate",
-        "Research other anticipated JSA clients/attendees to prepare for strategic conversations",
-        "Follow up post-event with warm introductions or partnership discussions from promising connections"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 71
+  "total_tracked": 72
 }
