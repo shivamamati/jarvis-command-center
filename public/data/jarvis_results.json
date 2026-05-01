@@ -1,13 +1,49 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T15:54:39.494124+00:00",
-  "total": 16,
-  "new": 16,
-  "noise": 14,
-  "ai": 16,
+  "timestamp": "2026-05-01T16:54:25.947235+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 11,
+  "ai": 14,
   "skipped": 0,
   "auto_learned": 36,
   "items": [
+    {
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: CF - Redhill Planning Consent",
+      "body_preview": "Hi Catherine - I'm adding Candace from JSA to this chain so you can coordinate the outreach with them as well as get any comments they might have.  Candace I think Higgins/CF is looking to get this finalized by end of day so if you could provide any comme",
+      "received": "2026-05-01T16:43:15Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "Urgency: by end of day (+1)",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is looping in Candace from JSA to coordinate outreach efforts regarding Redhill planning consent for a client (Higgins/CF). The matter appears time-sensitive with a same-day deadline, requiring JSA's input and coordination on next steps.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm receipt and availability with Candace at JSA to meet the end-of-day deadline",
+        "Clarify with Paul what specific comments or deliverables JSA needs to provide for the planning consent finalization",
+        "Establish clear handoff and communication protocol between Catherine, JSA, and Higgins/CF to ensure coordinated execution"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -32,12 +68,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Paul Leong, Director at Galaxy Data Centers subsidiary DCSL, is providing legal clearance on a Redhill NDA with feedback from counsel. He's confirming that the current 'purpose' definition is acceptable, waiving the need to define 'Property,' and designating himself as the authorized signatory and notice recipient. This signals readiness to proceed with NDA execution, which is likely a prerequisite for closing or advancing a material transaction with Redhill.",
+      "ai_summary": "Paul Leong, Director of DCSL (Galaxy Data Centers subsidiary), is circulating legal counsel's feedback on a Redhill NDA. He's indicating flexibility on key terms, approval of the purpose definition, and confirming he'll serve as the signatory for notices, which suggests we're in final stages of execution on this agreement.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with counsel that Paul's waiver on 'Property' definition aligns with Galaxy's risk tolerance and doesn't expose the company to undefined liability",
-        "Prepare the final NDA for Paul's signature and establish a process for routing notices to him as designated contact",
-        "Schedule a brief call with Paul to confirm any remaining open items and timeline to full NDA execution"
+        "Have legal incorporate counsel's comments into the final NDA draft and send to Paul for execution",
+        "Confirm with Leti and Abe what the Property definition status is and whether omitting it creates any business risks",
+        "Schedule Paul to execute the agreement once Paul confirms the revised language is acceptable"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2226,5 +2262,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 68
+  "total_tracked": 69
 }
