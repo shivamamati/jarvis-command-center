@@ -1,13 +1,107 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T19:10:09.182619+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 10,
-  "ai": 16,
+  "timestamp": "2026-05-01T20:46:51.608128+00:00",
+  "total": 6,
+  "new": 6,
+  "noise": 1,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 36,
   "items": [
+    {
+      "sender_email": "mtomsuden@stirlingst.com",
+      "sender_name": "Matt Tomsuden",
+      "subject": "RE: Unique Data Center Investment Opportunity",
+      "body_preview": "You don't often get email from mtomsuden@stirlingst.com. Learn why this is important\r\nFrance,\r\n\r\nGreat to meet you over email. Please find attached the SDC teaser and NDA. Please let us know if you have any questions on the materials.\r\n\r\nThanks,\r\nMatt",
+      "received": "2026-05-01T20:37:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "KW: nda, investment, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Matt Tomsuden from Stirling Street is sending Dave an SDC (Strategic Data Center?) teaser and NDA for a data center investment opportunity. This is a direct business proposition with formal documentation that warrants review.",
+      "ai_action": "Dave should review the attached teaser and NDA. France should log this as an incoming deal prospect and flag for follow-up within 48 hours if no response from Matt.",
+      "ai_next_steps": [
+        "Review attached SDC teaser document",
+        "Review NDA terms",
+        "Determine if opportunity fits Galaxy's geographic/MW profile and current pipeline",
+        "Schedule call with Matt Tomsuden to discuss terms, location, capacity, and timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "abui@hl.com",
+      "sender_name": "Bui, Abe",
+      "subject": "Re: Redhill NDA",
+      "body_preview": "Paul,\r\n\r\nI soft tested the language with US legal. Can we use the below? Final sign off will still be with EU legal so subject to final review.\r\n\r\nFor the avoidance of doubt, this Agreement will not preclude Party 2 from pursuing or engaging in business r",
+      "received": "2026-05-01T20:09:08Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6kliLFDo1AtwWcaq5rDr0=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied 5x (+4)",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Abe Bui from HL (likely Henry Law or similar legal counsel) is responding on the Redhill NDA with proposed language that's been soft-tested with US legal. This is a direct continuation of legal work on Galaxy's flagship Redhill Data Centre deal and requires Dave's review before EU legal sign-off.",
+      "ai_action": "Flag for Dave immediately. This is active legal negotiation on Redhill. Forward to Simmons & Simmons (EU legal counsel) with Abe's proposed language for final review and approval.",
+      "ai_next_steps": [
+        "Get full email thread and proposed NDA language from Abe Bui",
+        "Send to Simmons & Simmons legal team with context (Abe's US testing, need for EU final sign-off)",
+        "Confirm Paul (recipient) is Galaxy's point person on this \u2013 clarify if Dave needs to be copied"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "ugurkan@cogentco.com",
+      "sender_name": "Gurkan, Umut",
+      "subject": "Galaxy Datacenters & Cogent Meeting \u2013 Week of May 11",
+      "body_preview": "Some people who received this message don't often get email from ugurkan@cogentco.com. Learn why this is important\r\nHi France,\r\n\r\nThis is Umut from Cogent Communications.\r\nI spoke with Dave today, and we agreed to set up a meeting during the week of May 1",
+      "received": "2026-05-01T19:10:30Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHNeB4OMREmJmdIze-gwi9k=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: cogentco.com",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Umut Gurkan from Cogent Communications is following up on a conversation with Dave to schedule a meeting during the week of May 11 to discuss partnership or business opportunities between Galaxy Data Centers and Cogent. This matters because Cogent is a major telecom/connectivity provider, and their engagement likely relates to network services, cross-connects, or infrastructure support for Galaxy's data center operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or France should confirm availability and propose specific meeting times during May 11-15 with Umut",
+        "Prepare an agenda outlining Galaxy's current data center expansion plans and connectivity needs that Cogent could support",
+        "Have France follow up with Umut to lock in the meeting details and send a calendar invite"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "ash@galaxydatacenters.com",
       "sender_name": "Ash Gupta",
@@ -30,12 +124,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Luke Gray from Redhill Data Centre is forwarding a Request for Information from Nomura, a major financial services client, regarding data center capabilities and services. This appears to be a competitive opportunity to provide infrastructure solutions to a tier-one investment banking institution, which could represent significant revenue and strategic partnership potential for Galaxy.",
+      "ai_summary": "Luke Gray from Redhill Data Centre is forwarding a Request for Information from Nomura, a major financial services institution seeking data center capabilities or services. This represents a significant enterprise sales opportunity with a tier-one financial client that could drive meaningful revenue and establish Galaxy's credibility in the high-security, regulated finance sector.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Ash or TJ clarify the specific scope and timeline of the Nomura RFI with Luke to understand Galaxy's competitive position and any differentiation opportunities",
-        "Ensure Galaxy's technical and sales teams are aligned on Nomura's likely requirements (likely AI/ML compute, low-latency trading infrastructure, or secure data handling) and prepare a compelling response strategy",
-        "Coordinate with Redhill on the proposal approach to confirm whether this is a joint bid or if Galaxy is responding independently"
+        "Review the Nomura RFI details and determine Galaxy's competitive positioning and service fit within 24 hours",
+        "Coordinate with Ash Gupta and Tj Karklins to assign an account lead and establish response timeline with Redhill/Nomura",
+        "Prepare preliminary capacity, compliance (SOC2, FINRA, etc.), and service offerings summary to support proposal development"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -137,38 +231,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "abui@hl.com",
-      "sender_name": "Bui, Abe",
-      "subject": "Re: Redhill NDA",
-      "body_preview": "Thanks Paul, will confirm. Also saw this announcement today. NScale is quite active. Hits all the same themes: modular, 14 MW, but across three sites.\r\n\r\nNscale partnered with UK telco BT to develop AI-focused data centre capacity across the UK, targeting",
-      "received": "2026-05-01T17:58:09Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6kliLFDo1AtwWcaq5rDr0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 5x (+4)",
-        "KW: nda, capacity, data cent",
-        "High MW: 14 mw"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Abe Bui (HL \u2014 likely Henry Lewis, a broker/partner firm) is flagging competitive intelligence on NScale, a modular data center player partnering with BT on 14MW AI capacity across UK sites. This is directly relevant to Galaxy's Redhill strategy and AI prospect pipeline.",
-      "ai_action": "Forward to Dave with context: NScale is a competitive threat in the UK AI modular space. Confirm: (1) Is this relevant to Redhill's positioning? (2) Should we track NScale as a competitor or potential partner? (3) Does this affect the 18MW TechRE prospect timing?",
-      "ai_next_steps": [
-        "Provide Dave with full NScale announcement (email appears truncated)",
-        "Check if NScale's sites overlap with Galaxy's pipeline or Redhill service area",
-        "Assess competitive threat vs. partnership opportunity"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -587,38 +649,6 @@
         "Provide France with 3-4 specific time slot options after May 10th for Dave's calendar review",
         "Request Woods Capital send a teaser document or one-pager outlining their proposal/investment thesis before the meeting",
         "Confirm the meeting logistics and ensure Dave is briefed on Woods Capital's background and relevance to Galaxy's strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Re: Unique Data Center Investment Opportunity",
-      "body_preview": "Hi Roco,\r\nDave is currently traveling and unavailable at the moment.\r\nPlease feel free to send over the teaser and NDA for review.\r\nThank you!\r\nBest regards,\r\nFrance\r\n________________________________\r\nFrom: Roco Gandara <rgandara@stirlingst.com>\r\nSent: Mo",
-      "received": "2026-04-30T20:06:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJgtkjd110awpL0jHMGMwKw=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, investment, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Roco Gandara from Stirling Street is presenting a data center investment opportunity and has been directed by France to submit a teaser document and NDA for review while Dave is traveling. This appears to be a potential capital deployment or partnership opportunity in Galaxy's core business sector that requires formal documentation review before Dave can evaluate.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Establish a timeline with Roco for teaser and NDA submission and schedule a review meeting with Dave upon his return",
-        "Prepare an initial assessment framework to evaluate the investment opportunity once documents are received",
-        "Confirm with France what vetting criteria and internal approvals will be needed before Dave meets with Roco"
       ],
       "ai_failed": false,
       "final_score": 6,
@@ -2322,5 +2352,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 71
+  "total_tracked": 72
 }
