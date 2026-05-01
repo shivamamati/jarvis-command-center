@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T21:50:04.471475+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 3,
-  "ai": 7,
+  "timestamp": "2026-05-01T22:44:40.452562+00:00",
+  "total": 4,
+  "new": 4,
+  "noise": 2,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 36,
   "items": [
@@ -31,12 +31,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is confirming a speaking opportunity for the infra/STRUCTURE event, which Sai Raman has acknowledged on behalf of Galaxy. This is a confirmed speaking engagement that will provide visibility and thought leadership positioning for Galaxy in the infrastructure space.",
+      "ai_summary": "Candace Sipos from JSA is confirming arrangements for a speaking opportunity at the infra/STRUCTURE event, with Sai Raman acknowledging receipt. This appears to be a confirmed speaking engagement for Galaxy, likely providing industry visibility and thought leadership positioning.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm speaking logistics with Candace (date, time, duration, topic, and audience size)",
-        "Work with Galaxy Marketing to develop presentation materials and coordinate messaging",
-        "Determine which Galaxy executive (Dave or Sai) will deliver the talk and brief them on key talking points"
+        "Confirm event details with Candace (date, time, topic, audience size, format) and ensure marketing has the information for promotion",
+        "Work with Sai to finalize presentation content and logistics (slides, travel, A/V requirements)",
+        "Coordinate with Galaxy Marketing to amplify the speaking engagement across channels before and after the event"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -66,12 +66,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is following up on a data center capacity inquiry from a CEO prospect, indicating she's already engaged with Castleforge on this deal. She's additionally proposing a livestreamed virtual interview on JSA TV next week to publicly announce the partnership, which would provide media visibility and credibility for Galaxy's capacity offering.",
+      "ai_summary": "Candace Sipos from JSA is confirming her response regarding a CEO's data center capacity inquiry that involves Castleforge, and is proposing a joint livestream media announcement on JSA TV next week to publicize the deal. This represents a marketing and brand visibility opportunity for Galaxy while moving forward on what appears to be a significant capacity engagement.",
       "ai_action": null,
       "ai_next_steps": [
-        "Coordinate with Castleforge to align on deal terms and timeline before committing to any public announcement",
-        "Clarify with Candace the scope, audience, and promotional value of the JSA TV interview to assess strategic benefit",
-        "Confirm internal availability and media readiness for a livestream announcement next week"
+        "Review Candace's previous response thread with Castleforge to understand the capacity proposal terms and client details",
+        "Coordinate with Castleforge to confirm their interest and availability for the JSA TV livestream interview next week",
+        "Confirm Galaxy's participation and designate a senior representative (likely yourself or France) to appear on the interview"
       ],
       "ai_failed": false,
       "final_score": 10,
