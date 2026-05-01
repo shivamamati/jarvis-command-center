@@ -1,13 +1,207 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T11:56:07.789090+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 6,
-  "ai": 3,
+  "timestamp": "2026-05-01T13:16:14.392220+00:00",
+  "total": 19,
+  "new": 19,
+  "noise": 8,
+  "ai": 16,
   "skipped": 0,
-  "auto_learned": 28,
+  "auto_learned": 36,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: infra/STRUCTURE Speaking Opportunity",
+      "body_preview": "Thank you all, appreciate it!\r\n\r\nI'm all set for this stage of the process; we can sort out the final speaker if the Structure Research team chooses Galaxy for the agenda.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net",
+      "received": "2026-05-01T13:13:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIO%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPwYMP2u_TVOh7hOz73JCP0=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda",
+        "6 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, has confirmed her participation in an upcoming infra/STRUCTURE speaking opportunity and indicates that Galaxy's final speaker slot will be determined once the Structure Research team makes their agenda selection decision.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Galaxy's acceptance status with Structure Research and track timeline for final agenda announcement",
+        "Prepare backup speaker options in case the primary speaker slot changes based on Structure's final selections",
+        "Follow up with Candace/JSA after Structure's decision to finalize speaker logistics and presentation details"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Fw: CEO Looking for DC Capacity",
+      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: F",
+      "received": "2026-05-01T13:04:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbfQ1U%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOKIMuLeA-RNjP_EqW2IG9w=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: capacity",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This appears to be Dave's own contact card/signature block rather than an inbound inquiry. There is no actual email content from an external party requesting capacity or services. The forwarded message only contains Dave's contact information and calendar scheduling link.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm whether this was sent in error or if there's a missing attachment/original message that contains the actual CEO inquiry",
+        "If this is a template, ensure future capacity inquiries are properly forwarded with the complete original message for evaluation"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Fall & Summer 2026 Hiring/Funding Reminders Dalhousie University WIL Co-op",
+      "body_preview": "Can you work with Shivam on his AI recruiting, help him out.\r\n\r\nFrom: Faye Pan <faye@galaxydatacenters.com>\r\nDate: Friday, May 1, 2026 at 6:30\u202fPM\r\nTo: France <france@galaxydatacenters.com>; Shivam Amati <shivam@galaxydatacenters.com>\r\nCc: Dave Misra <dave",
+      "received": "2026-05-01T13:02:44Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbfQ1U9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADhjHiezt0_er9GPukTlwZM=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: fund, lp",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is asking France to support Shivam Amati with AI-focused recruiting efforts, likely related to Galaxy's Fall/Summer 2026 hiring plans and a Dalhousie University co-op partnership. This appears to be a request to allocate resources to strengthen Galaxy's talent acquisition pipeline for AI roles during a critical hiring cycle.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "France should connect with Shivam to understand the specific recruiting needs, timeline, and whether this involves campus recruiting at Dalhousie or broader AI talent sourcing",
+        "Clarify with Dave whether this recruiting effort has a dedicated budget and what success metrics are expected for the Summer/Fall 2026 hiring cycle",
+        "Schedule a kickoff between France and Shivam to align on job descriptions, sourcing channels, and interview process for AI-focused positions"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Re: Reasons",
+      "body_preview": "Hi Rhys,\r\n\r\nGoing through feedback that's come up via the CFP / Matt Reed workstream review which includes some of the concerns you brought up , one of the items I want to close out is a concern that something said on a customer call may not have landed a",
+      "received": "2026-05-01T12:59:49Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbfQ1U7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHnTYjjFXktBjaoowg40byM=",
+      "rules_score": 4,
+      "rules_label": "NOTABLE",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Dave is following up on feedback from the CFP/Matt Reed workstream review that includes concerns Rhys raised. He's trying to close out an issue where a statement made during a customer call may not have resonated or landed properly with the customer.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Rhys what specific statement or topic from the customer call needs follow-up or correction",
+        "Coordinate with Matt Reed and the CFP workstream to understand the full context of the feedback and customer concerns",
+        "Schedule a call with the customer to address the miscommunication or provide clarification on the points in question"
+      ],
+      "ai_failed": false,
+      "final_score": 4,
+      "final_label": "NOTABLE"
+    },
+    {
+      "sender_email": "jcorcoran@macdonaldandcompany.com",
+      "sender_name": "Joseph Corcoran",
+      "subject": "Re: Senior Candidate for Data Centre Sales & Strategy",
+      "body_preview": "You don't often get email from jcorcoran@macdonaldandcompany.com. Learn why this is important\r\n\r\nDear Dave,\r\n\r\nFollowing my last message on on Monday, I was keen to check in to see whether the Global Account Director shared is likely to be of interest.",
+      "received": "2026-05-01T12:00:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIO3AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACsfRsgQ5stJpsAfWqGxitc=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 7,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Joseph Corcoran from Macdonald & Company is following up on a previously discussed candidate for a Global Account Director role in data center sales & strategy. This appears to be a recruitment introduction Dave expressed interest in or at least engaged with on Monday.",
+      "ai_action": "Dave should review the candidate profile shared in the prior message and decide if this person fits Galaxy's current hiring needs. If interested, respond with next interview steps; if not, politely decline.",
+      "ai_next_steps": [
+        "Locate the Monday email from Corcoran to review the candidate profile and background",
+        "Assess whether Global Account Director role aligns with current Galaxy org chart and priorities",
+        "Reply to Corcoran with interest level and timeline for next steps or a polite decline"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "vraj.savaj@datacenternation.com",
+      "sender_name": "Vraj Savaj",
+      "subject": "Re: VIP Registration for DCN Toronto",
+      "body_preview": "You don't often get email from vraj.savaj@datacenternation.com. Learn why this is important\r\nHappy Friday France,\r\nThank you for your message and for the update.\r\nNo problem at all, and I appreciate you letting me know. Should any additional passes be nee",
+      "received": "2026-05-01T11:57:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIO2AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFP497pvyE07ovlzEsE7p1g=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: datacenternation.com"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Vraj Savaj from Data Center Nation is confirming receipt of VIP registration details for their Toronto event and indicated he may need additional passes beyond what was initially allocated. This is relevant to Galaxy as it suggests potential attendance opportunity for key stakeholders at an industry event, but the email appears incomplete and doesn't fully articulate his specific needs or ask.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Follow up with Vraj to clarify the exact number of additional passes needed and confirm final headcount for Galaxy's attendance",
+        "Determine which Galaxy executives should attend DCN Toronto and coordinate their registration accordingly",
+        "Confirm event date, agenda, and any partnership or sponsorship opportunities that might benefit Galaxy's market positioning"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "fredy.marie-emilienne@redhilldatacentre.com",
       "sender_name": "Fredy Marie-Emilienne",
@@ -106,40 +300,6 @@
       "final_label": "URGENT"
     },
     {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Re: infra/STRUCTURE Speaking Opportunity",
-      "body_preview": "Sorry Candace.\r\n\r\nMy bad:  Speaker should be Dave Misra for this as it's taking place in Las Vegas.\r\n\r\nWe can have Ash for European ones.\r\n\r\n-Sai\r\n\r\n________________________________\r\nFrom: Sai Raman <sai@galaxydatacenters.com>\r\nSent: Thursday, April 30, 2",
-      "received": "2026-05-01T02:31:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPwYMP2u_TVOh7hOz73JCP0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman is reallocating speaker assignments for an infrastructure/STRUCTURE conference event in Las Vegas, requesting that Dave Misra take the speaking slot instead of the originally assigned speaker, while reserving Ash for European conference opportunities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Dave's availability and willingness to speak at the Las Vegas infra/STRUCTURE event",
-        "Obtain event details (date, format, topic, audience size) to prepare Dave's remarks",
-        "Coordinate with Sai to finalize speaker logistics and any pre-event materials needed"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "pelle.jorgen@castleforge.com",
       "sender_name": "Pelle Jorgen",
       "subject": "Re: Redhill Recap",
@@ -234,37 +394,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Re: VIP Registration for DCN Toronto",
-      "body_preview": "Hi Vraj,\r\nThis is Dave's assistant. There will be no additional passes needed for now\u2014if we do, I\u2019ll let you know.\r\nBest regards,\r\nFrance\r\n________________________________\r\nFrom: Vraj Savaj <Vraj.Savaj@datacenternation.com>\r\nSent: Monday, April 27, 2026 1",
-      "received": "2026-04-30T20:09:13Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFP497pvyE07ovlzEsE7p1g=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Vraj Savaj from Data Center Nation was offering additional VIP registration passes for the DCN Toronto event. France has declined additional passes for now on behalf of Dave, but left the door open for future requests if needs change.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Monitor event planning timeline and confirm final attendance headcount with Dave before any registration deadlines",
-        "If additional passes become necessary, follow up directly with Vraj to request them in a timely manner"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "victoria.skrbensky@jll.com",
@@ -515,38 +644,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "france@galaxydatacenters.com",
-      "sender_name": "France",
-      "subject": "Fw: Fall & Summer 2026 Hiring/Funding Reminders Dalhousie University WIL Co-op",
-      "body_preview": "________________________________\r\nFrom: Paulina Sinclair-Fortin <Paulina.Sinclair-Fortin@dal.ca>\r\nSent: Wednesday, April 29, 2026 1:56 PM\r\nTo: Dave Misra <dave@galaxycapitalpartners.com>\r\nSubject: Fall & Summer 2026 Hiring/Funding Reminders Dalhousie ",
-      "received": "2026-04-30T19:01:20Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSLAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADhjHiezt0_er9GPukTlwZM=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Dave replied 2x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital, fund"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paulina Sinclair-Fortin from Dalhousie University's Work-Integrated Learning (WIL) Co-op program is reaching out with recruitment and funding deadlines for Fall and Summer 2026 placements. This is an opportunity for Galaxy to access talented Canadian students for internship/co-op positions while potentially supporting university partnerships. Acting on this promptly will help Galaxy secure the best student talent and build relationships with a major Canadian institution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should review the specific hiring timelines and funding options mentioned in Paulina's email and determine Galaxy's staffing needs for Fall/Summer 2026",
-        "Confirm Galaxy's participation status and any funding commitments to Paulina by the stated deadline to secure priority access to candidates",
-        "Designate a point person to manage the recruitment process and coordinate interview schedules with qualified Dalhousie co-op students"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -1894,36 +1991,6 @@
       "final_label": "URGENT"
     },
     {
-      "sender_email": "jcorcoran@macdonaldandcompany.com",
-      "sender_name": "Joseph Corcoran",
-      "subject": "Senior Candidate for Data Centre Sales & Strategy",
-      "body_preview": "You don't often get email from jcorcoran@macdonaldandcompany.com. Learn why this is important\r\n\r\nDear Dave,\r\n\r\n\r\n\r\nI hope you are keeping well.\r\n\r\nI am reaching out to introduce a commercially driven leader in data centre sales and strategy, with a decade",
-      "received": "2026-04-27T12:00:39Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8OAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACsfRsgQ5stJpsAfWqGxitc=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: data cent, introduce"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Joseph Corcoran from Macdonald & Company is introducing a senior candidate with 10+ years in data centre sales and strategy. This is a direct recruitment/talent introduction to Dave personally, and given Galaxy's active deal pipeline and operational needs (Redhill, Poland 260MW, AI prospects), a strong commercial hire could be valuable.",
-      "ai_action": "Review the full candidate profile. If credentials match Galaxy's current hiring needs (sales, strategy, or operations roles), have France schedule a call with Corcoran to discuss the candidate's background, availability, and fit.",
-      "ai_next_steps": [
-        "Wait for full email body (appears truncated) to see candidate details and experience",
-        "Determine if Galaxy is actively hiring for sales/strategy roles right now",
-        "If interested, ask Corcoran for CV and have France coordinate intro call"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "IMPORTANT"
-    },
-    {
       "sender_email": "dave@galaxydatacenters.com",
       "sender_name": "Dave Misra",
       "subject": "FW: Redhill Unit 3 , 2MW opportunity ",
@@ -2256,105 +2323,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "drew@zendoenergy.com",
-      "sender_name": "Drew Barrett",
-      "subject": "Re: Xela Energy update",
-      "body_preview": "Hi Dave / Ash,\r\n\r\nThanks for your time yesterday. I think we agreed on setting up a call for the same time next week - I'll drop that time in now.\r\n\r\nIn the meantime, please find attached a handful of slides we pulled together to provide an initial apprai",
-      "received": "2026-04-24T13:12:34Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPwAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQABr8eqqDbyJHg9dUBsWbLrk=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "PIPELINE [Drew Barrett]",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "Attachments + deal KW (+2)",
-        "Pipeline: drew barrett",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Drew Barrett from Xela Energy following up on a meeting Dave and Ash had yesterday. He's scheduling a call for next week and sending preliminary slides for an energy-related appraisal\u2014likely relevant to Galaxy's data center power/infrastructure needs.",
-      "ai_action": "Confirm call timing for next week. Review attached slides before the call to understand Xela Energy's proposition (appears to be cut off in email body).",
-      "ai_next_steps": [
-        "Retrieve and review the attached slides",
-        "Confirm call time with Drew Barrett",
-        "Brief Ash on Xela Energy context before next week's call"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "matthew.welch@datacenternation.com",
-      "sender_name": "Matthew Welch",
-      "subject": "RE: Dave Misra - 1:1 Meeting with Matt Welch, DCN",
-      "body_preview": "Hi Dave,\r\n\r\nYes of course, same time on Monday works perfectly!\r\n\r\nI look forward to accepting the amended invite. Until then, have a great weekend,\r\n\r\nCheers,\r\n\r\nMatthew Welch\r\nHead of Conference Production\r\nData Center Nation\r\n32-38 Saffron Hill, EC1N 8",
-      "received": "2026-04-24T13:06:20Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPvAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAAKyRQ2plglGkksFi9j-Soc=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: datacenternation.com",
-        "KW: nda, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Welch, Head of Conference Production at Data Center Nation, has confirmed his availability for a 1:1 meeting with Dave on Monday at the previously discussed time. This appears to be a routine confirmation of an existing calendar meeting with no additional asks or issues raised.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Ensure the amended calendar invite is sent to Matthew to formalize the Monday meeting",
-        "Prepare any talking points or agenda items Dave wants to discuss with the DCN conference production leader ahead of the 1:1"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "thomas.cooper@castleforge.com",
-      "sender_name": "Thomas Cooper",
-      "subject": "Re: Redhill Power Discussion",
-      "body_preview": "Gents,\r\n\r\nThanks for your time earlier.\r\n\r\nKey Actions:\r\n\r\n  *\r\nNo response to Npower until the following is received:\r\n\r\n  1.\r\nWritten confirmation from UKPN that our existing power is reserved (@Steven McGlinchey to action)\r\n  2.\r\nWritten confirmation f",
-      "received": "2026-04-24T13:04:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPuAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJeu3ZXJOIRMjV8JJU8rii0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "KW: power",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Thomas Cooper from Castle Forge is following up on a Redhill Power discussion and establishing conditions before Galaxy responds to Npower. He's requiring written confirmations from UKPN regarding power reservation before proceeding, with Steven McGlinchey tasked on that item\u2014this is critical gating item for a power infrastructure commitment that likely impacts data center operations or expansion plans.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Steven McGlinchey obtain and deliver written confirmation from UKPN on power reservation status immediately",
-        "Clarify with Thomas Cooper what the second written confirmation requirement is (email appears truncated at 'Written confirmation f...')",
-        "Do not communicate with Npower until both confirmations are in hand to avoid negotiating from a weakened position"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 72
+  "total_tracked": 71
 }
