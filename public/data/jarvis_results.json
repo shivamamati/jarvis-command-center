@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-04-30T23:49:20.441501+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 3,
-  "ai": 6,
+  "timestamp": "2026-05-01T02:41:16.337156+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 1,
+  "ai": 2,
   "skipped": 0,
-  "auto_learned": 32,
+  "auto_learned": 28,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: infra/STRUCTURE Speaking Opportunity",
+      "body_preview": "Sorry Candace.\r\n\r\nMy bad:  Speaker should be Dave Misra for this as it's taking place in Las Vegas.\r\n\r\nWe can have Ash for European ones.\r\n\r\n-Sai\r\n\r\n________________________________\r\nFrom: Sai Raman <sai@galaxydatacenters.com>\r\nSent: Thursday, April 30, 2",
+      "received": "2026-05-01T02:31:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqSzAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPwYMP2u_TVOh7hOz73JCP0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is reallocating speaker assignments for an infrastructure/STRUCTURE conference event in Las Vegas, requesting that Dave Misra take the speaking slot instead of the originally assigned speaker, while reserving Ash for European conference opportunities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Dave's availability and willingness to speak at the Las Vegas infra/STRUCTURE event",
+        "Obtain event details (date, format, topic, audience size) to prepare Dave's remarks",
+        "Coordinate with Sai to finalize speaker logistics and any pre-event materials needed"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "pelle.jorgen@castleforge.com",
       "sender_name": "Pelle Jorgen",
@@ -1072,39 +1106,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: infra/STRUCTURE Speaking Opportunity",
-      "body_preview": "Hi Sai! I'm checking in on this.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Thu, Apr 23, 2026 at 4:15\u202fPM Sai Raman <sai@galaxydatacenters.com> wrote:\r\n\r\nThank you Candace! We will review and get back thi",
-      "received": "2026-04-28T20:38:53Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BtAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPwYMP2u_TVOh7hOz73JCP0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: nda",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is following up on a previous discussion regarding a speaking opportunity at an infra/STRUCTURE event. She's seeking confirmation or status on Galaxy's participation, likely expecting a response about speaker availability or event details that were discussed with Sai Raman.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Sai or France locate the original infra/STRUCTURE speaking opportunity proposal and review Galaxy's commitment status",
-        "Respond to Candace within 24 hours with either confirmation of participation, proposed speaker/topics, or timeline for decision",
-        "Assess strategic value of JSA partnership and infra/STRUCTURE visibility for Galaxy's market positioning"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
