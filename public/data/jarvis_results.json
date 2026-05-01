@@ -1,13 +1,45 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T06:12:33.117113+00:00",
-  "total": 2,
-  "new": 2,
+  "timestamp": "2026-05-01T08:57:42.729951+00:00",
+  "total": 3,
+  "new": 3,
   "noise": 2,
-  "ai": 1,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 28,
   "items": [
+    {
+      "sender_email": "messaging-service@post.xero.com",
+      "sender_name": "finance@redhilldatacentre.com",
+      "subject": "Statement from Data Centre Services Limited for Nomura International PLC",
+      "body_preview": "You don't often get email from messaging-service@post.xero.com. Learn why this is important\r\n\r\nData Centre Services Limited\r\nOutstanding statement as at 30 April 2026\r\n\u00a3191,352.00\r\nBalance due\r\nView Statement\r\nHi,\r\n\r\nHere's your statement as at 30 Apr 202",
+      "received": "2026-05-01T08:57:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIOnAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGzWA0OG1b1EreCb6aGRPKU=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: data cent",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Automated financial statement from Xero for Data Centre Services Limited (Redhill entity) showing \u00a3191,352 outstanding balance as of 30 April 2026. This is an internal Galaxy operational matter requiring immediate attention\u2014likely an invoice or payable that needs reconciliation or payment authorization.",
+      "ai_action": "Forward to Finance/CFO immediately for reconciliation and payment approval. Verify this is a legitimate Redhill operational expense and confirm payment status with Castleforge (JV partner) if applicable.",
+      "ai_next_steps": [
+        "Check with Galaxy Finance: is this statement expected and reconciled?",
+        "Verify Nomura International PLC invoice details and due date",
+        "Confirm if this is a shared cost with Castleforge (JV partner) requiring split payment",
+        "Process payment if approved"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -2321,38 +2353,6 @@
       ],
       "ai_failed": false,
       "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "matthew.reid@castleforge.com",
-      "sender_name": "Matthew Reid",
-      "subject": "Re: Disconnection - MPAN 2000055008195 / 2000055008186 - 260318-000661",
-      "body_preview": "13:30 work for everyone?\r\n\r\nMatthew Reid\r\nO: +44 203 846 1677\r\nM: +44 7825 008 486\r\nE: matthew.reid@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Thomas Lehd <thomas@lehding.co.uk>\r\nSent: Friday, April 24, 2026 08:55\r\nTo: Rhys Jones <rj@gal",
-      "received": "2026-04-24T07:56:34Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEPTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMXiDrxkZfRJl_k4V6WB6Hs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Reid from Castle Forge is confirming availability for a meeting at 1:30 PM regarding a disconnection issue affecting two energy MPANs (meter point administration numbers). This appears to be a follow-up to a previous discussion about service interruption that requires urgent coordination between multiple parties.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm 13:30 meeting time with Matthew Reid and identify all participants (including Thomas Lehd and internal Galaxy stakeholders)",
-        "Prepare documentation on the two affected MPANs (2000055008195 and 2000055008186) and the disconnection case reference 260318-000661 to understand the business impact",
-        "Determine if this is a billing dispute, service interruption, or contractual issue and brief Dave on resolution authority needed before the meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
       "final_label": "CRITICAL"
     }
   ],
