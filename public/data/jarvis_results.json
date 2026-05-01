@@ -1,13 +1,49 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T13:16:14.392220+00:00",
-  "total": 19,
-  "new": 19,
-  "noise": 8,
-  "ai": 16,
+  "timestamp": "2026-05-01T14:52:14.366796+00:00",
+  "total": 18,
+  "new": 18,
+  "noise": 10,
+  "ai": 18,
   "skipped": 0,
   "auto_learned": 36,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: CEO Looking for DC Capacity",
+      "body_preview": "Received \u2014 this is exciting news!\r\n\r\nWe're reviewing the press release and will get back to you with our thoughts today.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Fri, May 1, 2026 at 9:02\u202fAM Dave Misra ",
+      "received": "2026-05-01T13:18:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIO%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOKIMuLeA-RNjP_EqW2IG9w=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, lease, capacity",
+        "7 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is confirming receipt of a press release or proposal related to a CEO's data center capacity inquiry that Galaxy Capital Partners shared with her. She's signaling positive initial interest and has committed to providing feedback today, indicating this is a potential business development opportunity.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Prepare talking points and technical specifications on Galaxy's available DC capacity for a follow-up call with Candace once she reviews the materials",
+        "Flag this as a priority lead and ensure France or relevant business development team member is available for rapid response when Candace provides feedback today",
+        "Research JSA's current infrastructure needs and industry vertical to tailor Galaxy's proposal accordingly"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -18,7 +54,7 @@
       "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAPwYMP2u_TVOh7hOz73JCP0=",
-      "rules_score": 10,
+      "rules_score": 9,
       "rules_label": "CRITICAL",
       "rules_tier": "PIPELINE [Candace Sipos]",
       "rules_reasons": [
@@ -26,55 +62,20 @@
         "VIP: jsa.net",
         "Pipeline: candace sipos",
         "KW: nda",
-        "6 VIPs on thread (+2)",
-        "Dave in thread (+2)"
+        "6 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, has confirmed her participation in an upcoming infra/STRUCTURE speaking opportunity and indicates that Galaxy's final speaker slot will be determined once the Structure Research team makes their agenda selection decision.",
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is confirming Galaxy's potential speaking opportunity at an infra/STRUCTURE event, contingent on final selection by the Structure Research team. She's indicating readiness to move forward once the research team makes their agenda decision, signaling this is a qualified speaking/visibility opportunity for Galaxy in the infrastructure space.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Galaxy's acceptance status with Structure Research and track timeline for final agenda announcement",
-        "Prepare backup speaker options in case the primary speaker slot changes based on Structure's final selections",
-        "Follow up with Candace/JSA after Structure's decision to finalize speaker logistics and presentation details"
+        "Follow up with Structure Research team to determine Galaxy's confirmation status and speaking slot details",
+        "Prepare Galaxy speaker materials and talking points in anticipation of confirmation",
+        "Confirm internal speaker availability and coordinate with marketing on event promotion once selected"
       ],
       "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: CEO Looking for DC Capacity",
-      "body_preview": "Dave Misra\r\n\r\nManaging Partner\r\n\r\nE: dave@galaxydatacenters.com\r\nP: +1 (650) 448-9588\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n  LinkedIn\r\n  WhatsApp\r\n\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: F",
-      "received": "2026-05-01T13:04:20Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbfQ1U%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOKIMuLeA-RNjP_EqW2IG9w=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: capacity",
-        "Thread: 3 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be Dave's own contact card/signature block rather than an inbound inquiry. There is no actual email content from an external party requesting capacity or services. The forwarded message only contains Dave's contact information and calendar scheduling link.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm whether this was sent in error or if there's a missing attachment/original message that contains the actual CEO inquiry",
-        "If this is a template, ensure future capacity inquiries are properly forwarded with the complete original message for evaluation"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -99,12 +100,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is asking France to support Shivam Amati with AI-focused recruiting efforts, likely related to Galaxy's Fall/Summer 2026 hiring plans and a Dalhousie University co-op partnership. This appears to be a request to allocate resources to strengthen Galaxy's talent acquisition pipeline for AI roles during a critical hiring cycle.",
+      "ai_summary": "Dave is directing you to support Shivam Amati with an AI-focused recruiting initiative, likely connected to Dalhousie University's work-integrated learning co-op program for summer/fall 2026. This appears to be a talent acquisition effort to bring AI expertise into Galaxy, potentially addressing skills gaps or project needs for upcoming seasons.",
       "ai_action": null,
       "ai_next_steps": [
-        "France should connect with Shivam to understand the specific recruiting needs, timeline, and whether this involves campus recruiting at Dalhousie or broader AI talent sourcing",
-        "Clarify with Dave whether this recruiting effort has a dedicated budget and what success metrics are expected for the Summer/Fall 2026 hiring cycle",
-        "Schedule a kickoff between France and Shivam to align on job descriptions, sourcing channels, and interview process for AI-focused positions"
+        "Connect with Shivam Amati to understand the specific AI recruiting needs, target roles, timeline, and candidate profile requirements",
+        "Coordinate with Faye Pan on logistics, budget allocation, and any existing recruiting channels or relationships with Dalhousie's WIL program",
+        "Develop a recruitment plan with Shivam outlining outreach strategy, job descriptions, and interview process for AI-focused positions"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -131,12 +132,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is following up on feedback from the CFP/Matt Reed workstream review that includes concerns Rhys raised. He's trying to close out an issue where a statement made during a customer call may not have resonated or landed properly with the customer.",
+      "ai_summary": "Dave is following up on feedback from an internal review process (CFP/Matt Reed workstream) that includes concerns Rhys previously raised. He's attempting to address a specific issue where a statement made during a customer call may not have been received or understood as intended, but the email appears incomplete.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Rhys what specific statement or topic from the customer call needs follow-up or correction",
-        "Coordinate with Matt Reed and the CFP workstream to understand the full context of the feedback and customer concerns",
-        "Schedule a call with the customer to address the miscommunication or provide clarification on the points in question"
+        "Request Dave clarify the complete concern and which customer call is referenced to properly assess the communication gap",
+        "Review the CFP/Matt Reed workstream feedback document to understand the full scope of issues being addressed",
+        "Coordinate with the customer-facing team member who participated in the call to understand what was said and how to correct any misunderstanding"
       ],
       "ai_failed": false,
       "final_score": 4,
@@ -2224,106 +2225,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "chris.turner@nomura.com",
-      "sender_name": "chris.turner@nomura.com",
-      "subject": "CBRE Site Visit for Nomura - Redhill 5th May",
-      "body_preview": "Hi Redhill Team,\r\n\r\nI have been in discussions with CBRE about your site visit for Technical MEPH.\r\nPlease can we book in the 5th May for the below CBRE Team plus I will be there too.\r\n\r\nThe duration should be about 5 hours so can we have someone to escor",
-      "received": "2026-04-24T14:00:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEP4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEoITvv0z79NghBzWTBnw-8=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "Tier 1: nomura.com",
-        "KW: site visit, lease",
-        "13 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Chris Turner from Nomura is coordinating a technical site visit to the Redhill facility on May 5th with CBRE representatives to assess MEP/H (Mechanical, Electrical, Plumbing, and Heating) infrastructure. This is a critical facility evaluation that requires a 5-hour visit window and internal escort support, indicating potential client interest in Galaxy's data center capabilities or a transaction evaluation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm May 5th availability and assign Galaxy operations staff as site escort for the full 5-hour duration",
-        "Prepare Redhill technical documentation and MEP system specifications for CBRE review",
-        "Clarify with Chris Turner the scope of evaluation and whether this relates to a potential deal, partnership, or client assessment"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "tj@galaxydatacenters.com",
-      "sender_name": "Tj Karklins",
-      "subject": "CDW- need to finalize quickly",
-      "body_preview": "Gentlemen,\r\n\r\nNo further changes from CDW, but we are pressed for time as our main contact is changing and he wants to complete this before leaving CDW. Can we get the final changes turned so that we can send the doc to them by Monday afternoon UK?\r\n\r\nKey",
-      "received": "2026-04-24T13:24:47Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEP0AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJkHmlmgappCk7nqgHotS8Q=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 7x (+2)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "TJ Karklins is requesting urgent completion of a CDW contract finalization due to personnel transition at CDW. Their primary contact is departing and wants to close this deal before leaving, creating a hard Monday afternoon UK deadline. This delay risks losing momentum on what appears to be a significant CDW business opportunity.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm final contract revisions are complete and identify any outstanding changes needed from Galaxy's side by EOD Friday",
-        "Coordinate with legal/contracts team to execute final version and prepare for Monday afternoon UK delivery to CDW",
-        "Have TJ confirm CDW's contact details and preferred submission method to ensure seamless handoff before their contact's departure"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "matthew.welch@datacenternation.com",
-      "sender_name": "Matthew Welch",
-      "subject": "Dave Misra - 1:1 Meeting with Matt Welch, DCN",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/322940766961411?p=3Fxzz7KpwpPjaoSSCE\r\nMeeting ID: 322 940 766 961 411\r\nPasscode: Qh6h5cZ9\r\n________________",
-      "received": "2026-04-24T13:23:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEKAAAuilH2jaEmTaBeWRekOs%2B0AAa76LS5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA-dMv1E8ERZsKqduSNnAhE=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "VIP FIRM",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+3)",
-        "VIP: datacenternation.com"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Welch from Data Center Nation is requesting a 1:1 meeting with Dave Misra, likely to discuss potential business opportunities, partnerships, or industry matters relevant to Galaxy's data center operations. This appears to be an initial or follow-up meeting with a contact in the data center sector, which could impact Galaxy's strategic positioning or operational initiatives.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm meeting acceptance and check Dave's calendar availability for the Teams meeting",
-        "Have France or relevant team member prepare background briefing on Data Center Nation and Matthew Welch's role/company",
-        "Identify agenda items or business development priorities to discuss given DCN's business focus"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 71
+  "total_tracked": 68
 }
