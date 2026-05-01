@@ -1,13 +1,48 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T14:52:14.366796+00:00",
-  "total": 18,
-  "new": 18,
-  "noise": 10,
-  "ai": 18,
+  "timestamp": "2026-05-01T15:54:39.494124+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 14,
+  "ai": 16,
   "skipped": 0,
   "auto_learned": 36,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Redhill NDA",
+      "body_preview": "Hi Leti and Abe - Please see attached our counsel's comments on the NDA. I think your definition of purpose is fine, and counsel has told me we don't have to define \"Property\".  You can email me notices and I will be the signatory as a Director of DCSL. I",
+      "received": "2026-05-01T15:19:16Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6kliLFDo1AtwWcaq5rDr0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 7x (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong, Director at Galaxy Data Centers subsidiary DCSL, is providing legal clearance on a Redhill NDA with feedback from counsel. He's confirming that the current 'purpose' definition is acceptable, waiving the need to define 'Property,' and designating himself as the authorized signatory and notice recipient. This signals readiness to proceed with NDA execution, which is likely a prerequisite for closing or advancing a material transaction with Redhill.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with counsel that Paul's waiver on 'Property' definition aligns with Galaxy's risk tolerance and doesn't expose the company to undefined liability",
+        "Prepare the final NDA for Paul's signature and establish a process for routing notices to him as designated contact",
+        "Schedule a brief call with Paul to confirm any remaining open items and timeline to full NDA execution"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "candace@jsa.net",
       "sender_name": "Candace Sipos",
@@ -2188,42 +2223,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "CDW Charges",
-      "body_preview": "Hi Jamie - We are working on the extension for CDW.  I went back to the lease to confirm the breakout of charges.  For the office and the Equipment and Service it ties out to what's in the business plan.  The Base Rent is slightly off.  I'm attaching the ",
-      "received": "2026-04-24T15:19:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAa5DEP%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACBrSWxw9dpKvmR56C7WupQ=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 4x (+2)",
-        "Attachments + deal KW (+2)",
-        "Re customer: cdw",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is updating on the CDW lease extension negotiations, confirming that office and equipment/service charges align with the business plan, but noting a discrepancy in the Base Rent calculation that requires clarification before proceeding.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review Paul's attachment and the lease Base Rent figures to identify the specific variance amount and cause",
-        "Determine if the Base Rent difference is material to the extension economics and whether renegotiation is needed",
-        "Coordinate with Paul to align on final lease terms before presenting to CDW"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     }
   ],
