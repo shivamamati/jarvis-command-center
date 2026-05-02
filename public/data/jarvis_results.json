@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-02T15:42:00.044218+00:00",
-  "total": 5,
-  "new": 5,
+  "timestamp": "2026-05-02T16:41:13.618994+00:00",
+  "total": 4,
+  "new": 4,
   "noise": 3,
-  "ai": 4,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
@@ -30,12 +30,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman from Galaxy Data Centers is responding to an invitation for the Tech Capital Awards on May 11th. He's requesting the sponsorship deck and pricing details, and indicates the team is still deciding on table attendance and attendee confirmation. This is a potential sponsorship opportunity for Galaxy that requires clarity on deliverables and costs before commitment.",
+      "ai_summary": "Sai Raman from Galaxy Data Centers is following up on Tech Capital Awards sponsorship details requested by Candace Sipos at JSA. Sai needs the sponsorship deck and pricing information, and is still uncertain about committing to a table pending internal team attendance confirmation. Galaxy needs to clarify sponsorship terms and budget impact before making a final commitment to this May 11th event.",
       "ai_action": null,
       "ai_next_steps": [
-        "Send Sai the sponsorship deck and pricing structure from Candace/JSA",
-        "Follow up with Sai within 48 hours to confirm Galaxy's table commitment and get final headcount for event planning",
-        "Evaluate sponsorship ROI and determine if this aligns with Galaxy's marketing strategy and budget"
+        "Request the sponsorship deck and pricing breakdown from Candace Sipos at JSA to evaluate Galaxy's sponsorship options",
+        "Conduct internal poll with Galaxy leadership team to determine who can attend and confirm table commitment",
+        "Review sponsorship ROI expectations against Galaxy's marketing calendar and budget allocation for Q2 events"
       ],
       "ai_failed": false,
       "final_score": 7,
