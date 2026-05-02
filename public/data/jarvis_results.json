@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-02T13:01:25.631262+00:00",
-  "total": 5,
-  "new": 5,
+  "timestamp": "2026-05-02T14:42:25.949831+00:00",
+  "total": 6,
+  "new": 6,
   "noise": 5,
   "ai": 5,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Award entries update",
+      "body_preview": "Hey sorry missed this. But either would have worked. I liked the design they had created. Want this to go out on Monday. Please let me know if unable to coordinate with them for any reason.\r\n\r\n________________________________\r\nFrom: Animesh Raha <animesh@",
+      "received": "2026-05-02T14:16:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbknCsFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIl-5GMTU1dBhm5ulmQcVKQ=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal team) is confirming approval for an award entry design and requesting it be distributed on Monday. He's asking for confirmation that coordination with the external party can be completed by that deadline, and wants to be notified immediately if there are any blockers to execution.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with the design/creative team and external partner that the award entry can be finalized and distributed by Monday",
+        "If any delays are anticipated, notify Sai immediately with specific blockers and revised timeline",
+        "Once confirmed, coordinate the Monday distribution and send Sai a completion confirmation"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "dse@eumail.docusign.net",
       "sender_name": "Daniel Scarbrough via Docusign",
@@ -2053,38 +2086,6 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Re: Award entries update",
-      "body_preview": "Ok. Sai . I will have a discussion with BW tomorrow . She we pick existing design from earlier post with fresh messaging or create a new design.\r\n________________________________\r\nFrom: Sai Raman <sai@galaxydatacenters.com>\r\nSent: Monday, April 27, 2026 2",
-      "received": "2026-04-27T18:54:52Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9DAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIl-5GMTU1dBhm5ulmQcVKQ=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Animesh Raha (internal Galaxy team member) is confirming he'll meet with someone referred to as 'BW' to decide whether to repurpose an existing award entry design with updated messaging or develop a completely new design for an upcoming award submission. This decision impacts the timeline and resource allocation for Galaxy's award strategy and brand positioning.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm the meeting with BW is scheduled and clarify the decision deadline to avoid delays in award submission timelines",
-        "Request Animesh to document the pros/cons of each approach (refresh vs. new design) so leadership can weigh brand impact and resource efficiency",
-        "Follow up post-meeting to ensure the chosen direction aligns with Galaxy's overall marketing and competitive positioning strategy"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "faye.p@queensu.ca",
