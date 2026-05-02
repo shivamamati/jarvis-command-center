@@ -1,13 +1,46 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-02T14:42:25.949831+00:00",
-  "total": 6,
-  "new": 6,
-  "noise": 5,
-  "ai": 5,
+  "timestamp": "2026-05-02T15:42:00.044218+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 3,
+  "ai": 4,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Re: Tech Capital Awards 11th May",
+      "body_preview": "Thanks Candace.\r\n\r\nCan you share the sponsorship deck? Don't see that in the mail. What's the pricing for the same.\r\n\r\nWe are not sure of getting the table yet. Will finalize who's attending from the team.\r\n\r\n\r\n\r\n\r\n\r\nFrom: Candace Sipos <candace@jsa.net>",
+      "received": "2026-05-02T15:38:21Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbknCsIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1WkoUbIYNGplAY7u0qDS0=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman from Galaxy Data Centers is responding to an invitation for the Tech Capital Awards on May 11th. He's requesting the sponsorship deck and pricing details, and indicates the team is still deciding on table attendance and attendee confirmation. This is a potential sponsorship opportunity for Galaxy that requires clarity on deliverables and costs before commitment.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Send Sai the sponsorship deck and pricing structure from Candace/JSA",
+        "Follow up with Sai within 48 hours to confirm Galaxy's table commitment and get final headcount for event planning",
+        "Evaluate sponsorship ROI and determine if this aligns with Galaxy's marketing strategy and budget"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -15,7 +48,7 @@
       "body_preview": "Hey sorry missed this. But either would have worked. I liked the design they had created. Want this to go out on Monday. Please let me know if unable to coordinate with them for any reason.\r\n\r\n________________________________\r\nFrom: Animesh Raha <animesh@",
       "received": "2026-05-02T14:16:00Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbknCsFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIl-5GMTU1dBhm5ulmQcVKQ=",
       "rules_score": 7,
@@ -30,12 +63,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman (Galaxy Data Centers internal team) is confirming approval for an award entry design and requesting it be distributed on Monday. He's asking for confirmation that coordination with the external party can be completed by that deadline, and wants to be notified immediately if there are any blockers to execution.",
+      "ai_summary": "Sai Raman (internal Galaxy Data Centers team member) is confirming approval for an award submission design and requesting it be distributed on Monday. He's asking for confirmation that coordination with the external party can be completed by that deadline, with contingency communication if there are any blockers.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm with the design/creative team and external partner that the award entry can be finalized and distributed by Monday",
-        "If any delays are anticipated, notify Sai immediately with specific blockers and revised timeline",
-        "Once confirmed, coordinate the Monday distribution and send Sai a completion confirmation"
+        "Confirm with the external design partner that they can meet the Monday delivery deadline",
+        "Notify Sai immediately if any coordination obstacles arise that would prevent the Monday timeline",
+        "Prepare the approved design for distribution and brief Sai on final status by end of day Friday"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -2351,5 +2384,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 72
+  "total_tracked": 73
 }
