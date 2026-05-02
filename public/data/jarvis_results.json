@@ -1,13 +1,43 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-01T23:47:25.848761+00:00",
-  "total": 2,
-  "new": 2,
-  "noise": 2,
-  "ai": 2,
+  "timestamp": "2026-05-02T02:24:41.382807+00:00",
+  "total": 1,
+  "new": 1,
+  "noise": 0,
+  "ai": 1,
   "skipped": 0,
   "auto_learned": 36,
   "items": [
+    {
+      "sender_email": "dse@eumail.docusign.net",
+      "sender_name": "Daniel Scarbrough via Docusign",
+      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
+      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
+      "received": "2026-05-02T02:16:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPjAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHVMwRRCon1EulPCRw1_ceI=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: nda, capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Daniel Scarbrough at Evermere Capital Management has sent Dave an MNDA for review and signature. This is a formal legal document from a capital/investment firm\u2014likely related to a potential deal discussion or partnership. MNDAs are required before substantive business conversations.",
+      "ai_action": "Forward to Simmons & Simmons (legal counsel) immediately for review. Confirm with Daniel what deal/opportunity this MNDA covers before signing.",
+      "ai_next_steps": [
+        "Send MNDA to Simmons & Simmons for standard review and Galaxy redlines",
+        "Reply to Daniel asking: what opportunity/deal is this MNDA for? (AI prospect, equity raise, site acquisition?)",
+        "Once legal review complete, schedule call with Daniel to discuss the underlying opportunity"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -1101,36 +1131,6 @@
       ],
       "ai_failed": false,
       "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dse@eumail.docusign.net",
-      "sender_name": "Daniel Scarbrough via Docusign",
-      "subject": "Reminder: Docusign Evermere Capital Management MNDA",
-      "body_preview": "Daniel Scarbrough sent you a document to review and sign.\r\nReview Document\r\nDaniel Scarbrough\r\ndan.scarbrough@evermere.com\r\nHello,\r\n\r\nPlease find attached Mutual Non Disclosure Agreement issued by Evermere Capital Management Ltd. You will automatically re",
-      "received": "2026-04-30T02:23:10Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbUTqRNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANxK3ZqcBUJBtwzgh5vG4Lc=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: nda, capital, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Daniel Scarbrough from Evermere Capital Management has sent an MNDA for review and signature. This is a formal legal document requiring Dave's attention\u2014likely tied to a deal discussion or investment opportunity with Evermere.",
-      "ai_action": "Dave should review the MNDA immediately and coordinate with Simmons & Simmons (Galaxy's legal counsel) for any required amendments or sign-off. Clarify with Daniel what opportunity or discussion this MNDA covers.",
-      "ai_next_steps": [
-        "Review the full MNDA document from DocuSign",
-        "Forward to Simmons & Simmons for legal review if not already done",
-        "Confirm with Daniel Scarbrough what deal/partnership this MNDA is protecting"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
       "final_label": "URGENT"
     },
     {
