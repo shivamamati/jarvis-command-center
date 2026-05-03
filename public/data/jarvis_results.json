@@ -1,13 +1,44 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-03T17:43:29.659913+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 1,
-  "ai": 9,
+  "timestamp": "2026-05-03T18:53:50.312717+00:00",
+  "total": 5,
+  "new": 5,
+  "noise": 2,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "s.adamczyk@2020-4.com",
+      "sender_name": "Steven Adamczyk",
+      "subject": "Acquisition / Asset Management Associate, Real Estate \u2013 Oakland, CA",
+      "body_preview": "We have been retained to recruit a Acquisition / Asset Management Associate. Our client is an Oakland based full-service real estate investment and management company focused on value-add investment opportunities across Northern California. The company ha",
+      "received": "2026-05-03T17:43:35Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAbrQgjPAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAFUlWNkMy0pAucb_AksYFek=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Steven Adamczyk from a recruitment firm is reaching out about a job opening for an Acquisition/Asset Management Associate at an Oakland-based real estate investment company specializing in value-add opportunities in Northern California. This appears to be a recruiting inquiry, likely either to gauge interest from Galaxy's team or to source candidates from the industry. The relevance to Galaxy depends on whether this represents a potential business partnership opportunity, talent acquisition need, or simply a mass outreach that can be filed for future reference.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Steven whether this is a candidate referral request or if Galaxy Capital Partners is being considered as a potential partner/investor for this firm",
+        "Route to France or HR if Galaxy has internal hiring needs for similar roles; otherwise, acknowledge and archive for future reference",
+        "If strategically relevant, request more details on the client company's investment thesis and whether there are partnership opportunities with Galaxy Data Centers or Galaxy Capital"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -31,12 +62,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman from Galaxy Data Centers is circulating meeting notes and action items from a marketing meeting held on May 3rd, providing documentation for alignment across the team. He's requesting confirmation that stakeholders can access the materials and inviting corrections or additions to the takeaways. This ensures clarity on marketing priorities and assigned responsibilities going forward.",
+      "ai_summary": "Sai Raman is sharing meeting notes and action items from a recent marketing meeting with Galaxy's leadership team. He's requesting confirmation that the document is accessible and asking for any corrections or additions to the captured takeaways and next steps. This matters because clear alignment on marketing priorities and assigned tasks is critical for execution and accountability across the organization.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the attached meeting notes document and confirm receipt with Sai",
-        "Identify and communicate any action items or corrections needed to the marketing agenda",
-        "Schedule follow-up if clarification on next steps or ownership of tasks is required"
+        "Review the attached Marketing Meeting Agenda document and confirm the takeaways and action items are accurate",
+        "Identify any missing items or corrections needed and reply to Sai with feedback",
+        "Assign owners and deadlines to each action item and communicate responsibilities to the team"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -65,12 +96,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman is sending a thank you message to Jo\u00e3o at IFF Tech Capital for shortlisting Galaxy Data Centers, likely in a competitive selection process. The message references significant effort invested in a Redhill Power Purchase Agreement proposal, suggesting this is a substantive business opportunity that the team prioritizes. This indicates Galaxy is actively pursuing strategic partnerships or investments that require careful deal structuring.",
+      "ai_summary": "Sai Raman from Galaxy Data Centers is thanking Jo\u00e3o from IFF Tech Capital for shortlisting Galaxy in what appears to be a competitive process related to the Redhill Power Purchase Agreement project. This suggests Galaxy is being evaluated by a potential investor or partner for a significant infrastructure deal, indicating progress in securing backing or partnership for the Redhill PPA initiative.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm the status and next phases of the IFF Tech Capital evaluation process with Sai or Jo\u00e3o directly",
-        "Review the Redhill PPA proposal details to ensure all key terms and commercial points align with Galaxy's strategic objectives",
-        "Schedule a follow-up meeting with IFF Tech Capital to advance discussions and clarify timeline for decision-making"
+        "Dave should follow up with Sai to understand the full scope of IFF Tech Capital's evaluation criteria and timeline for next steps",
+        "Clarify the commercial terms and investment structure IFF Tech Capital is considering for the Redhill PPA",
+        "Prepare detailed materials on Galaxy's technical capabilities and financial strength to advance the evaluation process"
       ],
       "ai_failed": false,
       "final_score": 7,
@@ -2531,37 +2562,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "bobcavoto@2020-4.com",
-      "sender_name": "Bob Cavoto",
-      "subject": "James Zhang, Asset Management Executive | MBA, CPA, CMA",
-      "body_preview": "Hi Dave,\r\n\r\n\r\n\r\nI want to introduce you to James Zhang, a Commercial Real Estate Asset Management Executive with over 15 years of experience overseeing $5B+ in institutional assets. James specializes in transforming high-level business plans into maximize",
-      "received": "2026-04-26T18:41:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbG83sHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGANK0hBBblEnBqMWWOQVJw=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com",
-        "KW: introduce"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Bob Cavoto is introducing James Zhang, a seasoned commercial real estate asset management executive with 15+ years of experience managing over $5 billion in institutional assets, who specializes in translating strategic business plans into operational excellence. This introduction appears to be positioned as a potential fit for Galaxy's portfolio management or operational oversight needs. The timing and expertise suggest Bob may be exploring whether James could add value to Galaxy's data center or capital deployment strategy.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request James Zhang's full resume and a specific overview of his experience with infrastructure or data center asset management",
-        "Ask Bob Cavoto to clarify the intended role or problem James could solve for Galaxy's current business priorities",
-        "Schedule a brief call with James to assess cultural fit and discuss how his institutional asset management expertise could apply to Galaxy's portfolio"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     }
   ],
   "total_tracked": 78
