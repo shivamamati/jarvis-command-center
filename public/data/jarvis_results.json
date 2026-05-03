@@ -1,13 +1,47 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-03T13:00:45.096342+00:00",
-  "total": 3,
-  "new": 3,
-  "noise": 2,
-  "ai": 3,
+  "timestamp": "2026-05-03T14:44:20.161932+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 5,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "animesh@galaxydatacenters.com",
+      "sender_name": "Animesh Raha",
+      "subject": "Fw: INK PPT for Galaxy Data Centers",
+      "body_preview": "Animesh Raha\r\n\r\nE: animesh@galaxydatacenters.com\r\n\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n    LinkedIn\r\n  WhatsApp\r\n\r\n\r\n________________________________\r\nFrom: Aayush Jain <aayush.jain@inkppt.com>\r\nSent: Saturday, May 2, 2026 11:59 AM\r\nTo:",
+      "received": "2026-05-03T13:50:46Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALme9oDz-bNMvNhLDBWaLiM=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Attachments from known (+1)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Aayush Jain from INK PPT is reaching out to Galaxy Data Centers, likely offering presentation design or related services. This appears to be an initial outreach or meeting request from a potential vendor or service provider. The business impact depends on whether Galaxy has a current need for presentation services or if this represents an unsolicited pitch that requires evaluation.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Animesh clarify the specific service offering and context of INK PPT's outreach",
+        "Determine if Galaxy has an existing relationship or stated need for their services before scheduling",
+        "If relevant, route to appropriate department (marketing, communications, or procurement) for evaluation"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -2321,5 +2355,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 71
+  "total_tracked": 72
 }
