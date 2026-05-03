@@ -1,13 +1,187 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-03T15:43:01.257557+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 3,
-  "ai": 5,
+  "timestamp": "2026-05-03T16:43:59.612980+00:00",
+  "total": 8,
+  "new": 8,
+  "noise": 2,
+  "ai": 8,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Galaxy shortlisted at IFF The Tech Capital Global Awards",
+      "body_preview": "Hi All,\r\n\r\nI need to quickly run this by you for a decision by Thursday 7 May before a pricing deadline passes.\r\n\r\nGalaxy has been shortlisted for Energy Deal of the Year at the Tech Capital Global Awards 2026, recognising the Redhill PPA with UrbanChain ",
+      "received": "2026-05-03T16:34:27Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkKAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJ8vtZKX7JBAr051X_nzols=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: capital",
+        "Urgency: deadline (+1)",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is notifying leadership that Galaxy has been selected as a finalist for Energy Deal of the Year at the Tech Capital Global Awards 2026, specifically for the Redhill PPA transaction with UrbanChain. A decision is needed by May 7th before a pricing deadline expires, likely regarding participation costs or submission requirements.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should review the award submission details and pricing structure to determine Galaxy's participation decision by May 7th",
+        "Confirm with Sai whether this requires financial commitment and what the approval process/budget owner should be",
+        "If proceeding, assign someone to coordinate the award submission materials and any public relations/marketing opportunities around the Redhill PPA win"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Tech Capital Awards 11th May",
+      "body_preview": "Hi Sai!\r\n\r\nCharlie didn't include a link or deck in his email, so I've reached out to him to see what's still available, with you all on copy.\r\n\r\nCandace Sipos\r\nEVP, Business Strategy & Development\r\n\r\n804-896-4811  |  jsa.net\r\n\r\n\r\n\r\n\r\nOn Sat, May 2, 2026 ",
+      "received": "2026-05-03T16:01:07Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1WkoUbIYNGplAY7u0qDS0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, capital",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is following up on a Tech Capital Awards event scheduled for May 11th. She's clarifying that promotional materials (link or deck) weren't included in a prior communication from Charlie and has proactively reached out to source them, copying Galaxy stakeholders for visibility.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm Galaxy's participation status and sponsorship level for the Tech Capital Awards event on May 11th",
+        "Follow up with Candace or Charlie once materials are received to review content and determine any Galaxy branding or activation requirements",
+        "Assign internal owner to manage event logistics and attendance if Galaxy is participating"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Tech Capital Global Awards \u2014 Tables / Sponsorship",
+      "body_preview": "Hi Charlie,\r\n\r\nGreat to meet you \u2014 I work with the Galaxy Data Centers team, and I'm wondering if you could pass along info on any remaining tables / sponsorship opportunities for the Tech Capital Global Awards?\r\n\r\nThank you!\r\nCandace\r\n\r\nCandace Sipos\r\nEV",
+      "received": "2026-05-03T16:00:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkHAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGn5HTnUXItMpspDxXdCDwk=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: nda, capital, data cent",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from the Galaxy Data Centers team is inquiring about available sponsorship packages and table reservations for the Tech Capital Global Awards event. This represents a potential corporate sponsorship and networking opportunity that could enhance Galaxy's visibility within the technology capital community and strengthen industry relationships.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Forward Candace's inquiry to the events or marketing team to obtain current sponsorship tier pricing, available table inventory, and deadline information for Tech Capital Global Awards",
+        "Have Charlie or France follow up directly with Candace to understand Galaxy's budget parameters and preferred sponsorship level (title, presenting, table-only, etc.)",
+        "Confirm internal stakeholders' interest in attending and decide on number of tables needed before committing to sponsorship"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "john.hall@techreconsulting.com",
+      "sender_name": "John Hall",
+      "subject": "Fw: Introducer agreement",
+      "body_preview": "Hi Dave / Ash\r\n\r\nI hope things are going well at Galaxy.\r\n\r\nI wanted to pick up on our discussions in March and our proposed changes to the introducer agreement.\r\n\r\nI appreciate that the 18MW opportunity may have been a difficult ask from a scale & timing",
+      "received": "2026-05-03T15:58:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI_k1UsmWExPhJUe1OSBSZY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [John Hall]",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "Tier 2: techreconsulting.com",
+        "Pipeline: john hall",
+        "KW: mw, introducer, introduce",
+        "High MW: 18mw",
+        "Broker signal",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "John Hall from Tech Reconciling is following up on March discussions regarding modifications to an introducer agreement, acknowledging that an 18MW opportunity may have presented challenges in terms of project scale and timeline feasibility for Galaxy.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave or Ash should review the March meeting notes and proposed agreement changes to clarify what modifications were discussed",
+        "Schedule a call with John Hall to discuss realistic terms, scale adjustments, or timeline alternatives for the 18MW opportunity",
+        "Determine if Galaxy wants to proceed with a revised introducer agreement and on what basis (different MW target, different terms, or different opportunity pipeline)"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "IFF Tech Capital Awards Details",
+      "body_preview": "HI All,\r\n\r\nDetails about the award below. Attached submission doc.\r\n\r\nAlso, @Rahul Chhabria request you to please use the email used here for Sarthak going forward.\r\n\r\n\r\n-------------shortlist mail ------------\r\nHi all,\r\n\r\nGreat news \u2014 Galaxy has been sho",
+      "received": "2026-05-03T15:55:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkFAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAL_EOMG1oMVNv1JjBq_eoZE=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: capital, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is notifying the team that Galaxy has been shortlisted for the IFF Tech Capital Awards and is sharing submission details with an attached document. Additionally, Rahul Chhabria is requesting that a specific email address be used going forward for communications regarding Sarthak.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached IFF Tech Capital Awards submission document and confirm Galaxy's eligibility and submission accuracy",
+        "Update contact records to use the specified email address for Sarthak in all future IFF Tech Capital Awards communications",
+        "Assign an owner to manage Galaxy's award submission process and timeline through completion"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "animesh@galaxydatacenters.com",
       "sender_name": "Animesh Raha",
@@ -41,39 +215,6 @@
       "ai_failed": false,
       "final_score": 6,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "sai@galaxydatacenters.com",
-      "sender_name": "Sai Raman",
-      "subject": "Re: Tech Capital Awards 11th May",
-      "body_preview": "Thanks Candace.\r\n\r\nCan you share the sponsorship deck? Don't see that in the mail. What's the pricing for the same.\r\n\r\nWe are not sure of getting the table yet. Will finalize who's attending from the team.\r\n\r\n\r\n\r\n\r\n\r\nFrom: Candace Sipos <candace@jsa.net>",
-      "received": "2026-05-02T15:38:21Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbknCsIAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG1WkoUbIYNGplAY7u0qDS0=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 5x (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, capital"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Sai Raman from Galaxy Data Centers is following up on Tech Capital Awards sponsorship details requested by Candace Sipos at JSA. Sai needs the sponsorship deck and pricing information, and is still uncertain about committing to a table pending internal team attendance confirmation. Galaxy needs to clarify sponsorship terms and budget impact before making a final commitment to this May 11th event.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request the sponsorship deck and pricing breakdown from Candace Sipos at JSA to evaluate Galaxy's sponsorship options",
-        "Conduct internal poll with Galaxy leadership team to determine who can attend and confirm table commitment",
-        "Review sponsorship ROI expectations against Galaxy's marketing calendar and budget allocation for Q2 events"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "sai@galaxydatacenters.com",
@@ -2355,5 +2496,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 72
+  "total_tracked": 76
 }
