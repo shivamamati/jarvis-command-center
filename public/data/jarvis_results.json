@@ -1,13 +1,81 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-03T16:43:59.612980+00:00",
-  "total": 8,
-  "new": 8,
-  "noise": 2,
-  "ai": 8,
+  "timestamp": "2026-05-03T17:43:29.659913+00:00",
+  "total": 9,
+  "new": 9,
+  "noise": 1,
+  "ai": 9,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "May 3rd - Meeting Notes and next steps",
+      "body_preview": "Hi All,\r\n\r\nPlease see meeting takeaways and next steps here. Please let me know if I have missed anything or if unable to open the link below (doc attached).\r\n\r\n\u200bMarketing Meeting Agenda.docx\u200b\u200b\u200b",
+      "received": "2026-05-03T17:21:32Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkNAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALfFPmXdfxdLnpe8IKcuA7U=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman from Galaxy Data Centers is circulating meeting notes and action items from a marketing meeting held on May 3rd, providing documentation for alignment across the team. He's requesting confirmation that stakeholders can access the materials and inviting corrections or additions to the takeaways. This ensures clarity on marketing priorities and assigned responsibilities going forward.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the attached meeting notes document and confirm receipt with Sai",
+        "Identify and communicate any action items or corrections needed to the marketing agenda",
+        "Schedule follow-up if clarification on next steps or ownership of tasks is required"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
+      "subject": "Linkedin In mail Message to Joao IFF Tech Capital ",
+      "body_preview": "Sub: Thank you for shortlisting us.\r\n\r\nHi Jo\u00e3o,\r\n\r\nJust wanted to drop you a note to say thank you for the shortlisting. It really does mean a lot to the team.\r\n\r\nWe put a lot of thought into the Redhill PPA because we wanted to do it properly. There are ",
+      "received": "2026-05-03T17:00:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMP20QW9q51LumicZsQz2Uo=",
+      "rules_score": 7,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 5x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: capital"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Sai Raman is sending a thank you message to Jo\u00e3o at IFF Tech Capital for shortlisting Galaxy Data Centers, likely in a competitive selection process. The message references significant effort invested in a Redhill Power Purchase Agreement proposal, suggesting this is a substantive business opportunity that the team prioritizes. This indicates Galaxy is actively pursuing strategic partnerships or investments that require careful deal structuring.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the status and next phases of the IFF Tech Capital evaluation process with Sai or Jo\u00e3o directly",
+        "Review the Redhill PPA proposal details to ensure all key terms and commercial points align with Galaxy's strategic objectives",
+        "Schedule a follow-up meeting with IFF Tech Capital to advance discussions and clarify timeline for decision-making"
+      ],
+      "ai_failed": false,
+      "final_score": 7,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -33,12 +101,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman is notifying leadership that Galaxy has been selected as a finalist for Energy Deal of the Year at the Tech Capital Global Awards 2026, specifically for the Redhill PPA transaction with UrbanChain. A decision is needed by May 7th before a pricing deadline expires, likely regarding participation costs or submission requirements.",
+      "ai_summary": "Sai Raman is notifying leadership that Galaxy Data Centers has been shortlisted for Energy Deal of the Year at the Tech Capital Global Awards 2026, specifically for the Redhill PPA partnership with UrbanChain. This represents recognition of a significant energy transaction and requires a decision by May 7th to meet a pricing deadline for award submission.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should review the award submission details and pricing structure to determine Galaxy's participation decision by May 7th",
-        "Confirm with Sai whether this requires financial commitment and what the approval process/budget owner should be",
-        "If proceeding, assign someone to coordinate the award submission materials and any public relations/marketing opportunities around the Redhill PPA win"
+        "Dave should confirm with Sai by May 6th whether Galaxy will proceed with the award submission and associated costs",
+        "France should review the submission requirements and pricing details to brief Dave on the decision parameters",
+        "Determine if this award aligns with Galaxy's marketing/PR strategy and whether participation will provide sufficient business value"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -67,12 +135,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is following up on a Tech Capital Awards event scheduled for May 11th. She's clarifying that promotional materials (link or deck) weren't included in a prior communication from Charlie and has proactively reached out to source them, copying Galaxy stakeholders for visibility.",
+      "ai_summary": "Candace Sipos, EVP of Business Strategy & Development at JSA, is following up on a Tech Capital Awards event scheduled for May 11th. She's flagging that Charlie failed to provide promised materials (link or deck) and has proactively reached out to him to source the missing information, copying Galaxy on the communication. This appears to be an event Galaxy was planning to attend or participate in, and the missing materials could impact preparation or attendance logistics.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm Galaxy's participation status and sponsorship level for the Tech Capital Awards event on May 11th",
-        "Follow up with Candace or Charlie once materials are received to review content and determine any Galaxy branding or activation requirements",
-        "Assign internal owner to manage event logistics and attendance if Galaxy is participating"
+        "Wait for Charlie's response through Candace regarding available materials for the May 11th Tech Capital Awards",
+        "Clarify with Candace or Charlie what Galaxy's participation level is and any time-sensitive commitments needed before May 11th",
+        "Confirm internally whether Galaxy should be attending and if any prep work is needed once materials are received"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -101,12 +169,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from the Galaxy Data Centers team is inquiring about available sponsorship packages and table reservations for the Tech Capital Global Awards event. This represents a potential corporate sponsorship and networking opportunity that could enhance Galaxy's visibility within the technology capital community and strengthen industry relationships.",
+      "ai_summary": "Candace Sipos from the Galaxy Data Centers team is inquiring about available sponsorship tables or packages for the Tech Capital Global Awards event. She's seeking pricing and availability information to potentially secure Galaxy's participation in this industry event. This represents a brand visibility and networking opportunity with relevant tech capital and data center industry stakeholders.",
       "ai_action": null,
       "ai_next_steps": [
-        "Forward Candace's inquiry to the events or marketing team to obtain current sponsorship tier pricing, available table inventory, and deadline information for Tech Capital Global Awards",
-        "Have Charlie or France follow up directly with Candace to understand Galaxy's budget parameters and preferred sponsorship level (title, presenting, table-only, etc.)",
-        "Confirm internal stakeholders' interest in attending and decide on number of tables needed before committing to sponsorship"
+        "Contact the Tech Capital Global Awards organizers to obtain current sponsorship tier options, pricing, and table availability",
+        "Coordinate with Galaxy Data Centers marketing/events team to determine budget allocation and sponsorship level appropriate for the company's objectives",
+        "Respond to Candace with available options and timeline for decision/commitment to secure preferred placement"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -137,12 +205,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "John Hall from Tech Reconciling is following up on March discussions regarding modifications to an introducer agreement, acknowledging that an 18MW opportunity may have presented challenges in terms of project scale and timeline feasibility for Galaxy.",
+      "ai_summary": "John Hall from Tech Reconsidering Consulting is following up on March discussions about modifying your introducer agreement terms. He's acknowledging that an 18MW opportunity may have been oversized relative to Galaxy's current capacity and timing constraints, and is likely proposing revised terms or a phased approach.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave or Ash should review the March meeting notes and proposed agreement changes to clarify what modifications were discussed",
-        "Schedule a call with John Hall to discuss realistic terms, scale adjustments, or timeline alternatives for the 18MW opportunity",
-        "Determine if Galaxy wants to proceed with a revised introducer agreement and on what basis (different MW target, different terms, or different opportunity pipeline)"
+        "Review internal notes from March discussions with John Hall to identify the original agreement terms and Galaxy's stated constraints",
+        "Determine Galaxy's current capacity and pipeline for similar opportunities to assess feasibility of revised terms",
+        "Schedule a call with John to clarify what modifications he's proposing and whether this opportunity remains viable or should be repositioned"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -171,12 +239,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Sai Raman is notifying the team that Galaxy has been shortlisted for the IFF Tech Capital Awards and is sharing submission details with an attached document. Additionally, Rahul Chhabria is requesting that a specific email address be used going forward for communications regarding Sarthak.",
+      "ai_summary": "Sai Raman is notifying the team that Galaxy Data Centers has been shortlisted for an IFF Tech Capital Award and is sharing submission documentation for the award program. Additionally, he's requesting that going forward, communications for Sarthak should use the email address referenced in the award notification.",
       "ai_action": null,
       "ai_next_steps": [
-        "Review the attached IFF Tech Capital Awards submission document and confirm Galaxy's eligibility and submission accuracy",
-        "Update contact records to use the specified email address for Sarthak in all future IFF Tech Capital Awards communications",
-        "Assign an owner to manage Galaxy's award submission process and timeline through completion"
+        "Review the attached submission document and confirm accuracy of Galaxy's application details",
+        "Update Sarthak's contact email in all internal systems and communication lists per Rahul Chhabria's request",
+        "Identify next steps in the award submission process and assign owner for any required follow-up materials or deadline"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2496,5 +2564,5 @@
       "final_label": "IMPORTANT"
     }
   ],
-  "total_tracked": 76
+  "total_tracked": 78
 }
