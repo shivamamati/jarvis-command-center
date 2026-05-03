@@ -1,20 +1,6 @@
 {
-  "timestamp": "2026-05-02T22:36:14.232857+00:00",
+  "timestamp": "2026-05-03T02:32:54.452853+00:00",
   "events": [
-    {
-      "subject": "End of week marketing meeting",
-      "start": "2026-05-02T16:30:00.0000000",
-      "end": "2026-05-02T17:30:00.0000000",
-      "attendees": [
-        "Sai",
-        "SA",
-        "Animesh"
-      ],
-      "organizer": "Sai Raman",
-      "location": "Microsoft Teams Meeting",
-      "isAllDay": false,
-      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qfdwPPAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGktn0tgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
-    },
     {
       "subject": "Marketing catch up",
       "start": "2026-05-03T13:00:00.0000000",
@@ -84,6 +70,37 @@
       "location": "Microsoft Teams Meeting",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qlwFcdAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAFX9tvxAAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Project Bronby, Copenhagen | Galaxy DC",
+      "start": "2026-05-05T14:00:00.0000000",
+      "end": "2026-05-05T14:30:00.0000000",
+      "attendees": [
+        "Skrbensky,",
+        "Jones,",
+        "Wray,"
+      ],
+      "organizer": "Skrbensky, Victoria",
+      "location": "Microsoft Teams Meeting",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAbWkn6EAAA%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Redhill Operations Call",
+      "start": "2026-05-05T15:00:00.0000000",
+      "end": "2026-05-05T15:45:00.0000000",
+      "attendees": [
+        "Elizabeth",
+        "4.02",
+        "Ash",
+        "Mike",
+        "Neil",
+        "Paul"
+      ],
+      "organizer": "Elizabeth Smith",
+      "location": "4.01",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qo5QDEAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAEFTImBgAAEA%3D%3D&exvsurl=1&path=/calendar/item"
     }
   ]
 }
