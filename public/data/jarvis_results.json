@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-04T15:59:41.877931+00:00",
-  "total": 21,
-  "new": 21,
-  "noise": 17,
-  "ai": 20,
+  "timestamp": "2026-05-04T17:46:01.324070+00:00",
+  "total": 17,
+  "new": 17,
+  "noise": 16,
+  "ai": 15,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
@@ -15,7 +15,7 @@
       "body_preview": "Hi Dave,\r\n\r\nI hope you are doing well. As we approach your extension deadline of May 8th, please reply here with any updates on where things stand.\r\n\r\nThe position is scheduled to settle on May 9th, and it would be helpful to ensure the refincance is in o",
       "received": "2026-05-04T15:56:52Z",
       "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e4xAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADN1HzdBZGlPi4CUA8E6_Ao=",
       "rules_score": 7,
@@ -28,12 +28,12 @@
       "ai_reviewed": true,
       "ai_score": 8,
       "ai_label": "URGENT",
-      "ai_summary": "SALT Lending is following up on a maturing loan with a May 8th extension deadline and May 9th settlement date. This appears to be a refinancing situation that requires Dave's immediate attention and decision on next steps.",
-      "ai_action": "Dave must respond to SALT Lending immediately with status update on refinancing plans before May 8th deadline. Verify which Galaxy asset/facility this loan relates to and confirm refinancing strategy with finance team.",
+      "ai_summary": "SALT Lending is following up on a maturing loan with a May 8th extension deadline and May 9th settlement date. This appears to be a real financing obligation requiring Dave's immediate attention and decision on refinancing status.",
+      "ai_action": "Dave must respond immediately to SALT Lending with refinancing status and any extension requests before May 8th deadline. Confirm with finance team on current refinance negotiations.",
       "ai_next_steps": [
-        "Dave to reply to loansupport@saltlending.com with refinancing status/plans",
-        "Confirm which Galaxy asset this loan finances (Redhill, Polish facility, or other)",
-        "Coordinate with Galaxy's finance team and legal counsel (Simmons & Simmons) on refinancing terms and timeline"
+        "Dave responds to loansupport@saltlending.com with refinancing update and extension status",
+        "Internal: Check with CFO/finance team on refinance progress and any issues",
+        "Confirm settlement timeline and any conditions required by May 9th"
       ],
       "ai_failed": false,
       "final_score": 8,
@@ -2619,39 +2619,7 @@
       "ai_failed": false,
       "final_score": 4,
       "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "faye.p@queensu.ca",
-      "sender_name": "Faye Pan",
-      "subject": "Re: Updated Docklands Deck",
-      "body_preview": "From: Faye Pan <faye.p@queensu.ca>\r\nDate: Monday, April 27, 2026 at 1:36\u202fPM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: Updated Docklands Deck\r\n\r\nHi Dave,\r\n\r\nI have updated the deck with revisions to the overall  feel and layout.\r\n\r\nOn the ",
-      "received": "2026-04-27T17:39:31Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ87AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM7B2j2YEgNPhqgmcC5dYws=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 3x (+4)",
-        "Attachments + deal KW (+2)",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Faye Pan (queensu.ca email) is sending Dave a revised deck for the Docklands project\u2014likely a data center development or investment opportunity. This appears to be an ongoing project discussion with active iterations on materials.",
-      "ai_action": "Dave should review the attachment and provide feedback if needed. Confirm the Docklands project status and Faye's role in the deal workflow.",
-      "ai_next_steps": [
-        "Review the updated Docklands Deck attachment",
-        "Assess revisions against previous version for deal readiness",
-        "Confirm next milestone (investor presentation, partner review, LOI prep, etc.)"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 81
+  "total_tracked": 80
 }
