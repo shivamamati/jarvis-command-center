@@ -1,13 +1,178 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-04T17:46:01.324070+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 16,
+  "timestamp": "2026-05-04T19:24:07.940639+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 11,
   "ai": 15,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: CEO Looking for DC Capacity",
+      "body_preview": "Hi all!\r\n\r\nFYI, I'm taking sarthak@galaxydatacenters.com off this thread because I keep getting this note: \"Your message wasn't delivered to sarthak@galaxydatacenters.com because the address couldn't be found, or is unable to receive mail.\"\r\n\r\nWanted to c",
+      "received": "2026-05-04T19:11:26Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOKIMuLeA-RNjP_EqW2IG9w=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 2x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: capacity",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is notifying the team that Sarthak's Galaxy Data Centers email address is bouncing and needs to be corrected. This is blocking communication on an active CEO-level data center capacity inquiry that requires immediate resolution to maintain sales momentum.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Verify and provide Candace with Sarthak's correct email address or identify the appropriate Galaxy contact for this CEO prospect",
+        "Confirm the prospect's data center capacity requirements and timeline to prevent deal delays",
+        "Establish a working communication channel with Candace to move this opportunity forward"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "brant.bernet@cbre.com",
+      "sender_name": "Brant Bernet",
+      "subject": "ERCOT Approved Power Upgrades - South Dallas",
+      "body_preview": "ERCOT Approved Power Upgrades - South Dallas\r\n\r\n\r\nClick here to view with images.\r\nTo ensure delivery to your inbox, please add brant.bernet@cbre.com to your address book.\r\n\r\n\r\nDallas Area - Data Center Land\r\nSouth of Dallas Data Center Land\r\nWaxahachie, ",
+      "received": "2026-05-04T19:01:11Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5EAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHVdK2voB09KoMOkeM892iA=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "VIP FIRM",
+      "rules_reasons": [
+        "VIP: cbre.com",
+        "KW: lease, power, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Brant Bernet from CBRE is notifying us of ERCOT-approved power infrastructure upgrades in the South Dallas area, specifically mentioning data center land opportunities in Waxahachie and surrounding regions. This is relevant to Galaxy's data center expansion strategy as reliable, grid-approved power capacity is a critical prerequisite for facility development. The timing and location of these upgrades could directly impact our ability to develop new data center assets in this high-demand Texas market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule a call with Brant to obtain detailed specifications on the power upgrades (capacity, timeline, geographic coverage) and their implications for our planned South Dallas projects",
+        "Cross-reference the ERCOT upgrade locations with Galaxy's current land pipeline and development priorities in the Waxahachie/South Dallas corridor",
+        "Have France review and assess how these power infrastructure improvements affect project feasibility and timeline for any sites under evaluation in this region"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "tj@galaxydatacenters.com",
+      "sender_name": "Tj Karklins",
+      "subject": "Redhill Data Centre",
+      "body_preview": "Chris,\r\n\r\n\r\nAs promised, attached are revised leases for your Redhill Data Centre.\r\n\r\nThe first revision is for the Data Center Space with 720KW of power; the other revision is for the office space; you currently have a separate lease for each.\r\n\r\nOn both",
+      "received": "2026-05-04T18:39:08Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAKwPjNhg1gJAnlblLDpQnPQ=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 3x (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: kw, lease, power",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "TJ Karklins from Galaxy Data Centers is sending revised lease agreements for the Redhill Data Centre facility, covering both the data center space (720KW capacity) and office space as separate leases. This appears to be a routine lease update delivery as previously committed, likely containing updated terms or conditions that require review and execution.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review both revised lease documents for terms, pricing, and any material changes from current agreements",
+        "Coordinate with legal counsel to assess modifications and determine if tenant approval/signature is needed",
+        "Schedule follow-up with TJ to clarify any gaps in the email (message appears incomplete) and confirm execution timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "brian@heatinverse.com",
+      "sender_name": "Brian Schafer",
+      "subject": "CoolFilm for Galaxy - Following Up from DCW",
+      "body_preview": "You don't often get email from brian@heatinverse.com. Learn why this is important\r\n\r\nHi Dave,\r\n\r\n\r\nHope all\u2019s well. We weren\u2019t able to connect at Data Center World in Washington D.C., but I wanted to follow up and introduce you to Heat Inverse.\r\n\r\n\r\nWe ma",
+      "received": "2026-05-04T18:26:02Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5AAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALURAHJ-CeBCheko0k2M4Lw=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "KW: data cent, introduce"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 6,
+      "ai_label": "IMPORTANT",
+      "ai_summary": "Brian Schafer from Heat Inverse is following up from Data Center World (DCW) to introduce a thermal management product called CoolFilm. This appears to be a real person with a specific technology relevant to data center operations, though the email is cut off mid-sentence.",
+      "ai_action": "Flag for Dave's review. Email is incomplete\u2014have France request the full message from Brian to understand the CoolFilm proposition and whether it fits Galaxy's data center asset strategy (especially Redhill or the 18MW AI prospect).",
+      "ai_next_steps": [
+        "Retrieve complete email body from Brian Schafer",
+        "Research Heat Inverse and CoolFilm technology\u2014thermal efficiency plays are relevant to AI workload data centers",
+        "If proposition is solid, schedule brief call with Brian to assess fit for Redhill or TechRE deal"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "mike.adcock@castleforge.com",
+      "sender_name": "Mike Adcock",
+      "subject": "RE: CF - Redhill Planning Consent",
+      "body_preview": "Hi,\r\n\r\nSee edits which adds some figures for the size of the investment. If people are OK with this, im fine for it to go out.\r\n\r\nPersonally, I would change the title to \u201clow carbon capacity\u201d. I think it\u2019s just a little clearer, unless there is a nuance i",
+      "received": "2026-05-04T18:12:14Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e4%2BAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Tier 1: castleforge.com",
+        "KW: investment, capacity",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Mike Adcock from Castle Forge is requesting approval on a planning consent document for a Redhill project that includes investment figures. He's also suggesting a messaging tweak to rebrand the initiative as 'low carbon capacity' rather than the current title. This appears to be a final review gate before external distribution of what could be an important infrastructure or sustainability announcement.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Review the edits and investment figures Mike referenced to confirm they align with Galaxy's position and risk tolerance",
+        "Decide on the title change suggestion ('low carbon capacity' vs current title) and communicate approval/feedback to Mike",
+        "Confirm sign-off process and timeline for external distribution once edits are finalized"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "loansupport@saltlending.com",
       "sender_name": "SALT Loan Support",
@@ -38,39 +203,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: CF - Redhill Planning Consent",
-      "body_preview": "Thank you, Catherine \u2014 much appreciated!\r\n\r\nOne note on timing: JSA is based in the US and given the bank holiday today combined with the early-morning BST timing of the announcement, it might make sense to proactively push to a Wednesday morning (BST) la",
-      "received": "2026-05-04T14:30:59Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e4nAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is responding positively to planning consent progress on the Redhill project but flagging a timing consideration for the announcement. Given JSA's US location and the UK bank holiday, she's suggesting the announcement be repositioned to a Wednesday morning BST to ensure proper US market visibility and engagement.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Catherine and the communications team whether Wednesday morning BST announcement timing is feasible for the Redhill planning consent announcement",
-        "Coordinate announcement distribution to ensure US-based stakeholders and media have adequate notice and morning availability",
-        "Document the agreed announcement timing and notify all parties (JSA, legal, and internal teams) of the final schedule"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "mitch@baxtel.com",
@@ -705,41 +837,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: CEO Looking for DC Capacity",
-      "body_preview": "Confirming here that I responded in the other thread with Castleforge \u2014 I'm copying my response below / attached, for visibility.\r\n\r\nAlso, would you and Castleforge be open to livestreaming a virtual JSA TV interview next week, to announce this news to ou",
-      "received": "2026-05-01T20:58:52Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOKIMuLeA-RNjP_EqW2IG9w=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 2x (+4)",
-        "Attachments from known (+1)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: capacity",
-        "7 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is confirming her response regarding a CEO's data center capacity inquiry that involves Castleforge, and is proposing a joint livestream media announcement on JSA TV next week to publicize the deal. This represents a marketing and brand visibility opportunity for Galaxy while moving forward on what appears to be a significant capacity engagement.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review Candace's previous response thread with Castleforge to understand the capacity proposal terms and client details",
-        "Coordinate with Castleforge to confirm their interest and availability for the JSA TV livestream interview next week",
-        "Confirm Galaxy's participation and designate a senior representative (likely yourself or France) to appear on the interview"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -2621,5 +2718,5 @@
       "final_label": "NOTABLE"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 83
 }
