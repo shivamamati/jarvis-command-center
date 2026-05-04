@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-04T22:54:36.539587+00:00",
-  "total": 14,
-  "new": 14,
-  "noise": 9,
-  "ai": 12,
+  "timestamp": "2026-05-04T23:51:22.852032+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 7,
+  "ai": 6,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
@@ -2490,43 +2490,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "pelle.jorgen@castleforge.com",
-      "sender_name": "Pelle Jorgen",
-      "subject": "Re: Redhill Colour Codes / Brand Artwork",
-      "body_preview": "No worries! This is great. Thanks Dave!\r\n\r\nPelle Jorgen\r\nO: 0203 927 7358\r\nE: pelle.jorgen@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Dave Misra <dave@galaxydatacenters.com>\r\nSent: Monday, April 27, 2026 11:36:59 PM\r\nTo: Pelle Jorgen <pe",
-      "received": "2026-04-27T22:55:42Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9XAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMaFBAh-4J1IpiUGZZN0uVY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+4)",
-        "Tier 1: castleforge.com",
-        "KW: nda",
-        "3 VIPs on thread (+2)",
-        "Thread: 4 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castle Forge is confirming receipt of brand materials (Redhill colour codes and artwork) that Dave provided, and is expressing satisfaction with the deliverables. This appears to be closure on a branding or design specification task related to a project called Redhill.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "File the completed Redhill branding materials in the project repository for future reference and consistency",
-        "Confirm with France (or relevant team lead) that the Redhill brand deliverables are finalized and ready for implementation",
-        "If this was part of a larger project timeline, update the project status to reflect completion of this milestone"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 77
+  "total_tracked": 76
 }
