@@ -1,13 +1,110 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-04T11:44:42.588706+00:00",
-  "total": 3,
-  "new": 3,
-  "noise": 3,
-  "ai": 3,
+  "timestamp": "2026-05-04T13:50:18.013378+00:00",
+  "total": 25,
+  "new": 25,
+  "noise": 22,
+  "ai": 19,
   "skipped": 0,
-  "auto_learned": 39,
+  "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "bobcavoto@2020-4.com",
+      "sender_name": "Bob Cavoto",
+      "subject": "Jason Lucas | Real Estate Private Equity, Family Office & Advisory",
+      "body_preview": "Dave,\r\n\r\n\r\n\r\nI want to introduce you to Jason Lucas, an accomplished real estate private equity and capital markets executive who has spent the last 20+ years building and leading institutional investment platforms with over $10B in AUM. He has personally",
+      "received": "2026-05-04T13:09:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e4XAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI7dOu2xzgBEpVMiYmpmCR0=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "TIER 2",
+      "rules_reasons": [
+        "Tier 2: 2020-4.com",
+        "KW: investment, capital, introduce"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Bob Cavoto is introducing Jason Lucas, a senior real estate private equity executive with 20+ years of experience managing over $10B in institutional assets and capital markets platforms. This appears to be a networking introduction of a potential strategic partner, investor, or advisor with significant real estate and capital expertise. Given Galaxy's data center expansion plans and capital needs, this could provide access to institutional investment sources or strategic guidance for real estate-backed infrastructure projects.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request Bob provide Jason's full background, investment thesis, and specific interest areas relative to Galaxy's portfolio and growth strategy",
+        "Schedule a brief call with Jason to understand his institutional investor network and whether there's alignment on data center or infrastructure opportunities",
+        "Have France review Jason's track record and determine if this relationship supports Galaxy's near-term fundraising or strategic real estate initiatives"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Vaishnavi Yerramsetty and Dave Misra",
+      "body_preview": "Event Name\r\nGalaxy External Meeting Channel\r\n\r\nPlease share anything that will help prepare for our meeting.: Speaking opportunity for canada's Datacenter event Canada\r\n\r\nNeed to make changes to this event? Cancel Reschedule\r\nPowered by Calendly\r\n________",
+      "received": "2026-05-04T12:25:56Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbyOaQhAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAJpx44NovHNLn7SBdJXFCto=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, power, lp",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "This is a calendar invitation confirmation for an upcoming speaking opportunity at Canada's Datacenter event. Dave has been scheduled to speak and is requesting any background materials or preparation documents to help him prepare for the presentation. This represents a public speaking engagement that could enhance Galaxy's visibility and thought leadership in the Canadian data center market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the event details (date, time, location, audience size, topic) and share with Dave if not already provided",
+        "Prepare speaking notes or presentation deck outlining Galaxy's relevant capabilities, market position, or strategic initiatives for the Canadian market",
+        "Research the event agenda, other speakers, and key attendees to help Dave tailor his remarks and identify networking opportunities"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "Vaishnavi Yerramsetty and Dave Misra",
+      "body_preview": "Event Name\r\nGalaxy External Meeting Channel\r\n\r\nPlease share anything that will help prepare for our meeting.: Speaking opportunity in our Canada's Datacenter Power Summit in Toronto, Canada on September 9-10, 2026\r\n\r\nNeed to make changes to this event? Ca",
+      "received": "2026-05-04T12:13:03Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbyOaQgAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAOmxD9CpFB9AuCHTbHuCSfE=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, power, lp",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Vaishnavi Yerramsetty is inviting Dave Misra to speak at Canada's Datacenter Power Summit in Toronto on September 9-10, 2026. This is a speaking opportunity that would position Galaxy as a thought leader in the Canadian datacenter market and expand visibility with regional industry stakeholders. Accepting this speaking slot could drive business development opportunities and strengthen Galaxy's reputation in a key geographic market.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm speaking availability and interest for September 9-10, 2026 with Vaishnavi",
+        "Request detailed event information including audience size, topic focus, and time allocation for the speaking slot",
+        "Work with marketing/communications team to develop talking points and presentation materials aligned with Galaxy's strategic positioning"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
     {
       "sender_email": "pelle.jorgen@castleforge.com",
       "sender_name": "Pelle Jorgen",
@@ -2522,43 +2619,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "FW: Redhill Unit 3 , 2MW opportunity ",
-      "body_preview": "Marcus,\r\n\r\nAs discussed, please find attached our standard broker agreement for the Redhill data centre. We\u2019re excited and looking forward to speaking with your 2\u202fMW end customer and exploring how we can tailor a solution together that meets their needs.",
-      "received": "2026-04-27T11:45:45Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbOBtgRAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAG9nity3zBVBpzCtIm-dMPs=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, mw, lease",
-        "Broker signal",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Marcus (a broker) is being sent Galaxy's standard broker agreement for the Redhill data center facility, indicating there's a 2MW customer opportunity in the pipeline. Galaxy is signaling readiness to engage directly with the end customer and customize a solution, which suggests this is a meaningful near-term revenue opportunity for the Redhill location.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm receipt of the broker agreement with Marcus and establish a timeline for when he'll have the end customer ready for technical/commercial discussions",
-        "Prepare sales team to conduct a needs assessment with the prospective 2MW customer on capacity, power requirements, cooling, and contract terms",
-        "Verify Redhill Unit 3 has 2MW of available capacity and review any constraints or lead times that could impact deployment speed"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 80
 }
