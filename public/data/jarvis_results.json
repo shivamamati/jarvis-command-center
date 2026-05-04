@@ -1,21 +1,21 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-04T21:04:59.176575+00:00",
-  "total": 9,
-  "new": 9,
-  "noise": 3,
-  "ai": 9,
+  "timestamp": "2026-05-04T22:54:36.539587+00:00",
+  "total": 14,
+  "new": 14,
+  "noise": 9,
+  "ai": 12,
   "skipped": 0,
-  "auto_learned": 41,
+  "auto_learned": 37,
   "items": [
     {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
+      "sender_email": "sai@galaxydatacenters.com",
+      "sender_name": "Sai Raman",
       "subject": "Re: Tech Capital Global Awards \u2014 Tables / Sponsorship",
-      "body_preview": "________________________________\r\nFrom: Charlie Milligan <charlie.milligan@thetechcapital.com>\r\nSent: Tuesday, May 5, 2026 1:51:14 AM\r\nTo: Candace Sipos <candace@jsa.net>\r\nCc: Sai Raman <sai@galaxydatacenters.com>; Dave Misra <dave@galaxydatacenters.c",
-      "received": "2026-05-04T21:04:02Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAbxv44aAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
+      "body_preview": "Hey Dave, per my mail yesterday award attendance is GBP 2200 + tax. And ideally, atleast Ash R. should attend.\r\n\r\nSponsorship info was received today from iff and is 7 k GBP for a table.\r\nWould zendo be interested? That's a good idea.\r\n\r\n\r\n-Sai",
+      "received": "2026-05-04T21:18:59Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5OAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAGn5HTnUXItMpspDxXdCDwk=",
       "rules_score": 10,
@@ -23,20 +23,22 @@
       "rules_tier": "INTERNAL",
       "rules_reasons": [
         "Calendar match (+2)",
+        "Dave replied 5x (+2)",
         "Internal \u2014 deal/customer related",
         "KW: nda, capital",
         "3 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Charlie Milligan from The Tech Capital is coordinating sponsorship and table sales for their upcoming awards event, reaching out to Galaxy through Candace Sipos and copying Sai and Dave. This appears to be a business development pitch for Galaxy to purchase tables or become a sponsor for their awards program. Sponsoring industry awards events provides brand visibility, networking opportunities, and credibility within the data center and tech capital ecosystem.",
+      "ai_summary": "Sai Raman (Galaxy Data Centers internal team) is confirming pricing and logistics for the Tech Capital Global Awards event: attendance costs \u00a32,200 plus tax per person, with Ash R. identified as a priority attendee. A sponsorship table opportunity is available for \u00a37,000, and Sai is exploring whether Zendo (likely a partner or portfolio company) might be interested in co-sponsoring.",
       "ai_action": null,
       "ai_next_steps": [
-        "Have Sai or Dave clarify with Charlie the sponsorship tiers, pricing, and expected attendee profile for the awards event",
-        "Determine if this aligns with Galaxy's 2026 marketing and investor relations budget and strategic objectives",
-        "If interested, negotiate table quantities and sponsorship benefits (speaking slots, branding, executive recognition)"
+        "Decide on Galaxy's attendance commitment and confirm Ash R.'s participation with Sai",
+        "Clarify Zendo's interest level and capacity to co-sponsor the \u00a37,000 table, or determine if Galaxy should sponsor independently",
+        "Confirm final headcount and sponsorship decision with Sai to lock in registrations"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -2524,100 +2526,7 @@
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "a.cox@2020-4.com",
-      "sender_name": "Alex Cox",
-      "subject": "20/20 Foresight: Current Executive Searches",
-      "body_preview": "20/20 Foresight has been exclusively retained to identify and evaluate candidates with respect to the following executive searches. Might you know of someone with skills and background befitting these descriptions? All replies are held in the strictest of",
-      "received": "2026-04-27T22:26:51Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9UAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQACraZKZB97xJpRFUfFpcWP0=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: 2020-4.com"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Alex Cox from 20/20 Foresight, an executive search firm, is reaching out to explore whether Galaxy Capital Partners has referral candidates for several active executive searches they're conducting. This is a business development inquiry seeking to tap into Dave's network for talent acquisition opportunities that could benefit Galaxy's portfolio companies or present partnership opportunities.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the complete job descriptions and candidate profiles from 20/20 Foresight to assess fit with Galaxy's portfolio or strategic initiatives",
-        "Determine if this warrants a direct call with Alex Cox to understand the specific roles and compensation levels before making any referrals",
-        "If relevant, forward to France or other team members who manage specific portfolio companies that might benefit from these placements"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Baxtel <> Galaxy Sync ",
-      "body_preview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin: https://teams.microsoft.com/meet/28684725122203?p=Mj3TPhu6jZhDm7PCWY\r\nMeeting ID: 286 847 251 222 03\r\nPasscode: 4D79bc24\r\n__________________",
-      "received": "2026-04-27T22:16:57Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbOBtgVAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALk-kqMES19Mp8AmUPAOjMI=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "This appears to be a Microsoft Teams meeting link for a sync between Baxtel and Galaxy, but the email contains no context about the purpose, attendees, or agenda. Dave needs clarity on what this meeting is addressing and whether it relates to a business development opportunity, technical integration, or operational matter.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Clarify with the sender (or check calendar invite details) what the meeting purpose is and who from Galaxy/Baxtel will be attending",
-        "Confirm whether this is a new business opportunity, renewal, or technical/operational discussion that impacts Galaxy's strategy",
-        "Prepare any relevant materials (pricing, capacity, SLA terms) depending on the meeting objective before joining"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "dse_na4@docusign.net",
-      "sender_name": "Docusign via Docusign",
-      "subject": "Completed: Complete with Docusign: Satyam_Misra_PHF_FlyHQ.pdf",
-      "body_preview": "Your document has been completed.\r\nView Completed Document\r\n\r\nAll signers completed Complete with Docusign: Satyam_Misra_PHF_FlyHQ.pdf\r\n\r\nDo Not Share This Email\r\n\r\n\r\nThis email contains a secure link to Docusign. Please do not share this email, link, or ",
-      "received": "2026-04-27T21:59:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9SAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEfn4kuYdAdLjyxIA8PqD1E=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "KW: lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "A DocuSign document titled 'Satyam_Misra_PHF_FlyHQ.pdf' has been fully executed by all signers. This appears to be a completed legal/commercial agreement that requires Dave's immediate review to confirm terms and next steps.",
-      "ai_action": "Dave should review the completed document immediately via the secure DocuSign link to confirm execution and understand the implications for Galaxy's operations or deals.",
-      "ai_next_steps": [
-        "Click secure DocuSign link to view and download the completed agreement",
-        "Confirm all signatories and terms match expectations",
-        "Brief Simmons & Simmons (legal counsel) if needed on any follow-up obligations"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 77
 }
