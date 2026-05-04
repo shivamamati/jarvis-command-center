@@ -1,10 +1,10 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-04T09:14:22.013204+00:00",
-  "total": 5,
-  "new": 5,
-  "noise": 2,
-  "ai": 5,
+  "timestamp": "2026-05-04T11:44:42.588706+00:00",
+  "total": 3,
+  "new": 3,
+  "noise": 3,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 39,
   "items": [
@@ -2558,76 +2558,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "ashley@galaxydatacenters.com",
-      "sender_name": "Ashley  Roberts",
-      "subject": "New Logo Slide",
-      "body_preview": "Slide for tomorrow.",
-      "received": "2026-04-27T10:13:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8IAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHomC5-bOahKpjthP_wiZeI=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Ashley Roberts from Galaxy Data Centers is requesting a new logo slide for an upcoming presentation tomorrow. This appears to be a time-sensitive design request that needs to be completed before the presentation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Ashley what specific logo, branding guidelines, or design specifications she needs for the slide",
-        "Determine the presentation context and required slide format/dimensions to ensure proper integration",
-        "Set a delivery deadline and get the completed slide to Ashley well before tomorrow's presentation"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
-    },
-    {
-      "sender_email": "rj@galaxydatacenters.com",
-      "sender_name": "Rhys  Jones",
-      "subject": "Re: UPS Graphic",
-      "body_preview": "Guys\r\n\r\nCan I get some feedback on this please?\r\n\r\nKind regards\r\n\r\n\r\n\r\n\r\n________________________________\r\nFrom: Rhys Jones <rj@galaxydatacenters.com>\r\nSent: 23 April 2026 1:54 PM\r\nTo: Luke Gray <luke.gray@redhilldatacentre.com>; Ash Gupta <ash@galaxydata",
-      "received": "2026-04-27T09:53:58Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ8GAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQANJvuWGdaABKmDxcLcafSNc=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "4 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Galaxy Data Centers is requesting feedback on a UPS (Uninterruptible Power Supply) graphic but the actual graphic attachment or detailed content is not visible in this email thread. This appears to be an internal request to review technical or marketing materials related to power infrastructure, which is core to data center operations and customer communications.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Request Rhys provide or re-send the UPS graphic file with clear context on its intended use (marketing, technical documentation, proposal, etc.)",
-        "Clarify the deadline for feedback and who else needs to review before approval",
-        "Determine the business purpose - whether this is for a customer proposal, internal documentation, or public-facing materials that may affect Galaxy's market positioning"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 80
+  "total_tracked": 78
 }
