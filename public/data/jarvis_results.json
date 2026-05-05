@@ -1,13 +1,80 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-05T02:25:53.612656+00:00",
-  "total": 1,
-  "new": 1,
+  "timestamp": "2026-05-05T05:39:06.707865+00:00",
+  "total": 4,
+  "new": 4,
   "noise": 1,
-  "ai": 1,
+  "ai": 3,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Revised Docklands Model",
+      "body_preview": "Thanks - some questions\r\n\r\nAssumptions tab\r\n-how is the current IT load higher than the IT Capacity for DC 2\r\n-does the absorption rate actually drive anything?  In the annual cash flow tab seems like capacity is filled right away?\r\n-financing section - t",
+      "received": "2026-05-05T05:29:55Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5hAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAM5VLmI7HgpKr6Rt26O-7sY=",
+      "rules_score": 6,
+      "rules_label": "IMPORTANT",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 9x (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: capacity"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is reviewing the Docklands financial model and has identified internal inconsistencies that suggest potential errors in the assumptions driving the analysis. His questions center on whether IT load exceeds capacity in DC 2, whether the absorption rate is correctly modeled if capacity fills immediately, and concerns about the financing section logic.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have the financial modeling team reconcile the IT load vs. capacity discrepancy in DC 2 and clarify why absorption rates appear disconnected from actual capacity utilization in the cash flow projections",
+        "Review and validate the financing section assumptions that Paul flagged, then provide Paul with a corrected model with clear documentation of all key drivers",
+        "Schedule a brief working session between Paul and the modeling team to ensure the revised Docklands model accurately reflects Galaxy's operational and financial realities before final board/investor review"
+      ],
+      "ai_failed": false,
+      "final_score": 6,
+      "final_label": "IMPORTANT"
+    },
+    {
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Updated Docklands Acquisition Materials",
+      "body_preview": "Hi - Thanks for this.  I\u2019m not sure what is the difference between the two decks.  It\u2019s more on target but is not clear enough on the value drivers.  Here are some questions / comments\r\n\r\nPg 3 - the investment highlights should be clear bullets on why you",
+      "received": "2026-05-05T04:24:24Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5gAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMnNxPCTwTlDpUsOcwbRtSc=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Internal \u2014 routine (suppressed)",
+        "KW: investment",
+        "4 VIPs on thread (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong is reviewing updated acquisition materials for the Docklands deal and finds the current presentation unclear on value drivers despite improvements. He's flagging that the investment highlights section lacks clarity on the key reasons to pursue this opportunity, which is critical for internal alignment and investor communications.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify the specific differences between the two deck versions and consolidate into one cohesive document",
+        "Strengthen page 3 investment highlights with explicit, bulleted value drivers (financial returns, strategic benefits, market timing, etc.)",
+        "Schedule a brief sync with Paul to understand his vision for the value proposition before revising"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "sai@galaxydatacenters.com",
       "sender_name": "Sai Raman",
@@ -2492,5 +2559,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 76
+  "total_tracked": 78
 }
