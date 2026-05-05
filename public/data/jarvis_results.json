@@ -1,13 +1,114 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-05T19:14:23.907290+00:00",
-  "total": 17,
-  "new": 17,
-  "noise": 15,
-  "ai": 16,
+  "timestamp": "2026-05-05T20:59:06.304876+00:00",
+  "total": 16,
+  "new": 16,
+  "noise": 11,
+  "ai": 13,
   "skipped": 0,
   "auto_learned": 47,
   "items": [
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: CF - Redhill Planning Consent",
+      "body_preview": "That's a good catch, Paul \u2014 I tracked that update in the attached, and I changed all mentions of \"scheme\" to \"project\" (you had done this already, Catherine, but I don't think that update made its way to the latest version). Can we consider this version f",
+      "received": "2026-05-05T20:47:20Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vJcAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 6x (+4)",
+        "Attachments from known (+1)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: rack",
+        "6 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is responding to internal feedback on the Redhill planning consent document, confirming she has made terminology corrections (changing 'scheme' to 'project') across the latest version. This appears to be a document coordination issue within their planning team that may impact the quality and consistency of a submission to planning authorities.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Request the corrected version from Candace to confirm all terminology changes have been applied consistently",
+        "Verify this is the final approved version before any submission to planning authorities",
+        "Ensure all stakeholders (Paul, Catherine, and Galaxy team) sign off on the updated document"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: Tomorrow's Press Release",
+      "body_preview": "One more thing!\r\n\r\nWe will need Galaxy's PTC member portal login to upload the press release to PTC's \"member news\" section here.\r\n\r\nDo you mind either sharing the login with me or uploading the press release on your end tomorrow / Thursday?\r\n\r\nThank you,",
+      "received": "2026-05-05T20:33:36Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vJbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAEVW0qXnWWhMr8-hPMSifBo=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 6x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "KW: lease",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is requesting Galaxy's PTC member portal credentials to post an upcoming press release to PTC's member news section, or alternatively asking Galaxy to handle the upload directly. This is a blocking item for the press release distribution scheduled for tomorrow or Thursday, and requires immediate credential sharing or delegation of upload responsibility.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Determine Galaxy's credential sharing policy for PTC portal and decide whether to share login with JSA or assign internal owner for upload",
+        "Confirm with Candace today which option Galaxy prefers and provide credentials or confirm Galaxy will complete upload by end of business Thursday",
+        "Ensure the selected person (internal or Candace) has the final press release version and clear upload instructions for PTC's member news section"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "lplazamarin@hl.com",
+      "sender_name": "Plaza Marin, Leticia",
+      "subject": "RE: Redhill NDA",
+      "body_preview": "You don't often get email from lplazamarin@hl.com. Learn why this is important\r\nThanks Paul confirming receipt. We will execute and send back.\r\n\r\nBest,\r\n\r\nLeti\r\n\r\nFrom: Paul Leong <paul@galaxydatacenters.com>\r\nSent: 05 May 2026 17:13\r\nTo: Plaza Marin, Let",
+      "received": "2026-05-05T19:27:26Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vJTAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6kliLFDo1AtwWcaq5rDr0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+4)",
+        "KW: nda"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Leticia Plaza Marin (HL - likely Heidrick & Struggles or similar) is confirming receipt of Redhill NDA and committing to execute and return it. This is a concrete next step on the Redhill Data Centre transaction\u2014a key Galaxy asset. The email thread shows Paul Leong (Galaxy internal) sent the NDA, and Leticia is now moving it forward.",
+      "ai_action": "Flag for Dave: Redhill NDA execution is in motion. Confirm timeline for return with Paul Leong and track closure of this document step.",
+      "ai_next_steps": [
+        "Confirm with Paul Leong the expected return timeline for executed NDA",
+        "Track document execution status through completion",
+        "Once received, route to Simmons & Simmons (legal counsel) for review if needed"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "rodrigo@galaxydatacenters.com",
       "sender_name": "Rodrigo M",
@@ -40,41 +141,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "paul@galaxycapitalpartners.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: CF - Redhill Planning Consent",
-      "body_preview": "Hi Mike - Galaxy is fine with the release.  I did notice that there might be some mix match in the quote markers for Mike and I.  There are two sentences for each of us.  On the version I\u2019m looking at there is a quote mark opening the first sentence and n",
-      "received": "2026-05-05T17:16:26Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vJGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: lease",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Capital Partners is approving the release of Redhill planning consent materials but has flagged a formatting issue with quotation marks in the document\u2014specifically inconsistent quote mark placement across his and Mike's attributed statements. This appears to be a quality control matter that could affect the document's professional presentation before external distribution.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have the document reviewed and corrected for proper quotation mark formatting before final release",
-        "Confirm with Paul the corrected version addresses his concerns before proceeding with distribution",
-        "Establish a document review checklist to catch similar formatting issues on future planning consent materials"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "loansupport@saltlending.com",
@@ -135,41 +201,6 @@
         "Have Ash Gupta review James' capex budget email and clarify what specific ICG reporting requirements or discrepancies need to be addressed",
         "Determine if Galaxy's involvement or approval is needed for the capex budget resolution and timeline expectations",
         "Follow up with Matthew Reid on the Redhill remedial action plan review to understand any queries or concerns that may impact Galaxy's interests"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "paul@galaxydatacenters.com",
-      "sender_name": "Paul Leong",
-      "subject": "Re: Redhill NDA",
-      "body_preview": "Hi - Please see markup and clean for execution.\r\n\r\nThanks\r\n\r\nPaul\r\n\r\n\r\n________________________________\r\nFrom: Plaza Marin, Leticia <LPlazaMarin@HL.com>\r\nSent: Tuesday, May 5, 2026 4:32 AM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Bui, Abe <ABui@HL.co",
-      "received": "2026-05-05T16:13:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vI8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6kliLFDo1AtwWcaq5rDr0=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 17x (+2)",
-        "Attachments + deal KW (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: nda, lease"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Leong from Galaxy Data Centers is forwarding markup and a clean version of a Non-Disclosure Agreement (NDA) with Redhill, indicating the document is ready for execution. This appears to be a routine legal document preparation step in finalizing a business relationship or transaction with Redhill. Executing this NDA is likely a prerequisite to moving forward with a commercial engagement that requires confidentiality protections.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should review the marked-up NDA to understand what changes were negotiated and ensure they align with Galaxy's interests",
-        "Coordinate with legal counsel to confirm the clean version reflects all agreed-upon terms before execution",
-        "Determine the signatory authority and timeline for execution, then route to appropriate parties for signature"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2544,5 +2575,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 77
+  "total_tracked": 78
 }
