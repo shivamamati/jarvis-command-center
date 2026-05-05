@@ -1,46 +1,146 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-05T15:58:38.629470+00:00",
-  "total": 42,
-  "new": 42,
-  "noise": 21,
-  "ai": 40,
+  "timestamp": "2026-05-05T17:24:54.146262+00:00",
+  "total": 32,
+  "new": 32,
+  "noise": 18,
+  "ai": 29,
   "skipped": 0,
   "auto_learned": 51,
   "items": [
     {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: FW: You\u2019re a Finalist \u2013 Now Secure Your Place at DCS Awards 2026",
-      "body_preview": "Also, FYI \u2014 in addition to the the table options, the DCS Awards organizers also offer individual passes at \u00a3495+ VAT each, but they do have a minimum quantity of two that need to be booked.\r\n\r\nWanted to let you know that it's an option to send only two a",
-      "received": "2026-05-05T15:46:07Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vI4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "sender_email": "paul@galaxycapitalpartners.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: CF - Redhill Planning Consent",
+      "body_preview": "Hi Mike - Galaxy is fine with the release.  I did notice that there might be some mix match in the quote markers for Mike and I.  There are two sentences for each of us.  On the version I\u2019m looking at there is a quote mark opening the first sentence and n",
+      "received": "2026-05-05T17:16:26Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vJGAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": false,
       "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAATVymZSbohAhHTnRWEDiLE=",
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
       "rules_score": 10,
       "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_tier": "INTERNAL",
       "rules_reasons": [
-        "Dave replied 6x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "4 VIPs on thread (+2)",
-        "Thread: 5 msgs (+2)",
-        "Dave in thread (+2)"
+        "Calendar match (+2)",
+        "Dave replied (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "5 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA is providing additional pricing information for the DCS Awards 2026 event\u2014specifically that individual passes are available at \u00a3495+ VAT with a minimum purchase of two, as an alternative to full table bookings. This is relevant to Galaxy's awards strategy and budget planning for industry visibility and networking at a prestigious data center event.",
+      "ai_summary": "Paul Leong is confirming Galaxy's approval to release something related to Redhill planning consent, but he's flagged a formatting issue with quote marks in a document that affects both his and Mike's attributed statements. The incomplete message suggests he was cut off while detailing a technical editing problem that needs correction before final release.",
       "ai_action": null,
       "ai_next_steps": [
-        "Clarify with Candace whether Galaxy intends to purchase a full table or explore the individual pass option, and confirm the total cost comparison for budgeting",
-        "Determine which 2+ Galaxy representatives should attend if proceeding with individual passes rather than a full table",
-        "Confirm final headcount and payment timeline with JSA to secure Galaxy's participation"
+        "Request Paul clarify the specific formatting issue with the quote marks and obtain the corrected version",
+        "Verify the Redhill planning consent release document is properly formatted before distribution",
+        "Confirm final approval once the quote mark discrepancies are resolved"
       ],
       "ai_failed": false,
       "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "loansupport@saltlending.com",
+      "sender_name": "SALT Loan Support",
+      "subject": "Re: Maturing Loan - Action Needed",
+      "body_preview": "Hi Dave,\r\nSwitching the entity for the refi from Galaxy to Oakville is also easiest for us.\r\n\r\n  1.  Please create a new Entity in the SALT platform for Oakville and upload a current bank statement confirming the name and address along with the Articles o",
+      "received": "2026-05-05T16:35:31Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vJAAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADN1HzdBZGlPi4CUA8E6_Ao=",
+      "rules_score": 8,
+      "rules_label": "URGENT",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Dave replied (+3)",
+        "KW: lease",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "SALT Lending is following up on a maturing loan refinance. They're confirming entity structure (switching from Galaxy to Oakville) and requesting documentation (new entity setup, bank statement, Articles of Incorporation). This appears to be an active financing matter requiring immediate action.",
+      "ai_action": "Dave should review: (1) Is this loan related to Redhill or another Galaxy asset? (2) Confirm Oakville entity structure with Galaxy's legal/finance team. (3) Delegate to France or finance lead to upload required docs to SALT platform immediately to avoid loan maturity issues.",
+      "ai_next_steps": [
+        "Clarify which asset/loan this refinance relates to",
+        "Confirm Oakville entity details with internal finance/legal",
+        "Assign document submission to finance team (bank statement + Articles of Incorporation needed)"
+      ],
+      "ai_failed": false,
+      "final_score": 8,
+      "final_label": "URGENT"
+    },
+    {
+      "sender_email": "matthew.reid@castleforge.com",
+      "sender_name": "Matthew Reid",
+      "subject": "Re: Redhill - Remedial Action Plan",
+      "body_preview": "Thanks for coming back Paul. We will review and come back with any queries.\r\n\r\n@Ash Gupta - on a separate point can you take a look at James' email on the capex budget? We are getting heat from ICG on reporting and need to close this out. I think the timi",
+      "received": "2026-05-05T16:18:39Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vI9AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHMUi8EcCEhDujVbVjYyF8E=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "7 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Reid from Castle Forge is acknowledging receipt of a remedial action plan for Redhill and confirming internal review. He's also flagging an urgent capital expenditure budget issue with ICG applying pressure on reporting compliance that requires immediate resolution.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have Ash Gupta review James' capex budget email and clarify what specific ICG reporting requirements or discrepancies need to be addressed",
+        "Determine if Galaxy's involvement or approval is needed for the capex budget resolution and timeline expectations",
+        "Follow up with Matthew Reid on the Redhill remedial action plan review to understand any queries or concerns that may impact Galaxy's interests"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "paul@galaxydatacenters.com",
+      "sender_name": "Paul Leong",
+      "subject": "Re: Redhill NDA",
+      "body_preview": "Hi - Please see markup and clean for execution.\r\n\r\nThanks\r\n\r\nPaul\r\n\r\n\r\n________________________________\r\nFrom: Plaza Marin, Leticia <LPlazaMarin@HL.com>\r\nSent: Tuesday, May 5, 2026 4:32 AM\r\nTo: Paul Leong <paul@galaxydatacenters.com>; Bui, Abe <ABui@HL.co",
+      "received": "2026-05-05T16:13:00Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vI8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6kliLFDo1AtwWcaq5rDr0=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 17x (+2)",
+        "Attachments + deal KW (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Paul Leong from Galaxy Data Centers is forwarding markup and a clean version of a Non-Disclosure Agreement (NDA) with Redhill, indicating the document is ready for execution. This appears to be a routine legal document preparation step in finalizing a business relationship or transaction with Redhill. Executing this NDA is likely a prerequisite to moving forward with a commercial engagement that requires confidentiality protections.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should review the marked-up NDA to understand what changes were negotiated and ensure they align with Galaxy's interests",
+        "Coordinate with legal counsel to confirm the clean version reflects all agreed-upon terms before execution",
+        "Determine the signatory authority and timeline for execution, then route to appropriate parties for signature"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -48,8 +148,8 @@
       "sender_name": "Dave Misra",
       "subject": "Re: Introducer agreement",
       "body_preview": "Hi John,\r\n\r\nApologies for the silence on this \u2014 the delay is on our side and I should have come back to you sooner. We're moving on it now and want to close out quickly.\r\n\r\nBefore we send back a redrafted document, a few things I'd like to confirm directl",
-      "received": "2026-05-05T15:44:32Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEPAAAuilH2jaEmTaBeWRekOs%2B0AAb8H2R%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "received": "2026-05-05T15:59:09Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAb8Lqa8AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
       "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI_k1UsmWExPhJUe1OSBSZY=",
@@ -61,21 +161,54 @@
         "Internal \u2014 routine (suppressed)",
         "KW: introducer, introduce",
         "Broker signal",
-        "4 VIPs on thread (+2)",
+        "5 VIPs on thread (+2)",
         "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Dave is responding to John regarding an introducer agreement that Galaxy has been slow to move on. Dave is signaling momentum and intent to close quickly, but needs to clarify a few outstanding points before sending a redlined version back to John.",
+      "ai_summary": "Dave is responding to John regarding an introducer agreement, acknowledging internal delays and committing to expedited closure. Dave needs to clarify several points directly with John before Galaxy submits a revised agreement, indicating this is a partnership or referral arrangement that requires alignment on key terms.",
       "ai_action": null,
       "ai_next_steps": [
-        "Dave should specify what points need clarification from John before Galaxy redrafts the introducer agreement",
-        "Schedule a call with John to resolve outstanding items and expedite execution",
-        "Assign someone to complete the redraft immediately after clarifications are received to maintain closure momentum"
+        "Complete the list of items Dave wanted to confirm with John and schedule a call to discuss directly",
+        "Prepare a redrafted introducer agreement incorporating any confirmations from John and send within 48 hours",
+        "Assign someone to track closure timeline and ensure execution happens quickly"
       ],
       "ai_failed": false,
       "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "candace@jsa.net",
+      "sender_name": "Candace Sipos",
+      "subject": "Re: FW: You\u2019re a Finalist \u2013 Now Secure Your Place at DCS Awards 2026",
+      "body_preview": "Also, FYI \u2014 in addition to the the table options, the DCS Awards organizers also offer individual passes at \u00a3495+ VAT each, but they do have a minimum quantity of two that need to be booked.\r\n\r\nWanted to let you know that it's an option to send only two a",
+      "received": "2026-05-05T15:46:07Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vI4AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAATVymZSbohAhHTnRWEDiLE=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "PIPELINE [Candace Sipos]",
+      "rules_reasons": [
+        "Dave replied 6x (+4)",
+        "VIP: jsa.net",
+        "Pipeline: candace sipos",
+        "4 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Candace Sipos from JSA is providing additional details about the DCS Awards 2026 event, informing us that individual passes are available as an alternative to table purchases at \u00a3495+ VAT each, with a minimum order of two passes. This gives Galaxy flexibility in how many attendees to send if a full table isn't cost-effective or necessary.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Clarify with Candace the total cost comparison between minimum individual passes (2x \u00a3495) versus the smallest table option to determine the most economical choice",
+        "Determine how many Galaxy team members should attend DCS Awards 2026 and whether individual passes or a table better serves our networking/visibility goals",
+        "Confirm Galaxy's attendance commitment and payment details with JSA within their required timeline"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
       "final_label": "CRITICAL"
     },
     {
@@ -93,60 +226,25 @@
       "rules_tier": "VIP FIRM",
       "rules_reasons": [
         "Calendar match (+2)",
-        "Dave replied 4x (+4)",
+        "Dave replied 3x (+4)",
         "VIP: simmons-simmons.com",
         "KW: introducer, introduce",
         "Broker signal",
-        "3 VIPs on thread (+2)",
-        "Thread: 4 msgs (+2)",
-        "Dave in thread (+2)"
+        "3 VIPs on thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Francis Turley from Simmons Simmons is seeking clarification on the legal entity structure for Tech RE before finalizing an introducer agreement with Galaxy. Multiple companies with similar names exist in Companies House records, and discussions about the retainer scope are still in progress, requiring confirmation from Galaxy's side to move forward.",
+      "ai_summary": "Francis Turley from Simmons & Simmons (Galaxy's legal counsel) is seeking clarification on the legal entity name for TechRE, as Companies House shows multiple businesses with similar names. He's also indicating that discussions are still ongoing regarding the scope of Galaxy's retainer with this party, pending further updates from the counterparty.",
       "ai_action": null,
       "ai_next_steps": [
-        "Confirm the exact legal entity name and Companies House registration number for Tech RE that Galaxy intends to contract with",
-        "Clarify internally what services/scope the retainer should cover and communicate this to Francis to finalize agreement terms",
-        "Follow up with Francis once both items are confirmed to expedite execution of the introducer agreement"
+        "Confirm the correct TechRE legal entity name and Companies House registration number to Francis immediately",
+        "Clarify with TechRE what services/scope should be covered under the retainer agreement and communicate back to Francis",
+        "Follow up with Francis once retainer scope is finalized to ensure the introducer agreement can move forward"
       ],
       "ai_failed": false,
       "final_score": 10,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Maturing Loan - Action Needed",
-      "body_preview": "Hi Joe,\r\n\r\nThanks for checking in. Here's where things stand.\r\n\r\nGalaxy Capital Canada is no longer the appropriate borrower \u2014 the entity has been wound down as part of a broader corporate restructure. The loan and collateral should sit under our US entit",
-      "received": "2026-05-05T15:29:49Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAb8Lqa7AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQADN1HzdBZGlPi4CUA8E6_Ao=",
-      "rules_score": 8,
-      "rules_label": "URGENT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 deal/customer related",
-        "KW: capital",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is informing the lender that Galaxy Capital Canada, the original borrower on a maturing loan, has been dissolved during a corporate restructuring. The loan and its underlying collateral need to be transferred to Galaxy's US entity to maintain continuity and satisfy the lender's requirements.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Coordinate with legal and the lender to draft a loan assumption or assignment agreement transferring the obligation from Galaxy Capital Canada to the appropriate US entity",
-        "Prepare documentation of the corporate restructure and wind-down of Galaxy Capital Canada to support the lender's approval of the entity change",
-        "Confirm collateral position and perfection requirements remain intact under the new US borrower structure"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "dave@galaxydatacenters.com",
@@ -349,40 +447,6 @@
       ],
       "ai_failed": false,
       "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "mike@higginsonstrategy.com",
-      "sender_name": "Mike Burgoyne",
-      "subject": "RE: CF - Redhill Planning Consent",
-      "body_preview": "You don't often get email from mike@higginsonstrategy.com. Learn why this is important\r\nGood spot! Please see the attachment for the updated version and thanks for signing it off. Confirming we will begin our outreach under embargo once GCP has given thei",
-      "received": "2026-05-05T11:45:05Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vIQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Attachments + deal KW (+2)",
-        "KW: lease",
-        "6 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Mike Burgoyne (Higginson Strategy) is sending an updated document related to Redhill planning consent with Dave's approval. This appears to be part of an active deal workflow\u2014they're preparing for a coordinated outreach campaign pending Galaxy Capital Partners' sign-off. The email cuts off mid-sentence, suggesting it may be incomplete or corrupted.",
-      "ai_action": "Retrieve full email thread and attachment immediately. Confirm with Mike that Dave received the complete message and clarify the outreach timeline and embargo terms.",
-      "ai_next_steps": [
-        "Check if full email body was truncated\u2014request resend if needed",
-        "Review attachment (updated planning consent document) with legal/deal team",
-        "Confirm GCP approval status and embargo lift date with Mike",
-        "Verify outreach strategy and stakeholder list before campaign begins"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
       "final_label": "CRITICAL"
     },
     {
@@ -1317,37 +1381,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "abui@hl.com",
-      "sender_name": "Bui, Abe",
-      "subject": "Re: Redhill NDA",
-      "body_preview": "Paul,\r\n\r\nI soft tested the language with US legal. Can we use the below? Final sign off will still be with EU legal so subject to final review.\r\n\r\nFor the avoidance of doubt, this Agreement will not preclude Party 2 from pursuing or engaging in business r",
-      "received": "2026-05-01T20:09:08Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPbAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAA6kliLFDo1AtwWcaq5rDr0=",
-      "rules_score": 7,
-      "rules_label": "URGENT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "Dave replied 5x (+4)",
-        "KW: nda"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 8,
-      "ai_label": "URGENT",
-      "ai_summary": "Abe Bui from HL (likely Henry Law or similar legal counsel) is responding on the Redhill NDA with proposed language that's been soft-tested with US legal. This is a direct continuation of legal work on Galaxy's flagship Redhill Data Centre deal and requires Dave's review before EU legal sign-off.",
-      "ai_action": "Flag for Dave immediately. This is active legal negotiation on Redhill. Forward to Simmons & Simmons (EU legal counsel) with Abe's proposed language for final review and approval.",
-      "ai_next_steps": [
-        "Get full email thread and proposed NDA language from Abe Bui",
-        "Send to Simmons & Simmons legal team with context (Abe's US testing, need for EU final sign-off)",
-        "Confirm Paul (recipient) is Galaxy's point person on this \u2013 clarify if Dave needs to be copied"
-      ],
-      "ai_failed": false,
-      "final_score": 8,
-      "final_label": "URGENT"
     },
     {
       "sender_email": "ash@galaxydatacenters.com",
@@ -2509,102 +2542,7 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "pelle.jorgen@castleforge.com",
-      "sender_name": "Pelle Jorgen",
-      "subject": "Re: Redhill - Remedial Action Plan",
-      "body_preview": "As one additional point, a reminder to share all material commercial proposals with Castleforge in advance of issuing to customers in negotiations.\r\n\r\nWe will ensure to be expeditious in our review and feedback to not disrupt momentum, but once initial ra",
-      "received": "2026-04-28T17:16:13Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHMUi8EcCEhDujVbVjYyF8E=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+4)",
-        "Tier 1: castleforge.com",
-        "KW: proposal",
-        "7 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Pelle Jorgen from Castleforge is reminding Galaxy that all material commercial proposals for the Redhill project must be shared with Castleforge before being presented to customers. He's committing to quick turnaround reviews to maintain negotiation momentum, but is establishing a formal approval gate for customer-facing proposals.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Galaxy's proposal review and approval process with Castleforge to establish timelines and submission procedures",
-        "Identify which Redhill proposals currently in development need Castleforge pre-approval before customer distribution",
-        "Designate a single point of contact (France or other team member) to manage Castleforge proposal submissions and track review turnarounds"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "jaked@claymorecapitalstrategies.co",
-      "sender_name": "Jake Valentine",
-      "subject": "Re: $50M SPV Opportunity \u2014 Modular AI Data Centers, 18\u201324 Month Capital Return",
-      "body_preview": "[You don't often get email from jaked@claymorecapitalstrategies.co. Learn why this is important at https://aka.ms/LearnAboutSenderIdentification ]\r\n\r\nHi Dave,\r\n\r\nSending this along again in case it got buried. I can send over the investor deck if there's ",
-      "received": "2026-04-28T16:48:36Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAETAAAuilH2jaEmTaBeWRekOs%2B0AAbMp%2BFQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHpHa_6rgQVKt1b_b8tP6js=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "UNKNOWN",
-      "rules_reasons": [
-        "KW: capital, data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "URGENT",
-      "ai_summary": "Jake Valentine from Claymore Capital Strategies is re-pitching a $50M SPV opportunity focused on modular AI data centers with an 18\u201324 month capital return projection. This is a follow-up, suggesting Dave may have shown prior interest or Jake is treating this as a warm lead. The modular AI data center angle aligns directly with Galaxy's 18MW AI prospect pipeline.",
-      "ai_action": "Have France flag this as a potential capital deployment opportunity. Clarify with Jake: (1) what 'modular' means in their structure, (2) how this differs from Galaxy's existing 18MW TechRE/John Hall prospect, (3) investor deck + financial model + site details. Determine if this is a co-investment, SPV management fee play, or equity ticket.",
-      "ai_next_steps": [
-        "Reply to Jake requesting full investor deck, financial model, site locations, and modular tech specs",
-        "Cross-reference with TechRE 18MW opportunity to identify overlap or complementary assets",
-        "Schedule 20-min call with Jake to understand capital structure, return waterfall, and timeline"
-      ],
-      "ai_failed": false,
-      "final_score": 7,
-      "final_label": "URGENT"
-    },
-    {
-      "sender_email": "renatabatariere@fluidone.com",
-      "sender_name": "Renata Batariere | FluidOne",
-      "subject": "RE: Redhill DC relocation - FluidOne cost",
-      "body_preview": "Hi Paul,\r\n\r\nI hope you are well and thank you for your email.\r\n\r\nJust a quick email to say that we are working in the background to provide you with a detailed costs breakdown/evidence and I will be in touch as soon as I have all information available.",
-      "received": "2026-04-28T16:02:54Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BUAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAIzWqA3fbAdLsxZnrIkNBLg=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: fluidone.com",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Renata Batariere from FluidOne is responding to a prior inquiry about Redhill Data Center relocation costs. She's committed to delivering a detailed cost breakdown and supporting evidence but needs additional time to compile the information. This matters to Galaxy because understanding FluidOne's relocation costs is critical for evaluating the Redhill DC project feasibility and budget planning.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Set a follow-up reminder to check in with Renata if detailed costs aren't received within 5-7 business days",
-        "Have France or Paul prepare a template or specific cost categories FluidOne should include to ensure the breakdown meets Galaxy's analysis needs",
-        "Once received, schedule time to review the cost breakdown against Galaxy's budget assumptions for the Redhill relocation project"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 79
+  "total_tracked": 77
 }
