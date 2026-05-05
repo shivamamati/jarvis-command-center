@@ -1,13 +1,82 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-05T11:58:32.836323+00:00",
-  "total": 20,
-  "new": 20,
-  "noise": 10,
-  "ai": 18,
+  "timestamp": "2026-05-05T14:00:19.222717+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 9,
+  "ai": 11,
   "skipped": 0,
   "auto_learned": 41,
   "items": [
+    {
+      "sender_email": "rodrigo@galaxydatacenters.com",
+      "sender_name": "Rodrigo M",
+      "subject": "Re: Vendor access passes for Redhill - Zendo",
+      "body_preview": "Hi @Jade Batstone,\r\n\r\n\r\nThank you for your email. After a conversation with the onsite team, they will be able to accommodate this visit on Thursday instead. For any future visits, we kindly require at least 48 hours' notice.\r\n\r\nCould you please confirm w",
+      "received": "2026-05-05T13:43:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vIdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: lease",
+        "9 VIPs on thread (+2)",
+        "Thread: 4 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rodrigo from Galaxy Data Centers is confirming that an onsite visit for a vendor (Zendo) can be accommodated on Thursday instead of the originally requested date, and is establishing a new policy requiring 48 hours' advance notice for future facility visits. This email appears to be internal coordination regarding vendor access management at the Redhill data center facility.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm the Thursday visit date with Jade Batstone and ensure Zendo receives the necessary access passes and onsite coordination details",
+        "Document and communicate the new 48-hour notice requirement to all vendors and internal teams managing facility access requests",
+        "Follow up with the onsite team to confirm logistics (parking, badge pickup, escort requirements) for the Thursday visit"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "ugurkan@cogentco.com",
+      "sender_name": "Gurkan, Umut",
+      "subject": "RE: Galaxy Datacenters & Cogent Meeting \u2013 Week of May 11",
+      "body_preview": "Some people who received this message don't often get email from ugurkan@cogentco.com. Learn why this is important\r\nHi France,\r\n\r\nI just wanted to send a quick reminder regarding my previous email.\r\n\r\nPlease let me know if there are any available time slo",
+      "received": "2026-05-05T12:54:45Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vIWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHNeB4OMREmJmdIze-gwi9k=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Tier 1: cogentco.com",
+        "KW: lease",
+        "3 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Umut Gurkan from Cogent Communications is following up on a scheduling request for a meeting with Galaxy Datacenters during the week of May 11. His message appears to be cut off, but the intent is to confirm availability for a discussion between the two companies. This meeting likely involves exploring connectivity, partnership, or service opportunities between Cogent and Galaxy's datacenter operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "France should respond to Umut immediately confirming available time slots for the week of May 11 to move the scheduling forward",
+        "Dave should prepare a brief meeting agenda and determine Galaxy's objectives for discussing with Cogent (e.g., connectivity services, cross-sell opportunities, or infrastructure partnerships)",
+        "Confirm who from Galaxy should attend and have them block the calendar once a time is agreed upon"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "mike@higginsonstrategy.com",
       "sender_name": "Mike Burgoyne",
@@ -72,42 +141,6 @@
         "Have France or accounts payable verify the invoice details (INV-0388) against the signed service agreement with Nomura to confirm scope and billing accuracy",
         "Confirm payment terms and due date, then process payment through standard AP procedures if amounts and services are correct",
         "File correspondence with contract documentation for audit trail and future reference on Nomura account"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Re: Vendor access passes for Redhill - Zendo",
-      "body_preview": "Luke \u2014 how much  notice do you need for a Zendo site visit to collect power data? Is 48 hours acceptable.\r\n\r\nI understand last\u2011minute requests aren\u2019t possible. Would Thursday work on your side? The visit is related to items CFP is following up on. Zendo n",
-      "received": "2026-05-05T10:51:43Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAb6QFzaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Re customer: redhill",
-        "Internal \u2014 deal/customer related",
-        "KW: site visit, power",
-        "11 VIPs on thread (+2)",
-        "Thread: 5 msgs (+2)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Dave is coordinating with Luke (likely a Zendo contact) to schedule a site visit to the Redhill facility for power data collection, with a proposal of Thursday and a preference for 48-hour notice. This visit appears connected to follow-up items that CFP (likely a customer or stakeholder) is tracking, suggesting potential compliance, performance, or contractual obligations that need documentation.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm Thursday's availability with Luke and provide specific time window for the Redhill site visit",
-        "Brief France on what power data CFP requires and ensure the collection aligns with their follow-up items",
-        "Prepare any access passes, safety requirements, or documentation Luke will need for the Thursday visit"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -1108,37 +1141,6 @@
       "ai_failed": false,
       "final_score": 8,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "ugurkan@cogentco.com",
-      "sender_name": "Gurkan, Umut",
-      "subject": "Galaxy Datacenters & Cogent Meeting \u2013 Week of May 11",
-      "body_preview": "Some people who received this message don't often get email from ugurkan@cogentco.com. Learn why this is important\r\nHi France,\r\n\r\nThis is Umut from Cogent Communications.\r\nI spoke with Dave today, and we agreed to set up a meeting during the week of May 1",
-      "received": "2026-05-01T19:10:30Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbdPIPaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHNeB4OMREmJmdIze-gwi9k=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Tier 1: cogentco.com",
-        "3 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Umut Gurkan from Cogent Communications is following up on a conversation with Dave to schedule a meeting during the week of May 11 to discuss partnership or business opportunities between Galaxy Data Centers and Cogent. This matters because Cogent is a major telecom/connectivity provider, and their engagement likely relates to network services, cross-connects, or infrastructure support for Galaxy's data center operations.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave or France should confirm availability and propose specific meeting times during May 11-15 with Umut",
-        "Prepare an agenda outlining Galaxy's current data center expansion plans and connectivity needs that Cogent could support",
-        "Have France follow up with Umut to lock in the meeting details and send a calendar invite"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     },
     {
       "sender_email": "ash@galaxydatacenters.com",
