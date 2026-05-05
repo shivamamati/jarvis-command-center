@@ -1,21 +1,90 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-05T10:42:57.721248+00:00",
-  "total": 15,
-  "new": 15,
+  "timestamp": "2026-05-05T11:58:32.836323+00:00",
+  "total": 20,
+  "new": 20,
   "noise": 10,
-  "ai": 13,
+  "ai": 18,
   "skipped": 0,
-  "auto_learned": 37,
+  "auto_learned": 41,
   "items": [
     {
-      "sender_email": "rodrigo@galaxydatacenters.com",
-      "sender_name": "Rodrigo M",
+      "sender_email": "mike@higginsonstrategy.com",
+      "sender_name": "Mike Burgoyne",
+      "subject": "RE: CF - Redhill Planning Consent",
+      "body_preview": "You don't often get email from mike@higginsonstrategy.com. Learn why this is important\r\nGood spot! Please see the attachment for the updated version and thanks for signing it off. Confirming we will begin our outreach under embargo once GCP has given thei",
+      "received": "2026-05-05T11:45:05Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb63vIQAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "UNKNOWN",
+      "rules_reasons": [
+        "Attachments + deal KW (+2)",
+        "KW: lease",
+        "6 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": 8,
+      "ai_label": "URGENT",
+      "ai_summary": "Mike Burgoyne (Higginson Strategy) is sending an updated document related to Redhill planning consent with Dave's approval. This appears to be part of an active deal workflow\u2014they're preparing for a coordinated outreach campaign pending Galaxy Capital Partners' sign-off. The email cuts off mid-sentence, suggesting it may be incomplete or corrupted.",
+      "ai_action": "Retrieve full email thread and attachment immediately. Confirm with Mike that Dave received the complete message and clarify the outreach timeline and embargo terms.",
+      "ai_next_steps": [
+        "Check if full email body was truncated\u2014request resend if needed",
+        "Review attachment (updated planning consent document) with legal/deal team",
+        "Confirm GCP approval status and embargo lift date with Mike",
+        "Verify outreach strategy and stakeholder list before campaign begins"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "chris.turner@nomura.com",
+      "sender_name": "chris.turner@nomura.com",
+      "subject": "RE: Invoice #INV-0388 from Data Centre Services Limited is due",
+      "body_preview": "Hi DC Mangers,\r\n\r\nAre the attached invoices for you guys.\r\n\r\nRegards\r\nChris Turner AIWFM\r\nCritical Environment & Building Controls Manager\r\nReal Estate & Services EMEA\r\nNomura\r\n1Angel Lane, London\r\nEC4R 3AB\r\nPhone: +44 (0) 20 7102 4412\r\nMobile: +44 (0) 78",
+      "received": "2026-05-05T10:55:13Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb5TDTZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMy9I_UcO-RHlPaTazKLonw=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Attachments from known (+1)",
+        "Tier 1: nomura.com",
+        "KW: data cent",
+        "Urgency: critical (+1)",
+        "8 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Chris Turner from Nomura's Real Estate & Services team (EMEA region) is sending invoices for data centre services that require payment attention. This appears to be a routine billing notification for facilities management or building controls services at a Nomura location, likely related to Galaxy Data Centers' service delivery or partnership obligations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Have France or accounts payable verify the invoice details (INV-0388) against the signed service agreement with Nomura to confirm scope and billing accuracy",
+        "Confirm payment terms and due date, then process payment through standard AP procedures if amounts and services are correct",
+        "File correspondence with contract documentation for audit trail and future reference on Nomura account"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
       "subject": "Re: Vendor access passes for Redhill - Zendo",
-      "body_preview": "Hi Luke,\r\n\r\nI have dropped Zendo from this email. @Ash Gupta spoken to @Benjamin Tyson and me about onboard this vendor. @Ash Gupta, may be able to answer it.\r\n\r\nShould you have any questions, do not hesitate in contact me.\r\n\r\nBest Regards,\r\n\r\n\r\n\r\nRodrigo",
-      "received": "2026-05-05T10:38:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb5TDTWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
+      "body_preview": "Luke \u2014 how much  notice do you need for a Zendo site visit to collect power data? Is 48 hours acceptable.\r\n\r\nI understand last\u2011minute requests aren\u2019t possible. Would Thursday work on your side? The visit is related to items CFP is following up on. Zendo n",
+      "received": "2026-05-05T10:51:43Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAb6QFzaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
       "has_attachments": false,
       "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
       "rules_score": 10,
@@ -25,19 +94,20 @@
         "Calendar match (+2)",
         "Re customer: redhill",
         "Internal \u2014 deal/customer related",
-        "KW: board",
-        "9 VIPs on thread (+2)",
-        "Thread: 3 msgs (+2)"
+        "KW: site visit, power",
+        "11 VIPs on thread (+2)",
+        "Thread: 5 msgs (+2)",
+        "Dave in thread (+2)"
       ],
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rodrigo M from Galaxy Data Centers is confirming that Zendo has been removed from vendor access communications for the Redhill facility and is deferring to Ash Gupta regarding onboarding decisions for this vendor. This appears to be an internal coordination around vendor access management and procurement approval processes for Galaxy's data center operations.",
+      "ai_summary": "Dave is coordinating with Luke (likely a Zendo contact) to schedule a site visit to the Redhill facility for power data collection, with a proposal of Thursday and a preference for 48-hour notice. This visit appears connected to follow-up items that CFP (likely a customer or stakeholder) is tracking, suggesting potential compliance, performance, or contractual obligations that need documentation.",
       "ai_action": null,
       "ai_next_steps": [
-        "Reach out to Ash Gupta to understand the status and rationale for Zendo's removal from the Redhill vendor access program",
-        "Clarify with Rodrigo or Ash whether this is a temporary hold pending due diligence or a final decision, and document the decision reason",
-        "Follow up with Benjamin Tyson if needed to confirm he and Ash have aligned on the vendor onboarding decision"
+        "Confirm Thursday's availability with Luke and provide specific time window for the Redhill site visit",
+        "Brief France on what power data CFP requires and ensure the collection aligns with their follow-up items",
+        "Prepare any access passes, safety requirements, or documentation Luke will need for the Thursday visit"
       ],
       "ai_failed": false,
       "final_score": 10,
@@ -66,44 +136,12 @@
       "ai_reviewed": true,
       "ai_score": null,
       "ai_label": null,
-      "ai_summary": "Rhys Jones from Kiwi MCF has raised a concern about potential confusion regarding RDX availability in ARM suites, which Dave is acknowledging and committing to clarify internally. This alignment issue could impact customer communications and product positioning, particularly around ARM infrastructure capabilities and feature availability.",
+      "ai_summary": "Rhys Jones from Kiwi MCF is raising a clarification issue regarding ARM suite configurations and RDX (likely a technical component or feature). Dave acknowledges there may have been internal confusion about ARM capabilities and commits to achieving alignment across the organization. This matters because product misrepresentation or unclear technical specifications could impact customer communications, sales accuracy, and deal integrity.",
       "ai_action": null,
       "ai_next_steps": [
-        "Schedule a clarification meeting with the team to document which ARM suite configurations actually include RDXs and establish clear messaging",
-        "Review existing customer communications and marketing materials to identify and correct any conflicting statements about ARM suite specifications",
-        "Follow up with Rhys to confirm the specific confusion point he encountered so Galaxy can prevent similar misunderstandings with other partners"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "matthew.reid@castleforge.com",
-      "sender_name": "Matthew Reid",
-      "subject": "Re: CF - Redhill Planning Consent",
-      "body_preview": "Fine for me. Castleforge are good to go.\r\n\r\nMatthew Reid\r\nO: +44 203 846 1677\r\nM: +44 7825 008 486\r\nE: matthew.reid@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Mike Burgoyne <Mike@higginsonstrategy.com>\r\nSent: Tuesday, May 5, 2026 09:17",
-      "received": "2026-05-05T09:57:14Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb4QB7pAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "TIER 1",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Tier 1: castleforge.com",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Matthew Reid from Castleforge has approved moving forward with the Redhill planning consent matter. This appears to be confirmation of alignment from a key stakeholder needed to proceed with what is likely a real estate or development project.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Confirm with Mike Burgoyne (Higginson Strategy) that all parties have signed off and proceed with next phase of planning or development",
-        "Document Castleforge's approval and ensure it's recorded in project governance",
-        "Clarify with France what the immediate action items are now that consent has been secured"
+        "Schedule a technical clarification meeting with Rhys, Dave, and relevant internal teams to document ARM suite specifications and RDX compatibility",
+        "Audit recent customer communications and proposals to identify and correct any misstatements about ARM suite capabilities",
+        "Establish clear internal documentation standards for ARM product configurations to prevent future confusion"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -2529,5 +2567,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 77
+  "total_tracked": 78
 }
