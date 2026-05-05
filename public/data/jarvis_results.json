@@ -1,13 +1,114 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-05T08:03:13.209753+00:00",
-  "total": 7,
-  "new": 7,
-  "noise": 5,
-  "ai": 5,
+  "timestamp": "2026-05-05T10:42:57.721248+00:00",
+  "total": 15,
+  "new": 15,
+  "noise": 10,
+  "ai": 13,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "rodrigo@galaxydatacenters.com",
+      "sender_name": "Rodrigo M",
+      "subject": "Re: Vendor access passes for Redhill - Zendo",
+      "body_preview": "Hi Luke,\r\n\r\nI have dropped Zendo from this email. @Ash Gupta spoken to @Benjamin Tyson and me about onboard this vendor. @Ash Gupta, may be able to answer it.\r\n\r\nShould you have any questions, do not hesitate in contact me.\r\n\r\nBest Regards,\r\n\r\n\r\n\r\nRodrigo",
+      "received": "2026-05-05T10:38:12Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb5TDTWAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
+      "rules_score": 10,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: redhill",
+        "Internal \u2014 deal/customer related",
+        "KW: board",
+        "9 VIPs on thread (+2)",
+        "Thread: 3 msgs (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rodrigo M from Galaxy Data Centers is confirming that Zendo has been removed from vendor access communications for the Redhill facility and is deferring to Ash Gupta regarding onboarding decisions for this vendor. This appears to be an internal coordination around vendor access management and procurement approval processes for Galaxy's data center operations.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Reach out to Ash Gupta to understand the status and rationale for Zendo's removal from the Redhill vendor access program",
+        "Clarify with Rodrigo or Ash whether this is a temporary hold pending due diligence or a final decision, and document the decision reason",
+        "Follow up with Benjamin Tyson if needed to confirm he and Ash have aligned on the vendor onboarding decision"
+      ],
+      "ai_failed": false,
+      "final_score": 10,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "dave@galaxydatacenters.com",
+      "sender_name": "Dave Misra",
+      "subject": "RE: Reasons",
+      "body_preview": "Noted Rhys , we will try to get alignment on these. I think that people might have been confused that Arm suites have RDXs ? But better to align.\r\n\r\n\r\nOn Tue, May 5, 2026 at 3:29\u202fPM, Rhys Jones <rj@kiwimcf.com> wrote:\r\nDave\r\n\r\nHere\u2019s another great example",
+      "received": "2026-05-05T10:15:04Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAb4yXNDAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHnTYjjFXktBjaoowg40byM=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Re customer: arm ",
+        "Internal \u2014 deal/customer related",
+        "Thread: 3 msgs (+2)",
+        "Dave in thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Rhys Jones from Kiwi MCF has raised a concern about potential confusion regarding RDX availability in ARM suites, which Dave is acknowledging and committing to clarify internally. This alignment issue could impact customer communications and product positioning, particularly around ARM infrastructure capabilities and feature availability.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Schedule a clarification meeting with the team to document which ARM suite configurations actually include RDXs and establish clear messaging",
+        "Review existing customer communications and marketing materials to identify and correct any conflicting statements about ARM suite specifications",
+        "Follow up with Rhys to confirm the specific confusion point he encountered so Galaxy can prevent similar misunderstandings with other partners"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "matthew.reid@castleforge.com",
+      "sender_name": "Matthew Reid",
+      "subject": "Re: CF - Redhill Planning Consent",
+      "body_preview": "Fine for me. Castleforge are good to go.\r\n\r\nMatthew Reid\r\nO: +44 203 846 1677\r\nM: +44 7825 008 486\r\nE: matthew.reid@castleforge.com\r\n\r\n\r\n________________________________\r\nFrom: Mike Burgoyne <Mike@higginsonstrategy.com>\r\nSent: Tuesday, May 5, 2026 09:17",
+      "received": "2026-05-05T09:57:14Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAb4QB7pAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": true,
+      "has_attachments": false,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "TIER 1",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Tier 1: castleforge.com",
+        "5 VIPs on thread (+2)"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Matthew Reid from Castleforge has approved moving forward with the Redhill planning consent matter. This appears to be confirmation of alignment from a key stakeholder needed to proceed with what is likely a real estate or development project.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Confirm with Mike Burgoyne (Higginson Strategy) that all parties have signed off and proceed with next phase of planning or development",
+        "Document Castleforge's approval and ensure it's recorded in project governance",
+        "Clarify with France what the immediate action items are now that consent has been secured"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "animesh@galaxydatacenters.com",
       "sender_name": "Animesh Raha",
@@ -208,40 +309,6 @@
         "Decide Galaxy's participation level (sponsorship/table purchase vs. sending attendees only) and confirm with Charlie",
         "If sending attendees, identify and brief 1-2 representatives on the event details and Galaxy's objectives",
         "Send RSVP and payment (if applicable) to finalize logistics before May 11th"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "candace@jsa.net",
-      "sender_name": "Candace Sipos",
-      "subject": "Re: CF - Redhill Planning Consent",
-      "body_preview": "Thank you, Mike!\r\n\r\nJSA is on standby to promote the news to the list I provided below (with one addition: Bisnow) either tomorrow or Wednesday. Please send us the final version of the announcement once it's approved and we'll pitch it to data center indu",
-      "received": "2026-05-04T20:25:31Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5IAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALjWjNZfiEpAh3934RJkYDY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Candace Sipos]",
-      "rules_reasons": [
-        "Dave replied 3x (+4)",
-        "VIP: jsa.net",
-        "Pipeline: candace sipos",
-        "KW: lease, data cent",
-        "6 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Candace Sipos from JSA (a PR/communications firm) is confirming they're ready to distribute a data center industry announcement about Redhill planning consent to media contacts, pending final approval of the announcement text. This represents a key milestone in publicizing Galaxy's Redhill project to industry stakeholders and media outlets that influence market perception and deal flow.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Obtain final approved version of the Redhill announcement and deliver to Candace/JSA immediately",
-        "Confirm timing preference (tomorrow vs. Wednesday) with Candace and ensure Galaxy's stakeholders are prepped before media distribution",
-        "Follow up on the media list composition and verify Bisnow inclusion meets Galaxy's strategic communications objectives"
       ],
       "ai_failed": false,
       "final_score": 9,
@@ -1067,38 +1134,6 @@
       "ai_failed": false,
       "final_score": 7,
       "final_label": "URGENT"
-    },
-    {
-      "sender_email": "dave@galaxydatacenters.com",
-      "sender_name": "Dave Misra",
-      "subject": "Fw: Reasons",
-      "body_preview": "FYI\r\n________________________________\r\nFrom: Rhys Jones <rj@kiwimcf.com>\r\nSent: Friday, May 1, 2026 6:48:14 PM\r\nTo: Dave Misra <dave@galaxydatacenters.com>\r\nSubject: RE: Reasons\r\n\r\n\r\nDave\r\n\r\n\r\n\r\nI don\u2019t want to explicitly name the people involved but wa",
-      "received": "2026-05-01T18:46:00Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEJAAAuilH2jaEmTaBeWRekOs%2B0AAbfQ1U%2FAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAHnTYjjFXktBjaoowg40byM=",
-      "rules_score": 4,
-      "rules_label": "NOTABLE",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Internal \u2014 routine (suppressed)",
-        "Dave in thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Rhys Jones from Kiwi MCF is responding to Dave regarding a sensitive matter involving unnamed individuals. The email appears incomplete, but Jones is indicating he prefers to discuss this matter without naming specific people involved, suggesting confidentiality concerns around personnel or partner-related issues.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Follow up with Rhys Jones directly to clarify the complete message and understand the full context of his concern",
-        "Prepare to discuss the matter with France if it involves Galaxy operations or partnerships requiring discretionary handling",
-        "Document the confidential nature of this discussion for internal Galaxy records"
-      ],
-      "ai_failed": false,
-      "final_score": 4,
-      "final_label": "NOTABLE"
     },
     {
       "sender_email": "r.peck@2020-4.com",
@@ -2359,40 +2394,6 @@
       "final_label": "CRITICAL"
     },
     {
-      "sender_email": "drew@zendoenergy.com",
-      "sender_name": "Drew Barrett",
-      "subject": "Re: Vendor access passes for Redhill - Zendo",
-      "body_preview": "Hi Rodrigo,\r\n\r\nJade asked me to take a look at the docs. Please could you share the Master Service Agreement / Scope of Works alluded to in the addendum?\r\n\r\nAlso worth noting that we already have a NDA in place with Castleforge (and DCSL by extension) - s",
-      "received": "2026-04-28T15:25:12Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ%2BMAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAH1zqr7wegJFq9rralCNQmk=",
-      "rules_score": 10,
-      "rules_label": "CRITICAL",
-      "rules_tier": "PIPELINE [Drew Barrett]",
-      "rules_reasons": [
-        "Dave replied (+3)",
-        "Attachments + deal KW (+2)",
-        "Pipeline: drew barrett",
-        "KW: nda, lease",
-        "5 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": 7,
-      "ai_label": "IMPORTANT",
-      "ai_summary": "Drew Barrett from Zendo Energy is requesting documentation (MSA/Scope of Works) related to Redhill Data Centre vendor access. This appears to be an active operational matter involving Galaxy's JV partner Castleforge, suggesting Zendo is a service provider or contractor with existing NDA coverage.",
-      "ai_action": "Flag for Dave \u2014 this is an active vendor/contractor discussion at Redhill requiring MSA execution. Confirm with Rodrigo and Jade whether this is a priority vendor relationship and whether the MSA should be expedited.",
-      "ai_next_steps": [
-        "Confirm with Rodrigo (recipient) the status of Zendo Energy relationship and whether MSA is time-sensitive",
-        "Verify NDA coverage is complete before sharing MSA/SOW documents",
-        "Clarify if Zendo is critical to Redhill operations or a peripheral vendor"
-      ],
-      "ai_failed": false,
-      "final_score": 10,
-      "final_label": "CRITICAL"
-    },
-    {
       "sender_email": "paul@galaxycapitalpartners.com",
       "sender_name": "Paul Leong",
       "subject": "Fwd: Redhill Pricing Connect",
@@ -2526,72 +2527,7 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "charlie.bruinvels@bcsconsultancy.com",
-      "sender_name": "Charlie Bruinvels",
-      "subject": "Re: Vienna",
-      "body_preview": "Hi Dave\r\n\r\nJust following up on this.  Let me know how you want to progress.\r\n\r\n@France are there any time slots to regroup later this week? (about this one and Redhill).\r\n\r\nMany thanks\r\nCharlie\r\n\r\nCharlie Bruinvels\r\nHead of Land Intelligence\r\n+44 (0) 750",
-      "received": "2026-04-28T09:52:55Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9qAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": false,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAALzuMAEbLNAi22s6zIOtCs=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "TIER 2",
-      "rules_reasons": [
-        "Tier 2: bcsconsultancy.com",
-        "KW: vienna"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Charlie Bruinvels from BCS Consultancy (Head of Land Intelligence) is following up on a previous Vienna-related discussion and seeking direction on next steps. He's also requesting availability from France this week to reconvene on both the Vienna matter and a separate Redhill item. This appears to be a time-sensitive land or site intelligence matter requiring alignment across the team.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Dave should clarify with Charlie the specific objective for Vienna (site acquisition, development opportunity, etc.) and confirm Galaxy's desired approach",
-        "France should check calendar availability and propose 1-2 time slots this week for a brief sync on both Vienna and Redhill items",
-        "Dave should determine if additional internal stakeholders (e.g., development, acquisitions) need to be included in the regroup meeting"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
-    },
-    {
-      "sender_email": "paul.tester@redhilldatacentre.com",
-      "sender_name": "Paul Tester",
-      "subject": "Drata task Name: Network Changes integrated into change log",
-      "body_preview": "As discussed in meeting on Monday, I have created retrospective Incidents in Monday. I have attached the details for each of them from the info Sam provided.\r\n\r\nMalicious Links clicked in email\r\n\r\nI have also raised retrospective Changes on the Change log",
-      "received": "2026-04-28T08:15:01Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbKoQ9mAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": false,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAMFrxI8EsLhOktBdfMh-nqY=",
-      "rules_score": 9,
-      "rules_label": "CRITICAL",
-      "rules_tier": "REDHILL OPS",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Attachments + deal KW (+2)",
-        "Redhill ops",
-        "KW: nda",
-        "9 VIPs on thread (+2)"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Paul Tester from Redhill Data Centre is confirming completion of follow-up items from Monday's meeting, specifically the creation of retrospective incident records in Monday based on information provided by Sam, including a malicious link email incident. He has also documented corresponding changes in the change log as agreed. This matters to Galaxy because it demonstrates Redhill's commitment to maintaining accurate compliance and operational documentation, which impacts both companies' security posture and audit readiness.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Review the attached retrospective incident details in Monday to verify completeness and accuracy of the malicious link incident documentation",
-        "Coordinate with Sam to confirm all relevant network changes have been properly logged and that documentation aligns with Galaxy's compliance requirements",
-        "Schedule a brief follow-up call with Paul to discuss any remediation steps needed and ensure these incidents don't recur"
-      ],
-      "ai_failed": false,
-      "final_score": 9,
-      "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 79
+  "total_tracked": 77
 }
