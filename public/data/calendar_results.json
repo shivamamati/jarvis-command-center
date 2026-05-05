@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-05T05:38:58.000741+00:00",
+  "timestamp": "2026-05-05T08:02:57.663358+00:00",
   "events": [
     {
       "subject": "Project Bronby, Copenhagen | Galaxy DC",
@@ -58,6 +58,16 @@
       "location": "BATTS BADMINTON TABLETENNIS SQUASH POOLTABLES FITNESS CLUB",
       "isAllDay": false,
       "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAFRAAgI3qo5QDEAAEYAAAAAlkzjN6t9H0OgKl37jilSOQcALopR9o2hJk2gXlkXpDrPtAAAAAABDQAALopR9o2hJk2gXlkXpDrPtAAGHmzZ9wAAEA%3D%3D&exvsurl=1&path=/calendar/item"
+    },
+    {
+      "subject": "Dr k",
+      "start": "2026-05-06T10:30:00.0000000",
+      "end": "2026-05-06T11:00:00.0000000",
+      "attendees": [],
+      "organizer": "Dave Misra",
+      "location": "",
+      "isAllDay": false,
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAENAAAuilH2jaEmTaBeWRekOs%2B0AAbxoQmaAAA%3D&exvsurl=1&path=/calendar/item"
     },
     {
       "subject": "Solar Proposal - Galaxy Data Centres",

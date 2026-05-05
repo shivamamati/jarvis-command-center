@@ -1,13 +1,81 @@
 {
   "version": "8.1",
-  "timestamp": "2026-05-05T05:39:06.707865+00:00",
-  "total": 4,
-  "new": 4,
-  "noise": 1,
-  "ai": 3,
+  "timestamp": "2026-05-05T08:03:13.209753+00:00",
+  "total": 7,
+  "new": 7,
+  "noise": 5,
+  "ai": 5,
   "skipped": 0,
   "auto_learned": 37,
   "items": [
+    {
+      "sender_email": "animesh@galaxydatacenters.com",
+      "sender_name": "Animesh Raha",
+      "subject": "Re: INK PPT for Galaxy Data Centers",
+      "body_preview": "Dear Ankit,\r\nThank you for the commercial and timelines. Pls find attached the brand guidelines.\r\nPlease find the brief . We will update you soon after our internal approval on the commercial is received.\r\nWe\u2019d like your support to convert our technical d",
+      "received": "2026-05-05T06:08:41Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5kAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALme9oDz-bNMvNhLDBWaLiM=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: lease, data cent"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Animesh Raha from Galaxy Data Centers is providing brand guidelines and a brief to Ankit (likely an external partner or agency working on a presentation or commercial project). He's indicating that Galaxy's internal approval process is underway and requesting support to convert technical content, though the email appears to be cut off. This matters because it involves brand representation and marketing materials that need to align with Galaxy's standards before external delivery.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Follow up with Animesh to clarify what technical content needs to be converted and get the complete request",
+        "Ensure the external partner has received and reviewed the brand guidelines to maintain consistency",
+        "Establish a timeline for Galaxy's internal approval and coordinate next delivery milestones"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
+    {
+      "sender_email": "animesh@galaxydatacenters.com",
+      "sender_name": "Animesh Raha",
+      "subject": "Re: PitchWorx Creative Design Agency",
+      "body_preview": "Dear Vrinda ,\r\nThank you for the note and the commercial . Pls find attached the brand guidelines.\r\nPlease find the brief . We will update you soon after our internal approval on the commercial.\r\nWe\u2019d like your support to convert our technical document in",
+      "received": "2026-05-05T06:05:53Z",
+      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbw6e5jAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "is_read": false,
+      "has_attachments": true,
+      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQAI4izchMyUBPt2ulFYyzyBo=",
+      "rules_score": 9,
+      "rules_label": "CRITICAL",
+      "rules_tier": "INTERNAL",
+      "rules_reasons": [
+        "Calendar match (+2)",
+        "Dave replied 2x (+2)",
+        "Attachments + deal KW (+2)",
+        "Internal \u2014 deal/customer related",
+        "KW: nda, lease"
+      ],
+      "ai_reviewed": true,
+      "ai_score": null,
+      "ai_label": null,
+      "ai_summary": "Animesh Raha (Galaxy Data Centers internal team member) is responding to Vrinda at PitchWorx Creative Design Agency regarding a commercial project. He's sharing brand guidelines and a brief, indicating the creative work is in progress pending internal approval, and appears to be requesting support converting technical documentation\u2014likely into a format needed for the campaign.",
+      "ai_action": null,
+      "ai_next_steps": [
+        "Dave should follow up with Animesh to clarify what technical document needs conversion and the timeline for internal approval on the commercial",
+        "France should connect with PitchWorx to understand the scope of the conversion work and ensure it aligns with Galaxy's project schedule",
+        "Confirm the deliverables and approval process to keep the creative project on track"
+      ],
+      "ai_failed": false,
+      "final_score": 9,
+      "final_label": "CRITICAL"
+    },
     {
       "sender_email": "paul@galaxydatacenters.com",
       "sender_name": "Paul Leong",
@@ -776,40 +844,6 @@
       "ai_failed": false,
       "final_score": 9,
       "final_label": "CRITICAL"
-    },
-    {
-      "sender_email": "animesh@galaxydatacenters.com",
-      "sender_name": "Animesh Raha",
-      "subject": "Fw: INK PPT for Galaxy Data Centers",
-      "body_preview": "Animesh Raha\r\n\r\nE: animesh@galaxydatacenters.com\r\n\r\nW: galaxydatacenters.com\r\n\r\n  Schedule a Meeting\r\n    LinkedIn\r\n  WhatsApp\r\n\r\n\r\n________________________________\r\nFrom: Aayush Jain <aayush.jain@inkppt.com>\r\nSent: Saturday, May 2, 2026 11:59 AM\r\nTo:",
-      "received": "2026-05-03T13:50:46Z",
-      "web_link": "https://outlook.office365.com/owa/?ItemID=AAMkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZABGAAAAAACWTOM3q30fQ6AqXfuOKVI5BwAuilH2jaEmTaBeWRekOs%2B0AAAAAAEMAAAuilH2jaEmTaBeWRekOs%2B0AAbq1zkBAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-      "is_read": true,
-      "has_attachments": true,
-      "conversation_id": "AAQkADYwYjNmMGE4LTM4ZjYtNGI0NC1iNGJiLTk4ZWI1NmFiNzc1ZAAQALme9oDz-bNMvNhLDBWaLiM=",
-      "rules_score": 6,
-      "rules_label": "IMPORTANT",
-      "rules_tier": "INTERNAL",
-      "rules_reasons": [
-        "Calendar match (+2)",
-        "Dave replied 3x (+2)",
-        "Attachments from known (+1)",
-        "Internal \u2014 routine (suppressed)",
-        "KW: data cent"
-      ],
-      "ai_reviewed": true,
-      "ai_score": null,
-      "ai_label": null,
-      "ai_summary": "Aayush Jain from INK PPT is reaching out to Galaxy Data Centers, likely offering presentation design or corporate communication services. This appears to be a business development outreach from a service provider seeking to engage with Galaxy's marketing or executive communication needs. The relevance to Galaxy depends on whether there are upcoming investor presentations, client pitches, or corporate communications that would benefit from professional presentation support.",
-      "ai_action": null,
-      "ai_next_steps": [
-        "Have Animesh or France review INK PPT's portfolio and service offerings to assess fit with Galaxy's current presentation needs",
-        "Determine if there are planned investor updates, board presentations, or client pitches in the next quarter that would warrant external design support",
-        "If interested, schedule a brief discovery call with Aayush to understand pricing and turnaround capabilities before committing resources"
-      ],
-      "ai_failed": false,
-      "final_score": 6,
-      "final_label": "IMPORTANT"
     },
     {
       "sender_email": "sai@galaxydatacenters.com",
@@ -2559,5 +2593,5 @@
       "final_label": "CRITICAL"
     }
   ],
-  "total_tracked": 78
+  "total_tracked": 79
 }
